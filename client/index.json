@@ -4,6 +4,11 @@
             "code": "en_US",
             "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/en_US.lang",
             "version": 1
-        }   
+        },
+        {
+            "code": "fr_FR",
+            "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/fr_FR.lang",
+            "version": 1
+        }
     ]
 }

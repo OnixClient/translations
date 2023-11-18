@@ -1,0 +1,5 @@
+##this a comment, don't forget to comment on deez too
+module.keystrokes.name=fr man
+module.keystrokes.description=Shows what key you press because,\nyou could be completely unaware that you are pressing them.
+module.keystrokes.confirm_key=Are you sure you want %s to be the key?
+module.keystrokes.confirm_key_title=Confirmer la Touche (%2$s) %1$s?

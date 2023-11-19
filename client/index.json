@@ -1,14 +1,47 @@
 {
     "languages": [
         {
+            "visual_name": "English (United States)",
             "code": "en_US",
             "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/en_US.lang",
             "version": 1
         },
         {
+            "visual_name": "English (United Kingdom)",
+            "code": "en_GB",
+            "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/en_GB.lang",
+            "version": 1
+        },
+        {
+            "visual_name": "Deutsch (Deutschland)",
+            "code": "de_DE",
+            "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/de_DE.lang",
+            "version": 1
+        },
+        {
+            "visual_name": "Español (España)",
+            "code": "es_ES",
+            "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/es_ES.lang",
+            "version": 1
+        },
+        {
+            "visual_name": "Español (México)",
+            "code": "es_MX",
+            "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/es_MX.lang",
+            "version": 1
+        },
+        {
+            "visual_name": "Français (Canada)",
+            "code": "fr_CA",
+            "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/fr_CA.lang",
+            "version": 1
+        },
+        {
+            "visual_name": "Français (France)",
             "code": "fr_FR",
             "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/fr_FR.lang",
             "version": 1
         }
     ]
+    
 }

@@ -1,5 +1,902 @@
-##this a comment, don't forget to comment on deez too
-module.keystrokes.name=keystrokes
-module.keystrokes.description=Shows what key you press because,\nyou could be completely unaware that you are pressing them.
-module.keystrokes.confirm_key=Are you sure you want %s to be the key?
-module.keystrokes.confirm_key_title=Confirm key (%2$s) %1$s
+## Generic module settings
+module.module.key.name=Toggle Module Key
+module.module.key.description=The key that will toggle the module on and off.
+module.visual.setting.visual_settings.name=Visual Settings
+module.visual.setting.visual_settings.description=Settings to change the visual appearance of the module.
+module.visual.setting.display_settings.name=Display Settings
+module.visual.setting.display_settings.description=Settings to change what the module displays.
+module.visual.setting.scale.name=Scale
+module.visual.setting.scale.description=The scale of the module, will multiply the size by the specified amount.
+module.visual.setting.padding.name=Padding
+module.visual.setting.padding.description=The padding of the module, will add the specified amount of pixels to the size around the text.
+module.visual.setting.text_color.name=Text Color
+module.visual.setting.text_color.description=The color of the text.
+module.visual.setting.back_color.name=Background Color
+module.visual.setting.back_color.description=The color of the background.
+module.visual.setting.blur_opacity.name=Blur Opacity
+module.visual.setting.blur_opacity.description=The opacity of the background blur.
+module.visual.setting.has_outline.name=Outline
+module.visual.setting.has_outline.description=Whether or not the module has an outline.
+module.visual.setting.outline_color.name=Outline Color
+module.visual.setting.outline_color.description=The color of the outline.
+module.visual.setting.outline_width.name=Outline Width
+module.visual.setting.outline_width.description=The width of the outline.
+module.visual.setting.corner_roundness.name=
+module.visual.setting.corner_roundness.description=
+module.visual.setting.corner_quality.name=
+module.visual.setting.corner_quality.description=
+
+module.module.setting.main_settings.name=Main Settings
+module.module.setting.main_settings.description=Settings to change the main functionality of the module.
+module.module.setting.miscellaneous_settings.name=Miscellaneous Settings
+module.module.setting.miscellaneous_settings.description=Settings to change miscellaneous functionality of the module.
+## do render settings too ig lol
+
+
+## 202020
+module.remind_202020.name=20 20 20
+module.remind_202020.description=Reminds you to adhere 20 20 20.\n(For every 20 minutes that pass, look 20 meters away for 20 seconds at a time).\nThis helps preserve your eyesight!\n(And I can't remember to do it so I'm making this).
+module.remind_202020.setting.interval.name=Interval (minutes)
+module.remind_202020.setting.interval.description=The interval between reminders.
+module.remind_202020.setting.duration.name=Duration (seconds)
+module.remind_202020.setting.duration.description=The duration of the reminder.
+module.remind_202020.setting.snooze_duration.name=Snooze Duration (seconds)
+module.remind_202020.setting.snooze_duration.description=The duration of the snooze.
+module.remind_202020.setting.snooze_key.name=Snooze Key
+module.remind_202020.setting.snooze_key.description=The key that will snooze the reminder.
+
+## animation settings
+module.animation_settings.name=Animation Settings
+module.animation_settings.description=Allows you to change various animations.
+
+## autogg
+module.autogg.name=Auto GG
+module.autogg.description=Automatically says GG (or any message) at the end of the game.\nWorks on Hive, CubeCraft, Zeqa, NetherGames, Hyperlands.
+module.autogg.setting.gg_delay.name=GG Delay (seconds)
+module.autogg.setting.gg_delay.description=The delay between the game ending and the message being sent.
+module.autogg.setting.message.name=Message
+module.autogg.setting.message.description=The message to send at the end of the game.
+module.autogg.setting.add_message.name=Add Message
+module.autogg.setting.add_message.description=Adds the message to the list of messages to send.
+module.autogg.setting.add_message.button=
+module.autogg.setting.remove_message.name=Remove Message
+module.autogg.setting.remove_message.description=Removes the message from the list of messages to send.
+module.autogg.setting.remove_message.button=
+
+## Auto Text Hotkey
+module.auto_text_hotkey.name=Auto Text Hotkey
+module.auto_text_hotkey.description=Automatically sends a message when a key is pressed.
+module.auto_text_hotkey.setting.shortcut.name=Shortcut
+module.auto_text_hotkey.setting.shortcut.description=The key that will send the message.
+module.auto_text_hotkey.setting.message.name=Message
+module.auto_text_hotkey.setting.message.description=The message to send.
+module.auto_text_hotkey.setting.key.name=Key %s
+module.auto_text_hotkey.setting.key.description=The key that will send the message.
+module.auto_text_hotkey.setting.add_message.name=Add %s
+module.auto_text_hotkey.setting.add_message.description=Adds the message to the list of messages to send.
+module.auto_text_hotkey.setting.add_message.button=
+module.auto_text_hotkey.setting.remove_message.name=Remove %s
+module.auto_text_hotkey.setting.remove_message.description=Removes the message from the list of messages to send.
+module.auto_text_hotkey.setting.remove_message.button=
+
+## Block Outline/Overlay
+module.block_outline_overlay.name=Block Outline/Overlay
+module.block_outline_overlay.description=Changes the selected block outline/overlay.\nThe \"Outline Selection\" setting needs to be enabled in video settings.
+module.block_outline_overlay.setting.render_block_outline.name=Render Block Outline
+module.block_outline_overlay.setting.block_outline.name=Block Outline
+module.block_outline_overlay.setting.block_outline.description=Settings for the block outline.
+module.block_outline_overlay.setting.render_block_outline.description=Whether or not to render the block outline.
+module.block_outline_overlay.setting.3d_block_outline.name=3D Block Outline
+module.block_outline_overlay.setting.3d_block_outline.description=Whether or not to render the block outline through the block.
+module.block_outline_overlay.setting.change_outline_width.name=Change Outline Width
+module.block_outline_overlay.setting.change_outline_width.description=Whether or not to change the outline width.
+module.block_outline_overlay.setting.outline_width.name=Outline Width
+module.block_outline_overlay.setting.outline_width.description=The width of the block outline.
+module.block_outline_overlay.setting.outline_color.name=Outline Color
+module.block_outline_overlay.setting.outline_color.description=The color of the block outline.
+module.block_outline_overlay.setting.block_outline_overlay.name=Block Overlay
+module.block_outline_overlay.setting.block_outline_overlay.description=Settings for the block overlay.
+module.block_outline_overlay.setting.render_block_overlay.name=Render Block Overlay
+module.block_outline_overlay.setting.render_block_overlay.description=Whether or not to render the block overlay.
+module.block_outline_overlay.setting.3d_block_overlay.name=3D Block Overlay
+module.block_outline_overlay.setting.3d_block_overlay.description=Whether or not to render the block overlay through the block.
+module.block_outline_overlay.setting.block_overlay_color.name=Block Overlay Color
+module.block_outline_overlay.setting.block_overlay_color.description=The color of the block overlay.
+
+## Chat Tweaks
+module.chat_tweaks.name=Chat Tweaks
+module.chat_tweaks.description=Various tweaks to the chat.
+module.chat_tweaks.setting.timestamp_category.name=Timestamp
+module.chat_tweaks.setting.timestamp_category.description=Customise the timestamp settings.
+module.chat_tweaks.setting.timestamp_add_timestamp.name=Add Timestamps
+module.chat_tweaks.setting.timestamp_add_timestamp.description=Whether or not to show a timestamp before each message.
+module.chat_tweaks.setting.timestamp_24h.name=24 Hours Format
+module.chat_tweaks.setting.timestamp_24h.description=Whether or not to use 24 hours format.
+module.chat_tweaks.setting.timestamp_include_seconds.name=Include Seconds
+module.chat_tweaks.setting.timestamp_include_seconds.description=Whether or not to include seconds in the timestamp.
+module.chat_tweaks.setting.timestamp_include_milliseconds.name=Include Milliseconds
+module.chat_tweaks.setting.timestamp_include_milliseconds.description=Whether or not to include milliseconds in the timestamp.
+module.chat_tweaks.setting.timestamp_include_brackets.name=Include Brackets
+module.chat_tweaks.setting.timestamp_include_brackets.description=Whether or not to include brackets around the timestamp.
+
+module.chat_tweaks.setting.compact_chat_category.name=Compact Chat
+module.chat_tweaks.setting.compact_chat_category.description=Settings for compact chat.
+module.chat_tweaks.setting.compact_chat_enable.name=Enable Compact Chat
+module.chat_tweaks.setting.compact_chat_enable.description=Hides duplicate messages.
+module.chat_tweaks.setting.compact_chat_reset_age.name=Act as New Message
+module.chat_tweaks.setting.compact_chat_reset_age.description=Whether or not to act as a new message (resets on screen time).
+
+## Chunk Border
+module.chunk_border.name=Chunk Border
+module.chunk_border.description=Draws a border around the chunk you are in.
+
+## Cinematic Camera
+module.cinematic_camera.name=Cinematic Camera
+module.cinematic_camera.description=Makes the camera smooth, similar to the cinematic camera in OptiFine.
+module.cinematic_camera.setting.camera_settings_category.name=Camera Settings
+module.cinematic_camera.setting.camera_settings_category.description=Settings to change the camera settings.
+module.cinematic_camera.setting.max_speed.name=Max Speed
+module.cinematic_camera.setting.max_speed.description=The maximum speed of the camera.
+module.cinematic_camera.setting.deceleration.name=Deceleration
+module.cinematic_camera.setting.deceleration.description=The deceleration of the camera.
+module.cinematic_camera.setting.input_reducer.name=Input Reducer
+module.cinematic_camera.setting.input_reducer.description=The input reducer of the camera.
+module.cinematic_camera.setting.toggle_mode.name=Toggle Mode
+module.cinematic_camera.setting.toggle_mode.description=Makes it so that you can toggle the cinematic camera on and off.
+
+## Color Options
+module.color_options.name=Color Options
+module.color_options.description=Allows you to change the color of the client.
+module.color_options.setting.rgb_category.name=RGB Category
+module.color_options.setting.rgb_category.description=Settings for RGB.
+module.color_options.setting.rgb_speed.name=RGB Speed
+module.color_options.setting.rgb_speed.description=The speed of the RGB.
+module.color_options.setting.rgb_brightness.name=RGB Brightness
+module.color_options.setting.rgb_brightness.description=The brightness of the RGB.
+module.color_options.setting.test_rgb_color.name=Test RGB Color
+module.color_options.setting.test_rgb_color.description=Test the RGB color.
+module.color_options.setting.chroma_category.name=Chroma Category
+module.color_options.setting.chroma_category.description=Settings for Chroma.
+module.color_options.setting.chroma_size.name=Chroma Size
+module.color_options.setting.chroma_size.description=The size of the Chroma.
+module.color_options.setting.chroma_speed.name=Chroma Speed
+module.color_options.setting.chroma_speed.description=The speed of the Chroma.
+module.color_options.setting.chroma_rotation.name=Chroma Rotation
+module.color_options.setting.chroma_rotation.description=The rotation of the Chroma.
+module.color_options.setting.test_chroma_color.name=Test Chroma Color
+module.color_options.setting.test_chroma_color.description=Test the Chroma color.
+module.color_options.setting.color_presets.name=Color Presets
+module.color_options.setting.color_presets.description=Choose from preset color options.
+module.color_options.setting.color_preset.name=Color Preset
+module.color_options.setting.color_preset.description=Choose from preset color options.
+module.color_options.setting.color_options_category.name=Color Options Category
+module.color_options.setting.color_options_category.description=Settings for color options.
+module.color_options.setting.color_options.button=Open Theme Editor
+module.color_options.setting.color_options.description=Open the theme editor.
+module.color_options.setting.color_options.description=Allows you to change the color of the client.
+module.color_options.setting.chroma_presets.name=Chroma Presets
+module.color_options.setting.chroma_presets.description=Choose from preset Chroma options.
+
+## Creative Tools
+module.creative_tools.name=Creative Tools
+module.creative_tools.description=Various tools to help with creative mode.\nNote: Only use this with permission if you are on someone else's world/server.
+
+module.creative_tools.setting.block_reach_settings_category.name=Block Reach Settings
+module.creative_tools.setting.block_reach_settings_category.description=Settings to change the block reach settings.
+module.creative_tools.setting.use_block_reach.name=Change Block Reach
+module.creative_tools.setting.use_block_reach.description=Whether or not to change the block reach.
+module.creative_tools.setting.block_reach.name=Block Reach
+module.creative_tools.setting.block_reach.description=The block reach.
+module.creative_tools.setting.block_reach_warning.name=Block Reach Warning
+module.creative_tools.setting.block_reach_warning.description=Warning: block reach may be capped by the server!
+
+module.creative_tools.setting.jetpack_settings_category.name=Jetpack Settings
+module.creative_tools.setting.jetpack_settings_category.description=Settings to change the jetpack settings.
+module.creative_tools.setting.jetpack_key.name=Jetpack Key
+module.creative_tools.setting.jetpack_key.description=The key that will toggle the jetpack on and off.
+module.creative_tools.setting.jetpack_speed.name=Jetpack Speed
+module.creative_tools.setting.jetpack_speed.description=The speed of the jetpack.
+module.creative_tools.setting.jetpack_sprint_multiplier.name=Jetpack Sprint Multiplier
+module.creative_tools.setting.jetpack_sprint_multiplier.description=The sprint multiplier of the jetpack.
+
+module.creative_tools.setting.freecam_settings_category.name=Freecam Settings
+module.creative_tools.setting.freecam_settings_category.description=Settings to change the freecam settings.
+module.creative_tools.setting.freecam_key.name=Freecam Key
+module.creative_tools.setting.freecam_key.description=The key that will toggle the freecam on and off.
+module.creative_tools.setting.freecam_teleport_key.name=Teleport to Camera Key
+module.creative_tools.setting.freecam_teleport_key.description=The key that will teleport you to the camera.
+module.creative_tools.setting.freecam_speed.name=Freecam Speed
+module.creative_tools.setting.freecam_speed.description=The speed of the freecam.
+module.creative_tools.setting.freecam_sprint_multiplier.name=Freecam Sprint Multiplier
+module.creative_tools.setting.freecam_sprint_multiplier.description=The sprint multiplier of the freecam.
+module.creative_tools.setting.freecam_position_x.name=Freecam Position X
+module.creative_tools.setting.freecam_position_x.description=The X position of the freecam.
+module.creative_tools.setting.freecam_position_y.name=Freecam Position Y
+module.creative_tools.setting.freecam_position_y.description=The Y position of the freecam.
+module.creative_tools.setting.freecam_position_z.name=Freecam Position Z
+module.creative_tools.setting.freecam_position_z.description=The Z position of the freecam.
+module.creative_tools.setting.spectator_toggle_key.name=Spectator Toggle Key
+module.creative_tools.setting.spectator_toggle_key.description=The key that will toggle spectator mode on and off.
+
+module.creative_tools.setting.phase_settings_category.name=Phase Settings
+module.creative_tools.setting.phase_settings_category.description=Settings to change the phase settings.
+module.creative_tools.setting.phase_key.name=Phase Key
+module.creative_tools.setting.phase_key.description=The key that will toggle phase on and off.
+module.creative_tools.setting.phase_vertically.name=Phase Vertically
+module.creative_tools.setting.phase_vertically.description=Whether or not to phase vertically.
+
+module.creative_tools.setting.auto_clicker_settings_category.name=AutoClicker Settings
+module.creative_tools.setting.auto_clicker_settings_category.description=Settings for auto clicker.
+module.creative_tools.setting.auto_clicker_key.name=Toggle Auto Clicking
+module.creative_tools.setting.auto_clicker_key.description=Toggle auto clicking on and off.
+module.creative_tools.setting.fast_auto_clicker.name=Fast Auto Clicker
+module.creative_tools.setting.fast_auto_clicker.description=Enable fast auto clicking.
+
+module.creative_tools.setting.clicktp_settings_category.name=ClickTP Settings
+module.creative_tools.setting.clicktp_settings_category.description=Settings for ClickTP.
+module.creative_tools.setting.clicktp_key.name=ClickTP Key
+module.creative_tools.setting.clicktp_key.description=Key to trigger ClickTP.
+module.creative_tools.setting.clicktp_toggle.name=ClickTP is Toggle
+module.creative_tools.setting.clicktp_toggle.description=Toggle ClickTP mode.
+module.creative_tools.setting.clicktp_lerp.name=Teleportation Lerp
+module.creative_tools.setting.clicktp_lerp.description=Enable teleportation lerping.
+module.creative_tools.setting.clicktp_max_distance.name=Max TP Distance
+module.creative_tools.setting.clicktp_max_distance.description=Maximum distance for ClickTP.
+
+module.creative_tools.setting.command_block_esp_settings_category.name=Command Block ESP Settings
+module.creative_tools.setting.command_block_esp_settings_category.description=Settings for Command Block ESP.
+module.creative_tools.setting.command_block_esp_enabled.name=Command Block ESP
+module.creative_tools.setting.command_block_esp_enabled.description=Toggle Command Block ESP.
+module.creative_tools.setting.command_block_esp_key.name=Command Block ESP Key
+module.creative_tools.setting.command_block_esp_key.description=Key to toggle Command Block ESP.
+module.creative_tools.setting.command_block_esp_opacity.name=Command Block ESP Opacity
+module.creative_tools.setting.command_block_esp_opacity.description=Opacity of Command Block ESP.
+module.creative_tools.setting.command_block_esp_radius.name=Command Block ESP Radius
+module.creative_tools.setting.command_block_esp_radius.description=Radius of Command Block ESP.
+module.creative_tools.setting.esp_command_blocks_behind.name=ESP Command Blocks Behind You
+module.creative_tools.setting.esp_command_blocks_behind.description=Render ESP for blocks that are behind you.
+module.creative_tools.setting.command_block_esp_type.name=Command Block ESP Type
+module.creative_tools.setting.command_block_esp_type.description=Type of Command Block ESP.
+
+module.creative_tools.setting.elevation_settings_category.name=Elevation Settings
+module.creative_tools.setting.elevation_settings_category.description=Settings for elevation.
+module.creative_tools.setting.ascend_key.name=Ascend Key
+module.creative_tools.setting.ascend_key.description=Key to ascend.
+module.creative_tools.setting.descend_key.name=Descend Key
+module.creative_tools.setting.descend_key.description=Key to descend.
+
+module.creative_tools.setting.stop_all_momentum_key.name=Stop All Momentum Key
+module.creative_tools.setting.stop_all_momentum_key.description=Key to stop all momentum.
+module.creative_tools.setting.hold_to_stop_momentum.name=Hold To Stop All Momentum
+module.creative_tools.setting.hold_to_stop_momentum.description=Hold to stop all momentum.
+
+module.creative_tools.setting.make_hitboxes_esp.name=Make Hitboxes ESP
+module.creative_tools.setting.make_hitboxes_esp.description=Enable Hitboxes ESP.
+
+## Crop Protector
+module.crop_protector.name=Crop Protector
+module.crop_protector.description=Prevents you from breaking ungrown crops.\nSneak to bypass.
+
+module.crop_protector.setting.replant_with_hand_item.name=Replant With Hand Item
+module.crop_protector.setting.replant_with_hand_item.description=Toggle replanting with the hand item.
+
+## Custom Crosshair
+module.custom_crosshair.name=Custom Crosshair
+module.custom_crosshair.description=Customise your crosshair to your heart's content.
+
+module.custom_crosshair.setting.open_crosshair_editor.button=Open Crosshair Editor
+module.custom_crosshair.setting.open_crosshair_editor.description=Open the crosshair editor.
+module.custom_crosshair.setting.open_crosshair_editor.button=Open
+
+module.custom_crosshair.setting.third_person_crosshair.name=Third Person Crosshair
+module.custom_crosshair.setting.third_person_crosshair.description=Toggle third-person crosshair.
+module.custom_crosshair.setting.red_when_facing_entity.name=Red When Facing Entity
+module.custom_crosshair.setting.red_when_facing_entity.description=Toggle red color when facing an entity.
+
+module.custom_crosshair.setting.crosshair_outline.name=Crosshair Outline
+module.custom_crosshair.setting.crosshair_outline.description=Toggle crosshair outline.
+module.custom_crosshair.setting.outline_color.name=Outline Color
+module.custom_crosshair.setting.outline_color.description=Set the outline color of the crosshair.
+
+module.custom_crosshair.setting.invert_colors.name=Invert Colors (don't use) (bad) (blurry)
+module.custom_crosshair.setting.invert_colors.description=Toggle color inversion (not recommended).
+module.custom_crosshair.setting.crosshair_color.name=Crosshair Color
+module.custom_crosshair.setting.crosshair_color.description=Set the color of the crosshair.
+
+module.custom_crosshair.setting.crosshairs.name=Crosshairs
+module.custom_crosshair.setting.preview.button=Preview
+module.custom_crosshair.setting.preview.description=Preview the customized crosshair.
+
+## Java Debug Menu
+module.java_debug_menu.name=Java Debug Menu
+module.java_debug_menu.description=A basic recreation of the Java Edition debug menu.
+
+module.java_debug_menu.setting.hide_other_modules.name=Hide Other Modules
+module.java_debug_menu.setting.hide_other_modules.description=Toggle visibility of other modules when enabled.
+module.java_debug_menu.setting.right_side.name=Right Side
+module.java_debug_menu.setting.right_side.description=Toggle display on the right side.
+module.java_debug_menu.setting.debug_crosshair.name=Debug Crosshair
+module.java_debug_menu.setting.debug_crosshair.description=Toggle debug crosshair.
+
+## Double Click Prevent
+module.double_click_prevent.name=Double Click Prevent
+module.double_click_prevent.description=Allows you to fine-tune your click settings.
+
+module.double_click_prevent.setting.click_settings_category.name=Click Settings
+module.double_click_prevent.setting.click_settings_category.description=Settings for click settings.
+module.double_click_prevent.setting.limit_left_click.name=Limit Left Click
+module.double_click_prevent.setting.limit_left_click.description=Toggle limiting of left clicks.
+module.double_click_prevent.setting.left_max.name=Left Max
+module.double_click_prevent.setting.left_max.description=Set the maximum count for left clicks.
+
+module.double_click_prevent.setting.limit_right_click.name=Limit Right Click
+module.double_click_prevent.setting.limit_right_click.description=Toggle limiting of right clicks.
+module.double_click_prevent.setting.right_max.name=Right Max
+module.double_click_prevent.setting.right_max.description=Set the maximum count for right clicks.
+
+module.double_click_prevent.setting.enable_on_zeqa.name=Enable on Zeqa
+module.double_click_prevent.setting.enable_on_zeqa.description=Toggle auto-enable on Zeqa.
+module.double_click_prevent.setting.enable_on_cubecraft.name=Enable on Cubecraft
+module.double_click_prevent.setting.enable_on_cubecraft.description=Toggle auto-enable on Cubecraft.
+
+module.double_click_prevent.setting.was_enabled_zeqa.name=Was Enabled Because of Zeqa
+module.double_click_prevent.setting.was_enabled_zeqa.description=Indicates if it was enabled due to Zeqa.
+module.double_click_prevent.setting.was_enabled_cubecraft.name=Was Enabled Because of Cubecraft
+module.double_click_prevent.setting.was_enabled_cubecraft.description=Indicates if it was enabled due to Cubecraft.
+
+## Dynamic Light
+module.dynamic_light.name=Dynamic Light
+module.dynamic_light.description=Makes the surrounding area illuminate when equipped with light-emitting items.
+
+module.dynamic_light.setting.light_settings_category.name=Light Settings
+module.dynamic_light.setting.light_settings_category.description=Settings for light settings.
+module.dynamic_light.setting.require_light_item.name=Require Item that Emits Light
+module.dynamic_light.setting.require_light_item.description=Toggle the requirement for light-emitting items.
+module.dynamic_light.setting.minimum_light_level.name=Minimum Light Level
+module.dynamic_light.setting.minimum_light_level.description=Set the minimum light emission level.
+module.dynamic_light.setting.keep_light_on_eject.name=Keep Light on Eject
+module.dynamic_light.setting.keep_light_on_eject.description=Toggle to keep the light on eject which can help stability.
+
+## Environment Changer
+module.environment_changer.name=Environment Changer
+module.environment_changer.description=Changes the environment around you.
+
+module.environment_changer.setting.time_settings_category.name=Time Settings
+module.environment_changer.setting.time_settings_category.description=Settings for time settings.
+module.environment_changer.setting.change_time.name=Change Time
+module.environment_changer.setting.change_time.description=Toggle time change.
+module.environment_changer.setting.use_irl_time.name=Use IRL Time
+module.environment_changer.setting.use_irl_time.description=Toggle usage of real-life time.
+module.environment_changer.setting.time.name=Time
+module.environment_changer.setting.time.description=Adjust the time value.
+
+module.environment_changer.setting.fog_settings_category.name=Fog Settings
+module.environment_changer.setting.fog_settings_category.description=Settings for fog settings.
+module.environment_changer.setting.change_fog_color.name=Change Fog Color
+module.environment_changer.setting.change_fog_color.description=Toggle fog color change.
+module.environment_changer.setting.fog_color.name=Fog Color
+module.environment_changer.setting.fog_color.description=Set the fog color.
+module.environment_changer.setting.change_entire_sky_color.name=Change Entire Sky Color
+module.environment_changer.setting.change_entire_sky_color.description=Toggle entire sky color change.
+
+module.environment_changer.setting.cloud_settings_category.name=Cloud Settings
+module.environment_changer.setting.cloud_settings_category.description=Settings for cloud settings.
+module.environment_changer.setting.change_clouds_color.name=Change Clouds Color
+module.environment_changer.setting.change_clouds_color.description=Toggle cloud color change.
+module.environment_changer.setting.cloud_color.name=Cloud Color
+module.environment_changer.setting.cloud_color.description=Set the cloud color.
+
+module.environment_changer.setting.weather_settings_category.name=Weather Settings
+module.environment_changer.setting.weather_settings_category.description=Settings for weather settings.
+module.environment_changer.setting.change_weather.name=Change Weather
+module.environment_changer.setting.change_weather.description=Toggle weather change.
+module.environment_changer.setting.rain_intensity.name=Rain Intensity
+module.environment_changer.setting.rain_intensity.description=Adjust rain intensity.
+module.environment_changer.setting.fog_intensity.name=Fog Intensity
+module.environment_changer.setting.fog_intensity.description=Adjust fog intensity.
+module.environment_changer.setting.dark_lighting.name=Dark Lighting
+module.environment_changer.setting.dark_lighting.description=Adjust dark lighting.
+
+## FOV Changer
+module.fov_changer.name=FOV Changer
+module.fov_changer.description=Allows you to customize the field of view behavior.
+
+module.fov_changer.setting.default_settings_category.name=Default Settings
+module.fov_changer.setting.default_settings_category.description=Settings for default settings.
+module.fov_changer.setting.base_fov.name=Default FOV
+module.fov_changer.setting.base_fov.description=Set the default field of view.
+module.fov_changer.setting.lerp_speed.name=Animation Speed
+module.fov_changer.setting.lerp_speed.description=Adjust the animation speed.
+
+module.fov_changer.setting.aiming_settings_category.name=Aiming Settings
+module.fov_changer.setting.aiming_settings_category.description=Settings for aiming settings.
+module.fov_changer.setting.change_fov_when_aiming.name=Change FOV When Aiming
+module.fov_changer.setting.change_fov_when_aiming.description=Toggle FOV change when aiming.
+module.fov_changer.setting.aiming_fov.name=Aiming FOV
+module.fov_changer.setting.aiming_fov.description=Set the aiming field of view.
+
+module.fov_changer.setting.effect_settings_category.name=Effect Settings
+module.fov_changer.setting.effect_settings_category.description=Settings for effect settings.
+module.fov_changer.setting.change_fov_with_speed.name=Change FOV When Speed Changing Effects
+module.fov_changer.setting.change_fov_with_speed.description=Toggle FOV change with speed effects.
+module.fov_changer.setting.speed_i_fov.name=Speed I FOV
+module.fov_changer.setting.speed_i_fov.description=Set the Speed I field of view.
+module.fov_changer.setting.speed_ii_plus_fov.name=Speed II+ FOV
+module.fov_changer.setting.speed_ii_plus_fov.description=Set the Speed II+ field of view.
+module.fov_changer.setting.slowness_fov.name=Slowness FOV
+module.fov_changer.setting.slowness_fov.description=Set the Slowness field of view.
+
+module.fov_changer.setting.sprinting_settings_category.name=Sprinting Settings
+module.fov_changer.setting.sprinting_settings_category.description=Settings for sprinting settings.
+module.fov_changer.setting.change_fov_when_sprinting.name=Change FOV When Sprinting
+module.fov_changer.setting.change_fov_when_sprinting.description=Toggle FOV change when sprinting.
+module.fov_changer.setting.sprinting_fov.name=Sprinting FOV
+module.fov_changer.setting.sprinting_fov.description=Set the sprinting field of view.
+
+## Freelook
+module.freelook.name=Freelook
+module.freelook.description=Allows you to look at your surroundings without changing movement direction.
+
+module.freelook.setting.perspective_settings_category.name=Perspective Settings
+module.freelook.setting.perspective_settings_category.description=Settings for perspective settings.
+module.freelook.setting.no_perspective_change.name=No Perspective Change
+module.freelook.setting.no_perspective_change.description=Toggle perspective change.
+module.freelook.setting.perspective.name=Perspective
+module.freelook.setting.perspective.description=Select your desired perspective.
+
+module.freelook.setting.toggle_freelook.name=Toggle Freelook
+module.freelook.setting.toggle_freelook.description=Toggle the freelook mode.
+
+module.freelook.keybind_warning=Warning: Binding Freelook to the ALT key is not recommended!
+
+## Fullbright
+module.fullbright.name=Fullbright
+module.fullbright.description=Makes the surrounding environment brighter. Allows you to see more clearly in The End, Nether, and at night.
+
+module.fullbright.setting.gamma.name=Gamma
+module.fullbright.setting.gamma.description=Adjust the gamma value to brighten or darken the environment.
+
+## Glint Color Changer
+module.glint_color_changer.name=Glint Color Changer
+module.glint_color_changer.description=Changes the color of the glint (the enchantment thing).
+
+module.glint_color_changer.setting.glint_color.name=Glint Color
+module.glint_color_changer.setting.glint_color.description=Modify the color of the glint effect.
+
+module.glint_color_changer.setting.presets.name=Presets
+module.glint_color_changer.setting.presets.description=Choose from preset glint color options.
+module.glint_color_changer.setting.presets.options.default=Default
+module.glint_color_changer.setting.presets.options.electric_blue=Electric Blue
+module.glint_color_changer.setting.presets.options.blood_red=Blood Red
+module.glint_color_changer.setting.presets.options.white=White
+
+## GUI Scale Changer
+module.gui_scale_changer.name=GUI Scale Changer
+module.gui_scale_changer.description=Change the size of your GUI.
+
+module.gui_scale_changer.setting.guiscale_warning.name=GUI Scale Warning
+module.gui_scale_changer.setting.guiscale_warning.description=Warning! Going above 5 may have unforeseen side effects! (Your game will be HUGE!)
+module.gui_scale_changer.setting.guiscale.name=GuiScale
+module.gui_scale_changer.setting.guiscale.description=Adjust the GUI scale. Warning: Above 5 may cause significant changes.
+
+module.gui_scale_changer.setting.round.name=Round Guiscale
+module.gui_scale_changer.setting.round.description=Round the GuiScale value.
+
+## Low Health Warning
+module.low_health_warning.name=Low Health Warning
+module.low_health_warning.description=Displays a red vignette on the screen when you have low health.
+
+module.low_health_warning.setting.low_heart.name=Heart Amount
+module.low_health_warning.setting.low_heart.description=Set the threshold for low health (number of hearts).
+module.low_health_warning.setting.show_in_f1.name=Show in F1
+module.low_health_warning.setting.show_in_f1.description=Toggle displaying low health warning in F1 mode.
+
+## Hitboxes
+module.hitboxes.name=Hitboxes
+module.hitboxes.description=Draws a bounding box around all entities.
+
+module.hitboxes.setting.bodyline_color.name=Line Color
+module.hitboxes.setting.bodyline_color.description=Choose the color for the bounding box lines on entities.
+module.hitboxes.setting.eyeline_color.name=Eyes Line Color
+module.hitboxes.setting.eyeline_color.description=Choose the color for the bounding box lines around entity eyes.
+module.hitboxes.setting.show_eyes.name=Enable Eyes Line
+module.hitboxes.setting.show_eyes.description=Toggle displaying the bounding box lines around entity eyes.
+module.hitboxes.setting.red_when_select.name=Red For Selected Entity
+module.hitboxes.setting.red_when_select.description=Highlight selected entities with a red bounding box.
+module.hitboxes.setting.player_only.name=Player Only
+module.hitboxes.setting.player_only.description=Display bounding boxes only around players.
+module.hitboxes.setting.player_note.name=Note
+module.hitboxes.setting.player_note.description=Note: Many things are not players but are perceived as such by the server. If the bounding boxes appear on NPCs or similar entities, it's normal as they are recognized as players by the game.
+
+## Hurt Color
+module.hurt_color.name=Hurt Color
+module.hurt_color.description=Changes what color entities will be when hurt.
+
+module.hurt_color.setting.hurt_color.name=Hurt Color
+module.hurt_color.setting.hurt_color.description=Choose the color that entities will display when hurt.
+
+## Item Despawn Blink
+module.item_despawn_blink.name=Item Despawn Blink
+module.item_despawn_blink.description=Makes items blink when they are about to despawn.
+
+module.item_despawn_blink.setting.start_blink_seconds.name=Time Until Blink
+module.item_despawn_blink.setting.start_blink_seconds.description=Choose the time in seconds until items start blinking before despawning.
+
+## Item Highlighter
+module.item_highlighter.name=Item Highlighter
+module.item_highlighter.description=Makes some items easier to observe.
+
+module.item_highlighter.setting.highlight_all_items.name=Highlight All Items
+module.item_highlighter.setting.highlight_all_items.description=Toggle to highlight all items.
+module.item_highlighter.setting.highlight_all_items_color.name=Highlight All Items Color
+module.item_highlighter.setting.highlight_all_items_color.description=Choose the color for highlighting all items.
+
+## Item Physics
+module.item_physics.name=Item Physics
+module.item_physics.description=Makes dropped items have unique physics.
+
+module.item_physics.setting.rotation_settings_category.name=Rotation Settings
+module.item_physics.setting.rotation_settings_category.description=Settings for item rotation.
+module.item_physics.setting.movement_speed_x.name=Rotation Speed X
+module.item_physics.setting.movement_speed_x.description=Adjust the speed of rotation on the X-axis.
+module.item_physics.setting.movement_speed_y.name=Rotation Speed Y
+module.item_physics.setting.movement_speed_y.description=Adjust the speed of rotation on the Y-axis.
+module.item_physics.setting.movement_speed_z.name=Rotation Speed Z
+module.item_physics.setting.movement_speed_z.description=Adjust the speed of rotation on the Z-axis.
+
+module.item_physics.setting.miscellaneous_settings.description=Other settings for item physics.
+module.item_physics.setting.water_slowdown.name=Liquid Rotation Slowdown
+module.item_physics.setting.water_slowdown.description=Adjust the slowdown factor for rotation in liquids.
+module.item_physics.setting.blocks_keep_rotation_on_ground.name=Preserve Block Rotation on Ground
+module.item_physics.setting.blocks_keep_rotation_on_ground.description=Toggle to preserve block rotation on the ground.
+
+## 2D Items
+module.2d_items.name=2D Items
+module.2d_items.description=Makes the items appear as if they were 2D like the old bedrock.\nNote that the items are still 3D, so you don't save performance.
+
+module.2d_items.setting.follow_x_axis.name=Follow X Axis
+module.2d_items.setting.follow_x_axis.description=Toggle the behavior to follow the X-axis.
+module.2d_items.setting.follow_y_axis.name=Follow Y Axis
+module.2d_items.setting.follow_y_axis.description=Toggle the behavior to follow the Y-axis.
+
+## Light Overlay
+module.light_overlay.name=Light Overlay
+module.light_overlay.description=Displays the nearby areas where mobs are able to spawn.
+
+module.light_overlay.setting.update_delay.name=Update Delay
+module.light_overlay.setting.update_delay.description=Set the delay for updating the overlay.
+module.light_overlay.setting.radius.name=Radius
+module.light_overlay.setting.radius.description=Set the radius for the light overlay.
+module.light_overlay.setting.check_down_by_height.name=Check Down By Height
+module.light_overlay.setting.check_down_by_height.description=Set the height for downward checking.
+
+## Minimal View Bobbing
+module.minimal_view_bobbing.name=Minimal View Bobbing
+module.minimal_view_bobbing.description=Disables the screen shake when view bobbing is enabled. (Requires view bobbing to be enabled.)
+
+## Modern Keybind Handling
+module.modern_keybind_handling.name=Modern Keybind Handling
+module.modern_keybind_handling.description=Modifies keybind handling when exiting screens to act like Java 1.12+.
+
+module.modern_keybind_handling.settings.movementKeysOnly.name=Movement Keys Only
+module.modern_keybind_handling.settings.movementKeysOnly.description=Restricts keybind modifications to movement keys only.
+
+module.modern_keybind_handling.settings.doAmongOnixUis.name=Affect Onix UIs
+module.modern_keybind_handling.settings.doAmongOnixUis.description=Applies modifications to the keybinds used within the Onix UI elements.
+
+## Motion Blur
+module.motion_blur.name=Motion Blur
+module.motion_blur.description=Blurs movement to make you throw up suspiciously
+
+module.motion_blur.settings.throwup_rate.name=Intensity
+module.motion_blur.settings.throwup_rate.description=Controls the intensity of the motion blur effect.
+
+module.motion_blur.settings.throwup_in_ui.name=Exclude UI from Effect
+module.motion_blur.settings.throwup_in_ui.description=Applies the motion blur effect only to the in-game world, excluding UI elements.
+
+## Proximity Chat
+module.proximity_chat.name=Proximity Chat
+module.proximity_chat.description=Proximity Chat!\nAllows you to use Mumble Link via the Onix Client Mumble Link application.
+
+module.proximity_chat.context_settings_category.name=Context Settings
+module.proximity_chat.context_settings_category.description=Settings for context settings.
+module.proximity_chat.informative_information.name=These settings are what to include in Mumble Link's context.\nThey define who should be able to hear each other.\nIf your friends don't use the same options, the context will be different.\nPlayers with matching contexts have positional audio, otherwise normal audio is transmitted.\nYou can change what to include here to better match a server.\nScripts can also play with this to improve their experience whilst on a server.
+
+module.proximity_chat.include_world_name.name=Include World Name
+module.proximity_chat.include_world_id.name=Include World Id
+module.proximity_chat.include_players.name=Include Players
+module.proximity_chat.include_dimension.name=Include Dimension
+
+module.proximity_chat.include_scripting_context.name=Include Scripting Context
+module.proximity_chat.extra_scripting_context.name=Extra Scripting Context
+
+## Nick Hider
+module.nick_hider.name=Nick Hider
+module.nick_hider.description=Allows you to hide your username, skin, other people's usernames, and other people's skins.
+
+module.nick_hider.should_change_name=Should Change Name
+module.nick_hider.custom_name=Custom Name
+
+## No Hurt Cam
+module.no_hurt_cam.name=No Hurt Cam
+module.no_hurt_cam.description=Removes the camera shake animation when you get destroyed in PvP.
+
+## Particle Multiplier
+module.particle_multiplier.name=Particle Multiplier
+module.particle_multiplier.description=Multiply the amount of critical hit particles.
+
+module.particle_multiplier.main_settings.particle_multiplier.name=Particle Multiplier
+module.particle_multiplier.main_settings.particle_multiplier.description=Adjust the number of critical hit particles to multiply.
+
+## Static Camera
+module.static_camera.name=Static Camera
+module.static_camera.description=Allows you to place the camera in the world. The camera's rotation is inverted when being adjusted.
+
+module.static_camera.allow_rotation.name=Allow Rotation by Default
+module.static_camera.allow_rotation.description=Enable default rotation for the camera.
+
+module.static_camera.allow_rotation_key.name=Allow Rotation Key
+module.static_camera.allow_rotation_key.description=Set a keybind to enable camera rotation.
+
+## Player List Tab
+module.player_list_tab.name=Player List Tab
+module.player_list_tab.description=Shows a list of all players in the world.
+
+module.player_list_tab.visual_settings.scale.name=Scale
+module.player_list_tab.visual_settings.scale.description=Adjusts the scale of the player list.
+module.player_list_tab.visual_settings.padding.name=Padding
+module.player_list_tab.visual_settings.padding.description=Adjusts the padding of the player list.
+module.player_list_tab.visual_settings.start_height.name=Start Height
+module.player_list_tab.visual_settings.start_height.description=Sets the starting height of the player list.
+module.player_list_tab.visual_settings.blur_opacity.name=Blur Opacity
+module.player_list_tab.visual_settings.blur_opacity.description=Adjusts the opacity of the blur.
+module.player_list_tab.visual_settings.text_color.name=Text Color
+module.player_list_tab.visual_settings.text_color.description=Changes the color of the text.
+module.player_list_tab.visual_settings.background_color.name=Background Color
+module.player_list_tab.visual_settings.background_color.description=Changes the background color of the list.
+module.player_list_tab.visual_settings.outline_color.name=Outline Color
+module.player_list_tab.visual_settings.outline_color.description=Changes the outline color of the list.
+module.player_list_tab.visual_settings.highlight_your_name.name=Highlight Your Name
+module.player_list_tab.visual_settings.highlight_your_name.description=Highlights your name in the list.
+module.player_list_tab.visual_settings.your_name_color.name=Your Name Color
+module.player_list_tab.visual_settings.your_name_color.description=Changes the color of your name in the list.
+
+module.player_list_tab.display_settings.outline_names.name=Outline Names
+module.player_list_tab.display_settings.outline_names.description=Enables outlining of names in the list.
+module.player_list_tab.display_settings.center_text.name=Center Text
+module.player_list_tab.display_settings.center_text.description=Centers the text in the list.
+module.player_list_tab.display_settings.sort_alphabetically.name=Sort Alphabetically
+module.player_list_tab.display_settings.sort_alphabetically.description=Sorts the names alphabetically.
+module.player_list_tab.display_settings.player_heads.name=Player Heads
+module.player_list_tab.display_settings.player_heads.description=Displays player heads in the list.
+
+module.player_list_tab.misc_settings.names_per_column.name=Names per Column
+module.player_list_tab.misc_settings.names_per_column.description=Specifies the number of names per column in the list.
+
+## 3D Skins
+module.player_skin_3d.name=3D Skins
+module.player_skin_3d.description=Makes the second skin layer 3D. Due to how the mod works, this will not work with players who have 128x skins or custom geometries (4D Skins).
+
+## Post Processing
+module.post_processing.name=Post Processing
+module.post_processing.description=Allows you to enhance the visual look of your game.
+
+setting.post_processing.only_show_in_world.name=Don't Show In UI
+setting.post_processing.only_show_in_world.description=Enable to display only in the game world.
+setting.post_processing.show_in_onix_ui.name=Show In Onix Client UI
+setting.post_processing.show_in_onix_ui.description=Enable to display in the Onix Client UI.
+
+setting.post_processing.saturation_settings_category.name=Saturation Settings
+setting.post_processing.saturation_settings_category.description=Settings for saturation settings.
+setting.post_processing.has_saturation.name=Saturation
+setting.post_processing.has_saturation.description=Enable saturation effect.
+setting.post_processing.saturation_strength.name=Saturation Strength
+setting.post_processing.saturation_strength.description=Adjust the strength of the saturation effect.
+
+setting.post_processing.hue_settings_category.name=Hue Settings
+setting.post_processing.hue_settings_category.description=Settings for hue settings.
+setting.post_processing.has_hue.name=Hue
+setting.post_processing.has_hue.description=Enable hue shift effect.
+setting.post_processing.hue_shift.name=Hue Shift
+setting.post_processing.hue_shift.description=Adjust the degree of hue shift.
+setting.post_processing.rainbow_mode.name=Rainbow Mode
+setting.post_processing.rainbow_mode.description=Enable rainbow mode for hue shift.
+setting.post_processing.rainbow_speed.name=Rainbow Speed
+setting.post_processing.rainbow_speed.description=Adjust the speed of the rainbow effect.
+
+setting.post_processing.brightness_settings_category.name=Brightness Settings
+setting.post_processing.brightness_settings_category.description=Settings for brightness settings.
+setting.post_processing.has_brightness.name=Brightness
+setting.post_processing.has_brightness.description=Enable brightness adjustment.
+setting.post_processing.brightness_strength.name=Brightness Strength
+setting.post_processing.brightness_strength.description=Adjust the strength of the brightness effect.
+
+setting.post_processing.contrast_settings_category.name=Contrast Settings
+setting.post_processing.contrast_settings_category.description=Settings for contrast settings.
+setting.post_processing.has_contrast.name=Contrast
+setting.post_processing.has_contrast.description=Enable contrast adjustment.
+setting.post_processing.contrast_strength.name=Contrast Strength
+setting.post_processing.contrast_strength.description=Adjust the strength of the contrast effect.
+
+setting.post_processing.vignette_settings_category.name=Vignette Settings
+setting.post_processing.vignette_settings_category.description=Settings for vignette settings.
+setting.post_processing.has_vignette.name=Vignette
+setting.post_processing.has_vignette.description=Enable vignette effect.
+setting.post_processing.vignette_strength.name=Vignette Strength
+setting.post_processing.vignette_strength.description=Adjust the strength of the vignette effect.
+setting.post_processing.vignette_transition.name=Vignette Transition
+setting.post_processing.vignette_transition.description=Adjust the transition of the vignette effect.
+setting.post_processing.vignette_color.name=Vignette Color
+setting.post_processing.vignette_color.description=Adjust the color of the vignette effect.
+
+## Render Options
+module.render_options.name=Render Options
+module.render_options.description=Gives you more rendering options.
+
+setting.render_options.render_distance_settings_category.name=Render Distance Settings
+setting.render_options.render_distance_settings_category.description=Settings for render distance settings.
+setting.render_options.render_distance.name=Render Distance
+setting.render_options.render_distance.description=Adjust the render distance.
+setting.render_options.change_render_distance.name=Change Render Distance
+setting.render_options.change_render_distance.description=Enable to change the render distance value.
+
+setting.render_options.render_entity.name=Disable Render for Entities
+setting.render_options.render_entity.description=Disable rendering for entities.
+setting.render_options.render_block_entity.name=Disable Render for Tile Entities
+setting.render_options.render_block_entity.description=Disable rendering for tile entities.
+setting.render_options.render_particles.name=Disable Render for Particles
+setting.render_options.render_particles.description=Disable rendering for particles.
+setting.render_options.render_weather.name=Disable Render for Weather
+setting.render_options.render_weather.description=Disable rendering for weather effects.
+setting.render_options.render_item_in_hand.name=Disable Render for Item in Hand
+setting.render_options.render_item_in_hand.description=Disable rendering for the held item.
+setting.render_options.disable_vignette.name=Disable Render for Vignette
+setting.render_options.disable_vignette.description=Disable rendering for the vignette effect.
+
+## RodFix
+module.rod_fix_mod.name=RodFix
+module.rod_fix_mod.description=Allows you to cast a fishing rod while looking at an entity. This is a bug in this version! (MCPE-65249)
+
+## Sky Overlay Changer
+module.sky_overlay_changer.name=Sky Overlay Changer
+module.sky_overlay_changer.description=Allows you to change the sky overlay, without leaving the world.
+
+## Third Person Nametag
+module.third_person_nametag.name=Third Person Nametag
+module.third_person_nametag.description=Renders your nametag in 3rd person.
+
+## TNT Timer
+module.tnt_timer.name=TNT Timer
+module.tnt_timer.description=Displays the detonation time of TNT.
+
+module.tnt_timer.visual_settings.scale.name=Scale
+module.tnt_timer.visual_settings.scale.description=Adjusts the scale of the TNT timer.
+module.tnt_timer.visual_settings.padding.name=Padding
+module.tnt_timer.visual_settings.padding.description=Adjusts the padding of the TNT timer.
+module.tnt_timer.visual_settings.text_color.name=Text Color
+module.tnt_timer.visual_settings.text_color.description=Changes the color of the text.
+module.tnt_timer.visual_settings.background_color.name=Background Color
+module.tnt_timer.visual_settings.background_color.description=Changes the background color of the timer.
+module.tnt_timer.visual_settings.distance.name=Distance
+
+## Toggle Sprint/Sneak
+module.toggle_sprint_sneak.name=Toggle Sprint/Sneak
+module.toggle_sprint_sneak.description=Allows you to sprint or sneak without holding the respective key.
+
+module.toggle_sprint_sneak.setting.keybind_settings_category.name=Keybind Settings
+module.toggle_sprint_sneak.setting.keybind_settings_category.description=Settings for keybind settings.
+module.toggle_sprint_sneak.setting.sprint_key.name=Sprint Key
+module.toggle_sprint_sneak.setting.sprint_key.description=The key that will toggle sprint on and off.
+module.toggle_sprint_sneak.setting.sneak_key.name=Sneak Key
+module.toggle_sprint_sneak.setting.sneak_key.description=The key that will toggle sneak on and off.
+
+module.toggle_sprint_sneak.setting.toggles_category.name=Toggles
+module.toggle_sprint_sneak.setting.toggles_category.description=Settings for toggles.
+module.toggle_sprint_sneak.setting.enable_toggle_sprint.name=Enable Toggle Sprint
+module.toggle_sprint_sneak.setting.enable_toggle_sprint.description=Toggle toggle sprint on and off.
+module.toggle_sprint_sneak.setting.enable_toggle_sneak.name=Enable Toggle Sneak
+module.toggle_sprint_sneak.setting.enable_toggle_sneak.description=Toggle toggle sneak on and off.
+module.toggle_sprint_sneak.setting.enable_toggle_sneak_unstuck.name=Enable Toggle Sneak Unstuck
+module.toggle_sprint_sneak.setting.enable_toggle_sneak_unstuck.description=Toggle toggle sneak unstuck on and off.
+
+module.toggle_sprint_sneak.setting.always_sprint_category.name=Always Sprint
+module.toggle_sprint_sneak.setting.always_sprint_category.description=Settings for always sprint.
+module.toggle_sprint_sneak.setting.always_sprint.description=Toggle always sprint on and off.
+module.toggle_sprint_sneak.setting.show_indicator.name=Show Indicator
+module.toggle_sprint_sneak.setting.show_indicator.description=Toggle the indicator on and off.
+module.toggle_sprint_sneak.setting.diagonal_sprintfix.name=Diagonal Sprintfix
+module.toggle_sprint_sneak.setting.diagonal_sprintfix.description=Toggle diagonal sprintfix on and off.
+
+## View Model
+module.view_model.name=View Model
+module.view_model.description=Allows you to customise the view model. (Hand Item).
+
+module.view_model.setting.position_settings_category.name=Position
+module.view_model.setting.position_settings_category.description=Settings for the position of the view model.
+module.view_model.setting.translation_x.name=Translation X
+module.view_model.setting.translation_x.description=Adjust the X translation of the view model.
+module.view_model.setting.translation_y.name=Translation Y
+module.view_model.setting.translation_y.description=Adjust the Y translation of the view model.
+module.view_model.setting.translation_z.name=Translation Z
+module.view_model.setting.translation_z.description=Adjust the Z translation of the view model.
+
+module.view_model.setting.rotation_settings_category.name=Rotation
+module.view_model.setting.rotation_settings_category.description=Settings for the rotation of the view model.
+module.view_model.setting.rotation_x.name=Rotation X
+module.view_model.setting.rotation_x.description=Adjust the X rotation of the view model.
+module.view_model.setting.rotation_y.name=Rotation Y
+module.view_model.setting.rotation_y.description=Adjust the Y rotation of the view model.
+module.view_model.setting.rotation_z.name=Rotation Z
+module.view_model.setting.rotation_z.description=Adjust the Z rotation of the view model.
+
+module.view_model.setting.scale_settings_category.name=Scale
+module.view_model.setting.scale_settings_category.description=Settings for the scale of the view model.
+module.view_model.setting.scale_x.name=Scale X
+module.view_model.setting.scale_x.description=Adjust the X scale of the view model.
+module.view_model.setting.scale_y.name=Scale Y
+module.view_model.setting.scale_y.description=Adjust the Y scale of the view model.
+module.view_model.setting.scale_z.name=Scale Z
+module.view_model.setting.scale_z.description=Adjust the Z scale of the view model.
+
+module.view_model.setting.is_weird.name=Weird
+module.view_model.setting.is_weird.description=Toggle weird view model.
+
+## Waypoints
+module.waypoints.name=Waypoints
+module.waypoints.description=Displays and stores coordinates of specific locations in the world.\nTo create a waypoint, type ".waypoint" in the Minecraft chat.
+
+module.waypoints.setting.death_waypoint.name=Add "Death" Waypoint on Death
+module.waypoints.setting.death_waypoint.description=Toggle adding a "Death" waypoint on death.
+module.waypoints.setting.all_axis.name=Show Distance in All Axis
+module.waypoints.setting.all_axis.description=Toggle showing the distance in all axis.
+
+module.waypoints.setting.automated_settings_category.name=Automated Settings
+module.waypoints.setting.automated_settings_category.description=Settings for automated settings.
+module.waypoints.setting.add_waypoint_for_nether_portal.name=Add Waypoint for Nether Portals
+module.waypoints.setting.add_waypoint_for_nether_portal.description=Toggle adding a waypoint for nether portals.
+module.waypoints.setting.add_waypoint_for_end_gateways.name=Add Waypoint for End Gateways
+module.waypoints.setting.add_waypoint_for_end_gateways.description=Toggle adding a waypoint for end gateways.
+
+module.waypoints.setting.scale.name=Scale
+module.waypoints.setting.scale.description=Adjust the scale of the waypoints.
+module.waypoints.setting.text_color.name=Text Color
+module.waypoints.setting.text_color.description=Change the color of the text.
+module.waypoints.setting.background_color.name=Background Color
+module.waypoints.setting.background_color.description=Change the background color of the waypoints.
+module.waypoints.setting.blur_opacity.name=Blur Opacity
+module.waypoints.setting.blur_opacity.description=Adjust the opacity of the blur.
+
+module.waypoints.setting.disable_server_mode.name=Disable Server Mode
+module.waypoints.setting.disable_server_mode.description=Toggle disabling server mode.
+
+## Zoom
+module.zoom.name=Zoom
+module.zoom.description=Allows you to zoom in on distant objects.
+
+module.zoom.setting.key.name=Key
+module.zoom.setting.key.description=Set the keybind for zooming.
+module.zoom.setting.use_cinematic_camera.name=Use Cinematic Camera
+module.zoom.setting.use_cinematic_camera.description=Toggle usage of cinematic camera.
+
+module.zoom.setting.zoom_strength_settings_category.name=Zoom Strength Settings
+module.zoom.setting.zoom_strength_settings_category.description=Settings for zoom strength settings.
+module.zoom.setting.strength.name=Strength
+module.zoom.setting.strength.description=Adjust the zoom strength.
+module.zoom.setting.save_scroll.name=Save Zoom Strength Between Zooms
+module.zoom.setting.save_scroll.description=Toggle saving of zoom strength between zooms.
+module.zoom.setting.scroll_zoom.name=Scrolling Change Strength
+module.zoom.setting.scroll_zoom.description=Toggle scrolling to change zoom strength.
+
+module.zoom.setting.hide_hand_option.name=Hide Hand When Zooming
+module.zoom.setting.hide_hand_option.description=Toggle hiding of hand when zooming.
+module.zoom.setting.sensivity_reduced.name=Reduced Sensivity
+module.zoom.setting.sensivity_reduced.description=Adjust the reduced sensivity.
+module.zoom.setting.is_zoom_toggle.name=Toggle Zoom
+module.zoom.setting.is_zoom_toggle.description=Toggle zooming.
+
+module.zoom.setting.animation_settings_category.name=Animation Settings
+module.zoom.setting.animation_settings_category.description=Settings for animation settings.
+module.zoom.setting.do_animation.name=Zoom in Animation
+module.zoom.setting.do_animation.description=Toggle zoom in animation.
+module.zoom.setting.animation_duration.name=Zoom in Animation Speed
+module.zoom.setting.animation_duration.description=Adjust the zoom in animation speed.

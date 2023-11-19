@@ -1,5 +1,54 @@
-##this a comment, don't forget to comment on deez too
-module.keystrokes.name=fr man
-module.keystrokes.description=Shows what key you press because,\nyou could be completely unaware that you are pressing them.
-module.keystrokes.confirm_key=Are you sure you want %s to be the key?
-module.keystrokes.confirm_key_title=Confirmer la Touche (%2$s) %1$s?
+## cela nous a pris littéralement des jours à faire
+module.module.key.name=Clé de bascule du module
+module.module.key.description=La clé qui activera et désactivera le module.
+module.visual.setting.visual_settings.name=Paramètres visuels
+module.visual.setting.visual_settings.description=Paramètres pour changer l'apparence visuelle du module.
+module.visual.setting.display_settings.name=Paramètres d'affichage
+module.visual.setting.display_settings.description=Paramètres pour changer ce que le module affiche.
+module.visual.setting.scale.name=Échelle
+module.visual.setting.scale.description=L'échelle du module, multipliera la taille par la quantité spécifiée.
+module.visual.setting.padding.name=Rembourrage
+module.visual.setting.padding.description=Le rembourrage du module, ajoutera la quantité spécifiée de pixels autour du texte.
+module.visual.setting.text_color.name=Couleur du texte
+module.visual.setting.text_color.description=La couleur du texte.
+module.visual.setting.back_color.name=Couleur de fond
+module.visual.setting.back_color.description=La couleur de l'arrière-plan.
+module.visual.setting.blur_opacity.name=Opacité du flou
+module.visual.setting.blur_opacity.description=L'opacité du flou d'arrière-plan.
+module.visual.setting.has_outline.name=Contour
+module.visual.setting.has_outline.description=Si le module a ou non un contour.
+module.visual.setting.outline_color.name=Couleur du contour
+module.visual.setting.outline_color.description=La couleur du contour.
+module.visual.setting.outline_width.name=Largeur du contour
+module.visual.setting.outline_width.description=La largeur du contour.
+
+module.module.setting.main_settings.name=Paramètres principaux
+module.module.setting.main_settings.description=Paramètres pour changer la fonctionnalité principale du module.
+module.module.setting.miscellaneous_settings.name=Paramètres divers
+module.module.setting.miscellaneous_settings.description=Paramètres pour changer la fonctionnalité diverse du module.
+
+## 202020
+module.remind_202020.name=20 20 20
+module.remind_202020.description=Vous rappelle de respecter le 20 20 20.\n(Pour chaque tranche de 20 minutes, regardez à 20 mètres de distance pendant 20 secondes à la fois).\nCela aide à préserver votre vue !\n(Et je ne peux pas me souvenir de le faire alors je fais ça).
+module.remind_202020.setting.interval.name=Intervalle (minutes)
+module.remind_202020.setting.interval.description=L'intervalle entre les rappels.
+module.remind_202020.setting.duration.name=Durée (secondes)
+module.remind_202020.setting.duration.description=La durée du rappel.
+module.remind_202020.setting.snooze_duration.name=Durée de la sieste (secondes)
+module.remind_202020.setting.snooze_duration.description=La durée de la sieste.
+module.remind_202020.setting.snooze_key.name=Touche de sieste
+module.remind_202020.setting.snooze_key.description=La touche qui mettra en veille le rappel.
+
+## paramètres d'animation
+
+## autogg
+module.autogg.name=Auto GG
+module.autogg.description=Envoie automatiquement GG (ou tout message) à la fin du jeu.\nFonctionne sur Hive, CubeCraft, Zeqa, NetherGames, Hyperlands.
+module.autogg.setting.gg_delay.name=Délai de GG (secondes)
+module.autogg.setting.gg_delay.description=Le délai entre la fin du jeu et l'envoi du message.
+module.autogg.setting.message.name=Message
+module.autogg.setting.message.description=Le message à envoyer à la fin du jeu.
+module.autogg.setting.add_message.name=Ajouter un message
+module.autogg.setting.add_message.description=Ajoute le message à la liste des messages à envoyer.
+module.autogg.setting.remove_message.name=Supprimer le message
+module.autogg.setting.remove_message.description=Supprime le message de la liste des messages à envoyer.

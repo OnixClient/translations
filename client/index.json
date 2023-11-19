@@ -3,7 +3,7 @@
         {
             "visual_name": "English (United States)",
             "code": "en_US",
-            "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/en_US.lang",
+            "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/en_US.lang",
             "version": 1
         },
         {
@@ -39,7 +39,7 @@
         {
             "visual_name": "Français (France)",
             "code": "fr_FR",
-            "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/fr_FR.lang",
+            "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/fr_FR.lang",
             "version": 1
         }
     ]

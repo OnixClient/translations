@@ -73,6 +73,7 @@ module.ui.setting.color_picker_opacity.name=Opacity
 module.ui.setting.color_picker_opacity.description=Choses what opacity the color has (transparency).
 module.ui.setting.key_renderer_unbind=Unbind
 module.ui.setting.key_overlay_help=Press any key to set it, Press escape to exit without change.
+module.ui.setting.settings=Settings
 
 ## Theme Editor
 module.themeui.setting.key_overlay_help=Press any key to set it, Press escape to exit without change.
@@ -150,7 +151,7 @@ module.animation_settings.description=Allows you to change various animations.
 module.global_settings.name=Global Settings
 module.global_settings.description=Change global settings for the client.
 
-## autogg
+## Auto G G
 module.autogg.name=Auto GG
 module.autogg.description=Automatically says GG (or any message) at the end of the game.\nWorks on Hive, CubeCraft, Zeqa, NetherGames, Hyperlands.
 module.autogg.setting.gg_delay.name=GG Delay (seconds)
@@ -180,7 +181,7 @@ module.auto_text_hotkey.setting.remove_message.name=Remove %s
 module.auto_text_hotkey.setting.remove_message.description=Removes the message from the list of messages to send.
 module.auto_text_hotkey.setting.remove_message.button=Remove
 
-## Block Outline/Overlay
+## Block Outline/ Overlay
 module.block_outline_overlay.name=Block Outline/Overlay
 module.block_outline_overlay.description=Changes the selected block outline/overlay.\nThe \"Outline Selection\" setting needs to be enabled in video settings.
 module.block_outline_overlay.setting.render_block_outline.name=Render Block Outline
@@ -1019,3 +1020,519 @@ module.zoom.setting.do_animation.name=Zoom in Animation
 module.zoom.setting.do_animation.description=Toggle zoom in animation.
 module.zoom.setting.animation_duration.name=Zoom in Animation Speed
 module.zoom.setting.animation_duration.description=Adjust the zoom in animation speed.
+
+
+
+
+## Armor Hud
+module.armor_hud.name=Armor Hud
+module.armor_hud.description=
+setting.armor_hud.horizontal.name=
+setting.armor_hud.horizontal.description=
+setting.armor_hud.is_hotbar.name=
+setting.armor_hud.is_hotbar.description=
+setting.armor_hud.hand_title.name=
+setting.armor_hud.hand_title.description=
+setting.armor_hud.show_main_hand.name=
+setting.armor_hud.show_main_hand.description=
+setting.armor_hud.show_off_hand.name=
+setting.armor_hud.show_off_hand.description=
+setting.armor_hud.durability_category.name=
+setting.armor_hud.durability_category.description=
+setting.armor_hud.show_durability.name=
+setting.armor_hud.show_durability.description=
+setting.armor_hud.show_decorations.name=
+setting.armor_hud.show_decorations.description=
+setting.armor_hud.java_decorations.name=
+setting.armor_hud.java_decorations.description=
+setting.armor_hud.durability_percent.name=
+setting.armor_hud.durability_percent.description=
+setting.armor_hud.durability_over_max.name=
+setting.armor_hud.durability_over_max.description=
+setting.armor_hud.item_category.name=
+setting.armor_hud.item_category.description=
+setting.armor_hud.render_count.name=
+setting.armor_hud.render_count.description=
+setting.armor_hud.count_all.name=
+setting.armor_hud.count_all.description=
+setting.armor_hud.text_category.name=
+setting.armor_hud.text_category.description=
+setting.armor_hud.right_text.name=
+setting.armor_hud.right_text.description=
+setting.armor_hud.text_color_follow_durability.name=
+setting.armor_hud.text_color_follow_durability.description=
+setting.armor_hud.render_in_containers.name=
+setting.armor_hud.render_in_containers.description=
+setting.armor_hud.wish_glint.name=
+setting.armor_hud.wish_glint.description=
+setting.armor_hud.glint_speed.name=
+setting.armor_hud.glint_speed.description=
+setting.armor_hud.glint_opacity.name=
+setting.armor_hud.glint_opacity.description=
+setting.armor_hud.glint_color.name=
+setting.armor_hud.glint_color.description=
+
+
+## Arrow Counter
+module.arrow_counter.name=Arrow Counter
+module.arrow_counter.description=
+setting.arrow_counter.show_arrow_text.name=
+setting.arrow_counter.show_arrow_text.description=
+setting.arrow_counter.only_display_holding_shooter.name=
+setting.arrow_counter.only_display_holding_shooter.description=
+setting.arrow_counter.hide_if_zero.name=
+setting.arrow_counter.hide_if_zero.description=
+module.arrow_counter.arrow_value=Arrow: 
+
+
+## 
+module.audio_subtitle.name=
+module.audio_subtitle.description=
+setting.audio_subtitle.sound_category.name=
+setting.audio_subtitle.sound_category.description=
+setting.audio_subtitle.sound_display_time.name=
+setting.audio_subtitle.sound_display_time.description=
+setting.audio_subtitle.newer_sounds_first.name=
+setting.audio_subtitle.newer_sounds_first.description=
+setting.audio_subtitle.ignore_useless_sounds.name=
+setting.audio_subtitle.ignore_useless_sounds.description=
+setting.audio_subtitle.max_name_length.name=
+setting.audio_subtitle.max_name_length.description=
+setting.audio_subtitle.max_column_count.name=
+setting.audio_subtitle.max_column_count.description=
+
+
+## Break Progress Module
+module.break_progress.name=Break Progress Module
+module.break_progress.description=
+setting.break_progress.show_break_text.name=
+setting.break_progress.show_break_text.description=
+setting.break_progress.bar_settings.name=
+setting.break_progress.bar_settings.description=
+setting.break_progress.use_bar.name=
+setting.break_progress.use_bar.description=
+setting.break_progress.always_display.name=
+setting.break_progress.always_display.description=
+setting.break_progress.bar_size.name=
+setting.break_progress.bar_size.description=
+setting.break_progress.bar_color.name=
+setting.break_progress.bar_color.description=
+setting.break_progress.bar_back_color.name=
+setting.break_progress.bar_back_color.description=
+setting.break_progress.bar_direction.name=
+setting.break_progress.bar_direction.description=
+module.break_progress.break_text=Break: 
+
+
+## Clock Module
+module.clock.name=Clock Module
+module.clock.description=
+setting.clock.add_spaces.name=
+setting.clock.add_spaces.description=
+setting.clock.game_time.name=
+setting.clock.game_time.description=
+setting.clock.show_time_text.name=
+setting.clock.show_time_text.description=
+setting.clock.format_settings.name=
+setting.clock.format_settings.description=
+setting.clock.24_hour_format.name=
+setting.clock.24_hour_format.description=
+setting.clock.show_seconds.name=
+setting.clock.show_seconds.description=
+module.clock.time_text=Time: 
+
+
+## Combo Counter
+module.combo_counter.name=Combo Counter
+module.combo_counter.description=
+setting.combo_counter.show_combo_text.name=
+setting.combo_counter.show_combo_text.description=
+setting.combo_counter.flash_when_hit.name=
+setting.combo_counter.flash_when_hit.description=
+module.combo_counter.combo_text=Combo: 
+
+
+## Compass Module
+module.direction_hud.name=Compass Module
+module.direction_hud.description=
+setting.direction_hud.force_center.name=
+setting.direction_hud.force_center.description=
+setting.direction_hud.slow_update.name=
+setting.direction_hud.slow_update.description=
+setting.direction_hud.fade_at.name=
+setting.direction_hud.fade_at.description=
+setting.direction_hud.use_xyz_instead_nsew.name=
+setting.direction_hud.use_xyz_instead_nsew.description=
+setting.direction_hud.compass_amount.name=
+setting.direction_hud.compass_amount.description=
+setting.direction_hud.compass_width.name=
+setting.direction_hud.compass_width.description=
+
+
+## Cooldowns Module
+module.cooldowns.name=Cooldowns Module
+module.cooldowns.description=
+
+
+## Coordinates
+module.coordinates.name=Coordinates
+module.coordinates.description=
+setting.coordinates.brackets.name=
+setting.coordinates.brackets.description=
+setting.coordinates.brackets.name=
+setting.coordinates.brackets.description=
+setting.coordinates.show_xyz.name=
+setting.coordinates.show_xyz.description=
+setting.coordinates.same_line.name=
+setting.coordinates.same_line.description=
+setting.coordinates.precise.name=
+setting.coordinates.precise.description=
+setting.coordinates.biome_settings.name=
+setting.coordinates.biome_settings.description=
+setting.coordinates.show_biome.name=
+setting.coordinates.show_biome.description=
+setting.coordinates.automated_biome_color.name=
+setting.coordinates.automated_biome_color.description=
+setting.coordinates.copy_settings.name=
+setting.coordinates.copy_settings.description=
+setting.coordinates.copy_player_key.name=
+setting.coordinates.copy_player_key.description=
+setting.coordinates.copy_selected_key.name=
+setting.coordinates.copy_selected_key.description=
+
+
+## C P Smodule
+module.cps.name=C P Smodule
+module.cps.description=
+setting.cps.hide_cps.name=
+setting.cps.hide_cps.description=
+setting.cps.cps_after_value.name=
+setting.cps.cps_after_value.description=
+setting.cps.show_right_click.name=
+setting.cps.show_right_click.description=
+setting.cps.alternate_splitter.name=
+setting.cps.alternate_splitter.description=
+
+
+## Day Counter Module
+module.day_counter.name=Day Counter Module
+module.day_counter.description=
+setting.day_counter.session_time.name=
+setting.day_counter.session_time.description=
+setting.day_counter.in_minecraft_day.name=
+setting.day_counter.in_minecraft_day.description=
+module.daycounter.days=%s Days
+module.daycounter.seconds=%s Seconds
+
+
+## Flappy Bird Module
+module.flappy_bird.name=Flappy Bird Module
+module.flappy_bird.description=
+setting.flappy_bird.high_quality.name=
+setting.flappy_bird.high_quality.description=
+setting.flappy_bird.keybind_settings.name=
+setting.flappy_bird.keybind_settings.description=
+setting.flappy_bird.jump_key.name=
+setting.flappy_bird.jump_key.description=
+setting.flappy_bird.pause_key.name=
+setting.flappy_bird.pause_key.description=
+setting.flappy_bird.auto_play.name=
+setting.flappy_bird.auto_play.description=
+
+
+## F P S Counter Module
+module.fps.name=F P S Counter Module
+module.fps.description=
+
+
+## Item Tracker Module
+module.item_tracker.name=Item Tracker Module
+module.item_tracker.description=
+setting.item_tracker.max_displayed_changes.name=
+setting.item_tracker.max_displayed_changes.description=
+setting.item_tracker.display_time.name=
+setting.item_tracker.display_time.description=
+setting.item_tracker.added_color.name=
+setting.item_tracker.added_color.description=
+setting.item_tracker.removed_color.name=
+setting.item_tracker.removed_color.description=
+setting.item_tracker.bracket_color.name=
+setting.item_tracker.bracket_color.description=
+setting.item_tracker.ignored_slots.name=
+setting.item_tracker.ignored_slots.description=
+
+
+## Keystrokes
+module.keystrokes.name=Keystrokes
+module.keystrokes.description=
+setting.keystrokes.key_settings.name=
+setting.keystrokes.key_settings.description=
+setting.keystrokes.key_width.name=
+setting.keystrokes.key_width.description=
+setting.keystrokes.hide_cps.name=
+setting.keystrokes.hide_cps.description=
+setting.keystrokes.hide_mouse_buttons.name=
+setting.keystrokes.hide_mouse_buttons.description=
+setting.keystrokes.hide_spaceber.name=
+setting.keystrokes.hide_spaceber.description=
+setting.keystrokes.border_settings.name=
+setting.keystrokes.border_settings.description=
+setting.keystrokes.key_border.name=
+setting.keystrokes.key_border.description=
+setting.keystrokes.border_uses_text_color.name=
+setting.keystrokes.border_uses_text_color.description=
+setting.keystrokes.border_width.name=
+setting.keystrokes.border_width.description=
+setting.keystrokes.border_up_color.name=
+setting.keystrokes.border_up_color.description=
+setting.keystrokes.border_down_color.name=
+setting.keystrokes.border_down_color.description=
+setting.keystrokes.animation_settings.name=
+setting.keystrokes.animation_settings.description=
+setting.keystrokes.fade_animation_on_text.name=
+setting.keystrokes.fade_animation_on_text.description=
+setting.keystrokes.fade_animation_on_border.name=
+setting.keystrokes.fade_animation_on_border.description=
+setting.keystrokes.fade_animation_duration.name=
+setting.keystrokes.fade_animation_duration.description=
+setting.keystrokes.display_keybind_settings.name=
+setting.keystrokes.display_keybind_settings.description=
+setting.keystrokes.key_forward.name=
+setting.keystrokes.key_forward.description=
+setting.keystrokes.key_left.name=
+setting.keystrokes.key_left.description=
+setting.keystrokes.key_back.name=
+setting.keystrokes.key_back.description=
+setting.keystrokes.key_right.name=
+setting.keystrokes.key_right.description=
+setting.keystrokes.key_is_arrow.name=
+setting.keystrokes.key_is_arrow.description=
+setting.keystrokes.key_roundness.name=
+setting.keystrokes.key_roundness.description=
+setting.keystrokes.font_size.name=
+setting.keystrokes.font_size.description=
+setting.keystrokes.cps_font_ratio.name=
+setting.keystrokes.cps_font_ratio.description=
+setting.keystrokes.spacebar_block_size.name=
+setting.keystrokes.spacebar_block_size.description=
+setting.keystrokes.color_settings.name=
+setting.keystrokes.color_settings.description=
+setting.keystrokes.up_text_color.name=
+setting.keystrokes.up_text_color.description=
+setting.keystrokes.down_text_color.name=
+setting.keystrokes.down_text_color.description=
+setting.keystrokes.up_back_color.name=
+setting.keystrokes.up_back_color.description=
+setting.keystrokes.down_back_color.name=
+setting.keystrokes.down_back_color.description=
+
+
+## Memory Usage Module
+module.memory_usage.name=Memory Usage Module
+module.memory_usage.description=
+setting.memory_usage.percent.name=
+setting.memory_usage.percent.description=
+setting.memory_usage.megabytes_only.name=
+setting.memory_usage.megabytes_only.description=
+
+
+## Minimap Module
+module.minimap.name=Minimap Module
+module.minimap.description=
+
+
+## Movable Actionbar Module
+module..name=Movable Actionbar Module
+module..description=
+
+
+## Movable Chat Module
+module.movable_chat.name=Movable Chat Module
+module.movable_chat.description=
+setting.movable_chat.use_client_font.name=
+setting.movable_chat.use_client_font.description=
+setting.movable_chat.align_left.name=
+setting.movable_chat.align_left.description=
+setting.movable_chat.origin_from_top.name=
+setting.movable_chat.origin_from_top.description=
+setting.movable_chat.size_from_content_size.name=
+setting.movable_chat.size_from_content_size.description=
+setting.movable_chat.chat_width.name=
+setting.movable_chat.chat_width.description=
+setting.movable_chat.chat_lines.name=
+setting.movable_chat.chat_lines.description=
+setting.movable_chat.animation_settings.name=
+setting.movable_chat.animation_settings.description=
+setting.movable_chat.message_screen_time.name=
+setting.movable_chat.message_screen_time.description=
+setting.movable_chat.message_inout_animation_speed.name=
+setting.movable_chat.message_inout_animation_speed.description=
+setting.movable_chat.animations.name=
+setting.movable_chat.animations.description=
+setting.movable_chat.animation_interpolator.name=
+setting.movable_chat.animation_interpolator.description=
+setting.movable_chat.text_shadow.name=
+setting.movable_chat.text_shadow.description=
+setting.movable_chat.default_text_color.name=
+setting.movable_chat.default_text_color.description=
+setting.movable_chat.bottom_chat_mode.name=
+setting.movable_chat.bottom_chat_mode.description=
+setting.movable_chat.bottom_chat_height.name=
+setting.movable_chat.bottom_chat_height.description=
+
+
+## Movable Paperdoll Module
+module.movable_paperdoll.name=Movable Paperdoll Module
+module.movable_paperdoll.description=
+setting.movable_paperdoll.always_render.name=
+setting.movable_paperdoll.always_render.description=
+
+
+## Movable Scoreboard Module
+module.movable_scoreboard.name=Movable Scoreboard Module
+module.movable_scoreboard.description=
+setting.movable_scoreboard.show_title.name=
+setting.movable_scoreboard.show_title.description=
+setting.movable_scoreboard.show_offline_players.name=
+setting.movable_scoreboard.show_offline_players.description=
+setting.movable_scoreboard.show_show_entity.name=
+setting.movable_scoreboard.show_show_entity.description=
+setting.movable_scoreboard.show_score.name=
+setting.movable_scoreboard.show_score.description=
+setting.movable_scoreboard..name=
+setting.movable_scoreboard..description=
+setting.movable_scoreboard.scripting_invisible_please.name=
+setting.movable_scoreboard.scripting_invisible_please.description=
+setting.movable_scoreboard.max_lines.name=
+setting.movable_scoreboard.max_lines.description=
+
+
+## Movable Title Module
+module..name=Movable Title Module
+module..description=
+
+
+## Pack Display
+module.module.name=Pack Display
+module.module.description=
+setting.module.display_settings.name=
+setting.module.display_settings.description=
+setting.module.miscellaneous_settings.name=
+setting.module.miscellaneous_settings.description=
+
+
+## Ping Display Module
+module.ping_display.name=Ping Display Module
+module.ping_display.description=
+setting.ping_display.display_average.name=
+setting.ping_display.display_average.description=
+setting.ping_display.lowercase_ms.name=
+setting.ping_display.lowercase_ms.description=
+setting.ping_display.space.name=
+setting.ping_display.space.description=
+module.ping_display.ms_abreviation_up=%sMS
+module.ping_display.ms_abreviation_low=%sms
+
+
+## Pot Counter
+module.potion_counter.name=Pot Counter
+module.potion_counter.description=
+setting.potion_counter.show_potion_text.name=
+setting.potion_counter.show_potion_text.description=
+setting.potion_counter.hide_without_items.name=
+setting.potion_counter.hide_without_items.description=
+module.potion_counter.potion_text=Potion: 
+
+
+## Potion Hud
+module.potion_hud.name=Potion Hud
+module.potion_hud.description=
+setting.potion_hud.icon_opacity.name=
+setting.potion_hud.icon_opacity.description=
+setting.potion_hud.text_padding.name=
+setting.potion_hud.text_padding.description=
+setting.potion_hud.hide_icons.name=
+setting.potion_hud.hide_icons.description=
+setting.potion_hud.hide_names.name=
+setting.potion_hud.hide_names.description=
+setting.potion_hud.hide_timers.name=
+setting.potion_hud.hide_timers.description=
+setting.potion_hud.brewing_guide_category.name=
+setting.potion_hud.brewing_guide_category.description=
+setting.potion_hud.show_in_stand.name=
+setting.potion_hud.show_in_stand.description=
+setting.potion_hud.brewable_only.name=
+setting.potion_hud.brewable_only.description=
+module.potion_hud.brewing_guide.brew_longer=Longer Potion
+module.potion_hud.brewing_guide.brew_stronger=Stronger Potion
+
+
+## Reach Display
+module.reach_display.name=Reach Display
+module.reach_display.description=
+setting.reach_display.show_reach_text.name=
+setting.reach_display.show_reach_text.description=
+module.reach_display.reach_text=Reach: 
+
+
+## Server Module
+module.server_ip.name=Server Module
+module.server_ip.description=
+setting.server_ip.show_port.name=
+setting.server_ip.show_port.description=
+
+
+## Snake Module
+module.snake.name=Snake Module
+module.snake.description=
+setting.snake.high_quality.name=
+setting.snake.high_quality.description=
+setting.snake.key_up.name=
+setting.snake.key_up.description=
+setting.snake.key_down.name=
+setting.snake.key_down.description=
+setting.snake.key_left.name=
+setting.snake.key_left.description=
+setting.snake.key_right.name=
+setting.snake.key_right.description=
+
+
+## Soup Counter
+module.soup_counter.name=Soup Counter
+module.soup_counter.description=
+setting.soup_counter.show_soup_text.name=
+setting.soup_counter.show_soup_text.description=
+module.soup_counter.potion_text=Soup: 
+
+
+## Speed Counter
+module.speed_display.name=Speed Counter
+module.speed_display.description=
+setting.speed_display.include_vertical_speed.name=
+setting.speed_display.include_vertical_speed.description=
+module.speed_display.blocks_per_second=blocks/s
+
+
+## Stopwatch Module
+module.stopwatch.name=Stopwatch Module
+module.stopwatch.description=
+setting.stopwatch.start_stop_key.name=
+setting.stopwatch.start_stop_key.description=
+setting.stopwatch.pause_unpause_key.name=
+setting.stopwatch.pause_unpause_key.description=
+
+
+## Visual Testing
+module.visual_testing.name=Visual Testing
+module.visual_testing.description=
+
+
+## Waila Module
+module.waila.name=Waila Module
+module.waila.description=
+setting.waila.enable_outline.name=
+setting.waila.enable_outline.description=
+setting.waila.original_position.name=
+setting.waila.original_position.description=
+setting.waila.height_offset.name=
+setting.waila.height_offset.description=

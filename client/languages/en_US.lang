@@ -1429,12 +1429,14 @@ module..description=Allows you to customize the position of the title.
 
 
 ## Pack Display
-module.module.name=Pack Display
-module.module.description=Displays the name and description of your texture packs on screen.
-module.module.setting.display_settings.name=
-module.module.setting.display_settings.description=
-module.module.setting.miscellaneous_settings.name=
-module.module.setting.miscellaneous_settings.description=
+module.pack_display.name=Pack Display
+module.pack_display.description=Displays the name and description of your texture packs on screen.
+module.pack_display.setting.first_only.name=Only Display First Pack
+module.pack_display.setting.first_only.description=Displays only the first pack of the list.
+module.pack_display.setting.last_only.name=Only Display Last Pack
+module.pack_display.setting.last_only.description=Displays only the last pack of the list.
+module.pack_display.setting.show_description.name=Show Description
+module.pack_display.setting.show_description.description=Displays the pack description.
 
 
 ## Ping Display Module
@@ -1454,10 +1456,11 @@ module.ping_display.ms_abreviation_low=%sms
 ## Pot Counter
 module.potion_counter.name=Pot Counter
 module.potion_counter.description=Shows the number of instant health potions you currently possess.
+module.potion_counter.setting.show_potion_text.name=Show "Potion: " Text
+module.potion_counter.setting.show_potion_text.description=Displays the text "Potion: " along with the potion count.
 module.potion_counter.setting.hide_without_items.name=Don't Display If No Potions
 module.potion_counter.setting.hide_without_items.description=Hides the counter if there are no potions.
 module.potion_counter.potion_text=Potion:
-
 
 
 ## Potion Hud
@@ -1522,8 +1525,9 @@ module.soup_counter.name=Soup Counter
 module.soup_counter.description=Shows the number of soups in your inventory.
 module.soup_counter.setting.hide_without_items.name=Don't display if no soups
 module.soup_counter.setting.hide_without_items.description=Hides the counter if no soups are in the inventory.
-module.soup_counter.potion_text=Soup:
-
+module.soup_counter.setting.show_soup_text.name=Show "Soup: " Text
+module.soup_counter.setting.show_soup_text.description=Displays the text "Soup: " along with the soup count.
+module.soup_counter.soup_text=Soup:
 
 
 ## Speed Counter

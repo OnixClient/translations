@@ -62,6 +62,8 @@ gui.reset_all=Reset All
 gui.confirm=Confirm
 gui.are_you_sure=Are you sure?
 gui.create_new=Create New %s
+gui.accept=Accept
+gui.deny=Deny
 
 
 ## Module Guis
@@ -143,15 +145,15 @@ module.remind_202020.setting.snooze_duration.description=The duration of the sno
 module.remind_202020.setting.snooze_key.name=Snooze Key
 module.remind_202020.setting.snooze_key.description=The key that will snooze the reminder.
 
-## animation settings
+## Animation Settings
 module.animation_settings.name=Animation Settings
 module.animation_settings.description=Allows you to change various animations.
 
-##Global Settings
+## Global Settings
 module.global_settings.name=Global Settings
 module.global_settings.description=Change global settings for the client.
 
-## Auto G G
+## Auto GG
 module.autogg.name=Auto GG
 module.autogg.description=Automatically says GG (or any message) at the end of the game.\nWorks on Hive, CubeCraft, Zeqa, NetherGames, Hyperlands.
 module.autogg.setting.gg_delay.name=GG Delay (seconds)
@@ -814,77 +816,77 @@ module.player_skin_3d.description=Makes the second skin layer 3D. Due to how the
 module.post_processing.name=Post Processing
 module.post_processing.description=Allows you to enhance the visual look of your game.
 
-setting.post_processing.setting.only_show_in_world.name=Don't Show In UI
-setting.post_processing.setting.only_show_in_world.description=Enable to display only in the game world.
-setting.post_processing.setting.show_in_onix_ui.name=Show In Onix Client UI
-setting.post_processing.setting.show_in_onix_ui.description=Enable to display in the Onix Client UI.
+module.post_processing.setting.only_show_in_world.name=Don't Show In UI
+module.post_processing.setting.only_show_in_world.description=Enable to display only in the game world.
+module.post_processing.setting.show_in_onix_ui.name=Show In Onix Client UI
+module.post_processing.setting.show_in_onix_ui.description=Enable to display in the Onix Client UI.
 
-setting.post_processing.setting.saturation_settings_category.name=Saturation Settings
-setting.post_processing.setting.saturation_settings_category.description=Settings for saturation settings.
-setting.post_processing.setting.has_saturation.name=Saturation
-setting.post_processing.setting.has_saturation.description=Enable saturation effect.
-setting.post_processing.setting.saturation_strength.name=Saturation Strength
-setting.post_processing.setting.saturation_strength.description=Adjust the strength of the saturation effect.
+module.post_processing.setting.saturation_settings_category.name=Saturation Settings
+module.post_processing.setting.saturation_settings_category.description=Settings for saturation settings.
+module.post_processing.setting.has_saturation.name=Saturation
+module.post_processing.setting.has_saturation.description=Enable saturation effect.
+module.post_processing.setting.saturation_strength.name=Saturation Strength
+module.post_processing.setting.saturation_strength.description=Adjust the strength of the saturation effect.
 
-setting.post_processing.setting.hue_settings_category.name=Hue Settings
-setting.post_processing.setting.hue_settings_category.description=Settings for hue settings.
-setting.post_processing.setting.has_hue.name=Hue
-setting.post_processing.setting.has_hue.description=Enable hue shift effect.
-setting.post_processing.setting.hue_shift.name=Hue Shift
-setting.post_processing.setting.hue_shift.description=Adjust the degree of hue shift.
-setting.post_processing.setting.rainbow_mode.name=Rainbow Mode
-setting.post_processing.setting.rainbow_mode.description=Enable rainbow mode for hue shift.
-setting.post_processing.setting.rainbow_speed.name=Rainbow Speed
-setting.post_processing.setting.rainbow_speed.description=Adjust the speed of the rainbow effect.
+module.post_processing.setting.hue_settings_category.name=Hue Settings
+module.post_processing.setting.hue_settings_category.description=Settings for hue settings.
+module.post_processing.setting.has_hue.name=Hue
+module.post_processing.setting.has_hue.description=Enable hue shift effect.
+module.post_processing.setting.hue_shift.name=Hue Shift
+module.post_processing.setting.hue_shift.description=Adjust the degree of hue shift.
+module.post_processing.setting.rainbow_mode.name=Rainbow Mode
+module.post_processing.setting.rainbow_mode.description=Enable rainbow mode for hue shift.
+module.post_processing.setting.rainbow_speed.name=Rainbow Speed
+module.post_processing.setting.rainbow_speed.description=Adjust the speed of the rainbow effect.
 
-setting.post_processing.setting.brightness_settings_category.name=Brightness Settings
-setting.post_processing.setting.brightness_settings_category.description=Settings for brightness settings.
-setting.post_processing.setting.has_brightness.name=Brightness
-setting.post_processing.setting.has_brightness.description=Enable brightness adjustment.
-setting.post_processing.setting.brightness_strength.name=Brightness Strength
-setting.post_processing.setting.brightness_strength.description=Adjust the strength of the brightness effect.
+module.post_processing.setting.brightness_settings_category.name=Brightness Settings
+module.post_processing.setting.brightness_settings_category.description=Settings for brightness settings.
+module.post_processing.setting.has_brightness.name=Brightness
+module.post_processing.setting.has_brightness.description=Enable brightness adjustment.
+module.post_processing.setting.brightness_strength.name=Brightness Strength
+module.post_processing.setting.brightness_strength.description=Adjust the strength of the brightness effect.
 
-setting.post_processing.setting.contrast_settings_category.name=Contrast Settings
-setting.post_processing.setting.contrast_settings_category.description=Settings for contrast settings.
-setting.post_processing.setting.has_contrast.name=Contrast
-setting.post_processing.setting.has_contrast.description=Enable contrast adjustment.
-setting.post_processing.setting.contrast_strength.name=Contrast Strength
-setting.post_processing.setting.contrast_strength.description=Adjust the strength of the contrast effect.
+module.post_processing.setting.contrast_settings_category.name=Contrast Settings
+module.post_processing.setting.contrast_settings_category.description=Settings for contrast settings.
+module.post_processing.setting.has_contrast.name=Contrast
+module.post_processing.setting.has_contrast.description=Enable contrast adjustment.
+module.post_processing.setting.contrast_strength.name=Contrast Strength
+module.post_processing.setting.contrast_strength.description=Adjust the strength of the contrast effect.
 
-setting.post_processing.setting.vignette_settings_category.name=Vignette Settings
-setting.post_processing.setting.vignette_settings_category.description=Settings for vignette settings.
-setting.post_processing.setting.has_vignette.name=Vignette
-setting.post_processing.setting.has_vignette.description=Enable vignette effect.
-setting.post_processing.setting.vignette_strength.name=Vignette Strength
-setting.post_processing.setting.vignette_strength.description=Adjust the strength of the vignette effect.
-setting.post_processing.setting.vignette_transition.name=Vignette Transition
-setting.post_processing.setting.vignette_transition.description=Adjust the transition of the vignette effect.
-setting.post_processing.setting.vignette_color.name=Vignette Color
-setting.post_processing.setting.vignette_color.description=Adjust the color of the vignette effect.
+module.post_processing.setting.vignette_settings_category.name=Vignette Settings
+module.post_processing.setting.vignette_settings_category.description=Settings for vignette settings.
+module.post_processing.setting.has_vignette.name=Vignette
+module.post_processing.setting.has_vignette.description=Enable vignette effect.
+module.post_processing.setting.vignette_strength.name=Vignette Strength
+module.post_processing.setting.vignette_strength.description=Adjust the strength of the vignette effect.
+module.post_processing.setting.vignette_transition.name=Vignette Transition
+module.post_processing.setting.vignette_transition.description=Adjust the transition of the vignette effect.
+module.post_processing.setting.vignette_color.name=Vignette Color
+module.post_processing.setting.vignette_color.description=Adjust the color of the vignette effect.
 
 ## Render Options
 module.render_options.name=Render Options
 module.render_options.description=Gives you more rendering options.
 
-setting.render_options.setting.render_distance_settings_category.name=Render Distance Settings
-setting.render_options.setting.render_distance_settings_category.description=Settings for render distance settings.
-setting.render_options.setting.render_distance.name=Render Distance
-setting.render_options.setting.render_distance.description=Adjust the render distance.
-setting.render_options.setting.change_render_distance.name=Change Render Distance
-setting.render_options.setting.change_render_distance.description=Enable to change the render distance value.
+module.render_options.setting.render_distance_settings_category.name=Render Distance Settings
+module.render_options.setting.render_distance_settings_category.description=Settings for render distance settings.
+module.render_options.setting.render_distance.name=Render Distance
+module.render_options.setting.render_distance.description=Adjust the render distance.
+module.render_options.setting.change_render_distance.name=Change Render Distance
+module.render_options.setting.change_render_distance.description=Enable to change the render distance value.
 
-setting.render_options.setting.render_entity.name=Disable Render for Entities
-setting.render_options.setting.render_entity.description=Disable rendering for entities.
-setting.render_options.setting.render_block_entity.name=Disable Render for Tile Entities
-setting.render_options.setting.render_block_entity.description=Disable rendering for tile entities.
-setting.render_options.setting.render_particles.name=Disable Render for Particles
-setting.render_options.setting.render_particles.description=Disable rendering for particles.
-setting.render_options.setting.render_weather.name=Disable Render for Weather
-setting.render_options.setting.render_weather.description=Disable rendering for weather effects.
-setting.render_options.setting.render_item_in_hand.name=Disable Render for Item in Hand
-setting.render_options.setting.render_item_in_hand.description=Disable rendering for the held item.
-setting.render_options.setting.disable_vignette.name=Disable Render for Vignette
-setting.render_options.setting.disable_vignette.description=Disable rendering for the vignette effect.
+module.render_options.setting.render_entity.name=Disable Render for Entities
+module.render_options.setting.render_entity.description=Disable rendering for entities.
+module.render_options.setting.render_block_entity.name=Disable Render for Tile Entities
+module.render_options.setting.render_block_entity.description=Disable rendering for tile entities.
+module.render_options.setting.render_particles.name=Disable Render for Particles
+module.render_options.setting.render_particles.description=Disable rendering for particles.
+module.render_options.setting.render_weather.name=Disable Render for Weather
+module.render_options.setting.render_weather.description=Disable rendering for weather effects.
+module.render_options.setting.render_item_in_hand.name=Disable Render for Item in Hand
+module.render_options.setting.render_item_in_hand.description=Disable rendering for the held item.
+module.render_options.setting.disable_vignette.name=Disable Render for Vignette
+module.render_options.setting.disable_vignette.description=Disable rendering for the vignette effect.
 
 ## RodFix
 module.rod_fix_mod.name=RodFix
@@ -914,28 +916,28 @@ module.tnt_timer.settings.max_distance.description=The maximum
 
 ## Toggle Sprint/Sneak
 module.toggle_sprint_sneak.name=Toggle Sprint/Sneak
-module.toggle_sprint_sneak.description=Allows you to sprint or sneak without holding the respective key.
+module.toggle_sprint_sneak.description=Enables sprinting or sneaking without holding the respective keys.
 
 module.toggle_sprint_sneak.setting.keybind_settings_category.name=Keybind Settings
-module.toggle_sprint_sneak.setting.keybind_settings_category.description=Settings for keybind settings.
+module.toggle_sprint_sneak.setting.keybind_settings_category.description=Customize keybind configurations.
 module.toggle_sprint_sneak.setting.sprint_key.name=Sprint Key
-module.toggle_sprint_sneak.setting.sprint_key.description=The key that will toggle sprint on and off.
+module.toggle_sprint_sneak.setting.sprint_key.description=Set the key to toggle sprinting.
 module.toggle_sprint_sneak.setting.sneak_key.name=Sneak Key
-module.toggle_sprint_sneak.setting.sneak_key.description=The key that will toggle sneak on and off.
+module.toggle_sprint_sneak.setting.sneak_key.description=Set the key to toggle sneaking.
 
 module.toggle_sprint_sneak.setting.toggles_category.name=Toggles
-module.toggle_sprint_sneak.setting.toggles_category.description=Settings for toggles.
+module.toggle_sprint_sneak.setting.toggles_category.description=Enable or disable various toggles.
 module.toggle_sprint_sneak.setting.enable_toggle_sprint.name=Enable Toggle Sprint
-module.toggle_sprint_sneak.setting.enable_toggle_sprint.description=Toggle toggle sprint on and off.
+module.toggle_sprint_sneak.setting.enable_toggle_sprint.description=Activate or deactivate toggle sprint.
 module.toggle_sprint_sneak.setting.enable_toggle_sneak.name=Enable Toggle Sneak
-module.toggle_sprint_sneak.setting.enable_toggle_sneak.description=Toggle toggle sneak on and off.
+module.toggle_sprint_sneak.setting.enable_toggle_sneak.description=Activate or deactivate toggle sneak.
 
 module.toggle_sprint_sneak.setting.always_sprint.name=Always Sprint
-module.toggle_sprint_sneak.setting.always_sprint.description=Toggle always sprint on and off.
+module.toggle_sprint_sneak.setting.always_sprint.description=Turn on or off the constant sprinting mode.
 module.toggle_sprint_sneak.setting.show_indicator.name=Show Indicator
-module.toggle_sprint_sneak.setting.show_indicator.description=Toggle the indicator on and off.
+module.toggle_sprint_sneak.setting.show_indicator.description=Display or hide the indicator.
 module.toggle_sprint_sneak.setting.diagonal_sprintfix.name=Diagonal Sprintfix
-module.toggle_sprint_sneak.setting.diagonal_sprintfix.description=Toggle diagonal sprintfix on and off.
+module.toggle_sprint_sneak.setting.diagonal_sprintfix.description=Toggle the diagonal sprintfix on or off.
 
 ## View Model
 module.view_model.name=View Model
@@ -1023,503 +1025,524 @@ module.zoom.setting.animation_duration.description=Adjust the zoom in animation 
 
 
 
-
-## Armor Hud
+## Armor HUD
 module.armor_hud.name=Armor Hud
-module.armor_hud.description=
-setting.armor_hud.horizontal.name=
-setting.armor_hud.horizontal.description=
-setting.armor_hud.is_hotbar.name=
-setting.armor_hud.is_hotbar.description=
-setting.armor_hud.hand_title.name=
-setting.armor_hud.hand_title.description=
-setting.armor_hud.show_main_hand.name=
-setting.armor_hud.show_main_hand.description=
-setting.armor_hud.show_off_hand.name=
-setting.armor_hud.show_off_hand.description=
-setting.armor_hud.durability_category.name=
-setting.armor_hud.durability_category.description=
-setting.armor_hud.show_durability.name=
-setting.armor_hud.show_durability.description=
-setting.armor_hud.show_decorations.name=
-setting.armor_hud.show_decorations.description=
-setting.armor_hud.java_decorations.name=
-setting.armor_hud.java_decorations.description=
-setting.armor_hud.durability_percent.name=
-setting.armor_hud.durability_percent.description=
-setting.armor_hud.durability_over_max.name=
-setting.armor_hud.durability_over_max.description=
-setting.armor_hud.item_category.name=
-setting.armor_hud.item_category.description=
-setting.armor_hud.render_count.name=
-setting.armor_hud.render_count.description=
-setting.armor_hud.count_all.name=
-setting.armor_hud.count_all.description=
-setting.armor_hud.text_category.name=
-setting.armor_hud.text_category.description=
-setting.armor_hud.right_text.name=
-setting.armor_hud.right_text.description=
-setting.armor_hud.text_color_follow_durability.name=
-setting.armor_hud.text_color_follow_durability.description=
-setting.armor_hud.render_in_containers.name=
-setting.armor_hud.render_in_containers.description=
-setting.armor_hud.wish_glint.name=
-setting.armor_hud.wish_glint.description=
-setting.armor_hud.glint_speed.name=
-setting.armor_hud.glint_speed.description=
-setting.armor_hud.glint_opacity.name=
-setting.armor_hud.glint_opacity.description=
-setting.armor_hud.glint_color.name=
-setting.armor_hud.glint_color.description=
+module.armor_hud.description=Shows the armor and mainhand item you have equipped.
+module.armor_hud.setting.horizontal.name=Horizontally Aligned
+module.armor_hud.setting.horizontal.description=Arranges the armor and mainhand items in a horizontal line.
+module.armor_hud.setting.is_hotbar.name=Above Hunger Bar
+module.armor_hud.setting.is_hotbar.description=Positions the display above the hunger bar.
+module.armor_hud.setting.hand_title.name=Hand
+module.armor_hud.setting.hand_title.description=Indicates the equipped hand.
+module.armor_hud.setting.show_main_hand.name=Show Main Hand
+module.armor_hud.setting.show_main_hand.description=Displays the main hand item.
+module.armor_hud.setting.show_off_hand.name=Show Off Hand
+module.armor_hud.setting.show_off_hand.description=Shows the off hand item.
+module.armor_hud.setting.durability_category.name=Durability
+module.armor_hud.setting.durability_category.description=Categorizes durability settings.
+module.armor_hud.setting.show_durability.name=Show Item Durability
+module.armor_hud.setting.show_durability.description=Shows the item's durability.
+module.armor_hud.setting.show_decorations.name=Show Item Durability Bar
+module.armor_hud.setting.show_decorations.description=Displays the item's durability bar.
+module.armor_hud.setting.java_decorations.name=Use Java Durability Colors
+module.armor_hud.setting.java_decorations.description=Applies Java durability colors.
+module.armor_hud.setting.durability_percent.name=Show Durability As Percentage
+module.armor_hud.setting.durability_percent.description=Indicates durability as a percentage.
+module.armor_hud.setting.durability_over_max.name=Show Durability/TotalDurability
+module.armor_hud.setting.durability_over_max.description=Shows durability versus total durability.
+module.armor_hud.setting.item_category.name=Item
+module.armor_hud.setting.item_category.description=Categorizes item settings.
+module.armor_hud.setting.render_count.name=Show Item Count On Item
+module.armor_hud.setting.render_count.description=Shows the item count on the item.
+module.armor_hud.setting.count_all.name=Count All Items of Same Type
+module.armor_hud.setting.count_all.description=Counts all items of the same type.
+module.armor_hud.setting.text_category.name=Text Settings
+module.armor_hud.setting.text_category.description=Categorizes text settings.
+module.armor_hud.setting.right_text.name=Text on The Right Side
+module.armor_hud.setting.right_text.description=Text displayed on the right side.
+module.armor_hud.setting.text_color_follow_durability.name=Text Color Depends on Durability
+module.armor_hud.setting.text_color_follow_durability.description=Adjusts text color based on durability.
+module.armor_hud.setting.render_in_containers.name=Render in Containers
+module.armor_hud.setting.render_in_containers.description=Displays in containers.
+module.armor_hud.setting.wish_glint.name=Bad Enchantment Glint
+module.armor_hud.setting.wish_glint.description=Adds a fake enchantment glint for older versions.
+module.armor_hud.setting.glint_speed.name=Bad Glint Speed
+module.armor_hud.setting.glint_speed.description=Adjusts the speed of the bad glint effect.
+module.armor_hud.setting.glint_opacity.name=Bad Glint Opacity
+module.armor_hud.setting.glint_opacity.description=Changes the opacity of the bad glint effect.
+module.armor_hud.setting.glint_color.name=Bad Glint Color
+module.armor_hud.setting.glint_color.description=Specifies the color of the bad glint effect.
 
 
 ## Arrow Counter
 module.arrow_counter.name=Arrow Counter
-module.arrow_counter.description=
-setting.arrow_counter.show_arrow_text.name=
-setting.arrow_counter.show_arrow_text.description=
-setting.arrow_counter.only_display_holding_shooter.name=
-setting.arrow_counter.only_display_holding_shooter.description=
-setting.arrow_counter.hide_if_zero.name=
-setting.arrow_counter.hide_if_zero.description=
-module.arrow_counter.arrow_value=Arrow: 
+module.arrow_counter.description=Displays how many arrows you have in your inventory.
+module.arrow_counter.setting.show_arrow_text.name=Show "Arrow:" Text
+module.arrow_counter.setting.show_arrow_text.description=Displays the text "Arrow:" along with the arrow count.
+module.arrow_counter.setting.only_display_holding_shooter.name=Only Display When Holding Bow/Crossbow
+module.arrow_counter.setting.only_display_holding_shooter.description=Shows the arrow count only when a bow/crossbow is held.
+module.arrow_counter.setting.hide_if_zero.name=Don't Display If No Arrows
+module.arrow_counter.setting.hide_if_zero.description=Hides the arrow count display if there are no arrows.
+module.arrow_counter.arrow_value=Arrow:
 
 
-## 
-module.audio_subtitle.name=
-module.audio_subtitle.description=
-setting.audio_subtitle.sound_category.name=
-setting.audio_subtitle.sound_category.description=
-setting.audio_subtitle.sound_display_time.name=
-setting.audio_subtitle.sound_display_time.description=
-setting.audio_subtitle.newer_sounds_first.name=
-setting.audio_subtitle.newer_sounds_first.description=
-setting.audio_subtitle.ignore_useless_sounds.name=
-setting.audio_subtitle.ignore_useless_sounds.description=
-setting.audio_subtitle.max_name_length.name=
-setting.audio_subtitle.max_name_length.description=
-setting.audio_subtitle.max_column_count.name=
-setting.audio_subtitle.max_column_count.description=
+
+## Audio Subtitles
+module.audio_subtitle.name=Audio Subtitles
+module.audio_subtitle.description=Shows the surrounding audio that's played in the world.
+module.audio_subtitle.setting.sound_category.name=Audio Settings
+module.audio_subtitle.setting.sound_category.description=Categorizes sound settings.
+module.audio_subtitle.setting.sound_display_time.name=Display Time (seconds)
+module.audio_subtitle.setting.sound_display_time.description=Specifies the duration for which subtitles appear.
+module.audio_subtitle.setting.newer_sounds_first.name=Newer Sound First
+module.audio_subtitle.setting.newer_sounds_first.description=Displays newer sounds before older ones.
+module.audio_subtitle.setting.ignore_useless_sounds.name=Hide Useless Sounds
+module.audio_subtitle.setting.ignore_useless_sounds.description=Hides subtitles for sounds considered unnecessary.
+module.audio_subtitle.setting.max_name_length.name=Maximum Name Length
+module.audio_subtitle.setting.max_name_length.description=Sets the maximum characters for sound names in subtitles.
+module.audio_subtitle.setting.max_column_count.name=Maximum Row Count
+module.audio_subtitle.setting.max_column_count.description=Specifies the maximum number of rows displayed for subtitles.
+
 
 
 ## Break Progress Module
 module.break_progress.name=Break Progress Module
-module.break_progress.description=
-setting.break_progress.show_break_text.name=
-setting.break_progress.show_break_text.description=
-setting.break_progress.bar_settings.name=
-setting.break_progress.bar_settings.description=
-setting.break_progress.use_bar.name=
-setting.break_progress.use_bar.description=
-setting.break_progress.always_display.name=
-setting.break_progress.always_display.description=
-setting.break_progress.bar_size.name=
-setting.break_progress.bar_size.description=
-setting.break_progress.bar_color.name=
-setting.break_progress.bar_color.description=
-setting.break_progress.bar_back_color.name=
-setting.break_progress.bar_back_color.description=
-setting.break_progress.bar_direction.name=
-setting.break_progress.bar_direction.description=
-module.break_progress.break_text=Break: 
+module.break_progress.description=Displays the block destroy percentage.
+module.break_progress.setting.show_break_text.name=Show Break Text
+module.break_progress.setting.show_break_text.description=Displays the text "Break:" along with the block destroy percentage.
+module.break_progress.setting.bar_settings.name=Bar Settings
+module.break_progress.setting.bar_settings.description=Settings for the progress bar display.
+module.break_progress.setting.use_bar.name=Use Bar
+module.break_progress.setting.use_bar.description=Enables the use of a progress bar.
+module.break_progress.setting.always_display.name=Always display
+module.break_progress.setting.always_display.description=Keeps the progress display always visible.
+module.break_progress.setting.bar_size.name=Size
+module.break_progress.setting.bar_size.description=Adjusts the size of the progress bar.
+module.break_progress.setting.bar_color.name=Bar Color
+module.break_progress.setting.bar_color.description=Specifies the color of the progress bar.
+module.break_progress.setting.bar_back_color.name=Bar Background Color
+module.break_progress.setting.bar_back_color.description=Specifies the background color of the progress bar.
+module.break_progress.setting.bar_direction.name=Bar Direction
+module.break_progress.setting.bar_direction.description=Sets the direction of the progress bar.
+module.break_progress.break_text=Break:
 
 
 ## Clock Module
 module.clock.name=Clock Module
-module.clock.description=
-setting.clock.add_spaces.name=
-setting.clock.add_spaces.description=
-setting.clock.game_time.name=
-setting.clock.game_time.description=
-setting.clock.show_time_text.name=
-setting.clock.show_time_text.description=
-setting.clock.format_settings.name=
-setting.clock.format_settings.description=
-setting.clock.24_hour_format.name=
-setting.clock.24_hour_format.description=
-setting.clock.show_seconds.name=
-setting.clock.show_seconds.description=
+module.clock.description=Displays the real-world time.
+module.clock.setting.add_spaces.name=Add Spaces
+module.clock.setting.add_spaces.description=Adds spaces between time components.
+module.clock.setting.game_time.name=Use Game Time
+module.clock.setting.game_time.description=Displays in-game time instead of real-world time.
+module.clock.setting.show_time_text.name=Show "Time:" Text
+module.clock.setting.show_time_text.description=Displays the text "Time:" along with the time.
+module.clock.setting.format_settings.name=Format Settings
+module.clock.setting.format_settings.description=Settings for time format.
+module.clock.setting.24_hour_format.name=24 Hour Format
+module.clock.setting.24_hour_format.description=Uses a 24-hour time format.
+module.clock.setting.show_seconds.name=Show Seconds
+module.clock.setting.show_seconds.description=Displays seconds in the time.
 module.clock.time_text=Time: 
+
 
 
 ## Combo Counter
 module.combo_counter.name=Combo Counter
-module.combo_counter.description=
-setting.combo_counter.show_combo_text.name=
-setting.combo_counter.show_combo_text.description=
-setting.combo_counter.flash_when_hit.name=
-setting.combo_counter.flash_when_hit.description=
-module.combo_counter.combo_text=Combo: 
+module.combo_counter.description=Shows the number of hits you land on an enemy without getting hit.
+module.combo_counter.setting.show_combo_text.name=Show "Combo:" Text
+module.combo_counter.setting.show_combo_text.description=Displays the text "Combo:" along with the combo count.
+module.combo_counter.setting.flash_when_hit.name=Flash Module Background When Hit
+module.combo_counter.setting.flash_when_hit.description=Triggers a background flash effect when hit.
+module.combo_counter.combo_text=Combo:
+
 
 
 ## Compass Module
-module.direction_hud.name=Compass Module
-module.direction_hud.description=
-setting.direction_hud.force_center.name=
-setting.direction_hud.force_center.description=
-setting.direction_hud.slow_update.name=
-setting.direction_hud.slow_update.description=
-setting.direction_hud.fade_at.name=
-setting.direction_hud.fade_at.description=
-setting.direction_hud.use_xyz_instead_nsew.name=
-setting.direction_hud.use_xyz_instead_nsew.description=
-setting.direction_hud.compass_amount.name=
-setting.direction_hud.compass_amount.description=
-setting.direction_hud.compass_width.name=
-setting.direction_hud.compass_width.description=
+module.direction_hud.name=Direction HUD
+module.direction_hud.description=Displays the direction you're facing in degrees.
+module.direction_hud.setting.force_center.name=Always Centered
+module.direction_hud.setting.force_center.description=Keeps the display centered at all times.
+module.direction_hud.setting.slow_update.name=Slow Update
+module.direction_hud.setting.slow_update.description=Slows down the updating frequency.
+module.direction_hud.setting.fade_at.name=Fading Distance
+module.direction_hud.setting.fade_at.description=Specifies the distance at which the display starts fading.
+module.direction_hud.setting.use_xyz_instead_nsew.name=Use XYZ Instead of NESW
+module.direction_hud.setting.use_xyz_instead_nsew.description=Uses XYZ coordinates instead of North, East, South, West.
+module.direction_hud.setting.compass_amount.name=Range
+module.direction_hud.setting.compass_amount.description=Sets the range of the compass.
+module.direction_hud.setting.compass_width.name=Width
+module.direction_hud.setting.compass_width.description=Adjusts the width of the display.
+
 
 
 ## Cooldowns Module
-module.cooldowns.name=Cooldowns Module
-module.cooldowns.description=
+module.cooldowns.name=Cooldowns
+module.cooldowns.description=Displays the cooldown of items in your hotbar.
 
 
 ## Coordinates
 module.coordinates.name=Coordinates
-module.coordinates.description=
-setting.coordinates.brackets.name=
-setting.coordinates.brackets.description=
-setting.coordinates.brackets.name=
-setting.coordinates.brackets.description=
-setting.coordinates.show_xyz.name=
-setting.coordinates.show_xyz.description=
-setting.coordinates.same_line.name=
-setting.coordinates.same_line.description=
-setting.coordinates.precise.name=
-setting.coordinates.precise.description=
-setting.coordinates.biome_settings.name=
-setting.coordinates.biome_settings.description=
-setting.coordinates.show_biome.name=
-setting.coordinates.show_biome.description=
-setting.coordinates.automated_biome_color.name=
-setting.coordinates.automated_biome_color.description=
-setting.coordinates.copy_settings.name=
-setting.coordinates.copy_settings.description=
-setting.coordinates.copy_player_key.name=
-setting.coordinates.copy_player_key.description=
-setting.coordinates.copy_selected_key.name=
-setting.coordinates.copy_selected_key.description=
+module.coordinates.description=Displays your current coordinates.
+module.coordinates.setting.brackets.name=Brackets 
+module.coordinates.setting.brackets.description=Encloses coordinates within brackets.
+module.coordinates.setting.use_vanilla_coordinates.name=Use Vanilla Coordinates
+module.coordinates.setting.use_vanilla_coordinates.description=Displays coordinates in the vanilla format.
+module.coordinates.setting.show_xyz.name=Show X: Y: Z:
+module.coordinates.setting.show_xyz.description=Displays X, Y, Z labels alongside coordinates.
+module.coordinates.setting.same_line.name=Display on the Same Line
+module.coordinates.setting.same_line.description=Displays all information on a single line.
+module.coordinates.setting.precise.name=Display Precise Coordinates
+module.coordinates.setting.precise.description=Displays more precise coordinate values.
+module.coordinates.setting.biome_settings.name=Biome Settings
+module.coordinates.setting.biome_settings.description=Settings related to biome display.
+module.coordinates.setting.show_biome.name=Show Biome
+module.coordinates.setting.show_biome.description=Displays the biome information.
+module.coordinates.setting.automated_biome_color.name=Automatic Biome Color
+module.coordinates.setting.automated_biome_color.description=Automatically assigns colors based on biome.
+module.coordinates.setting.copy_settings.name=Copy Position Settings
+module.coordinates.setting.copy_settings.description=Settings for copying position information.
+module.coordinates.setting.copy_player_key.name=Copy Player Position Key
+module.coordinates.setting.copy_player_key.description=Key binding to copy the player's position.
+module.coordinates.setting.copy_selected_key.name=Copy Selected Position Key
+module.coordinates.setting.copy_selected_key.description=Key binding to copy the selected position.
 
 
-## C P Smodule
-module.cps.name=C P Smodule
-module.cps.description=
-setting.cps.hide_cps.name=
-setting.cps.hide_cps.description=
-setting.cps.cps_after_value.name=
-setting.cps.cps_after_value.description=
-setting.cps.show_right_click.name=
-setting.cps.show_right_click.description=
-setting.cps.alternate_splitter.name=
-setting.cps.alternate_splitter.description=
+
+## CPS module
+module.cps.name=CPS Counter
+module.cps.description=Shows your clicks per second.
+module.cps.setting.hide_cps.name=Hide CPS text
+module.cps.setting.hide_cps.description=Hides the CPS text display.
+module.cps.setting.cps_after_value.name=CPS Text on Right Side
+module.cps.setting.cps_after_value.description=Displays CPS text on the right side of the count.
+module.cps.setting.show_right_click.name=Show Right Click CPS
+module.cps.setting.show_right_click.description=Displays CPS specifically for right-click actions.
+module.cps.setting.alternate_splitter.name=Use ":" Splitter
+module.cps.setting.alternate_splitter.description=Uses ":" as a splitter for CPS display.
+
 
 
 ## Day Counter Module
-module.day_counter.name=Day Counter Module
-module.day_counter.description=
-setting.day_counter.session_time.name=
-setting.day_counter.session_time.description=
-setting.day_counter.in_minecraft_day.name=
-setting.day_counter.in_minecraft_day.description=
+module.day_counter.name=Day Counter
+module.day_counter.description=Displays the amount of in-game day or playtime.
+module.day_counter.setting.session_time.name=Session Time
+module.day_counter.setting.session_time.description=Tracks time within the current session.
+module.day_counter.setting.in_minecraft_day.name=Show in Minecraft Days
+module.day_counter.setting.in_minecraft_day.description=Displays time in Minecraft days.
 module.daycounter.days=%s Days
 module.daycounter.seconds=%s Seconds
 
 
+
 ## Flappy Bird Module
-module.flappy_bird.name=Flappy Bird Module
-module.flappy_bird.description=
-setting.flappy_bird.high_quality.name=
-setting.flappy_bird.high_quality.description=
-setting.flappy_bird.keybind_settings.name=
-setting.flappy_bird.keybind_settings.description=
-setting.flappy_bird.jump_key.name=
-setting.flappy_bird.jump_key.description=
-setting.flappy_bird.pause_key.name=
-setting.flappy_bird.pause_key.description=
-setting.flappy_bird.auto_play.name=
-setting.flappy_bird.auto_play.description=
+module.flappy_bird.name=Flappy Bird
+module.flappy_bird.description=A Flappy Bird clone playable in Minecraft!
+module.flappy_bird.setting.high_quality.name=4k Graphics (Low FPS Warning)
+module.flappy_bird.setting.high_quality.description=Enables high-quality graphics (with a low FPS warning).
+module.flappy_bird.setting.keybind_settings.name=Keybind Settings
+module.flappy_bird.setting.keybind_settings.description=Settings for keybindings.
+module.flappy_bird.setting.jump_key.name=Jump Key
+module.flappy_bird.setting.jump_key.description=Key assigned for jumping.
+module.flappy_bird.setting.pause_key.name=Pause Key
+module.flappy_bird.setting.pause_key.description=Key assigned for pausing the game.
+module.flappy_bird.setting.auto_play.name=Auto Play
+module.flappy_bird.setting.auto_play.description=Enables automatic gameplay.
+
 
 
 ## F P S Counter Module
-module.fps.name=F P S Counter Module
-module.fps.description=
+module.fps.name=FPS Counter
+module.fps.description=Displays your frames per second.
 
 
 ## Item Tracker Module
-module.item_tracker.name=Item Tracker Module
-module.item_tracker.description=
-setting.item_tracker.max_displayed_changes.name=
-setting.item_tracker.max_displayed_changes.description=
-setting.item_tracker.display_time.name=
-setting.item_tracker.display_time.description=
-setting.item_tracker.added_color.name=
-setting.item_tracker.added_color.description=
-setting.item_tracker.removed_color.name=
-setting.item_tracker.removed_color.description=
-setting.item_tracker.bracket_color.name=
-setting.item_tracker.bracket_color.description=
-setting.item_tracker.ignored_slots.name=
-setting.item_tracker.ignored_slots.description=
+module.item_tracker.name=Item Tracker
+module.item_tracker.description=Displays when and how many items you pick up or drop.
+module.item_tracker.setting.max_displayed_changes.name=Max Displayed Changes
+module.item_tracker.setting.max_displayed_changes.description=Sets the maximum number of changes displayed.
+module.item_tracker.setting.display_time.name=Change Stay Time
+module.item_tracker.setting.display_time.description=Specifies the duration changes stay visible.
+module.item_tracker.setting.added_color.name=Added Color
+module.item_tracker.setting.added_color.description=Specifies the color for added items.
+module.item_tracker.setting.removed_color.name=Removed Color
+module.item_tracker.setting.removed_color.description=Specifies the color for removed items.
+module.item_tracker.setting.bracket_color.name=Bracket Color
+module.item_tracker.setting.bracket_color.description=Specifies the color for brackets.
+module.item_tracker.setting.ignored_slots.name=Ignored Slots
+module.item_tracker.setting.ignored_slots.description=Specifies slots to be ignored in tracking.
+
 
 
 ## Keystrokes
 module.keystrokes.name=Keystrokes
-module.keystrokes.description=
-setting.keystrokes.key_settings.name=
-setting.keystrokes.key_settings.description=
-setting.keystrokes.key_width.name=
-setting.keystrokes.key_width.description=
-setting.keystrokes.hide_cps.name=
-setting.keystrokes.hide_cps.description=
-setting.keystrokes.hide_mouse_buttons.name=
-setting.keystrokes.hide_mouse_buttons.description=
-setting.keystrokes.hide_spaceber.name=
-setting.keystrokes.hide_spaceber.description=
-setting.keystrokes.border_settings.name=
-setting.keystrokes.border_settings.description=
-setting.keystrokes.key_border.name=
-setting.keystrokes.key_border.description=
-setting.keystrokes.border_uses_text_color.name=
-setting.keystrokes.border_uses_text_color.description=
-setting.keystrokes.border_width.name=
-setting.keystrokes.border_width.description=
-setting.keystrokes.border_up_color.name=
-setting.keystrokes.border_up_color.description=
-setting.keystrokes.border_down_color.name=
-setting.keystrokes.border_down_color.description=
-setting.keystrokes.animation_settings.name=
-setting.keystrokes.animation_settings.description=
-setting.keystrokes.fade_animation_on_text.name=
-setting.keystrokes.fade_animation_on_text.description=
-setting.keystrokes.fade_animation_on_border.name=
-setting.keystrokes.fade_animation_on_border.description=
-setting.keystrokes.fade_animation_duration.name=
-setting.keystrokes.fade_animation_duration.description=
-setting.keystrokes.display_keybind_settings.name=
-setting.keystrokes.display_keybind_settings.description=
-setting.keystrokes.key_forward.name=
-setting.keystrokes.key_forward.description=
-setting.keystrokes.key_left.name=
-setting.keystrokes.key_left.description=
-setting.keystrokes.key_back.name=
-setting.keystrokes.key_back.description=
-setting.keystrokes.key_right.name=
-setting.keystrokes.key_right.description=
-setting.keystrokes.key_is_arrow.name=
-setting.keystrokes.key_is_arrow.description=
-setting.keystrokes.key_roundness.name=
-setting.keystrokes.key_roundness.description=
-setting.keystrokes.font_size.name=
-setting.keystrokes.font_size.description=
-setting.keystrokes.cps_font_ratio.name=
-setting.keystrokes.cps_font_ratio.description=
-setting.keystrokes.spacebar_block_size.name=
-setting.keystrokes.spacebar_block_size.description=
-setting.keystrokes.color_settings.name=
-setting.keystrokes.color_settings.description=
-setting.keystrokes.up_text_color.name=
-setting.keystrokes.up_text_color.description=
-setting.keystrokes.down_text_color.name=
-setting.keystrokes.down_text_color.description=
-setting.keystrokes.up_back_color.name=
-setting.keystrokes.up_back_color.description=
-setting.keystrokes.down_back_color.name=
-setting.keystrokes.down_back_color.description=
+module.keystrokes.description=Displays your keystrokes on screen.
+module.keystrokes.setting.key_settings.name=Key Settings
+module.keystrokes.setting.key_settings.description=Settings related to keys.
+module.keystrokes.setting.key_width.name=Key Width
+module.keystrokes.setting.key_width.description=Adjusts the width of keys.
+module.keystrokes.setting.hide_cps.name=Hide CPS
+module.keystrokes.setting.hide_cps.description=Hides CPS display.
+module.keystrokes.setting.hide_mouse_buttons.name=Hide Mouse Buttons
+module.keystrokes.setting.hide_mouse_buttons.description=Hides mouse button display.
+module.keystrokes.setting.hide_spaceber.name=Hide Spacebar
+module.keystrokes.setting.hide_spaceber.description=Hides the spacebar display.
+module.keystrokes.setting.border_settings.name=Border Settings
+module.keystrokes.setting.border_settings.description=Settings for key borders.
+module.keystrokes.setting.key_border.name=Key Border
+module.keystrokes.setting.key_border.description=Enables key borders.
+module.keystrokes.setting.border_uses_text_color.name=Border Uses Text Color
+module.keystrokes.setting.border_uses_text_color.description=Uses text color for key borders.
+module.keystrokes.setting.border_width.name=Key Border Width
+module.keystrokes.setting.border_width.description=Specifies the width of key borders.
+module.keystrokes.setting.border_up_color.name=Up Border Color
+module.keystrokes.setting.border_up_color.description=Sets the color for the up border.
+module.keystrokes.setting.border_down_color.name=Down Border Color
+module.keystrokes.setting.border_down_color.description=Sets the color for the down border.
+module.keystrokes.setting.animation_settings.name=Animation Settings
+module.keystrokes.setting.animation_settings.description=Settings for keystroke animations.
+module.keystrokes.setting.fade_animation_on_text.name=Fade Animation on Text
+module.keystrokes.setting.fade_animation_on_text.description=Applies fade animation to text.
+module.keystrokes.setting.fade_animation_on_border.name=Fade Animation on Border
+module.keystrokes.setting.fade_animation_on_border.description=Applies fade animation to borders.
+module.keystrokes.setting.fade_animation_duration.name=Fade Animation Duration
+module.keystrokes.setting.fade_animation_duration.description=Specifies the duration of fade animations.
+module.keystrokes.setting.display_keybind_settings.name=Keybind Settings
+module.keystrokes.setting.display_keybind_settings.description=Settings for keybindings display.
+module.keystrokes.setting.key_forward.name=Forward Key
+module.keystrokes.setting.key_forward.description=Assigns the key for forward movement.
+module.keystrokes.setting.key_left.name=Left Key
+module.keystrokes.setting.key_left.description=Assigns the key for left movement.
+module.keystrokes.setting.key_back.name=Backward Key
+module.keystrokes.setting.key_back.description=Assigns the key for backward movement.
+module.keystrokes.setting.key_right.name=Right Key
+module.keystrokes.setting.key_right.description=Assigns the key for right movement.
+module.keystrokes.setting.key_is_arrow.name=Show Arrows Instead of Keys
+module.keystrokes.setting.key_is_arrow.description=Displays arrows instead of keys.
+module.keystrokes.setting.key_roundness.name=Button Roundess
+module.keystrokes.setting.key_roundness.description=Adjusts the roundness of keys.
+module.keystrokes.setting.font_size.name=Font Size
+module.keystrokes.setting.font_size.description=Specifies the font size.
+module.keystrokes.setting.cps_font_ratio.name=CPS To Font Ratio
+module.keystrokes.setting.cps_font_ratio.description=Adjusts CPS display relative to the font size.
+module.keystrokes.setting.spacebar_block_size.name=Spacebar Size
+module.keystrokes.setting.spacebar_block_size.description=Adjusts the size of the spacebar.
+module.keystrokes.setting.color_settings.name=Color Settings
+module.keystrokes.setting.color_settings.description=Settings for colors.
+module.keystrokes.setting.up_text_color.name=Up Text Color
+module.keystrokes.setting.up_text_color.description=Specifies the color for up text.
+module.keystrokes.setting.down_text_color.name=Down Text Color
+module.keystrokes.setting.down_text_color.description=Specifies the color for down text.
+module.keystrokes.setting.up_back_color.name=Up Background Color
+module.keystrokes.setting.up_back_color.description=Specifies the background color for up keys.
+module.keystrokes.setting.down_back_color.name=Down Background Color
+module.keystrokes.setting.down_back_color.description=Specifies the background color for down keys.
+
 
 
 ## Memory Usage Module
-module.memory_usage.name=Memory Usage Module
-module.memory_usage.description=
-setting.memory_usage.percent.name=
-setting.memory_usage.percent.description=
-setting.memory_usage.megabytes_only.name=
-setting.memory_usage.megabytes_only.description=
+module.memory_usage.name=Memory Usage
+module.memory_usage.description=Displays the RAM usage of the game.
+module.memory_usage.setting.percent.name=Show Percentage
+module.memory_usage.setting.percent.description=Displays the RAM usage as a percentage.
+module.memory_usage.setting.megabytes_only.name=Only Megabytes
+module.memory_usage.setting.megabytes_only.description=Displays the RAM usage in megabytes only.
+
 
 
 ## Minimap Module
-module.minimap.name=Minimap Module
-module.minimap.description=
+module.minimap.name=Minimap
+module.minimap.description=Displays a minimap on the screen.
 
 
 ## Movable Actionbar Module
-module..name=Movable Actionbar Module
-module..description=
+module..name=Movable Actionbar
+module..description=Allows you to customize the position of the actionbar.
 
 
 ## Movable Chat Module
-module.movable_chat.name=Movable Chat Module
-module.movable_chat.description=
-setting.movable_chat.use_client_font.name=
-setting.movable_chat.use_client_font.description=
-setting.movable_chat.align_left.name=
-setting.movable_chat.align_left.description=
-setting.movable_chat.origin_from_top.name=
-setting.movable_chat.origin_from_top.description=
-setting.movable_chat.size_from_content_size.name=
-setting.movable_chat.size_from_content_size.description=
-setting.movable_chat.chat_width.name=
-setting.movable_chat.chat_width.description=
-setting.movable_chat.chat_lines.name=
-setting.movable_chat.chat_lines.description=
-setting.movable_chat.animation_settings.name=
-setting.movable_chat.animation_settings.description=
-setting.movable_chat.message_screen_time.name=
-setting.movable_chat.message_screen_time.description=
-setting.movable_chat.message_inout_animation_speed.name=
-setting.movable_chat.message_inout_animation_speed.description=
-setting.movable_chat.animations.name=
-setting.movable_chat.animations.description=
-setting.movable_chat.animation_interpolator.name=
-setting.movable_chat.animation_interpolator.description=
-setting.movable_chat.text_shadow.name=
-setting.movable_chat.text_shadow.description=
-setting.movable_chat.default_text_color.name=
-setting.movable_chat.default_text_color.description=
-setting.movable_chat.bottom_chat_mode.name=
-setting.movable_chat.bottom_chat_mode.description=
-setting.movable_chat.bottom_chat_height.name=
-setting.movable_chat.bottom_chat_height.description=
+module.movable_chat.name=Movable Chat
+module.movable_chat.description=Enables chat customization and movement.
+module.movable_chat.setting.use_client_font.name=Use Client Font
+module.movable_chat.setting.use_client_font.description=Applies the client's font to the chat.
+module.movable_chat.setting.align_left.name=Aligned To The Left
+module.movable_chat.setting.align_left.description=Aligns the chat to the left side.
+module.movable_chat.setting.origin_from_top.name=Originate From Top
+module.movable_chat.setting.origin_from_top.description=Positions the chat originating from the top.
+module.movable_chat.setting.size_from_content_size.name=Match Message & Background Lengths
+module.movable_chat.setting.size_from_content_size.description=Synchronizes message and background lengths.
+module.movable_chat.setting.chat_width.name=Chatbox Width
+module.movable_chat.setting.chat_width.description=Adjusts the width of the chat box.
+module.movable_chat.setting.chat_lines.name=Chatbox Maximum Line Count
+module.movable_chat.setting.chat_lines.description=Sets the maximum line count in the chat box.
+module.movable_chat.setting.animation_settings.name=Animation Settings (Seconds)
+module.movable_chat.setting.animation_settings.description=Settings related to chat animations.
+module.movable_chat.setting.message_screen_time.name=Display Time
+module.movable_chat.setting.message_screen_time.description=Specifies the time messages are displayed.
+module.movable_chat.setting.message_inout_animation_speed.name=In/Out Animation Speed
+module.movable_chat.setting.message_inout_animation_speed.description=Controls the speed of message animations.
+module.movable_chat.setting.animations.name=Animations
+module.movable_chat.setting.animations.description=Manages chat animations.
+module.movable_chat.setting.animation_interpolator.name=Animation Interpolator
+module.movable_chat.setting.animation_interpolator.description=Specifies the animation interpolator.
+module.movable_chat.setting.text_shadow.name=Shadows
+module.movable_chat.setting.text_shadow.description=Manages text shadows in the chat.
+module.movable_chat.setting.default_text_color.name=Default Text Color
+module.movable_chat.setting.default_text_color.description=Sets the default text color in the chat.
+module.movable_chat.setting.bottom_chat_mode.name=Bottom Chat Mode
+module.movable_chat.setting.bottom_chat_mode.description=Activates bottom chat mode.
+module.movable_chat.setting.bottom_chat_height.name=Bottom Chat Height
+module.movable_chat.setting.bottom_chat_height.description=Adjusts the height of the bottom chat.
+
 
 
 ## Movable Paperdoll Module
-module.movable_paperdoll.name=Movable Paperdoll Module
-module.movable_paperdoll.description=
-setting.movable_paperdoll.always_render.name=
-setting.movable_paperdoll.always_render.description=
+module.movable_paperdoll.name=Movable Paperdoll
+module.movable_paperdoll.description=Enables movement and scaling of the paperdoll.
+module.movable_paperdoll.setting.always_render.name=Always Render
+module.movable_paperdoll.setting.always_render.description=Ensures the paperdoll is always visible.
+
 
 
 ## Movable Scoreboard Module
-module.movable_scoreboard.name=Movable Scoreboard Module
-module.movable_scoreboard.description=
-setting.movable_scoreboard.show_title.name=
-setting.movable_scoreboard.show_title.description=
-setting.movable_scoreboard.show_offline_players.name=
-setting.movable_scoreboard.show_offline_players.description=
-setting.movable_scoreboard.show_show_entity.name=
-setting.movable_scoreboard.show_show_entity.description=
-setting.movable_scoreboard.show_score.name=
-setting.movable_scoreboard.show_score.description=
-setting.movable_scoreboard..name=
-setting.movable_scoreboard..description=
-setting.movable_scoreboard.scripting_invisible_please.name=
-setting.movable_scoreboard.scripting_invisible_please.description=
-setting.movable_scoreboard.max_lines.name=
-setting.movable_scoreboard.max_lines.description=
+module.movable_scoreboard.name=Movable Scoreboard
+module.movable_scoreboard.description=Allows customization and movement of the scoreboard.
+module.movable_scoreboard.setting.show_title.name=Display Title
+module.movable_scoreboard.setting.show_title.description=Shows the scoreboard title.
+module.movable_scoreboard.setting.show_offline_players.name=Display Offline Players
+module.movable_scoreboard.setting.show_offline_players.description=Displays offline players on the scoreboard.
+module.movable_scoreboard.setting.show_show_entity.name=Display Entities (the -457485725478524 thing)
+module.movable_scoreboard.setting.show_show_entity.description=Shows entities on the scoreboard.
+module.movable_scoreboard.setting.show_score.name=Display Score Number
+module.movable_scoreboard.setting.show_score.description=Displays the score numbers.
+module.movable_scoreboard.setting.use_vanilla_position.name=Use Vanilla Position
+module.movable_scoreboard.setting.use_vanilla_position.description=Utilizes the default scoreboard position.
+module.movable_scoreboard.setting.scripting_invisible_please.name=As a Script I would like it to be invis pls :blushing:
+module.movable_scoreboard.setting.scripting_invisible_please.description=Hides the scoreboard.
+module.movable_scoreboard.setting.max_lines.name=Max Entries
+module.movable_scoreboard.setting.max_lines.description=Sets the maximum entries on the scoreboard.
+
 
 
 ## Movable Title Module
-module..name=Movable Title Module
-module..description=
+module..name=Movable Title
+module..description=Allows you to customize the position of the title.
 
 
 ## Pack Display
 module.module.name=Pack Display
-module.module.description=
-setting.module.display_settings.name=
-setting.module.display_settings.description=
-setting.module.miscellaneous_settings.name=
-setting.module.miscellaneous_settings.description=
+module.module.description=Displays the name and description of your texture packs on screen.
+module.module.setting.display_settings.name=
+module.module.setting.display_settings.description=
+module.module.setting.miscellaneous_settings.name=
+module.module.setting.miscellaneous_settings.description=
 
 
 ## Ping Display Module
-module.ping_display.name=Ping Display Module
-module.ping_display.description=
-setting.ping_display.display_average.name=
-setting.ping_display.display_average.description=
-setting.ping_display.lowercase_ms.name=
-setting.ping_display.lowercase_ms.description=
-setting.ping_display.space.name=
-setting.ping_display.space.description=
+module.ping_display.name=Ping Display
+module.ping_display.description=Displays your ping to the server.
+module.ping_display.setting.display_average.name=Use Average Ping
+module.ping_display.setting.display_average.description=Displays the average ping.
+module.ping_display.setting.lowercase_ms.name=Lowercase MS
+module.ping_display.setting.lowercase_ms.description=Displays "ms" in lowercase.
+module.ping_display.setting.space.name=Space Between Ping and MS
+module.ping_display.setting.space.description=Adds space between the ping value and "ms".
 module.ping_display.ms_abreviation_up=%sMS
 module.ping_display.ms_abreviation_low=%sms
 
 
+
 ## Pot Counter
 module.potion_counter.name=Pot Counter
-module.potion_counter.description=
-setting.potion_counter.show_potion_text.name=
-setting.potion_counter.show_potion_text.description=
-setting.potion_counter.hide_without_items.name=
-setting.potion_counter.hide_without_items.description=
-module.potion_counter.potion_text=Potion: 
+module.potion_counter.description=Shows the number of instant health potions you currently possess.
+module.potion_counter.setting.hide_without_items.name=Don't Display If No Potions
+module.potion_counter.setting.hide_without_items.description=Hides the counter if there are no potions.
+module.potion_counter.potion_text=Potion:
+
 
 
 ## Potion Hud
 module.potion_hud.name=Potion Hud
-module.potion_hud.description=
-setting.potion_hud.icon_opacity.name=
-setting.potion_hud.icon_opacity.description=
-setting.potion_hud.text_padding.name=
-setting.potion_hud.text_padding.description=
-setting.potion_hud.hide_icons.name=
-setting.potion_hud.hide_icons.description=
-setting.potion_hud.hide_names.name=
-setting.potion_hud.hide_names.description=
-setting.potion_hud.hide_timers.name=
-setting.potion_hud.hide_timers.description=
-setting.potion_hud.brewing_guide_category.name=
-setting.potion_hud.brewing_guide_category.description=
-setting.potion_hud.show_in_stand.name=
-setting.potion_hud.show_in_stand.description=
-setting.potion_hud.brewable_only.name=
-setting.potion_hud.brewable_only.description=
+module.potion_hud.description=Displays your current status effects and their duration.
+module.potion_hud.setting.icon_opacity.name=Icon Opacity
+module.potion_hud.setting.icon_opacity.description=Adjusts the opacity of the icons.
+module.potion_hud.setting.text_padding.name=Text Padding
+module.potion_hud.setting.text_padding.description=Manages the padding around text.
+module.potion_hud.setting.hide_icons.name=Hide Icons
+module.potion_hud.setting.hide_icons.description=Hides the icons.
+module.potion_hud.setting.hide_names.name=Hide Names
+module.potion_hud.setting.hide_names.description=Hides the effect names.
+module.potion_hud.setting.hide_timers.name=Hide Timers
+module.potion_hud.setting.hide_timers.description=Hides the effect timers.
+module.potion_hud.setting.brewing_guide_category.name=Brewing Guide Settings
+module.potion_hud.setting.brewing_guide_category.description=Settings related to brewing guides.
+module.potion_hud.setting.show_in_stand.name=Show Guide in Stand
+module.potion_hud.setting.show_in_stand.description=Displays the guide in the stand.
+module.potion_hud.setting.brewable_only.name=Doable Brews Only
+module.potion_hud.setting.brewable_only.description=Displays only brewable potions.
 module.potion_hud.brewing_guide.brew_longer=Longer Potion
 module.potion_hud.brewing_guide.brew_stronger=Stronger Potion
 
 
+
 ## Reach Display
 module.reach_display.name=Reach Display
-module.reach_display.description=
-setting.reach_display.show_reach_text.name=
-setting.reach_display.show_reach_text.description=
-module.reach_display.reach_text=Reach: 
+module.reach_display.description=Shows the reach of your last hit. Not 100% accurate due to latency!
+module.reach_display.setting.show_reach_text.name=Show \Reach:\ Text
+module.reach_display.setting.show_reach_text.description=Displays the "Reach" text.
+module.reach_display.reach_text=Reach:
+
 
 
 ## Server Module
-module.server_ip.name=Server Module
-module.server_ip.description=
-setting.server_ip.show_port.name=
-setting.server_ip.show_port.description=
+module.server_ip.name=Server IP
+module.server_ip.description=Displays the IP of the server you are playing on.
+module.server_ip.setting.show_port.name=Show Server Port
+module.server_ip.setting.show_port.description=Displays the server port along with the IP.
+
 
 
 ## Snake Module
 module.snake.name=Snake Module
-module.snake.description=
-setting.snake.high_quality.name=
-setting.snake.high_quality.description=
-setting.snake.key_up.name=
-setting.snake.key_up.description=
-setting.snake.key_down.name=
-setting.snake.key_down.description=
-setting.snake.key_left.name=
-setting.snake.key_left.description=
-setting.snake.key_right.name=
-setting.snake.key_right.description=
+module.snake.description=A Minecraft version of the classic game Snake!
+module.snake.setting.high_quality.name=HD Graphics (Low FPS Warning)
+module.snake.setting.high_quality.description=Enables high-definition graphics with a low FPS warning.
+module.snake.setting.key_up.name=Up Key
+module.snake.setting.key_up.description=Key used for upward movement.
+module.snake.setting.key_down.name=Down Key
+module.snake.setting.key_down.description=Key used for downward movement.
+module.snake.setting.key_left.name=Left Key
+module.snake.setting.key_left.description=Key used for leftward movement.
+module.snake.setting.key_right.name=Right Key
+module.snake.setting.key_right.description=Key used for rightward movement.
+
 
 
 ## Soup Counter
 module.soup_counter.name=Soup Counter
-module.soup_counter.description=
-setting.soup_counter.show_soup_text.name=
-setting.soup_counter.show_soup_text.description=
-module.soup_counter.potion_text=Soup: 
+module.soup_counter.description=Shows the number of soups in your inventory.
+module.soup_counter.setting.hide_without_items.name=Don't display if no soups
+module.soup_counter.setting.hide_without_items.description=Hides the counter if no soups are in the inventory.
+module.soup_counter.potion_text=Soup:
+
 
 
 ## Speed Counter
-module.speed_display.name=Speed Counter
-module.speed_display.description=
-setting.speed_display.include_vertical_speed.name=
-setting.speed_display.include_vertical_speed.description=
+module.speed_display.name=Speed Display
+module.speed_display.description=Shows your speed in blocks per second.
+module.speed_display.setting.include_vertical_speed.name=Include Vertical Speed
+module.speed_display.setting.include_vertical_speed.description=Includes vertical speed in the display.
 module.speed_display.blocks_per_second=blocks/s
 
 
+
 ## Stopwatch Module
-module.stopwatch.name=Stopwatch Module
-module.stopwatch.description=
-setting.stopwatch.start_stop_key.name=
-setting.stopwatch.start_stop_key.description=
-setting.stopwatch.pause_unpause_key.name=
-setting.stopwatch.pause_unpause_key.description=
+module.stopwatch.name=Stopwatch
+module.stopwatch.description=Displays a stopwatch on the screen.
+module.stopwatch.setting.start_stop_key.name=Start/Stop Key
+module.stopwatch.setting.start_stop_key.description=Key used to start or stop the stopwatch.
+module.stopwatch.setting.pause_unpause_key.name=Pause/Unpause Key
+module.stopwatch.setting.pause_unpause_key.description=Key used to pause or unpause the stopwatch.
+
 
 
 ## Visual Testing
@@ -1528,11 +1551,11 @@ module.visual_testing.description=
 
 
 ## Waila Module
-module.waila.name=Waila Module
-module.waila.description=
-setting.waila.enable_outline.name=
-setting.waila.enable_outline.description=
-setting.waila.original_position.name=
-setting.waila.original_position.description=
-setting.waila.height_offset.name=
-setting.waila.height_offset.description=
+module.waila.name=WAILA
+module.waila.description=Displays information about blocks when you look at them.
+module.waila.setting.enable_outline.name=Outline
+module.waila.setting.enable_outline.description=Enables outline display.
+module.waila.setting.original_position.name=Use Original Mods Position
+module.waila.setting.original_position.description=Uses the original mod's position.
+module.waila.setting.height_offset.name=Height Offset
+module.waila.setting.height_offset.description=Adjusts the height offset for the display.

@@ -41,6 +41,12 @@
             "code": "fr_FR",
             "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/fr_FR.lang",
             "version": 1
+        },
+        {
+            "visual_name": "Română (Romania)",
+            "code": "ro_RO",
+            "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/ro_RO.lang",
+            "version": 1
         }
     ]
     

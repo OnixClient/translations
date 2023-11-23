@@ -1,10 +1,10 @@
 ## Generic module settings
-module.module.key.name=Toggle Module Key
-module.module.key.description=The key that will toggle the module on and off.
-module.visual.setting.visual_settings.name=Visual Settings
-module.visual.setting.visual_settings.description=Settings to change the visual appearance of the module.
-module.visual.setting.display_settings.name=Display Settings
-module.visual.setting.display_settings.description=Settings to change what the module displays.
+module.module.setting.key.name=Toggle Module Key
+module.module.setting.key.description=The key that will toggle the module on and off.
+module.module.setting.visual_settings.name=Visual Settings
+module.module.setting.visual_settings.description=Settings to change the visual appearance of the module.
+module.module.setting.display_settings.name=Display Settings
+module.module.setting.display_settings.description=Settings to change what the module displays.
 module.visual.setting.scale.name=Scale
 module.visual.setting.scale.description=The scale of the module, will multiply the size by the specified amount.
 module.visual.setting.padding.name=Padding
@@ -21,14 +21,26 @@ module.visual.setting.outline_color.name=Outline Color
 module.visual.setting.outline_color.description=The color of the outline.
 module.visual.setting.outline_width.name=Outline Width
 module.visual.setting.outline_width.description=The width of the outline.
+module.visual.setting.has_fixed_width.name=Use Fixed Width
+module.visual.setting.has_fixed_width.description=Keep the width like it is.
 module.visual.setting.fixed_width.name=Fixed Width
-module.visual.setting.fixed_width.description=Keep the width like it is.
+module.visual.setting.fixed_width.description=What width should it be.
 module.visual.setting.precision.name=Precision
-module.visual.setting.fixed_width.description=Keep the width like it is.
+module.visual.setting.precision.description=The precision of the value.
 module.visual.setting.corner_roundness.name=Rounded Corner Radius
 module.visual.setting.corner_roundness.description=The size of the rounded part of corners.
 module.visual.setting.corner_quality.name=Rounded Corner Quality
 module.visual.setting.corner_quality.description=The quality of the rounded corners, higher the better, does not affect new renderer.
+module.visual.setting.expand_direction.name=Expand Direction
+module.visual.setting.expand_direction.description=The direction the module will expand in.
+module.visual.setting.anchor.name=Anchor
+module.visual.setting.anchor.description=The anchor of the module, the position will be relative to.
+module.visual.setting.position.name=Position
+module.visual.setting.position.description=The raw position of the module.
+module.textual.setting.bracket_type.name=Bracket Type
+module.textual.setting.bracket_type.description=The type of brackets to use.
+module.textual.setting.space_between_brackets.name=Space Between Brackets
+module.textual.setting.space_between_brackets.description=Include a space between the brackets and text.
 
 module.module.setting.main_settings.name=Main Settings
 module.module.setting.main_settings.description=Settings to change the main functionality of the module.
@@ -78,7 +90,6 @@ module.ui.setting.key_overlay_help=Press any key to set it, Press escape to exit
 module.ui.setting.settings=Settings
 
 ## Theme Editor
-module.themeui.setting.key_overlay_help=Press any key to set it, Press escape to exit without change.
 module.themeuipreview.name=Theme Preview
 module.themeuipreview.description=This is a preview to see the changes you are making!
 module.themeuipreview.setting.presets.name=Presets
@@ -148,35 +159,151 @@ module.remind_202020.setting.snooze_key.description=The key that will snooze the
 ## Animation Settings
 module.animation_settings.name=Animation Settings
 module.animation_settings.description=Allows you to change various animations.
+module.animation_settings.setting.button_hover_size_multiplier.name=Button Hover Size Multiplier
+module.animation_settings.setting.button_hover_size_multiplier.description=Multiplier for button size when hovered.
+module.animation_settings.setting.popup_initial_growth_size_multiplier.name=Popup Initial Growth Size Multiplier
+module.animation_settings.setting.popup_initial_growth_size_multiplier.description=Multiplier for initial size of popups.
+module.animation_settings.setting.setting_list_animation_offset.name=Setting List Animation Offset
+module.animation_settings.setting.setting_list_animation_offset.description=Offset for animation in the setting list.
+module.animation_settings.setting.setting_list_comes_from_right.name=Setting List Comes From Right
+module.animation_settings.setting.setting_list_comes_from_right.description=Determine if the setting list should appear from the right.
+module.animation_settings.setting.setting_list_reload_with_search.name=Setting List Reload with Search
+module.animation_settings.setting.setting_list_reload_with_search.description=Enable reload of setting list when searching.
+module.animation_settings.setting.setting_list_initial_growth_size_multiplier.name=Setting List Initial Size Multiplier
+module.animation_settings.setting.setting_list_initial_growth_size_multiplier.description=Multiplier for initial size growth of the setting list.
+module.animation_settings.setting.category_title.name=%s Settings
+module.animation_settings.setting.category_title.description=Settings for the %s animation.
+module.animation_settings.setting.animate.name=Animate
+module.animation_settings.setting.animate.description=Enable or disable this animation
+module.animation_settings.setting.duration.name=Duration
+module.animation_settings.setting.duration.description=Duration of the animations in seconds.
+module.animation_settings.setting.easing.name=Easing
+module.animation_settings.setting.easing.description=Easing function for the animations.
+
+
 
 ## Global Settings
 module.global_settings.name=Global Settings
-module.global_settings.description=Change global settings for the client.
+module.global_settings.description=Adjust global configurations for the client.
+module.global_settings.setting.open_gui_key.name=Open Client Key
+module.global_settings.setting.open_gui_key.description=Key used to open the client GUI.
+module.global_settings.setting.mojangles_in_game.name=Minecraft Font in Game
+module.global_settings.setting.mojangles_in_game.description=Enables Minecraft font in the game.
+module.global_settings.setting.mojangles_in_ui.name=Minecraft Font in UI
+module.global_settings.setting.mojangles_in_ui.description=Utilizes Minecraft font in the UI.
+module.global_settings.setting.text_shadow.name=Text Shadow
+module.global_settings.setting.text_shadow.description=Enables text shadow.
+module.global_settings.setting.show_nsfw_mods.name=Show NSFW Mods (18+)
+module.global_settings.setting.show_nsfw_mods.description=Displays NSFW mods if enabled.
+module.global_settings.setting.notify_blocked_modules.name=Notify Blocked Modules
+module.global_settings.setting.notify_blocked_modules.description=Notifies about blocked modules.
+module.global_settings.setting.use_new_renderer.name=Use New Renderer
+module.global_settings.setting.use_new_renderer.description=Utilizes the new renderer.
+
+## hi translators, dont question why this is here, just translate it
+module.global_settings.setting.show_if_rosie_blushes.name=Show If Rosie Is Blushing
+module.global_settings.setting.show_if_rosie_blushes.description=Shows if Rosie is blushing.
+
+module.global_settings.setting.blur_settings_category.name=Blur Settings
+module.global_settings.setting.blur_settings_category.description=Settings related to blurring.
+module.global_settings.setting.blur_module_background.name=Blur Module Background
+module.global_settings.setting.blur_module_background.description=Enables blurring of module backgrounds.
+module.global_settings.setting.blur_strength.name=Blur Amount
+module.global_settings.setting.blur_strength.description=Adjusts the intensity of the blur effect.
+module.global_settings.setting.blur_delay.name=Blur Delay
+module.global_settings.setting.blur_delay.description=Specifies the delay for blur effects.
+module.global_settings.setting.blur_delay_warning.name=High blur delays can result in performance increase at the cost of some visual fidelity.
+module.global_settings.setting.blur_quality.name=Blur Quality Reducer
+module.global_settings.setting.blur_quality.description=Reduces the quality of the blur effect.
+
+module.global_settings.setting.hud_editor_settings_category.name=HUD Settings
+module.global_settings.setting.hud_editor_settings_category.description=Settings related to the HUD editor.
+module.global_settings.setting.module_snapping.name=Module Snapping
+module.global_settings.setting.module_snapping.description=Enables snapping of modules.
+module.global_settings.setting.snap_lines.name=Snap Lines
+module.global_settings.setting.snap_lines.description=Shows guidelines for snapping modules.
+module.global_settings.setting.show_visual_module_name.name=Show Visual Module Names
+module.global_settings.setting.show_visual_module_name.description=Displays visual module names.
+module.global_settings.setting.idiots_wants_to_see_mods_in_f1.name=Don't Hide Mods in F1
+module.global_settings.setting.idiots_wants_to_see_mods_in_f1.description=Shows mods in F1.
+
+module.global_settings.setting.screenshot_settings_category.name=Screenshot Settings
+module.global_settings.setting.screenshot_settings_category.description=Settings related to screenshots.
+module.global_settings.setting.screenshot_key.name=Screenshot Key
+module.global_settings.setting.screenshot_key.description=Key used to capture screenshots.
+module.global_settings.setting.mods_in_screenshot.name=Capture Modules In Screenshots
+module.global_settings.setting.mods_in_screenshot.description=Includes modules in screenshots.
+module.global_settings.setting.copy_screenshots.name=Copy Screenshots to Clipboard
+module.global_settings.setting.copy_screenshots.description=Copies screenshots to the clipboard.
+module.global_settings.setting.screenshot_chat_message.name=Send Chat Message
+module.global_settings.setting.screenshot_chat_message.description=Sends a chat message when a screenshot is captured.
+
+module.global_settings.setting.show_pause_button.name=Show Pause Screen Button
+module.global_settings.setting.show_pause_button.description=Enables display of the pause screen button.
+module.global_settings.setting.center_mouse_on_ui_open.name=Center Cursor on UI Open
+module.global_settings.setting.center_mouse_on_ui_open.description=Positions the cursor in the center when UI opens.
+
+module.global_settings.setting.bulk_settings.name=Global Module Settings
+module.global_settings.setting.bulk_settings.description=Settings applied to multiple modules at once.
+module.global_settings.setting.all_mods_scale.name=Module Scale
+module.global_settings.setting.all_mods_scale.description=Adjusts the scale of all modules.
+module.global_settings.setting.apply_all_mods_scale.name=Apply to all modules
+module.global_settings.setting.apply_all_mods_scale.button=Apply
+module.global_settings.setting.all_mods_text_color.name=Module Text Color
+module.global_settings.setting.all_mods_text_color.description=Changes text color for all modules.
+module.global_settings.setting.apply_all_mods_text_color.name=Apply to all modules
+module.global_settings.setting.apply_all_mods_text_color.button=Apply
+module.global_settings.setting.all_mods_back_color.name=Module Background Color
+module.global_settings.setting.all_mods_back_color.description=Alters background color for all modules.
+module.global_settings.setting.apply_all_mods_back_color.name=Apply to all modules
+module.global_settings.setting.apply_all_mods_back_color.button=Apply
+module.global_settings.setting.all_mods_outline_color.name=Module Outline Color
+module.global_settings.setting.all_mods_outline_color.description=Modifies outline color for all modules.
+module.global_settings.setting.apply_all_mods_outline_color.name=Apply to all modules
+module.global_settings.setting.apply_all_mods_outline_color.button=Apply
+
+module.global_settings.setting.directx_settings.name=Performance Settings
+module.global_settings.setting.directx_settings.description=Settings that affect performance.
+module.global_settings.setting.request_disable_vsync.name=Request Disable V-Sync
+module.global_settings.setting.request_disable_vsync.description=Disables V-Sync.
+module.global_settings.setting.request_disable_vsync_info.name=Note: uncapped framerates can cause increased CPU/GPU usage and overheating on laptops
+module.global_settings.setting.vsync_option_1.name=V-Sync Option 1
+module.global_settings.setting.vsync_option_1.description=Driver-dependent behavior.
+module.global_settings.setting.vsync_option_info_1.name=The behavior of this option is driver-dependent
+module.global_settings.setting.vsync_option_2.name=V-Sync Option 2
+module.global_settings.setting.vsync_option_2.description=Driver-dependent behavior.
+module.global_settings.setting.vsync_option_info_2.name=The behavior of this option is driver-dependent
+module.global_settings.setting.use_d3d11.name=Switch to DirectX 11
+module.global_settings.setting.use_d3d11.description=Changes to DirectX 11 rendering.
+module.global_settings.setting.use_d3d11_warning.name=Note: You will need to restart to revert.
+module.global_settings.setting.use_d3d11_warning.description=You need to restart to revert this change.
+
+
 
 ## Auto GG
 module.autogg.name=Auto GG
 module.autogg.description=Automatically says GG (or any message) at the end of the game.\nWorks on Hive, CubeCraft, Zeqa, NetherGames, Hyperlands.
 module.autogg.setting.gg_delay.name=GG Delay (seconds)
 module.autogg.setting.gg_delay.description=The delay between the game ending and the message being sent.
-module.autogg.setting.message.name=Message
+module.autogg.setting.message.name=Message %s
 module.autogg.setting.message.description=The message to send at the end of the game.
 module.autogg.setting.add_message.name=Add Message
 module.autogg.setting.add_message.description=Adds the message to the list of messages to send.
 module.autogg.setting.add_message.button=Add
-module.autogg.setting.remove_message.name=Remove Message
+module.autogg.setting.remove_message.name=Remove Message %s
 module.autogg.setting.remove_message.description=Removes the message from the list of messages to send.
-module.autogg.setting.remove_message.button=Remove
+module.autogg.remove_message.button=Remove
 
 ## Auto Text Hotkey
 module.auto_text_hotkey.name=Auto Text Hotkey
 module.auto_text_hotkey.description=Automatically sends a message when a key is pressed.
 module.auto_text_hotkey.setting.shortcut.name=Shortcut
 module.auto_text_hotkey.setting.shortcut.description=The key that will send the message.
-module.auto_text_hotkey.setting.message.name=Message
+module.auto_text_hotkey.setting.message.name=Message %s
 module.auto_text_hotkey.setting.message.description=The message to send.
 module.auto_text_hotkey.setting.key.name=Key %s
 module.auto_text_hotkey.setting.key.description=The key that will send the message.
-module.auto_text_hotkey.setting.add_message.name=Add %s
+module.auto_text_hotkey.setting.add_message.name=Add Message
 module.auto_text_hotkey.setting.add_message.description=Adds the message to the list of messages to send.
 module.auto_text_hotkey.setting.add_message.button=Add
 module.auto_text_hotkey.setting.remove_message.name=Remove %s
@@ -271,15 +398,32 @@ module.color_options.setting.test_chroma_color.name=Test Chroma Color
 module.color_options.setting.test_chroma_color.description=Test the Chroma color.
 module.color_options.setting.color_presets.name=Color Presets
 module.color_options.setting.color_presets.description=Choose from preset color options.
-module.color_options.setting.color_preset.name=Color Preset
-module.color_options.setting.color_preset.description=Choose from preset color options.
+module.color_options.setting.color_preset.name=Color Preset %s
+module.color_options.setting.color_preset.description=Change the preset %s in the color picker.
 module.color_options.setting.color_options_category.name=Color Options Category
 module.color_options.setting.color_options_category.description=Settings for color options.
 module.color_options.setting.color_options.button=Open Theme Editor
 module.color_options.setting.color_options.description=Open the theme editor.
 module.color_options.setting.color_options.description=Allows you to change the color of the client.
 module.color_options.setting.chroma_presets.name=Chroma Presets
-module.color_options.setting.chroma_presets.description=Choose from preset Chroma options.
+module.color_options.setting.chroma_presets.description=Choose from preset Chroma optionas.
+module.color_options.setting.chroma_color.name=Chroma Color %s
+module.color_options.setting.chroma_color.description=The color %s of the chroma gradient
+module.color_options.setting.chroma_color_add.name=Add Color to Gradient
+module.color_options.setting.chroma_color_add.description=Adds a color to the chroma gradient.
+module.color_options.setting.chroma_color_add.button=Add
+module.color_options.setting.chroma_color_remove.name=Remove Last Color From Gradient
+module.color_options.setting.chroma_color_remove.description=Removes the last color from the chroma gradient.
+module.color_options.setting.chroma_color_remove.button=Remove Last
+module.color_options.setting.client_colors.name=Client Colors
+module.color_options.setting.client_colors.description=Options to change the client's colors.
+module.color_options.setting.chroma_colors.name=Chroma Colors
+module.color_options.setting.chroma_colors.description=Options to change the chroma color.
+module.color_options.setting.open_theme_editor.name=Open Theme Editor
+module.color_options.setting.open_theme_editor.description=Opens the theme editor to change the client's ui.
+module.color_options.setting.open_theme_editor.button=Open
+
+
 
 ## Creative Tools
 module.creative_tools.name=Creative Tools
@@ -388,7 +532,7 @@ module.crop_protector.setting.replant_with_hand_item.description=Toggle replanti
 module.custom_crosshair.name=Custom Crosshair
 module.custom_crosshair.description=Customise your crosshair to your heart's content.
 
-module.custom_crosshair.setting.open_crosshair_editor.button=Open Crosshair Editor
+module.custom_crosshair.setting.open_crosshair_editor.name=Open Crosshair Editor
 module.custom_crosshair.setting.open_crosshair_editor.description=Open the crosshair editor.
 module.custom_crosshair.setting.open_crosshair_editor.button=Open
 
@@ -408,6 +552,7 @@ module.custom_crosshair.setting.crosshair_color.name=Crosshair Color
 module.custom_crosshair.setting.crosshair_color.description=Set the color of the crosshair.
 
 module.custom_crosshair.setting.crosshairs.name=Crosshairs
+module.custom_crosshair.setting.crosshairs.description=List of crosshairs
 module.custom_crosshair.setting.preview.button=Preview
 module.custom_crosshair.setting.preview.description=Preview the customized crosshair.
 
@@ -576,7 +721,8 @@ module.freelook.setting.perspective.description=Select your desired perspective.
 module.freelook.setting.toggle_freelook.name=Toggle Freelook
 module.freelook.setting.toggle_freelook.description=Toggle the freelook mode.
 
-module.freelook.keybind_warning=Warning: Binding Freelook to the ALT key is not recommended!
+module.freelook.setting.keybind_warning.name=Warning: Binding Freelook to the ALT key is not recommended!
+module.freelook.setting.keybind_warning.description=Warning: Binding Freelook to the ALT key is not recommended!
 
 ## Fullbright
 module.fullbright.name=Fullbright
@@ -631,7 +777,7 @@ module.hitboxes.setting.red_when_select.name=Red For Selected Entity
 module.hitboxes.setting.red_when_select.description=Highlight selected entities with a red bounding box.
 module.hitboxes.setting.player_only.name=Player Only
 module.hitboxes.setting.player_only.description=Display bounding boxes only around players.
-module.hitboxes.setting.player_note.name=Note
+module.hitboxes.setting.player_note.name=Note: Many things are not players but are perceived as such by the server.\nIf the bounding boxes appear on NPCs or similar entities,\nit's normal as they are recognized as players by the game.\n\nYou can find an ESP option in Creative Tools.
 module.hitboxes.setting.player_note.description=Note: Many things are not players but are perceived as such by the server.\nIf the bounding boxes appear on NPCs or similar entities,\nit's normal as they are recognized as players by the game.\n\nYou can find an ESP option in Creative Tools.
 
 ## Hurt Color
@@ -661,6 +807,9 @@ module.item_highlighter.setting.item_category.name=Item %s
 module.item_highlighter.setting.item_category.description=The options for the item %s.
 module.item_highlighter.setting.item_name.name=Item %s
 module.item_highlighter.setting.item_name.description=The item %s.
+module.item_highlighter.setting.validate_item_name.name=Validate Item Name
+module.item_highlighter.setting.validate_item_name.description=Validate the item name.
+module.item_highlighter.setting.validate_item_name.button=Validate
 module.item_highlighter.setting.color.name=Item %s Color
 module.item_highlighter.setting.color.description=Color for item %s.
 module.item_highlighter.setting.remove.name=Remove %s
@@ -722,20 +871,20 @@ module.minimal_view_bobbing.description=Disables the screen shake when view bobb
 module.modern_keybind_handling.name=Modern Keybind Handling
 module.modern_keybind_handling.description=Modifies keybind handling when exiting screens to act like Java 1.12+.
 
-module.modern_keybind_handling.settings.movement_keys_only.name=Movement Keys Only
-module.modern_keybind_handling.settings.movement_keys_only.description=Restricts keybind modifications to movement keys only.
+module.modern_keybind_handling.setting.movement_keys_only.name=Movement Keys Only
+module.modern_keybind_handling.setting.movement_keys_only.description=Restricts keybind modifications to movement keys only.
 
-module.modern_keybind_handling.settings.do_among_onix_ui.name=Affect Onix UIs
-module.modern_keybind_handling.settings.do_among_onix_ui.description=Applies modifications to the keybinds used within the Onix UI elements.
+module.modern_keybind_handling.setting.do_among_onix_ui.name=Affect Onix UIs
+module.modern_keybind_handling.setting.do_among_onix_ui.description=Applies modifications to the keybinds used within the Onix UI elements.
 
 ## Motion Blur
 module.motion_blur.name=Motion Blur
 module.motion_blur.description=Blurs movement to make you throw up suspiciously
 
-module.motion_blur.settings.throwup_rate.name=Intensity
-module.motion_blur.settings.throwup_rate.description=Controls the intensity of the motion blur effect.
-module.motion_blur.settings.throwup_in_ui.name=Exclude UI from Effect
-module.motion_blur.settings.throwup_in_ui.description=Applies the motion blur effect only to the in-game world, excluding UI elements.
+module.motion_blur.setting.throwup_rate.name=Intensity
+module.motion_blur.setting.throwup_rate.description=Controls the intensity of the motion blur effect.
+module.motion_blur.setting.throwup_in_ui.name=Exclude UI from Effect
+module.motion_blur.setting.throwup_in_ui.description=Applies the motion blur effect only to the in-game world, excluding UI elements.
 
 ## Proximity Chat
 module.proximity_chat.name=Proximity Chat
@@ -770,8 +919,8 @@ module.no_hurt_cam.description=Removes the camera shake animation when you get d
 module.particle_multiplier.name=Particle Multiplier
 module.particle_multiplier.description=Multiply the amount of critical hit particles.
 
-module.particle_multiplier.settings.particle_multiplier.name=Particle Multiplier
-module.particle_multiplier.settings.particle_multiplier.description=Adjust the number of critical hit particles to multiply.
+module.particle_multiplier.setting.particle_multiplier.name=Particle Multiplier
+module.particle_multiplier.setting.particle_multiplier.description=Adjust the number of critical hit particles to multiply.
 
 ## Static Camera
 module.static_camera.name=Static Camera
@@ -787,26 +936,25 @@ module.static_camera.setting.allow_rotation_key.description=Set a keybind to ena
 module.player_list_tab.name=Player List Tab
 module.player_list_tab.description=Shows a list of all players in the world.
 
-module.player_list_tab.settings.padding.name=Padding
-module.player_list_tab.settings.padding.description=Adjusts the padding of the player list.
-module.player_list_tab.settings.start_height.name=Start Height
-module.player_list_tab.settings.start_height.description=Sets the starting height of the player list.
-module.player_list_tab.settings.highlight_your_name.name=Highlight Your Name
-module.player_list_tab.settings.highlight_your_name.description=Highlights your name in the list.
-module.player_list_tab.settings.your_name_color.name=Your Name Color
-module.player_list_tab.settings.your_name_color.description=Changes the color of your name in the list.
+module.player_list_tab.setting.padding.name=Padding
+module.player_list_tab.setting.padding.description=Adjusts the padding of the player list.
+module.player_list_tab.setting.start_height.name=Start Height
+module.player_list_tab.setting.start_height.description=Sets the starting height of the player list.
+module.player_list_tab.setting.highlight_your_name.name=Highlight Your Name
+module.player_list_tab.setting.highlight_your_name.description=Highlights your name in the list.
+module.player_list_tab.setting.your_name_color.name=Your Name Color
+module.player_list_tab.setting.your_name_color.description=Changes the color of your name in the list.
 
-module.player_list_tab.settings.outline_names.name=Outline Names
-module.player_list_tab.settings.outline_names.description=Enables outlining of names in the list.
-module.player_list_tab.settings.center_text.name=Center Text
-module.player_list_tab.settings.center_text.description=Centers the text in the list.
-module.player_list_tab.settings.sort_alphabetically.name=Sort Alphabetically
-module.player_list_tab.settings.sort_alphabetically.description=Sorts the names alphabetically.
-module.player_list_tab.settings.player_heads.name=Player Heads
-module.player_list_tab.settings.player_heads.description=Displays player heads in the list.
-
-module.player_list_tab.=setting.names_per_column.name=Names per Column
-module.player_list_tab.settings.names_per_column.description=Specifies the number of names per column in the list.
+module.player_list_tab.setting.outline_names.name=Outline Names
+module.player_list_tab.setting.outline_names.description=Enables outlining of names in the list.
+module.player_list_tab.setting.center_text.name=Center Text
+module.player_list_tab.setting.center_text.description=Centers the text in the list.
+module.player_list_tab.setting.sort_alphabetically.name=Sort Alphabetically
+module.player_list_tab.setting.sort_alphabetically.description=Sorts the names alphabetically.
+module.player_list_tab.setting.player_heads.name=Player Heads
+module.player_list_tab.setting.player_heads.description=Displays player heads in the list.
+module.player_list_tab.setting.names_per_column.name=Names per Column
+module.player_list_tab.setting.names_per_column.description=Specifies the number of names per column in the list.
 
 ## 3D Skins
 module.player_skin_3d.name=3D Skins
@@ -911,8 +1059,8 @@ module.test_module.description=This is a test module.
 ## TNT Timer
 module.tnt_timer.name=TNT Timer
 module.tnt_timer.description=Displays the detonation time of TNT.
-module.tnt_timer.settings.max_distance.name=Max Distance
-module.tnt_timer.settings.max_distance.description=The maximum
+module.tnt_timer.setting.max_distance.name=Max Distance
+module.tnt_timer.setting.max_distance.description=The maximum
 
 ## Toggle Sprint/Sneak
 module.toggle_sprint_sneak.name=Toggle Sprint/Sneak
@@ -1420,6 +1568,8 @@ module.movable_scoreboard.setting.scripting_invisible_please.name=As a Script I 
 module.movable_scoreboard.setting.scripting_invisible_please.description=Hides the scoreboard.
 module.movable_scoreboard.setting.max_lines.name=Max Entries
 module.movable_scoreboard.setting.max_lines.description=Sets the maximum entries on the scoreboard.
+module.movable_scoreboard.setting.score_text_color.name=Score Text Color
+module.movable_scoreboard.setting.score_text_color.description=The color of the text for the score.
 
 
 
@@ -1504,8 +1654,8 @@ module.server_ip.setting.show_port.description=Displays the server port along wi
 
 
 
-## Snake Module
-module.snake.name=Snake Module
+## Snake
+module.snake.name=Snake
 module.snake.description=A Minecraft version of the classic game Snake!
 module.snake.setting.high_quality.name=HD Graphics (Low FPS Warning)
 module.snake.setting.high_quality.description=Enables high-definition graphics with a low FPS warning.

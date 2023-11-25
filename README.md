@@ -16,28 +16,22 @@ Thank you! <3
 <br><br>
 ## Translators List
 ### English
-<br>
 Jqms
 Onix86
 
 ### French
-<br>
 Mainzz
 Onix86
 
 ### Portuguese
-<br>
 ketchuup
 
 ### Spanish
-<br>
 bbfiche
 
 ### German
-<br>
 Nyami
 elament542
 
 ### Chinese
-<br>
 Dook/mruiaw

@@ -13,7 +13,7 @@ Search for and install the ["Minecraft Lang Colorizer"](<https://marketplace.vis
 ### Need Help?
 If you need any help getting started, just ask and we'll help you out.
 Thank you! <3
-<br>
+<br><br>
 ## Translators List
 **English**
 Jqms

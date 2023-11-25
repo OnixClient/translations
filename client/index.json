@@ -43,6 +43,18 @@
             "version": 1
         },
         {
+            "visual_name": "中文 (简体)",
+            "code": "zh_CN",
+            "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/zh_CN.lang",
+            "version": 1
+        },
+        {
+            "visual_name": "中文 (繁體)",
+            "code": "zh_TW",
+            "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/zh_TW.lang",
+            "version": 1
+        },
+        {
             "visual_name": "Română (Romania)",
             "code": "ro_RO",
             "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/ro_RO.lang",

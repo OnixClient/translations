@@ -1231,7 +1231,7 @@ module.arrow_counter.setting.only_display_holding_shooter.name=Only Display When
 module.arrow_counter.setting.only_display_holding_shooter.description=Shows the arrow count only when a bow/crossbow is held.
 module.arrow_counter.setting.hide_if_zero.name=Don't Display If No Arrows
 module.arrow_counter.setting.hide_if_zero.description=Hides the arrow count display if there are no arrows.
-module.arrow_counter.arrow_value=Arrow: %s
+module.arrow_counter.arrow_value=Arrow:
 
 
 
@@ -1254,7 +1254,7 @@ module.audio_subtitle.setting.max_column_count.description=Specifies the maximum
 
 
 ## Break Progress Module
-module.break_progress.name=Break Progress
+module.break_progress.name=Break Progress Module
 module.break_progress.description=Displays the block destroy percentage.
 module.break_progress.setting.show_break_text.name=Show Break Text
 module.break_progress.setting.show_break_text.description=Displays the text "Break:" along with the block destroy percentage.
@@ -1272,11 +1272,11 @@ module.break_progress.setting.bar_back_color.name=Bar Background Color
 module.break_progress.setting.bar_back_color.description=Specifies the background color of the progress bar.
 module.break_progress.setting.bar_direction.name=Bar Direction
 module.break_progress.setting.bar_direction.description=Sets the direction of the progress bar.
-module.break_progress.break_text=Break: %s
+module.break_progress.break_text=Break:
 
 
-## Clock
-module.clock.name=Clock
+## Clock Module
+module.clock.name=Clock Module
 module.clock.description=Displays the real-world time.
 module.clock.setting.add_spaces.name=Add Spaces
 module.clock.setting.add_spaces.description=Adds spaces between time components.
@@ -1290,7 +1290,7 @@ module.clock.setting.24_hour_format.name=24 Hour Format
 module.clock.setting.24_hour_format.description=Uses a 24-hour time format.
 module.clock.setting.show_seconds.name=Show Seconds
 module.clock.setting.show_seconds.description=Displays seconds in the time.
-module.clock.time_text=Time: %s
+module.clock.time_text=Time: 
 
 
 
@@ -1301,11 +1301,11 @@ module.combo_counter.setting.show_combo_text.name=Show "Combo:" Text
 module.combo_counter.setting.show_combo_text.description=Displays the text "Combo:" along with the combo count.
 module.combo_counter.setting.flash_when_hit.name=Flash Module Background When Hit
 module.combo_counter.setting.flash_when_hit.description=Triggers a background flash effect when hit.
-module.combo_counter.combo_text=Combo: %s
+module.combo_counter.combo_text=Combo:
 
 
 
-## Compass
+## Compass Module
 module.direction_hud.name=Direction HUD
 module.direction_hud.description=Displays the direction you're facing in degrees.
 module.direction_hud.setting.force_center.name=Always Centered
@@ -1323,7 +1323,7 @@ module.direction_hud.setting.compass_width.description=Adjusts the width of the 
 
 
 
-## Cooldowns
+## Cooldowns Module
 module.cooldowns.name=Cooldowns
 module.cooldowns.description=Displays the cooldown of items in your hotbar.
 
@@ -1356,7 +1356,7 @@ module.coordinates.setting.copy_selected_key.description=Key binding to copy the
 
 
 
-## CPS
+## CPS module
 module.cps.name=CPS Counter
 module.cps.description=Shows your clicks per second.
 module.cps.setting.hide_cps.name=Hide CPS text
@@ -1370,7 +1370,7 @@ module.cps.setting.alternate_splitter.description=Uses ":" as a splitter for CPS
 
 
 
-## Day Counter
+## Day Counter Module
 module.day_counter.name=Day Counter
 module.day_counter.description=Displays the amount of in-game day or playtime.
 module.day_counter.setting.session_time.name=Session Time
@@ -1382,7 +1382,7 @@ module.daycounter.seconds=%s Seconds
 
 
 
-## Flappy Bird
+## Flappy Bird Module
 module.flappy_bird.name=Flappy Bird
 module.flappy_bird.description=A Flappy Bird clone playable in Minecraft!
 module.flappy_bird.setting.high_quality.name=4k Graphics (Low FPS Warning)
@@ -1398,12 +1398,12 @@ module.flappy_bird.setting.auto_play.description=Enables automatic gameplay.
 
 
 
-## F P S Counter
+## F P S Counter Module
 module.fps.name=FPS Counter
 module.fps.description=Displays your frames per second.
 
 
-## Item Tracker
+## Item Tracker Module
 module.item_tracker.name=Item Tracker
 module.item_tracker.description=Displays when and how many items you pick up or drop.
 module.item_tracker.setting.max_displayed_changes.name=Max Displayed Changes
@@ -1610,7 +1610,7 @@ module.potion_counter.setting.show_potion_text.name=Show "Potion: " Text
 module.potion_counter.setting.show_potion_text.description=Displays the text "Potion: " along with the potion count.
 module.potion_counter.setting.hide_without_items.name=Don't Display If No Potions
 module.potion_counter.setting.hide_without_items.description=Hides the counter if there are no potions.
-module.potion_counter.potion_text=Potion: %s
+module.potion_counter.potion_text=Potion:
 
 
 ## Potion Hud
@@ -1642,7 +1642,7 @@ module.reach_display.name=Reach Display
 module.reach_display.description=Shows the reach of your last hit. Not 100% accurate due to latency!
 module.reach_display.setting.show_reach_text.name=Show \Reach:\ Text
 module.reach_display.setting.show_reach_text.description=Displays the "Reach" text.
-module.reach_display.reach_text=Reach: %s
+module.reach_display.reach_text=Reach:
 
 
 
@@ -1677,7 +1677,7 @@ module.soup_counter.setting.hide_without_items.name=Don't display if no soups
 module.soup_counter.setting.hide_without_items.description=Hides the counter if no soups are in the inventory.
 module.soup_counter.setting.show_soup_text.name=Show "Soup: " Text
 module.soup_counter.setting.show_soup_text.description=Displays the text "Soup: " along with the soup count.
-module.soup_counter.soup_text=Soup: %s
+module.soup_counter.soup_text=Soup:
 
 
 ## Speed Counter

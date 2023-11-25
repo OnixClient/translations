@@ -15,23 +15,23 @@ If you need any help getting started, just ask and we'll help you out.
 Thank you! <3
 <br><br>
 ## Translators List
-**English**
+**English**<br>
 Jqms
 Onix86
 
-**French**
+**French**<br>
 Mainzz
 Onix86
 
-**Portuguese**
+**Portuguese**<br>
 ketchuup
 
-**Spanish**
+**Spanish**<br>
 bbfiche
 
-**German**
+**German**<br>
 Nyami
 elament542
 
-**Chinese**
+**Chinese**<br>
 Dook/mruiaw

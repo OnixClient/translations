@@ -15,8 +15,8 @@ If you need any help getting started, just ask and we'll help you out.
 Thank you! <3
 
 
-
-## Translation List
+<br><br><br><br>
+## Translators List
 **English**
 Jqms
 Onix86

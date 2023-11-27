@@ -1,4 +1,4 @@
-## Generic module settings
+## Generic Module Settings
 module.module.setting.key.name=Toggle Module Key
 module.module.setting.key.description=The key that will toggle the module on and off.
 module.module.setting.visual_settings.name=Visual Settings

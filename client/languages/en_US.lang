@@ -964,6 +964,12 @@ module.player_list_tab.setting.player_heads.description=Displays player heads in
 module.player_list_tab.setting.names_per_column.name=Names per Column
 module.player_list_tab.setting.names_per_column.description=Specifies the number of names per column in the list.
 
+## Over The Shoulder Camera
+module.over_the_shoulder_camera.name=Over The Shoulder Camera
+module.over_the_shoulder_camera.description=Allows you to place the camera over your shoulder.
+module.over_the_shoulder_camera.setting.x_offset.name=X Offset
+module.over_the_shoulder_camera.setting.x_offset.description=Adjusts the X offset of the camera, which side/how far the camera is.
+
 ## 3D Skins
 module.player_skin_3d.name=3D Skins
 module.player_skin_3d.description=Makes the second skin layer 3D. Due to how the mod works, this will not work with players who have 128x skins or custom geometries (4D Skins).

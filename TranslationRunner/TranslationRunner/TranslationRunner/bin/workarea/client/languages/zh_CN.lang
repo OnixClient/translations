@@ -1,12 +1,3 @@
-###############################################
-##   THIS FILE IS GENERATED AUTOMATICALLY    ##
-##    DO NOT CHANGE THE CONTENT MANUALLY     ##
-## CHANGE USING THE AutomatedLanguage FOLDER ##
-##     THIS FILE IS BUILT FROM "en_US"       ##
-###############################################
-
-
-
 ## Generic module settings
 module.module.setting.key.name=Toggle Module Key
 module.module.setting.key.description=The key that will toggle the module on and off.
@@ -18,16 +9,16 @@ module.visual.setting.scale.name=Scale
 module.visual.setting.scale.description=The scale of the module, will multiply the size by the specified amount.
 module.visual.setting.padding.name=Padding
 module.visual.setting.padding.description=The padding of the module, will add the specified amount of pixels to the size around the text.
-module.visual.setting.text_color.name=Text Colour
-module.visual.setting.text_color.description=The colour of the text.
-module.visual.setting.back_color.name=Background Colour
-module.visual.setting.back_color.description=The colour of the background.
+module.visual.setting.text_color.name=Text Color
+module.visual.setting.text_color.description=The color of the text.
+module.visual.setting.back_color.name=Background Color
+module.visual.setting.back_color.description=The color of the background.
 module.visual.setting.blur_opacity.name=Blur Opacity
 module.visual.setting.blur_opacity.description=The opacity of the background blur.
 module.visual.setting.has_outline.name=Outline
 module.visual.setting.has_outline.description=Whether or not the module has an outline.
-module.visual.setting.outline_color.name=Outline Colour
-module.visual.setting.outline_color.description=The colour of the outline.
+module.visual.setting.outline_color.name=Outline Color
+module.visual.setting.outline_color.description=The color of the outline.
 module.visual.setting.outline_width.name=Outline Width
 module.visual.setting.outline_width.description=The width of the outline.
 module.visual.setting.has_fixed_width.name=Use Fixed Width
@@ -46,8 +37,6 @@ module.visual.setting.anchor.name=Anchor
 module.visual.setting.anchor.description=The anchor of the module, the position will be relative to.
 module.visual.setting.position.name=Position
 module.visual.setting.position.description=The raw position of the module.
-module.visual.setting.size.name=Size
-module.visual.setting.size.description=The raw size of the module.
 module.textual.setting.bracket_type.name=Bracket Type
 module.textual.setting.bracket_type.description=The type of brackets to use.
 module.textual.setting.space_between_brackets.name=Space Between Brackets
@@ -93,9 +82,9 @@ gui.deny=Deny
 module.ui.setting.color_picker_chroma.name=Chroma
 module.ui.setting.color_picker_chroma.description=Toggles chroma, chroma is a gradient rainbow effect.
 module.ui.setting.color_picker_rainbow.name=Rainbow
-module.ui.setting.color_picker_rainbow.description=Toggles rainbow, rainbow is a solid colour rainbow effect.
+module.ui.setting.color_picker_rainbow.description=Toggles rainbow, rainbow is a solid color rainbow effect.
 module.ui.setting.color_picker_opacity.name=Opacity
-module.ui.setting.color_picker_opacity.description=Choses what opacity the colour has (transparency).
+module.ui.setting.color_picker_opacity.description=Choses what opacity the color has (transparency).
 module.ui.setting.key_renderer_unbind=Unbind
 module.ui.setting.key_overlay_help=Press any key to set it, Press escape to exit without change.
 module.ui.setting.settings=Settings
@@ -117,8 +106,8 @@ module.themeuipreview.setting.float.name=Floating Point Slider
 module.themeuipreview.setting.float.description=Float pointlider to preview looks.
 module.themeuipreview.setting.vec2.name=Dual Slider
 module.themeuipreview.setting.vec2.description=Dual slider to preview looks.
-module.themeuipreview.setting.color.name=Colour Picker
-module.themeuipreview.setting.color.description=Colour picker to preview looks.
+module.themeuipreview.setting.color.name=Color Picker
+module.themeuipreview.setting.color.description=Color picker to preview looks.
 module.themeuipreview.setting.button.name=Button
 module.themeuipreview.setting.button.description=Button to preview looks.
 module.themeuipreview.setting.button.button=Click Me!
@@ -131,24 +120,24 @@ module.themeuipreview.setting.info_scrollbar.description=This is just so it show
 
 
 ## Theme Options
-module.themeuioption.setting.enabled.name=Main Client Colour
-module.themeuioption.setting.enabled.description=The accent colour of the client.
-module.themeuioption.setting.text.name=Text Colour
-module.themeuioption.setting.text.description=The colour of the text.
-module.themeuioption.setting.blocked.name=Blocked Module Colour
-module.themeuioption.setting.blocked.description=The colour of blocked modules.
-module.themeuioption.setting.disabled.name=Disabled Module Colour
-module.themeuioption.setting.disabled.description=The colour of disabled modules.
-module.themeuioption.setting.highlight.name=Highlight Colour
-module.themeuioption.setting.highlight.description=The colour of highlighted things.
-module.themeuioption.setting.outline.name=Outline Colour
-module.themeuioption.setting.outline.description=The colour of outlines.
-module.themeuioption.setting.window_background.name=Background Colour
-module.themeuioption.setting.window_background.description=The colour of the background.
-module.themeuioption.setting.button.name=Button Colour
-module.themeuioption.setting.button.description=The colour of buttons.
-module.themeuioption.setting.scrollbar.name=Scrollbar Colour
-module.themeuioption.setting.scrollbar.description=The colour of scrollbars.
+module.themeuioption.setting.enabled.name=Main Client Color
+module.themeuioption.setting.enabled.description=The accent color of the client.
+module.themeuioption.setting.text.name=Text Color
+module.themeuioption.setting.text.description=The color of the text.
+module.themeuioption.setting.blocked.name=Blocked Module Color
+module.themeuioption.setting.blocked.description=The color of blocked modules.
+module.themeuioption.setting.disabled.name=Disabled Module Color
+module.themeuioption.setting.disabled.description=The color of disabled modules.
+module.themeuioption.setting.highlight.name=Highlight Color
+module.themeuioption.setting.highlight.description=The color of highlighted things.
+module.themeuioption.setting.outline.name=Outline Color
+module.themeuioption.setting.outline.description=The color of outlines.
+module.themeuioption.setting.window_background.name=Background Color
+module.themeuioption.setting.window_background.description=The color of the background.
+module.themeuioption.setting.button.name=Button Color
+module.themeuioption.setting.button.description=The color of buttons.
+module.themeuioption.setting.scrollbar.name=Scrollbar Color
+module.themeuioption.setting.scrollbar.description=The color of scrollbars.
 module.themeuioption.setting.reset_button.name=Reset Theme to Default
 module.themeuioption.setting.reset_button.description=Resets the theme to the default onix theme.
 module.themeuioption.setting.reset_button.button=Reset
@@ -260,16 +249,16 @@ module.global_settings.setting.all_mods_scale.name=Module Scale
 module.global_settings.setting.all_mods_scale.description=Adjusts the scale of all modules.
 module.global_settings.setting.apply_all_mods_scale.name=Apply to all modules
 module.global_settings.setting.apply_all_mods_scale.button=Apply
-module.global_settings.setting.all_mods_text_color.name=Module Text Colour
-module.global_settings.setting.all_mods_text_color.description=Changes text colour for all modules.
+module.global_settings.setting.all_mods_text_color.name=Module Text Color
+module.global_settings.setting.all_mods_text_color.description=Changes text color for all modules.
 module.global_settings.setting.apply_all_mods_text_color.name=Apply to all modules
 module.global_settings.setting.apply_all_mods_text_color.button=Apply
-module.global_settings.setting.all_mods_back_color.name=Module Background Colour
-module.global_settings.setting.all_mods_back_color.description=Alters background colour for all modules.
+module.global_settings.setting.all_mods_back_color.name=Module Background Color
+module.global_settings.setting.all_mods_back_color.description=Alters background color for all modules.
 module.global_settings.setting.apply_all_mods_back_color.name=Apply to all modules
 module.global_settings.setting.apply_all_mods_back_color.button=Apply
-module.global_settings.setting.all_mods_outline_color.name=Module Outline Colour
-module.global_settings.setting.all_mods_outline_color.description=Modifies outline colour for all modules.
+module.global_settings.setting.all_mods_outline_color.name=Module Outline Color
+module.global_settings.setting.all_mods_outline_color.description=Modifies outline color for all modules.
 module.global_settings.setting.apply_all_mods_outline_color.name=Apply to all modules
 module.global_settings.setting.apply_all_mods_outline_color.button=Apply
 
@@ -334,16 +323,16 @@ module.block_outline_overlay.setting.change_outline_width.name=Change Outline Wi
 module.block_outline_overlay.setting.change_outline_width.description=Whether or not to change the outline width.
 module.block_outline_overlay.setting.outline_width.name=Outline Width
 module.block_outline_overlay.setting.outline_width.description=The width of the block outline.
-module.block_outline_overlay.setting.outline_color.name=Outline Colour
-module.block_outline_overlay.setting.outline_color.description=The colour of the block outline.
+module.block_outline_overlay.setting.outline_color.name=Outline Color
+module.block_outline_overlay.setting.outline_color.description=The color of the block outline.
 module.block_outline_overlay.setting.block_outline_overlay.name=Block Overlay
 module.block_outline_overlay.setting.block_outline_overlay.description=Settings for the block overlay.
 module.block_outline_overlay.setting.render_block_overlay.name=Render Block Overlay
 module.block_outline_overlay.setting.render_block_overlay.description=Whether or not to render the block overlay.
 module.block_outline_overlay.setting.3d_block_overlay.name=3D Block Overlay
 module.block_outline_overlay.setting.3d_block_overlay.description=Whether or not to render the block overlay through the block.
-module.block_outline_overlay.setting.block_overlay_color.name=Block Overlay Colour
-module.block_outline_overlay.setting.block_overlay_color.description=The colour of the block overlay.
+module.block_outline_overlay.setting.block_overlay_color.name=Block Overlay Color
+module.block_outline_overlay.setting.block_overlay_color.description=The color of the block overlay.
 
 ## Chat Tweaks
 module.chat_tweaks.name=Chat Tweaks
@@ -387,16 +376,16 @@ module.cinematic_camera.setting.toggle_mode.name=Toggle Mode
 module.cinematic_camera.setting.toggle_mode.description=Makes it so that you can toggle the cinematic camera on and off.
 
 ## Color Options
-module.color_options.name=Colour Options
-module.color_options.description=Allows you to change the colour of the client.
+module.color_options.name=Color Options
+module.color_options.description=Allows you to change the color of the client.
 module.color_options.setting.rgb_category.name=RGB Category
 module.color_options.setting.rgb_category.description=Settings for RGB.
 module.color_options.setting.rgb_speed.name=RGB Speed
 module.color_options.setting.rgb_speed.description=The speed of the RGB.
 module.color_options.setting.rgb_brightness.name=RGB Brightness
 module.color_options.setting.rgb_brightness.description=The brightness of the RGB.
-module.color_options.setting.test_rgb_color.name=Test RGB Colour
-module.color_options.setting.test_rgb_color.description=Test the RGB colour.
+module.color_options.setting.test_rgb_color.name=Test RGB Color
+module.color_options.setting.test_rgb_color.description=Test the RGB color.
 module.color_options.setting.chroma_category.name=Chroma Category
 module.color_options.setting.chroma_category.description=Settings for Chroma.
 module.color_options.setting.chroma_size.name=Chroma Size
@@ -405,31 +394,31 @@ module.color_options.setting.chroma_speed.name=Chroma Speed
 module.color_options.setting.chroma_speed.description=The speed of the Chroma.
 module.color_options.setting.chroma_rotation.name=Chroma Rotation
 module.color_options.setting.chroma_rotation.description=The rotation of the Chroma.
-module.color_options.setting.test_chroma_color.name=Test Chroma Colour
-module.color_options.setting.test_chroma_color.description=Test the Chroma colour.
-module.color_options.setting.color_presets.name=Colour Presets
-module.color_options.setting.color_presets.description=Choose from preset colour options.
-module.color_options.setting.color_preset.name=Colour Preset %s
-module.color_options.setting.color_preset.description=Change the preset %s in the colour picker.
-module.color_options.setting.color_options_category.name=Colour Options Category
-module.color_options.setting.color_options_category.description=Settings for colour options.
+module.color_options.setting.test_chroma_color.name=Test Chroma Color
+module.color_options.setting.test_chroma_color.description=Test the Chroma color.
+module.color_options.setting.color_presets.name=Color Presets
+module.color_options.setting.color_presets.description=Choose from preset color options.
+module.color_options.setting.color_preset.name=Color Preset %s
+module.color_options.setting.color_preset.description=Change the preset %s in the color picker.
+module.color_options.setting.color_options_category.name=Color Options Category
+module.color_options.setting.color_options_category.description=Settings for color options.
 module.color_options.setting.color_options.button=Open Theme Editor
 module.color_options.setting.color_options.description=Open the theme editor.
-module.color_options.setting.color_options.description=Allows you to change the colour of the client.
+module.color_options.setting.color_options.description=Allows you to change the color of the client.
 module.color_options.setting.chroma_presets.name=Chroma Presets
 module.color_options.setting.chroma_presets.description=Choose from preset Chroma optionas.
-module.color_options.setting.chroma_color.name=Chroma Colour %s
-module.color_options.setting.chroma_color.description=The colour %s of the chroma gradient
-module.color_options.setting.chroma_color_add.name=Add Colour to Gradient
-module.color_options.setting.chroma_color_add.description=Adds a colour to the chroma gradient.
+module.color_options.setting.chroma_color.name=Chroma Color %s
+module.color_options.setting.chroma_color.description=The color %s of the chroma gradient
+module.color_options.setting.chroma_color_add.name=Add Color to Gradient
+module.color_options.setting.chroma_color_add.description=Adds a color to the chroma gradient.
 module.color_options.setting.chroma_color_add.button=Add
-module.color_options.setting.chroma_color_remove.name=Remove Last Colour From Gradient
-module.color_options.setting.chroma_color_remove.description=Removes the last colour from the chroma gradient.
+module.color_options.setting.chroma_color_remove.name=Remove Last Color From Gradient
+module.color_options.setting.chroma_color_remove.description=Removes the last color from the chroma gradient.
 module.color_options.setting.chroma_color_remove.button=Remove Last
-module.color_options.setting.client_colors.name=Client Colours
-module.color_options.setting.client_colors.description=Options to change the client's colours.
-module.color_options.setting.chroma_colors.name=Chroma Colours
-module.color_options.setting.chroma_colors.description=Options to change the chroma colour.
+module.color_options.setting.client_colors.name=Client Colors
+module.color_options.setting.client_colors.description=Options to change the client's colors.
+module.color_options.setting.chroma_colors.name=Chroma Colors
+module.color_options.setting.chroma_colors.description=Options to change the chroma color.
 module.color_options.setting.open_theme_editor.name=Open Theme Editor
 module.color_options.setting.open_theme_editor.description=Opens the theme editor to change the client's ui.
 module.color_options.setting.open_theme_editor.button=Open
@@ -550,17 +539,17 @@ module.custom_crosshair.setting.open_crosshair_editor.button=Open
 module.custom_crosshair.setting.third_person_crosshair.name=Third Person Crosshair
 module.custom_crosshair.setting.third_person_crosshair.description=Toggle third-person crosshair.
 module.custom_crosshair.setting.red_when_facing_entity.name=Red When Facing Entity
-module.custom_crosshair.setting.red_when_facing_entity.description=Toggle red colour when facing an entity.
+module.custom_crosshair.setting.red_when_facing_entity.description=Toggle red color when facing an entity.
 
 module.custom_crosshair.setting.crosshair_outline.name=Crosshair Outline
 module.custom_crosshair.setting.crosshair_outline.description=Toggle crosshair outline.
-module.custom_crosshair.setting.outline_color.name=Outline Colour
-module.custom_crosshair.setting.outline_color.description=Set the outline colour of the crosshair.
+module.custom_crosshair.setting.outline_color.name=Outline Color
+module.custom_crosshair.setting.outline_color.description=Set the outline color of the crosshair.
 
-module.custom_crosshair.setting.invert_colors.name=Invert Colours (don't use) (bad) (blurry)
-module.custom_crosshair.setting.invert_colors.description=Toggle colour inversion (not recommended).
-module.custom_crosshair.setting.crosshair_color.name=Crosshair Colour
-module.custom_crosshair.setting.crosshair_color.description=Set the colour of the crosshair.
+module.custom_crosshair.setting.invert_colors.name=Invert Colors (don't use) (bad) (blurry)
+module.custom_crosshair.setting.invert_colors.description=Toggle color inversion (not recommended).
+module.custom_crosshair.setting.crosshair_color.name=Crosshair Color
+module.custom_crosshair.setting.crosshair_color.description=Set the color of the crosshair.
 
 module.custom_crosshair.setting.crosshairs.name=Crosshairs
 module.custom_crosshair.setting.crosshairs.description=List of crosshairs
@@ -571,14 +560,14 @@ module.custom_crosshair.setting.preview.description=Preview the customized cross
 module.custom_crosshair_editor.setting.brush_radius.name=Pen/Eraser Radius
 module.custom_crosshair_editor.setting.brush_radius.description=The radius of the selected tool.
 module.custom_crosshair_editor.create_window.title=Create a New Crosshair
-module.custom_crosshair_editor.confirm_window.message=You are about to delete a crosshair.
+module.custom_crosshair_editor.confirm_window.message=You are about to delete a crosshair!ed tool.
 module.custom_crosshair_editor.list_window.title=Crosshairs
 module.custom_crosshair_editor.list_window.create_button=Create New Crosshair
 module.custom_crosshair_editor.list_window.open_explorer_button=Open Crosshair Directory
 module.custom_crosshair_editor.widget_window.reset_zoom=Reset Zoom (%s)
 module.custom_crosshair_editor.widget_window.reset_position=Reset position
 module.custom_crosshair_editor.widget_window.undo=Undo (%s)
-module.custom_crosshair_editor.widget_window.save=Save (%s)
+module.custom_crosshair_editor.widget_window.undo=Save (%s)
 module.custom_crosshair_editor.widget_window.pen=Pen: %s
 module.custom_crosshair_editor.widget_window.pen_square=Square
 module.custom_crosshair_editor.widget_window.pen_round=Round
@@ -650,19 +639,19 @@ module.environment_changer.setting.time.description=Adjust the time value.
 
 module.environment_changer.setting.fog_settings_category.name=Fog Settings
 module.environment_changer.setting.fog_settings_category.description=Settings for fog settings.
-module.environment_changer.setting.change_fog_color.name=Change Fog Colour
-module.environment_changer.setting.change_fog_color.description=Toggle fog colour change.
-module.environment_changer.setting.fog_color.name=Fog Colour
-module.environment_changer.setting.fog_color.description=Set the fog colour.
-module.environment_changer.setting.change_entire_sky_color.name=Change Entire Sky Colour
-module.environment_changer.setting.change_entire_sky_color.description=Toggle entire sky colour change.
+module.environment_changer.setting.change_fog_color.name=Change Fog Color
+module.environment_changer.setting.change_fog_color.description=Toggle fog color change.
+module.environment_changer.setting.fog_color.name=Fog Color
+module.environment_changer.setting.fog_color.description=Set the fog color.
+module.environment_changer.setting.change_entire_sky_color.name=Change Entire Sky Color
+module.environment_changer.setting.change_entire_sky_color.description=Toggle entire sky color change.
 
 module.environment_changer.setting.cloud_settings_category.name=Cloud Settings
 module.environment_changer.setting.cloud_settings_category.description=Settings for cloud settings.
-module.environment_changer.setting.change_clouds_color.name=Change Clouds Colour
-module.environment_changer.setting.change_clouds_color.description=Toggle cloud colour change.
-module.environment_changer.setting.cloud_color.name=Cloud Colour
-module.environment_changer.setting.cloud_color.description=Set the cloud colour.
+module.environment_changer.setting.change_clouds_color.name=Change Clouds Color
+module.environment_changer.setting.change_clouds_color.description=Toggle cloud color change.
+module.environment_changer.setting.cloud_color.name=Cloud Color
+module.environment_changer.setting.cloud_color.description=Set the cloud color.
 
 module.environment_changer.setting.weather_settings_category.name=Weather Settings
 module.environment_changer.setting.weather_settings_category.description=Settings for weather settings.
@@ -743,14 +732,14 @@ module.fullbright.setting.gamma.name=Gamma
 module.fullbright.setting.gamma.description=Adjust the gamma value to brighten or darken the environment.
 
 ## Glint Color Changer
-module.glint_color_changer.name=Glint Colour Changer
-module.glint_color_changer.description=Changes the colour of the glint (the enchantment thing).
+module.glint_color_changer.name=Glint Color Changer
+module.glint_color_changer.description=Changes the color of the glint (the enchantment thing).
 
-module.glint_color_changer.setting.glint_color.name=Glint Colour
-module.glint_color_changer.setting.glint_color.description=Modify the colour of the glint effect.
+module.glint_color_changer.setting.glint_color.name=Glint Color
+module.glint_color_changer.setting.glint_color.description=Modify the color of the glint effect.
 
 module.glint_color_changer.setting.presets.name=Presets
-module.glint_color_changer.setting.presets.description=Choose from preset glint colour options.
+module.glint_color_changer.setting.presets.description=Choose from preset glint color options.
 
 ## GUI Scale Changer
 module.gui_scale_changer.name=GUI Scale Changer
@@ -778,10 +767,10 @@ module.low_health_warning.setting.show_in_f1.description=Toggle displaying low h
 module.hitboxes.name=Hitboxes
 module.hitboxes.description=Draws a bounding box around all entities.
 
-module.hitboxes.setting.bodyline_color.name=Line Colour
-module.hitboxes.setting.bodyline_color.description=Choose the colour for the bounding box lines on entities.
-module.hitboxes.setting.eyeline_color.name=Eyes Line Colour
-module.hitboxes.setting.eyeline_color.description=Choose the colour for the bounding box lines around entity eyes.
+module.hitboxes.setting.bodyline_color.name=Line Color
+module.hitboxes.setting.bodyline_color.description=Choose the color for the bounding box lines on entities.
+module.hitboxes.setting.eyeline_color.name=Eyes Line Color
+module.hitboxes.setting.eyeline_color.description=Choose the color for the bounding box lines around entity eyes.
 module.hitboxes.setting.show_eyes.name=Enable Eyes Line
 module.hitboxes.setting.show_eyes.description=Toggle displaying the bounding box lines around entity eyes.
 module.hitboxes.setting.red_when_select.name=Red For Selected Entity
@@ -792,11 +781,11 @@ module.hitboxes.setting.player_note.name=Note: Many things are not players but a
 module.hitboxes.setting.player_note.description=Note: Many things are not players but are perceived as such by the server.\nIf the bounding boxes appear on NPCs or similar entities,\nit's normal as they are recognized as players by the game.\n\nYou can find an ESP option in Creative Tools.
 
 ## Hurt Color
-module.hurt_color.name=Hurt Colour
-module.hurt_color.description=Changes what colour entities will be when hurt.
+module.hurt_color.name=Hurt Color
+module.hurt_color.description=Changes what color entities will be when hurt.
 
-module.hurt_color.setting.hurt_color.name=Hurt Colour
-module.hurt_color.setting.hurt_color.description=Choose the colour that entities will display when hurt.
+module.hurt_color.setting.hurt_color.name=Hurt Color
+module.hurt_color.setting.hurt_color.description=Choose the color that entities will display when hurt.
 
 ## Item Despawn Blink
 module.item_despawn_blink.name=Item Despawn Blink
@@ -811,8 +800,8 @@ module.item_highlighter.description=Makes some items easier to observe.
 
 module.item_highlighter.setting.highlight_all_items.name=Highlight All Items
 module.item_highlighter.setting.highlight_all_items.description=Toggle to highlight all items.
-module.item_highlighter.setting.highlight_all_items_color.name=Highlight All Items Colour
-module.item_highlighter.setting.highlight_all_items_color.description=Choose the colour for highlighting all items.
+module.item_highlighter.setting.highlight_all_items_color.name=Highlight All Items Color
+module.item_highlighter.setting.highlight_all_items_color.description=Choose the color for highlighting all items.
 
 module.item_highlighter.setting.item_category.name=Item %s
 module.item_highlighter.setting.item_category.description=The options for the item %s.
@@ -821,8 +810,8 @@ module.item_highlighter.setting.item_name.description=The item %s.
 module.item_highlighter.setting.validate_item_name.name=Validate Item Name
 module.item_highlighter.setting.validate_item_name.description=Validate the item name.
 module.item_highlighter.setting.validate_item_name.button=Validate
-module.item_highlighter.setting.color.name=Item %s Colour
-module.item_highlighter.setting.color.description=Colour for item %s.
+module.item_highlighter.setting.color.name=Item %s Color
+module.item_highlighter.setting.color.description=Color for item %s.
 module.item_highlighter.setting.remove.name=Remove %s
 module.item_highlighter.setting.remove.description=Removes the item from the list of items to highlight.
 module.item_highlighter.setting.remove.button=Remove
@@ -906,18 +895,12 @@ module.proximity_chat.setting.context_settings_category.description=Settings for
 module.proximity_chat.setting.informative_information.name=These settings are what to include in Mumble Link's context.\nThey define who should be able to hear each other.\nIf your friends don't use the same options, the context will be different.\nPlayers with matching contexts have positional audio, otherwise normal audio is transmitted.\nYou can change what to include here to better match a server.\nScripts can also play with this to improve their experience whilst on a server.
 
 module.proximity_chat.setting.include_world_name.name=Include World Name
-module.proximity_chat.setting.include_world_name.description=Include world name or not in the context.
 module.proximity_chat.setting.include_world_id.name=Include World Id
-module.proximity_chat.setting.include_world_id.description=Include world id or not in the context.
 module.proximity_chat.setting.include_players.name=Include Players
-module.proximity_chat.setting.include_players.description=Include players or not in the context.
 module.proximity_chat.setting.include_dimension.name=Include Dimension
-module.proximity_chat.setting.include_dimension.description=Include dimension or not in the context.
 
 module.proximity_chat.setting.include_scripting_context.name=Include Scripting Context
-module.proximity_chat.setting.include_scripting_context.description=Include scripting context or not in the context.
 module.proximity_chat.setting.extra_scripting_context.name=Extra Scripting Context
-module.proximity_chat.setting.extra_scripting_context.description=Extra scripting context to include in the context.
 
 ## Nick Hider
 module.nick_hider.name=Nick Hider
@@ -959,8 +942,8 @@ module.player_list_tab.setting.start_height.name=Start Height
 module.player_list_tab.setting.start_height.description=Sets the starting height of the player list.
 module.player_list_tab.setting.highlight_your_name.name=Highlight Your Name
 module.player_list_tab.setting.highlight_your_name.description=Highlights your name in the list.
-module.player_list_tab.setting.your_name_color.name=Your Name Colour
-module.player_list_tab.setting.your_name_color.description=Changes the colour of your name in the list.
+module.player_list_tab.setting.your_name_color.name=Your Name Color
+module.player_list_tab.setting.your_name_color.description=Changes the color of your name in the list.
 
 module.player_list_tab.setting.outline_names.name=Outline Names
 module.player_list_tab.setting.outline_names.description=Enables outlining of names in the list.
@@ -1026,8 +1009,8 @@ module.post_processing.setting.vignette_strength.name=Vignette Strength
 module.post_processing.setting.vignette_strength.description=Adjust the strength of the vignette effect.
 module.post_processing.setting.vignette_transition.name=Vignette Transition
 module.post_processing.setting.vignette_transition.description=Adjust the transition of the vignette effect.
-module.post_processing.setting.vignette_color.name=Vignette Colour
-module.post_processing.setting.vignette_color.description=Adjust the colour of the vignette effect.
+module.post_processing.setting.vignette_color.name=Vignette Color
+module.post_processing.setting.vignette_color.description=Adjust the color of the vignette effect.
 
 ## Render Options
 module.render_options.name=Render Options
@@ -1209,8 +1192,8 @@ module.armor_hud.setting.show_durability.name=Show Item Durability
 module.armor_hud.setting.show_durability.description=Shows the item's durability.
 module.armor_hud.setting.show_decorations.name=Show Item Durability Bar
 module.armor_hud.setting.show_decorations.description=Displays the item's durability bar.
-module.armor_hud.setting.java_decorations.name=Use Java Durability Colours
-module.armor_hud.setting.java_decorations.description=Applies Java durability colours.
+module.armor_hud.setting.java_decorations.name=Use Java Durability Colors
+module.armor_hud.setting.java_decorations.description=Applies Java durability colors.
 module.armor_hud.setting.durability_percent.name=Show Durability As Percentage
 module.armor_hud.setting.durability_percent.description=Indicates durability as a percentage.
 module.armor_hud.setting.durability_over_max.name=Show Durability/TotalDurability
@@ -1225,8 +1208,8 @@ module.armor_hud.setting.text_category.name=Text Settings
 module.armor_hud.setting.text_category.description=Categorizes text settings.
 module.armor_hud.setting.right_text.name=Text on The Right Side
 module.armor_hud.setting.right_text.description=Text displayed on the right side.
-module.armor_hud.setting.text_color_follow_durability.name=Text Colour Depends on Durability
-module.armor_hud.setting.text_color_follow_durability.description=Adjusts text colour based on durability.
+module.armor_hud.setting.text_color_follow_durability.name=Text Color Depends on Durability
+module.armor_hud.setting.text_color_follow_durability.description=Adjusts text color based on durability.
 module.armor_hud.setting.render_in_containers.name=Render in Containers
 module.armor_hud.setting.render_in_containers.description=Displays in containers.
 module.armor_hud.setting.wish_glint.name=Bad Enchantment Glint
@@ -1235,8 +1218,8 @@ module.armor_hud.setting.glint_speed.name=Bad Glint Speed
 module.armor_hud.setting.glint_speed.description=Adjusts the speed of the bad glint effect.
 module.armor_hud.setting.glint_opacity.name=Bad Glint Opacity
 module.armor_hud.setting.glint_opacity.description=Changes the opacity of the bad glint effect.
-module.armor_hud.setting.glint_color.name=Bad Glint Colour
-module.armor_hud.setting.glint_color.description=Specifies the colour of the bad glint effect.
+module.armor_hud.setting.glint_color.name=Bad Glint Color
+module.armor_hud.setting.glint_color.description=Specifies the color of the bad glint effect.
 
 
 ## Arrow Counter
@@ -1248,7 +1231,7 @@ module.arrow_counter.setting.only_display_holding_shooter.name=Only Display When
 module.arrow_counter.setting.only_display_holding_shooter.description=Shows the arrow count only when a bow/crossbow is held.
 module.arrow_counter.setting.hide_if_zero.name=Don't Display If No Arrows
 module.arrow_counter.setting.hide_if_zero.description=Hides the arrow count display if there are no arrows.
-module.arrow_counter.arrow_value=Arrow: %s
+module.arrow_counter.arrow_value=Arrow:
 
 
 
@@ -1271,7 +1254,7 @@ module.audio_subtitle.setting.max_column_count.description=Specifies the maximum
 
 
 ## Break Progress Module
-module.break_progress.name=Break Progress
+module.break_progress.name=Break Progress Module
 module.break_progress.description=Displays the block destroy percentage.
 module.break_progress.setting.show_break_text.name=Show Break Text
 module.break_progress.setting.show_break_text.description=Displays the text "Break:" along with the block destroy percentage.
@@ -1283,17 +1266,17 @@ module.break_progress.setting.always_display.name=Always display
 module.break_progress.setting.always_display.description=Keeps the progress display always visible.
 module.break_progress.setting.bar_size.name=Size
 module.break_progress.setting.bar_size.description=Adjusts the size of the progress bar.
-module.break_progress.setting.bar_color.name=Bar Colour
-module.break_progress.setting.bar_color.description=Specifies the colour of the progress bar.
-module.break_progress.setting.bar_back_color.name=Bar Background Colour
-module.break_progress.setting.bar_back_color.description=Specifies the background colour of the progress bar.
+module.break_progress.setting.bar_color.name=Bar Color
+module.break_progress.setting.bar_color.description=Specifies the color of the progress bar.
+module.break_progress.setting.bar_back_color.name=Bar Background Color
+module.break_progress.setting.bar_back_color.description=Specifies the background color of the progress bar.
 module.break_progress.setting.bar_direction.name=Bar Direction
 module.break_progress.setting.bar_direction.description=Sets the direction of the progress bar.
-module.break_progress.break_text=Break: %s
+module.break_progress.break_text=Break:
 
 
-## Clock
-module.clock.name=Clock
+## Clock Module
+module.clock.name=Clock Module
 module.clock.description=Displays the real-world time.
 module.clock.setting.add_spaces.name=Add Spaces
 module.clock.setting.add_spaces.description=Adds spaces between time components.
@@ -1307,7 +1290,7 @@ module.clock.setting.24_hour_format.name=24 Hour Format
 module.clock.setting.24_hour_format.description=Uses a 24-hour time format.
 module.clock.setting.show_seconds.name=Show Seconds
 module.clock.setting.show_seconds.description=Displays seconds in the time.
-module.clock.time_text=Time: %s
+module.clock.time_text=Time: 
 
 
 
@@ -1318,11 +1301,11 @@ module.combo_counter.setting.show_combo_text.name=Show "Combo:" Text
 module.combo_counter.setting.show_combo_text.description=Displays the text "Combo:" along with the combo count.
 module.combo_counter.setting.flash_when_hit.name=Flash Module Background When Hit
 module.combo_counter.setting.flash_when_hit.description=Triggers a background flash effect when hit.
-module.combo_counter.combo_text=Combo: %s
+module.combo_counter.combo_text=Combo:
 
 
 
-## Compass
+## Compass Module
 module.direction_hud.name=Direction HUD
 module.direction_hud.description=Displays the direction you're facing in degrees.
 module.direction_hud.setting.force_center.name=Always Centered
@@ -1340,7 +1323,7 @@ module.direction_hud.setting.compass_width.description=Adjusts the width of the 
 
 
 
-## Cooldowns
+## Cooldowns Module
 module.cooldowns.name=Cooldowns
 module.cooldowns.description=Displays the cooldown of items in your hotbar.
 
@@ -1362,8 +1345,8 @@ module.coordinates.setting.biome_settings.name=Biome Settings
 module.coordinates.setting.biome_settings.description=Settings related to biome display.
 module.coordinates.setting.show_biome.name=Show Biome
 module.coordinates.setting.show_biome.description=Displays the biome information.
-module.coordinates.setting.automated_biome_color.name=Automatic Biome Colour
-module.coordinates.setting.automated_biome_color.description=Automatically assigns colours based on biome.
+module.coordinates.setting.automated_biome_color.name=Automatic Biome Color
+module.coordinates.setting.automated_biome_color.description=Automatically assigns colors based on biome.
 module.coordinates.setting.copy_settings.name=Copy Position Settings
 module.coordinates.setting.copy_settings.description=Settings for copying position information.
 module.coordinates.setting.copy_player_key.name=Copy Player Position Key
@@ -1373,7 +1356,7 @@ module.coordinates.setting.copy_selected_key.description=Key binding to copy the
 
 
 
-## CPS
+## CPS module
 module.cps.name=CPS Counter
 module.cps.description=Shows your clicks per second.
 module.cps.setting.hide_cps.name=Hide CPS text
@@ -1387,7 +1370,7 @@ module.cps.setting.alternate_splitter.description=Uses ":" as a splitter for CPS
 
 
 
-## Day Counter
+## Day Counter Module
 module.day_counter.name=Day Counter
 module.day_counter.description=Displays the amount of in-game day or playtime.
 module.day_counter.setting.session_time.name=Session Time
@@ -1399,7 +1382,7 @@ module.daycounter.seconds=%s Seconds
 
 
 
-## Flappy Bird
+## Flappy Bird Module
 module.flappy_bird.name=Flappy Bird
 module.flappy_bird.description=A Flappy Bird clone playable in Minecraft!
 module.flappy_bird.setting.high_quality.name=4k Graphics (Low FPS Warning)
@@ -1415,24 +1398,24 @@ module.flappy_bird.setting.auto_play.description=Enables automatic gameplay.
 
 
 
-## F P S Counter
+## F P S Counter Module
 module.fps.name=FPS Counter
 module.fps.description=Displays your frames per second.
 
 
-## Item Tracker
+## Item Tracker Module
 module.item_tracker.name=Item Tracker
 module.item_tracker.description=Displays when and how many items you pick up or drop.
 module.item_tracker.setting.max_displayed_changes.name=Max Displayed Changes
 module.item_tracker.setting.max_displayed_changes.description=Sets the maximum number of changes displayed.
 module.item_tracker.setting.display_time.name=Change Stay Time
 module.item_tracker.setting.display_time.description=Specifies the duration changes stay visible.
-module.item_tracker.setting.added_color.name=Added Colour
-module.item_tracker.setting.added_color.description=Specifies the colour for added items.
-module.item_tracker.setting.removed_color.name=Removed Colour
-module.item_tracker.setting.removed_color.description=Specifies the colour for removed items.
-module.item_tracker.setting.bracket_color.name=Bracket Colour
-module.item_tracker.setting.bracket_color.description=Specifies the colour for brackets.
+module.item_tracker.setting.added_color.name=Added Color
+module.item_tracker.setting.added_color.description=Specifies the color for added items.
+module.item_tracker.setting.removed_color.name=Removed Color
+module.item_tracker.setting.removed_color.description=Specifies the color for removed items.
+module.item_tracker.setting.bracket_color.name=Bracket Color
+module.item_tracker.setting.bracket_color.description=Specifies the color for brackets.
 module.item_tracker.setting.ignored_slots.name=Ignored Slots
 module.item_tracker.setting.ignored_slots.description=Specifies slots to be ignored in tracking.
 
@@ -1455,14 +1438,14 @@ module.keystrokes.setting.border_settings.name=Border Settings
 module.keystrokes.setting.border_settings.description=Settings for key borders.
 module.keystrokes.setting.key_border.name=Key Border
 module.keystrokes.setting.key_border.description=Enables key borders.
-module.keystrokes.setting.border_uses_text_color.name=Border Uses Text Colour
-module.keystrokes.setting.border_uses_text_color.description=Uses text colour for key borders.
+module.keystrokes.setting.border_uses_text_color.name=Border Uses Text Color
+module.keystrokes.setting.border_uses_text_color.description=Uses text color for key borders.
 module.keystrokes.setting.border_width.name=Key Border Width
 module.keystrokes.setting.border_width.description=Specifies the width of key borders.
-module.keystrokes.setting.border_up_color.name=Up Border Colour
-module.keystrokes.setting.border_up_color.description=Sets the colour for the up border.
-module.keystrokes.setting.border_down_color.name=Down Border Colour
-module.keystrokes.setting.border_down_color.description=Sets the colour for the down border.
+module.keystrokes.setting.border_up_color.name=Up Border Color
+module.keystrokes.setting.border_up_color.description=Sets the color for the up border.
+module.keystrokes.setting.border_down_color.name=Down Border Color
+module.keystrokes.setting.border_down_color.description=Sets the color for the down border.
 module.keystrokes.setting.animation_settings.name=Animation Settings
 module.keystrokes.setting.animation_settings.description=Settings for keystroke animations.
 module.keystrokes.setting.fade_animation_on_text.name=Fade Animation on Text
@@ -1491,16 +1474,16 @@ module.keystrokes.setting.cps_font_ratio.name=CPS To Font Ratio
 module.keystrokes.setting.cps_font_ratio.description=Adjusts CPS display relative to the font size.
 module.keystrokes.setting.spacebar_block_size.name=Spacebar Size
 module.keystrokes.setting.spacebar_block_size.description=Adjusts the size of the spacebar.
-module.keystrokes.setting.color_settings.name=Colour Settings
-module.keystrokes.setting.color_settings.description=Settings for colours.
-module.keystrokes.setting.up_text_color.name=Up Text Colour
-module.keystrokes.setting.up_text_color.description=Specifies the colour for up text.
-module.keystrokes.setting.down_text_color.name=Down Text Colour
-module.keystrokes.setting.down_text_color.description=Specifies the colour for down text.
-module.keystrokes.setting.up_back_color.name=Up Background Colour
-module.keystrokes.setting.up_back_color.description=Specifies the background colour for up keys.
-module.keystrokes.setting.down_back_color.name=Down Background Colour
-module.keystrokes.setting.down_back_color.description=Specifies the background colour for down keys.
+module.keystrokes.setting.color_settings.name=Color Settings
+module.keystrokes.setting.color_settings.description=Settings for colors.
+module.keystrokes.setting.up_text_color.name=Up Text Color
+module.keystrokes.setting.up_text_color.description=Specifies the color for up text.
+module.keystrokes.setting.down_text_color.name=Down Text Color
+module.keystrokes.setting.down_text_color.description=Specifies the color for down text.
+module.keystrokes.setting.up_back_color.name=Up Background Color
+module.keystrokes.setting.up_back_color.description=Specifies the background color for up keys.
+module.keystrokes.setting.down_back_color.name=Down Background Color
+module.keystrokes.setting.down_back_color.description=Specifies the background color for down keys.
 
 
 
@@ -1520,8 +1503,8 @@ module.minimap.description=Displays a minimap on the screen.
 
 
 ## Movable Actionbar Module
-module.movable_actionbar.name=Movable Actionbar
-module.movable_actionbar.description=Allows you to customize the position of the actionbar.
+module..name=Movable Actionbar
+module..description=Allows you to customize the position of the actionbar.
 
 
 ## Movable Chat Module
@@ -1551,8 +1534,8 @@ module.movable_chat.setting.animation_interpolator.name=Animation Interpolator
 module.movable_chat.setting.animation_interpolator.description=Specifies the animation interpolator.
 module.movable_chat.setting.text_shadow.name=Shadows
 module.movable_chat.setting.text_shadow.description=Manages text shadows in the chat.
-module.movable_chat.setting.default_text_color.name=Default Text Colour
-module.movable_chat.setting.default_text_color.description=Sets the default text colour in the chat.
+module.movable_chat.setting.default_text_color.name=Default Text Color
+module.movable_chat.setting.default_text_color.description=Sets the default text color in the chat.
 module.movable_chat.setting.bottom_chat_mode.name=Bottom Chat Mode
 module.movable_chat.setting.bottom_chat_mode.description=Activates bottom chat mode.
 module.movable_chat.setting.bottom_chat_height.name=Bottom Chat Height
@@ -1585,14 +1568,14 @@ module.movable_scoreboard.setting.scripting_invisible_please.name=As a Script I 
 module.movable_scoreboard.setting.scripting_invisible_please.description=Hides the scoreboard.
 module.movable_scoreboard.setting.max_lines.name=Max Entries
 module.movable_scoreboard.setting.max_lines.description=Sets the maximum entries on the scoreboard.
-module.movable_scoreboard.setting.score_text_color.name=Score Text Colour
-module.movable_scoreboard.setting.score_text_color.description=The colour of the text for the score.
+module.movable_scoreboard.setting.score_text_color.name=Score Text Color
+module.movable_scoreboard.setting.score_text_color.description=The color of the text for the score.
 
 
 
 ## Movable Title Module
-module.movable_title.name=Movable Title
-module.movable_title.description=Allows you to customize the position of the title.
+module..name=Movable Title
+module..description=Allows you to customize the position of the title.
 
 
 ## Pack Display
@@ -1627,7 +1610,7 @@ module.potion_counter.setting.show_potion_text.name=Show "Potion: " Text
 module.potion_counter.setting.show_potion_text.description=Displays the text "Potion: " along with the potion count.
 module.potion_counter.setting.hide_without_items.name=Don't Display If No Potions
 module.potion_counter.setting.hide_without_items.description=Hides the counter if there are no potions.
-module.potion_counter.potion_text=Potion: %s
+module.potion_counter.potion_text=Potion:
 
 
 ## Potion Hud
@@ -1659,7 +1642,7 @@ module.reach_display.name=Reach Display
 module.reach_display.description=Shows the reach of your last hit. Not 100% accurate due to latency!
 module.reach_display.setting.show_reach_text.name=Show \Reach:\ Text
 module.reach_display.setting.show_reach_text.description=Displays the "Reach" text.
-module.reach_display.reach_text=Reach: %s
+module.reach_display.reach_text=Reach:
 
 
 
@@ -1694,7 +1677,7 @@ module.soup_counter.setting.hide_without_items.name=Don't display if no soups
 module.soup_counter.setting.hide_without_items.description=Hides the counter if no soups are in the inventory.
 module.soup_counter.setting.show_soup_text.name=Show "Soup: " Text
 module.soup_counter.setting.show_soup_text.description=Displays the text "Soup: " along with the soup count.
-module.soup_counter.soup_text=Soup: %s
+module.soup_counter.soup_text=Soup:
 
 
 ## Speed Counter

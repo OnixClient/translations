@@ -1,0 +1,4 @@
+module.movable_actionbar.description=Allows you to customize the position of the actionbar.
+module.movable_actionbar.name=Movable Actionbar
+module.movable_title.description=Allows you to customize the position of the title.
+module.movable_title.name=Movable Title

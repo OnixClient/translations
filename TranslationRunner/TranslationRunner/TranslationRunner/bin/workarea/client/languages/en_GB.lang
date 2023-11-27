@@ -46,8 +46,6 @@ module.visual.setting.anchor.name=Anchor
 module.visual.setting.anchor.description=The anchor of the module, the position will be relative to.
 module.visual.setting.position.name=Position
 module.visual.setting.position.description=The raw position of the module.
-module.visual.setting.size.name=Size
-module.visual.setting.size.description=The raw size of the module.
 module.textual.setting.bracket_type.name=Bracket Type
 module.textual.setting.bracket_type.description=The type of brackets to use.
 module.textual.setting.space_between_brackets.name=Space Between Brackets
@@ -571,14 +569,14 @@ module.custom_crosshair.setting.preview.description=Preview the customized cross
 module.custom_crosshair_editor.setting.brush_radius.name=Pen/Eraser Radius
 module.custom_crosshair_editor.setting.brush_radius.description=The radius of the selected tool.
 module.custom_crosshair_editor.create_window.title=Create a New Crosshair
-module.custom_crosshair_editor.confirm_window.message=You are about to delete a crosshair.
+module.custom_crosshair_editor.confirm_window.message=You are about to delete a crosshair!ed tool.
 module.custom_crosshair_editor.list_window.title=Crosshairs
 module.custom_crosshair_editor.list_window.create_button=Create New Crosshair
 module.custom_crosshair_editor.list_window.open_explorer_button=Open Crosshair Directory
 module.custom_crosshair_editor.widget_window.reset_zoom=Reset Zoom (%s)
 module.custom_crosshair_editor.widget_window.reset_position=Reset position
 module.custom_crosshair_editor.widget_window.undo=Undo (%s)
-module.custom_crosshair_editor.widget_window.save=Save (%s)
+module.custom_crosshair_editor.widget_window.undo=Save (%s)
 module.custom_crosshair_editor.widget_window.pen=Pen: %s
 module.custom_crosshair_editor.widget_window.pen_square=Square
 module.custom_crosshair_editor.widget_window.pen_round=Round
@@ -906,18 +904,12 @@ module.proximity_chat.setting.context_settings_category.description=Settings for
 module.proximity_chat.setting.informative_information.name=These settings are what to include in Mumble Link's context.\nThey define who should be able to hear each other.\nIf your friends don't use the same options, the context will be different.\nPlayers with matching contexts have positional audio, otherwise normal audio is transmitted.\nYou can change what to include here to better match a server.\nScripts can also play with this to improve their experience whilst on a server.
 
 module.proximity_chat.setting.include_world_name.name=Include World Name
-module.proximity_chat.setting.include_world_name.description=Include world name or not in the context.
 module.proximity_chat.setting.include_world_id.name=Include World Id
-module.proximity_chat.setting.include_world_id.description=Include world id or not in the context.
 module.proximity_chat.setting.include_players.name=Include Players
-module.proximity_chat.setting.include_players.description=Include players or not in the context.
 module.proximity_chat.setting.include_dimension.name=Include Dimension
-module.proximity_chat.setting.include_dimension.description=Include dimension or not in the context.
 
 module.proximity_chat.setting.include_scripting_context.name=Include Scripting Context
-module.proximity_chat.setting.include_scripting_context.description=Include scripting context or not in the context.
 module.proximity_chat.setting.extra_scripting_context.name=Extra Scripting Context
-module.proximity_chat.setting.extra_scripting_context.description=Extra scripting context to include in the context.
 
 ## Nick Hider
 module.nick_hider.name=Nick Hider
@@ -1520,8 +1512,8 @@ module.minimap.description=Displays a minimap on the screen.
 
 
 ## Movable Actionbar Module
-module.movable_actionbar.name=Movable Actionbar
-module.movable_actionbar.description=Allows you to customize the position of the actionbar.
+module..name=Movable Actionbar
+module..description=Allows you to customize the position of the actionbar.
 
 
 ## Movable Chat Module
@@ -1591,8 +1583,8 @@ module.movable_scoreboard.setting.score_text_color.description=The colour of the
 
 
 ## Movable Title Module
-module.movable_title.name=Movable Title
-module.movable_title.description=Allows you to customize the position of the title.
+module..name=Movable Title
+module..description=Allows you to customize the position of the title.
 
 
 ## Pack Display
@@ -1713,7 +1705,6 @@ module.stopwatch.setting.start_stop_key.name=Start/Stop Key
 module.stopwatch.setting.start_stop_key.description=Key used to start or stop the stopwatch.
 module.stopwatch.setting.pause_unpause_key.name=Pause/Unpause Key
 module.stopwatch.setting.pause_unpause_key.description=Key used to pause or unpause the stopwatch.
-
 
 
 ## Visual Testing

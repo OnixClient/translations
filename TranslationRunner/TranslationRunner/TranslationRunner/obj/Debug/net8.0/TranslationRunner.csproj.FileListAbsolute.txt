@@ -1,0 +1,14 @@
+C:\Users\Thinkpad\source\repos\TranslationRunner\TranslationRunner\bin\Debug\net8.0\TranslationRunner.exe
+C:\Users\Thinkpad\source\repos\TranslationRunner\TranslationRunner\bin\Debug\net8.0\TranslationRunner.deps.json
+C:\Users\Thinkpad\source\repos\TranslationRunner\TranslationRunner\bin\Debug\net8.0\TranslationRunner.runtimeconfig.json
+C:\Users\Thinkpad\source\repos\TranslationRunner\TranslationRunner\bin\Debug\net8.0\TranslationRunner.dll
+C:\Users\Thinkpad\source\repos\TranslationRunner\TranslationRunner\bin\Debug\net8.0\TranslationRunner.pdb
+C:\Users\Thinkpad\source\repos\TranslationRunner\TranslationRunner\obj\Debug\net8.0\TranslationRunner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thinkpad\source\repos\TranslationRunner\TranslationRunner\obj\Debug\net8.0\TranslationRunner.AssemblyInfoInputs.cache
+C:\Users\Thinkpad\source\repos\TranslationRunner\TranslationRunner\obj\Debug\net8.0\TranslationRunner.AssemblyInfo.cs
+C:\Users\Thinkpad\source\repos\TranslationRunner\TranslationRunner\obj\Debug\net8.0\TranslationRunner.csproj.CoreCompileInputs.cache
+C:\Users\Thinkpad\source\repos\TranslationRunner\TranslationRunner\obj\Debug\net8.0\TranslationRunner.dll
+C:\Users\Thinkpad\source\repos\TranslationRunner\TranslationRunner\obj\Debug\net8.0\refint\TranslationRunner.dll
+C:\Users\Thinkpad\source\repos\TranslationRunner\TranslationRunner\obj\Debug\net8.0\TranslationRunner.pdb
+C:\Users\Thinkpad\source\repos\TranslationRunner\TranslationRunner\obj\Debug\net8.0\TranslationRunner.genruntimeconfig.cache
+C:\Users\Thinkpad\source\repos\TranslationRunner\TranslationRunner\obj\Debug\net8.0\ref\TranslationRunner.dll

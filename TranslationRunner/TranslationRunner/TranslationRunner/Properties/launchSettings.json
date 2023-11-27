@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TranslationRunner": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\Thinkpad\\source\\repos\\TranslationRunner\\TranslationRunner\\bin\\workarea\\TranslationRunner"
+    }
+  }
+}

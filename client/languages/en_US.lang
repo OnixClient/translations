@@ -1511,8 +1511,8 @@ module.minimap.description=Displays a minimap on the screen.
 
 
 ## Movable Actionbar Module
-module..name=Movable Actionbar
-module..description=Allows you to customize the position of the actionbar.
+module.movable_actionbar.name=Movable Actionbar
+module.movable_actionbar.description=Allows you to customize the position of the actionbar.
 
 
 ## Movable Chat Module
@@ -1582,8 +1582,8 @@ module.movable_scoreboard.setting.score_text_color.description=The color of the 
 
 
 ## Movable Title Module
-module..name=Movable Title
-module..description=Allows you to customize the position of the title.
+module.movable_title.name=Movable Title
+module.movable_title.description=Allows you to customize the position of the title.
 
 
 ## Pack Display

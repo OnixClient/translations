@@ -2,3 +2,7 @@ module.movable_actionbar.description=Allows you to customize the position of the
 module.movable_actionbar.name=Movable Actionbar
 module.movable_title.description=Allows you to customize the position of the title.
 module.movable_title.name=Movable Title
+module.over_the_shoulder_camera.description=Allows you to place the camera over your shoulder.
+module.over_the_shoulder_camera.name=Over The Shoulder Camera
+module.over_the_shoulder_camera.setting.x_offset.description=Adjusts the X offset of the camera, which side/how far the camera is.
+module.over_the_shoulder_camera.setting.x_offset.name=X Offset

@@ -3,42 +3,42 @@
     {
       "visual_name": "Espa\u00F1ol (we nee)",
       "code": "es_ES",
-      "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/es_ES.lang",
+      "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/es_ES.lang",
       "version": 2,
       "md5": "d41d8cd98f00b204e9800998ecf8427e"
     },
     {
       "visual_name": "Deutsch (Deutschland)",
       "code": "de_DE",
-      "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/de_DE.lang",
+      "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/de_DE.lang",
       "version": 3,
       "md5": "0df1c5b3b6b87669735bae8ec193e97b"
     },
     {
       "visual_name": "Portugu\u00EAs (Brasileiro)",
       "code": "pt_BR",
-      "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/pt_BR.lang",
+      "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/pt_BR.lang",
       "version": 3,
       "md5": "0df1c5b3b6b87669735bae8ec193e97b"
     },
     {
       "visual_name": "Magyar (Magyarorsz\u00E1g)",
       "code": "hu_HU",
-      "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/hu_HU.lang",
+      "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/hu_HU.lang",
       "version": 3,
       "md5": "0df1c5b3b6b87669735bae8ec193e97b"
     },
     {
       "visual_name": "Espa\u00F1ol (M\u00E9xico)",
       "code": "es_MX",
-      "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/es_MX.lang",
+      "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/es_MX.lang",
       "version": 3,
       "md5": "0df1c5b3b6b87669735bae8ec193e97b"
     },
     {
       "visual_name": "Fran\u00E7ais (Canada)",
       "code": "fr_CA",
-      "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/fr_CA.lang",
+      "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/fr_CA.lang",
       "version": 3,
       "md5": "45bea6260f32245beb9032276c442f53"
     },
@@ -87,7 +87,7 @@
     {
       "visual_name": "English (United Kingdom)",
       "code": "en_GB",
-      "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/en_GB.lang",
+      "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/en_GB.lang",
       "version": 4,
       "md5": "9445b355b9dfbafe2b31f758d58a323b"
     }

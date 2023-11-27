@@ -81,15 +81,15 @@
       "visual_name": "English (United States)",
       "code": "en_US",
       "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/en_US.lang",
-      "version": 4,
-      "md5": "5ed79fb235edebc2a9bada1b3048a01b"
+      "version": 5,
+      "md5": "61ee806ca5266a7feccb591a371253e8"
     },
     {
       "visual_name": "English (United Kingdom)",
       "code": "en_GB",
       "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/en_GB.lang",
-      "version": 4,
-      "md5": "9445b355b9dfbafe2b31f758d58a323b"
+      "version": 5,
+      "md5": "0e9a87dfd2b1c912642769c8bef3b330"
     }
   ]
 }

@@ -8,20 +8,6 @@
       "md5": "d41d8cd98f00b204e9800998ecf8427e"
     },
     {
-      "visual_name": "English (United States)",
-      "code": "en_US",
-      "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/en_US.lang",
-      "version": 3,
-      "md5": "b08e42c74bb309896da84ac60f09ff02"
-    },
-    {
-      "visual_name": "English (United Kingdom)",
-      "code": "en_GB",
-      "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/en_GB.lang",
-      "version": 3,
-      "md5": "f7cb43bc0b6a23b41f6c69006e3799b4"
-    },
-    {
       "visual_name": "Deutsch (Deutschland)",
       "code": "de_DE",
       "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/de_DE.lang",
@@ -90,6 +76,20 @@
       "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/ro_RO.lang",
       "version": 3,
       "md5": "8c2327a845218e6fc285c831e0fc3346"
+    },
+    {
+      "visual_name": "English (United States)",
+      "code": "en_US",
+      "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/en_US.lang",
+      "version": 4,
+      "md5": "5ed79fb235edebc2a9bada1b3048a01b"
+    },
+    {
+      "visual_name": "English (United Kingdom)",
+      "code": "en_GB",
+      "url": "https://raw.githubusercontent.com/OnixClient/translations/client/languages/en_GB.lang",
+      "version": 4,
+      "md5": "9445b355b9dfbafe2b31f758d58a323b"
     }
   ]
 }

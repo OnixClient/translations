@@ -2,7 +2,8 @@
     "origin": "en_US",
     "text_replacement": {
         "color": "colour",
-        "favorite": "favourite"
+        "favorite": "favourite",
+        "armor":"armour"
     },
     "full_keys": {
 

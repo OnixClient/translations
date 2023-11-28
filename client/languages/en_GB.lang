@@ -1199,10 +1199,10 @@ module.zoom.setting.animation_duration.description=Adjust the zoom in animation 
 
 
 ## Armor HUD
-module.armor_hud.name=Armor HUD
-module.armor_hud.description=Shows the armor and mainhand item you have equipped.
+module.armor_hud.name=Armour HUD
+module.armor_hud.description=Shows the armour and mainhand item you have equipped.
 module.armor_hud.setting.horizontal.name=Horizontally Aligned
-module.armor_hud.setting.horizontal.description=Arranges the armor and mainhand items in a horizontal line.
+module.armor_hud.setting.horizontal.description=Arranges the armour and mainhand items in a horizontal line.
 module.armor_hud.setting.is_hotbar.name=Above Hunger Bar
 module.armor_hud.setting.is_hotbar.description=Positions the display above the hunger bar.
 module.armor_hud.setting.hand_title.name=Hand
@@ -1738,3 +1738,5 @@ module.waila.setting.original_position.name=Use Original Mods Position
 module.waila.setting.original_position.description=Uses the original mod's position.
 module.waila.setting.height_offset.name=Height Offset
 module.waila.setting.height_offset.description=Adjusts the height offset for the display.
+
+## use this space here to update the language file

@@ -1,9 +1,7 @@
 name: Analyze and Generate Lang
 
 
-on:
-  push:
-    branches: [ "main", "master" ]
+on: [push]
 
 permissions:
   contents: write

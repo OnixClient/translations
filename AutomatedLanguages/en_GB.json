@@ -3,7 +3,8 @@
     "text_replacement": {
         "color": "colour",
         "favorite": "favourite",
-        "armor":"armour"
+        "armor":"armour",
+        "behavior":"behaviour"
     },
     "full_keys": {
 

@@ -281,11 +281,11 @@ module.global_settings.setting.request_disable_vsync.name=Request Disable V-Sync
 module.global_settings.setting.request_disable_vsync.description=Disables V-Sync.
 module.global_settings.setting.request_disable_vsync_info.name=Note: uncapped framerates can cause increased CPU/GPU usage and overheating on laptops
 module.global_settings.setting.vsync_option_1.name=V-Sync Option 1
-module.global_settings.setting.vsync_option_1.description=Driver-dependent behavior.
-module.global_settings.setting.vsync_option_info_1.name=The behavior of this option is driver-dependent
+module.global_settings.setting.vsync_option_1.description=Driver-dependent behaviour.
+module.global_settings.setting.vsync_option_info_1.name=The behaviour of this option is driver-dependent
 module.global_settings.setting.vsync_option_2.name=V-Sync Option 2
-module.global_settings.setting.vsync_option_2.description=Driver-dependent behavior.
-module.global_settings.setting.vsync_option_info_2.name=The behavior of this option is driver-dependent
+module.global_settings.setting.vsync_option_2.description=Driver-dependent behaviour.
+module.global_settings.setting.vsync_option_info_2.name=The behaviour of this option is driver-dependent
 module.global_settings.setting.use_d3d11.name=Switch to DirectX 11
 module.global_settings.setting.use_d3d11.description=Changes to DirectX 11 rendering.
 module.global_settings.setting.use_d3d11_warning.name=Note: You will need to restart to revert.
@@ -679,7 +679,7 @@ module.environment_changer.setting.dark_lighting.description=Adjust dark lightin
 
 ## FOV Changer
 module.fov_changer.name=FOV Changer
-module.fov_changer.description=Allows you to customize the field of view behavior.
+module.fov_changer.description=Allows you to customize the field of view behaviour.
 
 module.fov_changer.setting.pre_enable_fov_obtained.name=User FOV Obtained
 module.fov_changer.setting.pre_enable_fov_obtained.description=Weather or not the user FOV has been obtained.
@@ -857,9 +857,9 @@ module.2d_items.name=2D Items
 module.2d_items.description=Makes the items appear as if they were 2D like the old bedrock.\nNote that the items are still 3D, so you don't save performance.
 
 module.2d_items.setting.follow_x_axis.name=Follow X Axis
-module.2d_items.setting.follow_x_axis.description=Toggle the behavior to follow the X-axis.
+module.2d_items.setting.follow_x_axis.description=Toggle the behaviour to follow the X-axis.
 module.2d_items.setting.follow_y_axis.name=Follow Y Axis
-module.2d_items.setting.follow_y_axis.description=Toggle the behavior to follow the Y-axis.
+module.2d_items.setting.follow_y_axis.description=Toggle the behaviour to follow the Y-axis.
 
 ## Light Overlay
 module.light_overlay.name=Light Overlay
@@ -1738,5 +1738,3 @@ module.waila.setting.original_position.name=Use Original Mods Position
 module.waila.setting.original_position.description=Uses the original mod's position.
 module.waila.setting.height_offset.name=Height Offset
 module.waila.setting.height_offset.description=Adjusts the height offset for the display.
-
-## use this space here to update the language file

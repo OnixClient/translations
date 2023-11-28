@@ -1749,7 +1749,6 @@ module.stopwatch.setting.pause_unpause_key.description=Touche utilisée pour met
 
 
 
-
 ## Visual Testing
 module.visual_testing.name=Teste Visuel
 module.visual_testing.description=Module de teste visuel.

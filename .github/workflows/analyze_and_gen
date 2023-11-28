@@ -1,6 +1,8 @@
 name: Analyze and Generate Lang
 
-on: [push]
+on: 
+  branches:
+      - '*'
 
 permissions:
   contents: write

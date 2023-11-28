@@ -1729,3 +1729,5 @@ module.waila.setting.original_position.name=Use Original Mods Position
 module.waila.setting.original_position.description=Uses the original mod's position.
 module.waila.setting.height_offset.name=Height Offset
 module.waila.setting.height_offset.description=Adjusts the height offset for the display.
+
+## use this space here to update the language file

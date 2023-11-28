@@ -25,7 +25,7 @@ module.visual.setting.back_color.description=La couleur de l'arrière-plan.
 module.visual.setting.blur_opacity.name=Opacité du flou
 module.visual.setting.blur_opacity.description=L'opacité du flou de l'arrière-plan.
 module.visual.setting.has_outline.name=Contour
-module.visual.setting.has_outline.description=Si le module a ou non un contour.
+module.visual.setting.has_outline.description=Si le module a un contour ou non.
 module.visual.setting.outline_color.name=Couleur du contour
 module.visual.setting.outline_color.description=La couleur du contour.
 module.visual.setting.outline_width.name=Largeur du contour
@@ -33,13 +33,13 @@ module.visual.setting.outline_width.description=La largeur du contour.
 module.visual.setting.has_fixed_width.name=Utiliser une largeur fixe
 module.visual.setting.has_fixed_width.description=Garder la largeur telle quelle.
 module.visual.setting.fixed_width.name=Largeur fixe
-module.visual.setting.fixed_width.description=Quelle largeur devrait-elle être.
+module.visual.setting.fixed_width.description=Quelle devrait être la largeur.
 module.visual.setting.precision.name=Précision
 module.visual.setting.precision.description=La précision de la valeur.
 module.visual.setting.corner_roundness.name=Rayon d'angle arrondi
 module.visual.setting.corner_roundness.description=La taille de la partie arrondie des coins.
 module.visual.setting.corner_quality.name=Qualité des coins arrondis
-module.visual.setting.corner_quality.description=La qualité des coins arrondis, plus elle est élevée, mieux c'est, n'affecte pas le nouveau rendu.
+module.visual.setting.corner_quality.description=La qualité des coins arrondis, plus elle est élevée, mieux c'est, n'affecte pas le nouveau mode de rendu.
 module.visual.setting.expand_direction.name=Direction d'expansion
 module.visual.setting.expand_direction.description=La direction dans laquelle le module s'étendra.
 module.visual.setting.anchor.name=Ancre
@@ -53,9 +53,9 @@ module.textual.setting.space_between_brackets.description=Inclure un espace entr
 
 
 module.module.setting.main_settings.name=Paramètres principaux
-module.module.setting.main_settings.description=Paramètres pour changer la fonctionnalité principale du module.
+module.module.setting.main_settings.description=Paramètres pour changer les fonctionnalités principales du module.
 module.module.setting.miscellaneous_settings.name=Paramètres divers
-module.module.setting.miscellaneous_settings.description=Paramètres pour changer la fonctionnalité diverse du module.
+module.module.setting.miscellaneous_settings.description=Paramètres pour changer les fonctionnalités diverses du module.
 module.module.setting.render_settings.name=Paramètres de rendu
 module.module.setting.render_settings.description=Paramètres qui affectent le rendu du module.
 
@@ -66,7 +66,7 @@ gui.on=Activé
 gui.off=Désactivé
 gui.enabled=Activé
 gui.disabled=Désactivé
-gui.toggle=Bascule
+gui.toggle=Basculer
 gui.toggle_on=Activer
 gui.toggle_off=Désactiver
 gui.width=Largeur
@@ -80,9 +80,9 @@ gui.cancel=Annuler
 gui.back=Retour
 gui.reset=Réinitialiser
 gui.undo=Annuler
-gui.reset_all=Réinitialiser tout
+gui.reset_all=Tout réinitialiser
 gui.confirm=Confirmer
-gui.are_you_sure=Êtes-vous sûr ?
+gui.are_you_sure=Êtes-vous sûr?
 gui.create_new=Créer un nouveau %s
 gui.accept=Accepter
 gui.deny=Refuser
@@ -94,9 +94,9 @@ module.ui.setting.color_picker_chroma.description=Active/désactive le chroma, l
 module.ui.setting.color_picker_rainbow.name=Arc-en-ciel
 module.ui.setting.color_picker_rainbow.description=Active/désactive l'arc-en-ciel, l'arc-en-ciel est une couleur solide qui change avec le temps.
 module.ui.setting.color_picker_opacity.name=Opacité
-module.ui.setting.color_picker_opacity.description=Définit l'opacité de la couleur (transparence).
+module.ui.setting.color_picker_opacity.description=Définit l'opacité (transparence) de la couleur.
 module.ui.setting.key_renderer_unbind=Désassocier
-module.ui.setting.key_overlay_help=Appuyez sur n'importe quelle touche pour la choisir, appuyez sur Échap pour quitter sans changer.
+module.ui.setting.key_overlay_help=Appuyez sur n'importe quelle touche pour la choisir, appuyez sur Échap pour quitter sans changement.
 module.ui.setting.settings=Paramètres
 
 
@@ -104,7 +104,7 @@ module.ui.setting.settings=Paramètres
 module.themeuipreview.name=Aperçu du thème
 module.themeuipreview.description=Ceci est un aperçu pour voir les changements que vous apportez!
 module.themeuipreview.setting.presets.name=Préréglages
-module.themeuipreview.setting.presets.description=Préréglages de thème que vous pouvez utiliser ou partir.
+module.themeuipreview.setting.presets.description=Préréglages de thème que vous pouvez utliser ou personnaliser à votre guise.
 module.themeuipreview.setting.category.name=Catégorie
 module.themeuipreview.setting.category.description=Un aperçu d'une catégorie.
 module.themeuipreview.setting.info_category.name=Salut! Je suis à l'intérieur d'une catégorie!
@@ -133,7 +133,7 @@ module.themeuipreview.setting.info_scrollbar.description=C'est juste pour montre
 
 ## Theme Options
 module.themeuioption.setting.enabled.name=Couleur principale du client
-module.themeuioption.setting.enabled.description=La couleur d'accent du client.
+module.themeuioption.setting.enabled.description=La couleur principale du client.
 module.themeuioption.setting.text.name=Couleur du texte
 module.themeuioption.setting.text.description=La couleur du texte.
 module.themeuioption.setting.blocked.name=Couleur du module bloqué
@@ -144,14 +144,14 @@ module.themeuioption.setting.highlight.name=Couleur de mise en évidence
 module.themeuioption.setting.highlight.description=La couleur des éléments mis en évidence.
 module.themeuioption.setting.outline.name=Couleur du contour
 module.themeuioption.setting.outline.description=La couleur des contours.
-module.themeuioption.setting.window_background.name=Couleur de fond de la fenêtre
-module.themeuioption.setting.window_background.description=La couleur de fond.
+module.themeuioption.setting.window_background.name=Couleur de l'arrière-plan
+module.themeuioption.setting.window_background.description=La couleur de l'arrière-plan.
 module.themeuioption.setting.button.name=Couleur du bouton
 module.themeuioption.setting.button.description=La couleur des boutons.
 module.themeuioption.setting.scrollbar.name=Couleur de la barre de défilement
 module.themeuioption.setting.scrollbar.description=La couleur des barres de défilement.
-module.themeuioption.setting.reset_button.name=Réinitialiser le thème par défaut
-module.themeuioption.setting.reset_button.description=Réinitialise le thème par défaut, le thème onix.
+module.themeuioption.setting.reset_button.name=Réinitialiser les paramètres du thème
+module.themeuioption.setting.reset_button.description=Réinitialise le thème actuel par le thème original du client .
 module.themeuioption.setting.reset_button.button=Réinitialiser
 
 
@@ -164,29 +164,29 @@ module.remind_202020.setting.interval.name=Intervalle (minutes)
 module.remind_202020.setting.interval.description=L'intervalle entre les rappels.
 module.remind_202020.setting.duration.name=Durée (secondes)
 module.remind_202020.setting.duration.description=La durée du rappel.
-module.remind_202020.setting.snooze_duration.name=Délais du snooze (secondes)
-module.remind_202020.setting.snooze_duration.description=Combien de temps la touche SNOOZE vous donne.
-module.remind_202020.setting.snooze_key.name=Touche SNOOZE
-module.remind_202020.setting.snooze_key.description=La touche qui décale le rappel plus tard.
+module.remind_202020.setting.snooze_duration.name=Délai du snooze (secondes)
+module.remind_202020.setting.snooze_duration.description=Combien de temps supplémentaire la touche snooze vous donne.
+module.remind_202020.setting.snooze_key.name=Touche snooze
+module.remind_202020.setting.snooze_key.description=La touche qui décale le rappel pour plus tard.
 
 
 ## Animation Settings
 module.animation_settings.name=Paramètres d'animation
 module.animation_settings.description=Vous permet de changer diverses animations.
-module.animation_settings.setting.button_hover_size_multiplier.name=Multiplier de taille au survol du bouton
-module.animation_settings.setting.button_hover_size_multiplier.description=Multiplier pour la taille du bouton au survol.
-module.animation_settings.setting.popup_initial_growth_size_multiplier.name=Multiplier de taille initiale de la fenêtre contextuelle
-module.animation_settings.setting.popup_initial_growth_size_multiplier.description=Multiplier pour la taille initiale des fenêtres contextuelles.
+module.animation_settings.setting.button_hover_size_multiplier.name=Multiplicateur de taille au survol du bouton
+module.animation_settings.setting.button_hover_size_multiplier.description=Multiplicateur pour la taille du bouton au survol.
+module.animation_settings.setting.popup_initial_growth_size_multiplier.name=Multiplicateur de taille initiale de la fenêtre contextuelle
+module.animation_settings.setting.popup_initial_growth_size_multiplier.description=Multiplicateur pour la taille initiale des fenêtres contextuelles.
 module.animation_settings.setting.setting_list_animation_offset.name=Décalage d'animation dans la liste des paramètres
 module.animation_settings.setting.setting_list_animation_offset.description=Décalage pour l'animation dans la liste des paramètres.
 module.animation_settings.setting.setting_list_comes_from_right.name=La liste des paramètres vient de la droite
 module.animation_settings.setting.setting_list_comes_from_right.description=Détermine si la liste des paramètres doit apparaître depuis la droite.
-module.animation_settings.setting.setting_list_reload_with_search.name=Recharger la liste des paramètres avec la recherche
+module.animation_settings.setting.setting_list_reload_with_search.name=Recharger la liste des paramètres pendant la recherche
 module.animation_settings.setting.setting_list_reload_with_search.description=Activer le rechargement de la liste des paramètres lors de la recherche.
-module.animation_settings.setting.setting_list_initial_growth_size_multiplier.name=Multiplier de taille initiale de la liste des paramètres
-module.animation_settings.setting.setting_list_initial_growth_size_multiplier.description=Multiplier pour la croissance initiale de la taille de la liste des paramètres.
+module.animation_settings.setting.setting_list_initial_growth_size_multiplier.name=Multiplicateur de la taille initiale de la liste des paramètres
+module.animation_settings.setting.setting_list_initial_growth_size_multiplier.description=Multiplicateur pour la croissance initiale de la taille de la liste des paramètres.
 module.animation_settings.setting.category_title.name=Paramètres de %s
-module.animation_settings.setting.category_title.description=Paramètres pour l'animation %s.
+module.animation_settings.setting.category_title.description=Paramètres pour l'animation de %s.
 module.animation_settings.setting.animate.name=Animer
 module.animation_settings.setting.animate.description=Activer ou désactiver cette animation.
 module.animation_settings.setting.duration.name=Durée
@@ -199,7 +199,7 @@ module.animation_settings.setting.easing.description=Fonction d'interpolation po
 
 ## Global Settings
 module.global_settings.name=Paramètres globaux
-module.global_settings.description=Configurez les configurations globales pour le client.
+module.global_settings.description=Ajustez les configurations globales pour le client.
 module.global_settings.setting.open_gui_key.name=Touche d'ouverture du client
 module.global_settings.setting.open_gui_key.description=Touche utilisée pour ouvrir l'interface utilisateur du client.
 module.global_settings.setting.mojangles_in_game.name=Police Minecraft en jeu
@@ -229,7 +229,7 @@ module.global_settings.setting.blur_delay_warning.name=Des délais de flou élev
 module.global_settings.setting.blur_quality.name=Réducteur de qualité du flou
 module.global_settings.setting.blur_quality.description=Diminue la qualité de l'effet de flou.
 
-module.global_settings.setting.hud_editor_settings_category.name=Paramètres de l'éditeur HUD
+module.global_settings.setting.hud_editor_settings_category.name=Paramètres du HUD
 module.global_settings.setting.hud_editor_settings_category.description=Paramètres liés à l'éditeur HUD.
 module.global_settings.setting.module_snapping.name=Alignement des modules
 module.global_settings.setting.module_snapping.description=Fait comme si les coins des modules étaient magnétiques.
@@ -237,13 +237,13 @@ module.global_settings.setting.snap_lines.name=Lignes d'alignement
 module.global_settings.setting.snap_lines.description=Affiche des lignes directrices pour l'alignement des modules.
 module.global_settings.setting.show_visual_module_name.name=Afficher les noms visuels des modules
 module.global_settings.setting.show_visual_module_name.description=Affiche les noms visuels des modules.
-module.global_settings.setting.idiots_wants_to_see_mods_in_f1.name=Ne pas cacher les mods dans F1
-module.global_settings.setting.idiots_wants_to_see_mods_in_f1.description=Affiche les mods dans F1.
+module.global_settings.setting.idiots_wants_to_see_mods_in_f1.name=Ne pas cacher les mods dans le menu F1
+module.global_settings.setting.idiots_wants_to_see_mods_in_f1.description=Affiche les mods dans le menu F1.
 
 module.global_settings.setting.screenshot_settings_category.name=Paramètres de capture d'écran
 module.global_settings.setting.screenshot_settings_category.description=Paramètres liés aux captures d'écran.
 module.global_settings.setting.screenshot_key.name=Touche de capture d'écran
-module.global_settings.setting.screenshot_key.description=Touche utilisée pour capturer des captures d'écran.
+module.global_settings.setting.screenshot_key.description=Touche utilisée pour faire des captures d'écran.
 module.global_settings.setting.mods_in_screenshot.name=Inclure les modules
 module.global_settings.setting.mods_in_screenshot.description=Inclut les modules dans les captures d'écran.
 module.global_settings.setting.copy_screenshots.name=Copier les captures d'écran
@@ -251,8 +251,8 @@ module.global_settings.setting.copy_screenshots.description=Copie les captures d
 module.global_settings.setting.screenshot_chat_message.name=Envoyer un message dans le chat
 module.global_settings.setting.screenshot_chat_message.description=Envoie un message dans le chat lorsqu'une capture d'écran est réalisée.
 
-module.global_settings.setting.show_pause_button.name=Afficher le bouton de pause
-module.global_settings.setting.show_pause_button.description=Active l'affichage du bouton de pause.
+module.global_settings.setting.show_pause_button.name=Afficher le bouton dans le menu pause
+module.global_settings.setting.show_pause_button.description=Active l'affichage du bouton dans le menu pause.
 module.global_settings.setting.center_mouse_on_ui_open.name=Centrer le curseur à l'ouverture de l'interface utilisateur
 module.global_settings.setting.center_mouse_on_ui_open.description=Positionne le curseur au centre lors de l'ouverture de l'interface utilisateur.
 
@@ -282,12 +282,12 @@ module.global_settings.setting.request_disable_vsync.description=Désactive la s
 module.global_settings.setting.request_disable_vsync_info.name=Note: des fréquences d'images non limitées peuvent entraîner une augmentation de\nl'utilisation du CPU/GPU et une surchauffe sur les ordinateurs portables.
 module.global_settings.setting.vsync_option_1.name=Option de synchronisation verticale 1
 module.global_settings.setting.vsync_option_1.description=Comportement dépendant du pilote.
-module.global_settings.setting.vsync_option_info_1.name=Le comportement de cette option dépend du pilote
+module.global_settings.setting.vsync_option_info_1.name=Le comportement de cette option dépend du pilote graphique de l'appareil
 module.global_settings.setting.vsync_option_2.name=Option de synchronisation verticale 2
 module.global_settings.setting.vsync_option_2.description=Comportement dépendant du pilote.
-module.global_settings.setting.vsync_option_info_2.name=Le comportement de cette option dépend du pilote
+module.global_settings.setting.vsync_option_info_2.name=Le comportement de cette option dépend du pilote graphique de l'appareil
 module.global_settings.setting.use_d3d11.name=Basculer vers DirectX 11
-module.global_settings.setting.use_d3d11.description=Passe au rendu DirectX 11.
+module.global_settings.setting.use_d3d11.description=Passe au mode de rendu DirectX 11.
 module.global_settings.setting.use_d3d11_warning.name=Note : Vous devrez redémarrer pour revenir en arrière.
 module.global_settings.setting.use_d3d11_warning.description=Vous devez redémarrer pour annuler ce changement.
 
@@ -297,7 +297,7 @@ module.global_settings.setting.use_d3d11_warning.description=Vous devez redémar
 ## Auto GG
 module.autogg.name=Auto GG
 module.autogg.description=Dit automatiquement GG (ou tout message) à la fin du jeu.\nFonctionne sur Hive, CubeCraft, Zeqa, NetherGames, Hyperlands.
-module.autogg.setting.gg_delay.name=Délai GG (secondes)
+module.autogg.setting.gg_delay.name=Délai du GG (secondes)
 module.autogg.setting.gg_delay.description=Le délai entre la fin du jeu et l'envoi du message.
 module.autogg.setting.message.name=Message %s
 module.autogg.setting.message.description=Le message à envoyer à la fin du jeu.
@@ -310,7 +310,7 @@ module.autogg.remove_message.button=Supprimer
 
 
 ## Auto Text Hotkey
-module.auto_text_hotkey.name=Touche de Texte
+module.auto_text_hotkey.name=Macro de Texte
 module.auto_text_hotkey.description=Envoie automatiquement un message lorsqu'une touche est pressée.
 module.auto_text_hotkey.setting.shortcut.name=Touche
 module.auto_text_hotkey.setting.shortcut.description=La touche qui enverra le message.
@@ -327,52 +327,52 @@ module.auto_text_hotkey.setting.remove_message.button=Supprimer
 
 
 ## Block Outline/ Overlay
-module.block_outline_overlay.name=Block Outline/Overlay
-module.block_outline_overlay.description=Modifie le contour/superposition du bloc sélectionné.\nL'option "Contour de la sélection" doit être activée dans les paramètres vidéo.
-module.block_outline_overlay.setting.block_outline.name=Block Outline
+module.block_outline_overlay.name=Contour/Overlay de Bloc
+module.block_outline_overlay.description=Modifie le contour et l'overlay du bloc sélectionné.\nL'option "Sélection de plan" doit être activée dans les paramètres vidéo.
+module.block_outline_overlay.setting.block_outline.name=Contour de Bloc
 module.block_outline_overlay.setting.block_outline.description=Paramètres pour le contour du bloc.
-module.block_outline_overlay.setting.render_block_outline.name=Afficher l'Outline
-module.block_outline_overlay.setting.render_block_outline.description=Que le contour du bloc doit être affiché ou non.
-module.block_outline_overlay.setting.3d_block_outline.name=Outline 3D
-module.block_outline_overlay.setting.3d_block_outline.description=Que le contour du bloc doit être affiché à travers le bloc ou non.
-module.block_outline_overlay.setting.change_outline_width.name=Modifier la Largeur de l'outline
-module.block_outline_overlay.setting.change_outline_width.description=Que la largeur du contour doit être modifiée ou non.
+module.block_outline_overlay.setting.render_block_outline.name=Afficher le Contour
+module.block_outline_overlay.setting.render_block_outline.description=Choisir si le contour du bloc doit être affiché ou non.
+module.block_outline_overlay.setting.3d_block_outline.name=Contour 3D
+module.block_outline_overlay.setting.3d_block_outline.description=Choisir si le contour du bloc doit être affiché à travers le bloc ou non.
+module.block_outline_overlay.setting.change_outline_width.name=Modifier la Largeur du Contour
+module.block_outline_overlay.setting.change_outline_width.description=Choisir si la largeur du contour doit être modifiée ou non.
 module.block_outline_overlay.setting.outline_width.name=Largeur du Contour
 module.block_outline_overlay.setting.outline_width.description=La largeur du contour du bloc.
-module.block_outline_overlay.setting.outline_color.name=Couleur de l'Outline
+module.block_outline_overlay.setting.outline_color.name=Couleur du Contour
 module.block_outline_overlay.setting.outline_color.description=La couleur du contour du bloc.
-module.block_outline_overlay.setting.block_outline_overlay.name=Block Overlay
-module.block_outline_overlay.setting.block_outline_overlay.description=Paramètres pour la l'overlay de bloc.
+module.block_outline_overlay.setting.block_outline_overlay.name=Overlay de Bloc
+module.block_outline_overlay.setting.block_outline_overlay.description=Paramètres pour l'overlay de bloc.
 module.block_outline_overlay.setting.render_block_overlay.name=Afficher l'Overlay
-module.block_outline_overlay.setting.render_block_overlay.description=Que la superposition du bloc doit être affichée ou non.
+module.block_outline_overlay.setting.render_block_overlay.description=Choisir si l'overlay du bloc doit être affichée ou non.
 module.block_outline_overlay.setting.3d_block_overlay.name=Overlay 3D
-module.block_outline_overlay.setting.3d_block_overlay.description=Que la superposition du bloc doit être affichée à travers le bloc ou non.
+module.block_outline_overlay.setting.3d_block_overlay.description=Choisir si l'overlay du bloc doit être affichée à travers le bloc ou non.
 module.block_outline_overlay.setting.block_overlay_color.name=Couleur de l'Overlay
-module.block_outline_overlay.setting.block_overlay_color.description=La couleur de la superposition de bloc.
+module.block_outline_overlay.setting.block_overlay_color.description=La couleur de l'overlay de bloc.
 
 
 ## Chat Tweaks
 module.chat_tweaks.name=Ajustements du Chat
 module.chat_tweaks.description=Divers ajustements pour le chat.
-module.chat_tweaks.setting.timestamp_category.name=Horodatage
-module.chat_tweaks.setting.timestamp_category.description=Personnaliser les paramètres d'horodatage.
-module.chat_tweaks.setting.timestamp_add_timestamp.name=Ajouter des Horodatages
-module.chat_tweaks.setting.timestamp_add_timestamp.description=Que les horodatages doivent être affichés ou non avant chaque message.
+module.chat_tweaks.setting.timestamp_category.name=Timestamp
+module.chat_tweaks.setting.timestamp_category.description=Personnaliser les paramètres de Timestamp.
+module.chat_tweaks.setting.timestamp_add_timestamp.name=Ajouter des Timestamp.
+module.chat_tweaks.setting.timestamp_add_timestamp.description=Choisir si les timestamps doivent être affichés ou non avant chaque message.
 module.chat_tweaks.setting.timestamp_24h.name=Format 24 Heures
-module.chat_tweaks.setting.timestamp_24h.description=Que le format 24 heures doit être utilisé ou non.
+module.chat_tweaks.setting.timestamp_24h.description=Choisir si le format 24 heures doit être utilisé ou non.
 module.chat_tweaks.setting.timestamp_include_seconds.name=Inclure les Secondes
-module.chat_tweaks.setting.timestamp_include_seconds.description=Que les secondes doivent être incluses ou non dans l'horodatage.
+module.chat_tweaks.setting.timestamp_include_seconds.description=Choisir si les secondes doivent être incluses ou non dans les timestamps.
 module.chat_tweaks.setting.timestamp_include_milliseconds.name=Inclure les Millisecondes
-module.chat_tweaks.setting.timestamp_include_milliseconds.description=Que les millisecondes doivent être incluses ou non dans l'horodatage.
+module.chat_tweaks.setting.timestamp_include_milliseconds.description=Choisir si les millisecondes doivent être incluses ou non dans les timestamps.
 module.chat_tweaks.setting.timestamp_include_brackets.name=Inclure les Crochets
-module.chat_tweaks.setting.timestamp_include_brackets.description=Que les crochets doivent être inclus ou non autour de l'horodatage.
+module.chat_tweaks.setting.timestamp_include_brackets.description=Choisir si les crochets doivent être inclus ou non autour des timestamps.
 
 module.chat_tweaks.setting.compact_chat_category.name=Chat Compact
 module.chat_tweaks.setting.compact_chat_category.description=Paramètres pour le chat compact. (Groupe les message identiques)
 module.chat_tweaks.setting.compact_chat_enable.name=Activer le Chat Compact
 module.chat_tweaks.setting.compact_chat_enable.description=Masque les messages en double.
 module.chat_tweaks.setting.compact_chat_reset_age.name=Agir comme un Nouveau Message
-module.chat_tweaks.setting.compact_chat_reset_age.description=Que cela doit agir ou non comme un nouveau message (réinitialise le temps d'affichage à l'écran).
+module.chat_tweaks.setting.compact_chat_reset_age.description=Choisir si cela doit agir ou non comme un nouveau message (réinitialise le temps d'affichage à l'écran).
 
 
 ## Chunk Border
@@ -388,30 +388,30 @@ module.cinematic_camera.setting.max_speed.name=Vitesse Maximale
 module.cinematic_camera.setting.max_speed.description=La vitesse maximale de la caméra.
 module.cinematic_camera.setting.deceleration.name=Décélération
 module.cinematic_camera.setting.deceleration.description=La décélération de la caméra.
-module.cinematic_camera.setting.input_reducer.name=Réducteur de Sensibilité
-module.cinematic_camera.setting.input_reducer.description=Le sensibility d'entrée de la caméra.
-module.cinematic_camera.setting.toggle_mode.name=Mode Basculement
-module.cinematic_camera.setting.toggle_mode.description=Permet de basculer la caméra cinématique marche/arrêt.
+module.cinematic_camera.setting.input_reducer.name=Réducteur de Sensiblité
+module.cinematic_camera.setting.input_reducer.description=Le sensibilité d'entrée de la caméra.
+module.cinematic_camera.setting.toggle_mode.name=Mode de Basculement
+module.cinematic_camera.setting.toggle_mode.description=Choisir d'activer ou de désactiver la caméra cinématique\n plutôt que de rester appuyer sur la touche d'activation.
 
 
 ## Color Options
-module.color_options.name=Options des Couleurs
-module.color_options.description=Permet de changer des optiond sur les couleurs du client.
+module.color_options.name=Réglages des Couleurs
+module.color_options.description=Permet de changer des options sur les couleurs du client.
 module.color_options.setting.rgb_category.name=RGB
-module.color_options.setting.rgb_category.description=Paramètres pour RGB.
-module.color_options.setting.rgb_speed.name=Vitesse RGB
+module.color_options.setting.rgb_category.description=Paramètres du RGB.
+module.color_options.setting.rgb_speed.name=Vitesse du RGB
 module.color_options.setting.rgb_speed.description=La vitesse du RGB.
-module.color_options.setting.rgb_brightness.name=Luminosité RGB
-module.color_options.setting.rgb_brightness.description=Luminosité du RGB.
+module.color_options.setting.rgb_brightness.name=Luminosité du RGB
+module.color_options.setting.rgb_brightness.description=la Luminosité du RGB.
 module.color_options.setting.test_rgb_color.name=Tester la Couleur RGB
 module.color_options.setting.test_rgb_color.description=Tester la couleur RGB.
 module.color_options.setting.chroma_category.name=Catégorie Chroma
-module.color_options.setting.chroma_category.description=Paramètres pour Chroma.
-module.color_options.setting.chroma_size.name=Taille Chroma
+module.color_options.setting.chroma_category.description=Paramètres du Chroma.
+module.color_options.setting.chroma_size.name=Taille du Chroma
 module.color_options.setting.chroma_size.description=La taille du Chroma.
-module.color_options.setting.chroma_speed.name=Vitesse Chroma
+module.color_options.setting.chroma_speed.name=Vitesse du Chroma
 module.color_options.setting.chroma_speed.description=La vitesse du Chroma.
-module.color_options.setting.chroma_rotation.name=Rotation Chroma
+module.color_options.setting.chroma_rotation.name=Rotation du Chroma
 module.color_options.setting.chroma_rotation.description=La rotation du Chroma.
 module.color_options.setting.test_chroma_color.name=Tester la Couleur Chroma
 module.color_options.setting.test_chroma_color.description=Tester la couleur Chroma.
@@ -432,11 +432,11 @@ module.color_options.setting.chroma_color_add.description=Ajoute une couleur au 
 module.color_options.setting.chroma_color_add.button=Ajouter
 module.color_options.setting.chroma_color_remove.name=Retirer la Dernière Couleur du Dégradé
 module.color_options.setting.chroma_color_remove.description=Retire la dernière couleur du dégradé chroma.
-module.color_options.setting.chroma_color_remove.button=Retirer la Dernière
+module.color_options.setting.chroma_color_remove.button=Retirer
 module.color_options.setting.client_colors.name=Couleurs du Client
 module.color_options.setting.client_colors.description=Options pour changer les couleurs du client.
 module.color_options.setting.chroma_colors.name=Couleurs Chroma
-module.color_options.setting.chroma_colors.description=Options pour changer la couleur Chroma.
+module.color_options.setting.chroma_colors.description=Options pour changer la couleur du Chroma.
 module.color_options.setting.open_theme_editor.name=Ouvrir l'Éditeur de Thème
 module.color_options.setting.open_theme_editor.description=Ouvre l'éditeur de thème pour changer l'interface utilisateur du client.
 module.color_options.setting.open_theme_editor.button=Ouvrir
@@ -444,7 +444,7 @@ module.color_options.setting.open_theme_editor.button=Ouvrir
 
 
 ## Creative Tools
-module.creative_tools.name=Outils Créatifs
+module.creative_tools.name=Outils Créatif
 module.creative_tools.description=Divers outils pour aider en mode créatif.\nNote : Utilisez cela uniquement avec la permission si vous êtes sur le monde/serveur de quelqu'un d'autre.
 
 module.creative_tools.setting.block_reach_settings_category.name=Paramètres de Portée de Bloc
@@ -482,93 +482,93 @@ module.creative_tools.setting.freecam_position_y.description=La position Y de la
 module.creative_tools.setting.freecam_position_z.name=Position Z de la Caméra Libre
 module.creative_tools.setting.freecam_position_z.description=La position Z de la caméra libre.
 module.creative_tools.setting.spectator_toggle_key.name=Touche de Basculement du Mode Spectateur
-module.creative_tools.setting.spectator_toggle_key.description=La touche qui basculera le mode spectateur.
+module.creative_tools.setting.spectator_toggle_key.description=La touche qui activera/désactivera le mode spectateur.
 
-module.creative_tools.setting.phase_settings_category.name=Paramètres de Phasage
-module.creative_tools.setting.phase_settings_category.description=Paramètres pour changer les réglages de phasage.
-module.creative_tools.setting.phase_key.name=Touche de Phasage
-module.creative_tools.setting.phase_key.description=La touche qui activera et désactivera le phasage.
-module.creative_tools.setting.phase_vertically.name=Phasage Vertical
-module.creative_tools.setting.phase_vertically.description=Que vous souhaitiez phaser verticalement ou non.
+module.creative_tools.setting.phase_settings_category.name=Paramètres de NoClip
+module.creative_tools.setting.phase_settings_category.description=Paramètres pour changer les réglages du NoClip.
+module.creative_tools.setting.phase_key.name=Touche de NoClip
+module.creative_tools.setting.phase_key.description=La touche qui activera et désactivera le NoClip.
+module.creative_tools.setting.phase_vertically.name=NoClip Vertical
+module.creative_tools.setting.phase_vertically.description=Choisir si vous souhaitez NoClip verticalement ou non.
 
-module.creative_tools.setting.auto_clicker_settings_category.name=Paramètres de Auto-Clicker
-module.creative_tools.setting.auto_clicker_settings_category.description=Paramètres pour le auto-clicker.
-module.creative_tools.setting.auto_clicker_key.name=Activer/Désactiver le Auto-Click
-module.creative_tools.setting.auto_clicker_key.description=Activer ou désactiver le auto-click.
+module.creative_tools.setting.auto_clicker_settings_category.name=Paramètres de l'Auto-Clicker
+module.creative_tools.setting.auto_clicker_settings_category.description=Paramètres pour l'auto-clicker.
+module.creative_tools.setting.auto_clicker_key.name=Activer/Désactiver l'Auto-Click
+module.creative_tools.setting.auto_clicker_key.description=Activer ou désactiver l'auto-click.
 module.creative_tools.setting.fast_auto_clicker.name=Auto-Click Rapide
-module.creative_tools.setting.fast_auto_clicker.description=Activer le auto-click rapide.
+module.creative_tools.setting.fast_auto_clicker.description=Activer l'auto-click rapide.
 
 module.creative_tools.setting.clicktp_settings_category.name=Paramètres de ClickTP
-module.creative_tools.setting.clicktp_settings_category.description=Paramètres pour ClickTP.
-module.creative_tools.setting.clicktp_key.name=Touche de ClickTP
+module.creative_tools.setting.clicktp_settings_category.description=Paramètres de ClickTP.
+module.creative_tools.setting.clicktp_key.name=Touche du ClickTP
 module.creative_tools.setting.clicktp_key.description=Touche pour déclencher ClickTP.
 module.creative_tools.setting.clicktp_toggle.name=ClickTP est en Basculement
-module.creative_tools.setting.clicktp_toggle.description=Mode bascule pour ClickTP.
-module.creative_tools.setting.clicktp_lerp.name=Lerpage de Téléportation
-module.creative_tools.setting.clicktp_lerp.description=Activer le lerpage de téléportation.
+module.creative_tools.setting.clicktp_toggle.description=Choisir d'activer ou de désactiver ClickTP\n plutôt que de rester appuyer sur la touche d'activation.
+module.creative_tools.setting.clicktp_lerp.name=Animation de Téléportation
+module.creative_tools.setting.clicktp_lerp.description=Active une petite animation insignifiante à la téléportation,\n rendra le résultat plus fluide.
 module.creative_tools.setting.clicktp_max_distance.name=Distance Maximale de TP
 module.creative_tools.setting.clicktp_max_distance.description=Distance maximale pour ClickTP.
 
-module.creative_tools.setting.command_block_esp_settings_category.name=Paramètres de ESP des Blocs de Commande
-module.creative_tools.setting.command_block_esp_settings_category.description=Paramètres pour ESP des blocs de commande.
-module.creative_tools.setting.command_block_esp_enabled.name=ESP des Blocs de Commande
-module.creative_tools.setting.command_block_esp_enabled.description=Activer ou désactiver l'ESP des blocs de commande.
-module.creative_tools.setting.command_block_esp_key.name=Touche de l'ESP des Blocs de Commande
-module.creative_tools.setting.command_block_esp_key.description=Touche pour basculer l'ESP des blocs de commande.
-module.creative_tools.setting.command_block_esp_opacity.name=Opacité de l'ESP des Blocs de Commande
-module.creative_tools.setting.command_block_esp_opacity.description=Opacité de l'ESP des blocs de commande.
-module.creative_tools.setting.command_block_esp_radius.name=Rayon de l'ESP des Blocs de Commande
-module.creative_tools.setting.command_block_esp_radius.description=Rayon de l'ESP des blocs de commande.
-module.creative_tools.setting.esp_command_blocks_behind.name=ESP des Blocs de Commande Derrière Vous
-module.creative_tools.setting.esp_command_blocks_behind.description=Afficher l'ESP pour les blocs qui sont derrière vous.
-module.creative_tools.setting.command_block_esp_type.name=Type d'ESP des Blocs de Commandes
+module.creative_tools.setting.command_block_esp_settings_category.name=Paramètres de surbrillance des Blocs de Commande
+module.creative_tools.setting.command_block_esp_settings_category.description=Réglages de surbrillance pour les blocs de commande.
+module.creative_tools.setting.command_block_esp_enabled.name=Surbrillance des Blocs de Commande
+module.creative_tools.setting.command_block_esp_enabled.description=Activer ou désactiver la surbrillance des blocs de commande.
+module.creative_tools.setting.command_block_esp_key.name=Touche de Basculement de la Surbrillance.
+module.creative_tools.setting.command_block_esp_key.description=Touche pour basculer la surbrillance des blocs de commande.
+module.creative_tools.setting.command_block_esp_opacity.name=Opacité de la Surbrillance
+module.creative_tools.setting.command_block_esp_opacity.description=Opacité de la surbrillance des blocs de commande.
+module.creative_tools.setting.command_block_esp_radius.name=Rayon de la Surbrillance
+module.creative_tools.setting.command_block_esp_radius.description=Rayon de la surbrillance des blocs de commande.
+module.creative_tools.setting.esp_command_blocks_behind.name=Mettre en Surbrillance les Blocs Derrière Vous
+module.creative_tools.setting.esp_command_blocks_behind.description=Affiche la surbrillance pour les blocs de commande qui sont derrière vous.
+module.creative_tools.setting.command_block_esp_type.name=Type de surbrillance
 
 
 ## Crop Protector
 module.crop_protector.name=Protecteur de Cultures
-module.crop_protector.description=Empêche la destruction des cultures non encore poussées.\nAccroupissez-vous pour contourner.
+module.crop_protector.description=Empêche la destruction des cultures pas encore poussées.\nAccroupissez-vous pour ignorer.
 
-module.crop_protector.setting.replant_with_hand_item.name=Replanter avec l'Objet en Main
+module.crop_protector.setting.replant_with_hand_item.name=Replanter Avec l'Objet en Main
 module.crop_protector.setting.replant_with_hand_item.description=Activer ou désactiver le replantage avec l'objet en main.
 
 
 ## Custom Crosshair
-module.custom_crosshair.name=Viseur Personnalisé
-module.custom_crosshair.description=Personnalisez votre viseur selon vos préférences.
+module.custom_crosshair.name=Réticule Personnalisé
+module.custom_crosshair.description=Personnalisez votre réticule selon vos préférences.
 
-module.custom_crosshair.setting.open_crosshair_editor.name=Ouvrir l'Éditeur de Viseur
-module.custom_crosshair.setting.open_crosshair_editor.description=Ouvrir l'éditeur de viseur.
+module.custom_crosshair.setting.open_crosshair_editor.name=Ouvrir l'Éditeur de Réticule
+module.custom_crosshair.setting.open_crosshair_editor.description=Ouvrir l'éditeur de Réticule.
 module.custom_crosshair.setting.open_crosshair_editor.button=Ouvrir
 
-module.custom_crosshair.setting.third_person_crosshair.name=Viseur en Troisième Personne
-module.custom_crosshair.setting.third_person_crosshair.description=Activer ou désactiver le viseur en troisième personne.
-module.custom_crosshair.setting.red_when_facing_entity.name=Rouge Face à une Entité
+module.custom_crosshair.setting.third_person_crosshair.name=Afficher le Réticule à la Troisième Personne
+module.custom_crosshair.setting.third_person_crosshair.description=Activer ou désactiver l'affichage du réticule à la troisième personne.
+module.custom_crosshair.setting.red_when_facing_entity.name=Passe au Rouge en Regardant une Entité
 module.custom_crosshair.setting.red_when_facing_entity.description=Activer ou désactiver la couleur rouge lorsque vous faites face à une entité.
 
-module.custom_crosshair.setting.crosshair_outline.name=Contour du Viseur
-module.custom_crosshair.setting.crosshair_outline.description=Activer ou désactiver le contour du viseur.
+module.custom_crosshair.setting.crosshair_outline.name=Contour du Réticule
+module.custom_crosshair.setting.crosshair_outline.description=Activer ou désactiver le contour du réticule.
 module.custom_crosshair.setting.outline_color.name=Couleur du Contour
-module.custom_crosshair.setting.outline_color.description=Définir la couleur du contour du viseur.
+module.custom_crosshair.setting.outline_color.description=Définir la couleur du contour du réticule.
 
-module.custom_crosshair.setting.invert_colors.name=Inverser les Couleurs (ne pas utiliser) (mauvais) (flou)
+module.custom_crosshair.setting.invert_colors.name=Inverser les Couleurs (déconseillé) (flou)
 module.custom_crosshair.setting.invert_colors.description=Activer ou désactiver l'inversion des couleurs (non recommandé).
-module.custom_crosshair.setting.crosshair_color.name=Couleur du Viseur
-module.custom_crosshair.setting.crosshair_color.description=Définir la couleur du viseur.
+module.custom_crosshair.setting.crosshair_color.name=Couleur du Réticule
+module.custom_crosshair.setting.crosshair_color.description=Définir la couleur du réticule.
 
-module.custom_crosshair.setting.crosshairs.name=Viseurs
-module.custom_crosshair.setting.crosshairs.description=Liste des viseurs.
+module.custom_crosshair.setting.crosshairs.name=Réticules
+module.custom_crosshair.setting.crosshairs.description=Liste des réticules.
 module.custom_crosshair.setting.preview.button=Aperçu
-module.custom_crosshair.setting.preview.description=Aperçu du viseur personnalisé.
+module.custom_crosshair.setting.preview.description=Aperçu du réticule personnalisé.
 
 
 ## Custom Crosshair Editor
 module.custom_crosshair_editor.setting.brush_radius.name=Rayon du Crayon/Gomme
 module.custom_crosshair_editor.setting.brush_radius.description=Le rayon de l'outil sélectionné.
-module.custom_crosshair_editor.create_window.title=Créer un Nouveau Viseur
-module.custom_crosshair_editor.confirm_window.message=Vous êtes sur le point de supprimer un viseur!
-module.custom_crosshair_editor.list_window.title=Viseurs
-module.custom_crosshair_editor.list_window.create_button=Créer un Nouveau Viseur
-module.custom_crosshair_editor.list_window.open_explorer_button=Ouvrir le Répertoire des Viseurs
+module.custom_crosshair_editor.create_window.title=Créer un Nouveau Réticule
+module.custom_crosshair_editor.confirm_window.message=Vous êtes sur le point de supprimer un réticule! !
+module.custom_crosshair_editor.list_window.title=Réticules
+module.custom_crosshair_editor.list_window.create_button=Créer un Nouveau Réticule
+module.custom_crosshair_editor.list_window.open_explorer_button=Ouvrir le Répertoire des Réticules
 module.custom_crosshair_editor.widget_window.reset_zoom=Réinitialiser le Zoom (%s)
 module.custom_crosshair_editor.widget_window.reset_position=Réinitialiser la Position
 module.custom_crosshair_editor.widget_window.undo=Annuler (%s)
@@ -585,11 +585,11 @@ module.java_debug_menu.name=Menu de Débogage Java
 module.java_debug_menu.description=Une recréation basique du menu de débogage de l'édition Java.
 
 module.java_debug_menu.setting.hide_other_modules.name=Cacher les Autres Modules
-module.java_debug_menu.setting.hide_other_modules.description=Activer ou désactiver la visibilité des autres modules lorsque activé.
+module.java_debug_menu.setting.hide_other_modules.description=Activer ou désactiver la visibilité des autres modules lorsque le menu est activé.
 module.java_debug_menu.setting.right_side.name=Côté Droit
 module.java_debug_menu.setting.right_side.description=Activer ou désactiver l'affichage sur le côté droit.
-module.java_debug_menu.setting.debug_crosshair.name=Viseur de Débogage
-module.java_debug_menu.setting.debug_crosshair.description=Activer ou désactiver le viseur de débogage.
+module.java_debug_menu.setting.debug_crosshair.name=Réticule de Débogage
+module.java_debug_menu.setting.debug_crosshair.description=Activer ou désactiver le réticule de débogage.
 
 
 ## Double Click Prevent
@@ -600,12 +600,12 @@ module.double_click_prevent.setting.click_settings_category.name=Paramètres de 
 module.double_click_prevent.setting.click_settings_category.description=Paramètres pour les réglages de clic.
 module.double_click_prevent.setting.limit_left_click.name=Limiter le Clic Gauche
 module.double_click_prevent.setting.limit_left_click.description=Activer ou désactiver la limitation des clics gauche.
-module.double_click_prevent.setting.left_max.name=Maximum Clic Gauche
+module.double_click_prevent.setting.left_max.name=Clics Gauche Maximum 
 module.double_click_prevent.setting.left_max.description=Définir le nombre maximum de clics gauche.
 
-module.double_click_prevent.setting.limit_right_click.name=Limite Clic Droit
+module.double_click_prevent.setting.limit_right_click.name=Limiter le Clic Droit
 module.double_click_prevent.setting.limit_right_click.description=Activer ou désactiver la limitation des clics droit.
-module.double_click_prevent.setting.right_max.name=Maximum Clic Droit
+module.double_click_prevent.setting.right_max.name=Clics Droit Maximum
 module.double_click_prevent.setting.right_max.description=Définir le nombre maximum de clics droit.
 
 module.double_click_prevent.setting.enable_on_zeqa.name=Activer sur Zeqa
@@ -614,9 +614,9 @@ module.double_click_prevent.setting.enable_on_cubecraft.name=Activer sur Cubecra
 module.double_click_prevent.setting.enable_on_cubecraft.description=Activer ou désactiver l'activation automatique sur Cubecraft.
 
 module.double_click_prevent.setting.was_enabled_zeqa.name=A été Activé à Cause de Zeqa
-module.double_click_prevent.setting.was_enabled_zeqa.description=Indique s'il a été activé en raison de Zeqa.
+module.double_click_prevent.setting.was_enabled_zeqa.description=Indique s'il a été activé à cause de Zeqa.
 module.double_click_prevent.setting.was_enabled_cubecraft.name=A été Activé à Cause de Cubecraft
-module.double_click_prevent.setting.was_enabled_cubecraft.description=Indique s'il a été activé en raison de Cubecraft.
+module.double_click_prevent.setting.was_enabled_cubecraft.description=Indique s'il a été activé à cause de Cubecraft.
 
 
 ## Dynamic Light
@@ -629,13 +629,13 @@ module.dynamic_light.setting.require_light_item.name=Exiger Objet Lumineux
 module.dynamic_light.setting.require_light_item.description=Activer ou désactiver l'exigence d'objets lumineux.
 module.dynamic_light.setting.minimum_light_level.name=Niveau Minimum
 module.dynamic_light.setting.minimum_light_level.description=Définir le niveau minimum de lumière.
-module.dynamic_light.setting.keep_light_on_eject.name=Garder Lumière à l'Éjection
+module.dynamic_light.setting.keep_light_on_eject.name=Garder la Lumière à l'Éjection
 module.dynamic_light.setting.keep_light_on_eject.description=Activer ou désactiver le maintien de la lumière à l'éjection.
 
 
 
 ## Environment Changer
-module.environment_changer.name=Change Environ.
+module.environment_changer.name=Modificateur d'environnement.
 module.environment_changer.description=Modifie l'environnement autour de vous.
 
 module.environment_changer.setting.time_settings_category.name=Paramètres de Temps
@@ -676,20 +676,20 @@ module.environment_changer.setting.dark_lighting.description=Ajuster la lumière
 
 
 ## FOV Changer
-module.fov_changer.name=Modificateur de Champ de Vision
-module.fov_changer.description=Vous permet de personnaliser le comportement du champ de vision.
+module.fov_changer.name=Modificateur de FOV
+module.fov_changer.description=Vous permet de personnaliser le comportement du FOV.
 
-module.fov_changer.setting.pre_enable_fov_obtained.name=FOV Utilisateur Obtenu
+module.fov_changer.setting.pre_enable_fov_obtained.name=FOV de l'Utilisateur Obtenu
 module.fov_changer.setting.pre_enable_fov_obtained.description=Indique si le FOV de l'utilisateur a été obtenu.
-module.fov_changer.setting.pre_enable_fov_toggle.name=Activation Dynamique du FOV
+module.fov_changer.setting.pre_enable_fov_toggle.name=Activation du FOV Dynamique
 module.fov_changer.setting.pre_enable_fov_toggle.description=Indique si le FOV dynamique a été activé.
 module.fov_changer.setting.pre_enable_fov.name=FOV Précédent
-module.fov_changer.setting.pre_enable_fov.description=L'ancien champ de vision.
+module.fov_changer.setting.pre_enable_fov.description=L'ancien FOV.
 
 module.fov_changer.setting.default_settings_category.name=Paramètres par Défaut
 module.fov_changer.setting.default_settings_category.description=Paramètres par défaut.
 module.fov_changer.setting.base_fov.name=FOV par Défaut
-module.fov_changer.setting.base_fov.description=Définir le champ de vision par défaut.
+module.fov_changer.setting.base_fov.description=Définir le FOV par défaut.
 module.fov_changer.setting.lerp_speed.name=Vitesse d'Animation
 module.fov_changer.setting.lerp_speed.description=Ajuster la vitesse de l'animation.
 
@@ -698,7 +698,7 @@ module.fov_changer.setting.aiming_settings_category.description=Paramètres de v
 module.fov_changer.setting.change_fov_when_aiming.name=Changer le FOV en Visant
 module.fov_changer.setting.change_fov_when_aiming.description=Activer le changement de FOV en visant.
 module.fov_changer.setting.aiming_fov.name=FOV en Visant
-module.fov_changer.setting.aiming_fov.description=Définir le champ de vision en visant.
+module.fov_changer.setting.aiming_fov.description=Définir FOV en visant.
 
 module.fov_changer.setting.effect_settings_category.name=Paramètres d'Effet
 module.fov_changer.setting.effect_settings_category.description=Paramètres d'effet.
@@ -730,11 +730,11 @@ module.freelook.setting.no_perspective_change.description=Activer/désactiver le
 module.freelook.setting.perspective.name=Perspective
 module.freelook.setting.perspective.description=Sélectionnez la perspective souhaitée.
 
-module.freelook.setting.toggle_freelook.name=Activer/Desactiver Regard Libre
-module.freelook.setting.toggle_freelook.description=Activer/désactiver le mode regard libre.
+module.freelook.setting.toggle_freelook.name=Activer/Desactiver le Freelook
+module.freelook.setting.toggle_freelook.description=Activer/désactiver le Freelook.
 
-module.freelook.setting.keybind_warning.name=Avertissement : Il n'est pas recommandé de lier le Regard Libre à la touche ALT !
-module.freelook.setting.keybind_warning.description=Avertissement : Il n'est pas recommandé de lier le Regard Libre à la touche ALT !
+module.freelook.setting.keybind_warning.name=Avertissement : Il n'est pas recommandé de lier le Freelook à la touche ALT !
+module.freelook.setting.keybind_warning.description=Avertissement : Il n'est pas recommandé de lier le Freelook à la touche ALT !
 
 ## Fullbright
 module.fullbright.name=Fullbright
@@ -745,32 +745,32 @@ module.fullbright.setting.gamma.description=Ajuste la valeur du gamma pour écla
 
 
 ## Glint Color Changer
-module.glint_color_changer.name=Couleur Glint
-module.glint_color_changer.description=Modifie la couleur de Glint (l'effet d'enchantement) du jeu.
+module.glint_color_changer.name=Couleur du Glint
+module.glint_color_changer.description=Modifie la couleur du Glint (l'effet d'enchantement) du jeu.
 
 module.glint_color_changer.setting.glint_color.name=Couleur du glint
 module.glint_color_changer.setting.glint_color.description=Modifie la couleur de l'effet de glint.
 
 module.glint_color_changer.setting.presets.name=Préréglages
-module.glint_color_changer.setting.presets.description=Choisissez parmi les options de couleur glint prédéfinies.
+module.glint_color_changer.setting.presets.description=Choisissez parmi les options de couleur de glint prédéfinies.
 
 
 ## GUI Scale Changer
-module.gui_scale_changer.name=Échelle GUI
+module.gui_scale_changer.name=Échelle du GUI
 module.gui_scale_changer.description=Modifie la taille de votre GUI.
 
-module.gui_scale_changer.setting.guiscale_warning.name=Avertissement Échelle GUI
-module.gui_scale_changer.setting.guiscale_warning.description=Avertissement ! Aller au-delà de 5 peut avoir des effets secondaires imprévus ! (Votre jeu sera ENORME !)
-module.gui_scale_changer.setting.guiscale.name=Échelle GUI
-module.gui_scale_changer.setting.guiscale.description=Ajuste l'échelle de la GUI. Avertissement : Au-dessus de 5 peut provoquer des changements significatifs.
+module.gui_scale_changer.setting.guiscale_warning.name=Avertissement Échelle du GUI
+module.gui_scale_changer.setting.guiscale_warning.description=Avertissement ! Aller au-delà de 5 peut avoir des effets secondaires imprévus ! (Votre jeu sera ÉNORME !)
+module.gui_scale_changer.setting.guiscale.name=Échelle du GUI
+module.gui_scale_changer.setting.guiscale.description=Ajuste l'échelle du GUI. Avertissement : Au-dessus de 5 peut provoquer des changements significatifs.
 
-module.gui_scale_changer.setting.round.name=Arrondir Échelle GUI
+module.gui_scale_changer.setting.round.name=Arrondir l'Échelle du GUI
 module.gui_scale_changer.setting.round.description=Arrondit la valeur de l'échelle de la GUI.
 module.gui_scale_changer.setting.round.button=Arrondir
 
 
 ## Low Health Warning
-module.low_health_warning.name=Avertissement Santé Basse
+module.low_health_warning.name=Avertissement de Santé Basse
 module.low_health_warning.description=Affiche un volet rouge à l'écran lorsque vous avez une faible santé.
 
 module.low_health_warning.setting.low_heart.name=Quantité de Cœurs
@@ -780,35 +780,35 @@ module.low_health_warning.setting.show_in_f1.description=Activer/désactiver l'a
 
 
 ## Hitboxes
-module.hitboxes.name=Hiytboxes
+module.hitboxes.name=Hitboxes
 module.hitboxes.description=Dessine une hitbox autour de toutes les entités.
 
-module.hitboxes.setting.bodyline_color.name=Couleur Lignes
+module.hitboxes.setting.bodyline_color.name=Couleur des Lignes
 module.hitboxes.setting.bodyline_color.description=Choisissez la couleur des lignes de la hitbox sur les entités.
-module.hitboxes.setting.eyeline_color.name=Couleur Lignes des Yeux
+module.hitboxes.setting.eyeline_color.name=Couleur des Lignes des Yeux
 module.hitboxes.setting.eyeline_color.description=Choisissez la couleur des lignes de la hitbox autour des yeux des entités.
-module.hitboxes.setting.show_eyes.name=Activer Lignes des Yeux
+module.hitboxes.setting.show_eyes.name=Activer les Lignes des Yeux
 module.hitboxes.setting.show_eyes.description=Activer/désactiver l'affichage des lignes de la hitbox autour des yeux des entités.
-module.hitboxes.setting.red_when_select.name=Rouge pour Entité Sélectionnée
+module.hitboxes.setting.red_when_select.name=Afficher en Rouge pour les Entités Sélectionnées
 module.hitboxes.setting.red_when_select.description=Surligner les entités sélectionnées avec une hitbox rouge.
 module.hitboxes.setting.player_only.name=Joueurs Seulement
-module.hitboxes.setting.player_only.description=Afficher les boîtes englobantes uniquement autour des joueurs.
-module.hitboxes.setting.player_note.name=Note: Beaucoup de choses ne sont pas des joueurs mais sont perçues comme telles par le serveur.\nSi les hitboxes apparaissent sur des PNJ ou des entités similaires,\n c'est normal car elles sont reconnues comme des joueurs par le jeu.\n\nVous pouvez trouver une option ESP dans les Outils Créatifs.
-module.hitboxes.setting.player_note.description=Note: Beaucoup de choses ne sont pas des joueurs mais sont perçues comme telles par le serveur.\nSi les hitboxes apparaissent sur des PNJ ou des entités similaires,\n c'est normal car elles sont reconnues comme des joueurs par le jeu.\n\nVous pouvez trouver une option ESP dans les Outils Créatifs.
+module.hitboxes.setting.player_only.description=Afficher les hitboxes uniquement autour des joueurs.
+module.hitboxes.setting.player_note.name=Note: Beaucoup de choses ne sont pas des joueurs mais sont perçues comme telles par le serveur.\nSi les hitboxes apparaissent sur des PNJ ou des entités similaires,\n c'est normal car elles sont reconnues comme des joueurs par le jeu.
+module.hitboxes.setting.player_note.description=Note: Beaucoup de choses ne sont pas des joueurs mais sont perçues comme telles par le serveur.\nSi les hitboxes apparaissent sur des PNJ ou des entités similaires,\n c'est normal car elles sont reconnues comme des joueurs par le jeu.
 
 ## Hurt Color
-module.hurt_color.name=Couleur Dégats
+module.hurt_color.name=Couleur des Dégats
 module.hurt_color.description=Modifie la couleur des entités lorsqu'elles sont blessées.
 
-module.hurt_color.setting.hurt_color.name=Couleur Blessure
-module.hurt_color.setting.hurt_color.description=Choisissez la couleur que les entités afficheront lorsqu'elles sont blessées.
+module.hurt_color.setting.hurt_color.name=Couleur à l'impact
+module.hurt_color.setting.hurt_color.description=Choisissez la couleur que les entités afficheront lorsqu'elles prennent des dégats.
 
 
 ## Item Despawn Blink
-module.item_despawn_blink.name=Clignotement d'Item Despawn
+module.item_despawn_blink.name=Clignotement au Despawn d'Items
 module.item_despawn_blink.description=Fait clignoter les items avant qu'ils ne disparaissent.
 
-module.item_despawn_blink.setting.start_blink_seconds.name=Délai Clignotement
+module.item_despawn_blink.setting.start_blink_seconds.name=Délai du Clignotement
 module.item_despawn_blink.setting.start_blink_seconds.description=Choisissez le délai en secondes avant que les objets ne commencent à clignoter avant de disparaître.
 
 
@@ -816,17 +816,17 @@ module.item_despawn_blink.setting.start_blink_seconds.description=Choisissez le 
 module.item_highlighter.name=Highlighter d'Items
 module.item_highlighter.description=Rend certains objets plus visibles.
 
-module.item_highlighter.setting.highlight_all_items.name=Tout surligner
+module.item_highlighter.setting.highlight_all_items.name=Surligner tous les Items
 module.item_highlighter.setting.highlight_all_items.description=Activer pour surligner tous les objets.
-module.item_highlighter.setting.highlight_all_items_color.name=Couleur pour tout surligner
-module.item_highlighter.setting.highlight_all_items_color.description=Choisir la couleur pour surligner tous les objets.
+module.item_highlighter.setting.highlight_all_items_color.name=Couleur Affichée pour le Surlignage de Tous les Items
+module.item_highlighter.setting.highlight_all_items_color.description=Choisir la couleur affichée en surlignant tous les objets.
 
 module.item_highlighter.setting.item_category.name=Item %s
 module.item_highlighter.setting.item_category.description=Options pour l'item %s.
 module.item_highlighter.setting.item_name.name=Nom de l'item %s
 module.item_highlighter.setting.item_name.description=Item %s.
 module.item_highlighter.setting.validate_item_name.name=Valider le nom
-module.item_highlighter.setting.validate_item_name.description=Valider que le nom de l'item est valide.
+module.item_highlighter.setting.validate_item_name.description=Approuver que le nom de l'item est valide.
 module.item_highlighter.setting.validate_item_name.button=Valider
 module.item_highlighter.setting.color.name=Couleur de l'item %s
 module.item_highlighter.setting.color.description=Couleur pour l'item %s.
@@ -841,7 +841,7 @@ module.item_highlighter.setting.add.button=Ajouter
 
 ## Item Physics
 module.item_physics.name=Physique des Items
-module.item_physics.description=Rend les items lâchés avec une physique unique.
+module.item_physics.description=Affiche les items lâchés avec une physique unique.
 
 module.item_physics.setting.rotation_settings_category.name=Paramètres de rotation
 module.item_physics.setting.rotation_settings_category.description=Paramètres pour la rotation des items.
@@ -856,28 +856,28 @@ module.item_physics.setting.miscellaneous_settings.description=Autres paramètre
 module.item_physics.setting.water_slowdown.name=Ralentissement de rotation dans les liquides
 module.item_physics.setting.water_slowdown.description=Ajustez le facteur de ralentissement pour la rotation dans les liquides.
 module.item_physics.setting.blocks_keep_rotation_on_ground.name=Conserver la rotation des blocs au sol
-module.item_physics.setting.blocks_keep_rotation_on_ground.description=Basculer pour conserver la rotation des blocs au sol.
+module.item_physics.setting.blocks_keep_rotation_on_ground.description=Activer pour conserver la rotation des blocs au sol.
 
 
 ## 2D Items
-module.2d_items.name=2D Items
-module.2d_items.description=Rend les items comme si ils étaient en 2D comme l'ancien bedrock.\nNotez que les objets restent en 3D, donc cela n'optimise pas les performances.
+module.2d_items.name=Items 2D
+module.2d_items.description=Rend les items comme si ils étaient en 2D comme dans l'ancienne version bedrock.\nNotez que les objets restent en 3D, donc cela n'optimise pas les performances.
 
-module.2d_items.setting.follow_x_axis.name=Suivre Axe X
+module.2d_items.setting.follow_x_axis.name=Suivre l'Axe X
 module.2d_items.setting.follow_x_axis.description=Basculez pour suivre l'axe X.
-module.2d_items.setting.follow_y_axis.name=Suivre Axe Y
+module.2d_items.setting.follow_y_axis.name=Suivre l'Axe Y
 module.2d_items.setting.follow_y_axis.description=Basculez pour suivre l'axe Y.
 
 
 ## Light Overlay
-module.light_overlay.name=Superposition de Lumière
+module.light_overlay.name=Overlay de Lumière
 module.light_overlay.description=Affiche les zones environnantes où les créatures peuvent apparaître.
 
 module.light_overlay.setting.update_delay.name=Délai de Mise à Jour
 module.light_overlay.setting.update_delay.description=Définissez le délai pour la mise à jour de la superposition.
 module.light_overlay.setting.radius.name=Rayon
 module.light_overlay.setting.radius.description=Définissez le rayon pour les vérifications de luminosité de la superposition.
-module.light_overlay.setting.check_down_by_height.name=Nombre de Blocs Dessous
+module.light_overlay.setting.check_down_by_height.name=Nombre de Blocs à Vérifier en Dessous
 module.light_overlay.setting.check_down_by_height.description=Définissez jusqu'où descendre pour les vérifications de luminosité.
 
 
@@ -886,13 +886,13 @@ module.litematica.name=Litematica
 module.litematica.description=Vous aide a construire des structures.
 
 ## Minimal View Bobbing
-module.minimal_view_bobbing.name=View Bobbing Minimal
-module.minimal_view_bobbing.description=Désactive les secousses d'écran lorsque le balancement de la vue est activé.\n(Nécessite l'activation du balancement de la vue.)
+module.minimal_view_bobbing.name=Mouvement de Tête Minimal
+module.minimal_view_bobbing.description=Désactive les secousses d'écran lorsque le mouvement de tête est activé.\n(Nécessite l'activation du mouvement de tête, view bobbing si votre jeu est en anglais.)
 
 
 ## Modern Keybind Handling
-module.modern_keybind_handling.name=Modern Keybind Handling
-module.modern_keybind_handling.description=Modifie la gestion des touches lors de la sortie des écrans pour agir comme Java 1.12+.\nOuvrir l'inventaire, aller en avant et fermer l'inventaire.\nAvec: Vous avancez.\nSans: Vous restez sur place.
+module.modern_keybind_handling.name=Gestion Des Touches Moderne
+module.modern_keybind_handling.description=Modifie la gestion des touches lors de la sortie des menus pour agir comme Java 1.12+.\nOuvrir l'inventaire, aller en avant et fermer l'inventaire.\nAvec: Vous avancez.\nSans: Vous restez sur place.
 
 module.modern_keybind_handling.setting.movement_keys_only.name=Seulement les Touches de Mouvement
 module.modern_keybind_handling.setting.movement_keys_only.description=Restreint les modifications de touche aux touches de mouvement uniquement.
@@ -901,18 +901,18 @@ module.modern_keybind_handling.setting.do_among_onix_ui.name=Affecter les Interf
 module.modern_keybind_handling.setting.do_among_onix_ui.description=Applique les modifications aux touche utilisés au sein des éléments d'interface Onix.
 
 ## Motion Blur
-module.motion_blur.name=Motion Blur
-module.motion_blur.description=Floute les mouvements pour vous faire vomir de façon louche.
+module.motion_blur.name=Flou du Mouvement
+module.motion_blur.description=Floute les mouvements pour vous faire... vomir...
 
 module.motion_blur.setting.throwup_rate.name=Intensité
 module.motion_blur.setting.throwup_rate.description=Contrôle l'intensité de l'effet de flou de mouvement.
-module.motion_blur.setting.throwup_in_ui.name=Exclure l'UI de l'Effet
-module.motion_blur.setting.throwup_in_ui.description=Applique l'effet de flou de mouvement uniquement au monde du jeu, en excluant les éléments de l'interface utilisateur.
+module.motion_blur.setting.throwup_in_ui.name=Ne pas Appliquer le Flou dans les Menus
+module.motion_blur.setting.throwup_in_ui.description=Applique l'effet de flou de mouvement uniquement en jeu, en excluant les éléments de l'interface utilisateur.
 
 
 ## Proximity Chat
 module.proximity_chat.name=Chat de Proximité
-module.proximity_chat.description=Chat de proximité!\nPermet l'utilisation de Mumble Link via l'application Mumble Link du client Onix.
+module.proximity_chat.description=Chat de proximité!\nPermet l'utilisation de Mumble Link via l'application Mumble Link du Onix Client.
 
 module.proximity_chat.setting.context_settings_category.name=Paramètres de Contexte
 module.proximity_chat.setting.context_settings_category.description=Paramètres pour les réglages de contexte.
@@ -928,7 +928,7 @@ module.proximity_chat.setting.extra_scripting_context.name=Contexte de Scripting
 
 
 ## Nick Hider
-module.nick_hider.name=Cacheur de Pseudos
+module.nick_hider.name=Nick Hider
 module.nick_hider.description=Permet de cacher votre nom d'utilisateur, votre skin, les noms d'autres personnes et les skins d'autres personnes.
 
 module.nick_hider.setting.should_change_name.name=Changer le Nom
@@ -938,16 +938,16 @@ module.nick_hider.setting.custom_name.description=Le nom que vous souhaitez voir
 
 
 ## No Hurt Cam
-module.no_hurt_cam.name=Aucune Caméra de Dommage
-module.no_hurt_cam.description=Supprime l'animation de secousse de la caméra lorsque vous êtes éliminé en PvP.
+module.no_hurt_cam.name=No Hurt Cam
+module.no_hurt_cam.description=Supprime l'animation de secousse de la caméra lorsque vous prenez des dégats.
 
 
 ## Particle Multiplier
-module.particle_multiplier.name=Multiplier de Particules
+module.particle_multiplier.name=Multiplicateur de Particules
 module.particle_multiplier.description=Multiplie le nombre de particules de coup critique.
 
-module.particle_multiplier.setting.particle_multiplier.name=Multiplier de Particules
-module.particle_multiplier.setting.particle_multiplier.description=Ajuste le nombre de particules de coup critique à multiplier.
+module.particle_multiplier.setting.particle_multiplier.name=Multipliecateur de Particules
+module.particle_multiplier.setting.particle_multiplier.description=Ajuste le nombre de particules à multiplier.
 
 
 ## Static Camera
@@ -962,7 +962,7 @@ module.static_camera.setting.allow_rotation_key.description=La touche pour activ
 
 
 ## Player List Tab
-module.player_list_tab.name=Onglet Liste des Joueurs
+module.player_list_tab.name=Liste des Joueurs
 module.player_list_tab.description=Affiche une liste de tous les joueurs dans le monde.
 
 module.player_list_tab.setting.padding.name=Remplissage
@@ -974,14 +974,14 @@ module.player_list_tab.setting.highlight_your_name.description=Surligne votre no
 module.player_list_tab.setting.your_name_color.name=Couleur de Votre Nom
 module.player_list_tab.setting.your_name_color.description=Change la couleur de votre nom dans la liste.
 
-module.player_list_tab.setting.outline_names.name=Contourner les Noms
+module.player_list_tab.setting.outline_names.name=Ajouter un Contour aux Noms
 module.player_list_tab.setting.outline_names.description=Active le contour des noms dans la liste.
 module.player_list_tab.setting.center_text.name=Centrer le Texte
 module.player_list_tab.setting.center_text.description=Centre le Texte
 module.player_list_tab.setting.sort_alphabetically.name=Trier Alphabétiquement
 module.player_list_tab.setting.sort_alphabetically.description=Trie les noms par ordre alphabétique.
-module.player_list_tab.setting.player_heads.name=Têtes de Joueur
-module.player_list_tab.setting.player_heads.description=Affiche les têtes de joueur dans la liste.
+module.player_list_tab.setting.player_heads.name=Tête des Joueurs
+module.player_list_tab.setting.player_heads.description=Affiche la têtes des joueurs dans la liste.
 module.player_list_tab.setting.names_per_column.name=Noms par Colonne
 module.player_list_tab.setting.names_per_column.description=Spécifie le nombre de noms par colonne dans la liste.
 
@@ -991,13 +991,13 @@ module.player_skin_3d.description=Rend la deuxième couche des skins en 3D. En r
 
 
 ## Post Processing
-module.post_processing.name=Post Processing
+module.post_processing.name=Post-Traitement
 module.post_processing.description=Permet d'améliorer l'aspect visuel de votre jeu.
 
 module.post_processing.setting.only_show_in_world.name=Ne Pas Afficher dans l'UI
 module.post_processing.setting.only_show_in_world.description=Activer pour n'afficher que dans le monde du jeu.
-module.post_processing.setting.show_in_onix_ui.name=Afficher dans l'UI du Client Onix
-module.post_processing.setting.show_in_onix_ui.description=Activer pour afficher dans l'interface utilisateur du Client Onix.
+module.post_processing.setting.show_in_onix_ui.name=Afficher dans l'UI du Onix Client
+module.post_processing.setting.show_in_onix_ui.description=Activer pour afficher dans l'interface utilisateur du Onix Client.
 
 module.post_processing.setting.saturation_settings_category.name=Paramètres de Saturation
 module.post_processing.setting.saturation_settings_category.description=Paramètres pour les réglages de saturation.
@@ -1046,24 +1046,24 @@ module.post_processing.setting.vignette_color.description=Ajuster la couleur de 
 module.render_options.name=Options de Rendu
 module.render_options.description=Vous donne plus d'options de rendu.
 
-module.render_options.setting.render_distance_settings_category.name=Paramètres de Distance de Rendu
+module.render_options.setting.render_distance_settings_category.name=Paramètres de Render Distance
 module.render_options.setting.render_distance_settings_category.description=Paramètres pour les réglages de distance de rendu.
-module.render_options.setting.render_distance.name=Distance de Rendu
+module.render_options.setting.render_distance.name=Render Distance
 module.render_options.setting.render_distance.description=Ajuster la distance de rendu.
-module.render_options.setting.change_render_distance.name=Changer la Distance de Rendu
+module.render_options.setting.change_render_distance.name=Changer la Render Distance
 module.render_options.setting.change_render_distance.description=Activer pour changer la valeur de la distance de rendu.
 
-module.render_options.setting.render_entity.name=Désactiver le Rendu pour les Entités
-module.render_options.setting.render_entity.description=Désactiver le rendu pour les entités.
-module.render_options.setting.render_block_entity.name=Désactiver le Rendu pour les Entités de Bloc
-module.render_options.setting.render_block_entity.description=Désactiver le rendu pour les entités de bloc.
-module.render_options.setting.render_particles.name=Désactiver le Rendu pour les Particules
-module.render_options.setting.render_particles.description=Désactiver le rendu pour les particules.
-module.render_options.setting.render_weather.name=Désactiver le Rendu pour la Météo
-module.render_options.setting.render_weather.description=Désactiver le rendu pour les effets météorologiques.
-module.render_options.setting.render_item_in_hand.name=Désactiver le Rendu pour l'Objet en Main
-module.render_options.setting.render_item_in_hand.description=Désactiver le rendu pour l'objet tenu.
-module.render_options.setting.disable_vignette.name=Désactiver le Rendu pour la Vignette
+module.render_options.setting.render_entity.name=Désactiver le Rendu des Entités
+module.render_options.setting.render_entity.description=Désactiver le rendu des entités.
+module.render_options.setting.render_block_entity.name=Désactiver le Rendu des Entités de Bloc (tile entities)
+module.render_options.setting.render_block_entity.description=Désactiver le rendu des entités de bloc, ou tile entities.
+module.render_options.setting.render_particles.name=Désactiver le Rendu des Particules
+module.render_options.setting.render_particles.description=Désactiver le rendu des particules.
+module.render_options.setting.render_weather.name=Désactiver le Rendu de la Météo
+module.render_options.setting.render_weather.description=Désactiver le rendu des effets météorologiques.
+module.render_options.setting.render_item_in_hand.name=Désactiver le Rendu de l'Objet en Main
+module.render_options.setting.render_item_in_hand.description=Désactiver le rendu de l'objet tenu.
+module.render_options.setting.disable_vignette.name=Désactiver le Rendu de la Vignette
 module.render_options.setting.disable_vignette.description=Désactiver le rendu pour l'effet de vignette.
 
 
@@ -1080,36 +1080,36 @@ module.snaplook.name=Snaplook
 module.snaplook.description=Change la perspective tant que la touche est enfoncée.
 
 ## Third Person Nametag
-module.third_person_nametag.name=Third Person Nametag
-module.third_person_nametag.description=Affiche votre étiquette de nom à la troisième personne.
+module.third_person_nametag.name=Nametag à la Troisième Personne
+module.third_person_nametag.description=Affiche votre nom à la troisième personne.
 
 ## Test Module
 module.test_module.name=Module de Test
 module.test_module.description=Ceci est un module de test.
 
 ## TNT Timer
-module.tnt_timer.name=Chronomètre TNT
+module.tnt_timer.name=TNT Timer
 module.tnt_timer.description=Affiche le temps de détonation de la TNT.
 module.tnt_timer.setting.max_distance.name=Distance Maximale
 module.tnt_timer.setting.max_distance.description=La distance maximale pour afficher le chronomètre.
 
 ## Toggle Sprint/Sneak
 module.toggle_sprint_sneak.name=Toggle Sprint/Sneak
-module.toggle_sprint_sneak.description=Permet de sprinter ou de se faufiler sans maintenir les touches respectives.
+module.toggle_sprint_sneak.description=Permet de sprinter ou de s'accroupir sans maintenir les touches respectives.
 
 module.toggle_sprint_sneak.setting.keybind_settings_category.name=Paramètres des Touches
 module.toggle_sprint_sneak.setting.keybind_settings_category.description=Personnalisez les configurations des touches.
 module.toggle_sprint_sneak.setting.sprint_key.name=Touche Sprint
 module.toggle_sprint_sneak.setting.sprint_key.description=Définir la touche pour activer/désactiver le sprint.
-module.toggle_sprint_sneak.setting.sneak_key.name=Touche Furtivité
-module.toggle_sprint_sneak.setting.sneak_key.description=Définir la touche pour activer/désactiver sneak.
+module.toggle_sprint_sneak.setting.sneak_key.name=Touche Sneak
+module.toggle_sprint_sneak.setting.sneak_key.description=Définir la touche pour activer/désactiver le sneak.
 
 module.toggle_sprint_sneak.setting.toggles_category.name=Options
 module.toggle_sprint_sneak.setting.toggles_category.description=Activer ou désactiver différentes options.
-module.toggle_sprint_sneak.setting.enable_toggle_sprint.name=Activer Toggle Sprint
-module.toggle_sprint_sneak.setting.enable_toggle_sprint.description=Activer ou désactiver toggle sprint.
-module.toggle_sprint_sneak.setting.enable_toggle_sneak.name=Activer Toggle Sneak
-module.toggle_sprint_sneak.setting.enable_toggle_sneak.description=Activer ou désactiver toggle sneak.
+module.toggle_sprint_sneak.setting.enable_toggle_sprint.name=Activer le Toggle Sprint
+module.toggle_sprint_sneak.setting.enable_toggle_sprint.description=Activer ou désactiver le toggle sprint.
+module.toggle_sprint_sneak.setting.enable_toggle_sneak.name=Activer le Toggle Sneak
+module.toggle_sprint_sneak.setting.enable_toggle_sneak.description=Activer ou désactiver le toggle sneak.
 
 module.toggle_sprint_sneak.setting.always_sprint.name=Toujours Sprinter
 module.toggle_sprint_sneak.setting.always_sprint.description=Activer ou désactiver le mode de sprint constant.
@@ -1119,54 +1119,54 @@ module.toggle_sprint_sneak.setting.diagonal_sprintfix.name=Correction de Sprint 
 module.toggle_sprint_sneak.setting.diagonal_sprintfix.description=Activer ou désactiver la correction de sprint diagonal.\nSurtout pour les vielles versions (1.19.50-)
 
 ## View Model
-module.view_model.name=Modèle de Vue
-module.view_model.description=Permet de personnaliser le modèle de vue. (Objet en Main).
+module.view_model.name=Modèle en Main
+module.view_model.description=Permet de personnaliser l'affichage du modèle de votre objet tenu.
 
 module.view_model.setting.position_settings_category.name=Position
-module.view_model.setting.position_settings_category.description=Paramètres pour la position du modèle de vue.
+module.view_model.setting.position_settings_category.description=Paramètres pour la position du modèle.
 module.view_model.setting.translation_x.name=Translation X
-module.view_model.setting.translation_x.description=Ajuste la translation X du modèle de vue.
+module.view_model.setting.translation_x.description=Ajuste la translation X du modèle.
 module.view_model.setting.translation_y.name=Translation Y
-module.view_model.setting.translation_y.description=Ajuste la translation Y du modèle de vue.
+module.view_model.setting.translation_y.description=Ajuste la translation Y du modèle.
 module.view_model.setting.translation_z.name=Translation Z
-module.view_model.setting.translation_z.description=Ajuste la translation Z du modèle de vue.
+module.view_model.setting.translation_z.description=Ajuste la translation Z du modèle.
 
 module.view_model.setting.rotation_settings_category.name=Rotation
-module.view_model.setting.rotation_settings_category.description=Paramètres pour la rotation du modèle de vue.
+module.view_model.setting.rotation_settings_category.description=Paramètres pour la rotation du modèle.
 module.view_model.setting.rotation_x.name=Rotation X
-module.view_model.setting.rotation_x.description=Ajuste la rotation X du modèle de vue.
+module.view_model.setting.rotation_x.description=Ajuste la rotation X du modèle.
 module.view_model.setting.rotation_y.name=Rotation Y
-module.view_model.setting.rotation_y.description=Ajuste la rotation Y du modèle de vue.
+module.view_model.setting.rotation_y.description=Ajuste la rotation Y du modèle.
 module.view_model.setting.rotation_z.name=Rotation Z
-module.view_model.setting.rotation_z.description=Ajuste la rotation Z du modèle de vue.
+module.view_model.setting.rotation_z.description=Ajuste la rotation Z du modèle.
 
 module.view_model.setting.scale_settings_category.name=Échelle
-module.view_model.setting.scale_settings_category.description=Paramètres pour l'échelle du modèle de vue.
+module.view_model.setting.scale_settings_category.description=Paramètres pour l'échelle du modèle.
 module.view_model.setting.scale_x.name=Échelle X
-module.view_model.setting.scale_x.description=Ajuste l'échelle X du modèle de vue.
+module.view_model.setting.scale_x.description=Ajuste l'échelle X du modèle.
 module.view_model.setting.scale_y.name=Échelle Y
-module.view_model.setting.scale_y.description=Ajuste l'échelle Y du modèle de vue.
+module.view_model.setting.scale_y.description=Ajuste l'échelle Y du modèle.
 module.view_model.setting.scale_z.name=Échelle Z
-module.view_model.setting.scale_z.description=Ajuste l'échelle Z du modèle de vue.
+module.view_model.setting.scale_z.description=Ajuste l'échelle Z du modèle.
 
-module.view_model.setting.is_weird.name=Bizarre
-module.view_model.setting.is_weird.description=Activer ou désactiver le modèle de vue bizarre.
+module.view_model.setting.is_weird.name=Modèle suspect
+module.view_model.setting.is_weird.description=Activer ou désactiver le modèle bizarre.
 
 
 ## Waypoints
 module.waypoints.name=Waypoints
 module.waypoints.description=Affiche et mémorise les coordonnées d'emplacements spécifiques dans le monde.\nPour créer un point de cheminement, tapez ".waypoint" dans le chat Minecraft.\nPour les realms activez le mode serveur.
 
-module.waypoints.setting.death_waypoint.name=Ajouter un Point de Cheminement "Mort" à la Mort
+module.waypoints.setting.death_waypoint.name=Ajouter un Waypoint "Mort" à la Mort
 module.waypoints.setting.death_waypoint.description=Activer ou désactiver l'ajout d'un point de cheminement "Mort" à la mort.
 module.waypoints.setting.all_axis.name=Afficher la Distance sur Tous les Axes
 module.waypoints.setting.all_axis.description=Activer ou désactiver l'affichage de la distance sur tous les axes.
 
 module.waypoints.setting.automated_settings_category.name=Paramètres Automatisés
 module.waypoints.setting.automated_settings_category.description=Paramètres pour les réglages automatisés.
-module.waypoints.setting.add_waypoint_for_nether_portal.name=Ajouter un Waypoint pour Portails du Nether
+module.waypoints.setting.add_waypoint_for_nether_portal.name=Ajouter un Waypoint pour les Portails du Nether
 module.waypoints.setting.add_waypoint_for_nether_portal.description=Activer ou désactiver l'ajout d'un point de cheminement pour les portails du Nether.
-module.waypoints.setting.add_waypoint_for_end_gateways.name=Ajouter un Waypoint Portails de l'End
+module.waypoints.setting.add_waypoint_for_end_gateways.name=Ajouter un Waypoint pour les Portails de l'End
 module.waypoints.setting.add_waypoint_for_end_gateways.description=Activer ou désactiver l'ajout d'un point de cheminement pour les portails de l'End.
 module.waypoints.setting.disable_server_mode.name=Désactiver le Mode Serveur
 module.waypoints.setting.disable_server_mode.description=Traite les serveurs comme des mondes, utile pour les realms.
@@ -1207,52 +1207,52 @@ module.zoom.setting.animation_duration.description=Ajuster la vitesse de l'anima
 
 
 ## Armor HUD
-module.armor_hud.name=Armor Hud
-module.armor_hud.description=Shows the armor and mainhand item you have equipped.
-module.armor_hud.setting.horizontal.name=Horizontally Aligned
-module.armor_hud.setting.horizontal.description=Arranges the armor and mainhand items in a horizontal line.
-module.armor_hud.setting.is_hotbar.name=Above Hunger Bar
-module.armor_hud.setting.is_hotbar.description=Positions the display above the hunger bar.
-module.armor_hud.setting.hand_title.name=Hand
-module.armor_hud.setting.hand_title.description=Indicates the equipped hand.
-module.armor_hud.setting.show_main_hand.name=Show Main Hand
-module.armor_hud.setting.show_main_hand.description=Displays the main hand item.
-module.armor_hud.setting.show_off_hand.name=Show Off Hand
-module.armor_hud.setting.show_off_hand.description=Shows the off hand item.
-module.armor_hud.setting.durability_category.name=Durability
-module.armor_hud.setting.durability_category.description=Categorizes durability settings.
-module.armor_hud.setting.show_durability.name=Show Item Durability
-module.armor_hud.setting.show_durability.description=Shows the item's durability.
-module.armor_hud.setting.show_decorations.name=Show Item Durability Bar
-module.armor_hud.setting.show_decorations.description=Displays the item's durability bar.
-module.armor_hud.setting.java_decorations.name=Use Java Durability Colors
-module.armor_hud.setting.java_decorations.description=Applies Java durability colors.
-module.armor_hud.setting.durability_percent.name=Show Durability As Percentage
-module.armor_hud.setting.durability_percent.description=Indicates durability as a percentage.
-module.armor_hud.setting.durability_over_max.name=Show Durability/TotalDurability
-module.armor_hud.setting.durability_over_max.description=Shows durability versus total durability.
-module.armor_hud.setting.item_category.name=Item
-module.armor_hud.setting.item_category.description=Categorizes item settings.
-module.armor_hud.setting.render_count.name=Show Item Count On Item
-module.armor_hud.setting.render_count.description=Shows the item count on the item.
-module.armor_hud.setting.count_all.name=Count All Items of Same Type
-module.armor_hud.setting.count_all.description=Counts all items of the same type.
-module.armor_hud.setting.text_category.name=Text Settings
-module.armor_hud.setting.text_category.description=Categorizes text settings.
-module.armor_hud.setting.right_text.name=Text on The Right Side
-module.armor_hud.setting.right_text.description=Text displayed on the right side.
-module.armor_hud.setting.text_color_follow_durability.name=Text Color Depends on Durability
-module.armor_hud.setting.text_color_follow_durability.description=Adjusts text color based on durability.
-module.armor_hud.setting.render_in_containers.name=Render in Containers
-module.armor_hud.setting.render_in_containers.description=Displays in containers.
-module.armor_hud.setting.wish_glint.name=Bad Enchantment Glint
-module.armor_hud.setting.wish_glint.description=Adds a fake enchantment glint for older versions.
-module.armor_hud.setting.glint_speed.name=Bad Glint Speed
-module.armor_hud.setting.glint_speed.description=Adjusts the speed of the bad glint effect.
-module.armor_hud.setting.glint_opacity.name=Bad Glint Opacity
-module.armor_hud.setting.glint_opacity.description=Changes the opacity of the bad glint effect.
-module.armor_hud.setting.glint_color.name=Bad Glint Color
-module.armor_hud.setting.glint_color.description=Specifies the color of the bad glint effect.
+module.armor_hud.name=Armor HUD
+module.armor_hud.description=Affiche l'armure et l'objet tenu dans votre main sur l'ATH.
+module.armor_hud.setting.horizontal.name=Alignement Horizontal
+module.armor_hud.setting.horizontal.description=Dispose l'armure et les objets de la main principale en ligne horizontale.
+module.armor_hud.setting.is_hotbar.name=Au-dessus de la Barre de Faim
+module.armor_hud.setting.is_hotbar.description=Place l'affichage au-dessus de la barre de faim.
+module.armor_hud.setting.hand_title.name=Main
+module.armor_hud.setting.hand_title.description=Indique la main équipée.
+module.armor_hud.setting.show_main_hand.name=Afficher la Main Principale
+module.armor_hud.setting.show_main_hand.description=Affiche l'objet de la main principale.
+module.armor_hud.setting.show_off_hand.name=Afficher la Main Secondaire
+module.armor_hud.setting.show_off_hand.description=Affiche l'objet de la main secondaire.
+module.armor_hud.setting.durability_category.name=Durabilité
+module.armor_hud.setting.durability_category.description=Catégorise les paramètres de durabilité.
+module.armor_hud.setting.show_durability.name=Afficher la Durabilité de l'Objet
+module.armor_hud.setting.show_durability.description=Affiche la durabilité de l'objet.
+module.armor_hud.setting.show_decorations.name=Afficher la Barre de Durabilité de l'Objet
+module.armor_hud.setting.show_decorations.description=Affiche la barre de durabilité de l'objet.
+module.armor_hud.setting.java_decorations.name=Utiliser les Couleurs de Durabilité de Java
+module.armor_hud.setting.java_decorations.description=Applique les couleurs de durabilité de la verion Java.
+module.armor_hud.setting.durability_percent.name=Afficher la Durabilité en Pourcentage
+module.armor_hud.setting.durability_percent.description=Indique la durabilité en pourcentage.
+module.armor_hud.setting.durability_over_max.name=Afficher Durabilité/DurabilitéTotale
+module.armor_hud.setting.durability_over_max.description=Affiche la durabilité par rapport à la durabilité totale.
+module.armor_hud.setting.item_category.name=Objet
+module.armor_hud.setting.item_category.description=Catégorise les paramètres d'objet.
+module.armor_hud.setting.render_count.name=Afficher le Nombre d'Objets sur l'Objet
+module.armor_hud.setting.render_count.description=Affiche le nombre d'objets sur l'objet.
+module.armor_hud.setting.count_all.name=Compter Tous les Objets du Même Type
+module.armor_hud.setting.count_all.description=Compte tous les objets du même type.
+module.armor_hud.setting.text_category.name=Paramètres de Texte
+module.armor_hud.setting.text_category.description=Catégorise les paramètres de texte.
+module.armor_hud.setting.right_text.name=Texte du Côté Droit
+module.armor_hud.setting.right_text.description=Texte affiché du côté droit.
+module.armor_hud.setting.text_color_follow_durability.name=Changer la Couleur du Texte Selon la Durabilité
+module.armor_hud.setting.text_color_follow_durability.description=Ajuste la couleur du texte en fonction de la durabilité.
+module.armor_hud.setting.render_in_containers.name=Afficher dans les Conteneurs
+module.armor_hud.setting.render_in_containers.description=S'affiche dans les conteneurs.
+module.armor_hud.setting.wish_glint.name=Glint de Wish
+module.armor_hud.setting.wish_glint.description=Ajoute un glint de wish pour les anciennes versions.
+module.armor_hud.setting.glint_speed.name=Vitesse du Glint
+module.armor_hud.setting.glint_speed.description=Ajuste la vitesse de l'effet de Glint.
+module.armor_hud.setting.glint_opacity.name=Opacité du Glint
+module.armor_hud.setting.glint_opacity.description=Modifie l'opacité de l'effet de Glint.
+module.armor_hud.setting.glint_color.name=Couleur du Glint
+module.armor_hud.setting.glint_color.description=Spécifie la couleur de l'effet de Glint.
 
 
 ## Arrow Counter
@@ -1336,15 +1336,15 @@ module.combo_counter.name=Compteur de Combo
 module.combo_counter.description=Affiche le nombre de coups que vous infligez à un ennemi sans être touché.
 module.combo_counter.setting.show_combo_text.name=Afficher le texte "Combo :"
 module.combo_counter.setting.show_combo_text.description=Affiche le texte "Combo :" avec le nombre de combos.
-module.combo_counter.setting.flash_when_hit.name=Flash Quand Touché
-module.combo_counter.setting.flash_when_hit.description=Déclenche un effet de flash du fond en cas de coup.
+module.combo_counter.setting.flash_when_hit.name=Flash si le Combo s'Arrête
+module.combo_counter.setting.flash_when_hit.description=Déclenche un effet de flash dans le background du module au moment où votre combo s'arrête.
 module.combo_counter.combo_text=Combo: %s
 
 
 
 
 ## Compass
-module.direction_hud.name=HUD de Direction
+module.direction_hud.name=Direction HUD
 module.direction_hud.description=Affiche la direction dans laquelle vous faites face en degrés.
 module.direction_hud.setting.force_center.name=Toujours centré
 module.direction_hud.setting.force_center.description=Garde l'affichage centré en permanence.
@@ -1397,13 +1397,13 @@ module.coordinates.setting.copy_selected_key.description=Raccourci clavier pour 
 
 
 ## CPS module
-module.cps.name=Compteur CPS
+module.cps.name=Compteur de CPS
 module.cps.description=Affiche vos clics par seconde.
 module.cps.setting.hide_cps.name=Cacher le Texte CPS
 module.cps.setting.hide_cps.description=Masque l'affichage du texte CPS.
 module.cps.setting.cps_after_value.name=Texte CPS à Droite
 module.cps.setting.cps_after_value.description=Affiche le texte CPS à droite du décompte.
-module.cps.setting.show_right_click.name=Afficher les CPS Clic Droit
+module.cps.setting.show_right_click.name=Afficher les CPS du Clic Droit
 module.cps.setting.show_right_click.description=Affiche les CPS spécifiquement pour les actions de clic droit.
 module.cps.setting.alternate_splitter.name=Séparateur Alternatif
 module.cps.setting.alternate_splitter.description=Utilise un séparateur alternatif pour les CPS.
@@ -1427,36 +1427,36 @@ module.daycounter.seconds=%s Secondes
 ## Flappy Bird Module
 module.flappy_bird.name=Flappy Bird
 module.flappy_bird.description=Un clone de Flappy Bird jouable dans Minecraft!
-module.flappy_bird.setting.high_quality.name=Graphiques 4k (FPS Avertissement)
-module.flappy_bird.setting.high_quality.description=Active des graphiques de haute qualité (avec avertissement basse FPS).
+module.flappy_bird.setting.high_quality.name=Graphiques 4k (Attention à vos FPS)
+module.flappy_bird.setting.high_quality.description=Active des graphiques de haute qualité.
 module.flappy_bird.setting.keybind_settings.name=Paramètres des raccourcis clavier
 module.flappy_bird.setting.keybind_settings.description=Paramètres pour les raccourcis clavier.
 module.flappy_bird.setting.jump_key.name=Touche de Saut
 module.flappy_bird.setting.jump_key.description=Touche assignée pour sauter.
 module.flappy_bird.setting.pause_key.name=Touche de Pause
 module.flappy_bird.setting.pause_key.description=Touche assignée pour mettre en pause le jeu.
-module.flappy_bird.setting.auto_play.name=Lecture Automatique
+module.flappy_bird.setting.auto_play.name=Jouer Automatiquement 
 module.flappy_bird.setting.auto_play.description=Active le gameplay automatique.
 
 
 
 
 ## F P S Counter Module
-module.fps.name=Compteur FPS
+module.fps.name=Compteur d'FPS
 module.fps.description=Affiche le nombre d'images par seconde.
 
 
 
 ## Item Tracker Module
 module.item_tracker.name=Suivi d'Items
-module.item_tracker.description=Afficzhe quand et combien d'items vous ramasse ou larguez.
+module.item_tracker.description=Affiche quand et combien d'items vous ramassez ou jetez.
 module.item_tracker.setting.max_displayed_changes.name=Max de Changements Affichés
 module.item_tracker.setting.max_displayed_changes.description=Définit le nombre maximum de changements affichés.
 module.item_tracker.setting.display_time.name=Temps d'Affichage
 module.item_tracker.setting.display_time.description=Spécifie la durée pendant laquelle les changements d'un item restent visibles.
-module.item_tracker.setting.added_color.name=Couleur Ajouts
+module.item_tracker.setting.added_color.name=Couleur des Ajouts
 module.item_tracker.setting.added_color.description=Spécifie la couleur des items ajoutés.
-module.item_tracker.setting.removed_color.name=Couleur Suppressions
+module.item_tracker.setting.removed_color.name=Couleur des Suppressions
 module.item_tracker.setting.removed_color.description=Spécifie la couleur des items retirés.
 module.item_tracker.setting.bracket_color.name=Couleur des Crochets
 module.item_tracker.setting.bracket_color.description=Spécifie la couleur des crochets.
@@ -1468,34 +1468,34 @@ module.item_tracker.setting.ignored_slots.description=Spécifie les emplacements
 
 ## Keystrokes
 module.keystrokes.name=Keystrokes
-module.keystrokes.description=Affiche vos frappes de touches à l'écran.
+module.keystrokes.description=Affiche vos touches de déplacement à l'écran.
 module.keystrokes.setting.key_settings.name=Paramètres de Touches
 module.keystrokes.setting.key_settings.description=Paramètres liés aux touches.
 module.keystrokes.setting.key_width.name=Largeur des Touches
 module.keystrokes.setting.key_width.description=argeur des Touches.
 module.keystrokes.setting.hide_cps.name=Cacher les CPS
 module.keystrokes.setting.hide_cps.description=Cache l'affichage des CPS.
-module.keystrokes.setting.hide_mouse_buttons.name=Cacher les Boutons Souris
+module.keystrokes.setting.hide_mouse_buttons.name=Cacher les Boutons de Souris
 module.keystrokes.setting.hide_mouse_buttons.description=Cache l'affichage des boutons de la souris.
-module.keystrokes.setting.hide_spaceber.name=Cacher la Barre d'Espace
-module.keystrokes.setting.hide_spaceber.description=Cache l'affichage de la barre d'espace.
+module.keystrokes.setting.hide_spaceber.name=Cacher la Barre Espace
+module.keystrokes.setting.hide_spaceber.description=Cache l'affichage de la barre espace.
 module.keystrokes.setting.border_settings.name=Paramètres de Bordure
 module.keystrokes.setting.border_settings.description=Paramètres pour les bordures des touches.
 module.keystrokes.setting.key_border.name=Bordure de Touche
 module.keystrokes.setting.key_border.description=Active les bordures des touches.
-module.keystrokes.setting.border_uses_text_color.name=Couleur Bordure est la Couleur du Texte
+module.keystrokes.setting.border_uses_text_color.name=Couleur de la Bordure Équivalente à Celle du Texte
 module.keystrokes.setting.border_uses_text_color.description=Utilise la couleur du texte pour les bordures des touches.
 module.keystrokes.setting.border_width.name=Largeur de la Bordure
 module.keystrokes.setting.border_width.description=Spécifie la largeur des bordures des touches.
-module.keystrokes.setting.border_up_color.name=Couleur de la bordure Haute
-module.keystrokes.setting.border_up_color.description=Définit la couleur de la bordure haute.
-module.keystrokes.setting.border_down_color.name=Couleur de la Bordure Appuyée
-module.keystrokes.setting.border_down_color.description=Définit la couleur de la bordure appuyée. 
+module.keystrokes.setting.border_up_color.name=Couleur de la Bordure des Touches Non-Pressées
+module.keystrokes.setting.border_up_color.description=Définit la couleur de la bordure des touches qui ne sont pas actuellement pressées.
+module.keystrokes.setting.border_down_color.name=Couleur de la Bordure des Touches Pressées
+module.keystrokes.setting.border_down_color.description=Définit la couleur de la bordure des touches actuellement pressées. 
 module.keystrokes.setting.animation_settings.name=Paramètres d'Animation
-module.keystrokes.setting.animation_settings.description=Paramètres pour les animations de frappes de touches.
-module.keystrokes.setting.fade_animation_on_text.name=Animation de Dondu sur Texte
+module.keystrokes.setting.animation_settings.description=Paramètres pour les animations de la frappe d'une touche.
+module.keystrokes.setting.fade_animation_on_text.name=Animation de Fondu sur le Texte
 module.keystrokes.setting.fade_animation_on_text.description=Applique une animation de fondu au texte.
-module.keystrokes.setting.fade_animation_on_border.name=Animation de fondu Bordure
+module.keystrokes.setting.fade_animation_on_border.name=Animation de fondu sur la Bordure
 module.keystrokes.setting.fade_animation_on_border.description=Applique une animation de fondu aux bordures.
 module.keystrokes.setting.fade_animation_duration.name=Durée de l'Animation de Fondu
 module.keystrokes.setting.fade_animation_duration.description=Spécifie la durée des animations de fondu.
@@ -1505,30 +1505,30 @@ module.keystrokes.setting.key_forward.name=Touche Avant
 module.keystrokes.setting.key_forward.description=Attribue la touche pour le déplacement vers l'avant.
 module.keystrokes.setting.key_left.name=Touche Gauche
 module.keystrokes.setting.key_left.description=Attribue la touche pour le déplacement à gauche.
-module.keystrokes.setting.key_back.name=Touche Derrière
+module.keystrokes.setting.key_back.name=Touche Arrière
 module.keystrokes.setting.key_back.description=Attribue la touche pour le déplacement vers l'arrière.
 module.keystrokes.setting.key_right.name=Touche Droite
 module.keystrokes.setting.key_right.description=Attribue la touche pour le déplacement à droite.
 module.keystrokes.setting.key_is_arrow.name=Utiliser les Flèches
 module.keystrokes.setting.key_is_arrow.description=Affiche des flèches au lieu des touches.
-module.keystrokes.setting.key_roundness.name=Rondeur des Boutons
+module.keystrokes.setting.key_roundness.name=Rondeur des Touches
 module.keystrokes.setting.key_roundness.description=Ajuste la rondeur des touches.
 module.keystrokes.setting.font_size.name=Taille de la Police
 module.keystrokes.setting.font_size.description=Spécifie la taille de la police.
-module.keystrokes.setting.cps_font_ratio.name=Rapport CPS à la Police
+module.keystrokes.setting.cps_font_ratio.name=Rapport du Texte CPS à la Police
 module.keystrokes.setting.cps_font_ratio.description=Ajuste l'affichage des CPS par rapport à la taille de la police.
 module.keystrokes.setting.spacebar_block_size.name=Taille de la Barre d'Espace
 module.keystrokes.setting.spacebar_block_size.description=Ajuste la taille de la barre d'espace.
 module.keystrokes.setting.color_settings.name=Paramètres de Couleur
 module.keystrokes.setting.color_settings.description=Paramètres de Couleur.
-module.keystrokes.setting.up_text_color.name=Couleur du Texte Haut
-module.keystrokes.setting.up_text_color.description=Définit la couleur du texte haut.
-module.keystrokes.setting.down_text_color.name=Couleur du Texte Appuyé
-module.keystrokes.setting.down_text_color.description=Définit la Couleur du texte appuyé.
-module.keystrokes.setting.up_back_color.name=Couleur de Fond Haut
-module.keystrokes.setting.up_back_color.description=Définit la couleur de fond pour les touches hautes.
-module.keystrokes.setting.down_back_color.name=Couleur de Fond Appuyé
-module.keystrokes.setting.down_back_color.description=Définit la couleur de fond pour les touches basses.
+module.keystrokes.setting.up_text_color.name=Couleur du Texte des Touches Non-Pressées
+module.keystrokes.setting.up_text_color.description=Définit la couleur du texte des touches qui ne sont pas actuellement pressées.
+module.keystrokes.setting.down_text_color.name=Couleur du Texte des Touches Pressées
+module.keystrokes.setting.down_text_color.description=Définit la Couleur du texte des touches actuellement pressées.
+module.keystrokes.setting.up_back_color.name=Couleur de Fond des Touches Non-Pressées
+module.keystrokes.setting.up_back_color.description=Définit la couleur de fond pour les touches qui ne sont pas actuellement pressées.
+module.keystrokes.setting.down_back_color.name=Couleur de Fond des Touches Pressées
+module.keystrokes.setting.down_back_color.description=Définit la couleur de fond pour les touches actuellement pressées.
 
 
 
@@ -1560,7 +1560,7 @@ module.movable_chat.setting.use_client_font.name=Utiliser la Police du Client
 module.movable_chat.setting.use_client_font.description=Applique la police du client au chat.
 module.movable_chat.setting.align_left.name=Aligné à Gauche
 module.movable_chat.setting.align_left.description=Aligne le chat sur le côté gauche.
-module.movable_chat.setting.origin_from_top.name=Origine en Haut
+module.movable_chat.setting.origin_from_top.name=Commence par le Haut
 module.movable_chat.setting.origin_from_top.description=Positionne le chat en partant du haut.
 module.movable_chat.setting.size_from_content_size.name=Longeur du Chat = Contenu
 module.movable_chat.setting.size_from_content_size.description=Synchronise les longueurs du message et du fond.
@@ -1593,7 +1593,7 @@ module.movable_chat.setting.bottom_chat_height.description=Ajuste la hauteur du 
 ## Movable Paperdoll Module
 module.movable_paperdoll.name=Paperdoll Déplaçable
 module.movable_paperdoll.description=Active le déplacement et le redimensionnement du paperdoll.
-module.movable_paperdoll.setting.always_render.name=Toujours Rendre
+module.movable_paperdoll.setting.always_render.name=Toujours Afficher
 module.movable_paperdoll.setting.always_render.description=Assure que le paperdoll est toujours visible.
 
 
@@ -1606,7 +1606,7 @@ module.movable_scoreboard.setting.show_title.name=Afficher le Titre
 module.movable_scoreboard.setting.show_title.description=Affiche le titre du scoreboard.
 module.movable_scoreboard.setting.show_offline_players.name=Afficher les Joueurs Hors Ligne
 module.movable_scoreboard.setting.show_offline_players.description=Affiche les joueurs hors ligne sur le scoreboard.
-module.movable_scoreboard.setting.show_show_entity.name=Afficher les entités (la chose -457485725478524)
+module.movable_scoreboard.setting.show_show_entity.name=Afficher les entités (le truc -457485725478524 inutile)
 module.movable_scoreboard.setting.show_show_entity.description=Affiche les entités sur le scoreboard.
 module.movable_scoreboard.setting.show_score.name=Afficher le Score
 module.movable_scoreboard.setting.show_score.description=Affiche les numéros du score.
@@ -1660,14 +1660,14 @@ module.potion_counter.name=Compteur de Potions
 module.potion_counter.description=Affiche le nombre de potions de soin instantané que vous possédez actuellement.
 module.potion_counter.setting.show_potion_text.name=Afficher le texte "Potion :"
 module.potion_counter.setting.show_potion_text.description=Affiche le texte "Potion : " avec le nombre de potions.
-module.potion_counter.setting.hide_without_items.name=Afficher si Potion Présente
+module.potion_counter.setting.hide_without_items.name=Cacher si vous n'avez pas de Potions
 module.potion_counter.setting.hide_without_items.description=Cache le compteur s'il n'y a pas de potions.
 module.potion_counter.potion_text=Potion: %s
 
 
 
 ## Potion Hud
-module.potion_hud.name=Interface potions
+module.potion_hud.name=HUD d'effets
 module.potion_hud.description=Affiche vos effets actuels et leur durée.
 module.potion_hud.setting.icon_opacity.name=Opacité de l'Icône
 module.potion_hud.setting.icon_opacity.description=Ajuste l'opacité des icônes.
@@ -1677,12 +1677,12 @@ module.potion_hud.setting.hide_icons.name=Cacher les Icônes
 module.potion_hud.setting.hide_icons.description=Cache les icônes.
 module.potion_hud.setting.hide_names.name=Cacher les Noms
 module.potion_hud.setting.hide_names.description=Cache les noms des effets.
-module.potion_hud.setting.hide_timers.name=Cacher les Minuteries
-module.potion_hud.setting.hide_timers.description=Cache les minuteries des effets.
+module.potion_hud.setting.hide_timers.name=Cacher la Durée
+module.potion_hud.setting.hide_timers.description=Cache la durée des effets.
 module.potion_hud.setting.brewing_guide_category.name=Paramètres du Guide de Potion
-module.potion_hud.setting.brewing_guide_category.description=Paramètres liés aux guides de brassage.
+module.potion_hud.setting.brewing_guide_category.description=Paramètres liés aux guides de brassage de potions.
 module.potion_hud.setting.show_in_stand.name=Afficher le Guide dans l'Alambic
-module.potion_hud.setting.show_in_stand.description=Affiche le guide dans le support.
+module.potion_hud.setting.show_in_stand.description=Affiche le guide dans l'Alambic.
 module.potion_hud.setting.brewable_only.name=Uniquement les Potions Réalisables
 module.potion_hud.setting.brewable_only.description=N'affiche que les potions réalisables.
 module.potion_hud.brewing_guide.brew_longer=Potion plus Longue
@@ -1702,7 +1702,7 @@ module.reach_display.reach_text=Reach: %s
 
 
 ## Server Module
-module.server_ip.name=IP Serveur
+module.server_ip.name=IP du Serveur
 module.server_ip.description=Affiche l'adresse IP du serveur sur lequel vous jouez.
 module.server_ip.setting.show_port.name=Afficher le Port
 module.server_ip.setting.show_port.description=Affiche le port du serveur en plus de l'adresse IP.
@@ -1712,9 +1712,9 @@ module.server_ip.setting.show_port.description=Affiche le port du serveur en plu
 
 ## Snake
 module.snake.name=Snake
-module.snake.description=Une version Minecraft du jeu classique Snake !
-module.snake.setting.high_quality.name=Graphiques HD (Avertissement de FPS bas)
-module.snake.setting.high_quality.description=Active les graphiques haute définition avec un avertissement de FPS bas.
+module.snake.description=Une version Minecraft du jeu Snake !
+module.snake.setting.high_quality.name=Graphiques HD (Attention à vos FPS)
+module.snake.setting.high_quality.description=Active les graphiques haute définition.
 module.snake.setting.key_up.name=Touche Haut
 module.snake.setting.key_up.description=Touche utilisée pour le mouvement vers le haut.
 module.snake.setting.key_down.name=Touche Bas
@@ -1730,7 +1730,7 @@ module.snake.setting.key_right.description=Touche utilisée pour le mouvement ve
 ## Soup Counter
 module.soup_counter.name=Compteur de Soupes
 module.soup_counter.description=Affiche le nombre de soupes dans votre inventaire.
-module.soup_counter.setting.hide_without_items.name=Seulement si Soupe Présente
+module.soup_counter.setting.hide_without_items.name=Cacher si vous n'avez pas de Soupes
 module.soup_counter.setting.hide_without_items.description=Cache le compteur s'il n'y a pas de soupes dans l'inventaire.
 module.soup_counter.setting.show_soup_text.name=Afficher le texte "Soupe :"
 module.soup_counter.setting.show_soup_text.description=Affiche le texte "Soupe :" en plus du nombre de soupes.
@@ -1755,7 +1755,6 @@ module.stopwatch.setting.start_stop_key.name=Touche Démarrer/Arrêter
 module.stopwatch.setting.start_stop_key.description=Touche utilisée pour démarrer ou arrêter le chronomètre.
 module.stopwatch.setting.pause_unpause_key.name=Touche Pause/Reprendre
 module.stopwatch.setting.pause_unpause_key.description=Touche utilisée pour mettre en pause ou reprendre le chronomètre.
-
 
 
 

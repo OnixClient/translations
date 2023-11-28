@@ -1,3 +1,5 @@
+module.animation_settings.setting.setting_list_smooth_scroll_speed.description=Speed of smooth scrolling, -1 means no smooth scrolling.
+module.animation_settings.setting.setting_list_smooth_scroll_speed.name=Smooth Scroll Speed
 module.creative_tools.setting.ascend_key.description=Key to ascend.
 module.creative_tools.setting.ascend_key.name=Ascend Key
 module.creative_tools.setting.command_block_esp_type.description=Type of Command Block ESP.

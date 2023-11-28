@@ -36,20 +36,6 @@
       "md5": "0df1c5b3b6b87669735bae8ec193e97b"
     },
     {
-      "visual_name": "Fran\u00E7ais (Canada)",
-      "code": "fr_CA",
-      "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/fr_CA.lang",
-      "version": 3,
-      "md5": "45bea6260f32245beb9032276c442f53"
-    },
-    {
-      "visual_name": "Fran\u00E7ais (France)",
-      "code": "fr_FR",
-      "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/fr_FR.lang",
-      "version": 3,
-      "md5": "91619c36386a4eada10a5b5f1f5ac26e"
-    },
-    {
       "visual_name": "\u4E2D\u6587 (\u7B80\u4F53)",
       "code": "zh_CN",
       "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/zh_CN.lang",
@@ -78,18 +64,32 @@
       "md5": "8c2327a845218e6fc285c831e0fc3346"
     },
     {
+      "visual_name": "Fran\u00E7ais (Canada)",
+      "code": "fr_CA",
+      "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/fr_CA.lang",
+      "version": 4,
+      "md5": "c0ae95ba573ee508e49288c70402e69d"
+    },
+    {
+      "visual_name": "Fran\u00E7ais (France)",
+      "code": "fr_FR",
+      "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/fr_FR.lang",
+      "version": 4,
+      "md5": "d81845356dde5b0c6087df8041d09631"
+    },
+    {
       "visual_name": "English (United States)",
       "code": "en_US",
       "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/en_US.lang",
-      "version": 5,
-      "md5": "61ee806ca5266a7feccb591a371253e8"
+      "version": 6,
+      "md5": "68dedd69507e8b3853c2ae082215a7fb"
     },
     {
       "visual_name": "English (United Kingdom)",
       "code": "en_GB",
       "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/en_GB.lang",
-      "version": 5,
-      "md5": "0e9a87dfd2b1c912642769c8bef3b330"
+      "version": 6,
+      "md5": "2b8760bdcee901fa2a954208883f08ce"
     }
   ]
 }

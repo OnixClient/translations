@@ -52,6 +52,8 @@ module.animation_settings.setting.setting_list_initial_growth_size_multiplier.de
 module.animation_settings.setting.setting_list_initial_growth_size_multiplier.name=Setting List Initial Size Multiplier
 module.animation_settings.setting.setting_list_reload_with_search.description=Enable reload of setting list when searching.
 module.animation_settings.setting.setting_list_reload_with_search.name=Setting List Reload with Search
+module.animation_settings.setting.setting_list_smooth_scroll_speed.description=Speed of smooth scrolling, -1 means no smooth scrolling.
+module.animation_settings.setting.setting_list_smooth_scroll_speed.name=Smooth Scroll Speed
 module.armor_hud.description=Shows the armor and mainhand item you have equipped.
 module.armor_hud.name=Armor Hud
 module.armor_hud.setting.count_all.description=Counts all items of the same type.

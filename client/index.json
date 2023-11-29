@@ -36,20 +36,6 @@
       "md5": "0df1c5b3b6b87669735bae8ec193e97b"
     },
     {
-      "visual_name": "\u4E2D\u6587 (\u7B80\u4F53)",
-      "code": "zh_CN",
-      "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/zh_CN.lang",
-      "version": 5,
-      "md5": "bd77a8fc990fdfab00b1f61a1d7092a6"
-    },
-    {
-      "visual_name": "\u4E2D\u6587 (\u7E41\u9AD4)",
-      "code": "zh_TW",
-      "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/zh_TW.lang",
-      "version": 5,
-      "md5": "bd77a8fc990fdfab00b1f61a1d7092a6"
-    },
-    {
       "visual_name": "\uD55C\uAD6D\uC5B4 (\uD55C\uAE00)",
       "code": "ko_KR",
       "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/ko_KR.lang",
@@ -90,6 +76,20 @@
       "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/en_GB.lang",
       "version": 11,
       "md5": "02b371c6e7923bb531b98148b1612921"
+    },
+    {
+      "visual_name": "\u4E2D\u6587 (\u7B80\u4F53)",
+      "code": "zh_CN",
+      "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/zh_CN.lang",
+      "version": 6,
+      "md5": "f5ff76706b4fca5d81c5747c5b2cc781"
+    },
+    {
+      "visual_name": "\u4E2D\u6587 (\u7E41\u9AD4)",
+      "code": "zh_TW",
+      "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/zh_TW.lang",
+      "version": 6,
+      "md5": "57285663869a1b0235f2272df3450ee0"
     }
   ]
 }

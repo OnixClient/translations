@@ -1,973 +1,973 @@
-## Generic module settings
-module.module.setting.key.name=Toggle Module Key
-module.module.setting.key.description=The key that will toggle the module on and off.
-module.module.setting.visual_settings.name=Visual Settings
-module.module.setting.visual_settings.description=Settings to change the visual appearance of the module.
-module.module.setting.display_settings.name=Display Settings
-module.module.setting.display_settings.description=Settings to change what the module displays.
-module.visual.setting.scale.name=Scale
-module.visual.setting.scale.description=The scale of the module, will multiply the size by the specified amount.
-module.visual.setting.padding.name=Padding
-module.visual.setting.padding.description=The padding of the module, will add the specified amount of pixels to the size around the text.
-module.visual.setting.text_color.name=Text Color
-module.visual.setting.text_color.description=The color of the text.
-module.visual.setting.back_color.name=Background Color
-module.visual.setting.back_color.description=The color of the background.
-module.visual.setting.blur_opacity.name=Blur Opacity
-module.visual.setting.blur_opacity.description=The opacity of the background blur.
-module.visual.setting.has_outline.name=Outline
-module.visual.setting.has_outline.description=Whether or not the module has an outline.
-module.visual.setting.outline_color.name=Outline Color
-module.visual.setting.outline_color.description=The color of the outline.
-module.visual.setting.outline_width.name=Outline Width
-module.visual.setting.outline_width.description=The width of the outline.
-module.visual.setting.has_fixed_width.name=Use Fixed Width
-module.visual.setting.has_fixed_width.description=Keep the width like it is.
-module.visual.setting.fixed_width.name=Fixed Width
-module.visual.setting.fixed_width.description=What width should it be.
-module.visual.setting.precision.name=Precision
-module.visual.setting.precision.description=The precision of the value.
-module.visual.setting.corner_roundness.name=Rounded Corner Radius
-module.visual.setting.corner_roundness.description=The size of the rounded part of corners.
-module.visual.setting.corner_quality.name=Rounded Corner Quality
-module.visual.setting.corner_quality.description=The quality of the rounded corners, higher the better, does not affect new renderer.
-module.visual.setting.expand_direction.name=Expand Direction
-module.visual.setting.expand_direction.description=The direction the module will expand in.
-module.visual.setting.anchor.name=Anchor
-module.visual.setting.anchor.description=The anchor of the module, the position will be relative to.
-module.visual.setting.position.name=Position
-module.visual.setting.position.description=The raw position of the module.
-module.textual.setting.bracket_type.name=Bracket Type
-module.textual.setting.bracket_type.description=The type of brackets to use.
-module.textual.setting.space_between_brackets.name=Space Between Brackets
-module.textual.setting.space_between_brackets.description=Include a space between the brackets and text.
 
-module.module.setting.main_settings.name=Main Settings
-module.module.setting.main_settings.description=Settings to change the main functionality of the module.
-module.module.setting.miscellaneous_settings.name=Miscellaneous Settings
-module.module.setting.miscellaneous_settings.description=Settings to change miscellaneous functionality of the module.
-module.module.setting.render_settings.name=Render Settings
-module.module.setting.render_settings.description=Settings that affect the rendering of the module.
+## Generic module settings
+module.module.setting.key.name=開關模塊快捷鍵
+module.module.setting.key.description=用於開關模塊的快捷鍵.
+module.module.setting.visual_settings.name=視覺設置
+module.module.setting.visual_settings.description=用於更改模塊視覺外觀的設置.
+module.module.setting.display_settings.name=顯示設置
+module.module.setting.display_settings.description=用於更改模塊顯示內容的設置.
+module.visual.setting.scale.name=大小
+module.visual.setting.scale.description=模塊的大小, 將大小乘以指定的量.
+module.visual.setting.padding.name=填充
+module.visual.setting.padding.description=模塊的填充, 會將指定數量的像素添加到文本周圍的大小.
+module.visual.setting.text_color.name=文字顔色
+module.visual.setting.text_color.description=文字的顏色.
+module.visual.setting.back_color.name=背景顏色
+module.visual.setting.back_color.description=背景的顏色.
+module.visual.setting.blur_opacity.name=模糊不透明度
+module.visual.setting.blur_opacity.description=背景模糊的不透明度.
+module.visual.setting.has_outline.name=輪廓線
+module.visual.setting.has_outline.description=模塊是否有輪廓線.
+module.visual.setting.outline_color.name=輪廓顏色
+module.visual.setting.outline_color.description=輪廓線的顏色.
+module.visual.setting.outline_width.name=輪廓寬度
+module.visual.setting.outline_width.description=輪廓線的寬度.
+module.visual.setting.has_fixed_width.name=使用固定寬度
+module.visual.setting.has_fixed_width.description=保持原來的寬度.
+module.visual.setting.fixed_width.name=固定寬度
+module.visual.setting.fixed_width.description=它應該是什麽寬度.
+module.visual.setting.precision.name=精度
+module.visual.setting.precision.description=值的精度.
+module.visual.setting.corner_roundness.name=圓角半徑
+module.visual.setting.corner_roundness.description=圓角部分的大小.
+module.visual.setting.corner_quality.name=圓角質量
+module.visual.setting.corner_quality.description=圓角的質量, 越高越好, 不會影響新的渲染器.
+module.visual.setting.expand_direction.name=擴展方向
+module.visual.setting.expand_direction.description=模塊的擴展方向.
+module.visual.setting.anchor.name=基準點
+module.visual.setting.anchor.description=模塊的基準點, 它的位置將相對於此.
+module.visual.setting.position.name=位置
+module.visual.setting.position.description=模塊的初始位置.
+module.visual.setting.size.name=大小
+module.visual.setting.size.description=模塊的初始大小.
+module.textual.setting.bracket_type.name=括號類型
+module.textual.setting.bracket_type.description=要使用的括號類型.
+module.textual.setting.space_between_brackets.name=在括號旁添加空格
+module.textual.setting.space_between_brackets.description=在括號和文本中間添加空格.
+
+module.module.setting.main_settings.name=主要設置
+module.module.setting.main_settings.description=用於更改模塊主要功能的設置.
+module.module.setting.miscellaneous_settings.name=其他設置
+module.module.setting.miscellaneous_settings.description=用於更改模塊其他功能的設置.
+module.module.setting.render_settings.name=渲染設置
+module.module.setting.render_settings.description=影響模塊視覺效果的設置.
 
 ## Generic Gui
-gui.yes=Yes
-gui.no=No
-gui.on=On
-gui.off=Off
-gui.enabled=Enabled
-gui.disabled=Disabled
-gui.toggle=Toggle
-gui.toggle_on=Toggle On
-gui.toggle_off=Toggle Off
-gui.width=Width
-gui.height=Height
+gui.yes=是
+gui.no=否
+gui.on=開
+gui.off=關
+gui.enabled=已啟用
+gui.disabled=已禁用
+gui.toggle=切換
+gui.toggle_on=切換 開
+gui.toggle_off=切換 關
+gui.width=寬度
+gui.height=高度
 gui.new=New
 gui.create=Create
-gui.delete=Delete
-gui.edit=Edit
-gui.save=Save
-gui.cancel=Cancel
-gui.back=Back
-gui.reset=Reset
-gui.undo=Undo
-gui.reset_all=Reset All
-gui.confirm=Confirm
-gui.are_you_sure=Are you sure?
-gui.create_new=Create New %s
-gui.accept=Accept
-gui.deny=Deny
+gui.delete=刪除
+gui.edit=編輯
+gui.save=保存
+gui.cancel=取消
+gui.back=返回
+gui.reset=重置
+gui.undo=撤銷
+gui.reset_all=重置所有
+gui.confirm=確認
+gui.are_you_sure=確認?
+gui.create_new=新建 %s
+gui.accept=接受
+gui.deny=拒絕
 
 
 ## Module Guis
-module.ui.setting.color_picker_chroma.name=Chroma
-module.ui.setting.color_picker_chroma.description=Toggles chroma, chroma is a gradient rainbow effect.
-module.ui.setting.color_picker_rainbow.name=Rainbow
-module.ui.setting.color_picker_rainbow.description=Toggles rainbow, rainbow is a solid color rainbow effect.
-module.ui.setting.color_picker_opacity.name=Opacity
-module.ui.setting.color_picker_opacity.description=Choses what opacity the color has (transparency).
-module.ui.setting.key_renderer_unbind=Unbind
-module.ui.setting.key_overlay_help=Press any key to set it, Press escape to exit without change.
-module.ui.setting.settings=Settings
+module.ui.setting.color_picker_chroma.name=色度
+module.ui.setting.color_picker_chroma.description=切換為色度, 色度是漸變彩虹效果.
+module.ui.setting.color_picker_rainbow.name=彩虹
+module.ui.setting.color_picker_rainbow.description=切換為彩虹, 彩虹是純色彩虹效果.
+module.ui.setting.color_picker_opacity.name=不透明度
+module.ui.setting.color_picker_opacity.description=選擇顏色的不透明度（透明度）。
+module.ui.setting.key_renderer_unbind=取消綁定
+module.ui.setting.key_overlay_help=按任意鍵進行設置, 按 Esc 鍵退出而不進行更改.
+module.ui.setting.settings=設置
 
 ## Theme Editor
-module.themeuipreview.name=Theme Preview
-module.themeuipreview.description=This is a preview to see the changes you are making!
-module.themeuipreview.setting.presets.name=Presets
-module.themeuipreview.setting.presets.description=Theme presets you can use or start from.
-module.themeuipreview.setting.category.name=Category
-module.themeuipreview.setting.category.description=A preview of a category.
-module.themeuipreview.setting.info_category.name=Hi! I'm inside a category!
-module.themeuipreview.setting.info_category.description=Text to show the inside of a category.
-module.themeuipreview.setting.bool.name=Boolean Toggle
-module.themeuipreview.setting.bool.description=Boolean toggle to preview looks.
-module.themeuipreview.setting.int.name=Integer Slider
-module.themeuipreview.setting.int.description=Integer slider to preview looks.
-module.themeuipreview.setting.float.name=Floating Point Slider
-module.themeuipreview.setting.float.description=Float pointlider to preview looks.
-module.themeuipreview.setting.vec2.name=Dual Slider
-module.themeuipreview.setting.vec2.description=Dual slider to preview looks.
-module.themeuipreview.setting.color.name=Color Picker
-module.themeuipreview.setting.color.description=Color picker to preview looks.
-module.themeuipreview.setting.button.name=Button
-module.themeuipreview.setting.button.description=Button to preview looks.
-module.themeuipreview.setting.button.button=Click Me!
-module.themeuipreview.setting.enum.name=Enum
-module.themeuipreview.setting.enum.description=Enum to preview looks.
-module.themeuipreview.setting.info_setting.name=The one below does not belong here but\nis here so you can preview it anyway.
-module.themeuipreview.setting.info_setting.description=The one below does not belong here but\nis here so you can preview it anyway.
-module.themeuipreview.setting.info_scrollbar.name=This is just so it shows a scrollbar.
-module.themeuipreview.setting.info_scrollbar.description=This is just so it shows a scrollbar.
+module.themeuipreview.name=主題預覽
+module.themeuipreview.description=這是一個用於查看您所做的更改的預覽!
+module.themeuipreview.setting.presets.name=預設
+module.themeuipreview.setting.presets.description=您可以使用或從中開始的主題預設.
+module.themeuipreview.setting.category.name=類別
+module.themeuipreview.setting.category.description=類別預覽.
+module.themeuipreview.setting.info_category.name=嗨! 我屬於某個類別!
+module.themeuipreview.setting.info_category.description=用於顯示類別內部的文本.
+module.themeuipreview.setting.bool.name=布爾切換
+module.themeuipreview.setting.bool.description=布爾切換以預覽外觀.
+module.themeuipreview.setting.int.name=整數滑塊
+module.themeuipreview.setting.int.description=用於預覽外觀的整數滑塊.
+module.themeuipreview.setting.float.name=小數滑塊
+module.themeuipreview.setting.float.description=小數滑塊以預覽外觀.
+module.themeuipreview.setting.vec2.name=雙滑塊
+module.themeuipreview.setting.vec2.description=用於預覽外觀的雙滑塊.
+module.themeuipreview.setting.color.name=顏色選擇器
+module.themeuipreview.setting.color.description=用於預覽外觀的顏色選擇器.
+module.themeuipreview.setting.button.name=按鈕
+module.themeuipreview.setting.button.description=用於預覽外觀的按鈕.
+module.themeuipreview.setting.button.button=點我!
+module.themeuipreview.setting.enum.name=枚舉
+module.themeuipreview.setting.enum.description=用於預覽外觀的枚舉.
+module.themeuipreview.setting.info_setting.name=下面的那個不屬於這裏但\n它在這裏, 所以你無論如何都可以預覽它.
+module.themeuipreview.setting.info_setting.description=下面的那個不屬於這裏但\n它在這裏, 所以你無論如何都可以預覽它.
+module.themeuipreview.setting.info_scrollbar.name=這只是為了顯示一個滾動條.
+module.themeuipreview.setting.info_scrollbar.description=這只是為了顯示一個滾動條.
 
 
 ## Theme Options
-module.themeuioption.setting.enabled.name=Main Client Color
-module.themeuioption.setting.enabled.description=The accent color of the client.
-module.themeuioption.setting.text.name=Text Color
-module.themeuioption.setting.text.description=The color of the text.
-module.themeuioption.setting.blocked.name=Blocked Module Color
-module.themeuioption.setting.blocked.description=The color of blocked modules.
-module.themeuioption.setting.disabled.name=Disabled Module Color
-module.themeuioption.setting.disabled.description=The color of disabled modules.
-module.themeuioption.setting.highlight.name=Highlight Color
-module.themeuioption.setting.highlight.description=The color of highlighted things.
-module.themeuioption.setting.outline.name=Outline Color
-module.themeuioption.setting.outline.description=The color of outlines.
-module.themeuioption.setting.window_background.name=Background Color
-module.themeuioption.setting.window_background.description=The color of the background.
-module.themeuioption.setting.button.name=Button Color
-module.themeuioption.setting.button.description=The color of buttons.
-module.themeuioption.setting.scrollbar.name=Scrollbar Color
-module.themeuioption.setting.scrollbar.description=The color of scrollbars.
-module.themeuioption.setting.reset_button.name=Reset Theme to Default
-module.themeuioption.setting.reset_button.description=Resets the theme to the default onix theme.
-module.themeuioption.setting.reset_button.button=Reset
+module.themeuioption.setting.enabled.name=客戶端主題色
+module.themeuioption.setting.enabled.description=客戶端的主題色.
+module.themeuioption.setting.text.name=文字顏色
+module.themeuioption.setting.text.description=文字的顏色.
+module.themeuioption.setting.blocked.name=屏蔽功能顏色
+module.themeuioption.setting.blocked.description=被屏蔽(強製禁用)的功能的顏色.
+module.themeuioption.setting.disabled.name=禁用功能顏色
+module.themeuioption.setting.disabled.description=被禁用的功能的顏色.
+module.themeuioption.setting.highlight.name=高亮顏色
+module.themeuioption.setting.highlight.description=被高亮的東西的顏色.
+module.themeuioption.setting.outline.name=輪廓顏色
+module.themeuioption.setting.outline.description=輪廓的顏色.
+module.themeuioption.setting.window_background.name=背景顏色
+module.themeuioption.setting.window_background.description=背景的顏色.
+module.themeuioption.setting.button.name=按鈕顏色
+module.themeuioption.setting.button.description=按鈕的顏色.
+module.themeuioption.setting.scrollbar.name=滾動條顏色
+module.themeuioption.setting.scrollbar.description=滾動條的顏色.
+module.themeuioption.setting.reset_button.name=重設為默認主題
+module.themeuioption.setting.reset_button.description=將主題重新設置成onix默認主題.
+module.themeuioption.setting.reset_button.button=重置
 
 
 
 ## 202020
 module.remind_202020.name=20 20 20
-module.remind_202020.description=Reminds you to adhere 20 20 20.\n(For every 20 minutes that pass, look 20 meters away for 20 seconds at a time).\nThis helps preserve your eyesight!\n(And I can't remember to do it so I'm making this).
-module.remind_202020.setting.interval.name=Interval (minutes)
-module.remind_202020.setting.interval.description=The interval between reminders.
-module.remind_202020.setting.duration.name=Duration (seconds)
-module.remind_202020.setting.duration.description=The duration of the reminder.
-module.remind_202020.setting.snooze_duration.name=Snooze Duration (seconds)
-module.remind_202020.setting.snooze_duration.description=The duration of the snooze.
-module.remind_202020.setting.snooze_key.name=Snooze Key
-module.remind_202020.setting.snooze_key.description=The key that will snooze the reminder.
+module.remind_202020.description=提醒你保護眼睛.\n(每過20分鐘, 眺望20米遠方並保持20秒).\n這有助於保護您的視力!\n(我總會忘記所以我做了這個功能).
+module.remind_202020.setting.interval.name=間隔 (分鐘)
+module.remind_202020.setting.interval.description=每次提醒之間的間隔.
+module.remind_202020.setting.duration.name=持續時間 (秒)
+module.remind_202020.setting.duration.description=每個提醒的持續時間.
+module.remind_202020.setting.snooze_duration.name=延遲時間 (秒)
+module.remind_202020.setting.snooze_duration.description=哎呀你就再給我幾秒鐘時間吧!
+module.remind_202020.setting.snooze_key.name=延遲快捷鍵
+module.remind_202020.setting.snooze_key.description=將計時器延遲的快捷鍵.
 
 ## Animation Settings
-module.animation_settings.name=Animation Settings
-module.animation_settings.description=Allows you to change various animations.
-module.animation_settings.setting.button_hover_size_multiplier.name=Button Hover Size Multiplier
-module.animation_settings.setting.button_hover_size_multiplier.description=Multiplier for button size when hovered.
-module.animation_settings.setting.popup_initial_growth_size_multiplier.name=Popup Initial Growth Size Multiplier
-module.animation_settings.setting.popup_initial_growth_size_multiplier.description=Multiplier for initial size of popups.
-module.animation_settings.setting.setting_list_animation_offset.name=Setting List Animation Offset
-module.animation_settings.setting.setting_list_animation_offset.description=Offset for animation in the setting list.
-module.animation_settings.setting.setting_list_comes_from_right.name=Setting List Comes From Right
-module.animation_settings.setting.setting_list_comes_from_right.description=Determine if the setting list should appear from the right.
-module.animation_settings.setting.setting_list_reload_with_search.name=Setting List Reload with Search
-module.animation_settings.setting.setting_list_reload_with_search.description=Enable reload of setting list when searching.
-module.animation_settings.setting.setting_list_initial_growth_size_multiplier.name=Setting List Initial Size Multiplier
-module.animation_settings.setting.setting_list_initial_growth_size_multiplier.description=Multiplier for initial size growth of the setting list.
-module.animation_settings.setting.category_title.name=%s Settings
-module.animation_settings.setting.category_title.description=Settings for the %s animation.
-module.animation_settings.setting.animate.name=Animate
-module.animation_settings.setting.animate.description=Enable or disable this animation
-module.animation_settings.setting.duration.name=Duration
-module.animation_settings.setting.duration.description=Duration of the animations in seconds.
-module.animation_settings.setting.easing.name=Easing
-module.animation_settings.setting.easing.description=Easing function for the animations.
+module.animation_settings.name=動畫設置
+module.animation_settings.description=允許您更改各種動畫.
+module.animation_settings.setting.button_hover_size_multiplier.name=按鈕懸停縮放
+module.animation_settings.setting.button_hover_size_multiplier.description=懸停時按鈕縮放的大小.
+module.animation_settings.setting.popup_initial_growth_size_multiplier.name=彈出初始增長大小乘數
+module.animation_settings.setting.popup_initial_growth_size_multiplier.description=彈出窗口初始大小的乘數.
+module.animation_settings.setting.setting_list_animation_offset.name=列表動畫偏移
+module.animation_settings.setting.setting_list_animation_offset.description=設置列表中動畫的偏移量.
+module.animation_settings.setting.setting_list_comes_from_right.name=列表從右側進入
+module.animation_settings.setting.setting_list_comes_from_right.description=確定設置列表是否應從右側顯示.
+module.animation_settings.setting.setting_list_reload_with_search.name=搜索時重新加載列表
+module.animation_settings.setting.setting_list_reload_with_search.description=搜索時啟用設置列表的重新加載.
+module.animation_settings.setting.setting_list_initial_growth_size_multiplier.name=設置列表初始大小乘數
+module.animation_settings.setting.setting_list_initial_growth_size_multiplier.description=設置列表初始大小增長的乘數.
+module.animation_settings.setting.category_title.name=%s 設置
+module.animation_settings.setting.category_title.description=%s 動畫的設置.
+module.animation_settings.setting.animate.name=動畫
+module.animation_settings.setting.animate.description=添加或刪除這個動畫
+module.animation_settings.setting.duration.name=時長
+module.animation_settings.setting.duration.description=動畫的持續時間 (以秒為單位).
+module.animation_settings.setting.easing.name=緩動
+module.animation_settings.setting.easing.description=動畫的緩動功能.
 
 
 
 ## Global Settings
-module.global_settings.name=Global Settings
-module.global_settings.description=Adjust global configurations for the client.
-module.global_settings.setting.open_gui_key.name=Open Client Key
-module.global_settings.setting.open_gui_key.description=Key used to open the client GUI.
-module.global_settings.setting.mojangles_in_game.name=Minecraft Font in Game
-module.global_settings.setting.mojangles_in_game.description=Enables Minecraft font in the game.
-module.global_settings.setting.mojangles_in_ui.name=Minecraft Font in UI
-module.global_settings.setting.mojangles_in_ui.description=Utilizes Minecraft font in the UI.
-module.global_settings.setting.text_shadow.name=Text Shadow
-module.global_settings.setting.text_shadow.description=Enables text shadow.
-module.global_settings.setting.show_nsfw_mods.name=Show NSFW Mods (18+)
-module.global_settings.setting.show_nsfw_mods.description=Displays NSFW mods if enabled.
-module.global_settings.setting.notify_blocked_modules.name=Notify Blocked Modules
-module.global_settings.setting.notify_blocked_modules.description=Notifies about blocked modules.
-module.global_settings.setting.use_new_renderer.name=Use New Renderer
-module.global_settings.setting.use_new_renderer.description=Utilizes the new renderer.
+module.global_settings.name=全局設置
+module.global_settings.description=調整客戶端的全局配置.
+module.global_settings.setting.open_gui_key.name=打開客戶端快捷鍵
+module.global_settings.setting.open_gui_key.description=打開客戶端UI的快捷鍵.
+module.global_settings.setting.mojangles_in_game.name=遊戲使用MC字體
+module.global_settings.setting.mojangles_in_game.description=遊戲使用MC字體.
+module.global_settings.setting.mojangles_in_ui.name=UI使用MC字體
+module.global_settings.setting.mojangles_in_ui.description=UI使用MC字體.
+module.global_settings.setting.text_shadow.name=文本陰影
+module.global_settings.setting.text_shadow.description=啟用文本陰影.
+module.global_settings.setting.show_nsfw_mods.name=顯示18+功能
+module.global_settings.setting.show_nsfw_mods.description=啟用後顯示18+功能.
+module.global_settings.setting.notify_blocked_modules.name=通知被阻止的功能
+module.global_settings.setting.notify_blocked_modules.description=顯示被阻止的模塊.
+module.global_settings.setting.use_new_renderer.name=使用新渲染器
+module.global_settings.setting.use_new_renderer.description=使用新的渲染器.
 
 ## hi translators, dont question why this is here, just translate it
-module.global_settings.setting.show_if_rosie_blushes.name=Show If Rosie Is Blushing
-module.global_settings.setting.show_if_rosie_blushes.description=Shows if Rosie is blushing.
+module.global_settings.setting.show_if_rosie_blushes.name=顯示Rosie是否臉紅
+module.global_settings.setting.show_if_rosie_blushes.description=顯示Rosie是否臉紅.
 
-module.global_settings.setting.blur_settings_category.name=Blur Settings
-module.global_settings.setting.blur_settings_category.description=Settings related to blurring.
-module.global_settings.setting.blur_module_background.name=Blur Module Background
-module.global_settings.setting.blur_module_background.description=Enables blurring of module backgrounds.
-module.global_settings.setting.blur_strength.name=Blur Amount
-module.global_settings.setting.blur_strength.description=Adjusts the intensity of the blur effect.
-module.global_settings.setting.blur_delay.name=Blur Delay
-module.global_settings.setting.blur_delay.description=Specifies the delay for blur effects.
-module.global_settings.setting.blur_delay_warning.name=High blur delays can result in performance increase at the cost of some visual fidelity.
-module.global_settings.setting.blur_quality.name=Blur Quality Reducer
-module.global_settings.setting.blur_quality.description=Reduces the quality of the blur effect.
+module.global_settings.setting.blur_settings_category.name=模糊設置
+module.global_settings.setting.blur_settings_category.description=與模糊相關的設置.
+module.global_settings.setting.blur_module_background.name=模糊模塊背景
+module.global_settings.setting.blur_module_background.description=模糊模塊的背景.
+module.global_settings.setting.blur_strength.name=模糊強度
+module.global_settings.setting.blur_strength.description=調整模糊效果的強度.
+module.global_settings.setting.blur_delay.name=模糊延遲
+module.global_settings.setting.blur_delay.description=調整模糊效果的延遲.
+module.global_settings.setting.blur_delay_warning.name=高模糊延遲會導致性能提高, 但會犧牲一些視覺保真度.
+module.global_settings.setting.blur_quality.name=模糊質量降低器
+module.global_settings.setting.blur_quality.description=降低模糊效果的質量.
 
-module.global_settings.setting.hud_editor_settings_category.name=HUD Settings
-module.global_settings.setting.hud_editor_settings_category.description=Settings related to the HUD editor.
-module.global_settings.setting.module_snapping.name=Module Snapping
-module.global_settings.setting.module_snapping.description=Enables snapping of modules.
-module.global_settings.setting.snap_lines.name=Snap Lines
-module.global_settings.setting.snap_lines.description=Shows guidelines for snapping modules.
-module.global_settings.setting.show_visual_module_name.name=Show Visual Module Names
-module.global_settings.setting.show_visual_module_name.description=Displays visual module names.
-module.global_settings.setting.idiots_wants_to_see_mods_in_f1.name=Don't Hide Mods in F1
-module.global_settings.setting.idiots_wants_to_see_mods_in_f1.description=Shows mods in F1.
+module.global_settings.setting.hud_editor_settings_category.name=HUD設置
+module.global_settings.setting.hud_editor_settings_category.description=與HUD相關的設置.
+module.global_settings.setting.module_snapping.name=模塊吸附
+module.global_settings.setting.module_snapping.description=啟用模塊的吸附.
+module.global_settings.setting.snap_lines.name=吸附線
+module.global_settings.setting.snap_lines.description=顯示模塊可以吸附的基準線.
+module.global_settings.setting.show_visual_module_name.name=顯示可視模塊的名稱
+module.global_settings.setting.show_visual_module_name.description=顯示可視模塊的名稱.
+module.global_settings.setting.idiots_wants_to_see_mods_in_f1.name=在F1中不隱藏模塊
+module.global_settings.setting.idiots_wants_to_see_mods_in_f1.description=在F1中不隱藏模塊.
 
-module.global_settings.setting.screenshot_settings_category.name=Screenshot Settings
-module.global_settings.setting.screenshot_settings_category.description=Settings related to screenshots.
-module.global_settings.setting.screenshot_key.name=Screenshot Key
-module.global_settings.setting.screenshot_key.description=Key used to capture screenshots.
-module.global_settings.setting.mods_in_screenshot.name=Capture Modules In Screenshots
-module.global_settings.setting.mods_in_screenshot.description=Includes modules in screenshots.
-module.global_settings.setting.copy_screenshots.name=Copy Screenshots to Clipboard
-module.global_settings.setting.copy_screenshots.description=Copies screenshots to the clipboard.
-module.global_settings.setting.screenshot_chat_message.name=Send Chat Message
-module.global_settings.setting.screenshot_chat_message.description=Sends a chat message when a screenshot is captured.
+module.global_settings.setting.screenshot_settings_category.name=截圖設置
+module.global_settings.setting.screenshot_settings_category.description=截圖相關的設置.
+module.global_settings.setting.screenshot_key.name=截圖快捷鍵
+module.global_settings.setting.screenshot_key.description=截圖快捷鍵.
+module.global_settings.setting.mods_in_screenshot.name=在屏幕截圖中捕獲模塊
+module.global_settings.setting.mods_in_screenshot.description=在屏幕截圖中包含模塊.
+module.global_settings.setting.copy_screenshots.name=將截圖復製到剪貼板
+module.global_settings.setting.copy_screenshots.description=將截圖復製到剪貼板.
+module.global_settings.setting.screenshot_chat_message.name=截圖時顯示消息
+module.global_settings.setting.screenshot_chat_message.description=截圖時在聊天框顯示一條消息.
 
-module.global_settings.setting.show_pause_button.name=Show Pause Screen Button
-module.global_settings.setting.show_pause_button.description=Enables display of the pause screen button.
-module.global_settings.setting.center_mouse_on_ui_open.name=Center Cursor on UI Open
-module.global_settings.setting.center_mouse_on_ui_open.description=Positions the cursor in the center when UI opens.
+module.global_settings.setting.show_pause_button.name=顯示暫停界面按鈕
+module.global_settings.setting.show_pause_button.description=在暫停界面顯示一個按鈕.
+module.global_settings.setting.center_mouse_on_ui_open.name=在 UI 打開時居中鼠標
+module.global_settings.setting.center_mouse_on_ui_open.description=UI 打開時將鼠標置於中心位置.
 
-module.global_settings.setting.bulk_settings.name=Global Module Settings
-module.global_settings.setting.bulk_settings.description=Settings applied to multiple modules at once.
-module.global_settings.setting.all_mods_scale.name=Module Scale
-module.global_settings.setting.all_mods_scale.description=Adjusts the scale of all modules.
-module.global_settings.setting.apply_all_mods_scale.name=Apply to all modules
-module.global_settings.setting.apply_all_mods_scale.button=Apply
-module.global_settings.setting.all_mods_text_color.name=Module Text Color
-module.global_settings.setting.all_mods_text_color.description=Changes text color for all modules.
-module.global_settings.setting.apply_all_mods_text_color.name=Apply to all modules
-module.global_settings.setting.apply_all_mods_text_color.button=Apply
-module.global_settings.setting.all_mods_back_color.name=Module Background Color
-module.global_settings.setting.all_mods_back_color.description=Alters background color for all modules.
-module.global_settings.setting.apply_all_mods_back_color.name=Apply to all modules
-module.global_settings.setting.apply_all_mods_back_color.button=Apply
-module.global_settings.setting.all_mods_outline_color.name=Module Outline Color
-module.global_settings.setting.all_mods_outline_color.description=Modifies outline color for all modules.
-module.global_settings.setting.apply_all_mods_outline_color.name=Apply to all modules
-module.global_settings.setting.apply_all_mods_outline_color.button=Apply
+module.global_settings.setting.bulk_settings.name=全局模塊設置
+module.global_settings.setting.bulk_settings.description=一次應用於多個模塊的設置.
+module.global_settings.setting.all_mods_scale.name=模塊大小
+module.global_settings.setting.all_mods_scale.description=調整所有模塊的大小.
+module.global_settings.setting.apply_all_mods_scale.name=對所有模塊生效
+module.global_settings.setting.apply_all_mods_scale.button=生效
+module.global_settings.setting.all_mods_text_color.name=模塊文字顏色
+module.global_settings.setting.all_mods_text_color.description=更改所有模塊的文本顏色.
+module.global_settings.setting.apply_all_mods_text_color.name=對所有模塊生效
+module.global_settings.setting.apply_all_mods_text_color.button=生效
+module.global_settings.setting.all_mods_back_color.name=模塊背景顏色
+module.global_settings.setting.all_mods_back_color.description=更改所有模塊的背景顏色.
+module.global_settings.setting.apply_all_mods_back_color.name=對所有模塊生效
+module.global_settings.setting.apply_all_mods_back_color.button=生效
+module.global_settings.setting.all_mods_outline_color.name=模塊輪廓顏色
+module.global_settings.setting.all_mods_outline_color.description=更改所有模塊的輪廓顏色.
+module.global_settings.setting.apply_all_mods_outline_color.name=對所有模塊生效
+module.global_settings.setting.apply_all_mods_outline_color.button=生效
 
-module.global_settings.setting.directx_settings.name=Performance Settings
-module.global_settings.setting.directx_settings.description=Settings that affect performance.
-module.global_settings.setting.request_disable_vsync.name=Request Disable V-Sync
-module.global_settings.setting.request_disable_vsync.description=Disables V-Sync.
-module.global_settings.setting.request_disable_vsync_info.name=Note: uncapped framerates can cause increased CPU/GPU usage and overheating on laptops
-module.global_settings.setting.vsync_option_1.name=V-Sync Option 1
-module.global_settings.setting.vsync_option_1.description=Driver-dependent behavior.
-module.global_settings.setting.vsync_option_info_1.name=The behavior of this option is driver-dependent
-module.global_settings.setting.vsync_option_2.name=V-Sync Option 2
-module.global_settings.setting.vsync_option_2.description=Driver-dependent behavior.
-module.global_settings.setting.vsync_option_info_2.name=The behavior of this option is driver-dependent
-module.global_settings.setting.use_d3d11.name=Switch to DirectX 11
-module.global_settings.setting.use_d3d11.description=Changes to DirectX 11 rendering.
-module.global_settings.setting.use_d3d11_warning.name=Note: You will need to restart to revert.
-module.global_settings.setting.use_d3d11_warning.description=You need to restart to revert this change.
+module.global_settings.setting.directx_settings.name=性能設置
+module.global_settings.setting.directx_settings.description=影響性能的設置.
+module.global_settings.setting.request_disable_vsync.name=禁用垂直同步
+module.global_settings.setting.request_disable_vsync.description=禁用垂直同步.
+module.global_settings.setting.request_disable_vsync_info.name=註意: 無上限的幀速率可能會導致筆記本電腦的 CPU/GPU 使用率增加和過熱
+module.global_settings.setting.vsync_option_1.name=垂直同步選項 1
+module.global_settings.setting.vsync_option_1.description=依賴於驅動程序的行為.
+module.global_settings.setting.vsync_option_info_1.name=此選項的行為取決於驅動程序
+module.global_settings.setting.vsync_option_2.name=垂直同步選項 2
+module.global_settings.setting.vsync_option_2.description=依賴於驅動程序的行為.
+module.global_settings.setting.vsync_option_info_2.name=此選項的行為取決於驅動程序
+module.global_settings.setting.use_d3d11.name=切換到 DirectX 11
+module.global_settings.setting.use_d3d11.description=切換為使用 DirectX 11 進行渲染.
+module.global_settings.setting.use_d3d11_warning.name=註意: 您需要重新啟動才能恢復.
+module.global_settings.setting.use_d3d11_warning.description=您需要重新啟動才能還原此更改.
 
 
 
 ## Auto GG
-module.autogg.name=Auto GG
-module.autogg.description=Automatically says GG (or any message) at the end of the game.\nWorks on Hive, CubeCraft, Zeqa, NetherGames, Hyperlands.
-module.autogg.setting.gg_delay.name=GG Delay (seconds)
-module.autogg.setting.gg_delay.description=The delay between the game ending and the message being sent.
-module.autogg.setting.message.name=Message %s
-module.autogg.setting.message.description=The message to send at the end of the game.
-module.autogg.setting.add_message.name=Add Message
-module.autogg.setting.add_message.description=Adds the message to the list of messages to send.
-module.autogg.setting.add_message.button=Add
-module.autogg.setting.remove_message.name=Remove Message %s
-module.autogg.setting.remove_message.description=Removes the message from the list of messages to send.
-module.autogg.remove_message.button=Remove
+module.autogg.name=自動GG
+module.autogg.description=在一局遊戲結束時自動發送GG (或任何消息) .\n可以在Hive, CubeCraft, Zeqa, NetherGames, Hyperlands運行.
+module.autogg.setting.gg_delay.name=GG延遲 (秒)
+module.autogg.setting.gg_delay.description=在遊戲結束和發送GG中間的延遲.
+module.autogg.setting.message.name=消息 %s
+module.autogg.setting.message.description=在遊戲結束時發送的消息.
+module.autogg.setting.add_message.name=添加消息
+module.autogg.setting.add_message.description=將消息添加至需要發送的消息的列表.
+module.autogg.setting.add_message.button=添加
+module.autogg.setting.remove_message.name=移除消息 %s
+module.autogg.setting.remove_message.description=將消息從需要發送的消息的列表中移除.
+module.autogg.remove_message.button=移除
 
 ## Auto Text Hotkey
-module.auto_text_hotkey.name=Auto Text Hotkey
-module.auto_text_hotkey.description=Automatically sends a message when a key is pressed.
-module.auto_text_hotkey.setting.shortcut.name=Shortcut
-module.auto_text_hotkey.setting.shortcut.description=The key that will send the message.
-module.auto_text_hotkey.setting.message.name=Message %s
-module.auto_text_hotkey.setting.message.description=The message to send.
-module.auto_text_hotkey.setting.key.name=Key %s
-module.auto_text_hotkey.setting.key.description=The key that will send the message.
-module.auto_text_hotkey.setting.add_message.name=Add Message
-module.auto_text_hotkey.setting.add_message.description=Adds the message to the list of messages to send.
-module.auto_text_hotkey.setting.add_message.button=Add
-module.auto_text_hotkey.setting.remove_message.name=Remove %s
-module.auto_text_hotkey.setting.remove_message.description=Removes the message from the list of messages to send.
-module.auto_text_hotkey.setting.remove_message.button=Remove
+module.auto_text_hotkey.name=自動文本快捷鍵
+module.auto_text_hotkey.description=當快捷鍵按下時自動發送文本.
+module.auto_text_hotkey.setting.shortcut.name=快捷鍵
+module.auto_text_hotkey.setting.shortcut.description=自動發送消息的快捷鍵.
+module.auto_text_hotkey.setting.message.name=消息 %s
+module.auto_text_hotkey.setting.message.description=需要發送的消息.
+module.auto_text_hotkey.setting.key.name=按鍵 %s
+module.auto_text_hotkey.setting.key.description=自動發送消息的快捷鍵.
+module.auto_text_hotkey.setting.add_message.name=添加消息
+module.auto_text_hotkey.setting.add_message.description=往列表中添加一條新的快捷消息.
+module.auto_text_hotkey.setting.add_message.button=添加
+module.auto_text_hotkey.setting.remove_message.name=移除 %s
+module.auto_text_hotkey.setting.remove_message.description=從列表中刪除消息.
+module.auto_text_hotkey.setting.remove_message.button=移除
 
 ## Block Outline/ Overlay
-module.block_outline_overlay.name=Block Outline/Overlay
-module.block_outline_overlay.description=Changes the selected block outline/overlay.\nThe \"Outline Selection\" setting needs to be enabled in video settings.
-module.block_outline_overlay.setting.render_block_outline.name=Render Block Outline
-module.block_outline_overlay.setting.block_outline.name=Block Outline
-module.block_outline_overlay.setting.block_outline.description=Settings for the block outline.
-module.block_outline_overlay.setting.render_block_outline.description=Whether or not to render the block outline.
-module.block_outline_overlay.setting.3d_block_outline.name=3D Block Outline
-module.block_outline_overlay.setting.3d_block_outline.description=Whether or not to render the block outline through the block.
-module.block_outline_overlay.setting.change_outline_width.name=Change Outline Width
-module.block_outline_overlay.setting.change_outline_width.description=Whether or not to change the outline width.
-module.block_outline_overlay.setting.outline_width.name=Outline Width
-module.block_outline_overlay.setting.outline_width.description=The width of the block outline.
-module.block_outline_overlay.setting.outline_color.name=Outline Color
-module.block_outline_overlay.setting.outline_color.description=The color of the block outline.
-module.block_outline_overlay.setting.block_outline_overlay.name=Block Overlay
-module.block_outline_overlay.setting.block_outline_overlay.description=Settings for the block overlay.
-module.block_outline_overlay.setting.render_block_overlay.name=Render Block Overlay
-module.block_outline_overlay.setting.render_block_overlay.description=Whether or not to render the block overlay.
-module.block_outline_overlay.setting.3d_block_overlay.name=3D Block Overlay
-module.block_outline_overlay.setting.3d_block_overlay.description=Whether or not to render the block overlay through the block.
-module.block_outline_overlay.setting.block_overlay_color.name=Block Overlay Color
-module.block_outline_overlay.setting.block_overlay_color.description=The color of the block overlay.
+module.block_outline_overlay.name=方塊輪廓框/疊加層
+module.block_outline_overlay.description=更改選定的方塊輪廓/疊加.\n需要在設置-視頻中打開 \"輪廓選擇\" 選項.
+module.block_outline_overlay.setting.render_block_outline.name=渲染方塊輪廓
+module.block_outline_overlay.setting.block_outline.name=方塊輪廓
+module.block_outline_overlay.setting.block_outline.description=方塊輪廓相關的設置.
+module.block_outline_overlay.setting.render_block_outline.description=是否渲染方塊輪廓.
+module.block_outline_overlay.setting.3d_block_outline.name=3D方塊輪廓
+module.block_outline_overlay.setting.3d_block_outline.description=是否透過方塊渲染方塊輪廓.
+module.block_outline_overlay.setting.change_outline_width.name=改變輪廓寬度
+module.block_outline_overlay.setting.change_outline_width.description=是否改變輪廓的寬度.
+module.block_outline_overlay.setting.outline_width.name=輪廓寬度
+module.block_outline_overlay.setting.outline_width.description=方塊輪廓線的寬度.
+module.block_outline_overlay.setting.outline_color.name=輪廓顏色
+module.block_outline_overlay.setting.outline_color.description=方塊輪廓線的顏色.
+module.block_outline_overlay.setting.block_outline_overlay.name=方塊疊加層
+module.block_outline_overlay.setting.block_outline_overlay.description=方塊疊加層的設置.
+module.block_outline_overlay.setting.render_block_overlay.name=渲染方塊疊加層
+module.block_outline_overlay.setting.render_block_overlay.description=是否渲染方塊疊加層.
+module.block_outline_overlay.setting.3d_block_overlay.name=3D方塊疊加層
+module.block_outline_overlay.setting.3d_block_overlay.description=是否透過方塊渲染方塊疊加層.
+module.block_outline_overlay.setting.block_overlay_color.name=方塊疊加層顏色
+module.block_outline_overlay.setting.block_overlay_color.description=方塊疊加層的顏色.
 
 ## Chat Tweaks
-module.chat_tweaks.name=Chat Tweaks
-module.chat_tweaks.description=Various tweaks to the chat.
-module.chat_tweaks.setting.timestamp_category.name=Timestamp
-module.chat_tweaks.setting.timestamp_category.description=Customise the timestamp settings.
-module.chat_tweaks.setting.timestamp_add_timestamp.name=Add Timestamps
-module.chat_tweaks.setting.timestamp_add_timestamp.description=Whether or not to show a timestamp before each message.
-module.chat_tweaks.setting.timestamp_24h.name=24 Hours Format
-module.chat_tweaks.setting.timestamp_24h.description=Whether or not to use 24 hours format.
-module.chat_tweaks.setting.timestamp_include_seconds.name=Include Seconds
-module.chat_tweaks.setting.timestamp_include_seconds.description=Whether or not to include seconds in the timestamp.
-module.chat_tweaks.setting.timestamp_include_milliseconds.name=Include Milliseconds
-module.chat_tweaks.setting.timestamp_include_milliseconds.description=Whether or not to include milliseconds in the timestamp.
-module.chat_tweaks.setting.timestamp_include_brackets.name=Include Brackets
-module.chat_tweaks.setting.timestamp_include_brackets.description=Whether or not to include brackets around the timestamp.
+module.chat_tweaks.name=聊天調整
+module.chat_tweaks.description=對聊天進行各種調整.
+module.chat_tweaks.setting.timestamp_category.name=時間戳
+module.chat_tweaks.setting.timestamp_category.description=自定義時間戳設置.
+module.chat_tweaks.setting.timestamp_add_timestamp.name=添加時間戳
+module.chat_tweaks.setting.timestamp_add_timestamp.description=是否在每條消息之前顯示時間戳.
+module.chat_tweaks.setting.timestamp_24h.name=24小時格式
+module.chat_tweaks.setting.timestamp_24h.description=是否使用 24 小時格式.
+module.chat_tweaks.setting.timestamp_include_seconds.name=包含秒數
+module.chat_tweaks.setting.timestamp_include_seconds.description=是否在時間戳中包含秒.
+module.chat_tweaks.setting.timestamp_include_milliseconds.name=包含毫秒
+module.chat_tweaks.setting.timestamp_include_milliseconds.description=是否在時間戳中包含毫秒.
+module.chat_tweaks.setting.timestamp_include_brackets.name=包含括號
+module.chat_tweaks.setting.timestamp_include_brackets.description=是否在時間戳兩邊添加括號.
 
-module.chat_tweaks.setting.compact_chat_category.name=Compact Chat
-module.chat_tweaks.setting.compact_chat_category.description=Settings for compact chat.
-module.chat_tweaks.setting.compact_chat_enable.name=Enable Compact Chat
-module.chat_tweaks.setting.compact_chat_enable.description=Hides duplicate messages.
-module.chat_tweaks.setting.compact_chat_reset_age.name=Act as New Message
-module.chat_tweaks.setting.compact_chat_reset_age.description=Whether or not to act as a new message (resets on screen time).
+module.chat_tweaks.setting.compact_chat_category.name=緊湊化聊天
+module.chat_tweaks.setting.compact_chat_category.description=緊湊化聊天的設置.
+module.chat_tweaks.setting.compact_chat_enable.name=啟用緊湊化聊天
+module.chat_tweaks.setting.compact_chat_enable.description=隱藏重復消息.
+module.chat_tweaks.setting.compact_chat_reset_age.name=充當新消息
+module.chat_tweaks.setting.compact_chat_reset_age.description=是否充當新消息 (重置顯示時間).
 
 ## Chunk Border
-module.chunk_border.name=Chunk Border
-module.chunk_border.description=Draws a border around the chunk you are in.
+module.chunk_border.name=區塊顯示
+module.chunk_border.description=顯示你所在的區塊的邊框.
 
 ## Cinematic Camera
-module.cinematic_camera.name=Cinematic Camera
-module.cinematic_camera.description=Makes the camera smooth, similar to the cinematic camera in OptiFine.
-module.cinematic_camera.setting.camera_settings_category.name=Camera Settings
-module.cinematic_camera.setting.camera_settings_category.description=Settings to change the camera settings.
-module.cinematic_camera.setting.max_speed.name=Max Speed
-module.cinematic_camera.setting.max_speed.description=The maximum speed of the camera.
-module.cinematic_camera.setting.deceleration.name=Deceleration
-module.cinematic_camera.setting.deceleration.description=The deceleration of the camera.
-module.cinematic_camera.setting.input_reducer.name=Input Reducer
-module.cinematic_camera.setting.input_reducer.description=The input reducer of the camera.
-module.cinematic_camera.setting.toggle_mode.name=Toggle Mode
-module.cinematic_camera.setting.toggle_mode.description=Makes it so that you can toggle the cinematic camera on and off.
+module.cinematic_camera.name=電影攝影機
+module.cinematic_camera.description=使攝像機順滑轉動, 類似於OptiFine中的電影攝像機.
+module.cinematic_camera.setting.camera_settings_category.name=攝像機設置
+module.cinematic_camera.setting.camera_settings_category.description=攝像機相關的設置.
+module.cinematic_camera.setting.max_speed.name=最大速度
+module.cinematic_camera.setting.max_speed.description=攝像機的最大速度.
+module.cinematic_camera.setting.deceleration.name=減速
+module.cinematic_camera.setting.deceleration.description=攝像機的減速.
+module.cinematic_camera.setting.input_reducer.name=輸入減速器
+module.cinematic_camera.setting.input_reducer.description=攝像機的輸入減速器.
+module.cinematic_camera.setting.toggle_mode.name=切換開關
+module.cinematic_camera.setting.toggle_mode.description=讓您可以打開和關閉電影攝影機.
 
 ## Color Options
-module.color_options.name=Color Options
-module.color_options.description=Allows you to change the color of the client.
-module.color_options.setting.rgb_category.name=RGB Category
-module.color_options.setting.rgb_category.description=Settings for RGB.
-module.color_options.setting.rgb_speed.name=RGB Speed
-module.color_options.setting.rgb_speed.description=The speed of the RGB.
-module.color_options.setting.rgb_brightness.name=RGB Brightness
-module.color_options.setting.rgb_brightness.description=The brightness of the RGB.
-module.color_options.setting.test_rgb_color.name=Test RGB Color
-module.color_options.setting.test_rgb_color.description=Test the RGB color.
-module.color_options.setting.chroma_category.name=Chroma Category
-module.color_options.setting.chroma_category.description=Settings for Chroma.
-module.color_options.setting.chroma_size.name=Chroma Size
-module.color_options.setting.chroma_size.description=The size of the Chroma.
-module.color_options.setting.chroma_speed.name=Chroma Speed
-module.color_options.setting.chroma_speed.description=The speed of the Chroma.
-module.color_options.setting.chroma_rotation.name=Chroma Rotation
-module.color_options.setting.chroma_rotation.description=The rotation of the Chroma.
-module.color_options.setting.test_chroma_color.name=Test Chroma Color
-module.color_options.setting.test_chroma_color.description=Test the Chroma color.
-module.color_options.setting.color_presets.name=Color Presets
-module.color_options.setting.color_presets.description=Choose from preset color options.
-module.color_options.setting.color_preset.name=Color Preset %s
-module.color_options.setting.color_preset.description=Change the preset %s in the color picker.
-module.color_options.setting.color_options_category.name=Color Options Category
-module.color_options.setting.color_options_category.description=Settings for color options.
-module.color_options.setting.color_options.button=Open Theme Editor
-module.color_options.setting.color_options.description=Open the theme editor.
-module.color_options.setting.color_options.description=Allows you to change the color of the client.
-module.color_options.setting.chroma_presets.name=Chroma Presets
-module.color_options.setting.chroma_presets.description=Choose from preset Chroma optionas.
-module.color_options.setting.chroma_color.name=Chroma Color %s
-module.color_options.setting.chroma_color.description=The color %s of the chroma gradient
-module.color_options.setting.chroma_color_add.name=Add Color to Gradient
-module.color_options.setting.chroma_color_add.description=Adds a color to the chroma gradient.
-module.color_options.setting.chroma_color_add.button=Add
-module.color_options.setting.chroma_color_remove.name=Remove Last Color From Gradient
-module.color_options.setting.chroma_color_remove.description=Removes the last color from the chroma gradient.
-module.color_options.setting.chroma_color_remove.button=Remove Last
-module.color_options.setting.client_colors.name=Client Colors
-module.color_options.setting.client_colors.description=Options to change the client's colors.
-module.color_options.setting.chroma_colors.name=Chroma Colors
-module.color_options.setting.chroma_colors.description=Options to change the chroma color.
-module.color_options.setting.open_theme_editor.name=Open Theme Editor
-module.color_options.setting.open_theme_editor.description=Opens the theme editor to change the client's ui.
-module.color_options.setting.open_theme_editor.button=Open
+module.color_options.name=顏色選項
+module.color_options.description=讓你能改變客戶端的顏色.
+module.color_options.setting.rgb_category.name=RGB類別
+module.color_options.setting.rgb_category.description=RGB設置.
+module.color_options.setting.rgb_speed.name=RGB速度
+module.color_options.setting.rgb_speed.description=RGB的速度.
+module.color_options.setting.rgb_brightness.name=RGB明亮度
+module.color_options.setting.rgb_brightness.description=RGB的明亮度.
+module.color_options.setting.test_rgb_color.name=測試RGB顏色
+module.color_options.setting.test_rgb_color.description=測試一下RGB的顏色.
+module.color_options.setting.chroma_category.name=色度類別
+module.color_options.setting.chroma_category.description=色度設置.
+module.color_options.setting.chroma_size.name=色度大小
+module.color_options.setting.chroma_size.description=色度的大小.
+module.color_options.setting.chroma_speed.name=色度速度
+module.color_options.setting.chroma_speed.description=色度的速度.
+module.color_options.setting.chroma_rotation.name=色度旋轉
+module.color_options.setting.chroma_rotation.description=色度的旋轉.
+module.color_options.setting.test_chroma_color.name=測試色度顏色
+module.color_options.setting.test_chroma_color.description=測試一下色度的顏色.
+module.color_options.setting.color_presets.name=顏色預設
+module.color_options.setting.color_presets.description=從顏色預設中選擇.
+module.color_options.setting.color_preset.name=顏色預設 %s
+module.color_options.setting.color_preset.description=更改調色盤中的預設 %s.
+module.color_options.setting.color_options_category.name=顏色設置類別
+module.color_options.setting.color_options_category.description=顏色選項的設置.
+module.color_options.setting.color_options.button=打開主題編輯器
+module.color_options.setting.color_options.description=打開主題編輯器.
+module.color_options.setting.color_options.description=讓你能改變客戶端的顏色.
+module.color_options.setting.chroma_presets.name=色度預設
+module.color_options.setting.chroma_presets.description=從色度預設中選擇.
+module.color_options.setting.chroma_color.name=色度顏色 %s
+module.color_options.setting.chroma_color.description=色度漸變的顏色 %s
+module.color_options.setting.chroma_color_add.name=往漸變中添加顏色
+module.color_options.setting.chroma_color_add.description=往色度漸變中添加一個顏色.
+module.color_options.setting.chroma_color_add.button=添加
+module.color_options.setting.chroma_color_remove.name=移除漸變中的最後一個顏色
+module.color_options.setting.chroma_color_remove.description=移除色度漸變中的最後一個顏色.
+module.color_options.setting.chroma_color_remove.button=移除最後一個
+module.color_options.setting.client_colors.name=客戶端顏色
+module.color_options.setting.client_colors.description=改變客戶端顏色的選項.
+module.color_options.setting.chroma_colors.name=色度顏色
+module.color_options.setting.chroma_colors.description=改變色度顏色的選項.
+module.color_options.setting.open_theme_editor.name=打開主題編輯器
+module.color_options.setting.open_theme_editor.description=打開主題編輯器去改變客戶端的UI.
+module.color_options.setting.open_theme_editor.button=打開
 
 
 
 ## Creative Tools
-module.creative_tools.name=Creative Tools
-module.creative_tools.description=Various tools to help with creative mode.\nNote: Only use this with permission if you are on someone else's world/server.
+module.creative_tools.name=創造工具
+module.creative_tools.description=許多用於創造模式的工具.\n註意: 當你在其他人的世界裏/服務器, 請在他人許可下使用.
 
-module.creative_tools.setting.block_reach_settings_category.name=Block Reach Settings
-module.creative_tools.setting.block_reach_settings_category.description=Settings to change the block reach settings.
-module.creative_tools.setting.use_block_reach.name=Change Block Reach
-module.creative_tools.setting.use_block_reach.description=Whether or not to change the block reach.
-module.creative_tools.setting.block_reach.name=Block Reach
-module.creative_tools.setting.block_reach.description=The block reach.
-module.creative_tools.setting.block_reach_warning.name=Block Reach Warning
-module.creative_tools.setting.block_reach_warning.description=Warning: block reach may be capped by the server!
+module.creative_tools.setting.block_reach_settings_category.name=方塊交互設置
+module.creative_tools.setting.block_reach_settings_category.description=方塊交互相關的設置.
+module.creative_tools.setting.use_block_reach.name=改變方塊交互距離
+module.creative_tools.setting.use_block_reach.description=改變方塊的交互距離.
+module.creative_tools.setting.block_reach.name=交互距離
+module.creative_tools.setting.block_reach.description=交互距離.
+module.creative_tools.setting.block_reach_warning.name=方塊交互距離警告
+module.creative_tools.setting.block_reach_warning.description=警告: 服務器可能會限製方塊交互距離範圍!
 
-module.creative_tools.setting.jetpack_settings_category.name=Jetpack Settings
-module.creative_tools.setting.jetpack_settings_category.description=Settings to change the jetpack settings.
-module.creative_tools.setting.jetpack_key.name=Jetpack Key
-module.creative_tools.setting.jetpack_key.description=The key that will toggle the jetpack on and off.
-module.creative_tools.setting.jetpack_speed.name=Jetpack Speed
-module.creative_tools.setting.jetpack_speed.description=The speed of the jetpack.
-module.creative_tools.setting.jetpack_sprint_multiplier.name=Jetpack Sprint Multiplier
-module.creative_tools.setting.jetpack_sprint_multiplier.description=The sprint multiplier of the jetpack.
+module.creative_tools.setting.jetpack_settings_category.name=噴氣背包設置
+module.creative_tools.setting.jetpack_settings_category.description=噴氣背包相關的設置.
+module.creative_tools.setting.jetpack_key.name=噴氣背包鍵
+module.creative_tools.setting.jetpack_key.description=打開與關閉噴氣背包的按鍵.
+module.creative_tools.setting.jetpack_speed.name=噴氣背包速度
+module.creative_tools.setting.jetpack_speed.description=噴氣背包的速度.
+module.creative_tools.setting.jetpack_sprint_multiplier.name=噴氣背包疾跑加速
+module.creative_tools.setting.jetpack_sprint_multiplier.description=噴氣背包疾跑加速.
 
-module.creative_tools.setting.freecam_settings_category.name=Freecam Settings
-module.creative_tools.setting.freecam_settings_category.description=Settings to change the freecam settings.
-module.creative_tools.setting.freecam_key.name=Freecam Key
-module.creative_tools.setting.freecam_key.description=The key that will toggle the freecam on and off.
-module.creative_tools.setting.freecam_teleport_key.name=Teleport to Camera Key
-module.creative_tools.setting.freecam_teleport_key.description=The key that will teleport you to the camera.
-module.creative_tools.setting.freecam_speed.name=Freecam Speed
-module.creative_tools.setting.freecam_speed.description=The speed of the freecam.
-module.creative_tools.setting.freecam_sprint_multiplier.name=Freecam Sprint Multiplier
-module.creative_tools.setting.freecam_sprint_multiplier.description=The sprint multiplier of the freecam.
-module.creative_tools.setting.freecam_position_x.name=Freecam Position X
-module.creative_tools.setting.freecam_position_x.description=The X position of the freecam.
-module.creative_tools.setting.freecam_position_y.name=Freecam Position Y
-module.creative_tools.setting.freecam_position_y.description=The Y position of the freecam.
-module.creative_tools.setting.freecam_position_z.name=Freecam Position Z
-module.creative_tools.setting.freecam_position_z.description=The Z position of the freecam.
-module.creative_tools.setting.spectator_toggle_key.name=Spectator Toggle Key
-module.creative_tools.setting.spectator_toggle_key.description=The key that will toggle spectator mode on and off.
+module.creative_tools.setting.freecam_settings_category.name=靈魂出竅設置
+module.creative_tools.setting.freecam_settings_category.description=靈魂出竅相關的設置.
+module.creative_tools.setting.freecam_key.name=靈魂出竅按鍵
+module.creative_tools.setting.freecam_key.description=啟用或關閉靈魂出竅的按鍵.
+module.creative_tools.setting.freecam_teleport_key.name=傳送至攝像機位置
+module.creative_tools.setting.freecam_teleport_key.description=將玩家本體傳送至靈魂出竅攝像機的位置.
+module.creative_tools.setting.freecam_speed.name=靈魂出竅速度
+module.creative_tools.setting.freecam_speed.description=靈魂出竅時的速度.
+module.creative_tools.setting.freecam_sprint_multiplier.name=靈魂出竅疾跑加速
+module.creative_tools.setting.freecam_sprint_multiplier.description=靈魂出竅時能疾跑加速.
+module.creative_tools.setting.freecam_position_x.name=靈魂出竅X坐標
+module.creative_tools.setting.freecam_position_x.description=靈魂出竅X坐標.
+module.creative_tools.setting.freecam_position_y.name=靈魂出竅Y坐標
+module.creative_tools.setting.freecam_position_y.description=靈魂出竅Y坐標.
+module.creative_tools.setting.freecam_position_z.name=靈魂出竅Z坐標
+module.creative_tools.setting.freecam_position_z.description=靈魂出竅Y坐標.
+module.creative_tools.setting.spectator_toggle_key.name=旁觀者按鍵
+module.creative_tools.setting.spectator_toggle_key.description=啟用旁觀者模式的按鍵.
 
-module.creative_tools.setting.phase_settings_category.name=Phase Settings
-module.creative_tools.setting.phase_settings_category.description=Settings to change the phase settings.
-module.creative_tools.setting.phase_key.name=Phase Key
-module.creative_tools.setting.phase_key.description=The key that will toggle phase on and off.
-module.creative_tools.setting.phase_vertically.name=Phase Vertically
-module.creative_tools.setting.phase_vertically.description=Whether or not to phase vertically.
+module.creative_tools.setting.phase_settings_category.name=穿墻設置
+module.creative_tools.setting.phase_settings_category.description=穿墻相關的設置.
+module.creative_tools.setting.phase_key.name=穿墻按鍵
+module.creative_tools.setting.phase_key.description=啟用與關閉穿墻功能的按鍵.
+module.creative_tools.setting.phase_vertically.name=垂直方向穿墻
+module.creative_tools.setting.phase_vertically.description=是否在垂直方向上也能穿墻.
 
-module.creative_tools.setting.auto_clicker_settings_category.name=AutoClicker Settings
-module.creative_tools.setting.auto_clicker_settings_category.description=Settings for auto clicker.
-module.creative_tools.setting.auto_clicker_key.name=Toggle Auto Clicking
-module.creative_tools.setting.auto_clicker_key.description=Toggle auto clicking on and off.
-module.creative_tools.setting.fast_auto_clicker.name=Fast Auto Clicker
-module.creative_tools.setting.fast_auto_clicker.description=Enable fast auto clicking.
+module.creative_tools.setting.auto_clicker_settings_category.name=自動點擊器設置
+module.creative_tools.setting.auto_clicker_settings_category.description=自動點擊器相關的設置.
+module.creative_tools.setting.auto_clicker_key.name=開關自動點擊器
+module.creative_tools.setting.auto_clicker_key.description=開關自動點擊器.
+module.creative_tools.setting.fast_auto_clicker.name=高速自動點擊
+module.creative_tools.setting.fast_auto_clicker.description=啟用高速自動點擊.
 
-module.creative_tools.setting.clicktp_settings_category.name=ClickTP Settings
-module.creative_tools.setting.clicktp_settings_category.description=Settings for ClickTP.
-module.creative_tools.setting.clicktp_key.name=ClickTP Key
-module.creative_tools.setting.clicktp_key.description=Key to trigger ClickTP.
-module.creative_tools.setting.clicktp_toggle.name=ClickTP is Toggle
-module.creative_tools.setting.clicktp_toggle.description=Toggle ClickTP mode.
-module.creative_tools.setting.clicktp_lerp.name=Teleportation Lerp
-module.creative_tools.setting.clicktp_lerp.description=Enable teleportation lerping.
-module.creative_tools.setting.clicktp_max_distance.name=Max TP Distance
-module.creative_tools.setting.clicktp_max_distance.description=Maximum distance for ClickTP.
+module.creative_tools.setting.clicktp_settings_category.name=點擊TP設置
+module.creative_tools.setting.clicktp_settings_category.description=點擊TP相關的設置.
+module.creative_tools.setting.clicktp_key.name=點擊TP按鍵
+module.creative_tools.setting.clicktp_key.description=觸發點擊TP的按鍵.
+module.creative_tools.setting.clicktp_toggle.name=切換點擊TP
+module.creative_tools.setting.clicktp_toggle.description=切換點擊TP模式.
+module.creative_tools.setting.clicktp_lerp.name=啟用傳送功能
+module.creative_tools.setting.clicktp_lerp.description=啟用傳送功能.
+module.creative_tools.setting.clicktp_max_distance.name=最大TP距離
+module.creative_tools.setting.clicktp_max_distance.description=最大點擊TP距離.
 
-module.creative_tools.setting.command_block_esp_settings_category.name=Command Block ESP Settings
-module.creative_tools.setting.command_block_esp_settings_category.description=Settings for Command Block ESP.
-module.creative_tools.setting.command_block_esp_enabled.name=Command Block ESP
-module.creative_tools.setting.command_block_esp_enabled.description=Toggle Command Block ESP.
-module.creative_tools.setting.command_block_esp_key.name=Command Block ESP Key
-module.creative_tools.setting.command_block_esp_key.description=Key to toggle Command Block ESP.
-module.creative_tools.setting.command_block_esp_opacity.name=Command Block ESP Opacity
-module.creative_tools.setting.command_block_esp_opacity.description=Opacity of Command Block ESP.
-module.creative_tools.setting.command_block_esp_radius.name=Command Block ESP Radius
-module.creative_tools.setting.command_block_esp_radius.description=Radius of Command Block ESP.
-module.creative_tools.setting.esp_command_blocks_behind.name=ESP Command Blocks Behind You
-module.creative_tools.setting.esp_command_blocks_behind.description=Render ESP for blocks that are behind you.
-module.creative_tools.setting.command_block_esp_type.name=Command Block ESP Type
-module.creative_tools.setting.command_block_esp_type.description=Type of Command Block ESP.
+module.creative_tools.setting.command_block_esp_settings_category.name=命令方塊透視設置
+module.creative_tools.setting.command_block_esp_settings_category.description=命令方塊透視相關的設置.
+module.creative_tools.setting.command_block_esp_enabled.name=命令方塊透視
+module.creative_tools.setting.command_block_esp_enabled.description=啟用命令方塊透視.
+module.creative_tools.setting.command_block_esp_key.name=命令方塊透視鍵
+module.creative_tools.setting.command_block_esp_key.description=啟用命令方塊透視的按鍵.
+module.creative_tools.setting.command_block_esp_opacity.name=命令方塊透視不透明度
+module.creative_tools.setting.command_block_esp_opacity.description=命令方塊透視的不透明度.
+module.creative_tools.setting.command_block_esp_radius.name=命令方塊透視範圍
+module.creative_tools.setting.command_block_esp_radius.description=命令方塊透視的範圍.
+module.creative_tools.setting.esp_command_blocks_behind.name=透視背後的命令方塊
+module.creative_tools.setting.esp_command_blocks_behind.description=透視並渲染身後的命令方塊.
+module.creative_tools.setting.command_block_esp_type.name=命令方塊透視類型
+module.creative_tools.setting.command_block_esp_type.description=命令方塊透視的類型.
 
-module.creative_tools.setting.elevation_settings_category.name=Elevation Settings
-module.creative_tools.setting.elevation_settings_category.description=Settings for elevation.
-module.creative_tools.setting.ascend_key.name=Ascend Key
-module.creative_tools.setting.ascend_key.description=Key to ascend.
-module.creative_tools.setting.descend_key.name=Descend Key
-module.creative_tools.setting.descend_key.description=Key to descend.
+module.creative_tools.setting.elevation_settings_category.name=電梯設置
+module.creative_tools.setting.elevation_settings_category.description=電梯相關的設置.
+module.creative_tools.setting.ascend_key.name=上升鍵
+module.creative_tools.setting.ascend_key.description=向上的按鍵.
+module.creative_tools.setting.descend_key.name=下降鍵
+module.creative_tools.setting.descend_key.description=下降的按鍵.
 
-module.creative_tools.setting.stop_all_momentum_key.name=Stop All Momentum Key
-module.creative_tools.setting.stop_all_momentum_key.description=Key to stop all momentum.
-module.creative_tools.setting.hold_to_stop_momentum.name=Hold To Stop All Momentum
-module.creative_tools.setting.hold_to_stop_momentum.description=Hold to stop all momentum.
+module.creative_tools.setting.stop_all_momentum_key.name=動量清零鍵
+module.creative_tools.setting.stop_all_momentum_key.description=停止所有動量的鍵.
+module.creative_tools.setting.hold_to_stop_momentum.name=按住以停止所有動量
+module.creative_tools.setting.hold_to_stop_momentum.description=按住以停止所有動量.
 
-module.creative_tools.setting.make_hitboxes_esp.name=Make Hitboxes ESP
-module.creative_tools.setting.make_hitboxes_esp.description=Enable Hitboxes ESP.
+module.creative_tools.setting.make_hitboxes_esp.name=碰撞箱透視
+module.creative_tools.setting.make_hitboxes_esp.description=啟用碰撞箱透視.
 
 ## Crop Protector
-module.crop_protector.name=Crop Protector
-module.crop_protector.description=Prevents you from breaking ungrown crops.\nSneak to bypass.
+module.crop_protector.name=農作物保護
+module.crop_protector.description=防止你破壞那些還沒成熟的農作物.\n蹲下去繞過此限製.
 
-module.crop_protector.setting.replant_with_hand_item.name=Replant With Hand Item
-module.crop_protector.setting.replant_with_hand_item.description=Toggle replanting with the hand item.
+module.crop_protector.setting.replant_with_hand_item.name=用手上的物品補種
+module.crop_protector.setting.replant_with_hand_item.description=使用手中的物品去重新種植.
 
 ## Custom Crosshair
-module.custom_crosshair.name=Custom Crosshair
-module.custom_crosshair.description=Customise your crosshair to your heart's content.
+module.custom_crosshair.name=自定義準星
+module.custom_crosshair.description=根據自己的喜好去定製準星.
 
-module.custom_crosshair.setting.open_crosshair_editor.name=Open Crosshair Editor
-module.custom_crosshair.setting.open_crosshair_editor.description=Open the crosshair editor.
-module.custom_crosshair.setting.open_crosshair_editor.button=Open
+module.custom_crosshair.setting.open_crosshair_editor.name=準星編輯器
+module.custom_crosshair.setting.open_crosshair_editor.description=打開準星編輯器.
+module.custom_crosshair.setting.open_crosshair_editor.button=打開
 
-module.custom_crosshair.setting.third_person_crosshair.name=Third Person Crosshair
-module.custom_crosshair.setting.third_person_crosshair.description=Toggle third-person crosshair.
-module.custom_crosshair.setting.red_when_facing_entity.name=Red When Facing Entity
-module.custom_crosshair.setting.red_when_facing_entity.description=Toggle red color when facing an entity.
+module.custom_crosshair.setting.third_person_crosshair.name=第三人稱準星
+module.custom_crosshair.setting.third_person_crosshair.description=在第三人稱時也顯示準星.
+module.custom_crosshair.setting.red_when_facing_entity.name=面朝實體變紅
+module.custom_crosshair.setting.red_when_facing_entity.description=當準星指向實體時自動變紅.
 
-module.custom_crosshair.setting.crosshair_outline.name=Crosshair Outline
-module.custom_crosshair.setting.crosshair_outline.description=Toggle crosshair outline.
-module.custom_crosshair.setting.outline_color.name=Outline Color
-module.custom_crosshair.setting.outline_color.description=Set the outline color of the crosshair.
+module.custom_crosshair.setting.crosshair_outline.name=準星輪廓
+module.custom_crosshair.setting.crosshair_outline.description=顯示準星輪廓線.
+module.custom_crosshair.setting.outline_color.name=輪廓顏色
+module.custom_crosshair.setting.outline_color.description=設置準星輪廓線的顏色.
 
-module.custom_crosshair.setting.invert_colors.name=Invert Colors (don't use) (bad) (blurry)
-module.custom_crosshair.setting.invert_colors.description=Toggle color inversion (not recommended).
-module.custom_crosshair.setting.crosshair_color.name=Crosshair Color
-module.custom_crosshair.setting.crosshair_color.description=Set the color of the crosshair.
+module.custom_crosshair.setting.invert_colors.name=顏色反轉 (別用這玩意) (爛) (模糊)
+module.custom_crosshair.setting.invert_colors.description=切換顏色反轉 (不推薦).
+module.custom_crosshair.setting.crosshair_color.name=準星顏色
+module.custom_crosshair.setting.crosshair_color.description=設置準星顏色.
 
-module.custom_crosshair.setting.crosshairs.name=Crosshairs
-module.custom_crosshair.setting.crosshairs.description=List of crosshairs
-module.custom_crosshair.setting.preview.button=Preview
-module.custom_crosshair.setting.preview.description=Preview the customized crosshair.
+module.custom_crosshair.setting.crosshairs.name=所有準星
+module.custom_crosshair.setting.crosshairs.description=準星列表
+module.custom_crosshair.setting.preview.button=預覽
+module.custom_crosshair.setting.preview.description=預覽自定義準星.
 
 ## Custom Crosshair Editor
-module.custom_crosshair_editor.setting.brush_radius.name=Pen/Eraser Radius
-module.custom_crosshair_editor.setting.brush_radius.description=The radius of the selected tool.
-module.custom_crosshair_editor.create_window.title=Create a New Crosshair
-module.custom_crosshair_editor.confirm_window.message=You are about to delete a crosshair!ed tool.
-module.custom_crosshair_editor.list_window.title=Crosshairs
-module.custom_crosshair_editor.list_window.create_button=Create New Crosshair
-module.custom_crosshair_editor.list_window.open_explorer_button=Open Crosshair Directory
-module.custom_crosshair_editor.widget_window.reset_zoom=Reset Zoom (%s)
-module.custom_crosshair_editor.widget_window.reset_position=Reset position
-module.custom_crosshair_editor.widget_window.undo=Undo (%s)
-module.custom_crosshair_editor.widget_window.undo=Save (%s)
-module.custom_crosshair_editor.widget_window.pen=Pen: %s
-module.custom_crosshair_editor.widget_window.pen_square=Square
-module.custom_crosshair_editor.widget_window.pen_round=Round
+module.custom_crosshair_editor.setting.brush_radius.name=筆/橡皮擦半徑
+module.custom_crosshair_editor.setting.brush_radius.description=被選擇的工具的半徑.
+module.custom_crosshair_editor.create_window.title=創建一個新準星
+module.custom_crosshair_editor.confirm_window.message=你即將刪除一個準星!
+module.custom_crosshair_editor.list_window.title=準星列表
+module.custom_crosshair_editor.list_window.create_button=創建一個新準星
+module.custom_crosshair_editor.widget_window.undo=撤回 (%s)
+module.custom_crosshair_editor.widget_window.save=保存 (%s)
+module.custom_crosshair_editor.list_window.open_explorer_button=打開準星文件夾
+module.custom_crosshair_editor.widget_window.reset_zoom=重設縮放 (%s)
+module.custom_crosshair_editor.widget_window.reset_position=重設位置
+module.custom_crosshair_editor.widget_window.pen=筆: %s
+module.custom_crosshair_editor.widget_window.pen_square=方形
+module.custom_crosshair_editor.widget_window.pen_round=圓形
 
 
 
 ## Java Debug Menu
-module.java_debug_menu.name=Java Debug Menu
-module.java_debug_menu.description=A basic recreation of the Java Edition debug menu.
+module.java_debug_menu.name=java調試菜單
+module.java_debug_menu.description=Java版F3調試菜單的簡單仿照.
 
-module.java_debug_menu.setting.hide_other_modules.name=Hide Other Modules
-module.java_debug_menu.setting.hide_other_modules.description=Toggle visibility of other modules when enabled.
-module.java_debug_menu.setting.right_side.name=Right Side
-module.java_debug_menu.setting.right_side.description=Toggle display on the right side.
-module.java_debug_menu.setting.debug_crosshair.name=Debug Crosshair
-module.java_debug_menu.setting.debug_crosshair.description=Toggle debug crosshair.
+module.java_debug_menu.setting.hide_other_modules.name=隱藏其它功能
+module.java_debug_menu.setting.hide_other_modules.description=在打開時切換其它功能是否可見.
+module.java_debug_menu.setting.right_side.name=右側顯示
+module.java_debug_menu.setting.right_side.description=在右側顯示菜單.
+module.java_debug_menu.setting.debug_crosshair.name=調試準星
+module.java_debug_menu.setting.debug_crosshair.description=切換為調試準星.
 
 ## Double Click Prevent
-module.double_click_prevent.name=Double Click Prevent
-module.double_click_prevent.description=Allows you to fine-tune your click settings.
+module.double_click_prevent.name=防止雙擊
+module.double_click_prevent.description=允許您微調點擊設置.
 
-module.double_click_prevent.setting.click_settings_category.name=Click Settings
-module.double_click_prevent.setting.click_settings_category.description=Settings for click settings.
-module.double_click_prevent.setting.limit_left_click.name=Limit Left Click
-module.double_click_prevent.setting.limit_left_click.description=Toggle limiting of left clicks.
-module.double_click_prevent.setting.left_max.name=Left Max
-module.double_click_prevent.setting.left_max.description=Set the maximum count for left clicks.
+module.double_click_prevent.setting.click_settings_category.name=點擊設置
+module.double_click_prevent.setting.click_settings_category.description=與點擊相關的設置.
+module.double_click_prevent.setting.limit_left_click.name=限製左鍵
+module.double_click_prevent.setting.limit_left_click.description=切換左鍵點擊限製.
+module.double_click_prevent.setting.left_max.name=每秒最大左鍵點擊次數
+module.double_click_prevent.setting.left_max.description=設置左鍵的每秒最大點擊次數.
 
-module.double_click_prevent.setting.limit_right_click.name=Limit Right Click
-module.double_click_prevent.setting.limit_right_click.description=Toggle limiting of right clicks.
-module.double_click_prevent.setting.right_max.name=Right Max
-module.double_click_prevent.setting.right_max.description=Set the maximum count for right clicks.
+module.double_click_prevent.setting.limit_right_click.name=限製右鍵
+module.double_click_prevent.setting.limit_right_click.description=切換右鍵點擊限製.
+module.double_click_prevent.setting.right_max.name=每秒最大右鍵點擊次數
+module.double_click_prevent.setting.right_max.description=設置右鍵的每秒最大點擊次數.
 
-module.double_click_prevent.setting.enable_on_zeqa.name=Enable on Zeqa
-module.double_click_prevent.setting.enable_on_zeqa.description=Toggle auto-enable on Zeqa.
-module.double_click_prevent.setting.enable_on_cubecraft.name=Enable on Cubecraft
-module.double_click_prevent.setting.enable_on_cubecraft.description=Toggle auto-enable on Cubecraft.
+module.double_click_prevent.setting.enable_on_zeqa.name=在Zeqa服務器啟用
+module.double_click_prevent.setting.enable_on_zeqa.description=在Zeqa服務器自動啟用.
+module.double_click_prevent.setting.enable_on_cubecraft.name=在Cubecraft服務器啟用
+module.double_click_prevent.setting.enable_on_cubecraft.description=在Cubecraft服務器自動啟用.
 
-module.double_click_prevent.setting.was_enabled_zeqa.name=Was Enabled Because of Zeqa
-module.double_click_prevent.setting.was_enabled_zeqa.description=Indicates if it was enabled due to Zeqa.
-module.double_click_prevent.setting.was_enabled_cubecraft.name=Was Enabled Because of Cubecraft
-module.double_click_prevent.setting.was_enabled_cubecraft.description=Indicates if it was enabled due to Cubecraft.
+module.double_click_prevent.setting.was_enabled_zeqa.name=由於 Zeqa 而啟用
+module.double_click_prevent.setting.was_enabled_zeqa.description=提示它是否由於 Zeqa 而啟用.
+module.double_click_prevent.setting.was_enabled_cubecraft.name=由於 Cubecraft 而啟用
+module.double_click_prevent.setting.was_enabled_cubecraft.description=提示它是否由於 Cubecraft 而啟用.
 
 ## Dynamic Light
-module.dynamic_light.name=Dynamic Light
-module.dynamic_light.description=Makes the surrounding area illuminate when equipped with light-emitting items.
+module.dynamic_light.name=動態光源
+module.dynamic_light.description=手持發光物品時, 使周圍區域發光.
 
-module.dynamic_light.setting.light_settings_category.name=Light Settings
-module.dynamic_light.setting.light_settings_category.description=Settings for light settings.
-module.dynamic_light.setting.require_light_item.name=Require Item that Emits Light
-module.dynamic_light.setting.require_light_item.description=Toggle the requirement for light-emitting items.
-module.dynamic_light.setting.minimum_light_level.name=Minimum Light Level
-module.dynamic_light.setting.minimum_light_level.description=Set the minimum light emission level.
-module.dynamic_light.setting.keep_light_on_eject.name=Keep Light on Eject
-module.dynamic_light.setting.keep_light_on_eject.description=Toggle to keep the light on eject which can help stability.
+module.dynamic_light.setting.light_settings_category.name=光照設置
+module.dynamic_light.setting.light_settings_category.description=光照相關的設置.
+module.dynamic_light.setting.require_light_item.name=需要發光的物品
+module.dynamic_light.setting.require_light_item.description=切換對發光項目的要求.
+module.dynamic_light.setting.minimum_light_level.name=最小發光等級
+module.dynamic_light.setting.minimum_light_level.description=設置最低發光等級.
+module.dynamic_light.setting.keep_light_on_eject.name=在取消註入時依然保持亮著
+module.dynamic_light.setting.keep_light_on_eject.description=在取消註入時依然保持亮著, 這有助於防止崩潰.
 
 ## Environment Changer
-module.environment_changer.name=Environment Changer
-module.environment_changer.description=Changes the environment around you.
+module.environment_changer.name=環境改變
+module.environment_changer.description=改變你周圍的環境.
 
-module.environment_changer.setting.time_settings_category.name=Time Settings
-module.environment_changer.setting.time_settings_category.description=Settings for time settings.
-module.environment_changer.setting.change_time.name=Change Time
-module.environment_changer.setting.change_time.description=Toggle time change.
-module.environment_changer.setting.use_irl_time.name=Use IRL Time
-module.environment_changer.setting.use_irl_time.description=Toggle usage of real-life time.
-module.environment_changer.setting.time.name=Time
-module.environment_changer.setting.time.description=Adjust the time value.
+module.environment_changer.setting.time_settings_category.name=時間設置
+module.environment_changer.setting.time_settings_category.description=時間相關的設置.
+module.environment_changer.setting.change_time.name=改變時間
+module.environment_changer.setting.change_time.description=啟用改變時間.
+module.environment_changer.setting.use_irl_time.name=使用現實時間
+module.environment_changer.setting.use_irl_time.description=切換為使用現實時間.
+module.environment_changer.setting.time.name=時間
+module.environment_changer.setting.time.description=調整時間.
 
-module.environment_changer.setting.fog_settings_category.name=Fog Settings
-module.environment_changer.setting.fog_settings_category.description=Settings for fog settings.
-module.environment_changer.setting.change_fog_color.name=Change Fog Color
-module.environment_changer.setting.change_fog_color.description=Toggle fog color change.
-module.environment_changer.setting.fog_color.name=Fog Color
-module.environment_changer.setting.fog_color.description=Set the fog color.
-module.environment_changer.setting.change_entire_sky_color.name=Change Entire Sky Color
-module.environment_changer.setting.change_entire_sky_color.description=Toggle entire sky color change.
+module.environment_changer.setting.fog_settings_category.name=迷霧設置
+module.environment_changer.setting.fog_settings_category.description=迷霧相關的設置.
+module.environment_changer.setting.change_fog_color.name=改變迷霧顏色
+module.environment_changer.setting.change_fog_color.description=啟用改變迷霧顏色.
+module.environment_changer.setting.fog_color.name=迷霧顏色
+module.environment_changer.setting.fog_color.description=調整迷霧顏色.
+module.environment_changer.setting.change_entire_sky_color.name=更改整個天空顏色
+module.environment_changer.setting.change_entire_sky_color.description=啟用更改整個天空顏色.
 
-module.environment_changer.setting.cloud_settings_category.name=Cloud Settings
-module.environment_changer.setting.cloud_settings_category.description=Settings for cloud settings.
-module.environment_changer.setting.change_clouds_color.name=Change Clouds Color
-module.environment_changer.setting.change_clouds_color.description=Toggle cloud color change.
-module.environment_changer.setting.cloud_color.name=Cloud Color
-module.environment_changer.setting.cloud_color.description=Set the cloud color.
+module.environment_changer.setting.cloud_settings_category.name=雲設置
+module.environment_changer.setting.cloud_settings_category.description=雲相關的設置.
+module.environment_changer.setting.change_clouds_color.name=改變雲的顏色
+module.environment_changer.setting.change_clouds_color.description=啟用改變雲的顏色.
+module.environment_changer.setting.cloud_color.name=雲的顏色
+module.environment_changer.setting.cloud_color.description=調整雲的顏色.
 
-module.environment_changer.setting.weather_settings_category.name=Weather Settings
-module.environment_changer.setting.weather_settings_category.description=Settings for weather settings.
-module.environment_changer.setting.change_weather.name=Change Weather
-module.environment_changer.setting.change_weather.description=Toggle weather change.
-module.environment_changer.setting.rain_intensity.name=Rain Intensity
-module.environment_changer.setting.rain_intensity.description=Adjust rain intensity.
-module.environment_changer.setting.fog_intensity.name=Fog Intensity
-module.environment_changer.setting.fog_intensity.description=Adjust fog intensity.
-module.environment_changer.setting.dark_lighting.name=Dark Lighting
-module.environment_changer.setting.dark_lighting.description=Adjust dark lighting.
+module.environment_changer.setting.weather_settings_category.name=天氣設置
+module.environment_changer.setting.weather_settings_category.description=天氣相關的設置.
+module.environment_changer.setting.change_weather.name=改變天氣
+module.environment_changer.setting.change_weather.description=啟用改變天氣.
+module.environment_changer.setting.rain_intensity.name=降雨強度
+module.environment_changer.setting.rain_intensity.description=調整降雨強度.
+module.environment_changer.setting.fog_intensity.name=迷霧強度
+module.environment_changer.setting.fog_intensity.description=調整迷霧強度.
+module.environment_changer.setting.dark_lighting.name=雷暴強度
+module.environment_changer.setting.dark_lighting.description=調整雷暴強度.
 
 ## FOV Changer
-module.fov_changer.name=FOV Changer
-module.fov_changer.description=Allows you to customize the field of view behavior.
+module.fov_changer.name=FOV改變
+module.fov_changer.description=允許你自定義你的FOV.
 
-module.fov_changer.setting.pre_enable_fov_obtained.name=User FOV Obtained
-module.fov_changer.setting.pre_enable_fov_obtained.description=Weather or not the user FOV has been obtained.
-module.fov_changer.setting.pre_enable_fov_toggle.name=Was Dynamic FOV Toggled
-module.fov_changer.setting.pre_enable_fov_toggle.description=Weather or not the dynamic FOV was toggled.
-module.fov_changer.setting.pre_enable_fov.name=Previous FOV
-module.fov_changer.setting.pre_enable_fov.description=The previous FOV.
+module.fov_changer.setting.pre_enable_fov_obtained.name=讀取玩家FOV
+module.fov_changer.setting.pre_enable_fov_obtained.description=是否已讀取玩家的FOV.
+module.fov_changer.setting.pre_enable_fov_toggle.name=動態FOV切換
+module.fov_changer.setting.pre_enable_fov_toggle.description=是否啟用動態FOV切換.
+module.fov_changer.setting.pre_enable_fov.name=之前的FOV
+module.fov_changer.setting.pre_enable_fov.description=之前的FOV.
 
-module.fov_changer.setting.default_settings_category.name=Default Settings
-module.fov_changer.setting.default_settings_category.description=Settings for default settings.
-module.fov_changer.setting.base_fov.name=Default FOV
-module.fov_changer.setting.base_fov.description=Set the default field of view.
-module.fov_changer.setting.lerp_speed.name=Animation Speed
-module.fov_changer.setting.lerp_speed.description=Adjust the animation speed.
+module.fov_changer.setting.default_settings_category.name=默認設置
+module.fov_changer.setting.default_settings_category.description=默認設置.
+module.fov_changer.setting.base_fov.name=默認FOV
+module.fov_changer.setting.base_fov.description=調整你的默認FOV.
+module.fov_changer.setting.lerp_speed.name=動畫速度
+module.fov_changer.setting.lerp_speed.description=調整動畫速度.
 
-module.fov_changer.setting.aiming_settings_category.name=Aiming Settings
-module.fov_changer.setting.aiming_settings_category.description=Settings for aiming settings.
-module.fov_changer.setting.change_fov_when_aiming.name=Change FOV When Aiming
-module.fov_changer.setting.change_fov_when_aiming.description=Toggle FOV change when aiming.
-module.fov_changer.setting.aiming_fov.name=Aiming FOV
-module.fov_changer.setting.aiming_fov.description=Set the aiming field of view.
+module.fov_changer.setting.aiming_settings_category.name=瞄準設置
+module.fov_changer.setting.aiming_settings_category.description=瞄準之類的設置.
+module.fov_changer.setting.change_fov_when_aiming.name=在瞄準時切換FOV
+module.fov_changer.setting.change_fov_when_aiming.description=在瞄準時切換FOV.
+module.fov_changer.setting.aiming_fov.name=瞄準FOV
+module.fov_changer.setting.aiming_fov.description=設置瞄準FOV.
 
-module.fov_changer.setting.effect_settings_category.name=Effect Settings
-module.fov_changer.setting.effect_settings_category.description=Settings for effect settings.
-module.fov_changer.setting.change_fov_with_speed.name=Change FOV When Speed Changing Effects
-module.fov_changer.setting.change_fov_with_speed.description=Toggle FOV change with speed effects.
-module.fov_changer.setting.speed_i_fov.name=Speed I FOV
-module.fov_changer.setting.speed_i_fov.description=Set the Speed I field of view.
-module.fov_changer.setting.speed_ii_plus_fov.name=Speed II+ FOV
-module.fov_changer.setting.speed_ii_plus_fov.description=Set the Speed II+ field of view.
-module.fov_changer.setting.slowness_fov.name=Slowness FOV
-module.fov_changer.setting.slowness_fov.description=Set the Slowness field of view.
+module.fov_changer.setting.effect_settings_category.name=效果設置
+module.fov_changer.setting.effect_settings_category.description=藥水效果相關的設置.
+module.fov_changer.setting.change_fov_with_speed.name=速度效果改變FOV
+module.fov_changer.setting.change_fov_with_speed.description=當有速度藥水效果時改變FOV.
+module.fov_changer.setting.speed_i_fov.name=速度I FOV
+module.fov_changer.setting.speed_i_fov.description=調整 速度I 時的FOV.
+module.fov_changer.setting.speed_ii_plus_fov.name=速度II+ FOV
+module.fov_changer.setting.speed_ii_plus_fov.description=調整 速度II+ 時的FOV.
+module.fov_changer.setting.slowness_fov.name=緩慢FOV
+module.fov_changer.setting.slowness_fov.description=調整緩慢時的FOV.
 
-module.fov_changer.setting.sprinting_settings_category.name=Sprinting Settings
-module.fov_changer.setting.sprinting_settings_category.description=Settings for sprinting settings.
-module.fov_changer.setting.change_fov_when_sprinting.name=Change FOV When Sprinting
-module.fov_changer.setting.change_fov_when_sprinting.description=Toggle FOV change when sprinting.
-module.fov_changer.setting.sprinting_fov.name=Sprinting FOV
-module.fov_changer.setting.sprinting_fov.description=Set the sprinting field of view.
+module.fov_changer.setting.sprinting_settings_category.name=疾跑設置
+module.fov_changer.setting.sprinting_settings_category.description=疾跑相關的設置.
+module.fov_changer.setting.change_fov_when_sprinting.name=疾跑時改變FOV
+module.fov_changer.setting.change_fov_when_sprinting.description=疾跑時改變FOV.
+module.fov_changer.setting.sprinting_fov.name=疾跑FOV
+module.fov_changer.setting.sprinting_fov.description=調整疾跑時的FOV.
 
 ## Freelook
-module.freelook.name=Freelook
-module.freelook.description=Allows you to look at your surroundings without changing movement direction.
+module.freelook.name=自由觀察
+module.freelook.description=允許您在不改變移動/面朝方向的情況下觀察周圍.
 
-module.freelook.setting.perspective_settings_category.name=Perspective Settings
-module.freelook.setting.perspective_settings_category.description=Settings for perspective settings.
-module.freelook.setting.no_perspective_change.name=No Perspective Change
-module.freelook.setting.no_perspective_change.description=Toggle perspective change.
-module.freelook.setting.perspective.name=Perspective
-module.freelook.setting.perspective.description=Select your desired perspective.
+module.freelook.setting.perspective_settings_category.name=視角相關的設置
+module.freelook.setting.perspective_settings_category.description=視角相關的設置.
+module.freelook.setting.no_perspective_change.name=無視角更改
+module.freelook.setting.no_perspective_change.description=啟用視角更改.
+module.freelook.setting.perspective.name=視角
+module.freelook.setting.perspective.description=選擇您想要的視角.
 
-module.freelook.setting.toggle_freelook.name=Toggle Freelook
-module.freelook.setting.toggle_freelook.description=Toggle the freelook mode.
+module.freelook.setting.toggle_freelook.name=切換自由觀察
+module.freelook.setting.toggle_freelook.description=切換模式的自由觀察.
 
-module.freelook.setting.keybind_warning.name=Warning: Binding Freelook to the ALT key is not recommended!
-module.freelook.setting.keybind_warning.description=Warning: Binding Freelook to the ALT key is not recommended!
+module.freelook.setting.keybind_warning.name=警告: 不建議將自由觀察綁定到alt鍵!
+module.freelook.setting.keybind_warning.description=警告: 不建議將自由觀察綁定到alt鍵!
 
 ## Fullbright
-module.fullbright.name=Fullbright
-module.fullbright.description=Makes the surrounding environment brighter. Allows you to see more clearly in The End, Nether, and at night.
+module.fullbright.name=夜視
+module.fullbright.description=使周圍環境更加明亮. 讓你在末地,地獄和晚上看得更清楚.
 
-module.fullbright.setting.gamma.name=Gamma
-module.fullbright.setting.gamma.description=Adjust the gamma value to brighten or darken the environment.
+module.fullbright.setting.gamma.name=伽馬值
+module.fullbright.setting.gamma.description=調整伽馬值以使環境變亮或變暗.
 
 ## Glint Color Changer
-module.glint_color_changer.name=Glint Color Changer
-module.glint_color_changer.description=Changes the color of the glint (the enchantment thing).
+module.glint_color_changer.name=附魔閃光顏色
+module.glint_color_changer.description=改變附魔閃光的顏色.
 
-module.glint_color_changer.setting.glint_color.name=Glint Color
-module.glint_color_changer.setting.glint_color.description=Modify the color of the glint effect.
+module.glint_color_changer.setting.glint_color.name=閃光顏色
+module.glint_color_changer.setting.glint_color.description=修改附魔閃光的顏色.
 
-module.glint_color_changer.setting.presets.name=Presets
-module.glint_color_changer.setting.presets.description=Choose from preset glint color options.
+module.glint_color_changer.setting.presets.name=預設
+module.glint_color_changer.setting.presets.description=從預設的閃光顏色選項中進行選擇.
 
 ## GUI Scale Changer
-module.gui_scale_changer.name=GUI Scale Changer
-module.gui_scale_changer.description=Change the size of your GUI.
+module.gui_scale_changer.name=GUI大小
+module.gui_scale_changer.description=改變你GUI的大小.
 
-module.gui_scale_changer.setting.guiscale_warning.name=GUI Scale Warning
-module.gui_scale_changer.setting.guiscale_warning.description=Warning! Going above 5 may have unforeseen side effects! (Your game will be HUGE!)
-module.gui_scale_changer.setting.guiscale.name=GuiScale
-module.gui_scale_changer.setting.guiscale.description=Adjust the GUI scale. Warning: Above 5 may cause significant changes.
+module.gui_scale_changer.setting.guiscale_warning.name=GUI大小警告
+module.gui_scale_changer.setting.guiscale_warning.description=警告! 超過 5 可能會產生不可預見的副作用! (你的遊戲將會變得非常大!)
+module.gui_scale_changer.setting.guiscale.name=GUI大小
+module.gui_scale_changer.setting.guiscale.description=調整GUI大小. 警告: 高於5可能會導致重大變化.
 
-module.gui_scale_changer.setting.round.name=Round Guiscale
-module.gui_scale_changer.setting.round.description=Round the GuiScale value.
-module.gui_scale_changer.setting.round.button=Round
+module.gui_scale_changer.setting.round.name=舍入GUI縮放值
+module.gui_scale_changer.setting.round.description=舍入GUI縮放值.
+module.gui_scale_changer.setting.round.button=舍
 
 ## Low Health Warning
-module.low_health_warning.name=Low Health Warning
-module.low_health_warning.description=Displays a red vignette on the screen when you have low health.
+module.low_health_warning.name=低血量警告
+module.low_health_warning.description=當您的血量較低時, 在屏幕上顯示紅色暈影.
 
-module.low_health_warning.setting.low_heart.name=Heart Amount
-module.low_health_warning.setting.low_heart.description=Set the threshold for low health (number of hearts).
-module.low_health_warning.setting.show_in_f1.name=Show in F1
-module.low_health_warning.setting.show_in_f1.description=Toggle displaying low health warning in F1 mode.
+module.low_health_warning.setting.low_heart.name=心數量
+module.low_health_warning.setting.low_heart.description=設置低生命值閾值(幾顆心).
+module.low_health_warning.setting.show_in_f1.name=F1顯示
+module.low_health_warning.setting.show_in_f1.description=切換在F1模式下顯示低血量警告.
 
 ## Hitboxes
-module.hitboxes.name=Hitboxes
-module.hitboxes.description=Draws a bounding box around all entities.
+module.hitboxes.name=碰撞箱
+module.hitboxes.description=在所有實體周圍繪製其碰撞箱.
 
-module.hitboxes.setting.bodyline_color.name=Line Color
-module.hitboxes.setting.bodyline_color.description=Choose the color for the bounding box lines on entities.
-module.hitboxes.setting.eyeline_color.name=Eyes Line Color
-module.hitboxes.setting.eyeline_color.description=Choose the color for the bounding box lines around entity eyes.
-module.hitboxes.setting.show_eyes.name=Enable Eyes Line
-module.hitboxes.setting.show_eyes.description=Toggle displaying the bounding box lines around entity eyes.
-module.hitboxes.setting.red_when_select.name=Red For Selected Entity
-module.hitboxes.setting.red_when_select.description=Highlight selected entities with a red bounding box.
-module.hitboxes.setting.player_only.name=Player Only
-module.hitboxes.setting.player_only.description=Display bounding boxes only around players.
-module.hitboxes.setting.player_note.name=Note: Many things are not players but are perceived as such by the server.\nIf the bounding boxes appear on NPCs or similar entities,\nit's normal as they are recognized as players by the game.\n\nYou can find an ESP option in Creative Tools.
-module.hitboxes.setting.player_note.description=Note: Many things are not players but are perceived as such by the server.\nIf the bounding boxes appear on NPCs or similar entities,\nit's normal as they are recognized as players by the game.\n\nYou can find an ESP option in Creative Tools.
+module.hitboxes.setting.bodyline_color.name=碰撞箱顏色
+module.hitboxes.setting.bodyline_color.description=選擇碰撞箱框的顏色.
+module.hitboxes.setting.eyeline_color.name=眼部位置顏色
+module.hitboxes.setting.eyeline_color.description=選擇實體眼睛周圍的碰撞箱線的顏色.
+module.hitboxes.setting.show_eyes.name=顯示眼部位置
+module.hitboxes.setting.show_eyes.description=切換為在碰撞箱上顯示實體眼部位置.
+module.hitboxes.setting.red_when_select.name=指向實體變紅
+module.hitboxes.setting.red_when_select.description=將玩家所指向的實體的碰撞箱高亮成紅色.
+module.hitboxes.setting.player_only.name=僅玩家
+module.hitboxes.setting.player_only.description=僅顯示玩家碰撞箱.
+module.hitboxes.setting.player_note.name=註意: 許多東西不是玩家, 但服務器認為它們是玩家. \n如果邊界框出現在 NPC 或類似實體上, \n這是正常的, 因為它們被遊戲識別為玩家. \n\n您可以在「創造工具」中找到 ESP 選項.
+module.hitboxes.setting.player_note.description=註意: 許多東西不是玩家, 但服務器認為它們是玩家. \n如果邊界框出現在 NPC 或類似實體上, \n這是正常的, 因為它們被遊戲識別為玩家. \n\n您可以在「創造工具」中找到 ESP 選項.
 
 ## Hurt Color
-module.hurt_color.name=Hurt Color
-module.hurt_color.description=Changes what color entities will be when hurt.
+module.hurt_color.name=受傷顏色
+module.hurt_color.description=選擇當實體受傷時顯示的顏色.
 
-module.hurt_color.setting.hurt_color.name=Hurt Color
-module.hurt_color.setting.hurt_color.description=Choose the color that entities will display when hurt.
+module.hurt_color.setting.hurt_color.name=受傷顏色
+module.hurt_color.setting.hurt_color.description=選擇當實體受傷時顯示的顏色.
 
 ## Item Despawn Blink
-module.item_despawn_blink.name=Item Despawn Blink
-module.item_despawn_blink.description=Makes items blink when they are about to despawn.
+module.item_despawn_blink.name=掉落物消失閃爍
+module.item_despawn_blink.description=當掉落物即將消失時讓它們閃爍.
 
-module.item_despawn_blink.setting.start_blink_seconds.name=Time Until Blink
-module.item_despawn_blink.setting.start_blink_seconds.description=Choose the time in seconds until items start blinking before despawning.
+module.item_despawn_blink.setting.start_blink_seconds.name=閃爍時間
+module.item_despawn_blink.setting.start_blink_seconds.description=在消失前多少秒開始閃爍.
 
 ## Item Highlighter
-module.item_highlighter.name=Item Highlighter
-module.item_highlighter.description=Makes some items easier to observe.
+module.item_highlighter.name=物品高亮
+module.item_highlighter.description=使物品更容易被找到.
 
-module.item_highlighter.setting.highlight_all_items.name=Highlight All Items
-module.item_highlighter.setting.highlight_all_items.description=Toggle to highlight all items.
-module.item_highlighter.setting.highlight_all_items_color.name=Highlight All Items Color
-module.item_highlighter.setting.highlight_all_items_color.description=Choose the color for highlighting all items.
+module.item_highlighter.setting.highlight_all_items.name=高亮所有物品
+module.item_highlighter.setting.highlight_all_items.description=切換為高亮所有物品.
+module.item_highlighter.setting.highlight_all_items_color.name=物品高亮顏色
+module.item_highlighter.setting.highlight_all_items_color.description=選擇物品高亮的顏色.
 
-module.item_highlighter.setting.item_category.name=Item %s
-module.item_highlighter.setting.item_category.description=The options for the item %s.
-module.item_highlighter.setting.item_name.name=Item %s
-module.item_highlighter.setting.item_name.description=The item %s.
-module.item_highlighter.setting.validate_item_name.name=Validate Item Name
-module.item_highlighter.setting.validate_item_name.description=Validate the item name.
-module.item_highlighter.setting.validate_item_name.button=Validate
-module.item_highlighter.setting.color.name=Item %s Color
-module.item_highlighter.setting.color.description=Color for item %s.
-module.item_highlighter.setting.remove.name=Remove %s
-module.item_highlighter.setting.remove.description=Removes the item from the list of items to highlight.
-module.item_highlighter.setting.remove.button=Remove
-module.item_highlighter.setting.add.name=Add New Item
-module.item_highlighter.setting.add.description=Add a new item to highlight.
-module.item_highlighter.setting.add.button=Add
+module.item_highlighter.setting.item_category.name=物品 %s
+module.item_highlighter.setting.item_category.description=物品選項 %s.
+module.item_highlighter.setting.item_name.name=物品 %s
+module.item_highlighter.setting.item_name.description=物品 %s.
+module.item_highlighter.setting.validate_item_name.name=驗證物品名稱
+module.item_highlighter.setting.validate_item_name.description=驗證物品名稱.
+module.item_highlighter.setting.validate_item_name.button=驗證
+module.item_highlighter.setting.color.name=物品 %s 顏色
+module.item_highlighter.setting.color.description=給物品的顏色 %s.
+module.item_highlighter.setting.remove.name=移除 %s
+module.item_highlighter.setting.remove.description=從物品高亮列表裏移除物品.
+module.item_highlighter.setting.remove.button=移除
+module.item_highlighter.setting.add.name=添加新物品
+module.item_highlighter.setting.add.description=添加一個新的高亮物品.
+module.item_highlighter.setting.add.button=添加
 
 
 ## Item Physics
-module.item_physics.name=Item Physics
-module.item_physics.description=Makes dropped items have unique physics.
+module.item_physics.name=物理掉落物
+module.item_physics.description=使掉落物具有獨特的物理特性.
 
-module.item_physics.setting.rotation_settings_category.name=Rotation Settings
-module.item_physics.setting.rotation_settings_category.description=Settings for item rotation.
-module.item_physics.setting.movement_speed_x.name=Rotation Speed X
-module.item_physics.setting.movement_speed_x.description=Adjust the speed of rotation on the X-axis.
-module.item_physics.setting.movement_speed_y.name=Rotation Speed Y
-module.item_physics.setting.movement_speed_y.description=Adjust the speed of rotation on the Y-axis.
-module.item_physics.setting.movement_speed_z.name=Rotation Speed Z
-module.item_physics.setting.movement_speed_z.description=Adjust the speed of rotation on the Z-axis.
+module.item_physics.setting.rotation_settings_category.name=旋轉設置
+module.item_physics.setting.rotation_settings_category.description=掉落物旋轉設置.
+module.item_physics.setting.movement_speed_x.name=旋轉速度 X
+module.item_physics.setting.movement_speed_x.description=調整 X 軸上的旋轉速度.
+module.item_physics.setting.movement_speed_y.name=旋轉速度 Y
+module.item_physics.setting.movement_speed_y.description=調整 Y 軸上的旋轉速度.
+module.item_physics.setting.movement_speed_z.name=旋轉速度 Z
+module.item_physics.setting.movement_speed_z.description=調整 Z 軸上的旋轉速度.
 
-module.item_physics.setting.miscellaneous_settings.description=Other settings for item physics.
-module.item_physics.setting.water_slowdown.name=Liquid Rotation Slowdown
-module.item_physics.setting.water_slowdown.description=Adjust the slowdown factor for rotation in liquids.
-module.item_physics.setting.blocks_keep_rotation_on_ground.name=Preserve Block Rotation on Ground
-module.item_physics.setting.blocks_keep_rotation_on_ground.description=Toggle to preserve block rotation on the ground.
+module.item_physics.setting.miscellaneous_settings.description=物理化掉落物的其它設置.
+module.item_physics.setting.water_slowdown.name=液體減緩旋轉
+module.item_physics.setting.water_slowdown.description=調整液體中旋轉的減速系數.
+module.item_physics.setting.blocks_keep_rotation_on_ground.name=在地面上保持方塊旋轉
+module.item_physics.setting.blocks_keep_rotation_on_ground.description=切換以保持方塊在地面上的旋轉.
 
 ## 2D Items
-module.2d_items.name=2D Items
-module.2d_items.description=Makes the items appear as if they were 2D like the old bedrock.\nNote that the items are still 3D, so you don't save performance.
+module.2d_items.name=2D 物品
+module.2d_items.description=讓掉落物像舊版本MC一樣以2D顯示.\n註意: 他們仍然是3D的, 所以你並不會節省性能.
 
-module.2d_items.setting.follow_x_axis.name=Follow X Axis
-module.2d_items.setting.follow_x_axis.description=Toggle the behavior to follow the X-axis.
-module.2d_items.setting.follow_y_axis.name=Follow Y Axis
-module.2d_items.setting.follow_y_axis.description=Toggle the behavior to follow the Y-axis.
+module.2d_items.setting.follow_x_axis.name=沿X軸
+module.2d_items.setting.follow_x_axis.description=為讓物品行為沿X軸.
+module.2d_items.setting.follow_y_axis.name=沿Y軸
+module.2d_items.setting.follow_y_axis.description=為讓物品行為沿Y軸.
 
 ## Light Overlay
-module.light_overlay.name=Light Overlay
-module.light_overlay.description=Displays the nearby areas where mobs are able to spawn.
+module.light_overlay.name=亮度顯示
+module.light_overlay.description=顯示你周圍區域內有哪塊能刷怪.
 
-module.light_overlay.setting.update_delay.name=Update Delay
-module.light_overlay.setting.update_delay.description=Set the delay for updating the overlay.
-module.light_overlay.setting.radius.name=Radius
-module.light_overlay.setting.radius.description=Set the radius for the light overlay light checks.
-module.light_overlay.setting.check_down_by_height.name=Amount of Blocks to Check Down
-module.light_overlay.setting.check_down_by_height.description=Set how low to go for light checks.
+module.light_overlay.setting.update_delay.name=更新延遲
+module.light_overlay.setting.update_delay.description=設置顯示的疊加層的更新延遲.
+module.light_overlay.setting.radius.name=範圍
+module.light_overlay.setting.radius.description=設置亮度顯示的範圍.
+module.light_overlay.setting.check_down_by_height.name=最低亮度
+module.light_overlay.setting.check_down_by_height.description=設置亮度低於多少時顯示.
 
 ## Litematica
-module.litematica.name=Litematica
-module.litematica.description=Helps you build structures
+module.litematica.name=投影 - Litematica
+module.litematica.description=幫助你建造建築
 
 ## Minimal View Bobbing
-module.minimal_view_bobbing.name=Minimal View Bobbing
-module.minimal_view_bobbing.description=Disables the screen shake when view bobbing is enabled. (Requires view bobbing to be enabled.)
+module.minimal_view_bobbing.name=最小視角晃動
+module.minimal_view_bobbing.description=開啟視角晃動時取消屏幕抖動. (需要打開視角晃動.)
 
 ## Modern Keybind Handling
-module.modern_keybind_handling.name=Modern Keybind Handling
-module.modern_keybind_handling.description=Modifies keybind handling when exiting screens to act like Java 1.12+.
+module.modern_keybind_handling.name=新版按鍵綁定處理
+module.modern_keybind_handling.description=修改暫停菜單時的按鍵綁定處理, 使其類似於 Java 1.12+.
 
-module.modern_keybind_handling.setting.movement_keys_only.name=Movement Keys Only
-module.modern_keybind_handling.setting.movement_keys_only.description=Restricts keybind modifications to movement keys only.
+module.modern_keybind_handling.setting.movement_keys_only.name=僅移動鍵
+module.modern_keybind_handling.setting.movement_keys_only.description=將按鍵綁定修改為僅移動鍵.
 
-module.modern_keybind_handling.setting.do_among_onix_ui.name=Affect Onix UIs
-module.modern_keybind_handling.setting.do_among_onix_ui.description=Applies modifications to the keybinds used within the Onix UI elements.
+module.modern_keybind_handling.setting.do_among_onix_ui.name=影響 Onix UI
+module.modern_keybind_handling.setting.do_among_onix_ui.description=對 Onix UI 元素中使用的按鍵綁定應用修改.
 
 ## Motion Blur
-module.motion_blur.name=Motion Blur
-module.motion_blur.description=Blurs movement to make you throw up suspiciously
+module.motion_blur.name=動態模糊
+module.motion_blur.description=動態模糊, 沒啥好說的
 
-module.motion_blur.setting.throwup_rate.name=Intensity
-module.motion_blur.setting.throwup_rate.description=Controls the intensity of the motion blur effect.
-module.motion_blur.setting.throwup_in_ui.name=Exclude UI from Effect
-module.motion_blur.setting.throwup_in_ui.description=Applies the motion blur effect only to the in-game world, excluding UI elements.
+module.motion_blur.setting.throwup_rate.name=模糊強度
+module.motion_blur.setting.throwup_rate.description=控製動態模糊效果的強度.
+module.motion_blur.setting.throwup_in_ui.name=從效果中排除UI
+module.motion_blur.setting.throwup_in_ui.description=僅將動態模糊效果應用於遊戲內世界, 不包括 UI 元素.
 
 ## Proximity Chat
-module.proximity_chat.name=Proximity Chat
-module.proximity_chat.description=Proximity Chat!\nAllows you to use Mumble Link via the Onix Client Mumble Link application.
+module.proximity_chat.name=近距離聊天
+module.proximity_chat.description=近距離語音聊天! \n允許您通過 Onix 客戶端 Mumble Link 應用程序進行近距離語音聊天.
 
-module.proximity_chat.setting.context_settings_category.name=Context Settings
-module.proximity_chat.setting.context_settings_category.description=Settings for context settings.
-module.proximity_chat.setting.informative_information.name=These settings are what to include in Mumble Link's context.\nThey define who should be able to hear each other.\nIf your friends don't use the same options, the context will be different.\nPlayers with matching contexts have positional audio, otherwise normal audio is transmitted.\nYou can change what to include here to better match a server.\nScripts can also play with this to improve their experience whilst on a server.
+module.proximity_chat.setting.context_settings_category.name=聊天設置
+module.proximity_chat.setting.context_settings_category.description=聊天相關的設置.
+module.proximity_chat.setting.informative_information.name=這些設置是Mumble Link聊天環境中應包含的內容.\n它們決定了誰能夠聽到對方的聲音.\n如果你的朋友不使用相同的選項, 聊天就會不同.\n具有匹配聊天環境的玩家具有距離化音頻, 否則會傳輸正常音頻.\n您可以在此處更改要包含的內容, 以便更好地匹配服務器.\n腳本也可以使用它來改善它們在服務器上的體驗.
 
-module.proximity_chat.setting.include_world_name.name=Include World Name
-module.proximity_chat.setting.include_world_id.name=Include World Id
-module.proximity_chat.setting.include_players.name=Include Players
-module.proximity_chat.setting.include_dimension.name=Include Dimension
+module.proximity_chat.setting.include_world_name.name=匹配世界名稱
+module.proximity_chat.setting.include_world_name.description=在聊天環境中包含世界名稱.
+module.proximity_chat.setting.include_world_id.name=匹配世界ID
+module.proximity_chat.setting.include_world_id.description=在聊天環境中包含世界ID.
+module.proximity_chat.setting.include_players.name=匹配玩家
+module.proximity_chat.setting.include_players.description=在聊天環境中包含玩家.
+module.proximity_chat.setting.include_dimension.name=匹配維度
+module.proximity_chat.setting.include_dimension.description=在聊天環境中包含維度.
 
-module.proximity_chat.setting.include_scripting_context.name=Include Scripting Context
-module.proximity_chat.setting.extra_scripting_context.name=Extra Scripting Context
-
-## Nick Hider
-module.nick_hider.name=Nick Hider
-module.nick_hider.description=Allows you to hide your username, skin, other people's usernames, and other people's skins.
-
-module.nick_hider.setting.should_change_name.name=Should Change Name
-module.nick_hider.setting.should_change_name.description=Should we change your name?
-module.nick_hider.setting.custom_name.name=Custom Name
-module.nick_hider.setting.custom_name.description=The name you wish to see on your screen.
+module.proximity_chat.setting.include_scripting_context.name=匹配腳本環境
+module.proximity_chat.setting.include_scripting_context.description=在聊天環境中包含腳本環境.
+module.proximity_chat.setting.extra_scripting_context.name=額外腳本環境
+module.proximity_chat.setting.extra_scripting_context.description=在聊天環境中添加額外腳本環境.
 
 ## No Hurt Cam
-module.no_hurt_cam.name=No Hurt Cam
-module.no_hurt_cam.description=Removes the camera shake animation when you get destroyed in PvP.
+module.no_hurt_cam.name=無受傷抖動
+module.no_hurt_cam.description=移除了受傷時的攝像機抖動.
 
 ## Particle Multiplier
-module.particle_multiplier.name=Particle Multiplier
-module.particle_multiplier.description=Multiply the amount of critical hit particles.
+module.particle_multiplier.name=粒子倍增器
+module.particle_multiplier.description=增加你暴擊時粒子的數量.
 
-module.particle_multiplier.setting.particle_multiplier.name=Particle Multiplier
-module.particle_multiplier.setting.particle_multiplier.description=Adjust the number of critical hit particles to multiply.
+module.particle_multiplier.setting.particle_multiplier.name=粒子倍增器
+module.particle_multiplier.setting.particle_multiplier.description=調整暴擊粒子的數量(以成倍增加).
 
 ## Static Camera
-module.static_camera.name=Static Camera
-module.static_camera.description=Allows you to place the camera in the world. The camera's rotation is inverted when being adjusted.
+module.static_camera.name=靜態攝像機
+module.static_camera.description=允許你將攝像機(玩家視角)放置在世界中. 相機的旋轉在調整時是反轉的.
 
-module.static_camera.setting.allow_rotation_default.name=Allow Rotation by Default
-module.static_camera.setting.allow_rotation_default.description=Enable default rotation for the camera.
+module.static_camera.setting.allow_rotation_default.name=啟用默認旋轉
+module.static_camera.setting.allow_rotation_default.description=啟用相機的默認旋轉.
 
-module.static_camera.setting.allow_rotation_key.name=Allow Rotation Key
-module.static_camera.setting.allow_rotation_key.description=Set a keybind to enable camera rotation.
+module.static_camera.setting.allow_rotation_key.name=允許旋轉按鍵
+module.static_camera.setting.allow_rotation_key.description=設置按鍵綁定以啟用相機旋轉.
 
 ## Player List Tab
-module.player_list_tab.name=Player List Tab
-module.player_list_tab.description=Shows a list of all players in the world.
+module.player_list_tab.name=玩家列表
+module.player_list_tab.description=顯示所有玩家的列表.
 
-module.player_list_tab.setting.padding.name=Padding
-module.player_list_tab.setting.padding.description=Adjusts the padding of the player list.
-module.player_list_tab.setting.start_height.name=Start Height
-module.player_list_tab.setting.start_height.description=Sets the starting height of the player list.
-module.player_list_tab.setting.highlight_your_name.name=Highlight Your Name
-module.player_list_tab.setting.highlight_your_name.description=Highlights your name in the list.
-module.player_list_tab.setting.your_name_color.name=Your Name Color
-module.player_list_tab.setting.your_name_color.description=Changes the color of your name in the list.
+module.player_list_tab.setting.padding.name=填充
+module.player_list_tab.setting.padding.description=調整玩家列表的填充.
+module.player_list_tab.setting.start_height.name=起始高度
+module.player_list_tab.setting.start_height.description=設置玩家列表的起始高度.
+module.player_list_tab.setting.highlight_your_name.name=高亮自己
+module.player_list_tab.setting.highlight_your_name.description=在列表中高亮自己的名字.
+module.player_list_tab.setting.your_name_color.name=自己的名字顏色
+module.player_list_tab.setting.your_name_color.description=更改列表中你名字的顏色.
 
-module.player_list_tab.setting.outline_names.name=Outline Names
-module.player_list_tab.setting.outline_names.description=Enables outlining of names in the list.
-module.player_list_tab.setting.center_text.name=Center Text
-module.player_list_tab.setting.center_text.description=Centers the text in the list.
-module.player_list_tab.setting.sort_alphabetically.name=Sort Alphabetically
-module.player_list_tab.setting.sort_alphabetically.description=Sorts the names alphabetically.
-module.player_list_tab.setting.player_heads.name=Player Heads
-module.player_list_tab.setting.player_heads.description=Displays player heads in the list.
-module.player_list_tab.setting.names_per_column.name=Names per Column
-module.player_list_tab.setting.names_per_column.description=Specifies the number of names per column in the list.
+module.player_list_tab.setting.outline_names.name=名字輪廓
+module.player_list_tab.setting.outline_names.description=給列表中的名字添加輪廓線.
+module.player_list_tab.setting.center_text.name=文本居中
+module.player_list_tab.setting.center_text.description=將列表中的文本居中.
+module.player_list_tab.setting.sort_alphabetically.name=按字母表順序排序
+module.player_list_tab.setting.sort_alphabetically.description=按字母表順序排序.
+module.player_list_tab.setting.player_heads.name=顯示玩家頭
+module.player_list_tab.setting.player_heads.description=在列表中顯示玩家的頭.
+module.player_list_tab.setting.names_per_column.name=每列數量
+module.player_list_tab.setting.names_per_column.description=指定列表中每列的玩家名數量.
 
 ## 3D Skins
-module.player_skin_3d.name=3D Skins
-module.player_skin_3d.description=Makes the second skin layer 3D. Due to how the mod works, this will not work with players who have 128x skins or custom geometries (4D Skins).
+module.player_skin_3d.name=3D皮膚
+module.player_skin_3d.description=讓你的外層皮膚變成3D的. 由於該功能的工作方式, 此功能不支持128x皮膚與4d皮膚.
 
 ## Post Processing
-module.post_processing.name=Post Processing
-module.post_processing.description=Allows you to enhance the visual look of your game.
+module.post_processing.name=後處理
+module.post_processing.description=允許您增強遊戲的視覺外觀 \n未翻譯完全, 靜待更新.
 
-module.post_processing.setting.only_show_in_world.name=Don't Show In UI
-module.post_processing.setting.only_show_in_world.description=Enable to display only in the game world.
-module.post_processing.setting.show_in_onix_ui.name=Show In Onix Client UI
-module.post_processing.setting.show_in_onix_ui.description=Enable to display in the Onix Client UI.
+module.post_processing.setting.only_show_in_world.name=不對UI起效
+module.post_processing.setting.only_show_in_world.description=僅對遊戲內世界起效.
+module.post_processing.setting.show_in_onix_ui.name=對Onix UI起效
+module.post_processing.setting.show_in_onix_ui.description=對Onix UI起效.
 
 module.post_processing.setting.saturation_settings_category.name=Saturation Settings
 module.post_processing.setting.saturation_settings_category.description=Settings for saturation settings.
@@ -1013,703 +1013,703 @@ module.post_processing.setting.vignette_color.name=Vignette Color
 module.post_processing.setting.vignette_color.description=Adjust the color of the vignette effect.
 
 ## Render Options
-module.render_options.name=Render Options
-module.render_options.description=Gives you more rendering options.
+module.render_options.name=渲染選項
+module.render_options.description=給你更多的渲染設置選項.
 
-module.render_options.setting.render_distance_settings_category.name=Render Distance Settings
-module.render_options.setting.render_distance_settings_category.description=Settings for render distance settings.
-module.render_options.setting.render_distance.name=Render Distance
-module.render_options.setting.render_distance.description=Adjust the render distance.
-module.render_options.setting.change_render_distance.name=Change Render Distance
-module.render_options.setting.change_render_distance.description=Enable to change the render distance value.
+module.render_options.setting.render_distance_settings_category.name=渲染距離設置
+module.render_options.setting.render_distance_settings_category.description=渲染距離的設置.
+module.render_options.setting.render_distance.name=渲染距離
+module.render_options.setting.render_distance.description=修改渲染距離.
+module.render_options.setting.change_render_distance.name=修改渲染距離
+module.render_options.setting.change_render_distance.description=讓你能改變渲染距離.
 
-module.render_options.setting.render_entity.name=Disable Render for Entities
-module.render_options.setting.render_entity.description=Disable rendering for entities.
-module.render_options.setting.render_block_entity.name=Disable Render for Tile Entities
-module.render_options.setting.render_block_entity.description=Disable rendering for tile entities.
-module.render_options.setting.render_particles.name=Disable Render for Particles
-module.render_options.setting.render_particles.description=Disable rendering for particles.
-module.render_options.setting.render_weather.name=Disable Render for Weather
-module.render_options.setting.render_weather.description=Disable rendering for weather effects.
-module.render_options.setting.render_item_in_hand.name=Disable Render for Item in Hand
-module.render_options.setting.render_item_in_hand.description=Disable rendering for the held item.
-module.render_options.setting.disable_vignette.name=Disable Render for Vignette
-module.render_options.setting.disable_vignette.description=Disable rendering for the vignette effect.
+module.render_options.setting.render_entity.name=不渲染實體
+module.render_options.setting.render_entity.description=不去渲染實體.
+module.render_options.setting.render_block_entity.name=不渲染方塊實體
+module.render_options.setting.render_block_entity.description=不渲染方塊實體(箱子,展示框等).
+module.render_options.setting.render_particles.name=不渲染粒子
+module.render_options.setting.render_particles.description=不渲染粒子效果.
+module.render_options.setting.render_weather.name=不渲染天氣
+module.render_options.setting.render_weather.description=不渲染天氣.
+module.render_options.setting.render_item_in_hand.name=不渲染手與手持物品
+module.render_options.setting.render_item_in_hand.description=不渲染手與手持物品.
+module.render_options.setting.disable_vignette.name=不渲染暈影
+module.render_options.setting.disable_vignette.description=不渲染暈影.
 
 ## RodFix
-module.rod_fix_mod.name=RodFix
-module.rod_fix_mod.description=Allows you to cast a fishing rod while looking at an entity. This is a bug in this version! (MCPE-65249)
+module.rod_fix_mod.name=釣魚竿修復
+module.rod_fix_mod.description=允許您在面朝實體時投擲釣魚竿。這是這個版本中的一個錯誤! (MCPE-65249)
 
 ## Sky Overlay Changer
-module.sky_overlay_changer.name=Sky Overlay Changer
-module.sky_overlay_changer.description=Allows you to change the sky overlay, without leaving the world.
+module.sky_overlay_changer.name=天空疊加層改變
+module.sky_overlay_changer.description=允許您在不離開世界的情況下更改天空疊加層.
 
 ## Snaplook
-module.snaplook.name=Snaplook
-module.snaplook.description=Changes perspective while the key is pressed.
+module.snaplook.name=快捷人稱切換
+module.snaplook.description=按下時切換人稱.
 
 ## Third Person Nametag
-module.third_person_nametag.name=Third Person Nametag
-module.third_person_nametag.description=Renders your nametag in 3rd person.
+module.third_person_nametag.name=第三人稱玩家名
+module.third_person_nametag.description=在第三人稱時在你頭頂顯示你自己的名字.
 
 ## Test Module
-module.test_module.name=Test Module
-module.test_module.description=This is a test module.
+module.test_module.name=測試功能
+module.test_module.description=這是一個測試功能.
 
 ## TNT Timer
-module.tnt_timer.name=TNT Timer
-module.tnt_timer.description=Displays the detonation time of TNT.
-module.tnt_timer.setting.max_distance.name=Max Distance
-module.tnt_timer.setting.max_distance.description=The maximum
+module.tnt_timer.name=TNT計時器
+module.tnt_timer.description=顯示TNT的爆炸倒計時.
+module.tnt_timer.setting.max_distance.name=最遠距離
+module.tnt_timer.setting.max_distance.description=最大值
 
 ## Toggle Sprint/Sneak
-module.toggle_sprint_sneak.name=Toggle Sprint/Sneak
-module.toggle_sprint_sneak.description=Enables sprinting or sneaking without holding the respective keys.
+module.toggle_sprint_sneak.name=切換疾跑/潛行
+module.toggle_sprint_sneak.description=無需按住相應鍵即可進行疾跑或潛行.
 
-module.toggle_sprint_sneak.setting.keybind_settings_category.name=Keybind Settings
-module.toggle_sprint_sneak.setting.keybind_settings_category.description=Customize keybind configurations.
-module.toggle_sprint_sneak.setting.sprint_key.name=Sprint Key
-module.toggle_sprint_sneak.setting.sprint_key.description=Set the key to toggle sprinting.
-module.toggle_sprint_sneak.setting.sneak_key.name=Sneak Key
-module.toggle_sprint_sneak.setting.sneak_key.description=Set the key to toggle sneaking.
+module.toggle_sprint_sneak.setting.keybind_settings_category.name=按鍵綁定設置
+module.toggle_sprint_sneak.setting.keybind_settings_category.description=自定義按鍵綁定配置.
+module.toggle_sprint_sneak.setting.sprint_key.name=疾跑鍵
+module.toggle_sprint_sneak.setting.sprint_key.description=設置切換疾跑的鍵.
+module.toggle_sprint_sneak.setting.sneak_key.name=潛行鍵
+module.toggle_sprint_sneak.setting.sneak_key.description=設置切換潛行的鍵.
 
-module.toggle_sprint_sneak.setting.toggles_category.name=Toggles
-module.toggle_sprint_sneak.setting.toggles_category.description=Enable or disable various toggles.
-module.toggle_sprint_sneak.setting.enable_toggle_sprint.name=Enable Toggle Sprint
-module.toggle_sprint_sneak.setting.enable_toggle_sprint.description=Activate or deactivate toggle sprint.
-module.toggle_sprint_sneak.setting.enable_toggle_sneak.name=Enable Toggle Sneak
-module.toggle_sprint_sneak.setting.enable_toggle_sneak.description=Activate or deactivate toggle sneak.
+module.toggle_sprint_sneak.setting.toggles_category.name=模式切換
+module.toggle_sprint_sneak.setting.toggles_category.description=啟用或禁用各種切換.
+module.toggle_sprint_sneak.setting.enable_toggle_sprint.name=啟用切換疾跑
+module.toggle_sprint_sneak.setting.enable_toggle_sprint.description=激活或停用切換疾跑.
+module.toggle_sprint_sneak.setting.enable_toggle_sneak.name=啟用切換潛行
+module.toggle_sprint_sneak.setting.enable_toggle_sneak.description=激活或停用切換潛行.
 
-module.toggle_sprint_sneak.setting.always_sprint.name=Always Sprint
-module.toggle_sprint_sneak.setting.always_sprint.description=Turn on or off the constant sprinting mode.
-module.toggle_sprint_sneak.setting.show_indicator.name=Show Indicator
-module.toggle_sprint_sneak.setting.show_indicator.description=Display or hide the indicator.
-module.toggle_sprint_sneak.setting.diagonal_sprintfix.name=Diagonal Sprintfix
-module.toggle_sprint_sneak.setting.diagonal_sprintfix.description=Toggle the diagonal sprintfix on or off.
+module.toggle_sprint_sneak.setting.always_sprint.name=鎖定疾跑
+module.toggle_sprint_sneak.setting.always_sprint.description=自動疾跑.
+module.toggle_sprint_sneak.setting.show_indicator.name=顯示指示器
+module.toggle_sprint_sneak.setting.show_indicator.description=顯示或隱藏指示器.
+module.toggle_sprint_sneak.setting.diagonal_sprintfix.name=對角線沖刺修復
+module.toggle_sprint_sneak.setting.diagonal_sprintfix.description=打開或關閉對角線沖刺修復.
 
 ## View Model
-module.view_model.name=View Model
-module.view_model.description=Allows you to customise the view model. (Hand Item).
+module.view_model.name=手部模型
+module.view_model.description=讓你能自定義你的手部模型. (手持物品).
 
-module.view_model.setting.position_settings_category.name=Position
-module.view_model.setting.position_settings_category.description=Settings for the position of the view model.
-module.view_model.setting.translation_x.name=Translation X
-module.view_model.setting.translation_x.description=Adjust the X translation of the view model.
-module.view_model.setting.translation_y.name=Translation Y
-module.view_model.setting.translation_y.description=Adjust the Y translation of the view model.
-module.view_model.setting.translation_z.name=Translation Z
-module.view_model.setting.translation_z.description=Adjust the Z translation of the view model.
+module.view_model.setting.position_settings_category.name=位置
+module.view_model.setting.position_settings_category.description=調整你手部模型的位置.
+module.view_model.setting.translation_x.name=偏移 X
+module.view_model.setting.translation_x.description=調整手部模型的 X 偏移.
+module.view_model.setting.translation_y.name=偏移 Y
+module.view_model.setting.translation_y.description=調整手部模型的 Y 偏移.
+module.view_model.setting.translation_z.name=偏移 Z
+module.view_model.setting.translation_z.description=調整手部模型的 Z 偏移.
 
-module.view_model.setting.rotation_settings_category.name=Rotation
-module.view_model.setting.rotation_settings_category.description=Settings for the rotation of the view model.
-module.view_model.setting.rotation_x.name=Rotation X
-module.view_model.setting.rotation_x.description=Adjust the X rotation of the view model.
-module.view_model.setting.rotation_y.name=Rotation Y
-module.view_model.setting.rotation_y.description=Adjust the Y rotation of the view model.
-module.view_model.setting.rotation_z.name=Rotation Z
-module.view_model.setting.rotation_z.description=Adjust the Z rotation of the view model.
+module.view_model.setting.rotation_settings_category.name=旋轉
+module.view_model.setting.rotation_settings_category.description=調整你手部模型的旋轉.
+module.view_model.setting.rotation_x.name=旋轉 X
+module.view_model.setting.rotation_x.description=調整手部模型的 X 旋轉.
+module.view_model.setting.rotation_y.name=旋轉 Y
+module.view_model.setting.rotation_y.description=調整手部模型的 Y 旋轉.
+module.view_model.setting.rotation_z.name=旋轉 Z
+module.view_model.setting.rotation_z.description=調整手部模型的 Z 旋轉.
 
-module.view_model.setting.scale_settings_category.name=Scale
-module.view_model.setting.scale_settings_category.description=Settings for the scale of the view model.
-module.view_model.setting.scale_x.name=Scale X
-module.view_model.setting.scale_x.description=Adjust the X scale of the view model.
-module.view_model.setting.scale_y.name=Scale Y
-module.view_model.setting.scale_y.description=Adjust the Y scale of the view model.
-module.view_model.setting.scale_z.name=Scale Z
-module.view_model.setting.scale_z.description=Adjust the Z scale of the view model.
+module.view_model.setting.scale_settings_category.name=大小
+module.view_model.setting.scale_settings_category.description=調整你手部模型的大小.
+module.view_model.setting.scale_x.name=大小 X
+module.view_model.setting.scale_x.description=調整手部模型的 X 大小.
+module.view_model.setting.scale_y.name=大小 Y
+module.view_model.setting.scale_y.description=調整手部模型的 Y 大小.
+module.view_model.setting.scale_z.name=大小 Z
+module.view_model.setting.scale_z.description=調整手部模型的 Z 大小.
 
-module.view_model.setting.is_weird.name=Weird
-module.view_model.setting.is_weird.description=Toggle weird view model.
+module.view_model.setting.is_weird.name=忄聖 東 西
+module.view_model.setting.is_weird.description=切換為怪異的手部模型.
 
 ## Waypoints
-module.waypoints.name=Waypoints
-module.waypoints.description=Displays and stores coordinates of specific locations in the world.\nTo create a waypoint, type ".waypoint" in the Minecraft chat.
+module.waypoints.name=路徑點
+module.waypoints.description=顯示和記錄世界上特定位置的坐標. \n在聊天框中輸入".waypoint"以創建路徑點.
 
-module.waypoints.setting.death_waypoint.name=Add "Death" Waypoint on Death
-module.waypoints.setting.death_waypoint.description=Toggle adding a "Death" waypoint on death.
-module.waypoints.setting.all_axis.name=Show Distance in All Axis
-module.waypoints.setting.all_axis.description=Toggle showing the distance in all axis.
+module.waypoints.setting.death_waypoint.name=在死亡時添加"死亡"路徑點
+module.waypoints.setting.death_waypoint.description=啟用在死亡時添加"死亡"路徑點.
+module.waypoints.setting.all_axis.name=顯示你距離路徑點的所有軸上的距離
+module.waypoints.setting.all_axis.description=切換為顯示你距離路徑點的所有軸(X,Y,Z)上的距離.
 
-module.waypoints.setting.automated_settings_category.name=Automated Settings
-module.waypoints.setting.automated_settings_category.description=Settings for automated settings.
-module.waypoints.setting.add_waypoint_for_nether_portal.name=Add Waypoint for Nether Portals
-module.waypoints.setting.add_waypoint_for_nether_portal.description=Toggle adding a waypoint for nether portals.
-module.waypoints.setting.add_waypoint_for_end_gateways.name=Add Waypoint for End Gateways
-module.waypoints.setting.add_waypoint_for_end_gateways.description=Toggle adding a waypoint for end gateways.
-module.waypoints.setting.disable_server_mode.name=Disable Server Mode
-module.waypoints.setting.disable_server_mode.description=Toggle disabling server mode.
+module.waypoints.setting.automated_settings_category.name=自動設置
+module.waypoints.setting.automated_settings_category.description=自動相關的設置.
+module.waypoints.setting.add_waypoint_for_nether_portal.name=自動給地獄門添加路徑點
+module.waypoints.setting.add_waypoint_for_nether_portal.description=啟用自動給地獄門添加路徑點.
+module.waypoints.setting.add_waypoint_for_end_gateways.name=自動給末地折躍門添加路徑點
+module.waypoints.setting.add_waypoint_for_end_gateways.description=啟用自動給末地折躍門添加路徑點.
+module.waypoints.setting.disable_server_mode.name=禁用服務器模式
+module.waypoints.setting.disable_server_mode.description=禁用服務器模式.
 
 ## Zoom
-module.zoom.name=Zoom
-module.zoom.description=Allows you to zoom in on distant objects.
+module.zoom.name=望遠鏡
+module.zoom.description=允許你放大畫面觀察遠處的物體.
 
-module.zoom.setting.key.name=Key
-module.zoom.setting.key.description=Set the keybind for zooming.
-module.zoom.setting.use_cinematic_camera.name=Use Cinematic Camera
-module.zoom.setting.use_cinematic_camera.description=Toggle usage of cinematic camera.
+module.zoom.setting.key.name=按鍵
+module.zoom.setting.key.description=設置使用望遠鏡的按鍵.
+module.zoom.setting.use_cinematic_camera.name=使用電影攝影機
+module.zoom.setting.use_cinematic_camera.description=切換為使用電影攝影機.
 
-module.zoom.setting.zoom_strength_settings_category.name=Zoom Strength Settings
-module.zoom.setting.zoom_strength_settings_category.description=Settings for zoom strength settings.
-module.zoom.setting.strength.name=Strength
-module.zoom.setting.strength.description=Adjust the zoom strength.
-module.zoom.setting.save_scroll.name=Save Zoom Strength Between Zooms
-module.zoom.setting.save_scroll.description=Toggle saving of zoom strength between zooms.
-module.zoom.setting.scroll_zoom.name=Scrolling Change Strength
-module.zoom.setting.scroll_zoom.description=Toggle scrolling to change zoom strength.
+module.zoom.setting.zoom_strength_settings_category.name=縮放強度設置
+module.zoom.setting.zoom_strength_settings_category.description=對縮放強度進行設置.
+module.zoom.setting.strength.name=強度
+module.zoom.setting.strength.description=調整縮放強度.
+module.zoom.setting.save_scroll.name=在縮放結束後保持縮放強度
+module.zoom.setting.save_scroll.description=在第二次縮放時保持之前的縮放強度.
+module.zoom.setting.scroll_zoom.name=滾輪切換強度
+module.zoom.setting.scroll_zoom.description=使用滾輪去調整縮放強度.
 
-module.zoom.setting.hide_hand_option.name=Hide Hand When Zooming
-module.zoom.setting.hide_hand_option.description=Toggle hiding of hand when zooming.
-module.zoom.setting.sensivity_reduced.name=Reduced Sensivity
-module.zoom.setting.sensivity_reduced.description=Adjust the reduced sensivity.
-module.zoom.setting.is_zoom_toggle.name=Toggle Zoom
-module.zoom.setting.is_zoom_toggle.description=Toggle zooming.
+module.zoom.setting.hide_hand_option.name=隱藏手
+module.zoom.setting.hide_hand_option.description=在縮放時隱藏手.
+module.zoom.setting.sensivity_reduced.name=降低靈敏度
+module.zoom.setting.sensivity_reduced.description=調整降低的靈敏度.
+module.zoom.setting.is_zoom_toggle.name=保持縮放
+module.zoom.setting.is_zoom_toggle.description=按鍵切換是否縮放.
 
-module.zoom.setting.animation_settings_category.name=Animation Settings
-module.zoom.setting.animation_settings_category.description=Settings for animation settings.
-module.zoom.setting.do_animation.name=Zoom in Animation
-module.zoom.setting.do_animation.description=Toggle zoom in animation.
-module.zoom.setting.animation_duration.name=Zoom in Animation Speed
-module.zoom.setting.animation_duration.description=Adjust the zoom in animation speed.
+module.zoom.setting.animation_settings_category.name=動畫設置
+module.zoom.setting.animation_settings_category.description=動畫設置.
+module.zoom.setting.do_animation.name=縮放動畫
+module.zoom.setting.do_animation.description=在縮放時有動畫.
+module.zoom.setting.animation_duration.name=縮放動畫速度
+module.zoom.setting.animation_duration.description=調整縮放動畫的速度.
 
 
 
 ## Armor HUD
-module.armor_hud.name=Armor Hud
-module.armor_hud.description=Shows the armor and mainhand item you have equipped.
-module.armor_hud.setting.horizontal.name=Horizontally Aligned
-module.armor_hud.setting.horizontal.description=Arranges the armor and mainhand items in a horizontal line.
-module.armor_hud.setting.is_hotbar.name=Above Hunger Bar
-module.armor_hud.setting.is_hotbar.description=Positions the display above the hunger bar.
-module.armor_hud.setting.hand_title.name=Hand
-module.armor_hud.setting.hand_title.description=Indicates the equipped hand.
-module.armor_hud.setting.show_main_hand.name=Show Main Hand
-module.armor_hud.setting.show_main_hand.description=Displays the main hand item.
-module.armor_hud.setting.show_off_hand.name=Show Off Hand
-module.armor_hud.setting.show_off_hand.description=Shows the off hand item.
-module.armor_hud.setting.durability_category.name=Durability
-module.armor_hud.setting.durability_category.description=Categorizes durability settings.
-module.armor_hud.setting.show_durability.name=Show Item Durability
-module.armor_hud.setting.show_durability.description=Shows the item's durability.
-module.armor_hud.setting.show_decorations.name=Show Item Durability Bar
-module.armor_hud.setting.show_decorations.description=Displays the item's durability bar.
-module.armor_hud.setting.java_decorations.name=Use Java Durability Colors
-module.armor_hud.setting.java_decorations.description=Applies Java durability colors.
-module.armor_hud.setting.durability_percent.name=Show Durability As Percentage
-module.armor_hud.setting.durability_percent.description=Indicates durability as a percentage.
-module.armor_hud.setting.durability_over_max.name=Show Durability/TotalDurability
-module.armor_hud.setting.durability_over_max.description=Shows durability versus total durability.
-module.armor_hud.setting.item_category.name=Item
-module.armor_hud.setting.item_category.description=Categorizes item settings.
-module.armor_hud.setting.render_count.name=Show Item Count On Item
-module.armor_hud.setting.render_count.description=Shows the item count on the item.
-module.armor_hud.setting.count_all.name=Count All Items of Same Type
-module.armor_hud.setting.count_all.description=Counts all items of the same type.
-module.armor_hud.setting.text_category.name=Text Settings
-module.armor_hud.setting.text_category.description=Categorizes text settings.
-module.armor_hud.setting.right_text.name=Text on The Right Side
-module.armor_hud.setting.right_text.description=Text displayed on the right side.
-module.armor_hud.setting.text_color_follow_durability.name=Text Color Depends on Durability
-module.armor_hud.setting.text_color_follow_durability.description=Adjusts text color based on durability.
-module.armor_hud.setting.render_in_containers.name=Render in Containers
-module.armor_hud.setting.render_in_containers.description=Displays in containers.
-module.armor_hud.setting.wish_glint.name=Bad Enchantment Glint
-module.armor_hud.setting.wish_glint.description=Adds a fake enchantment glint for older versions.
-module.armor_hud.setting.glint_speed.name=Bad Glint Speed
-module.armor_hud.setting.glint_speed.description=Adjusts the speed of the bad glint effect.
-module.armor_hud.setting.glint_opacity.name=Bad Glint Opacity
-module.armor_hud.setting.glint_opacity.description=Changes the opacity of the bad glint effect.
-module.armor_hud.setting.glint_color.name=Bad Glint Color
-module.armor_hud.setting.glint_color.description=Specifies the color of the bad glint effect.
+module.armor_hud.name=盔甲HUD
+module.armor_hud.description=顯示你的盔甲和手持物品.
+module.armor_hud.setting.horizontal.name=水平對齊
+module.armor_hud.setting.horizontal.description=將盔甲和手持物品排列成一條水平線.
+module.armor_hud.setting.is_hotbar.name=饑餓條上方顯示
+module.armor_hud.setting.is_hotbar.description=在饑餓條上方顯示.
+module.armor_hud.setting.hand_title.name=手
+module.armor_hud.setting.hand_title.description=沒啥好說的, 手相關的調整.
+module.armor_hud.setting.show_main_hand.name=顯示主手
+module.armor_hud.setting.show_main_hand.description=顯示主手物品.
+module.armor_hud.setting.show_off_hand.name=顯示副手
+module.armor_hud.setting.show_off_hand.description=顯示副手物品.
+module.armor_hud.setting.durability_category.name=耐久度相關
+module.armor_hud.setting.durability_category.description=耐久度相關設置.
+module.armor_hud.setting.show_durability.name=顯示物品耐久度
+module.armor_hud.setting.show_durability.description=顯示物品的耐久度.
+module.armor_hud.setting.show_decorations.name=顯示物品的耐久條
+module.armor_hud.setting.show_decorations.description=顯示物品的耐久條.
+module.armor_hud.setting.java_decorations.name=使用Java版耐久顏色
+module.armor_hud.setting.java_decorations.description=使用Java版的耐久顏色.
+module.armor_hud.setting.durability_percent.name=百分比顯示
+module.armor_hud.setting.durability_percent.description=以百分比顯示耐久.
+module.armor_hud.setting.durability_over_max.name=顯示當前耐久/總耐久
+module.armor_hud.setting.durability_over_max.description=顯示物品當前耐久與物品總耐久.
+module.armor_hud.setting.item_category.name=物品相關
+module.armor_hud.setting.item_category.description=物品相關設置.
+module.armor_hud.setting.render_count.name=顯示物品數量
+module.armor_hud.setting.render_count.description=在物品上顯示物品數量.
+module.armor_hud.setting.count_all.name=計算所有同種物品
+module.armor_hud.setting.count_all.description=計算所有同種物品的數量.
+module.armor_hud.setting.text_category.name=文字設置
+module.armor_hud.setting.text_category.description=文字設置.
+module.armor_hud.setting.right_text.name=文字靠右
+module.armor_hud.setting.right_text.description=將文字靠右顯示.
+module.armor_hud.setting.text_color_follow_durability.name=文字顏色基於耐久度
+module.armor_hud.setting.text_color_follow_durability.description=基於耐久度去改變文字顏色.
+module.armor_hud.setting.render_in_containers.name=容器內顯示
+module.armor_hud.setting.render_in_containers.description=當打開容器/背包時依然顯示.
+module.armor_hud.setting.wish_glint.name=假附魔閃光
+module.armor_hud.setting.wish_glint.description=給老版本添加一個假的附魔閃光.
+module.armor_hud.setting.glint_speed.name=假閃光速度
+module.armor_hud.setting.glint_speed.description=調整假附魔閃光的速度.
+module.armor_hud.setting.glint_opacity.name=假閃光透明度
+module.armor_hud.setting.glint_opacity.description=改變假附魔閃光的透明度.
+module.armor_hud.setting.glint_color.name=假閃光顏色
+module.armor_hud.setting.glint_color.description=調整假附魔閃光的顏色.
 
 
 ## Arrow Counter
-module.arrow_counter.name=Arrow Counter
-module.arrow_counter.description=Displays how many arrows you have in your inventory.
-module.arrow_counter.setting.show_arrow_text.name=Show "Arrow:" Text
-module.arrow_counter.setting.show_arrow_text.description=Displays the text "Arrow:" along with the arrow count.
-module.arrow_counter.setting.only_display_holding_shooter.name=Only Display When Holding Bow/Crossbow
-module.arrow_counter.setting.only_display_holding_shooter.description=Shows the arrow count only when a bow/crossbow is held.
-module.arrow_counter.setting.hide_if_zero.name=Don't Display If No Arrows
-module.arrow_counter.setting.hide_if_zero.description=Hides the arrow count display if there are no arrows.
-module.arrow_counter.arrow_value=Arrow:
+module.arrow_counter.name=箭矢計數器
+module.arrow_counter.description=顯示你背包裏還剩下多少支箭.
+module.arrow_counter.setting.show_arrow_text.name=顯示 "箭矢:" 文本
+module.arrow_counter.setting.show_arrow_text.description=在箭矢數量前顯示 "箭矢:" 文本.
+module.arrow_counter.setting.only_display_holding_shooter.name=只在手持弓/弩時顯示
+module.arrow_counter.setting.only_display_holding_shooter.description=只在你手持著弓/弩時顯示箭矢計數器.
+module.arrow_counter.setting.hide_if_zero.name=沒箭不顯示
+module.arrow_counter.setting.hide_if_zero.description=當沒有箭矢時隱藏箭矢計數器.
+module.arrow_counter.arrow_value=箭矢:
 
 
 
 ## Audio Subtitles
-module.audio_subtitle.name=Audio Subtitles
-module.audio_subtitle.description=Shows the surrounding audio that's played in the world.
-module.audio_subtitle.setting.sound_category.name=Audio Settings
-module.audio_subtitle.setting.sound_category.description=Categorizes sound settings.
-module.audio_subtitle.setting.sound_display_time.name=Display Time (seconds)
-module.audio_subtitle.setting.sound_display_time.description=Specifies the duration for which subtitles appear.
-module.audio_subtitle.setting.newer_sounds_first.name=Newer Sound First
-module.audio_subtitle.setting.newer_sounds_first.description=Displays newer sounds before older ones.
-module.audio_subtitle.setting.ignore_useless_sounds.name=Hide Useless Sounds
-module.audio_subtitle.setting.ignore_useless_sounds.description=Hides subtitles for sounds considered unnecessary.
-module.audio_subtitle.setting.max_name_length.name=Maximum Name Length
-module.audio_subtitle.setting.max_name_length.description=Sets the maximum characters for sound names in subtitles.
-module.audio_subtitle.setting.max_column_count.name=Maximum Row Count
-module.audio_subtitle.setting.max_column_count.description=Specifies the maximum number of rows displayed for subtitles.
+module.audio_subtitle.name=音頻字幕
+module.audio_subtitle.description=顯示玩家周圍的聲音.
+module.audio_subtitle.setting.sound_category.name=聲音設置
+module.audio_subtitle.setting.sound_category.description=聲音設置類別.
+module.audio_subtitle.setting.sound_display_time.name=顯示時間 (秒)
+module.audio_subtitle.setting.sound_display_time.description=調整字幕的顯示持續時間.
+module.audio_subtitle.setting.newer_sounds_first.name=新的至上!
+module.audio_subtitle.setting.newer_sounds_first.description=將新的聲音顯示在舊的聲音之上.
+module.audio_subtitle.setting.ignore_useless_sounds.name=隱藏無用音頻
+module.audio_subtitle.setting.ignore_useless_sounds.description=隱藏被認為不必要的聲音的字幕.
+module.audio_subtitle.setting.max_name_length.name=最大名稱長度
+module.audio_subtitle.setting.max_name_length.description=設置字幕中聲音名稱的最大字符數.
+module.audio_subtitle.setting.max_column_count.name=最大行數
+module.audio_subtitle.setting.max_column_count.description=設置字幕顯示的最大行數.
 
 
 
 ## Break Progress Module
-module.break_progress.name=Break Progress Module
-module.break_progress.description=Displays the block destroy percentage.
-module.break_progress.setting.show_break_text.name=Show Break Text
-module.break_progress.setting.show_break_text.description=Displays the text "Break:" along with the block destroy percentage.
-module.break_progress.setting.bar_settings.name=Bar Settings
-module.break_progress.setting.bar_settings.description=Settings for the progress bar display.
-module.break_progress.setting.use_bar.name=Use Bar
-module.break_progress.setting.use_bar.description=Enables the use of a progress bar.
-module.break_progress.setting.always_display.name=Always display
-module.break_progress.setting.always_display.description=Keeps the progress display always visible.
-module.break_progress.setting.bar_size.name=Size
-module.break_progress.setting.bar_size.description=Adjusts the size of the progress bar.
-module.break_progress.setting.bar_color.name=Bar Color
-module.break_progress.setting.bar_color.description=Specifies the color of the progress bar.
-module.break_progress.setting.bar_back_color.name=Bar Background Color
-module.break_progress.setting.bar_back_color.description=Specifies the background color of the progress bar.
-module.break_progress.setting.bar_direction.name=Bar Direction
-module.break_progress.setting.bar_direction.description=Sets the direction of the progress bar.
-module.break_progress.break_text=Break:
+module.break_progress.name=挖掘進度顯示
+module.break_progress.description=顯示方塊挖掘的百分比.
+module.break_progress.setting.show_break_text.name=顯示"挖掘進度:"文本
+module.break_progress.setting.show_break_text.description=在百分比前顯示 "挖掘進度:" 文本.
+module.break_progress.setting.bar_settings.name=進度條設置
+module.break_progress.setting.bar_settings.description=進度條顯示的設置.
+module.break_progress.setting.use_bar.name=使用進度條
+module.break_progress.setting.use_bar.description=使用進度條去顯示.
+module.break_progress.setting.always_display.name=永遠可見
+module.break_progress.setting.always_display.description=讓進度條永遠可見.
+module.break_progress.setting.bar_size.name=大小
+module.break_progress.setting.bar_size.description=調整進度條的大小.
+module.break_progress.setting.bar_color.name=進度條顏色
+module.break_progress.setting.bar_color.description=選擇進度條的顏色.
+module.break_progress.setting.bar_back_color.name=進度條背景顏色
+module.break_progress.setting.bar_back_color.description=選擇進度條背景的顏色.
+module.break_progress.setting.bar_direction.name=進度條方向
+module.break_progress.setting.bar_direction.description=選擇進度條的方向.
+module.break_progress.break_text=挖掘進度:
 
 
 ## Clock Module
-module.clock.name=Clock Module
-module.clock.description=Displays the real-world time.
-module.clock.setting.add_spaces.name=Add Spaces
-module.clock.setting.add_spaces.description=Adds spaces between time components.
-module.clock.setting.game_time.name=Use Game Time
-module.clock.setting.game_time.description=Displays in-game time instead of real-world time.
-module.clock.setting.show_time_text.name=Show "Time:" Text
-module.clock.setting.show_time_text.description=Displays the text "Time:" along with the time.
-module.clock.setting.format_settings.name=Format Settings
-module.clock.setting.format_settings.description=Settings for time format.
-module.clock.setting.24_hour_format.name=24 Hour Format
-module.clock.setting.24_hour_format.description=Uses a 24-hour time format.
-module.clock.setting.show_seconds.name=Show Seconds
-module.clock.setting.show_seconds.description=Displays seconds in the time.
-module.clock.time_text=Time: 
+module.clock.name=時鐘
+module.clock.description=顯示時間.
+module.clock.setting.add_spaces.name=添加空格
+module.clock.setting.add_spaces.description=在時間顯示中添加空格.
+module.clock.setting.game_time.name=使用遊戲時間
+module.clock.setting.game_time.description=以遊戲內的時間代替顯示現實中的時間.
+module.clock.setting.show_time_text.name=顯示 "時間:" 文本
+module.clock.setting.show_time_text.description=在時間前顯示 "時間:" 文本.
+module.clock.setting.format_settings.name=格式設置
+module.clock.setting.format_settings.description=時間格式設置.
+module.clock.setting.24_hour_format.name=24小時製
+module.clock.setting.24_hour_format.description=使用24小時製.
+module.clock.setting.show_seconds.name=顯示秒
+module.clock.setting.show_seconds.description=顯示秒.
+module.clock.time_text=時間: 
 
 
 
 ## Combo Counter
-module.combo_counter.name=Combo Counter
-module.combo_counter.description=Shows the number of hits you land on an enemy without getting hit.
-module.combo_counter.setting.show_combo_text.name=Show "Combo:" Text
-module.combo_counter.setting.show_combo_text.description=Displays the text "Combo:" along with the combo count.
-module.combo_counter.setting.flash_when_hit.name=Flash Module Background When Hit
-module.combo_counter.setting.flash_when_hit.description=Triggers a background flash effect when hit.
-module.combo_counter.combo_text=Combo:
+module.combo_counter.name=連擊計數器
+module.combo_counter.description=顯示你連擊敵人的次數.
+module.combo_counter.setting.show_combo_text.name=顯示 "連擊:" 文本
+module.combo_counter.setting.show_combo_text.description=在連擊計數器旁顯示 "連擊:" 文本.
+module.combo_counter.setting.flash_when_hit.name=攻擊敵人時功能背景閃爍
+module.combo_counter.setting.flash_when_hit.description=在攻擊敵人時觸發一次連擊計數器功能背景閃爍.
+module.combo_counter.combo_text=連擊:
 
 
 
 ## Compass Module
-module.direction_hud.name=Direction HUD
-module.direction_hud.description=Displays the direction you're facing in degrees.
-module.direction_hud.setting.force_center.name=Always Centered
-module.direction_hud.setting.force_center.description=Keeps the display centered at all times.
-module.direction_hud.setting.slow_update.name=Slow Update
-module.direction_hud.setting.slow_update.description=Slows down the updating frequency.
-module.direction_hud.setting.fade_at.name=Fading Distance
-module.direction_hud.setting.fade_at.description=Specifies the distance at which the display starts fading.
-module.direction_hud.setting.use_xyz_instead_nsew.name=Use XYZ Instead of NESW
-module.direction_hud.setting.use_xyz_instead_nsew.description=Uses XYZ coordinates instead of North, East, South, West.
-module.direction_hud.setting.compass_amount.name=Range
-module.direction_hud.setting.compass_amount.description=Sets the range of the compass.
-module.direction_hud.setting.compass_width.name=Width
-module.direction_hud.setting.compass_width.description=Adjusts the width of the display.
+module.direction_hud.name=方向HUD
+module.direction_hud.description=顯示你所指向的方向的角度.
+module.direction_hud.setting.force_center.name=永遠居中
+module.direction_hud.setting.force_center.description=讓顯示框永遠居中.
+module.direction_hud.setting.slow_update.name=慢速刷新
+module.direction_hud.setting.slow_update.description=減慢刷新頻率.
+module.direction_hud.setting.fade_at.name=漸入/漸出距離
+module.direction_hud.setting.fade_at.description=設定HUD的漸入/漸出距離.
+module.direction_hud.setting.use_xyz_instead_nsew.name=用XYZ代替東南西北
+module.direction_hud.setting.use_xyz_instead_nsew.description=使用XYZ坐標來代替東南西北.
+module.direction_hud.setting.compass_amount.name=範圍
+module.direction_hud.setting.compass_amount.description=顯示指南針的範圍.
+module.direction_hud.setting.compass_width.name=寬度
+module.direction_hud.setting.compass_width.description=設定HUD的寬度.
 
 
 
 ## Cooldowns Module
-module.cooldowns.name=Cooldowns
-module.cooldowns.description=Displays the cooldown of items in your hotbar.
+module.cooldowns.name=冷卻時長
+module.cooldowns.description=顯示你物品欄裏的物品的冷卻時長.
 
 
 ## Coordinates
-module.coordinates.name=Coordinates
-module.coordinates.description=Displays your current coordinates.
-module.coordinates.setting.brackets.name=Brackets 
-module.coordinates.setting.brackets.description=Encloses coordinates within brackets.
-module.coordinates.setting.use_vanilla_coordinates.name=Use Vanilla Coordinates
-module.coordinates.setting.use_vanilla_coordinates.description=Displays coordinates in the vanilla format.
-module.coordinates.setting.show_xyz.name=Show X: Y: Z:
-module.coordinates.setting.show_xyz.description=Displays X, Y, Z labels alongside coordinates.
-module.coordinates.setting.same_line.name=Display on the Same Line
-module.coordinates.setting.same_line.description=Displays all information on a single line.
-module.coordinates.setting.precise.name=Display Precise Coordinates
-module.coordinates.setting.precise.description=Displays more precise coordinate values.
-module.coordinates.setting.biome_settings.name=Biome Settings
-module.coordinates.setting.biome_settings.description=Settings related to biome display.
-module.coordinates.setting.show_biome.name=Show Biome
-module.coordinates.setting.show_biome.description=Displays the biome information.
-module.coordinates.setting.automated_biome_color.name=Automatic Biome Color
-module.coordinates.setting.automated_biome_color.description=Automatically assigns colors based on biome.
-module.coordinates.setting.copy_settings.name=Copy Position Settings
-module.coordinates.setting.copy_settings.description=Settings for copying position information.
-module.coordinates.setting.copy_player_key.name=Copy Player Position Key
-module.coordinates.setting.copy_player_key.description=Key binding to copy the player's position.
-module.coordinates.setting.copy_selected_key.name=Copy Selected Position Key
-module.coordinates.setting.copy_selected_key.description=Key binding to copy the selected position.
+module.coordinates.name=坐標
+module.coordinates.description=顯示你的準確坐標.
+module.coordinates.setting.brackets.name=括號
+module.coordinates.setting.brackets.description=用括號框住坐標.
+module.coordinates.setting.use_vanilla_coordinates.name=使用原版坐標
+module.coordinates.setting.use_vanilla_coordinates.description=以原版形式顯示坐標.
+module.coordinates.setting.show_xyz.name=顯示 X: Y: Z:
+module.coordinates.setting.show_xyz.description=在每個坐標前面顯示X, Y, Z.
+module.coordinates.setting.same_line.name=在同行顯示
+module.coordinates.setting.same_line.description=把所有信息放到同一行去顯示.
+module.coordinates.setting.precise.name=顯示精確坐標
+module.coordinates.setting.precise.description=顯示更精確的坐標值.
+module.coordinates.setting.biome_settings.name=群系設置
+module.coordinates.setting.biome_settings.description=與生物群系顯示相關的設置.
+module.coordinates.setting.show_biome.name=顯示群系
+module.coordinates.setting.show_biome.description=顯示群系信息.
+module.coordinates.setting.automated_biome_color.name=自動群系顏色
+module.coordinates.setting.automated_biome_color.description=根據生物群系自動添加顏色.
+module.coordinates.setting.copy_settings.name=坐標復製設置
+module.coordinates.setting.copy_settings.description=坐標復製相關的設置.
+module.coordinates.setting.copy_player_key.name=復製玩家坐標鍵
+module.coordinates.setting.copy_player_key.description=復製玩家坐標的按鍵.
+module.coordinates.setting.copy_selected_key.name=復製選取方塊坐標鍵
+module.coordinates.setting.copy_selected_key.description=復製選取方塊的坐標的按鍵.
 
 
 
 ## CPS module
-module.cps.name=CPS Counter
-module.cps.description=Shows your clicks per second.
-module.cps.setting.hide_cps.name=Hide CPS text
-module.cps.setting.hide_cps.description=Hides the CPS text display.
-module.cps.setting.cps_after_value.name=CPS Text on Right Side
-module.cps.setting.cps_after_value.description=Displays CPS text on the right side of the count.
-module.cps.setting.show_right_click.name=Show Right Click CPS
-module.cps.setting.show_right_click.description=Displays CPS specifically for right-click actions.
-module.cps.setting.alternate_splitter.name=Use ":" Splitter
-module.cps.setting.alternate_splitter.description=Uses ":" as a splitter for CPS display.
+module.cps.name=CPS顯示
+module.cps.description=顯示你的CPS(鼠標每秒點擊次數).
+module.cps.setting.hide_cps.name=隱藏"CPS"文字
+module.cps.setting.hide_cps.description=不顯示"CPS"這串字.
+module.cps.setting.cps_after_value.name="CPS"顯示在右側
+module.cps.setting.cps_after_value.description=將"CPS"顯示在計數器右側.
+module.cps.setting.show_right_click.name=顯示右鍵CPS
+module.cps.setting.show_right_click.description=顯示你右鍵的CPS.
+module.cps.setting.alternate_splitter.name=使用 ":" 分割
+module.cps.setting.alternate_splitter.description=在CPS顯示時使用 ":" 進行分割.
 
 
 
 ## Day Counter Module
-module.day_counter.name=Day Counter
-module.day_counter.description=Displays the amount of in-game day or playtime.
-module.day_counter.setting.session_time.name=Session Time
-module.day_counter.setting.session_time.description=Tracks time within the current session.
-module.day_counter.setting.in_minecraft_day.name=Show in Minecraft Days
-module.day_counter.setting.in_minecraft_day.description=Displays time in Minecraft days.
-module.daycounter.days=%s Days
-module.daycounter.seconds=%s Seconds
+module.day_counter.name=天數計數器
+module.day_counter.description=顯示你的遊戲裏經過的天數或你的遊玩時長.
+module.day_counter.setting.session_time.name=遊玩時長
+module.day_counter.setting.session_time.description=記錄當前的遊玩時長.
+module.day_counter.setting.in_minecraft_day.name=以MC裏的天數顯示
+module.day_counter.setting.in_minecraft_day.description=顯示MC裏所經過的天數.
+module.daycounter.days=%s 天
+module.daycounter.seconds=%s 秒
 
 
 
 ## Flappy Bird Module
-module.flappy_bird.name=Flappy Bird
-module.flappy_bird.description=A Flappy Bird clone playable in Minecraft!
-module.flappy_bird.setting.high_quality.name=4k Graphics (Low FPS Warning)
-module.flappy_bird.setting.high_quality.description=Enables high-quality graphics (with a low FPS warning).
-module.flappy_bird.setting.keybind_settings.name=Keybind Settings
-module.flappy_bird.setting.keybind_settings.description=Settings for keybindings.
-module.flappy_bird.setting.jump_key.name=Jump Key
-module.flappy_bird.setting.jump_key.description=Key assigned for jumping.
-module.flappy_bird.setting.pause_key.name=Pause Key
-module.flappy_bird.setting.pause_key.description=Key assigned for pausing the game.
-module.flappy_bird.setting.auto_play.name=Auto Play
-module.flappy_bird.setting.auto_play.description=Enables automatic gameplay.
+module.flappy_bird.name=像素鳥
+module.flappy_bird.description=一個可以在MC裏玩的像素鳥!
+module.flappy_bird.setting.high_quality.name=高清貼圖 (掉幀警告)
+module.flappy_bird.setting.high_quality.description=啟用高質量貼圖 (小心掉幀).
+module.flappy_bird.setting.keybind_settings.name=按鍵綁定設置
+module.flappy_bird.setting.keybind_settings.description=按鍵綁定相關的設置.
+module.flappy_bird.setting.jump_key.name=跳躍鍵
+module.flappy_bird.setting.jump_key.description=用於跳躍的按鍵.
+module.flappy_bird.setting.pause_key.name=暫停鍵
+module.flappy_bird.setting.pause_key.description=用於暫停遊戲的按鍵.
+module.flappy_bird.setting.auto_play.name=自動
+module.flappy_bird.setting.auto_play.description=啟用自動模式.
 
 
 
 ## F P S Counter Module
-module.fps.name=FPS Counter
-module.fps.description=Displays your frames per second.
+module.fps.name=FPS顯示
+module.fps.description=顯示你的FPS.
 
 
 ## Item Tracker Module
-module.item_tracker.name=Item Tracker
-module.item_tracker.description=Displays when and how many items you pick up or drop.
-module.item_tracker.setting.max_displayed_changes.name=Max Displayed Changes
-module.item_tracker.setting.max_displayed_changes.description=Sets the maximum number of changes displayed.
-module.item_tracker.setting.display_time.name=Change Stay Time
-module.item_tracker.setting.display_time.description=Specifies the duration changes stay visible.
-module.item_tracker.setting.added_color.name=Added Color
-module.item_tracker.setting.added_color.description=Specifies the color for added items.
-module.item_tracker.setting.removed_color.name=Removed Color
-module.item_tracker.setting.removed_color.description=Specifies the color for removed items.
-module.item_tracker.setting.bracket_color.name=Bracket Color
-module.item_tracker.setting.bracket_color.description=Specifies the color for brackets.
-module.item_tracker.setting.ignored_slots.name=Ignored Slots
-module.item_tracker.setting.ignored_slots.description=Specifies slots to be ignored in tracking.
+module.item_tracker.name=物品追蹤器
+module.item_tracker.description=顯示您撿起或丟出物品的時間和數量.
+module.item_tracker.setting.max_displayed_changes.name=最多更改顯示次數
+module.item_tracker.setting.max_displayed_changes.description=選擇最多顯示多少條更改.
+module.item_tracker.setting.display_time.name=改變停留時間
+module.item_tracker.setting.display_time.description=選擇更改保持可見的持續時間.
+module.item_tracker.setting.added_color.name=被增加顏色
+module.item_tracker.setting.added_color.description=選擇被增加的物品的顏色.
+module.item_tracker.setting.removed_color.name=被移除顏色
+module.item_tracker.setting.removed_color.description=選擇被移除的物品的顏色.
+module.item_tracker.setting.bracket_color.name=括號顏色
+module.item_tracker.setting.bracket_color.description=選擇括號的顏色.
+module.item_tracker.setting.ignored_slots.name=忽略的物品槽
+module.item_tracker.setting.ignored_slots.description=選擇取消追蹤的物品槽.
 
 
 
 ## Keystrokes
-module.keystrokes.name=Keystrokes
-module.keystrokes.description=Displays your keystrokes on screen.
-module.keystrokes.setting.key_settings.name=Key Settings
-module.keystrokes.setting.key_settings.description=Settings related to keys.
-module.keystrokes.setting.key_width.name=Key Width
-module.keystrokes.setting.key_width.description=Adjusts the width of keys.
-module.keystrokes.setting.hide_cps.name=Hide CPS
-module.keystrokes.setting.hide_cps.description=Hides CPS display.
-module.keystrokes.setting.hide_mouse_buttons.name=Hide Mouse Buttons
-module.keystrokes.setting.hide_mouse_buttons.description=Hides mouse button display.
-module.keystrokes.setting.hide_spaceber.name=Hide Spacebar
-module.keystrokes.setting.hide_spaceber.description=Hides the spacebar display.
-module.keystrokes.setting.border_settings.name=Border Settings
-module.keystrokes.setting.border_settings.description=Settings for key borders.
-module.keystrokes.setting.key_border.name=Key Border
-module.keystrokes.setting.key_border.description=Enables key borders.
-module.keystrokes.setting.border_uses_text_color.name=Border Uses Text Color
-module.keystrokes.setting.border_uses_text_color.description=Uses text color for key borders.
-module.keystrokes.setting.border_width.name=Key Border Width
-module.keystrokes.setting.border_width.description=Specifies the width of key borders.
-module.keystrokes.setting.border_up_color.name=Up Border Color
-module.keystrokes.setting.border_up_color.description=Sets the color for the up border.
-module.keystrokes.setting.border_down_color.name=Down Border Color
-module.keystrokes.setting.border_down_color.description=Sets the color for the down border.
-module.keystrokes.setting.animation_settings.name=Animation Settings
-module.keystrokes.setting.animation_settings.description=Settings for keystroke animations.
-module.keystrokes.setting.fade_animation_on_text.name=Fade Animation on Text
-module.keystrokes.setting.fade_animation_on_text.description=Applies fade animation to text.
-module.keystrokes.setting.fade_animation_on_border.name=Fade Animation on Border
-module.keystrokes.setting.fade_animation_on_border.description=Applies fade animation to borders.
-module.keystrokes.setting.fade_animation_duration.name=Fade Animation Duration
-module.keystrokes.setting.fade_animation_duration.description=Specifies the duration of fade animations.
-module.keystrokes.setting.display_keybind_settings.name=Keybind Settings
-module.keystrokes.setting.display_keybind_settings.description=Settings for keybindings display.
-module.keystrokes.setting.key_forward.name=Forward Key
-module.keystrokes.setting.key_forward.description=Assigns the key for forward movement.
-module.keystrokes.setting.key_left.name=Left Key
-module.keystrokes.setting.key_left.description=Assigns the key for left movement.
-module.keystrokes.setting.key_back.name=Backward Key
-module.keystrokes.setting.key_back.description=Assigns the key for backward movement.
-module.keystrokes.setting.key_right.name=Right Key
-module.keystrokes.setting.key_right.description=Assigns the key for right movement.
-module.keystrokes.setting.key_is_arrow.name=Show Arrows Instead of Keys
-module.keystrokes.setting.key_is_arrow.description=Displays arrows instead of keys.
-module.keystrokes.setting.key_roundness.name=Button Roundess
-module.keystrokes.setting.key_roundness.description=Adjusts the roundness of keys.
-module.keystrokes.setting.font_size.name=Font Size
-module.keystrokes.setting.font_size.description=Specifies the font size.
-module.keystrokes.setting.cps_font_ratio.name=CPS To Font Ratio
-module.keystrokes.setting.cps_font_ratio.description=Adjusts CPS display relative to the font size.
-module.keystrokes.setting.spacebar_block_size.name=Spacebar Size
-module.keystrokes.setting.spacebar_block_size.description=Adjusts the size of the spacebar.
-module.keystrokes.setting.color_settings.name=Color Settings
-module.keystrokes.setting.color_settings.description=Settings for colors.
-module.keystrokes.setting.up_text_color.name=Up Text Color
-module.keystrokes.setting.up_text_color.description=Specifies the color for up text.
-module.keystrokes.setting.down_text_color.name=Down Text Color
-module.keystrokes.setting.down_text_color.description=Specifies the color for down text.
-module.keystrokes.setting.up_back_color.name=Up Background Color
-module.keystrokes.setting.up_back_color.description=Specifies the background color for up keys.
-module.keystrokes.setting.down_back_color.name=Down Background Color
-module.keystrokes.setting.down_back_color.description=Specifies the background color for down keys.
+module.keystrokes.name=按鍵顯示
+module.keystrokes.description=在屏幕上顯示你的按鍵.
+module.keystrokes.setting.key_settings.name=按鍵設置
+module.keystrokes.setting.key_settings.description=與按鍵相關的設置.
+module.keystrokes.setting.key_width.name=鍵寬
+module.keystrokes.setting.key_width.description=調整按鍵的寬度.
+module.keystrokes.setting.hide_cps.name=隱藏CPS
+module.keystrokes.setting.hide_cps.description=不顯示CPS.
+module.keystrokes.setting.hide_mouse_buttons.name=隱藏鼠標按鈕
+module.keystrokes.setting.hide_mouse_buttons.description=不顯示鼠標按鈕.
+module.keystrokes.setting.hide_spaceber.name=隱藏空格
+module.keystrokes.setting.hide_spaceber.description=不顯示空格.
+module.keystrokes.setting.border_settings.name=邊框設置
+module.keystrokes.setting.border_settings.description=按鍵邊框相關的設置.
+module.keystrokes.setting.key_border.name=啟用按鍵邊框
+module.keystrokes.setting.key_border.description=在按鍵周圍顯示邊框.
+module.keystrokes.setting.border_uses_text_color.name=邊框使用文本顏色
+module.keystrokes.setting.border_uses_text_color.description=給邊框使用文本顏色.
+module.keystrokes.setting.border_width.name=邊框寬度
+module.keystrokes.setting.border_width.description=指定按鍵邊框的寬度.
+module.keystrokes.setting.border_up_color.name=擡起邊框顏色
+module.keystrokes.setting.border_up_color.description=設置按鍵擡起時邊框的顏色.
+module.keystrokes.setting.border_down_color.name=按下邊框顏色
+module.keystrokes.setting.border_down_color.description=設置按鍵按下時邊框的顏色.
+module.keystrokes.setting.animation_settings.name=動畫設置
+module.keystrokes.setting.animation_settings.description=按鍵顯示動畫相關的設置.
+module.keystrokes.setting.fade_animation_on_text.name=文字淡入淡出動畫
+module.keystrokes.setting.fade_animation_on_text.description=將淡入淡出動畫應用於文字.
+module.keystrokes.setting.fade_animation_on_border.name=邊框淡入淡出動畫
+module.keystrokes.setting.fade_animation_on_border.description=將淡入淡出動畫應用於邊框.
+module.keystrokes.setting.fade_animation_duration.name=淡入淡出動畫持續時間
+module.keystrokes.setting.fade_animation_duration.description=調整淡入淡出動畫的持續時間.
+module.keystrokes.setting.display_keybind_settings.name=按鍵綁定設置
+module.keystrokes.setting.display_keybind_settings.description=按鍵綁定顯示之類的設置.
+module.keystrokes.setting.key_forward.name=前進鍵
+module.keystrokes.setting.key_forward.description=指定向前移動的鍵.
+module.keystrokes.setting.key_left.name=左移鍵
+module.keystrokes.setting.key_left.description=指定向左移動的鍵.
+module.keystrokes.setting.key_back.name=後退鍵
+module.keystrokes.setting.key_back.description=指定向後移動的鍵.
+module.keystrokes.setting.key_right.name=右移鍵
+module.keystrokes.setting.key_right.description=指定向右移動的鍵.
+module.keystrokes.setting.key_is_arrow.name=用箭頭代替按鍵
+module.keystrokes.setting.key_is_arrow.description=顯示箭頭而非按鍵.
+module.keystrokes.setting.key_roundness.name=圓角按鈕
+module.keystrokes.setting.key_roundness.description=調整按鍵的圓角效果.
+module.keystrokes.setting.font_size.name=字體大小
+module.keystrokes.setting.font_size.description=調整字體大小.
+module.keystrokes.setting.cps_font_ratio.name=CPS與字體比率
+module.keystrokes.setting.cps_font_ratio.description=相對於字體大小調整CPS顯示
+module.keystrokes.setting.spacebar_block_size.name=空格鍵大小
+module.keystrokes.setting.spacebar_block_size.description=調整空格鍵的大小.
+module.keystrokes.setting.color_settings.name=顏色設置
+module.keystrokes.setting.color_settings.description=顏色設置.
+module.keystrokes.setting.up_text_color.name=擡起文本顏色
+module.keystrokes.setting.up_text_color.description=調整按鍵擡起時文本的顏色.
+module.keystrokes.setting.down_text_color.name=按下文本顏色
+module.keystrokes.setting.down_text_color.description=調整按鍵按下時文本的顏色.
+module.keystrokes.setting.up_back_color.name=擡起背景顏色
+module.keystrokes.setting.up_back_color.description=調整按鍵擡起時背景的顏色.
+module.keystrokes.setting.down_back_color.name=按下背景顏色
+module.keystrokes.setting.down_back_color.description=調整按鍵按下時背景的顏色.
 
 
 
 ## Memory Usage Module
-module.memory_usage.name=Memory Usage
-module.memory_usage.description=Displays the RAM usage of the game.
-module.memory_usage.setting.percent.name=Show Percentage
-module.memory_usage.setting.percent.description=Displays the RAM usage as a percentage.
-module.memory_usage.setting.megabytes_only.name=Only Megabytes
-module.memory_usage.setting.megabytes_only.description=Displays the RAM usage in megabytes only.
+module.memory_usage.name=內存顯示
+module.memory_usage.description=顯示遊戲所使用的內存.
+module.memory_usage.setting.percent.name=以百分比顯示
+module.memory_usage.setting.percent.description=以百分比顯示遊戲所使用的內存.
+module.memory_usage.setting.megabytes_only.name=以MB為單位
+module.memory_usage.setting.megabytes_only.description=僅以兆字節(MB)為單位顯示內存使用情況.
 
 
 
 ## Minimap Module
-module.minimap.name=Minimap
-module.minimap.description=Displays a minimap on the screen.
+module.minimap.name=小地圖
+module.minimap.description=在屏幕上顯示一個小地圖.
 
 
 ## Movable Actionbar Module
-module..name=Movable Actionbar
-module..description=Allows you to customize the position of the actionbar.
+module.movable_actionbar.name=可移動動作欄
+module.movable_actionbar.description=允許你自定義動作欄的大小與位置.
 
 
 ## Movable Chat Module
-module.movable_chat.name=Movable Chat
-module.movable_chat.description=Enables chat customization and movement.
-module.movable_chat.setting.use_client_font.name=Use Client Font
-module.movable_chat.setting.use_client_font.description=Applies the client's font to the chat.
-module.movable_chat.setting.align_left.name=Aligned To The Left
-module.movable_chat.setting.align_left.description=Aligns the chat to the left side.
-module.movable_chat.setting.origin_from_top.name=Originate From Top
-module.movable_chat.setting.origin_from_top.description=Positions the chat originating from the top.
-module.movable_chat.setting.size_from_content_size.name=Match Message & Background Lengths
-module.movable_chat.setting.size_from_content_size.description=Synchronizes message and background lengths.
-module.movable_chat.setting.chat_width.name=Chatbox Width
-module.movable_chat.setting.chat_width.description=Adjusts the width of the chat box.
-module.movable_chat.setting.chat_lines.name=Chatbox Maximum Line Count
-module.movable_chat.setting.chat_lines.description=Sets the maximum line count in the chat box.
-module.movable_chat.setting.animation_settings.name=Animation Settings (Seconds)
-module.movable_chat.setting.animation_settings.description=Settings related to chat animations.
-module.movable_chat.setting.message_screen_time.name=Display Time
-module.movable_chat.setting.message_screen_time.description=Specifies the time messages are displayed.
-module.movable_chat.setting.message_inout_animation_speed.name=In/Out Animation Speed
-module.movable_chat.setting.message_inout_animation_speed.description=Controls the speed of message animations.
-module.movable_chat.setting.animations.name=Animations
-module.movable_chat.setting.animations.description=Manages chat animations.
-module.movable_chat.setting.animation_interpolator.name=Animation Interpolator
-module.movable_chat.setting.animation_interpolator.description=Specifies the animation interpolator.
-module.movable_chat.setting.text_shadow.name=Shadows
-module.movable_chat.setting.text_shadow.description=Manages text shadows in the chat.
-module.movable_chat.setting.default_text_color.name=Default Text Color
-module.movable_chat.setting.default_text_color.description=Sets the default text color in the chat.
-module.movable_chat.setting.bottom_chat_mode.name=Bottom Chat Mode
-module.movable_chat.setting.bottom_chat_mode.description=Activates bottom chat mode.
-module.movable_chat.setting.bottom_chat_height.name=Bottom Chat Height
-module.movable_chat.setting.bottom_chat_height.description=Adjusts the height of the bottom chat.
+module.movable_chat.name=可移動聊天框
+module.movable_chat.description=讓聊天框可被移動與自定義化.
+module.movable_chat.setting.use_client_font.name=使用客戶端的字體
+module.movable_chat.setting.use_client_font.description=讓聊天使用客戶端的字體.
+module.movable_chat.setting.align_left.name=向左對齊
+module.movable_chat.setting.align_left.description=讓聊天靠左對齊.
+module.movable_chat.setting.origin_from_top.name=新消息從頂部顯示
+module.movable_chat.setting.origin_from_top.description=將新消息從頂部開始顯示.
+module.movable_chat.setting.size_from_content_size.name=同步消息&背景長度
+module.movable_chat.setting.size_from_content_size.description=自動同步消息和背景的長度.
+module.movable_chat.setting.chat_width.name=聊天框寬度
+module.movable_chat.setting.chat_width.description=調整聊天框的寬度.
+module.movable_chat.setting.chat_lines.name=聊天框最大行數
+module.movable_chat.setting.chat_lines.description=設置聊天框內的最大行數.
+module.movable_chat.setting.animation_settings.name=動畫設置 (單位:秒)
+module.movable_chat.setting.animation_settings.description=與聊天動畫相關的設置.
+module.movable_chat.setting.message_screen_time.name=消息的顯示時間
+module.movable_chat.setting.message_screen_time.description=設置消息的顯示時間.
+module.movable_chat.setting.message_inout_animation_speed.name=進出動畫速度
+module.movable_chat.setting.message_inout_animation_speed.description=控製消息的動畫速度.
+module.movable_chat.setting.animations.name=消息動畫
+module.movable_chat.setting.animations.description=管理聊天動畫效果.
+module.movable_chat.setting.animation_interpolator.name=動畫插值器
+module.movable_chat.setting.animation_interpolator.description=管理動畫插值器.
+module.movable_chat.setting.text_shadow.name=消息字體影子
+module.movable_chat.setting.text_shadow.description=控製消息字體是否帶影子.
+module.movable_chat.setting.default_text_color.name=默認文字顏色
+module.movable_chat.setting.default_text_color.description=設置聊天框中的默認文字顏色.
+module.movable_chat.setting.bottom_chat_mode.name=底部聊天框
+module.movable_chat.setting.bottom_chat_mode.description=啟用底部聊天框模式.
+module.movable_chat.setting.bottom_chat_height.name=底部聊天框高度
+module.movable_chat.setting.bottom_chat_height.description=調整底部聊天框的高度.
 
 
 
 ## Movable Paperdoll Module
-module.movable_paperdoll.name=Movable Paperdoll
-module.movable_paperdoll.description=Enables movement and scaling of the paperdoll.
-module.movable_paperdoll.setting.always_render.name=Always Render
-module.movable_paperdoll.setting.always_render.description=Ensures the paperdoll is always visible.
+module.movable_paperdoll.name=可移動紙娃娃
+module.movable_paperdoll.description=允許你自定義紙娃娃的大小與位置.
+module.movable_paperdoll.setting.always_render.name=永遠顯示
+module.movable_paperdoll.setting.always_render.description=讓紙娃娃始終可見.
 
 
 
 ## Movable Scoreboard Module
-module.movable_scoreboard.name=Movable Scoreboard
-module.movable_scoreboard.description=Allows customization and movement of the scoreboard.
-module.movable_scoreboard.setting.show_title.name=Display Title
-module.movable_scoreboard.setting.show_title.description=Shows the scoreboard title.
-module.movable_scoreboard.setting.show_offline_players.name=Display Offline Players
-module.movable_scoreboard.setting.show_offline_players.description=Displays offline players on the scoreboard.
-module.movable_scoreboard.setting.show_show_entity.name=Display Entities (the -457485725478524 thing)
-module.movable_scoreboard.setting.show_show_entity.description=Shows entities on the scoreboard.
-module.movable_scoreboard.setting.show_score.name=Display Score Number
-module.movable_scoreboard.setting.show_score.description=Displays the score numbers.
-module.movable_scoreboard.setting.use_vanilla_position.name=Use Vanilla Position
-module.movable_scoreboard.setting.use_vanilla_position.description=Utilizes the default scoreboard position.
-module.movable_scoreboard.setting.scripting_invisible_please.name=As a Script I would like it to be invis pls :blushing:
-module.movable_scoreboard.setting.scripting_invisible_please.description=Hides the scoreboard.
-module.movable_scoreboard.setting.max_lines.name=Max Entries
-module.movable_scoreboard.setting.max_lines.description=Sets the maximum entries on the scoreboard.
-module.movable_scoreboard.setting.score_text_color.name=Score Text Color
-module.movable_scoreboard.setting.score_text_color.description=The color of the text for the score.
+module.movable_scoreboard.name=可移動計分板
+module.movable_scoreboard.description=允許你自定義計分板的位置.
+module.movable_scoreboard.setting.show_title.name=顯示標題
+module.movable_scoreboard.setting.show_title.description=顯示計分板的標題.
+module.movable_scoreboard.setting.show_offline_players.name=顯示下線玩家
+module.movable_scoreboard.setting.show_offline_players.description=在計分板上顯示下線玩家.
+module.movable_scoreboard.setting.show_show_entity.name=顯示實體 (比如 -457485725478524 這種)
+module.movable_scoreboard.setting.show_show_entity.description=在計分板上顯示實體.
+module.movable_scoreboard.setting.show_score.name=顯示分數
+module.movable_scoreboard.setting.show_score.description=顯示分數的數字.
+module.movable_scoreboard.setting.use_vanilla_position.name=使用默認位置
+module.movable_scoreboard.setting.use_vanilla_position.description=使計分板保持在默認位置.
+module.movable_scoreboard.setting.scripting_invisible_please.name=作為一個腳本, 我希望它是隱藏的, 求求了 :blushing:
+module.movable_scoreboard.setting.scripting_invisible_please.description=隱藏計分板.
+module.movable_scoreboard.setting.max_lines.name=最大條目數
+module.movable_scoreboard.setting.max_lines.description=設置計分板裏最多能顯示多少條目.
+module.movable_scoreboard.setting.score_text_color.name=分數顏色
+module.movable_scoreboard.setting.score_text_color.description=分數的顏色.
 
 
 
 ## Movable Title Module
-module..name=Movable Title
-module..description=Allows you to customize the position of the title.
+module.movable_title.name=可移動標題欄
+module.movable_title.description=允許你自定義標題欄的位置.
 
 
 ## Pack Display
-module.pack_display.name=Pack Display
-module.pack_display.description=Displays the name and description of your texture packs on screen.
-module.pack_display.setting.first_only.name=Only Display First Pack
-module.pack_display.setting.first_only.description=Displays only the first pack of the list.
-module.pack_display.setting.last_only.name=Only Display Last Pack
-module.pack_display.setting.last_only.description=Displays only the last pack of the list.
-module.pack_display.setting.show_description.name=Show Description
-module.pack_display.setting.show_description.description=Displays the pack description.
+module.pack_display.name=資源包顯示
+module.pack_display.description=在你的屏幕上顯示你材質包的名稱與信息.
+module.pack_display.setting.first_only.name=只顯示第一個包
+module.pack_display.setting.first_only.description=只顯示排在列表第一個的包.
+module.pack_display.setting.last_only.name=只顯示最後一個包
+module.pack_display.setting.last_only.description=只顯示排在列表最後一個的包.
+module.pack_display.setting.show_description.name=顯示描述
+module.pack_display.setting.show_description.description=顯示材質包的描述.
 
 
 ## Ping Display Module
-module.ping_display.name=Ping Display
-module.ping_display.description=Displays your ping to the server.
-module.ping_display.setting.display_average.name=Use Average Ping
-module.ping_display.setting.display_average.description=Displays the average ping.
-module.ping_display.setting.lowercase_ms.name=Lowercase MS
-module.ping_display.setting.lowercase_ms.description=Displays "ms" in lowercase.
-module.ping_display.setting.space.name=Space Between Ping and MS
-module.ping_display.setting.space.description=Adds space between the ping value and "ms".
+module.ping_display.name=延遲顯示
+module.ping_display.description=顯示你與服務器之間的延遲.
+module.ping_display.setting.display_average.name=平均延遲
+module.ping_display.setting.display_average.description=顯示你的平均延遲.
+module.ping_display.setting.lowercase_ms.name=小寫MS
+module.ping_display.setting.lowercase_ms.description=以小寫方式顯示 "ms".
+module.ping_display.setting.space.name=在延遲和ms之間添加空格
+module.ping_display.setting.space.description=在延遲數值與"ms"之間添加一個空格.
 module.ping_display.ms_abreviation_up=%sMS
 module.ping_display.ms_abreviation_low=%sms
 
 
 
 ## Pot Counter
-module.potion_counter.name=Pot Counter
-module.potion_counter.description=Shows the number of instant health potions you currently possess.
-module.potion_counter.setting.show_potion_text.name=Show "Potion: " Text
-module.potion_counter.setting.show_potion_text.description=Displays the text "Potion: " along with the potion count.
-module.potion_counter.setting.hide_without_items.name=Don't Display If No Potions
-module.potion_counter.setting.hide_without_items.description=Hides the counter if there are no potions.
-module.potion_counter.potion_text=Potion:
+module.potion_counter.name=藥水計數器
+module.potion_counter.description=顯示你背包裏剩余的治療藥水的數量.
+module.potion_counter.setting.show_potion_text.name=顯示 "藥水: " 文本
+module.potion_counter.setting.show_potion_text.description=在藥水計數器前顯示 "藥水: " 文本.
+module.potion_counter.setting.hide_without_items.name=沒藥水時隱藏
+module.potion_counter.setting.hide_without_items.description=當沒有藥水時不顯示.
+module.potion_counter.potion_text=藥水:
 
 
 ## Potion Hud
-module.potion_hud.name=Potion Hud
-module.potion_hud.description=Displays your current status effects and their duration.
-module.potion_hud.setting.icon_opacity.name=Icon Opacity
-module.potion_hud.setting.icon_opacity.description=Adjusts the opacity of the icons.
-module.potion_hud.setting.text_padding.name=Text Padding
-module.potion_hud.setting.text_padding.description=Manages the padding around text.
-module.potion_hud.setting.hide_icons.name=Hide Icons
-module.potion_hud.setting.hide_icons.description=Hides the icons.
-module.potion_hud.setting.hide_names.name=Hide Names
-module.potion_hud.setting.hide_names.description=Hides the effect names.
-module.potion_hud.setting.hide_timers.name=Hide Timers
-module.potion_hud.setting.hide_timers.description=Hides the effect timers.
-module.potion_hud.setting.brewing_guide_category.name=Brewing Guide Settings
-module.potion_hud.setting.brewing_guide_category.description=Settings related to brewing guides.
-module.potion_hud.setting.show_in_stand.name=Show Guide in Stand
-module.potion_hud.setting.show_in_stand.description=Displays the guide in the stand.
-module.potion_hud.setting.brewable_only.name=Doable Brews Only
-module.potion_hud.setting.brewable_only.description=Displays only brewable potions.
-module.potion_hud.brewing_guide.brew_longer=Longer Potion
-module.potion_hud.brewing_guide.brew_stronger=Stronger Potion
+module.potion_hud.name=藥水HUD
+module.potion_hud.description=顯示當前的狀態效果以及持續時間.
+module.potion_hud.setting.icon_opacity.name=圖標不透明度
+module.potion_hud.setting.icon_opacity.description=調整圖標的不透明度.
+module.potion_hud.setting.text_padding.name=文本填充
+module.potion_hud.setting.text_padding.description=管理文本周圍的填充.
+module.potion_hud.setting.hide_icons.name=隱藏圖標
+module.potion_hud.setting.hide_icons.description=將圖標隱藏.
+module.potion_hud.setting.hide_names.name=隱藏名稱
+module.potion_hud.setting.hide_names.description=將效果名稱隱藏.
+module.potion_hud.setting.hide_timers.name=隱藏計時器
+module.potion_hud.setting.hide_timers.description=將效果計時器隱藏.
+module.potion_hud.setting.brewing_guide_category.name=釀造指南設置
+module.potion_hud.setting.brewing_guide_category.description=與釀造指南相關的設置.
+module.potion_hud.setting.show_in_stand.name=在釀造臺中顯示指南
+module.potion_hud.setting.show_in_stand.description=在釀造臺UI中顯示釀造指南.
+module.potion_hud.setting.brewable_only.name=僅顯示可釀造的藥水
+module.potion_hud.setting.brewable_only.description=僅顯示可釀造的藥水.
+module.potion_hud.brewing_guide.brew_longer=增加時間
+module.potion_hud.brewing_guide.brew_stronger=增加效果
 
 
 
 ## Reach Display
-module.reach_display.name=Reach Display
-module.reach_display.description=Shows the reach of your last hit. Not 100% accurate due to latency!
-module.reach_display.setting.show_reach_text.name=Show \Reach:\ Text
-module.reach_display.setting.show_reach_text.description=Displays the "Reach" text.
-module.reach_display.reach_text=Reach:
+module.reach_display.name=攻擊距離顯示
+module.reach_display.description=顯示你上次攻擊時的攻擊距離. 並非100%準確!
+module.reach_display.setting.show_reach_text.name=顯示 \距離:\ 文本
+module.reach_display.setting.show_reach_text.description=顯示 "距離" 文本.
+module.reach_display.reach_text=距離:
 
 
 
 ## Server Module
-module.server_ip.name=Server IP
-module.server_ip.description=Displays the IP of the server you are playing on.
-module.server_ip.setting.show_port.name=Show Server Port
-module.server_ip.setting.show_port.description=Displays the server port along with the IP.
+module.server_ip.name=服務器IP
+module.server_ip.description=顯示你正在玩的服務器的IP地址.
+module.server_ip.setting.show_port.name=顯示服務器端口
+module.server_ip.setting.show_port.description=顯示服務器IP和端口.
 
 
 
 ## Snake
-module.snake.name=Snake
-module.snake.description=A Minecraft version of the classic game Snake!
-module.snake.setting.high_quality.name=HD Graphics (Low FPS Warning)
-module.snake.setting.high_quality.description=Enables high-definition graphics with a low FPS warning.
-module.snake.setting.key_up.name=Up Key
-module.snake.setting.key_up.description=Key used for upward movement.
-module.snake.setting.key_down.name=Down Key
-module.snake.setting.key_down.description=Key used for downward movement.
-module.snake.setting.key_left.name=Left Key
-module.snake.setting.key_left.description=Key used for leftward movement.
-module.snake.setting.key_right.name=Right Key
-module.snake.setting.key_right.description=Key used for rightward movement.
+module.snake.name=貪吃蛇
+module.snake.description=一個MC版本的經典遊戲: 貪吃蛇!
+module.snake.setting.high_quality.name=高清圖像 (掉幀警告)
+module.snake.setting.high_quality.description=啟用高清圖像 (小心掉幀).
+module.snake.setting.key_up.name=上鍵
+module.snake.setting.key_up.description=向上移動的按鍵.
+module.snake.setting.key_down.name=下鍵
+module.snake.setting.key_down.description=向下移動的按鍵.
+module.snake.setting.key_left.name=左鍵
+module.snake.setting.key_left.description=向左移動的按鍵.
+module.snake.setting.key_right.name=右鍵
+module.snake.setting.key_right.description=向右移動的按鍵.
 
 
 
 ## Soup Counter
-module.soup_counter.name=Soup Counter
-module.soup_counter.description=Shows the number of soups in your inventory.
-module.soup_counter.setting.hide_without_items.name=Don't display if no soups
-module.soup_counter.setting.hide_without_items.description=Hides the counter if no soups are in the inventory.
-module.soup_counter.setting.show_soup_text.name=Show "Soup: " Text
-module.soup_counter.setting.show_soup_text.description=Displays the text "Soup: " along with the soup count.
-module.soup_counter.soup_text=Soup:
+module.soup_counter.name=蘑菇煲計數器
+module.soup_counter.description=顯示你背包裏剩余的蘑菇煲數量.
+module.soup_counter.setting.hide_without_items.name=沒蘑菇煲時隱藏
+module.soup_counter.setting.hide_without_items.description=當你的背包裏沒有蘑菇煲時隱藏計數器.
+module.soup_counter.setting.show_soup_text.name=顯示 "蘑菇煲: " 文本
+module.soup_counter.setting.show_soup_text.description=在蘑菇煲計數器前顯示 "蘑菇煲: " 文本.
+module.soup_counter.soup_text=蘑菇煲:
 
 
 ## Speed Counter
-module.speed_display.name=Speed Display
-module.speed_display.description=Shows your speed in blocks per second.
-module.speed_display.setting.include_vertical_speed.name=Include Vertical Speed
-module.speed_display.setting.include_vertical_speed.description=Includes vertical speed in the display.
-module.speed_display.blocks_per_second=blocks/s
+module.speed_display.name=速度顯示
+module.speed_display.description=顯示你的移速(單位: 方塊/秒)
+module.speed_display.setting.include_vertical_speed.name=包含垂直速度
+module.speed_display.setting.include_vertical_speed.description=在顯示時包含移動速度
+module.speed_display.blocks_per_second=方塊/秒
 
 
 
 ## Stopwatch Module
-module.stopwatch.name=Stopwatch
-module.stopwatch.description=Displays a stopwatch on the screen.
-module.stopwatch.setting.start_stop_key.name=Start/Stop Key
-module.stopwatch.setting.start_stop_key.description=Key used to start or stop the stopwatch.
-module.stopwatch.setting.pause_unpause_key.name=Pause/Unpause Key
-module.stopwatch.setting.pause_unpause_key.description=Key used to pause or unpause the stopwatch.
+module.stopwatch.name=秒表
+module.stopwatch.description=在屏幕上顯示一個秒表
+module.stopwatch.setting.start_stop_key.name=開始/結束 按鍵
+module.stopwatch.setting.start_stop_key.description=用於開始或結束秒表的按鍵
+module.stopwatch.setting.pause_unpause_key.name=暫停/繼續 按鍵
+module.stopwatch.setting.pause_unpause_key.description=用於暫停或取消暫停的按鍵
 
 
 
 ## Visual Testing
-module.visual_testing.name=Visual Testing
+module.visual_testing.name=視覺測試
 module.visual_testing.description=
 
 
 ## Waila Module
-module.waila.name=WAILA
-module.waila.description=Displays information about blocks when you look at them.
-module.waila.setting.enable_outline.name=Outline
-module.waila.setting.enable_outline.description=Enables outline display.
-module.waila.setting.original_position.name=Use Original Mods Position
-module.waila.setting.original_position.description=Uses the original mod's position.
-module.waila.setting.height_offset.name=Height Offset
-module.waila.setting.height_offset.description=Adjusts the height offset for the display.
+module.waila.name=方塊信息
+module.waila.description=當你指向方塊時, 顯示方塊的相關信息.
+module.waila.setting.enable_outline.name=輪廓
+module.waila.setting.enable_outline.description=顯示輪廓.
+module.waila.setting.original_position.name=使用原版模組位置
+module.waila.setting.original_position.description=使用原版模組的位置.
+module.waila.setting.height_offset.name=高度偏移
+module.waila.setting.height_offset.description=調整顯示信息的高度偏移.

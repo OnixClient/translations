@@ -11,6 +11,7 @@ namespace TranslationRunner
         public string visual_name { get; set; }
         public string code { get; set; }
         public string url { get; set; }
+        public string compressed_url { get; set; }
         public int version { get; set; }
         public string md5 { get; set; }
 

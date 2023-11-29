@@ -1,5 +1,6 @@
 ﻿
 // Sets the right directory for the program to run
+using System.Threading.Channels;
 using TranslationRunner;
 using static TranslationRunner.LangFile;
 
@@ -38,6 +39,7 @@ foreach (string automatedLanguageFile in Directory.GetFiles(Path.Combine(Directo
         automatedLanguages.Add(autoLang.origin, autoLang);
         automatedTargets.Add(autoLang.target);
         Console.WriteLine($"Automated Language: {autoLang.origin} -> {autoLang.target}");
+
     }
     catch (Exception e)
     {
@@ -50,42 +52,41 @@ foreach (TranslationProject project in projects)
 {
     Console.WriteLine("Project: " + project.name);
     Console.WriteLine();
-    foreach (var changed in project.GetChanged())
+
+    foreach (var autoLang in automatedLanguages) {
+		TranslationLanguage? targetLang = project.GetLanguage(autoLang.Value.target);
+		TranslationLanguage? sourceLang = project.GetLanguage(autoLang.Value.origin);
+		if (!(targetLang is null) && !(sourceLang is null)) {
+			LangFile original = new LangFile(project.GetLanguagePath(sourceLang));
+			LangFile target = new LangFile();
+			target.AddAutoGenratedHeader(sourceLang.code);
+			foreach (var value in original.lines) {
+
+				if (value.IsEmpty || !value.HasKey) {
+					target.lines.Add(value);
+					continue;
+				}
+				string result = autoLang.Value.Correct(value.Key, value.Value);
+				target.lines.Add(new LangFile.Line(value.Comment, value.Key, result));
+			}
+			target.Save(project.GetLanguagePath(targetLang));
+		} else {
+			Console.WriteLine("Could not find target lang in index: " + autoLang.Value.target);
+		}
+	}
+
+	foreach (var changed in project.GetChanged())
     {
         if (automatedTargets.Contains(changed.code))
             continue; // Skip automated languages, as we will generate them later
         Console.WriteLine("Changed Language: " + changed.code);
-        if (automatedLanguages.ContainsKey(changed.code))
-        { // original language of this language changed, regenerate it
-            AutomatedLanguage autoLang = automatedLanguages[changed.code];
-            TranslationLanguage? targetLang = project.GetLanguage(autoLang.target);
-            if (!(targetLang is null))
-            {
-                Console.WriteLine("  Generating " + targetLang.code + " from " + changed.code);
-                LangFile original = new LangFile(changed.path);
-                LangFile target = new LangFile();
-                target.AddAutoGenratedHeader(changed.code);
-                foreach (var value in original.lines)
-                {
-                 
-                    if (value.IsEmpty || !value.HasKey)
-                    {
-                        target.lines.Add(value);
-                        continue;
-                    }
-                    string result = autoLang.Correct(value.Key, value.Value);
-                    target.lines.Add(new LangFile.Line(value.Comment, value.Key, result));
-                }
-                target.Save(project.GetLanguagePath(targetLang));
-            } else {
-                Console.WriteLine("Could not find target lang in index: " + autoLang.target);
-            }
-        }
     }
 
     //automated languages have been regenerated, now we can update the index
     project.ComputeChanges(); //to know about new regenerated languages
 
+    if (!Directory.Exists(Path.Combine(project.path, "compressed_languages")))
+		Directory.CreateDirectory(Path.Combine(project.path, "compressed_languages"));
     foreach (var changed in project.GetChanged())
     {
         string md5 = project.GetLatestKnownHash(changed.code);
@@ -99,6 +100,12 @@ foreach (TranslationProject project in projects)
             visual_name = changed.visual_name
         };
         project.UpdateLanguage(newLang);
+
+
+        string compressedFilePath = changed.path.Replace("languages", "compressed_languages");
+        if (File.Exists(compressedFilePath))
+			File.Delete(compressedFilePath);
+        Utils.CompressFile(changed.path, compressedFilePath);
     }
 
     LangFile mainLang = new LangFile(project.GetLanguagePath(project.GetLanguage("en_US")!));

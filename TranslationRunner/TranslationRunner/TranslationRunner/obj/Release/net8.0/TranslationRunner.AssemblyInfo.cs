@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TranslationRunner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0fe3f734d5e3d77ae9a0aecab2f6f56a08070fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df325864b8e06c96781cad24cc10bb4d5f283979")]
 [assembly: System.Reflection.AssemblyProductAttribute("TranslationRunner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TranslationRunner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

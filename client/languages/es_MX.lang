@@ -1,28 +1,28 @@
 ## Generic module settings
-module.module.setting.key.name=Toggle Module Key
-module.module.setting.key.description=The key that will toggle the module on and off.
-module.module.setting.visual_settings.name=Visual Settings
-module.module.setting.visual_settings.description=Settings to change the visual appearance of the module.
+module.module.setting.key.name=Módulo de alternancia tecla
+module.module.setting.key.description=El tecla que prende o apage el módulo.
+module.module.setting.visual_settings.name=Configuración Visual
+module.module.setting.visual_settings.description=Settings to change the visual appearance of the module. Configuración para combiar la apariencia del módulo.
 module.module.setting.display_settings.name=Display Settings
 module.module.setting.display_settings.description=Settings to change what the module displays.
 module.visual.setting.scale.name=Scale
-module.visual.setting.scale.description=The scale of the module, will multiply the size by the specified amount.
+module.visual.setting.scale.description=El escala del módulo, va a multiplicar el tamaño por el cantidad espesificado.
 module.visual.setting.padding.name=Padding
 module.visual.setting.padding.description=The padding of the module, will add the specified amount of pixels to the size around the text.
-module.visual.setting.text_color.name=Text Color
-module.visual.setting.text_color.description=The color of the text.
-module.visual.setting.back_color.name=Background Color
-module.visual.setting.back_color.description=The color of the background.
-module.visual.setting.blur_opacity.name=Blur Opacity
-module.visual.setting.blur_opacity.description=The opacity of the background blur.
+module.visual.setting.text_color.name=Color de texto
+module.visual.setting.text_color.description=El color del texto
+module.visual.setting.back_color.name=Color del fondo
+module.visual.setting.back_color.description=El color del fondo.
+module.visual.setting.blur_opacity.name=Desenfoque de opacidad
+module.visual.setting.blur_opacity.description=El opacidad del desenfoce fondo.
 module.visual.setting.has_outline.name=Outline
 module.visual.setting.has_outline.description=Whether or not the module has an outline.
 module.visual.setting.outline_color.name=Outline Color
 module.visual.setting.outline_color.description=The color of the outline.
 module.visual.setting.outline_width.name=Outline Width
 module.visual.setting.outline_width.description=The width of the outline.
-module.visual.setting.has_fixed_width.name=Use Fixed Width
-module.visual.setting.has_fixed_width.description=Keep the width like it is.
+module.visual.setting.has_fixed_width.name=Usar ancho fijado
+module.visual.setting.has_fixed_width.description=Mantener el ancho como esta
 module.visual.setting.fixed_width.name=Fixed Width
 module.visual.setting.fixed_width.description=What width should it be.
 module.visual.setting.precision.name=Precision
@@ -33,49 +33,49 @@ module.visual.setting.corner_quality.name=Rounded Corner Quality
 module.visual.setting.corner_quality.description=The quality of the rounded corners, higher the better, does not affect new renderer.
 module.visual.setting.expand_direction.name=Expand Direction
 module.visual.setting.expand_direction.description=The direction the module will expand in.
-module.visual.setting.anchor.name=Anchor
-module.visual.setting.anchor.description=The anchor of the module, the position will be relative to.
-module.visual.setting.position.name=Position
+module.visual.setting.anchor.name=Ancla
+module.visual.setting.anchor.description=El ancla del módulo, el posision que va a ser relativo a.
+module.visual.setting.position.name=Posision
 module.visual.setting.position.description=The raw position of the module.
 module.textual.setting.bracket_type.name=Bracket Type
 module.textual.setting.bracket_type.description=The type of brackets to use.
 module.textual.setting.space_between_brackets.name=Space Between Brackets
 module.textual.setting.space_between_brackets.description=Include a space between the brackets and text.
 
-module.module.setting.main_settings.name=Main Settings
-module.module.setting.main_settings.description=Settings to change the main functionality of the module.
-module.module.setting.miscellaneous_settings.name=Miscellaneous Settings
+module.module.setting.main_settings.name=Configuración principal
+module.module.setting.main_settings.description=Configuración para cambiar el funcionalidad del módulo.
+module.module.setting.miscellaneous_settings.name=Configuración Misceláneas
 module.module.setting.miscellaneous_settings.description=Settings to change miscellaneous functionality of the module.
 module.module.setting.render_settings.name=Render Settings
 module.module.setting.render_settings.description=Settings that affect the rendering of the module.
 
 ## Generic Gui
-gui.yes=Yes
+gui.yes=Sì
 gui.no=No
-gui.on=On
-gui.off=Off
-gui.enabled=Enabled
-gui.disabled=Disabled
+gui.on=Encendido
+gui.off=Apagado
+gui.enabled=Activado
+gui.disabled=Desactivado
 gui.toggle=Toggle
-gui.toggle_on=Toggle On
-gui.toggle_off=Toggle Off
-gui.width=Width
-gui.height=Height
-gui.new=New
-gui.create=Create
-gui.delete=Delete
-gui.edit=Edit
-gui.save=Save
-gui.cancel=Cancel
-gui.back=Back
-gui.reset=Reset
+gui.toggle_on=Activar
+gui.toggle_off=Desactivar
+gui.width=Ancho
+gui.height=Altura
+gui.new=Nuevo
+gui.create=Crear
+gui.delete=Borrar
+gui.edit=Editar
+gui.save=Salvar
+gui.cancel=Cancelar
+gui.back=Atras
+gui.reset=Restablecer
 gui.undo=Undo
-gui.reset_all=Reset All
-gui.confirm=Confirm
-gui.are_you_sure=Are you sure?
-gui.create_new=Create New %s
-gui.accept=Accept
-gui.deny=Deny
+gui.reset_all=Restablecer todo
+gui.confirm=Confimar
+gui.are_you_sure=Estas Seguro?
+gui.create_new=Crear Nuevo %s
+gui.accept=Acceptar
+gui.deny=Denegar
 
 
 ## Module Guis
@@ -201,8 +201,8 @@ module.global_settings.setting.use_new_renderer.name=Use New Renderer
 module.global_settings.setting.use_new_renderer.description=Utilizes the new renderer.
 
 ## hi translators, dont question why this is here, just translate it
-module.global_settings.setting.show_if_rosie_blushes.name=Show If Rosie Is Blushing
-module.global_settings.setting.show_if_rosie_blushes.description=Shows if Rosie is blushing.
+module.global_settings.setting.show_if_rosie_blushes.name=Muestra si Rosie esta sonrojado.
+module.global_settings.setting.show_if_rosie_blushes.description=Se Muestra si Rosie esta sonrojado.
 
 module.global_settings.setting.blur_settings_category.name=Blur Settings
 module.global_settings.setting.blur_settings_category.description=Settings related to blurring.
@@ -376,157 +376,157 @@ module.cinematic_camera.setting.toggle_mode.name=Toggle Mode
 module.cinematic_camera.setting.toggle_mode.description=Makes it so that you can toggle the cinematic camera on and off.
 
 ## Color Options
-module.color_options.name=Color Options
-module.color_options.description=Allows you to change the color of the client.
-module.color_options.setting.rgb_category.name=RGB Category
-module.color_options.setting.rgb_category.description=Settings for RGB.
-module.color_options.setting.rgb_speed.name=RGB Speed
-module.color_options.setting.rgb_speed.description=The speed of the RGB.
-module.color_options.setting.rgb_brightness.name=RGB Brightness
-module.color_options.setting.rgb_brightness.description=The brightness of the RGB.
-module.color_options.setting.test_rgb_color.name=Test RGB Color
-module.color_options.setting.test_rgb_color.description=Test the RGB color.
-module.color_options.setting.chroma_category.name=Chroma Category
-module.color_options.setting.chroma_category.description=Settings for Chroma.
-module.color_options.setting.chroma_size.name=Chroma Size
-module.color_options.setting.chroma_size.description=The size of the Chroma.
-module.color_options.setting.chroma_speed.name=Chroma Speed
-module.color_options.setting.chroma_speed.description=The speed of the Chroma.
-module.color_options.setting.chroma_rotation.name=Chroma Rotation
-module.color_options.setting.chroma_rotation.description=The rotation of the Chroma.
-module.color_options.setting.test_chroma_color.name=Test Chroma Color
-module.color_options.setting.test_chroma_color.description=Test the Chroma color.
-module.color_options.setting.color_presets.name=Color Presets
+module.color_options.name=Opciones de color
+module.color_options.description=Te permite cambiar el color del cliente.
+module.color_options.setting.rgb_category.name=Categoría RGB
+module.color_options.setting.rgb_category.description=Configuraciónes para RGB.
+module.color_options.setting.rgb_speed.name=RGB Velocidad
+module.color_options.setting.rgb_speed.description=Velocidad del RGB
+module.color_options.setting.rgb_brightness.name=Brillo RGB
+module.color_options.setting.rgb_brightness.description=El brillo del RGB.
+module.color_options.setting.test_rgb_color.name=Color RGB Prueba
+module.color_options.setting.test_rgb_color.description=Prueba el color RGB.
+module.color_options.setting.chroma_category.name=Categoría de Croma
+module.color_options.setting.chroma_category.description=Configuraciónes para Croma.
+module.color_options.setting.chroma_size.name=Croma Tamaño
+module.color_options.setting.chroma_size.description=El tamaño del Croma.
+module.color_options.setting.chroma_speed.name=Croma Velocidad.
+module.color_options.setting.chroma_speed.description=El Velocidad del Croma.
+module.color_options.setting.chroma_rotation.name=Croma Rotación
+module.color_options.setting.chroma_rotation.description=El rotación del Croma.
+module.color_options.setting.test_chroma_color.name=Prueba el Color Croma
+module.color_options.setting.test_chroma_color.description=Prueba el color Croma.
+module.color_options.setting.color_presets.name=Ajustes Preestablecidos de Color
 module.color_options.setting.color_presets.description=Choose from preset color options.
-module.color_options.setting.color_preset.name=Color Preset %s
-module.color_options.setting.color_preset.description=Change the preset %s in the color picker.
-module.color_options.setting.color_options_category.name=Color Options Category
-module.color_options.setting.color_options_category.description=Settings for color options.
-module.color_options.setting.color_options.button=Open Theme Editor
-module.color_options.setting.color_options.description=Open the theme editor.
-module.color_options.setting.color_options.description=Allows you to change the color of the client.
-module.color_options.setting.chroma_presets.name=Chroma Presets
-module.color_options.setting.chroma_presets.description=Choose from preset Chroma optionas.
-module.color_options.setting.chroma_color.name=Chroma Color %s
-module.color_options.setting.chroma_color.description=The color %s of the chroma gradient
-module.color_options.setting.chroma_color_add.name=Add Color to Gradient
-module.color_options.setting.chroma_color_add.description=Adds a color to the chroma gradient.
-module.color_options.setting.chroma_color_add.button=Add
-module.color_options.setting.chroma_color_remove.name=Remove Last Color From Gradient
-module.color_options.setting.chroma_color_remove.description=Removes the last color from the chroma gradient.
-module.color_options.setting.chroma_color_remove.button=Remove Last
-module.color_options.setting.client_colors.name=Client Colors
-module.color_options.setting.client_colors.description=Options to change the client's colors.
-module.color_options.setting.chroma_colors.name=Chroma Colors
-module.color_options.setting.chroma_colors.description=Options to change the chroma color.
-module.color_options.setting.open_theme_editor.name=Open Theme Editor
-module.color_options.setting.open_theme_editor.description=Opens the theme editor to change the client's ui.
-module.color_options.setting.open_theme_editor.button=Open
+module.color_options.setting.color_preset.name=Color Preestablecido %s
+module.color_options.setting.color_preset.description=Cambiar el %s preestablecido en el selector de color.
+module.color_options.setting.color_options_category.name=Categoría de opciones de color
+module.color_options.setting.color_options_category.description=Configuraciónes para los opciones de color.
+module.color_options.setting.color_options.button=Abrir Editor de Temas
+module.color_options.setting.color_options.description=Abrir El Editor de Temas
+module.color_options.setting.color_options.description=Te permite cambiar el color del cliente.
+module.color_options.setting.chroma_presets.name=Ajustes preestablecidos de croma
+module.color_options.setting.chroma_presets.description=Elija entre las opciones de Chroma preestablecidas.
+module.color_options.setting.chroma_color.name=Color Croma %s
+module.color_options.setting.chroma_color.description=El color %s del gradiente cromático.
+module.color_options.setting.chroma_color_add.name=Agregar al Color Gradiente.
+module.color_options.setting.chroma_color_add.description=Agrega un color al croma gradiente.
+module.color_options.setting.chroma_color_add.button=Agregar
+module.color_options.setting.chroma_color_remove.name=Eliminar el último color del gradiente
+module.color_options.setting.chroma_color_remove.description=Elimina el último color del degradado cromático.
+module.color_options.setting.chroma_color_remove.button=Eliminar último
+module.color_options.setting.client_colors.name=Colores del cliente
+module.color_options.setting.client_colors.description=Opciones para cambiar el color del cliente.
+module.color_options.setting.chroma_colors.name=Colores croma
+module.color_options.setting.chroma_colors.description=Opciones para cambiar el color croma.
+module.color_options.setting.open_theme_editor.name=Abrir Editor de Temas
+module.color_options.setting.open_theme_editor.description=Abre el editor de temas para cambiar la interfaz de usuario del cliente.
+module.color_options.setting.open_theme_editor.button=Abrir
 
 
 
 ## Creative Tools
-module.creative_tools.name=Creative Tools
-module.creative_tools.description=Various tools to help with creative mode.\nNote: Only use this with permission if you are on someone else's world/server.
+module.creative_tools.name=Herramientas Creativas
+module.creative_tools.description=Varias herramientas para alludar con el modo creativo.\nNota: Solo usa esto con permiso si estas en el mundo/servidor de alguien.
 
-module.creative_tools.setting.block_reach_settings_category.name=Block Reach Settings
-module.creative_tools.setting.block_reach_settings_category.description=Settings to change the block reach settings.
-module.creative_tools.setting.use_block_reach.name=Change Block Reach
-module.creative_tools.setting.use_block_reach.description=Whether or not to change the block reach.
-module.creative_tools.setting.block_reach.name=Block Reach
-module.creative_tools.setting.block_reach.description=The block reach.
-module.creative_tools.setting.block_reach_warning.name=Block Reach Warning
-module.creative_tools.setting.block_reach_warning.description=Warning: block reach may be capped by the server!
+module.creative_tools.setting.block_reach_settings_category.name=Configuración para alcanzar los bloques.
+module.creative_tools.setting.block_reach_settings_category.description=Configuración para cambiar el alcanze a los bloques.
+module.creative_tools.setting.use_block_reach.name=Cambiar el alcanze a los bloques.
+module.creative_tools.setting.use_block_reach.description=Que si o que no para cambiar el alcanze de los bloques.
+module.creative_tools.setting.block_reach.name=Alcanze los bloques.
+module.creative_tools.setting.block_reach.description=El alcanze a los bloques.
+module.creative_tools.setting.block_reach_warning.name=Advertencia de alcanze de bloques.
+module.creative_tools.setting.block_reach_warning.description=Advertencia: El alcanze de bloques puede ser capado por el servidor.
 
-module.creative_tools.setting.jetpack_settings_category.name=Jetpack Settings
-module.creative_tools.setting.jetpack_settings_category.description=Settings to change the jetpack settings.
-module.creative_tools.setting.jetpack_key.name=Jetpack Key
-module.creative_tools.setting.jetpack_key.description=The key that will toggle the jetpack on and off.
-module.creative_tools.setting.jetpack_speed.name=Jetpack Speed
-module.creative_tools.setting.jetpack_speed.description=The speed of the jetpack.
-module.creative_tools.setting.jetpack_sprint_multiplier.name=Jetpack Sprint Multiplier
-module.creative_tools.setting.jetpack_sprint_multiplier.description=The sprint multiplier of the jetpack.
+module.creative_tools.setting.jetpack_settings_category.name=Configuración de mochila propulsora.
+module.creative_tools.setting.jetpack_settings_category.description=Configuraciónes para cambiar el mochila propulsora configuración.
+module.creative_tools.setting.jetpack_key.name=Tecla del mochila propulsora
+module.creative_tools.setting.jetpack_key.description=La tecla que activará y desactivará el mochila propulsora.
+module.creative_tools.setting.jetpack_speed.name=Velocidad del mochila propulsora.
+module.creative_tools.setting.jetpack_speed.description=El velocidad del mochila propulsora.
+module.creative_tools.setting.jetpack_sprint_multiplier.name=Mochila propulsora Corriendo Multiplicador
+module.creative_tools.setting.jetpack_sprint_multiplier.description=El corriendo multiplicador del mochila propulsora.
 
-module.creative_tools.setting.freecam_settings_category.name=Freecam Settings
-module.creative_tools.setting.freecam_settings_category.description=Settings to change the freecam settings.
-module.creative_tools.setting.freecam_key.name=Freecam Key
-module.creative_tools.setting.freecam_key.description=The key that will toggle the freecam on and off.
-module.creative_tools.setting.freecam_teleport_key.name=Teleport to Camera Key
-module.creative_tools.setting.freecam_teleport_key.description=The key that will teleport you to the camera.
-module.creative_tools.setting.freecam_speed.name=Freecam Speed
-module.creative_tools.setting.freecam_speed.description=The speed of the freecam.
-module.creative_tools.setting.freecam_sprint_multiplier.name=Freecam Sprint Multiplier
-module.creative_tools.setting.freecam_sprint_multiplier.description=The sprint multiplier of the freecam.
-module.creative_tools.setting.freecam_position_x.name=Freecam Position X
-module.creative_tools.setting.freecam_position_x.description=The X position of the freecam.
-module.creative_tools.setting.freecam_position_y.name=Freecam Position Y
-module.creative_tools.setting.freecam_position_y.description=The Y position of the freecam.
-module.creative_tools.setting.freecam_position_z.name=Freecam Position Z
-module.creative_tools.setting.freecam_position_z.description=The Z position of the freecam.
-module.creative_tools.setting.spectator_toggle_key.name=Spectator Toggle Key
-module.creative_tools.setting.spectator_toggle_key.description=The key that will toggle spectator mode on and off.
+module.creative_tools.setting.freecam_settings_category.name=Configuración De mochila propulsora
+module.creative_tools.setting.freecam_settings_category.description=Configuración para cambiar el configuración del cámara libre.
+module.creative_tools.setting.freecam_key.name=Tecla de cámara libre.
+module.creative_tools.setting.freecam_key.description=La tecla que activará y desactivará el jetpack.
+module.creative_tools.setting.freecam_teleport_key.name=La tecla para teletransportarse a la cámara libre
+module.creative_tools.setting.freecam_teleport_key.description=El tecla que te teletransportará al camara libre.
+module.creative_tools.setting.freecam_speed.name=Velocidad del camara libre.
+module.creative_tools.setting.freecam_speed.description=El velocidad del camara libre.
+module.creative_tools.setting.freecam_sprint_multiplier.name=Corriendo multiplicador del camara libre.
+module.creative_tools.setting.freecam_sprint_multiplier.description=El corriendo multiplicador del camara libre.
+module.creative_tools.setting.freecam_position_x.name=Camara libre Posision X
+module.creative_tools.setting.freecam_position_x.description=El posision X del camara libre.
+module.creative_tools.setting.freecam_position_y.name=Posision del camara libre Y
+module.creative_tools.setting.freecam_position_y.description=El posision Y del camara libre
+module.creative_tools.setting.freecam_position_z.name=Camara libre posision Z
+module.creative_tools.setting.freecam_position_z.description=El posision Z del camara libre.
+module.creative_tools.setting.spectator_toggle_key.name=Tecla para activar y desactivar el modo espectador
+module.creative_tools.setting.spectator_toggle_key.description=La tecla que activará y desactivará el modo espectador.
 
-module.creative_tools.setting.phase_settings_category.name=Phase Settings
-module.creative_tools.setting.phase_settings_category.description=Settings to change the phase settings.
-module.creative_tools.setting.phase_key.name=Phase Key
-module.creative_tools.setting.phase_key.description=The key that will toggle phase on and off.
-module.creative_tools.setting.phase_vertically.name=Phase Vertically
-module.creative_tools.setting.phase_vertically.description=Whether or not to phase vertically.
+module.creative_tools.setting.phase_settings_category.name=Configuración de fase
+module.creative_tools.setting.phase_settings_category.description=Configuración para cambiar los configurationsde fase.
+module.creative_tools.setting.phase_key.name=Tecla de Fase
+module.creative_tools.setting.phase_key.description=La tecla que activará y desactivará la fase
+module.creative_tools.setting.phase_vertically.name=Fase Verticalmente
+module.creative_tools.setting.phase_vertically.description=Que si o no fase verticalmente.
 
-module.creative_tools.setting.auto_clicker_settings_category.name=AutoClicker Settings
-module.creative_tools.setting.auto_clicker_settings_category.description=Settings for auto clicker.
-module.creative_tools.setting.auto_clicker_key.name=Toggle Auto Clicking
-module.creative_tools.setting.auto_clicker_key.description=Toggle auto clicking on and off.
-module.creative_tools.setting.fast_auto_clicker.name=Fast Auto Clicker
-module.creative_tools.setting.fast_auto_clicker.description=Enable fast auto clicking.
+module.creative_tools.setting.auto_clicker_settings_category.name=Configuraciónes Para Clicker Automático
+module.creative_tools.setting.auto_clicker_settings_category.description=Configuración para el clicker automático
+module.creative_tools.setting.auto_clicker_key.name=Alternar clic automático
+module.creative_tools.setting.auto_clicker_key.description=Activar y desactivar el clicker automático
+module.creative_tools.setting.fast_auto_clicker.name=Clicker Automático Rápido
+module.creative_tools.setting.fast_auto_clicker.description=Permitir el clicker automático rápido
 
-module.creative_tools.setting.clicktp_settings_category.name=ClickTP Settings
-module.creative_tools.setting.clicktp_settings_category.description=Settings for ClickTP.
-module.creative_tools.setting.clicktp_key.name=ClickTP Key
-module.creative_tools.setting.clicktp_key.description=Key to trigger ClickTP.
-module.creative_tools.setting.clicktp_toggle.name=ClickTP is Toggle
-module.creative_tools.setting.clicktp_toggle.description=Toggle ClickTP mode.
-module.creative_tools.setting.clicktp_lerp.name=Teleportation Lerp
-module.creative_tools.setting.clicktp_lerp.description=Enable teleportation lerping.
-module.creative_tools.setting.clicktp_max_distance.name=Max TP Distance
-module.creative_tools.setting.clicktp_max_distance.description=Maximum distance for ClickTP.
+module.creative_tools.setting.clicktp_settings_category.name=Configuración de ClicTP
+module.creative_tools.setting.clicktp_settings_category.description=Settings for ClicTP.
+module.creative_tools.setting.clicktp_key.name=Tecla de clicTP
+module.creative_tools.setting.clicktp_key.description=Tecla para ensender ClicTP
+module.creative_tools.setting.clicktp_toggle.name=ClicTP es alternar
+module.creative_tools.setting.clicktp_toggle.description=Toggle ClicTP mode.
+module.creative_tools.setting.clicktp_lerp.name=Teleportacion Lerp
+module.creative_tools.setting.clicktp_lerp.description=Permitir Teleportacion Lerp
+module.creative_tools.setting.clicktp_max_distance.name=Distancia de TP máximo.
+module.creative_tools.setting.clicktp_max_distance.description=Máximo distancia para ClicTP.
 
-module.creative_tools.setting.command_block_esp_settings_category.name=Command Block ESP Settings
-module.creative_tools.setting.command_block_esp_settings_category.description=Settings for Command Block ESP.
-module.creative_tools.setting.command_block_esp_enabled.name=Command Block ESP
-module.creative_tools.setting.command_block_esp_enabled.description=Toggle Command Block ESP.
-module.creative_tools.setting.command_block_esp_key.name=Command Block ESP Key
-module.creative_tools.setting.command_block_esp_key.description=Key to toggle Command Block ESP.
-module.creative_tools.setting.command_block_esp_opacity.name=Command Block ESP Opacity
-module.creative_tools.setting.command_block_esp_opacity.description=Opacity of Command Block ESP.
-module.creative_tools.setting.command_block_esp_radius.name=Command Block ESP Radius
-module.creative_tools.setting.command_block_esp_radius.description=Radius of Command Block ESP.
-module.creative_tools.setting.esp_command_blocks_behind.name=ESP Command Blocks Behind You
-module.creative_tools.setting.esp_command_blocks_behind.description=Render ESP for blocks that are behind you.
-module.creative_tools.setting.command_block_esp_type.name=Command Block ESP Type
-module.creative_tools.setting.command_block_esp_type.description=Type of Command Block ESP.
+module.creative_tools.setting.command_block_esp_settings_category.name=Configuración para bloques de comando ESP
+module.creative_tools.setting.command_block_esp_settings_category.description=Configuraciónes para bloques de comando ESP
+module.creative_tools.setting.command_block_esp_enabled.name=Bloques de comando ESP
+module.creative_tools.setting.command_block_esp_enabled.description=Alternar el bloque de comando ESP.
+module.creative_tools.setting.command_block_esp_key.name=Tecla para los bloques de comando ESP
+module.creative_tools.setting.command_block_esp_key.description=Tecla Para Alternar el Bloque de Comando ESP.
+module.creative_tools.setting.command_block_esp_opacity.name=Opacidad del Bloque De Commando ESP
+module.creative_tools.setting.command_block_esp_opacity.description=Opacidad De Los Bloques De Commando ESP.
+module.creative_tools.setting.command_block_esp_radius.name=Radio Para el Bloque de Comando ESP.
+module.creative_tools.setting.command_block_esp_radius.description=Radio del Bloque de Comando ESP.
+module.creative_tools.setting.esp_command_blocks_behind.name=ESP de los bloques de commando detrás de ti.
+module.creative_tools.setting.esp_command_blocks_behind.description=Renderizar el ESP para los bloques detrás de ti.
+module.creative_tools.setting.command_block_esp_type.name=Tipo de Bloque De Comando ESP
+module.creative_tools.setting.command_block_esp_type.description=Tipo de Bloque De Comando ESP.
 
-module.creative_tools.setting.elevation_settings_category.name=Elevation Settings
-module.creative_tools.setting.elevation_settings_category.description=Settings for elevation.
-module.creative_tools.setting.ascend_key.name=Ascend Key
-module.creative_tools.setting.ascend_key.description=Key to ascend.
-module.creative_tools.setting.descend_key.name=Descend Key
-module.creative_tools.setting.descend_key.description=Key to descend.
+module.creative_tools.setting.elevation_settings_category.name=Configuraciónes De Elevación
+module.creative_tools.setting.elevation_settings_category.description=Configuraciónes para Elevación.
+module.creative_tools.setting.ascend_key.name=Tecla para Ascender
+module.creative_tools.setting.ascend_key.description=Tecla para Ascender.
+module.creative_tools.setting.descend_key.name=Tecla para Descender
+module.creative_tools.setting.descend_key.description=Tecla para Descender.
 
-module.creative_tools.setting.stop_all_momentum_key.name=Stop All Momentum Key
-module.creative_tools.setting.stop_all_momentum_key.description=Key to stop all momentum.
-module.creative_tools.setting.hold_to_stop_momentum.name=Hold To Stop All Momentum
-module.creative_tools.setting.hold_to_stop_momentum.description=Hold to stop all momentum.
+module.creative_tools.setting.stop_all_momentum_key.name=Tecla Para Detener Todo Impulso
+module.creative_tools.setting.stop_all_momentum_key.description=Tecla Para Detener Todo Impulso.
+module.creative_tools.setting.hold_to_stop_momentum.name=Mantenga presionado para detener todo impulso
+module.creative_tools.setting.hold_to_stop_momentum.description=Mantenga presionado para detener todo impulso.
 
-module.creative_tools.setting.make_hitboxes_esp.name=Make Hitboxes ESP
-module.creative_tools.setting.make_hitboxes_esp.description=Enable Hitboxes ESP.
+module.creative_tools.setting.make_hitboxes_esp.name=Hacer Hitboxes ESP
+module.creative_tools.setting.make_hitboxes_esp.description=Ensender los Cajas De Impacto ESP.
 
 ## Crop Protector
-module.crop_protector.name=Crop Protector
-module.crop_protector.description=Prevents you from breaking ungrown crops.\nSneak to bypass.
+module.crop_protector.name=Protector De Cultivos
+module.crop_protector.description=Le impide romper cultivos no cultivados.\nEscabullirse para evitarlo.
 
-module.crop_protector.setting.replant_with_hand_item.name=Replant With Hand Item
-module.crop_protector.setting.replant_with_hand_item.description=Toggle replanting with the hand item.
+module.crop_protector.setting.replant_with_hand_item.name=Replantar con artículo de mano
+module.crop_protector.setting.replant_with_hand_item.description=Alternar replantación con el artículo de mano.
 
 ## Custom Crosshair
 module.custom_crosshair.name=Custom Crosshair
@@ -895,12 +895,18 @@ module.proximity_chat.setting.context_settings_category.description=Settings for
 module.proximity_chat.setting.informative_information.name=These settings are what to include in Mumble Link's context.\nThey define who should be able to hear each other.\nIf your friends don't use the same options, the context will be different.\nPlayers with matching contexts have positional audio, otherwise normal audio is transmitted.\nYou can change what to include here to better match a server.\nScripts can also play with this to improve their experience whilst on a server.
 
 module.proximity_chat.setting.include_world_name.name=Include World Name
+module.proximity_chat.setting.include_world_name.description=Include world name or not in the context.
 module.proximity_chat.setting.include_world_id.name=Include World Id
+module.proximity_chat.setting.include_world_id.description=Include world id or not in the context.
 module.proximity_chat.setting.include_players.name=Include Players
+module.proximity_chat.setting.include_players.description=Include players or not in the context.
 module.proximity_chat.setting.include_dimension.name=Include Dimension
+module.proximity_chat.setting.include_dimension.description=Include dimension or not in the context.
 
 module.proximity_chat.setting.include_scripting_context.name=Include Scripting Context
+module.proximity_chat.setting.include_scripting_context.description=Include scripting context or not in the context.
 module.proximity_chat.setting.extra_scripting_context.name=Extra Scripting Context
+module.proximity_chat.setting.extra_scripting_context.description=Extra scripting context to include in the context.
 
 ## Nick Hider
 module.nick_hider.name=Nick Hider
@@ -1049,7 +1055,7 @@ module.snaplook.name=Snaplook
 module.snaplook.description=Changes perspective while the key is pressed.
 
 ## Third Person Nametag
-module.third_person_nametag.name=Third Person Nametag
+module.third_person_nametag.name=Etiqueta de nombre de tercera persona
 module.third_person_nametag.description=Renders your nametag in 3rd person.
 
 ## Test Module
@@ -1168,7 +1174,7 @@ module.zoom.setting.animation_settings_category.name=Animation Settings
 module.zoom.setting.animation_settings_category.description=Settings for animation settings.
 module.zoom.setting.do_animation.name=Zoom in Animation
 module.zoom.setting.do_animation.description=Toggle zoom in animation.
-module.zoom.setting.animation_duration.name=Zoom in Animation Speed
+module.zoom.setting.animation_duration.name=Ampliar la velocidad de la animación.
 module.zoom.setting.animation_duration.description=Adjust the zoom in animation speed.
 
 
@@ -1236,11 +1242,11 @@ module.arrow_counter.arrow_value=Arrow: %s
 
 
 ## Audio Subtitles
-module.audio_subtitle.name=Audio Subtitles
-module.audio_subtitle.description=Shows the surrounding audio that's played in the world.
-module.audio_subtitle.setting.sound_category.name=Audio Settings
-module.audio_subtitle.setting.sound_category.description=Categorizes sound settings.
-module.audio_subtitle.setting.sound_display_time.name=Display Time (seconds)
+module.audio_subtitle.name=Subtítulos de audio
+module.audio_subtitle.description=Muestra el audio circundante que se reproduce en el mundo.
+module.audio_subtitle.setting.sound_category.name=Configuraciónes de audio
+module.audio_subtitle.setting.sound_category.description=Clasifica la configuración de sonido.
+module.audio_subtitle.setting.sound_display_time.name=Tiempo de visualización (Segundos)
 module.audio_subtitle.setting.sound_display_time.description=Specifies the duration for which subtitles appear.
 module.audio_subtitle.setting.newer_sounds_first.name=Newer Sound First
 module.audio_subtitle.setting.newer_sounds_first.description=Displays newer sounds before older ones.
@@ -1647,25 +1653,25 @@ module.reach_display.reach_text=Reach: %s
 
 
 ## Server Module
-module.server_ip.name=Server IP
-module.server_ip.description=Displays the IP of the server you are playing on.
-module.server_ip.setting.show_port.name=Show Server Port
-module.server_ip.setting.show_port.description=Displays the server port along with the IP.
+module.server_ip.name=Servidor IP
+module.server_ip.description=Muestra la IP del servidor en el que estás jugando.
+module.server_ip.setting.show_port.name=Mostrar el puerto del servidor
+module.server_ip.setting.show_port.description=Muestra el puerto del servidor junto con la IP.
 
 
 
 ## Snake
-module.snake.name=Snake
-module.snake.description=A Minecraft version of the classic game Snake!
-module.snake.setting.high_quality.name=HD Graphics (Low FPS Warning)
-module.snake.setting.high_quality.description=Enables high-definition graphics with a low FPS warning.
-module.snake.setting.key_up.name=Up Key
-module.snake.setting.key_up.description=Key used for upward movement.
-module.snake.setting.key_down.name=Down Key
-module.snake.setting.key_down.description=Key used for downward movement.
-module.snake.setting.key_left.name=Left Key
-module.snake.setting.key_left.description=Key used for leftward movement.
-module.snake.setting.key_right.name=Right Key
+module.snake.name=Serpiente
+module.snake.description=Un Minecraft version del classico juego de Serpiente!
+module.snake.setting.high_quality.name=Graphicos HD (Advertencia de FPS bajos!)
+module.snake.setting.high_quality.description=Habilita gráficos de alta definición con una advertencia de FPS bajo.
+module.snake.setting.key_up.name=Tecla arriba
+module.snake.setting.key_up.description=Tecla usado para movimiento hacia arriba.
+module.snake.setting.key_down.name=Tecla Bajo
+module.snake.setting.key_down.description=Tecla usado para movimiento hacia abajo.
+module.snake.setting.key_left.name=Tecla izquierda.
+module.snake.setting.key_left.description=Tecla utilizada para el movimiento hacia la izquierda.
+module.snake.setting.key_right.name=Tecla Derecha
 module.snake.setting.key_right.description=Key used for rightward movement.
 
 
@@ -1713,3 +1719,25 @@ module.waila.setting.original_position.name=Use Original Mods Position
 module.waila.setting.original_position.description=Uses the original mod's position.
 module.waila.setting.height_offset.name=Height Offset
 module.waila.setting.height_offset.description=Adjusts the height offset for the display.
+
+## PROXIMITY CHAT
+
+module.animation_settings.setting.setting_list_smooth_scroll_speed.description=Velocidad de desplazamiento fluida del raton, -1 quiere decir no desplazamiento fluida.
+module.animation_settings.setting.setting_list_smooth_scroll_speed.name=Velocidad de dezplazamiento fluida
+module.custom_crosshair_editor.widget_window.save=Guardar (%s)
+module.movable_actionbar.description=Te permite perzonalizar el posición del barra de accion.
+module.movable_actionbar.name=Barra de Accion Movible
+module.movable_title.description=Te permite cambiar la posición del título.
+module.movable_title.name=Título movible
+module.over_the_shoulder_camera.description=Te permite poner la camera sobre tu hombro.
+module.over_the_shoulder_camera.name=Over Camera del Hombro
+module.over_the_shoulder_camera.setting.x_offset.description=Ajusta el desplazamiento del X de la Camera, en que lado/tan lejos esta la camera.
+module.over_the_shoulder_camera.setting.x_offset.name=Desplazamiento del X
+module.proximity_chat.setting.extra_scripting_context.description=Contexto extra de scripts para incluir en el contexto.
+module.proximity_chat.setting.include_dimension.description=Incluir dimension o no en el contexto.
+module.proximity_chat.setting.include_players.description=Incluir jugadores o no en el contexto.
+module.proximity_chat.setting.include_scripting_context.description=Incluir contexto de scripts o no en el contexto.
+module.proximity_chat.setting.include_world_id.description=Incluir id del Mundo o no en el contexto.
+module.proximity_chat.setting.include_world_name.description=Incluir nombre del Mundo o no en el contexto.
+module.visual.setting.size.description=El tamaño bruta del modulo.
+module.visual.setting.size.name=Tamaño

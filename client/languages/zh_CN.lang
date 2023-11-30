@@ -176,6 +176,8 @@ module.animation_settings.setting.setting_list_initial_growth_size_multiplier.na
 module.animation_settings.setting.setting_list_initial_growth_size_multiplier.description=设置列表初始大小增长的乘数.
 module.animation_settings.setting.category_title.name=%s 设置
 module.animation_settings.setting.category_title.description=%s 动画的设置.
+module.animation_settings.setting.setting_list_smooth_scroll_speed.name=平滑滚动速度
+module.animation_settings.setting.setting_list_smooth_scroll_speed.description=平滑滚动速度, -1 表示无平滑滚动.
 module.animation_settings.setting.animate.name=动画
 module.animation_settings.setting.animate.description=添加或删除这个动画
 module.animation_settings.setting.duration.name=时长
@@ -911,6 +913,16 @@ module.proximity_chat.setting.include_scripting_context.description=在聊天环
 module.proximity_chat.setting.extra_scripting_context.name=额外脚本环境
 module.proximity_chat.setting.extra_scripting_context.description=在聊天环境中添加额外脚本环境.
 
+## Nick Hider
+module.nick_hider.name=匿名模式
+module.nick_hider.description=允许您隐藏您的用户名, 皮肤, 其他人的用户名和其他人的皮肤.
+
+module.nick_hider.setting.custom_name.name=自定义名称
+module.nick_hider.setting.custom_name.description=您希望在屏幕上看到的名称.
+
+module.nick_hider.setting.should_change_name.name=是否更改名称
+module.nick_hider.setting.should_change_name.description=我们是否应该更改您的名字?
+
 ## No Hurt Cam
 module.no_hurt_cam.name=无受伤抖动
 module.no_hurt_cam.description=移除了受伤时的摄像机抖动.
@@ -969,48 +981,48 @@ module.post_processing.setting.only_show_in_world.description=仅对游戏内世
 module.post_processing.setting.show_in_onix_ui.name=对Onix UI起效
 module.post_processing.setting.show_in_onix_ui.description=对Onix UI起效.
 
-module.post_processing.setting.saturation_settings_category.name=Saturation Settings
-module.post_processing.setting.saturation_settings_category.description=Settings for saturation settings.
-module.post_processing.setting.has_saturation.name=Saturation
-module.post_processing.setting.has_saturation.description=Enable saturation effect.
-module.post_processing.setting.saturation_strength.name=Saturation Strength
-module.post_processing.setting.saturation_strength.description=Adjust the strength of the saturation effect.
+module.post_processing.setting.saturation_settings_category.name=饱和度设置
+module.post_processing.setting.saturation_settings_category.description=饱和度效果设置.
+module.post_processing.setting.has_saturation.name=饱和度
+module.post_processing.setting.has_saturation.description=启用饱和度效果.
+module.post_processing.setting.saturation_strength.name=饱和度值
+module.post_processing.setting.saturation_strength.description=调整饱和度效果的强度.
 
-module.post_processing.setting.hue_settings_category.name=Hue Settings
-module.post_processing.setting.hue_settings_category.description=Settings for hue settings.
-module.post_processing.setting.has_hue.name=Hue
-module.post_processing.setting.has_hue.description=Enable hue shift effect.
-module.post_processing.setting.hue_shift.name=Hue Shift
-module.post_processing.setting.hue_shift.description=Adjust the degree of hue shift.
-module.post_processing.setting.rainbow_mode.name=Rainbow Mode
-module.post_processing.setting.rainbow_mode.description=Enable rainbow mode for hue shift.
-module.post_processing.setting.rainbow_speed.name=Rainbow Speed
-module.post_processing.setting.rainbow_speed.description=Adjust the speed of the rainbow effect.
+module.post_processing.setting.hue_settings_category.name=色相设置
+module.post_processing.setting.hue_settings_category.description=色相效果设置.
+module.post_processing.setting.has_hue.name=色相
+module.post_processing.setting.has_hue.description=启用色相转换效果.
+module.post_processing.setting.hue_shift.name=色相转换
+module.post_processing.setting.hue_shift.description=调整色相偏移的程度.
+module.post_processing.setting.rainbow_mode.name=彩虹模式
+module.post_processing.setting.rainbow_mode.description=启用彩虹模式进行色相转换.
+module.post_processing.setting.rainbow_speed.name=彩虹速度
+module.post_processing.setting.rainbow_speed.description=调整彩虹效果的速度.
 
-module.post_processing.setting.brightness_settings_category.name=Brightness Settings
-module.post_processing.setting.brightness_settings_category.description=Settings for brightness settings.
-module.post_processing.setting.has_brightness.name=Brightness
-module.post_processing.setting.has_brightness.description=Enable brightness adjustment.
-module.post_processing.setting.brightness_strength.name=Brightness Strength
-module.post_processing.setting.brightness_strength.description=Adjust the strength of the brightness effect.
+module.post_processing.setting.brightness_settings_category.name=亮度设置
+module.post_processing.setting.brightness_settings_category.description=亮度效果设置.
+module.post_processing.setting.has_brightness.name=亮度
+module.post_processing.setting.has_brightness.description=启用亮度调节.
+module.post_processing.setting.brightness_strength.name=亮度强度
+module.post_processing.setting.brightness_strength.description=调整亮度效果的强度.
 
-module.post_processing.setting.contrast_settings_category.name=Contrast Settings
-module.post_processing.setting.contrast_settings_category.description=Settings for contrast settings.
-module.post_processing.setting.has_contrast.name=Contrast
-module.post_processing.setting.has_contrast.description=Enable contrast adjustment.
-module.post_processing.setting.contrast_strength.name=Contrast Strength
-module.post_processing.setting.contrast_strength.description=Adjust the strength of the contrast effect.
+module.post_processing.setting.contrast_settings_category.name=对比度设置
+module.post_processing.setting.contrast_settings_category.description=对比度效果设置.
+module.post_processing.setting.has_contrast.name=对比度
+module.post_processing.setting.has_contrast.description=启用对比度修改.
+module.post_processing.setting.contrast_strength.name=对比度效果
+module.post_processing.setting.contrast_strength.description=调整对比度效果的强度.
 
-module.post_processing.setting.vignette_settings_category.name=Vignette Settings
-module.post_processing.setting.vignette_settings_category.description=Settings for vignette settings.
-module.post_processing.setting.has_vignette.name=Vignette
-module.post_processing.setting.has_vignette.description=Enable vignette effect.
-module.post_processing.setting.vignette_strength.name=Vignette Strength
-module.post_processing.setting.vignette_strength.description=Adjust the strength of the vignette effect.
-module.post_processing.setting.vignette_transition.name=Vignette Transition
-module.post_processing.setting.vignette_transition.description=Adjust the transition of the vignette effect.
-module.post_processing.setting.vignette_color.name=Vignette Color
-module.post_processing.setting.vignette_color.description=Adjust the color of the vignette effect.
+module.post_processing.setting.vignette_settings_category.name=晕影设置
+module.post_processing.setting.vignette_settings_category.description=晕影效果设置.
+module.post_processing.setting.has_vignette.name=晕影
+module.post_processing.setting.has_vignette.description=启用晕影效果.
+module.post_processing.setting.vignette_strength.name=晕影强度
+module.post_processing.setting.vignette_strength.description=调整晕影效果的强度.
+module.post_processing.setting.vignette_transition.name=晕影过渡
+module.post_processing.setting.vignette_transition.description=调整晕影效果的过渡.
+module.post_processing.setting.vignette_color.name=晕影颜色
+module.post_processing.setting.vignette_color.description=调整晕影效果的颜色.
 
 ## Render Options
 module.render_options.name=渲染选项
@@ -1713,3 +1725,11 @@ module.waila.setting.original_position.name=使用原版模组位置
 module.waila.setting.original_position.description=使用原版模组的位置.
 module.waila.setting.height_offset.name=高度偏移
 module.waila.setting.height_offset.description=调整显示信息的高度偏移.
+
+
+## Shoulder Camera
+module.over_the_shoulder_camera.name=越肩视角
+module.over_the_shoulder_camera.description=允许您将相机放在肩膀上.
+
+module.over_the_shoulder_camera.setting.x_offset.name=X 偏移量
+module.over_the_shoulder_camera.setting.x_offset.description=调整相机的 X 偏移量, 即相机朝哪个方向偏移/偏移多少.

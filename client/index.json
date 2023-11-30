@@ -33,14 +33,6 @@
       "md5": "0df1c5b3b6b87669735bae8ec193e97b"
     },
     {
-      "visual_name": "Espa\u00F1ol (M\u00E9xico)",
-      "code": "es_MX",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fes_MX.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fes_MX.lang",
-      "version": 5,
-      "md5": "0df1c5b3b6b87669735bae8ec193e97b"
-    },
-    {
       "visual_name": "\uD55C\uAD6D\uC5B4 (\uD55C\uAE00)",
       "code": "ko_KR",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fko_KR.lang",
@@ -103,6 +95,14 @@
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_TW.lang",
       "version": 7,
       "md5": "944e85c0e79cef89b00e00288af42d47"
+    },
+    {
+      "visual_name": "Espa\u00F1ol (M\u00E9xico)",
+      "code": "es_MX",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fes_MX.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fes_MX.lang",
+      "version": 6,
+      "md5": "ccb6874b52bb9935d1a79f450f942a8e"
     }
   ]
 }

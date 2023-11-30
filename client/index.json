@@ -93,16 +93,16 @@
       "code": "zh_CN",
       "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/zh_CN.lang",
       "compressed_url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/compressed_languages/zh_CN.lang",
-      "version": 6,
-      "md5": "f5ff76706b4fca5d81c5747c5b2cc781"
+      "version": 7,
+      "md5": "327efddcb293e57e072f9c05a684d96b"
     },
     {
       "visual_name": "\u4E2D\u6587 (\u7E41\u9AD4)",
       "code": "zh_TW",
       "url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/languages/zh_TW.lang",
       "compressed_url": "https://raw.githubusercontent.com/OnixClient/translations/main/client/compressed_languages/zh_TW.lang",
-      "version": 6,
-      "md5": "57285663869a1b0235f2272df3450ee0"
+      "version": 7,
+      "md5": "944e85c0e79cef89b00e00288af42d47"
     }
   ]
 }

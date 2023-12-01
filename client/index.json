@@ -49,22 +49,6 @@
       "md5": "8c2327a845218e6fc285c831e0fc3346"
     },
     {
-      "visual_name": "Fran\u00E7ais (Canada)",
-      "code": "fr_CA",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_CA.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_CA.lang",
-      "version": 6,
-      "md5": "c0ae95ba573ee508e49288c70402e69d"
-    },
-    {
-      "visual_name": "Fran\u00E7ais (France)",
-      "code": "fr_FR",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_FR.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_FR.lang",
-      "version": 6,
-      "md5": "d81845356dde5b0c6087df8041d09631"
-    },
-    {
       "visual_name": "English (United States)",
       "code": "en_US",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_US.lang",
@@ -103,6 +87,22 @@
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fes_MX.lang",
       "version": 6,
       "md5": "ccb6874b52bb9935d1a79f450f942a8e"
+    },
+    {
+      "visual_name": "Fran\u00E7ais (Canada)",
+      "code": "fr_CA",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_CA.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_CA.lang",
+      "version": 7,
+      "md5": "21e238b989fefedeecc44121d38d6ea7"
+    },
+    {
+      "visual_name": "Fran\u00E7ais (France)",
+      "code": "fr_FR",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_FR.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_FR.lang",
+      "version": 7,
+      "md5": "28c4a8feb6ea364038a040f156942ea1"
     }
   ]
 }

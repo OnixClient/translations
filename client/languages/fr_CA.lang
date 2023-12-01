@@ -46,6 +46,8 @@ module.visual.setting.anchor.name=Ancre
 module.visual.setting.anchor.description=L'ancre du module, la position sera relative à celle-ci.
 module.visual.setting.position.name=Position
 module.visual.setting.position.description=La position brute du module.
+module.visual.setting.size.name=Taille
+module.visual.setting.size.description=La taille brute du module.
 module.textual.setting.bracket_type.name=Type de crochet
 module.textual.setting.bracket_type.description=Le type de crochets à utiliser.
 module.textual.setting.space_between_brackets.name=Espace entre crochets
@@ -185,6 +187,8 @@ module.animation_settings.setting.setting_list_reload_with_search.name=Recharger
 module.animation_settings.setting.setting_list_reload_with_search.description=Activer le rechargement de la liste des paramètres lors de la recherche.
 module.animation_settings.setting.setting_list_initial_growth_size_multiplier.name=Multiplicateur de la taille initiale de la liste des paramètres
 module.animation_settings.setting.setting_list_initial_growth_size_multiplier.description=Multiplicateur pour la croissance initiale de la taille de la liste des paramètres.
+module.animation_settings.setting.setting_list_smooth_scroll_speed.name=Vitesse de défilement fluide
+module.animation_settings.setting.setting_list_smooth_scroll_speed.description=Vitesse de défilement fluide, -1 signifie aucun défilement fluide.
 module.animation_settings.setting.category_title.name=Paramètres de %s
 module.animation_settings.setting.category_title.description=Paramètres pour l'animation de %s.
 module.animation_settings.setting.animate.name=Animer
@@ -522,7 +526,22 @@ module.creative_tools.setting.command_block_esp_radius.description=Rayon de la s
 module.creative_tools.setting.esp_command_blocks_behind.name=Mettre en Surbrillance les Blocs Derrière Vous
 module.creative_tools.setting.esp_command_blocks_behind.description=Affiche la surbrillance pour les blocs de commande qui sont derrière vous.
 module.creative_tools.setting.command_block_esp_type.name=Type de surbrillance
+module.creative_tools.setting.command_block_esp_type.description=Type de surbrillance de bloc de commande.
 
+module.creative_tools.setting.elevation_settings_category.name=Paramètres d'élévation
+module.creative_tools.setting.elevation_settings_category.description=Paramètres d'élévation.
+module.creative_tools.setting.ascend_key.name=Touche de montée
+module.creative_tools.setting.ascend_key.description=Touche pour monter.
+module.creative_tools.setting.descend_key.name=Touche de descente
+module.creative_tools.setting.descend_key.description=Touche pour descendre.
+
+module.creative_tools.setting.stop_all_momentum_key.name=Touche pour arrêter tout élan
+module.creative_tools.setting.stop_all_momentum_key.description=Touche pour arrêter tout élan.
+module.creative_tools.setting.hold_to_stop_momentum.name=Maintenir pour arrêter tout élan
+module.creative_tools.setting.hold_to_stop_momentum.description=Maintenir pour arrêter tout élan.
+
+module.creative_tools.setting.make_hitboxes_esp.name=Afficher les hitboxes en surbrillance
+module.creative_tools.setting.make_hitboxes_esp.description=Activer la surbrillance des hitboxes.
 
 ## Crop Protector
 module.crop_protector.name=Protecteur de Cultures
@@ -572,7 +591,7 @@ module.custom_crosshair_editor.list_window.open_explorer_button=Ouvrir le Réper
 module.custom_crosshair_editor.widget_window.reset_zoom=Réinitialiser le Zoom (%s)
 module.custom_crosshair_editor.widget_window.reset_position=Réinitialiser la Position
 module.custom_crosshair_editor.widget_window.undo=Annuler (%s)
-module.custom_crosshair_editor.widget_window.undo=Sauvegarder (%s)
+module.custom_crosshair_editor.widget_window.save=Enregistrer (%s)
 module.custom_crosshair_editor.widget_window.pen=Stylo: %s
 module.custom_crosshair_editor.widget_window.pen_square=Carré
 module.custom_crosshair_editor.widget_window.pen_round=Rond
@@ -919,12 +938,18 @@ module.proximity_chat.setting.context_settings_category.description=Paramètres 
 module.proximity_chat.setting.informative_information.name=Ces paramètres définissent ce qui doit être inclus dans le contexte de Mumble Link.\nIls déterminent qui devrait pouvoir s'entendre mutuellement.\nSi vos amis n'utilisent pas les mêmes options, le contexte sera différent.\nLes joueurs avec des contextes correspondants ont un son spatial, sinon un son normal est transmis.\nVous pouvez changer ce qui doit être inclus ici pour mieux correspondre à un serveur.\nLes scripts peuvent également jouer avec cela pour améliorer leur expérience tout en étant sur un serveur.
 
 module.proximity_chat.setting.include_world_name.name=Inclure le Nom du Monde
+module.proximity_chat.setting.include_world_name.description=Inclure le nom du monde ou non dans le contexte.
 module.proximity_chat.setting.include_world_id.name=Inclure l'ID du Monde
+module.proximity_chat.setting.include_world_id.description=Inclure l'ID du monde ou non dans le contexte.
 module.proximity_chat.setting.include_players.name=Inclure les Joueurs
+module.proximity_chat.setting.include_players.description=Inclure les joueurs ou non dans le contexte.
 module.proximity_chat.setting.include_dimension.name=Inclure la Dimension
+module.proximity_chat.setting.include_dimension.description=Inclure la dimension ou non dans le contexte.
 
 module.proximity_chat.setting.include_scripting_context.name=Inclure le Contexte de Scripting
+module.proximity_chat.setting.include_scripting_context.description=Inclure le contexte de script ou non dans le contexte.
 module.proximity_chat.setting.extra_scripting_context.name=Contexte de Scripting Supplémentaire
+module.proximity_chat.setting.extra_scripting_context.description=Contexte de script supplémentaire à inclure dans le contexte.
 
 
 ## Nick Hider
@@ -984,6 +1009,12 @@ module.player_list_tab.setting.player_heads.name=Tête des Joueurs
 module.player_list_tab.setting.player_heads.description=Affiche la têtes des joueurs dans la liste.
 module.player_list_tab.setting.names_per_column.name=Noms par Colonne
 module.player_list_tab.setting.names_per_column.description=Spécifie le nombre de noms par colonne dans la liste.
+
+## Over The Shoulder Camera
+module.over_the_shoulder_camera.name=Caméra par-dessus l'épaule
+module.over_the_shoulder_camera.description=Vous permet de changer la position de la caméra en F5.
+module.over_the_shoulder_camera.setting.x_offset.name=Décalage X
+module.over_the_shoulder_camera.setting.x_offset.description=Ajuste le décalage X de la caméra, ce qui change de quel côté/à quelle distance la caméra est.
 
 ## 3D Skins
 module.player_skin_3d.name=Skins 3D
@@ -1549,8 +1580,8 @@ module.minimap.description=Affiche une minimap.
 
 
 ## Movable Actionbar Module
-module..name=Actionbar Déplaçable
-module..description=Vous permet de modifier la position de la barre d'action.
+module.movable_actionbar.name=Actionbar Déplaçable
+module.movable_actionbar.description=Vous permet de modifier la position de la barre d'action.
 
 
 ## Movable Chat Module
@@ -1623,13 +1654,13 @@ module.movable_scoreboard.setting.score_text_color.description=La couleur du tex
 
 
 ## Movable Title Module
-module..name=Titre déplaçable
-module..description=Permet de personnaliser la position du titre.
+module.movable_title.name=Titre déplaçable
+module.movable_title.description=Permet de personnaliser la position du titre.
 
 
 
 ## Pack Display
-momodule.pack_display.name=Affichage des Packs
+module.pack_display.name=Affichage des Packs
 module.pack_display.description=Affiche le nom et la description de vos packs de textures à l'écran.
 module.pack_display.setting.first_only.name=Premier Pack Uniquement
 module.pack_display.setting.first_only.description=Affiche uniquement le premier pack de la liste.

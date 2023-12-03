@@ -79,6 +79,27 @@ gui.are_you_sure=Êtes-vous sûr?
 gui.create_new=Créer un nouveau %s
 gui.accept=Accepter
 gui.deny=Refuser
+gui.show=Afficher
+gui.hide=Cacher
+gui.none=Aucun
+gui.more=Plus
+gui.less=Moins
+
+
+## List texts, when the client shows a list of things
+## begin + pre_first_element + first_element + post_first_element + pre_element + element + post_element + pre_last_element + last_element + post_last_element + end
+## the english one for the following lists ["red", "green", "blue"] is "red, green and blue
+## the english one for the following lists ["red", "green", "blue", "yellow"] is "red, green, blue and yellow"
+## the english one for the following lists ["red"] is "red"
+## the english one for the following lists ["red", "green"] is "red and green"
+gui.list.begin=
+gui.list.end=
+gui.list.pre_element= ## one trailing space here
+gui.list.post_element=,
+gui.list.pre_last_element= et ## one trailing space here
+gui.list.post_last_element=
+gui.list.pre_first_element=
+gui.list.post_first_element=,
 
 
 ## Module Guis
@@ -90,8 +111,25 @@ module.ui.setting.color_picker_opacity.name=Opacité
 module.ui.setting.color_picker_opacity.description=Définit l'opacité (transparence) de la couleur.
 module.ui.setting.color_renderer_change_color=Changer la couleur
 module.ui.setting.key_renderer_unbind=Désassocier
-module.ui.setting.key_overlay_help=Appuyez sur n'importe quelle touche pour la choisir, appuyez sur Échap pour quitter sans changement.
+module.ui.setting.key_overlay_help=Appuyez sur n'importe quelle touche pour la choisir, appuyez sur Échap pour annuler.
 module.ui.setting.settings=Paramètres
+module.ui.notification.keybind_only=Vous devez utiliser le raccourci clavier pour utiliser %s.
+module.ui.notification.position_of_mod_changed=La position de %s a changé car il était hors de l'écran !
+module.ui.notification.smooth_failed=Impossible d'activer la police lisse.
+module.ui.notification.smooth_now=Passage à la police lisse!
+module.ui.notification.mojangles_now=Passage à la police Minecraft!
+
+## Notificaitons
+notification.greet.normal.title=Onix Client est maintenant injecté ! (%s).
+notification.greet.normal.description=Appuyez sur %s ou INSERT pour ouvrir l'interface graphique du client.
+notification.greet.halloween_mistake.title=Vous avez commis une terrible erreur >:D (%s).
+notification.greet.halloween.title=Onix Client a EFFRAYÉ votre Minecraft ! (boo!) (%s).
+notification.greet.christmas.title=Minecraft a été OFFERT avec Onix Client. (%s).
+notification.warning.chroma_mc_renderer.title=Chroma ne fonctionne pas sur le rendu Minecraft, utilisez plutôt le RGB.
+notification.module_is_blocked.title=%s est bloqué sur ce serveur et ne peut pas être activé pour le moment.
+notification.modules_now_blocked.title=Certains modules ont été bloqués sur ce serveur:
+notification.modules_unblocked.title=Modules débloqués !
+
 
 ## Client Hud
 module.clienthudui.setting.open_inventory=Ouvrir l'inventaire
@@ -126,6 +164,8 @@ module.themeuipreview.setting.info_setting.description=Celui-ci ne devrait pas �
 module.themeuipreview.setting.info_scrollbar.name=C'est juste pour montrer une barre de défilement.
 module.themeuipreview.setting.info_scrollbar.description=C'est juste pour montrer une barre de défilement.
 
+module.themeuipreview.notification.save_failed=Impossible d'enregistrer le thème.
+module.themeuipreview.notification.load_failed=Impossible de charger le thème.
 
 
 ## Theme Options
@@ -168,6 +208,15 @@ module.ui.setting.config_switcher.button_open_folder=Ouvrir le dossier de config
 module.ui.setting.config_switcher.button_switch_kind=Passer à %s
 module.ui.setting.config_switcher.button_switch_kind_scripting=Scripting
 module.ui.setting.config_switcher.button_switch_kind_onix=Onix
+module.ui.notification.config_switcher.script_not_for_normies=Les configurations de script ne sont pas disponibles pour les utilisateurs non-script, tu t'es perdu(e)?
+
+
+##Legacy Scripting
+module.lua_command.name=Commande Lua
+module.lua_command.description=Le module pour la commande Lua, il est utilisé pour permettre la création d'une fonction de rendu. \nPeut être utilisé comme n'importe quel mod. \nVous pouvez modifier le fichier CMD.lua pour y ajouter des fonctions préfabriquées.
+scripting.import.start=Importation du script %s "%s" en cours.
+scripting.import.success=Le script %s "%s" a été importé !
+scripting.import.fail=Échec de l'importation du script %s "%s".
 
 
 ## 202020
@@ -553,6 +602,14 @@ module.creative_tools.setting.hold_to_stop_momentum.description=Maintenir pour a
 
 module.creative_tools.setting.make_hitboxes_esp.name=Afficher les hitboxes en surbrillance
 module.creative_tools.setting.make_hitboxes_esp.description=Activer la surbrillance des hitboxes.
+
+module.creative_tools.notification.autoclick_start=Auto-Clicker activé, soyez prudent.
+module.creative_tools.notification.autoclick_stop=Auto-Clicker désactivé.
+module.creative_tools.notification.clicktp_start=ClickTP activé, soyez prudent.		##Seulement en mode Basculement
+module.creative_tools.notification.clicktp_stop=ClickTP désactivé.
+module.creative_tools.notification.phase_start=NoClip activé, soyez prudent.
+module.creative_tools.notification.phase_stop=NoClip désactivé.
+module.creative_tools.notification.op_needed=Vous devez être opérateur pour utiliser %s%s.
 
 ## Crop Protector
 module.crop_protector.name=Protecteur de Cultures
@@ -968,6 +1025,9 @@ module.proximity_chat.setting.include_scripting_context.name=Inclure le Contexte
 module.proximity_chat.setting.include_scripting_context.description=Inclure le contexte de script ou non dans le contexte.
 module.proximity_chat.setting.extra_scripting_context.name=Contexte de Scripting Supplémentaire
 module.proximity_chat.setting.extra_scripting_context.description=Contexte de script supplémentaire à inclure dans le contexte.
+
+module.proximity_chat.notification.app_outdated=[Mumble Link] L'application Onix Client Mumble Link est obsolète.
+module.proximity_chat.notification.app_required=L'application Mumble Link est nécessaire pour utiliser ce module.
 
 
 ## Nick Hider
@@ -1441,8 +1501,9 @@ module.coordinates.setting.copy_player_key.name=Touche de copie de la position d
 module.coordinates.setting.copy_player_key.description=Raccourci clavier pour copier la position du joueur.
 module.coordinates.setting.copy_selected_key.name=Touche de copie de la position sélectionnée
 module.coordinates.setting.copy_selected_key.description=Raccourci clavier pour copier la position sélectionnée.
-
-
+module.coordinates.notification.player_in_clipboard=Les coordonnées du joueur sont maintenant dans votre presse-papiers.
+module.coordinates.notification.no_selection=Vous devez regarder un bloc pour copier ses coordonnées.
+module.coordinates.notification.selected_in_clipboard=Les coordonnées du bloc sélectionné sont maintenant dans votre presse-papiers.
 
 
 ## CPS module

@@ -33,6 +33,17 @@ module.visual.setting.corner_quality.name=Rounded Corner Quality
 module.visual.setting.corner_quality.description=The quality of the rounded corners, higher the better, does not affect new renderer.
 module.visual.setting.expand_direction.name=Expand Direction
 module.visual.setting.expand_direction.description=The direction the module will expand in.
+module.visual.setting.expand_direction.auto=Automatic
+module.visual.setting.expand_direction.top_left=Top Left
+module.visual.setting.expand_direction.top_center=Top Center
+module.visual.setting.expand_direction.top_right=Top Right
+module.visual.setting.expand_direction.center_left=Center Left
+module.visual.setting.expand_direction.center_center=Center Center
+module.visual.setting.expand_direction.center_right=Center Right
+module.visual.setting.expand_direction.bottom_left=Bottom Left
+module.visual.setting.expand_direction.bottom_center=Bottom Center
+module.visual.setting.expand_direction.bottom_right=Bottom Right
+
 module.visual.setting.anchor.name=Anchor
 module.visual.setting.anchor.description=The anchor of the module, the position will be relative to.
 module.visual.setting.position.name=Position
@@ -43,6 +54,15 @@ module.textual.setting.bracket_type.name=Bracket Type
 module.textual.setting.bracket_type.description=The type of brackets to use.
 module.textual.setting.space_between_brackets.name=Space Between Brackets
 module.textual.setting.space_between_brackets.description=Include a space between the brackets and text.
+module.textual.setting.bracket_type.none=None
+module.textual.setting.bracket_type.parentesis=(%sText%s)
+module.textual.setting.bracket_type.square=[%sText%s]
+module.textual.setting.bracket_type.curly={%sText%s}
+module.textual.setting.bracket_type.angle=<%sText%s>
+module.textual.setting.bracket_type.tilde=<Text%s~>
+module.textual.setting.bracket_type.star=<*%sText%s*>
+module.textual.setting.bracket_type.hashtag=<#%sText>
+
 
 module.module.setting.main_settings.name=Main Settings
 module.module.setting.main_settings.description=Settings to change the main functionality of the module.
@@ -83,6 +103,8 @@ gui.hide=Hide
 gui.none=None
 gui.more=More
 gui.less=Less
+gui.none=None
+gui.default=Default
 
 
 ## List texts, when the client shows a list of things
@@ -139,6 +161,11 @@ module.themeuipreview.name=Theme Preview
 module.themeuipreview.description=This is a preview to see the changes you are making!
 module.themeuipreview.setting.presets.name=Presets
 module.themeuipreview.setting.presets.description=Theme presets you can use or start from.
+module.themeuipreview.setting.presets.dark=Dark
+module.themeuipreview.setting.presets.light=Light
+module.themeuipreview.setting.presets.egirl=Rosie
+module.themeuipreview.setting.presets.halloween=Halloween
+module.themeuipreview.setting.presets.christmas=Christmas
 module.themeuipreview.setting.category.name=Category
 module.themeuipreview.setting.category.description=A preview of a category.
 module.themeuipreview.setting.info_category.name=Hi! I'm inside a category!
@@ -158,6 +185,13 @@ module.themeuipreview.setting.button.description=Button to preview looks.
 module.themeuipreview.setting.button.button=Click Me!
 module.themeuipreview.setting.enum.name=Enum
 module.themeuipreview.setting.enum.description=Enum to preview looks.
+module.themeuipreview.setting.enum.1=Click Me!
+module.themeuipreview.setting.enum.2=I am an enum setting!
+module.themeuipreview.setting.enum.3=I'm basically just a fancy list
+module.themeuipreview.setting.enum.4=Enums are cool
+module.themeuipreview.setting.enum.5=Which ever one you
+module.themeuipreview.setting.enum.6=Click is selected
+module.themeuipreview.setting.enum.7=You scrolled to see me!
 module.themeuipreview.setting.info_setting.name=The one below does not belong here but\nis here so you can preview it anyway.
 module.themeuipreview.setting.info_setting.description=The one below does not belong here but\nis here so you can preview it anyway.
 module.themeuipreview.setting.info_scrollbar.name=This is just so it shows a scrollbar.
@@ -478,6 +512,8 @@ module.color_options.setting.color_presets.name=Color Presets
 module.color_options.setting.color_presets.description=Choose from preset color options.
 module.color_options.setting.color_preset.name=Color Preset %s
 module.color_options.setting.color_preset.description=Change the preset %s in the color picker.
+module.color_options.setting.chroma_presets.pastel=Pastel
+module.color_options.setting.chroma_presets.black_and_white=Black and White
 module.color_options.setting.color_options_category.name=Color Options Category
 module.color_options.setting.color_options_category.description=Settings for color options.
 module.color_options.setting.color_options.button=Open Theme Editor
@@ -583,6 +619,9 @@ module.creative_tools.setting.esp_command_blocks_behind.name=ESP Command Blocks 
 module.creative_tools.setting.esp_command_blocks_behind.description=Render ESP for blocks that are behind you.
 module.creative_tools.setting.command_block_esp_type.name=Command Block ESP Type
 module.creative_tools.setting.command_block_esp_type.description=Type of Command Block ESP.
+module.creative_tools.setting.command_block_esp_type.outline=Outline
+module.creative_tools.setting.command_block_esp_type.overlay=Overlay
+module.creative_tools.setting.command_block_esp_type.textured=Textured
 
 module.creative_tools.setting.elevation_settings_category.name=Elevation Settings
 module.creative_tools.setting.elevation_settings_category.description=Settings for elevation.
@@ -814,6 +853,9 @@ module.freelook.setting.no_perspective_change.name=No Perspective Change
 module.freelook.setting.no_perspective_change.description=Toggle perspective change.
 module.freelook.setting.perspective.name=Perspective
 module.freelook.setting.perspective.description=Select your desired perspective.
+module.freelook.setting.perspective.first_person=First Person
+module.freelook.setting.perspective.third_person_back=Third Person (Back)
+module.freelook.setting.perspective.third_person_front=Third Person (Front)
 
 module.freelook.setting.toggle_freelook.name=Toggle Freelook
 module.freelook.setting.toggle_freelook.description=Toggle the freelook mode.
@@ -837,6 +879,9 @@ module.glint_color_changer.setting.glint_color.description=Modify the color of t
 
 module.glint_color_changer.setting.presets.name=Presets
 module.glint_color_changer.setting.presets.description=Choose from preset glint color options.
+module.glint_color_changer.setting.presets.electric_blue=Electric Blue
+module.glint_color_changer.setting.presets.blood_red=Blood Red
+module.glint_color_changer.setting.presets.white=White
 
 ## GUI Scale Changer
 module.gui_scale_changer.name=GUI Scale Changer
@@ -1385,6 +1430,10 @@ module.break_progress.setting.bar_back_color.name=Bar Background Color
 module.break_progress.setting.bar_back_color.description=Specifies the background color of the progress bar.
 module.break_progress.setting.bar_direction.name=Bar Direction
 module.break_progress.setting.bar_direction.description=Sets the direction of the progress bar.
+module.break_progress.setting.bar_direction.left_to_right=Left to Right
+module.break_progress.setting.bar_direction.right_to_left=Right to Left
+module.break_progress.setting.bar_direction.bottom_to_top=Bottom to Top
+module.break_progress.setting.bar_direction.top_to_bottom=Top to Bottom
 module.break_progress.break_text=Break: %s
 
 
@@ -1645,8 +1694,15 @@ module.movable_chat.setting.message_inout_animation_speed.name=In/Out Animation 
 module.movable_chat.setting.message_inout_animation_speed.description=Controls the speed of message animations.
 module.movable_chat.setting.animations.name=Animations
 module.movable_chat.setting.animations.description=Manages chat animations.
+module.movable_chat.setting.animations.fade=Fade
+module.movable_chat.setting.animations.grow=Grow
+module.movable_chat.setting.animations.fade_and_grow=Fade and Grow
 module.movable_chat.setting.animation_interpolator.name=Animation Interpolator
 module.movable_chat.setting.animation_interpolator.description=Specifies the animation interpolator.
+module.movable_chat.setting.animation_interpolator.linear=Linear
+module.movable_chat.setting.animation_interpolator.ease_inout=Ease In Out
+module.movable_chat.setting.animation_interpolator.smoothstep3=Smoothstep 3
+module.movable_chat.setting.animation_interpolator.smoothstep4=Smoothstep 4
 module.movable_chat.setting.text_shadow.name=Shadows
 module.movable_chat.setting.text_shadow.description=Manages text shadows in the chat.
 module.movable_chat.setting.default_text_color.name=Default Text Color

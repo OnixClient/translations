@@ -87,6 +87,27 @@ gui.are_you_sure=Are you sure?
 gui.create_new=Create New %s
 gui.accept=Accept
 gui.deny=Deny
+gui.show=Show
+gui.hide=Hide
+gui.none=None
+gui.more=More
+gui.less=Less
+
+
+## List texts, when the client shows a list of things
+## begin + pre_first_element + first_element + post_first_element + pre_element + element + post_element + pre_last_element + last_element + post_last_element + end
+## the english one for the following lists ["red", "green", "blue"] is "red, green and blue
+## the english one for the following lists ["red", "green", "blue", "yellow"] is "red, green, blue and yellow"
+## the english one for the following lists ["red"] is "red"
+## the english one for the following lists ["red", "green"] is "red and green"
+gui.list.begin=
+gui.list.end=
+gui.list.pre_element= 		## one trailing space here
+gui.list.post_element=,
+gui.list.pre_last_element= and 		## one trailing space here
+gui.list.post_last_element=
+gui.list.pre_first_element=
+gui.list.post_first_element=,
 
 
 ## Module Guis
@@ -100,6 +121,23 @@ module.ui.setting.color_renderer_change_color=Change Colour
 module.ui.setting.key_renderer_unbind=Unbind
 module.ui.setting.key_overlay_help=Press any key to set it, Press escape to exit without change.
 module.ui.setting.settings=Settings
+module.ui.notification.keybind_only=You must use the keybind to use %s
+module.ui.notification.position_of_mod_changed=The position of %s changed because it was out of the screen!
+module.ui.notification.smooth_failed=Could not enable smooth font.
+module.ui.notification.smooth_now=Switched to Smooth Font.
+module.ui.notification.mojangles_now=Switched to Mojangles Font.
+
+
+## Notifications
+notification.greet.normal.title=Onix Client is now injected! (%s)
+notification.greet.normal.description=Press %s or INSERT to open the client GUI.
+notification.greet.halloween_mistake.title=You have made a terrible mistake >:D (%s)
+notification.greet.halloween.title=Onix Client has SPOOKED your Minecraft! (boo!) (%s)
+notification.greet.christmas.title=Minecraft has been GIFTED Onix Client. (%.2f)
+notification.warning.chroma_mc_renderer.title=Chroma does not work on the Minecraft Renderer, use RGB
+notification.module_is_blocked.title=%s is blocked on this server and cannot be enabled right now.
+notification.modules_now_blocked.title=Modules are not allowed and where blocked on this server.
+notification.modules_unblocked.title=Modules unblocked!
 
 ## Client Hud
 module.clienthudui.setting.open_inventory=Open Inventory
@@ -133,6 +171,9 @@ module.themeuipreview.setting.info_setting.name=The one below does not belong he
 module.themeuipreview.setting.info_setting.description=The one below does not belong here but\nis here so you can preview it anyway.
 module.themeuipreview.setting.info_scrollbar.name=This is just so it shows a scrollbar.
 module.themeuipreview.setting.info_scrollbar.description=This is just so it shows a scrollbar.
+
+module.themeuipreview.notification.save_failed=Could not save the theme.
+module.themeuipreview.notification.load_failed=Could not save the theme.
 
 
 ## Theme Options
@@ -175,6 +216,17 @@ module.ui.setting.config_switcher.button_open_folder=Open Config Folder
 module.ui.setting.config_switcher.button_switch_kind=Switch to %s
 module.ui.setting.config_switcher.button_switch_kind_scripting=Scripting
 module.ui.setting.config_switcher.button_switch_kind_onix=Onix
+module.ui.notification.config_switcher.script_not_for_normies=Scripting configs are not availible to non script users, what are you doing.
+
+
+## Legacy Scripting
+module.lua_command.name=Lua Command
+module.lua_command.description=The module for the lua command, it is used to allow the creation of a render function.\nCan be used like any normal mods\nYou can edit the CMD.lua file to add pre-made functions to it.
+scripting.import.start=Importing Script %s "%s"
+scripting.import.success=Script %s "%s" was imported!
+scripting.import.fail=Failed to Import Script %s "%s"
+
+
 
 
 ## 202020
@@ -555,6 +607,14 @@ module.creative_tools.setting.hold_to_stop_momentum.description=Hold to stop all
 
 module.creative_tools.setting.make_hitboxes_esp.name=Make Hitboxes ESP
 module.creative_tools.setting.make_hitboxes_esp.description=Enable Hitboxes ESP.
+
+module.creative_tools.notification.autoclick_start=Auto Clicking Enabled, be careful.
+module.creative_tools.notification.autoclick_stop=Auto Clicking Disabled.
+module.creative_tools.notification.clicktp_start=ClickTP Enabled, be careful.   		## For toggle mode only
+module.creative_tools.notification.clicktp_stop=ClickTP Disabled.
+module.creative_tools.notification.phase_start=Phase Enabled, be careful.
+module.creative_tools.notification.phase_stop=Phase Disabled.
+module.creative_tools.notification.op_needed=You need to be an operator to use %s%s.
 
 ## Crop Protector
 module.crop_protector.name=Crop Protector
@@ -953,6 +1013,10 @@ module.proximity_chat.setting.include_scripting_context.name=Include Scripting C
 module.proximity_chat.setting.include_scripting_context.description=Include scripting context or not in the context.
 module.proximity_chat.setting.extra_scripting_context.name=Extra Scripting Context
 module.proximity_chat.setting.extra_scripting_context.description=Extra scripting context to include in the context.
+
+module.proximity_chat.notification.app_outdated=[Mumble Link] The Onix Client Mumble Link application is outdated.
+module.proximity_chat.notification.app_required=The Mumble Link application is required to use this module.
+
 
 ## Nick Hider
 module.nick_hider.name=Nick Hider
@@ -1411,7 +1475,9 @@ module.coordinates.setting.copy_player_key.name=Copy Player Position Key
 module.coordinates.setting.copy_player_key.description=Key binding to copy the player's position.
 module.coordinates.setting.copy_selected_key.name=Copy Selected Position Key
 module.coordinates.setting.copy_selected_key.description=Key binding to copy the selected position.
-
+module.coordinates.notification.player_in_clipboard=Player coordinates are now in your clipboard.
+module.coordinates.notification.no_selection=You must look at a block to copy its coordinates.
+module.coordinates.notification.selected_in_clipboard=Selected Block coordinates are now in your clipboard.
 
 
 ## CPS

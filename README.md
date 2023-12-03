@@ -25,6 +25,7 @@ Onix86
 
 ### Portuguese
 ketchuup<br>
+yNearby<br>
 
 ### Spanish
 bbfiche<br>
@@ -38,3 +39,6 @@ Dook/mruiaw<br>
 
 ### Macedonian
 IanTheLad<br>
+
+### Filipino
+Zeyrox<br>

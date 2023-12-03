@@ -1877,7 +1877,26 @@ module.stopwatch.setting.start_stop_key.description=Key used to start or stop th
 module.stopwatch.setting.pause_unpause_key.name=Pause/Unpause Key
 module.stopwatch.setting.pause_unpause_key.description=Key used to pause or unpause the stopwatch.
 
-
+## Nametag Modifier
+module.nametag_modifier.name=Nametag Modifier
+module.nametag_modifier.description=Allows you to modify nametags.
+module.nametag_modifier.setting.background_color_mode.name=Background Colour Mode
+module.nametag_modifier.setting.background_color_mode.description=Specifies the background colour mode.
+module.nametag_modifier.setting.background_color_mode.clear=Clear
+module.nametag_modifier.setting.background_color_mode.static=Static Colour
+module.nametag_modifier.setting.background_color_mode.average=Most Occuring Colour
+module.nametag_modifier.setting.background_color_mode.before_name=Before Name Colour
+module.nametag_modifier.setting.background_color_mode.blend=Blend All Colours
+module.nametag_modifier.setting.nametag_background_color.name=Nametag Background Colour
+module.nametag_modifier.setting.nametag_background_color.description=Specifies the nametag background colour.
+module.nametag_modifier.setting.background_color_fallback=Background Colour Fallback
+module.nametag_modifier.setting.background_color_fallback.description=Specifies the background colour fallback.
+module.nametag_modifier.setting.nametag_text_color.name=Nametag Text Colour
+module.nametag_modifier.setting.nametag_text_color.description=Specifies the nametag text colour.
+module.nametag_modifier.setting.third_person_nametag.name=Third Person Nametag
+module.nametag_modifier.setting.third_person_nametag.description=Displays the nametag in third person.
+module.nametag_modifier.setting.reset_color_is_default_background.name=Default Background Colour Is Default Text Colour
+module.nametag_modifier.setting.reset_color_is_default_background.description=Uses the default text colour as the default background colour.
 
 ## Visual Testing
 module.visual_testing.name=Visual Testing

@@ -87,9 +87,14 @@ module.ui.setting.color_picker_rainbow.name=Rainbow
 module.ui.setting.color_picker_rainbow.description=Toggles rainbow, rainbow is a solid color rainbow effect.
 module.ui.setting.color_picker_opacity.name=Opacity
 module.ui.setting.color_picker_opacity.description=Choses what opacity the color has (transparency).
+module.ui.setting.color_renderer_change_color=Change Color
 module.ui.setting.key_renderer_unbind=Unbind
 module.ui.setting.key_overlay_help=Press any key to set it, Press escape to exit without change.
 module.ui.setting.settings=Settings
+
+## Client Hud
+module.clienthudui.setting.open_inventory=Open Inventory
+module.clienthudui.setting.open_settings=Client Settings
 
 ## Theme Editor
 module.themeuipreview.name=Theme Preview
@@ -144,6 +149,23 @@ module.themeuioption.setting.reset_button.name=Reset Theme to Default
 module.themeuioption.setting.reset_button.description=Resets the theme to the default onix theme.
 module.themeuioption.setting.reset_button.button=Reset
 
+
+## Config Switcher
+module.ui.setting.config_switcher.title=Config/Profile Manager
+module.ui.setting.config_switcher.description=Manage all of your configs within Onix Client.
+module.ui.setting.config_switcher.what_name_create=Enter a new name for your new config.
+module.ui.setting.config_switcher.what_name_clone=What name should the clone have?
+module.ui.setting.config_switcher.forgot_name=You need to input a name for the config!
+module.ui.setting.config_switcher.already_exists=The config %s already exists!
+module.ui.setting.config_switcher.get_selected_reason_load_select=Please select a config to load/select!
+module.ui.setting.config_switcher.get_selected_reason_load_clone=Please select a config to clone!
+module.ui.setting.config_switcher.get_selected_reason_delete=Please select a config to delete!
+module.ui.setting.config_switcher.button_load_select=Load/Select
+module.ui.setting.config_switcher.button_clone_current=Clone Current
+module.ui.setting.config_switcher.button_open_folder=Open Config Folder
+module.ui.setting.config_switcher.button_switch_kind=Switch to %s
+module.ui.setting.config_switcher.button_switch_kind_scripting=Scripting
+module.ui.setting.config_switcher.button_switch_kind_onix=Onix
 
 
 ## 202020
@@ -555,15 +577,20 @@ module.custom_crosshair.setting.invert_colors.description=Toggle color inversion
 module.custom_crosshair.setting.crosshair_color.name=Crosshair Color
 module.custom_crosshair.setting.crosshair_color.description=Set the color of the crosshair.
 
+module.custom_crosshair.setting.crosshair.name=Crosshair
 module.custom_crosshair.setting.crosshairs.name=Crosshairs
 module.custom_crosshair.setting.crosshairs.description=List of crosshairs
 module.custom_crosshair.setting.preview.button=Preview
 module.custom_crosshair.setting.preview.description=Preview the customized crosshair.
+module.custom_crosshair.no_valid_selected=No valid crosshair selected.
 
 ## Custom Crosshair Editor
 module.custom_crosshair_editor.setting.brush_radius.name=Pen/Eraser Radius
 module.custom_crosshair_editor.setting.brush_radius.description=The radius of the selected tool.
 module.custom_crosshair_editor.create_window.title=Create a New Crosshair
+module.custom_crosshair_editor.create_window.already_exists=A crosshair with the name \"%s\" already exists!
+module.custom_crosshair_editor.create_window.too_small=The crosshair is too small. It needs to be atleast 1 pixel.
+module.custom_crosshair_editor.create_window.too_big=The crosshair is too big for me, please make it smaller it wont fit~
 module.custom_crosshair_editor.confirm_window.message=You are about to delete a crosshair.
 module.custom_crosshair_editor.list_window.title=Crosshairs
 module.custom_crosshair_editor.list_window.create_button=Create New Crosshair
@@ -572,9 +599,15 @@ module.custom_crosshair_editor.widget_window.reset_zoom=Reset Zoom (%s)
 module.custom_crosshair_editor.widget_window.reset_position=Reset position
 module.custom_crosshair_editor.widget_window.undo=Undo (%s)
 module.custom_crosshair_editor.widget_window.save=Save (%s)
+module.custom_crosshair_editor.widget_window.saved=Saved crosshair!
+module.custom_crosshair_editor.widget_window.save_failed=Failed to save the crosshair!
 module.custom_crosshair_editor.widget_window.pen=Pen: %s
 module.custom_crosshair_editor.widget_window.pen_square=Square
 module.custom_crosshair_editor.widget_window.pen_round=Round
+module.custom_crosshair_editor.loading_crosshairs=Loading Crosshairs, please wait.
+module.custom_crosshair_editor.decompressing_crosshairs=Decompressing Crosshairs, please wait.
+module.custom_crosshair_editor.deleted_crosshair=Deleted crosshair "%s"!
+
 
 
 

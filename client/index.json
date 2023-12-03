@@ -73,22 +73,6 @@
       "md5": "bcb5516d1c3635575cc88d1e1ee48709"
     },
     {
-      "visual_name": "English (United States)",
-      "code": "en_US",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_US.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_US.lang",
-      "version": 15,
-      "md5": "ed759dec3f4c499116d4fb3df9bbb0b3"
-    },
-    {
-      "visual_name": "English (United Kingdom)",
-      "code": "en_GB",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_GB.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_GB.lang",
-      "version": 15,
-      "md5": "e7db3f5bdd9aea086b32426fb7090765"
-    },
-    {
       "visual_name": "Fran\u00E7ais (Canada)",
       "code": "fr_CA",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_CA.lang",
@@ -103,6 +87,22 @@
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_FR.lang",
       "version": 10,
       "md5": "e0d84cfe0ff17859d5173056cc78d732"
+    },
+    {
+      "visual_name": "English (United States)",
+      "code": "en_US",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_US.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_US.lang",
+      "version": 16,
+      "md5": "3cc5cc4eeb1dc1fc55c0c23fc14717a9"
+    },
+    {
+      "visual_name": "English (United Kingdom)",
+      "code": "en_GB",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_GB.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_GB.lang",
+      "version": 16,
+      "md5": "f6723b09133a8ddae95ef58fe9d0c792"
     }
   ]
 }

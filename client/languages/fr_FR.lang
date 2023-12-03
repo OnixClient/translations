@@ -111,23 +111,23 @@ module.ui.setting.color_picker_opacity.name=Opacité
 module.ui.setting.color_picker_opacity.description=Définit l'opacité (transparence) de la couleur.
 module.ui.setting.color_renderer_change_color=Changer la couleur
 module.ui.setting.key_renderer_unbind=Désassocier
-module.ui.setting.key_overlay_help=Appuyez sur n'importe quelle touche pour la choisir, appuyez sur Échap pour quitter sans changement.
+module.ui.setting.key_overlay_help=Appuyez sur n'importe quelle touche pour la choisir, appuyez sur Échap pour annuler.
 module.ui.setting.settings=Paramètres
-module.ui.notification.keybind_only=Vous devez utiliser le raccourci clavier pour utiliser %s
+module.ui.notification.keybind_only=Vous devez utiliser le raccourci clavier pour utiliser %s.
 module.ui.notification.position_of_mod_changed=La position de %s a changé car il était hors de l'écran !
 module.ui.notification.smooth_failed=Impossible d'activer la police lisse.
 module.ui.notification.smooth_now=Passage à la police lisse!
 module.ui.notification.mojangles_now=Passage à la police Minecraft!
 
 ## Notificaitons
-notification.greet.normal.title=Onix Client est maintenant injecté ! (%s)
+notification.greet.normal.title=Onix Client est maintenant injecté ! (%s).
 notification.greet.normal.description=Appuyez sur %s ou INSERT pour ouvrir l'interface graphique du client.
-notification.greet.halloween_mistake.title=Vous avez commis une terrible erreur >:D (%s)
-notification.greet.halloween.title=Onix Client a EFFRAYÉ votre Minecraft ! (boo!) (%s)
-notification.greet.christmas.title=Minecraft a été OFFERT avec Onix Client. (%s)
+notification.greet.halloween_mistake.title=Vous avez commis une terrible erreur >:D (%s).
+notification.greet.halloween.title=Onix Client a EFFRAYÉ votre Minecraft ! (boo!) (%s).
+notification.greet.christmas.title=Minecraft a été OFFERT avec Onix Client. (%s).
 notification.warning.chroma_mc_renderer.title=Chroma ne fonctionne pas sur le rendu Minecraft, utilisez plutôt le RGB.
 notification.module_is_blocked.title=%s est bloqué sur ce serveur et ne peut pas être activé pour le moment.
-notification.modules_now_blocked.title=Les modules ne sont pas autorisés et ont été bloqués sur ce serveur.
+notification.modules_now_blocked.title=Certains modules ont été bloqués sur ce serveur:
 notification.modules_unblocked.title=Modules débloqués !
 
 
@@ -214,9 +214,9 @@ module.ui.notification.config_switcher.script_not_for_normies=Les configurations
 ##Legacy Scripting
 module.lua_command.name=Commande Lua
 module.lua_command.description=Le module pour la commande Lua, il est utilisé pour permettre la création d'une fonction de rendu. \nPeut être utilisé comme n'importe quel mod. \nVous pouvez modifier le fichier CMD.lua pour y ajouter des fonctions préfabriquées.
-scripting.import.start=Importation du script %s "%s" en cours
+scripting.import.start=Importation du script %s "%s" en cours.
 scripting.import.success=Le script %s "%s" a été importé !
-scripting.import.fail=Échec de l'importation du script %s "%s"
+scripting.import.fail=Échec de l'importation du script %s "%s".
 
 
 ## 202020

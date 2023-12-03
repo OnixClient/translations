@@ -110,9 +110,9 @@ module.ui.setting.color_picker_opacity.name=Opacity
 module.ui.setting.color_picker_opacity.description=Choses what opacity the color has (transparency).
 module.ui.setting.color_renderer_change_color=Change Color
 module.ui.setting.key_renderer_unbind=Unbind
-module.ui.setting.key_overlay_help=Press any key to set it, Press escape to exit without change.
+module.ui.setting.key_overlay_help=Press any key so set the bind. Press escape to exit.
 module.ui.setting.settings=Settings
-module.ui.notification.keybind_only=You must use the keybind to use %s
+module.ui.notification.keybind_only=You must use the keybind to use %s.
 module.ui.notification.position_of_mod_changed=The position of %s changed because it was out of the screen!
 module.ui.notification.smooth_failed=Could not enable smooth font.
 module.ui.notification.smooth_now=Switched to Smooth Font.
@@ -120,15 +120,15 @@ module.ui.notification.mojangles_now=Switched to Mojangles Font.
 
 
 ## Notifications
-notification.greet.normal.title=Onix Client is now injected! (%s)
+notification.greet.normal.title=Onix Client is now injected! (%ss).
 notification.greet.normal.description=Press %s or INSERT to open the client GUI.
-notification.greet.halloween_mistake.title=You have made a terrible mistake >:D (%s)
-notification.greet.halloween.title=Onix Client has SPOOKED your Minecraft! (boo!) (%s)
-notification.greet.christmas.title=Minecraft has been GIFTED Onix Client. (%.2f)
-notification.warning.chroma_mc_renderer.title=Chroma does not work on the Minecraft Renderer, use RGB
-notification.module_is_blocked.title=%s is blocked on this server and cannot be enabled right now.
-notification.modules_now_blocked.title=Modules are not allowed and where blocked on this server.
-notification.modules_unblocked.title=Modules unblocked!
+notification.greet.halloween_mistake.title=You have made a terrible mistake >:D (%ss).
+notification.greet.halloween.title=Onix Client has SPOOKED your Minecraft! (boo!) (%ss).
+notification.greet.christmas.title=Minecraft has been GIFTED Onix Client. (%ss).
+notification.warning.chroma_mc_renderer.title=Chroma does not work on the Minecraft Renderer, use Rainbow.
+notification.module_is_blocked.title=%s is blocked on this server and cannot be enabled.
+notification.modules_now_blocked.title=Some modules have been blocked on this server:
+notification.modules_unblocked.title=Unblocked all modules.
 
 ## Client Hud
 module.clienthudui.setting.open_inventory=Open Inventory
@@ -164,7 +164,7 @@ module.themeuipreview.setting.info_scrollbar.name=This is just so it shows a scr
 module.themeuipreview.setting.info_scrollbar.description=This is just so it shows a scrollbar.
 
 module.themeuipreview.notification.save_failed=Could not save the theme.
-module.themeuipreview.notification.load_failed=Could not save the theme.
+module.themeuipreview.notification.load_failed=Could not load the theme.
 
 
 ## Theme Options
@@ -213,9 +213,9 @@ module.ui.notification.config_switcher.script_not_for_normies=Scripting configs 
 ##Legacy Scripting
 module.lua_command.name=Lua Command
 module.lua_command.description=The module for the lua command, it is used to allow the creation of a render function.\nCan be used like any normal mods\nYou can edit the CMD.lua file to add pre-made functions to it.
-scripting.import.start=Importing Script %s "%s"
+scripting.import.start=Importing script %s "%s".
 scripting.import.success=Script %s "%s" was imported!
-scripting.import.fail=Failed to Import Script %s "%s"
+scripting.import.fail=Failed to import script %s "%s".
 
 
 

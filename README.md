@@ -35,3 +35,6 @@ elament542
 
 ### Chinese
 Dook/mruiaw<br>
+
+### Macedonian
+IanTheLad<br>

@@ -88,10 +88,14 @@ module.ui.setting.color_picker_rainbow.name=Arc-en-ciel
 module.ui.setting.color_picker_rainbow.description=Active/désactive l'arc-en-ciel, l'arc-en-ciel est une couleur solide qui change avec le temps.
 module.ui.setting.color_picker_opacity.name=Opacité
 module.ui.setting.color_picker_opacity.description=Définit l'opacité (transparence) de la couleur.
+module.ui.setting.color_renderer_change_color=Changer la couleur
 module.ui.setting.key_renderer_unbind=Désassocier
 module.ui.setting.key_overlay_help=Appuyez sur n'importe quelle touche pour la choisir, appuyez sur Échap pour quitter sans changement.
 module.ui.setting.settings=Paramètres
 
+## Client Hud
+module.clienthudui.setting.open_inventory=Ouvrir l'inventaire
+module.clienthudui.setting.open_settings=Paramètres du client
 
 ## Theme Editor
 module.themeuipreview.name=Aperçu du thème
@@ -148,6 +152,22 @@ module.themeuioption.setting.reset_button.description=Réinitialise le thème ac
 module.themeuioption.setting.reset_button.button=Réinitialiser
 
 
+## Config Switcher
+module.ui.setting.config_switcher.title=Gestionnaire de Config/Profil
+module.ui.setting.config_switcher.description=Gérez toutes vos configs du Onix Client.
+module.ui.setting.config_switcher.what_name_create=Entrez un nom pour votre nouvelle config.
+module.ui.setting.config_switcher.what_name_clone=Quel nom doit avoir le clone ?
+module.ui.setting.config_switcher.forgot_name=Vous devez entrer un nom pour la config !
+module.ui.setting.config_switcher.already_exists=La config %s existe déjà !
+module.ui.setting.config_switcher.get_selected_reason_load_select=S'il vous plaît, sélectionnez une config à charger/sélectionner !
+module.ui.setting.config_switcher.get_selected_reason_load_clone=S'il vous plaît, sélectionnez une config à cloner !
+module.ui.setting.config_switcher.get_selected_reason_delete=S'il vous plaît, sélectionnez une config à supprimer !
+module.ui.setting.config_switcher.button_load_select=Charger/Sélectionner
+module.ui.setting.config_switcher.button_clone_current=Cloner la config actuelle
+module.ui.setting.config_switcher.button_open_folder=Ouvrir le dossier de configs
+module.ui.setting.config_switcher.button_switch_kind=Passer à %s
+module.ui.setting.config_switcher.button_switch_kind_scripting=Scripting
+module.ui.setting.config_switcher.button_switch_kind_onix=Onix
 
 
 ## 202020
@@ -565,16 +585,20 @@ module.custom_crosshair.setting.invert_colors.description=Activer ou désactiver
 module.custom_crosshair.setting.crosshair_color.name=Couleur du Réticule
 module.custom_crosshair.setting.crosshair_color.description=Définir la couleur du réticule.
 
+module.custom_crosshair.setting.crosshair.name=Réticule
 module.custom_crosshair.setting.crosshairs.name=Réticules
 module.custom_crosshair.setting.crosshairs.description=Liste des réticules.
 module.custom_crosshair.setting.preview.button=Aperçu
 module.custom_crosshair.setting.preview.description=Aperçu du réticule personnalisé.
-
+module.custom_crosshair.no_valid_selected=Aucun réticule valide sélectionné.
 
 ## Custom Crosshair Editor
 module.custom_crosshair_editor.setting.brush_radius.name=Rayon du Crayon/Gomme
 module.custom_crosshair_editor.setting.brush_radius.description=Le rayon de l'outil sélectionné.
 module.custom_crosshair_editor.create_window.title=Créer un Nouveau Réticule
+module.custom_crosshair_editor.create_window.already_exists=Un réticule portant le nom \"%s\" existe déjà !
+module.custom_crosshair_editor.create_window.too_small=Le viseur est trop petit. Il doit faire au moins 1 pixel.
+module.custom_crosshair_editor.create_window.too_big=Le viseur est trop grand pour moi, veuillez le réduire, il ne rentrera pas~
 module.custom_crosshair_editor.confirm_window.message=Vous êtes sur le point de supprimer un réticule! !
 module.custom_crosshair_editor.list_window.title=Réticules
 module.custom_crosshair_editor.list_window.create_button=Créer un Nouveau Réticule
@@ -583,11 +607,14 @@ module.custom_crosshair_editor.widget_window.reset_zoom=Réinitialiser le Zoom (
 module.custom_crosshair_editor.widget_window.reset_position=Réinitialiser la Position
 module.custom_crosshair_editor.widget_window.undo=Annuler (%s)
 module.custom_crosshair_editor.widget_window.save=Enregistrer (%s)
+module.custom_crosshair_editor.widget_window.saved=Réticule enregistré !
+module.custom_crosshair_editor.widget_window.save_failed=Échec de l'enregistrement du réticule !
 module.custom_crosshair_editor.widget_window.pen=Stylo: %s
 module.custom_crosshair_editor.widget_window.pen_square=Carré
 module.custom_crosshair_editor.widget_window.pen_round=Rond
-
-
+module.custom_crosshair_editor.loading_crosshairs=Chargement des réticules, veuillez patienter.
+module.custom_crosshair_editor.decompressing_crosshairs=Décompression des réticules, veuillez patienter.
+module.custom_crosshair_editor.deleted_crosshair=Réticule "%s" supprimé !
 
 
 ## Java Debug Menu

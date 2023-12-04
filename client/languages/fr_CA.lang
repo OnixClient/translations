@@ -72,13 +72,13 @@ module.textual.setting.bracket_type.tilde=<Texte%s~>
 module.textual.setting.bracket_type.star=<*%sTexte%s*>
 module.textual.setting.bracket_type.hashtag=<#%sTexte>
 
-
 module.module.setting.main_settings.name=Paramètres principaux
 module.module.setting.main_settings.description=Paramètres pour changer les fonctionnalités principales du module.
 module.module.setting.miscellaneous_settings.name=Paramètres divers
 module.module.setting.miscellaneous_settings.description=Paramètres pour changer les fonctionnalités diverses du module.
 module.module.setting.render_settings.name=Paramètres de rendu
 module.module.setting.render_settings.description=Paramètres qui affectent le rendu du module.
+
 
 ## Generic Gui
 gui.yes=Oui
@@ -148,6 +148,7 @@ module.ui.notification.smooth_failed=Impossible d'activer la police lisse.
 module.ui.notification.smooth_now=Passage à la police lisse!
 module.ui.notification.mojangles_now=Passage à la police Minecraft!
 
+
 ## Notificaitons
 notification.greet.normal.title=Onix Client est maintenant injecté ! (%s).
 notification.greet.normal.description=Appuyez sur %s ou INSERT pour ouvrir l'interface graphique du client.
@@ -163,6 +164,7 @@ notification.modules_unblocked.title=Modules débloqués !
 ## Client Hud
 module.clienthudui.setting.open_inventory=Ouvrir l'inventaire
 module.clienthudui.setting.open_settings=Paramètres du client
+
 
 ## Theme Editor
 module.themeuipreview.name=Aperçu du thème
@@ -200,8 +202,6 @@ module.themeuipreview.setting.enum.4=Les énumérations sont cool
 module.themeuipreview.setting.enum.5=Je suis fatigué de traduire tout ça
 module.themeuipreview.setting.enum.6=À l'aide :(
 module.themeuipreview.setting.enum.7=Vous avez dû défiler pour me voir :p
-
-
 module.themeuipreview.setting.info_setting.name=Celui-ci ne devrait pas être ici mais\nil est là pour que vous puissiez le prévisualiser de toute façon.
 module.themeuipreview.setting.info_setting.description=Celui-ci ne devrait pas être ici mais\nil est là pour que vous puissiez le prévisualiser de toute façon.
 module.themeuipreview.setting.info_scrollbar.name=C'est juste pour montrer une barre de défilement.
@@ -302,8 +302,6 @@ module.animation_settings.setting.easing.name=Interpolation
 module.animation_settings.setting.easing.description=Fonction d'interpolation pour les animations.
 
 
-
-
 ## Global Settings
 module.global_settings.name=Paramètres globaux
 module.global_settings.description=Ajustez les configurations globales pour le client.
@@ -321,6 +319,7 @@ module.global_settings.setting.notify_blocked_modules.name=Notifier les modules 
 module.global_settings.setting.notify_blocked_modules.description=Vous dit quand un module est bloqué.
 module.global_settings.setting.use_new_renderer.name=Utiliser le nouveau moteur de rendu
 module.global_settings.setting.use_new_renderer.description=Utilise le nouveau moteur de rendu.
+
 module.global_settings.setting.show_if_rosie_blushes.name=Afficher si Rosie rougit
 module.global_settings.setting.show_if_rosie_blushes.description=Montre si Rosie rougit.
 
@@ -397,8 +396,6 @@ module.global_settings.setting.use_d3d11.name=Basculer vers DirectX 11
 module.global_settings.setting.use_d3d11.description=Passe au mode de rendu DirectX 11.
 module.global_settings.setting.use_d3d11_warning.name=Note : Vous devrez redémarrer pour revenir en arrière.
 module.global_settings.setting.use_d3d11_warning.description=Vous devez redémarrer pour annuler ce changement.
-
-
 
 
 ## Auto GG
@@ -486,6 +483,7 @@ module.chat_tweaks.setting.compact_chat_reset_age.description=Choisir si cela do
 module.chunk_border.name=Chunk Border
 module.chunk_border.description=Dessine une bordure autour du chunk dans lequel vous vous trouvez.
 
+
 ## Cinematic Camera
 module.cinematic_camera.name=Caméra Cinématique
 module.cinematic_camera.description=Rend la caméra fluide, similaire à la caméra cinématique de java (ou Zoom Optifine).
@@ -549,7 +547,6 @@ module.color_options.setting.chroma_colors.description=Options pour changer la c
 module.color_options.setting.open_theme_editor.name=Ouvrir l'Éditeur de Thème
 module.color_options.setting.open_theme_editor.description=Ouvre l'éditeur de thème pour changer l'interface utilisateur du client.
 module.color_options.setting.open_theme_editor.button=Ouvrir
-
 
 
 ## Creative Tools
@@ -659,6 +656,7 @@ module.creative_tools.notification.phase_start=NoClip activé, soyez prudent.
 module.creative_tools.notification.phase_stop=NoClip désactivé.
 module.creative_tools.notification.op_needed=Vous devez être opérateur pour utiliser %s%s.
 
+
 ## Crop Protector
 module.crop_protector.name=Protecteur de Cultures
 module.crop_protector.description=Empêche la destruction des cultures pas encore poussées.\nAccroupissez-vous pour ignorer.
@@ -696,6 +694,7 @@ module.custom_crosshair.setting.crosshairs.description=Liste des réticules.
 module.custom_crosshair.setting.preview.button=Aperçu
 module.custom_crosshair.setting.preview.description=Aperçu du réticule personnalisé.
 module.custom_crosshair.no_valid_selected=Aucun réticule valide sélectionné.
+
 
 ## Custom Crosshair Editor
 module.custom_crosshair_editor.setting.brush_radius.name=Rayon du Crayon/Gomme
@@ -773,7 +772,6 @@ module.dynamic_light.setting.minimum_light_level.name=Niveau Minimum
 module.dynamic_light.setting.minimum_light_level.description=Définir le niveau minimum de lumière.
 module.dynamic_light.setting.keep_light_on_eject.name=Garder la Lumière à l'Éjection
 module.dynamic_light.setting.keep_light_on_eject.description=Activer ou désactiver le maintien de la lumière à l'éjection.
-
 
 
 ## Environment Changer
@@ -881,6 +879,7 @@ module.freelook.setting.toggle_freelook.description=Activer/désactiver le Freel
 module.freelook.setting.keybind_warning.name=Avertissement : Il n'est pas recommandé de lier le Freelook à la touche ALT !
 module.freelook.setting.keybind_warning.description=Avertissement : Il n'est pas recommandé de lier le Freelook à la touche ALT !
 
+
 ## Fullbright
 module.fullbright.name=Fullbright
 module.fullbright.description=Rend l'environnement environnant plus lumineux. Permet de voir plus clairement dans l'End, le Nether et la nuit.
@@ -901,6 +900,7 @@ module.glint_color_changer.setting.presets.description=Choisissez parmi les opti
 module.glint_color_changer.setting.presets.electric_blue=Bleu électrique
 module.glint_color_changer.setting.presets.blood_red=Rouge sang
 module.glint_color_changer.setting.presets.white=Blanc
+
 
 ## GUI Scale Changer
 module.gui_scale_changer.name=Échelle du GUI
@@ -943,6 +943,7 @@ module.hitboxes.setting.player_only.description=Afficher les hitboxes uniquement
 module.hitboxes.setting.player_note.name=Note: Beaucoup de choses ne sont pas des joueurs mais sont perçues comme telles par le serveur.\nSi les hitboxes apparaissent sur des PNJ ou des entités similaires,\n c'est normal car elles sont reconnues comme des joueurs par le jeu.
 module.hitboxes.setting.player_note.description=Note: Beaucoup de choses ne sont pas des joueurs mais sont perçues comme telles par le serveur.\nSi les hitboxes apparaissent sur des PNJ ou des entités similaires,\n c'est normal car elles sont reconnues comme des joueurs par le jeu.
 
+
 ## Hurt Color
 module.hurt_color.name=Couleur des Dégats
 module.hurt_color.description=Modifie la couleur des entités lorsqu'elles sont blessées.
@@ -983,7 +984,6 @@ module.item_highlighter.setting.remove.button=Retirer
 module.item_highlighter.setting.add.name=Ajouter item
 module.item_highlighter.setting.add.description=Ajouter un nouvel item à surligner.
 module.item_highlighter.setting.add.button=Ajouter
-
 
 
 ## Item Physics
@@ -1032,6 +1032,7 @@ module.light_overlay.setting.check_down_by_height.description=Définissez jusqu'
 module.litematica.name=Litematica
 module.litematica.description=Vous aide a construire des structures.
 
+
 ## Minimal View Bobbing
 module.minimal_view_bobbing.name=Mouvement de Tête Minimal
 module.minimal_view_bobbing.description=Désactive les secousses d'écran lorsque le mouvement de tête est activé.\n(Nécessite l'activation du mouvement de tête, view bobbing si votre jeu est en anglais.)
@@ -1046,6 +1047,7 @@ module.modern_keybind_handling.setting.movement_keys_only.description=Restreint 
 
 module.modern_keybind_handling.setting.do_among_onix_ui.name=Affecter les Interfaces Onix
 module.modern_keybind_handling.setting.do_among_onix_ui.description=Applique les modifications aux touche utilisés au sein des éléments d'interface Onix.
+
 
 ## Motion Blur
 module.motion_blur.name=Flou du Mouvement
@@ -1141,6 +1143,7 @@ module.player_list_tab.setting.player_heads.description=Affiche la têtes des jo
 module.player_list_tab.setting.names_per_column.name=Noms par Colonne
 module.player_list_tab.setting.names_per_column.description=Spécifie le nombre de noms par colonne dans la liste.
 
+
 ## Over The Shoulder Camera
 module.over_the_shoulder_camera.name=Caméra par-dessus l'épaule
 module.over_the_shoulder_camera.description=Vous permet de changer la position de la caméra à la troisième personne.
@@ -1207,6 +1210,7 @@ module.post_processing.setting.vignette_transition.description=Ajuster la transi
 module.post_processing.setting.vignette_color.name=Couleur de Vignette
 module.post_processing.setting.vignette_color.description=Ajuster la couleur de l'effet de vignette.
 
+
 ## Render Options
 module.render_options.name=Options de Rendu
 module.render_options.description=Vous donne plus d'options de rendu.
@@ -1236,27 +1240,33 @@ module.render_options.setting.disable_vignette.description=Désactiver le rendu 
 module.rod_fix_mod.name=RodFix
 module.rod_fix_mod.description=Vous permet de lancer une canne à pêche tout en regardant une entité.\nC'est un bug dans la version 1.16.40! (MCPE-65249)
 
+
 ## Sky Overlay Changer
 module.sky_overlay_changer.name=Sky Overlay Changer
 module.sky_overlay_changer.description=Permet de changer l'overlay du ciel sans quitter le monde.
+
 
 ## Snaplook
 module.snaplook.name=Snaplook
 module.snaplook.description=Change la perspective tant que la touche est enfoncée.
 
+
 ## Third Person Nametag
 module.third_person_nametag.name=Nametag à la Troisième Personne
 module.third_person_nametag.description=Affiche votre nom à la troisième personne.
 
+
 ## Test Module
 module.test_module.name=Module de Test
 module.test_module.description=Ceci est un module de test.
+
 
 ## TNT Timer
 module.tnt_timer.name=TNT Timer
 module.tnt_timer.description=Affiche le temps de détonation de la TNT.
 module.tnt_timer.setting.max_distance.name=Distance Maximale
 module.tnt_timer.setting.max_distance.description=La distance maximale pour afficher le chronomètre.
+
 
 ## Toggle Sprint/Sneak
 module.toggle_sprint_sneak.name=Toggle Sprint/Sneak
@@ -1282,6 +1292,7 @@ module.toggle_sprint_sneak.setting.show_indicator.name=Afficher l'Indicateur
 module.toggle_sprint_sneak.setting.show_indicator.description=Afficher ou masquer l'indicateur.
 module.toggle_sprint_sneak.setting.diagonal_sprintfix.name=Correction de Sprint Diagonal
 module.toggle_sprint_sneak.setting.diagonal_sprintfix.description=Activer ou désactiver la correction de sprint diagonal.\nSurtout pour les vielles versions (1.19.50-)
+
 
 ## View Model
 module.view_model.name=Modèle en Main
@@ -1336,6 +1347,7 @@ module.waypoints.setting.add_waypoint_for_end_gateways.description=Activer ou d�
 module.waypoints.setting.disable_server_mode.name=Désactiver le Mode Serveur
 module.waypoints.setting.disable_server_mode.description=Traite les serveurs comme des mondes, utile pour les realms.
 
+
 ## Zoom
 module.zoom.name=Zoom
 module.zoom.description=Permet de zoomer sur des objets éloignés.
@@ -1367,8 +1379,6 @@ module.zoom.setting.do_animation.name=Animation de Zoom
 module.zoom.setting.do_animation.description=Activer ou désactiver l'animation de zoom.
 module.zoom.setting.animation_duration.name=Vitesse de l'Animation de Zoom
 module.zoom.setting.animation_duration.description=Ajuster la vitesse de l'animation de zoom.
-
-
 
 
 ## Armor HUD
@@ -1432,8 +1442,6 @@ module.arrow_counter.setting.hide_if_zero.description=Masque l'affichage du nomb
 module.arrow_counter.arrow_value=Flèches: %s
 
 
-
-
 ## Audio Subtitles
 module.audio_subtitle.name=Sous-Titres Audio
 module.audio_subtitle.description=Affiche les sons ambiants joués dans le monde.
@@ -1449,8 +1457,6 @@ module.audio_subtitle.setting.max_name_length.name=Longueur maximale du nom
 module.audio_subtitle.setting.max_name_length.description=Définit le nombre maximal de caractères pour les noms de sons dans les sous-titres.
 module.audio_subtitle.setting.max_column_count.name=Nombre maximum de lignes
 module.audio_subtitle.setting.max_column_count.description=Spécifie le nombre maximum de lignes affichées pour les sous-titres.
-
-
 
 
 ## Break Progress
@@ -1497,8 +1503,6 @@ module.clock.setting.show_seconds.description=Affiche les secondes dans l'heure.
 module.clock.time_text=Temps: %s
 
 
-
-
 ## Combo Counter
 module.combo_counter.name=Compteur de Combo
 module.combo_counter.description=Affiche le nombre de coups que vous infligez à un ennemi sans être touché.
@@ -1507,8 +1511,6 @@ module.combo_counter.setting.show_combo_text.description=Affiche le texte "Combo
 module.combo_counter.setting.flash_when_hit.name=Flash si le Combo s'Arrête
 module.combo_counter.setting.flash_when_hit.description=Déclenche un effet de flash dans le background du module au moment où votre combo s'arrête.
 module.combo_counter.combo_text=Combo: %s
-
-
 
 
 ## Compass
@@ -1526,8 +1528,6 @@ module.direction_hud.setting.compass_amount.name=Portée
 module.direction_hud.setting.compass_amount.description=Définit la portée de la boussole.
 module.direction_hud.setting.compass_width.name=Largeur
 module.direction_hud.setting.compass_width.description=Ajuste la largeur de l'affichage.
-
-
 
 
 ## Cooldowns Module
@@ -1578,8 +1578,6 @@ module.cps.setting.alternate_splitter.name=Séparateur Alternatif
 module.cps.setting.alternate_splitter.description=Utilise un séparateur alternatif pour les CPS.
 
 
-
-
 ## Day Counter Module
 module.day_counter.name=Compteur de Jours
 module.day_counter.description=Affiche la quantité de jours de jeu ou de temps de jeu.
@@ -1589,8 +1587,6 @@ module.day_counter.setting.in_minecraft_day.name=Afficher en Jours Minecraft
 module.day_counter.setting.in_minecraft_day.description=Affiche le temps en jours Minecraft.
 module.daycounter.days=%s Jours
 module.daycounter.seconds=%s Secondes
-
-
 
 
 ## Flappy Bird Module
@@ -1608,12 +1604,9 @@ module.flappy_bird.setting.auto_play.name=Jouer Automatiquement
 module.flappy_bird.setting.auto_play.description=Active le gameplay automatique.
 
 
-
-
 ## F P S Counter Module
 module.fps.name=Compteur d'FPS
 module.fps.description=Affiche le nombre d'images par seconde.
-
 
 
 ## Item Tracker Module
@@ -1631,8 +1624,6 @@ module.item_tracker.setting.bracket_color.name=Couleur des Crochets
 module.item_tracker.setting.bracket_color.description=Spécifie la couleur des crochets.
 module.item_tracker.setting.ignored_slots.name=Emplacements Ignorés
 module.item_tracker.setting.ignored_slots.description=Spécifie les emplacements à ignorer dans le suivi.
-
-
 
 
 ## Keystrokes
@@ -1700,7 +1691,6 @@ module.keystrokes.setting.down_back_color.name=Couleur de Fond des Touches Press
 module.keystrokes.setting.down_back_color.description=Définit la couleur de fond pour les touches actuellement pressées.
 
 
-
 ## Memory Usage Module
 module.memory_usage.name=Utilisation de la RAM
 module.memory_usage.description=Affiche l'utilisation de la RAM du jeu.
@@ -1708,8 +1698,6 @@ module.memory_usage.setting.percent.name=Pourcentage
 module.memory_usage.setting.percent.description=Affiche l'utilisation de la RAM en pourcentage.
 module.memory_usage.setting.megabytes_only.name=Mégaoctets Uniquement
 module.memory_usage.setting.megabytes_only.description=Affiche l'utilisation de la RAM en mégaoctets uniquement.
-
-
 
 
 ## Minimap Module
@@ -1764,15 +1752,11 @@ module.movable_chat.setting.bottom_chat_height.name=Hauteur du Chat en Bas
 module.movable_chat.setting.bottom_chat_height.description=Ajuste la hauteur du chat en bas.
 
 
-
-
 ## Movable Paperdoll Module
 module.movable_paperdoll.name=Paperdoll Déplaçable
 module.movable_paperdoll.description=Active le déplacement et le redimensionnement du paperdoll.
 module.movable_paperdoll.setting.always_render.name=Toujours Afficher
 module.movable_paperdoll.setting.always_render.description=Assure que le paperdoll est toujours visible.
-
-
 
 
 ## Movable Scoreboard Module
@@ -1796,12 +1780,9 @@ module.movable_scoreboard.setting.score_text_color.name=Couleur du texte du scor
 module.movable_scoreboard.setting.score_text_color.description=La couleur du texte pour le score.
 
 
-
-
 ## Movable Title Module
 module.movable_title.name=Titre déplaçable
 module.movable_title.description=Permet de personnaliser la position du titre.
-
 
 
 ## Pack Display
@@ -1813,7 +1794,6 @@ module.pack_display.setting.last_only.name=Dernier Pack Uniquement
 module.pack_display.setting.last_only.description=Affiche uniquement le dernier pack de la liste.
 module.pack_display.setting.show_description.name=Afficher la description
 module.pack_display.setting.show_description.description=Affiche la description des packs.
-
 
 
 ## Ping Display Module
@@ -1829,8 +1809,6 @@ module.ping_display.ms_abreviation_up=%sMS
 module.ping_display.ms_abreviation_low=%sms
 
 
-
-
 ## Pot Counter
 module.potion_counter.name=Compteur de Potions
 module.potion_counter.description=Affiche le nombre de potions de soin instantané que vous possédez actuellement.
@@ -1839,7 +1817,6 @@ module.potion_counter.setting.show_potion_text.description=Affiche le texte "Pot
 module.potion_counter.setting.hide_without_items.name=Cacher si vous n'avez pas de Potions
 module.potion_counter.setting.hide_without_items.description=Cache le compteur s'il n'y a pas de potions.
 module.potion_counter.potion_text=Potion: %s
-
 
 
 ## Potion Hud
@@ -1865,8 +1842,6 @@ module.potion_hud.brewing_guide.brew_longer=Potion plus Longue
 module.potion_hud.brewing_guide.brew_stronger=Potion plus Puissante
 
 
-
-
 ## Reach Display
 module.reach_display.name=Affichage de Reach
 module.reach_display.description=Affiche la portée de votre dernier coup. Pas 100% précis en raison de la latence !
@@ -1875,15 +1850,11 @@ module.reach_display.setting.show_reach_text.description=Affiche le texte "Reach
 module.reach_display.reach_text=Reach: %s
 
 
-
-
 ## Server Module
 module.server_ip.name=IP du Serveur
 module.server_ip.description=Affiche l'adresse IP du serveur sur lequel vous jouez.
 module.server_ip.setting.show_port.name=Afficher le Port
 module.server_ip.setting.show_port.description=Affiche le port du serveur en plus de l'adresse IP.
-
-
 
 
 ## Snake
@@ -1901,8 +1872,6 @@ module.snake.setting.key_right.name=Touche Droite
 module.snake.setting.key_right.description=Touche utilisée pour le mouvement vers la droite.
 
 
-
-
 ## Soup Counter
 module.soup_counter.name=Compteur de Soupes
 module.soup_counter.description=Affiche le nombre de soupes dans votre inventaire.
@@ -1913,15 +1882,12 @@ module.soup_counter.setting.show_soup_text.description=Affiche le texte "Soupe :
 module.soup_counter.soup_text=Soupe: %s
 
 
-
 ## Speed Counter
 module.speed_display.name=Compteur de Vitesse
 module.speed_display.description=Affiche votre vitesse en blocs par seconde.
 module.speed_display.setting.include_vertical_speed.name=Inclure la Vitesse Verticale
 module.speed_display.setting.include_vertical_speed.description=Inclut la vitesse verticale dans l'affichage.
 module.speed_display.blocks_per_second=blocs/s
-
-
 
 
 ## Stopwatch Module

@@ -148,7 +148,7 @@ notification.greet.halloween.title=Onix Client a EFFRAYÉ votre Minecraft ! (boo
 notification.greet.christmas.title=Minecraft a été OFFERT avec Onix Client. (%s).
 notification.warning.chroma_mc_renderer.title=Chroma ne fonctionne pas sur le rendu Minecraft, utilisez plutôt le RGB.
 notification.module_is_blocked.title=%s est bloqué sur ce serveur et ne peut pas être activé pour le moment.
-notification.modules_now_blocked.title=Certains modules ont été bloqués sur ce serveur:
+notification.modules_now_blocked.title=Certains modules ont été bloqués sur ce serveur.
 notification.modules_unblocked.title=Modules débloqués !
 
 

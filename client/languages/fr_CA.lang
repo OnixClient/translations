@@ -42,6 +42,17 @@ module.visual.setting.corner_quality.name=Qualité des coins arrondis
 module.visual.setting.corner_quality.description=La qualité des coins arrondis, plus elle est élevée, mieux c'est, n'affecte pas le nouveau mode de rendu.
 module.visual.setting.expand_direction.name=Direction d'expansion
 module.visual.setting.expand_direction.description=La direction dans laquelle le module s'étendra.
+module.visual.setting.expand_direction.auto=Automatique
+module.visual.setting.expand_direction.top_left=En haut à gauche
+module.visual.setting.expand_direction.top_center=En haut au centre
+module.visual.setting.expand_direction.top_right=En haut à droite
+module.visual.setting.expand_direction.center_left=Au centre à gauche
+module.visual.setting.expand_direction.center_center=Au centre absolu
+module.visual.setting.expand_direction.center_right=Au centre à droite
+module.visual.setting.expand_direction.bottom_left=En bas à gauche
+module.visual.setting.expand_direction.bottom_center=En bas au centre
+module.visual.setting.expand_direction.bottom_right=En bas à droite
+
 module.visual.setting.anchor.name=Ancre
 module.visual.setting.anchor.description=L'ancre du module, la position sera relative à celle-ci.
 module.visual.setting.position.name=Position
@@ -52,6 +63,14 @@ module.textual.setting.bracket_type.name=Type de crochet
 module.textual.setting.bracket_type.description=Le type de crochets à utiliser.
 module.textual.setting.space_between_brackets.name=Espace entre crochets
 module.textual.setting.space_between_brackets.description=Inclure un espace entre les crochets et le texte.
+module.textual.setting.bracket_type.none=Aucun
+module.textual.setting.bracket_type.parentesis=(%sTexte%s)
+module.textual.setting.bracket_type.square=[%sTexte%s]
+module.textual.setting.bracket_type.curly={%sTexte%s}
+module.textual.setting.bracket_type.angle=<%sTexte%s>
+module.textual.setting.bracket_type.tilde=<Texte%s~>
+module.textual.setting.bracket_type.star=<*%sTexte%s*>
+module.textual.setting.bracket_type.hashtag=<#%sTexte>
 
 
 module.module.setting.main_settings.name=Paramètres principaux
@@ -93,6 +112,7 @@ gui.hide=Cacher
 gui.none=Aucun
 gui.more=Plus
 gui.less=Moins
+gui.default=Par défaut
 
 
 ## List texts, when the client shows a list of things
@@ -149,6 +169,11 @@ module.themeuipreview.name=Aperçu du thème
 module.themeuipreview.description=Ceci est un aperçu pour voir les changements que vous apportez!
 module.themeuipreview.setting.presets.name=Préréglages
 module.themeuipreview.setting.presets.description=Préréglages de thème que vous pouvez utliser ou personnaliser à votre guise.
+module.themeuipreview.setting.presets.dark=Sombre
+module.themeuipreview.setting.presets.light=Clair
+module.themeuipreview.setting.presets.egirl=Rosie
+module.themeuipreview.setting.presets.halloween=Halloween
+module.themeuipreview.setting.presets.christmas=Noël
 module.themeuipreview.setting.category.name=Catégorie
 module.themeuipreview.setting.category.description=Un aperçu d'une catégorie.
 module.themeuipreview.setting.info_category.name=Salut! Je suis à l'intérieur d'une catégorie!
@@ -168,6 +193,15 @@ module.themeuipreview.setting.button.description=Bouton pour prévisualiser l'ap
 module.themeuipreview.setting.button.button=Cliquez-moi!
 module.themeuipreview.setting.enum.name=Énumération
 module.themeuipreview.setting.enum.description=Énumération pour prévisualiser l'apparence.
+module.themeuipreview.setting.enum.1=Cliquez moi dessus !
+module.themeuipreview.setting.enum.2=Je suis un paramètre d'énumération !
+module.themeuipreview.setting.enum.3=Je ne suis qu'une ligne de texte sans sentiments
+module.themeuipreview.setting.enum.4=Les énumérations sont cool
+module.themeuipreview.setting.enum.5=Je suis fatigué de traduire tout ça
+module.themeuipreview.setting.enum.6=À l'aide :(
+module.themeuipreview.setting.enum.7=Vous avez dû défiler pour me voir :p
+
+
 module.themeuipreview.setting.info_setting.name=Celui-ci ne devrait pas être ici mais\nil est là pour que vous puissiez le prévisualiser de toute façon.
 module.themeuipreview.setting.info_setting.description=Celui-ci ne devrait pas être ici mais\nil est là pour que vous puissiez le prévisualiser de toute façon.
 module.themeuipreview.setting.info_scrollbar.name=C'est juste pour montrer une barre de défilement.
@@ -492,6 +526,8 @@ module.color_options.setting.color_presets.name=Préréglages de Couleur
 module.color_options.setting.color_presets.description=Choisissez parmi les options de couleur prédéfinies.
 module.color_options.setting.color_preset.name=Préréglage de Couleur %s
 module.color_options.setting.color_preset.description=Changer le préréglage %s dans le sélecteur de couleur.
+module.color_options.setting.chroma_presets.pastel=Pastel
+module.color_options.setting.chroma_presets.black_and_white=Noir et blanc
 module.color_options.setting.color_options_category.name=Catégorie Options de Couleur
 module.color_options.setting.color_options_category.description=Paramètres pour les options de couleur.
 module.color_options.setting.color_options.button=Ouvrir l'Éditeur de Thème
@@ -596,6 +632,9 @@ module.creative_tools.setting.esp_command_blocks_behind.name=Mettre en Surbrilla
 module.creative_tools.setting.esp_command_blocks_behind.description=Affiche la surbrillance pour les blocs de commande qui sont derrière vous.
 module.creative_tools.setting.command_block_esp_type.name=Type de surbrillance
 module.creative_tools.setting.command_block_esp_type.description=Type de surbrillance de bloc de commande.
+module.creative_tools.setting.command_block_esp_type.outline=Contour
+module.creative_tools.setting.command_block_esp_type.overlay=Overlay
+module.creative_tools.setting.command_block_esp_type.textured=Texturé
 
 module.creative_tools.setting.elevation_settings_category.name=Paramètres d'élévation
 module.creative_tools.setting.elevation_settings_category.description=Paramètres d'élévation.
@@ -832,6 +871,9 @@ module.freelook.setting.no_perspective_change.name=Aucun Changement de Perspecti
 module.freelook.setting.no_perspective_change.description=Activer/désactiver le changement de perspective.
 module.freelook.setting.perspective.name=Perspective
 module.freelook.setting.perspective.description=Sélectionnez la perspective souhaitée.
+module.freelook.setting.perspective.first_person=Première personne
+module.freelook.setting.perspective.third_person_back=Troisième personne (Arrière)
+module.freelook.setting.perspective.third_person_front=Troisième personne (Avant)
 
 module.freelook.setting.toggle_freelook.name=Activer/Desactiver le Freelook
 module.freelook.setting.toggle_freelook.description=Activer/désactiver le Freelook.
@@ -856,7 +898,9 @@ module.glint_color_changer.setting.glint_color.description=Modifie la couleur de
 
 module.glint_color_changer.setting.presets.name=Préréglages
 module.glint_color_changer.setting.presets.description=Choisissez parmi les options de couleur de glint prédéfinies.
-
+module.glint_color_changer.setting.presets.electric_blue=Bleu électrique
+module.glint_color_changer.setting.presets.blood_red=Rouge sang
+module.glint_color_changer.setting.presets.white=Blanc
 
 ## GUI Scale Changer
 module.gui_scale_changer.name=Échelle du GUI
@@ -1099,9 +1143,12 @@ module.player_list_tab.setting.names_per_column.description=Spécifie le nombre 
 
 ## Over The Shoulder Camera
 module.over_the_shoulder_camera.name=Caméra par-dessus l'épaule
-module.over_the_shoulder_camera.description=Vous permet de changer la position de la caméra en F5.
+module.over_the_shoulder_camera.description=Vous permet de changer la position de la caméra à la troisième personne.
 module.over_the_shoulder_camera.setting.x_offset.name=Décalage X
 module.over_the_shoulder_camera.setting.x_offset.description=Ajuste le décalage X de la caméra, ce qui change de quel côté/à quelle distance la caméra est.
+module.over_the_shoulder_camera.setting.include_tps_front.name=Inclure la troisième personne de face
+module.over_the_shoulder_camera.setting.include_tps_front.description=Inclut la troisième personne de face dans la caméra par-dessus l'épaule.
+
 
 ## 3D Skins
 module.player_skin_3d.name=Skins 3D
@@ -1425,8 +1472,11 @@ module.break_progress.setting.bar_back_color.name=Couleur de fond de la barre
 module.break_progress.setting.bar_back_color.description=Spécifie la couleur de fond de la barre de progression.
 module.break_progress.setting.bar_direction.name=Direction de la barre
 module.break_progress.setting.bar_direction.description=Définit la direction de la barre de progression.
+module.break_progress.setting.bar_direction.left_to_right=De gauche à droite
+module.break_progress.setting.bar_direction.right_to_left=De droite à gauche
+module.break_progress.setting.bar_direction.bottom_to_top=De bas en haut
+module.break_progress.setting.bar_direction.top_to_bottom=De haut en bas
 module.break_progress.break_text=Casse: %s
-
 
 
 ## Clock
@@ -1695,8 +1745,15 @@ module.movable_chat.setting.message_inout_animation_speed.name=Vitesse d'Animati
 module.movable_chat.setting.message_inout_animation_speed.description=Contrôle la vitesse des animations des messages.
 module.movable_chat.setting.animations.name=Animations
 module.movable_chat.setting.animations.description=Gère les animations du chat.
+module.movable_chat.setting.animations.fade=Fade
+module.movable_chat.setting.animations.grow=Grow
+module.movable_chat.setting.animations.fade_and_grow=Fade et Grow
 module.movable_chat.setting.animation_interpolator.name=Interpolateur d'Animation
 module.movable_chat.setting.animation_interpolator.description=Spécifie l'interpolateur d'animation.
+module.movable_chat.setting.animation_interpolator.linear=Linéaire
+module.movable_chat.setting.animation_interpolator.ease_inout=Ease In Out
+module.movable_chat.setting.animation_interpolator.smoothstep3=Smoothstep 3
+module.movable_chat.setting.animation_interpolator.smoothstep4=Smoothstep 4
 module.movable_chat.setting.text_shadow.name=Ombres de Texte
 module.movable_chat.setting.text_shadow.description=Gère les ombres de texte dans le chat.
 module.movable_chat.setting.default_text_color.name=Couleur de Texte par Défaut
@@ -1875,6 +1932,31 @@ module.stopwatch.setting.start_stop_key.description=Touche utilisée pour démar
 module.stopwatch.setting.pause_unpause_key.name=Touche Pause/Reprendre
 module.stopwatch.setting.pause_unpause_key.description=Touche utilisée pour mettre en pause ou reprendre le chronomètre.
 
+
+## Nametag Modifier
+module.nametag_modifier.name=Modificateur de Nametag
+module.nametag_modifier.description=Vous permet de modifier les Nametags.
+module.nametag_modifier.setting.background_color_mode.name=Mode de couleur de l'arrière plan
+module.nametag_modifier.setting.background_color_mode.description=Spécifie le mode de couleur de l'arrière plan.
+module.nametag_modifier.setting.background_color_mode.clear=Vide
+module.nametag_modifier.setting.background_color_mode.static=Couleur statique
+module.nametag_modifier.setting.background_color_mode.average=Couleur la plus fréquente
+module.nametag_modifier.setting.background_color_mode.before_name=Couleur d'avant le nom
+module.nametag_modifier.setting.background_color_mode.blend=Mélanger toutes les couleurs
+module.nametag_modifier.setting.nametag_background_color.name=Couleur de l'arrière plan du Nametag
+module.nametag_modifier.setting.nametag_background_color.description=Spécifie la couleur de l'arrière plan du Nametag.
+module.nametag_modifier.setting.background_color_fallback=Couleur de l'arrière plan de secours
+module.nametag_modifier.setting.background_color_fallback.description=Spécifie la couleur de fond de secours.
+module.nametag_modifier.setting.nametag_text_color.name=Couleur du texte du Nametag
+module.nametag_modifier.setting.nametag_text_color.description=Spécifie la couleur du texte du Nametag.
+module.nametag_modifier.setting.third_person_nametag.name=Nametag à la troisième personne
+module.nametag_modifier.setting.third_person_nametag.description=Affiche le Nametag à la troisième personne.
+module.nametag_modifier.setting.reset_color_is_default_background.name=Utiliser la couleur de texte par défaut comme couleur de fond par défaut
+module.nametag_modifier.setting.reset_color_is_default_background.description=Utilise la couleur de texte par défaut comme couleur d'arrière plan.
+module.nametag_modifier.setting.background_opacity.name=Opacité de l'arrière plan
+module.nametag_modifier.setting.background_opacity.description=Ajuste l'opacité du fond.
+module.nametag_modifier.setting.background_darken.name=Assombrir l'arrière plan
+module.nametag_modifier.setting.background_darken.description=Assombrit le fond.
 
 
 ## Visual Testing

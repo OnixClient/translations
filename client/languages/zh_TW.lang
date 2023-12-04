@@ -40,10 +40,28 @@ module.visual.setting.position.name=位置
 module.visual.setting.position.description=模塊的初始位置.
 module.visual.setting.size.name=大小
 module.visual.setting.size.description=模塊的初始大小.
+module.visual.setting.expand_direction.auto=自動
+module.visual.setting.expand_direction.bottom_center=底部居中
+module.visual.setting.expand_direction.bottom_left=底部靠左
+module.visual.setting.expand_direction.bottom_right=底部靠右
+module.visual.setting.expand_direction.center_center=居中
+module.visual.setting.expand_direction.center_left=居中靠左
+module.visual.setting.expand_direction.center_right=居中靠右
+module.visual.setting.expand_direction.top_center=頂部居中
+module.visual.setting.expand_direction.top_left=頂部靠左
+module.visual.setting.expand_direction.top_right=頂部靠右
 module.textual.setting.bracket_type.name=括號類型
 module.textual.setting.bracket_type.description=要使用的括號類型.
 module.textual.setting.space_between_brackets.name=在括號旁添加空格
 module.textual.setting.space_between_brackets.description=在括號和文本中間添加空格.
+module.textual.setting.bracket_type.angle=<%s文本%s>
+module.textual.setting.bracket_type.curly={%s文本%s}
+module.textual.setting.bracket_type.hashtag=<#%s文本>
+module.textual.setting.bracket_type.none=無
+module.textual.setting.bracket_type.parentesis=(%s文本%s)
+module.textual.setting.bracket_type.square=[%s文本%s]
+module.textual.setting.bracket_type.star=<*%s文本%s*>
+module.textual.setting.bracket_type.tilde=<文本%s~>
 
 module.module.setting.main_settings.name=主要設置
 module.module.setting.main_settings.description=用於更改模塊主要功能的設置.
@@ -51,6 +69,21 @@ module.module.setting.miscellaneous_settings.name=其他設置
 module.module.setting.miscellaneous_settings.description=用於更改模塊其他功能的設置.
 module.module.setting.render_settings.name=渲染設置
 module.module.setting.render_settings.description=影響模塊視覺效果的設置.
+
+module.clienthudui.setting.open_inventory=打開背包
+module.clienthudui.setting.open_settings=客戶端設置
+
+notification.greet.christmas.title=Minecraft 已贈送給 Onix 客戶端. (%s).
+notification.greet.halloween_mistake.title=你犯了一個天大的錯誤 >:D (%s).
+notification.greet.halloween.title=Onix 客戶端嚇壞了你的 MC! (嘭!) (%s).
+notification.greet.normal.description=按下 %s 或 INSERT 鍵以打開客戶端GUI.
+notification.greet.normal.title=已註入 Onix 客戶端! (%s).
+notification.module_is_blocked.title=%s 在此服務器上被禁用, 無法啟用.
+notification.modules_now_blocked.title=某些功能已在此服務器上被禁用.
+notification.modules_unblocked.title=已解鎖所有模塊.
+notification.warning.chroma_mc_renderer.title=色度模式在 Minecraft 渲染器上不起作用，請使用彩虹模式.
+
+
 
 ## Generic Gui
 gui.yes=是
@@ -79,6 +112,20 @@ gui.are_you_sure=確認?
 gui.create_new=新建 %s
 gui.accept=接受
 gui.deny=拒絕
+gui.default=默認
+gui.hide=隱藏
+gui.less=減少
+gui.list.begin=
+gui.list.end=
+gui.list.post_element=,
+gui.list.post_first_element=,
+gui.list.post_last_element=
+gui.list.pre_element= 
+gui.list.pre_first_element=
+gui.list.pre_last_element= 和 
+gui.more=更多
+gui.none=無
+gui.show=顯示
 
 
 ## Module Guis
@@ -91,6 +138,28 @@ module.ui.setting.color_picker_opacity.description=選擇顏色的不透明度�
 module.ui.setting.key_renderer_unbind=取消綁定
 module.ui.setting.key_overlay_help=按任意鍵進行設置, 按 Esc 鍵退出而不進行更改.
 module.ui.setting.settings=設置
+module.ui.notification.config_switcher.script_not_for_normies=腳本配置對非腳本用戶不可用, 李在贛神魔?
+module.ui.notification.keybind_only=你必須綁定按鍵才能使用它 %s.
+module.ui.notification.mojangles_now=切換到 Mojangles 字體.
+module.ui.notification.position_of_mod_changed=%s 的位置被改變, 因為它超出了屏幕!
+module.ui.notification.smooth_failed=無法啟用平滑字體.
+module.ui.notification.smooth_now=切換至平滑字體.
+module.ui.setting.color_renderer_change_color=改變顏色
+module.ui.setting.config_switcher.already_exists=配置 %s 已存在!
+module.ui.setting.config_switcher.button_clone_current=復製一份
+module.ui.setting.config_switcher.button_load_select=加載/選擇
+module.ui.setting.config_switcher.button_open_folder=打開配置文件夾
+module.ui.setting.config_switcher.button_switch_kind=切換至 %s
+module.ui.setting.config_switcher.button_switch_kind_onix=Onix
+module.ui.setting.config_switcher.button_switch_kind_scripting=腳本
+module.ui.setting.config_switcher.description=在 Onix 客戶端中管理您的所有配置.
+module.ui.setting.config_switcher.forgot_name=您需要為你的配置起個名!
+module.ui.setting.config_switcher.get_selected_reason_delete=請選擇一個需要被刪除的配置!
+module.ui.setting.config_switcher.get_selected_reason_load_clone=請選擇一個需要被復製的配置!
+module.ui.setting.config_switcher.get_selected_reason_load_select=請選擇要加載/選擇的配置!
+module.ui.setting.config_switcher.title=配置/配置文件管理器
+module.ui.setting.config_switcher.what_name_clone=復製文件的名字?
+module.ui.setting.config_switcher.what_name_create=為你的新配置取個名.
 
 ## Theme Editor
 module.themeuipreview.name=主題預覽
@@ -120,6 +189,21 @@ module.themeuipreview.setting.info_setting.name=下面的那個不屬於這裏�
 module.themeuipreview.setting.info_setting.description=下面的那個不屬於這裏但\n它在這裏, 所以你無論如何都可以預覽它.
 module.themeuipreview.setting.info_scrollbar.name=這只是為了顯示一個滾動條.
 module.themeuipreview.setting.info_scrollbar.description=這只是為了顯示一個滾動條.
+module.themeuipreview.notification.load_failed=無法加載主題.
+module.themeuipreview.notification.save_failed=無法保存主題.
+module.themeuipreview.setting.enum.1=點我!
+module.themeuipreview.setting.enum.2=我是枚舉設置!
+module.themeuipreview.setting.enum.3=我基本上只是一個花哨的列表
+module.themeuipreview.setting.enum.4=枚舉很酷
+module.themeuipreview.setting.enum.5=不管你是哪一個
+module.themeuipreview.setting.enum.6=單擊已選中
+module.themeuipreview.setting.enum.7=你向下滾動鼠標並看到我了!
+module.themeuipreview.setting.presets.christmas=聖誕
+module.themeuipreview.setting.presets.dark=暗色
+module.themeuipreview.setting.presets.egirl=Rosie
+module.themeuipreview.setting.presets.halloween=萬聖
+module.themeuipreview.setting.presets.light=亮色
+
 
 
 ## Theme Options
@@ -412,6 +496,8 @@ module.color_options.setting.color_options.description=打開主題編輯器.
 module.color_options.setting.color_options.description=讓你能改變客戶端的顏色.
 module.color_options.setting.chroma_presets.name=色度預設
 module.color_options.setting.chroma_presets.description=從色度預設中選擇.
+module.color_options.setting.chroma_presets.black_and_white=黑白
+module.color_options.setting.chroma_presets.pastel=粉彩
 module.color_options.setting.chroma_color.name=色度顏色 %s
 module.color_options.setting.chroma_color.description=色度漸變的顏色 %s
 module.color_options.setting.chroma_color_add.name=往漸變中添加顏色
@@ -526,6 +612,17 @@ module.creative_tools.setting.hold_to_stop_momentum.description=按住以停止�
 module.creative_tools.setting.make_hitboxes_esp.name=碰撞箱透視
 module.creative_tools.setting.make_hitboxes_esp.description=啟用碰撞箱透視.
 
+module.creative_tools.notification.autoclick_start=已啟用自動點擊器, 悠著點.
+module.creative_tools.notification.autoclick_stop=已關閉自動點擊器.
+module.creative_tools.notification.clicktp_start=已啟用點擊TP, 悠著點.
+module.creative_tools.notification.clicktp_stop=已關閉點擊TP.
+module.creative_tools.notification.op_needed=你需要管理員權限才能使用 %s%s.
+module.creative_tools.notification.phase_start=已啟用穿墻, 悠著點.
+module.creative_tools.notification.phase_stop=已關閉穿墻.
+module.creative_tools.setting.command_block_esp_type.outline=輪廓
+module.creative_tools.setting.command_block_esp_type.overlay=疊加層
+module.creative_tools.setting.command_block_esp_type.textured=紋理
+
 ## Crop Protector
 module.crop_protector.name=農作物保護
 module.crop_protector.description=防止你破壞那些還沒成熟的農作物.\n蹲下去繞過此限製.
@@ -561,6 +658,9 @@ module.custom_crosshair.setting.crosshairs.description=準星列表
 module.custom_crosshair.setting.preview.button=預覽
 module.custom_crosshair.setting.preview.description=預覽自定義準星.
 
+module.custom_crosshair.no_valid_selected=未選擇有效的準星.
+module.custom_crosshair.setting.crosshair.name=準星
+
 ## Custom Crosshair Editor
 module.custom_crosshair_editor.setting.brush_radius.name=筆/橡皮擦半徑
 module.custom_crosshair_editor.setting.brush_radius.description=被選擇的工具的半徑.
@@ -576,7 +676,14 @@ module.custom_crosshair_editor.widget_window.reset_position=重設位置
 module.custom_crosshair_editor.widget_window.pen=筆: %s
 module.custom_crosshair_editor.widget_window.pen_square=方形
 module.custom_crosshair_editor.widget_window.pen_round=圓形
-
+module.custom_crosshair_editor.create_window.already_exists=已存在名為 \"%s\" 的準星!
+module.custom_crosshair_editor.create_window.too_big=這個準星對我來說太大了, 請把它變小一點~
+module.custom_crosshair_editor.create_window.too_small=準星太小, 它至少需要 1 個像素.
+module.custom_crosshair_editor.decompressing_crosshairs=正在解壓準星, 請稍後...
+module.custom_crosshair_editor.deleted_crosshair=已刪除準星 "%s"!
+module.custom_crosshair_editor.loading_crosshairs=正在加載準星, 請稍後...
+module.custom_crosshair_editor.widget_window.save_failed=準星保存失敗!
+module.custom_crosshair_editor.widget_window.saved=已保存準星!
 
 
 ## Java Debug Menu
@@ -729,6 +836,10 @@ module.freelook.setting.toggle_freelook.description=切換模式的自由觀察.
 module.freelook.setting.keybind_warning.name=警告: 不建議將自由觀察綁定到alt鍵!
 module.freelook.setting.keybind_warning.description=警告: 不建議將自由觀察綁定到alt鍵!
 
+module.freelook.setting.perspective.first_person=第一人稱
+module.freelook.setting.perspective.third_person_back=第三人稱 (背面)
+module.freelook.setting.perspective.third_person_front=第三人稱 (正面)
+
 ## Fullbright
 module.fullbright.name=夜視
 module.fullbright.description=使周圍環境更加明亮. 讓你在末地,地獄和晚上看得更清楚.
@@ -745,6 +856,10 @@ module.glint_color_changer.setting.glint_color.description=修改附魔閃光的
 
 module.glint_color_changer.setting.presets.name=預設
 module.glint_color_changer.setting.presets.description=從預設的閃光顏色選項中進行選擇.
+
+module.glint_color_changer.setting.presets.blood_red=血紅色
+module.glint_color_changer.setting.presets.electric_blue=科技藍
+module.glint_color_changer.setting.presets.white=白色
 
 ## GUI Scale Changer
 module.gui_scale_changer.name=GUI大小
@@ -913,6 +1028,9 @@ module.proximity_chat.setting.include_scripting_context.description=在聊天環
 module.proximity_chat.setting.extra_scripting_context.name=額外腳本環境
 module.proximity_chat.setting.extra_scripting_context.description=在聊天環境中添加額外腳本環境.
 
+module.proximity_chat.notification.app_outdated=[Mumble Link] Onix 客戶端 Mumble Link 應用程序版本過低.
+module.proximity_chat.notification.app_required=使用此模塊需要 Mumble Link 應用程序.
+
 ## Nick Hider
 module.nick_hider.name=匿名模式
 module.nick_hider.description=允許您隱藏您的用戶名, 皮膚, 其他人的用戶名和其他人的皮膚.
@@ -1060,9 +1178,30 @@ module.sky_overlay_changer.description=允許您在不離開世界的情況下�
 module.snaplook.name=快捷人稱切換
 module.snaplook.description=按下時切換人稱.
 
-## Third Person Nametag
-module.third_person_nametag.name=第三人稱玩家名
-module.third_person_nametag.description=在第三人稱時在你頭頂顯示你自己的名字.
+## Nametag Modifier
+module.nametag_modifier.name=玩家名標簽修改器
+module.nametag_modifier.description=允許您修改名稱標簽    (就是玩家頭頂飄著的那玩意).
+module.nametag_modifier.setting.background_color_fallback=背景顏色回退
+module.nametag_modifier.setting.background_color_fallback.description=指定背景色回退.
+module.nametag_modifier.setting.background_color_mode.average=最常出現的顏色
+module.nametag_modifier.setting.background_color_mode.before_name=名稱顏色前
+module.nametag_modifier.setting.background_color_mode.blend=混合所有顏色
+module.nametag_modifier.setting.background_color_mode.clear=清除
+module.nametag_modifier.setting.background_color_mode.name=背景顏色模式
+module.nametag_modifier.setting.background_color_mode.description=指定背景顏色模式.
+module.nametag_modifier.setting.background_color_mode.static=靜態顏色
+module.nametag_modifier.setting.background_darken.name=背景變暗
+module.nametag_modifier.setting.background_darken.description=使背景變暗.
+module.nametag_modifier.setting.background_opacity.name=背景不透明度
+module.nametag_modifier.setting.background_opacity.description=調整背景的不透明度.
+module.nametag_modifier.setting.nametag_background_color.name=名稱標簽背景顏色
+module.nametag_modifier.setting.nametag_background_color.description=指定名稱標簽背景顏色.
+module.nametag_modifier.setting.nametag_text_color.name=名稱標簽文本顏色
+module.nametag_modifier.setting.nametag_text_color.description=指定名稱標簽文本顏色.
+module.nametag_modifier.setting.reset_color_is_default_background.name=默認背景顏色為默認文本顏色
+module.nametag_modifier.setting.reset_color_is_default_background.description=使用默認文本顏色作為默認背景色.
+module.nametag_modifier.setting.third_person_nametag.name=第三人稱玩家名
+module.nametag_modifier.setting.third_person_nametag.description=在第三人稱時在你頭頂顯示你自己的名字.
 
 ## Test Module
 module.test_module.name=測試功能
@@ -1284,6 +1423,10 @@ module.break_progress.setting.bar_back_color.name=進度條背景顏色
 module.break_progress.setting.bar_back_color.description=選擇進度條背景的顏色.
 module.break_progress.setting.bar_direction.name=進度條方向
 module.break_progress.setting.bar_direction.description=選擇進度條的方向.
+module.break_progress.setting.bar_direction.bottom_to_top=從下到上
+module.break_progress.setting.bar_direction.left_to_right=從左到右
+module.break_progress.setting.bar_direction.right_to_left=從右到左
+module.break_progress.setting.bar_direction.top_to_bottom=從上到下
 module.break_progress.break_text=挖掘進度:
 
 
@@ -1365,6 +1508,9 @@ module.coordinates.setting.copy_player_key.name=復製玩家坐標鍵
 module.coordinates.setting.copy_player_key.description=復製玩家坐標的按鍵.
 module.coordinates.setting.copy_selected_key.name=復製選取方塊坐標鍵
 module.coordinates.setting.copy_selected_key.description=復製選取方塊的坐標的按鍵.
+module.coordinates.notification.no_selection=你必須指向方塊才能復製坐標.
+module.coordinates.notification.player_in_clipboard=玩家坐標已復製到剪貼板.
+module.coordinates.notification.selected_in_clipboard=方塊坐標已復製到剪貼板.
 
 
 
@@ -1552,7 +1698,13 @@ module.movable_chat.setting.bottom_chat_mode.name=底部聊天框
 module.movable_chat.setting.bottom_chat_mode.description=啟用底部聊天框模式.
 module.movable_chat.setting.bottom_chat_height.name=底部聊天框高度
 module.movable_chat.setting.bottom_chat_height.description=調整底部聊天框的高度.
-
+module.movable_chat.setting.animation_interpolator.ease_inout=簡單進出
+module.movable_chat.setting.animation_interpolator.linear=線性
+module.movable_chat.setting.animation_interpolator.smoothstep3=平滑步驟 3
+module.movable_chat.setting.animation_interpolator.smoothstep4=平滑步驟 4
+module.movable_chat.setting.animations.fade=淡入淡出
+module.movable_chat.setting.animations.fade_and_grow=淡入淡出和增長
+module.movable_chat.setting.animations.grow=增長
 
 
 ## Movable Paperdoll Module
@@ -1733,3 +1885,15 @@ module.over_the_shoulder_camera.description=允許您將相機放在肩膀上.
 
 module.over_the_shoulder_camera.setting.x_offset.name=X 偏移量
 module.over_the_shoulder_camera.setting.x_offset.description=調整相機的 X 偏移量, 即相機朝哪個方向偏移/偏移多少.
+
+module.over_the_shoulder_camera.setting.include_tps_front.name=包含第三人稱正面
+module.over_the_shoulder_camera.setting.include_tps_front.description=在越肩攝像頭中包括第三人稱證明.
+
+
+
+module.lua_command.description=lua命令的模塊, 用於創建渲染函數.\n可以像任何普通功能一樣使用\n你可以編輯 CMD.lua 文件以向其添加預製函數.
+module.lua_command.name=lua命令
+
+scripting.import.fail=導入腳本失敗 %s "%s".
+scripting.import.start=正在導入腳本 %s "%s".
+scripting.import.success= %s "%s" 腳本 已被導入!

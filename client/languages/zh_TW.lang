@@ -1178,6 +1178,10 @@ module.sky_overlay_changer.description=允許您在不離開世界的情況下�
 module.snaplook.name=快捷人稱切換
 module.snaplook.description=按下時切換人稱.
 
+## Third Person Nametag
+module.third_person_nametag.name=第三人稱玩家名
+module.third_person_nametag.description=在第三人稱時在你頭頂顯示你自己的名字.
+
 ## Nametag Modifier
 module.nametag_modifier.name=玩家名標簽修改器
 module.nametag_modifier.description=允許您修改名稱標簽    (就是玩家頭頂飄著的那玩意).

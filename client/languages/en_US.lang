@@ -100,7 +100,6 @@ gui.accept=Accept
 gui.deny=Deny
 gui.show=Show
 gui.hide=Hide
-gui.none=None
 gui.more=More
 gui.less=Less
 gui.none=None
@@ -857,8 +856,8 @@ module.freelook.setting.perspective.first_person=First Person
 module.freelook.setting.perspective.third_person_back=Third Person (Back)
 module.freelook.setting.perspective.third_person_front=Third Person (Front)
 
-module.freelook.setting.toggle_freelook.name=Toggle Freelook
-module.freelook.setting.toggle_freelook.description=Toggle the freelook mode.
+module.freelook.setting.toggle_freelook.name=Toggle
+module.freelook.setting.toggle_freelook.description=Toggle the module on and off with the key instead of holding.
 
 module.freelook.setting.keybind_warning.name=Warning: Binding Freelook to the ALT key is not recommended!
 module.freelook.setting.keybind_warning.description=Warning: Binding Freelook to the ALT key is not recommended!
@@ -1909,3 +1908,261 @@ module.waila.setting.original_position.name=Use Original Mods Position
 module.waila.setting.original_position.description=Uses the original mod's position.
 module.waila.setting.height_offset.name=Height Offset
 module.waila.setting.height_offset.description=Adjusts the height offset for the display.
+
+
+
+
+## Commands
+command.itemcommands.1_19_60=Since 1.19.60 you NEED to be hosting the world on your Minecraft client to use item commands.
+
+## clearchat
+command.clearchat.description=Clears all chat messages.
+command.clearchat.usage=§b%s
+
+## config
+command.config.description=Opens the config GUI.
+command.config.usage=§b%s
+command.config.failed=Failed to open config GUI.
+
+## discord
+command.discord.description=Displays the Discord invite link.
+command.discord.usage=§b%s
+command.discord.failed=We sent someone to get the latest discord invite but they got trown in a ravine and didn’t make it.
+command.discord.success=We made it past the ravine!\nHere is your discord invitation.\n§d%s
+
+## dupes
+command.dupes.description=Duplicates the item in a specific slot.
+command.dupes.usage=§b%s §b<slot>
+command.dupes.no_item=No item in slot %s
+command.dupes.no_empty_slot=There are no empty slots in your inventory.
+command.dupes.success=Duped!
+
+## dupe
+command.dupe.description=Duplicates the item in your hand.
+command.dupe.usage=§b%s
+command.dupe.no_item=No item in slot %s
+command.dupe.no_empty_slot=There are no empty slots in your inventory.
+command.dupe.success=Duped!
+
+## durability
+command.durability.description=Displays the durability of the item in your hand.
+command.durability.usage=§b%s
+command.durability.no_item=You must hold an item in your hand.
+command.durability.helmet=Helmet
+command.durability.chestplate=Chestplate
+command.durability.leggings=Leggings
+command.durability.boots=Boots
+command.durability.hand=Main Hand
+command.durability.offhand=Off Hand
+command.durability.tool_output=%s: (ID: %s) %s Durability: %s/%s
+command.durability.item_output=%s: (ID: %s) %s Data: %s
+
+## enchant
+command.enchant.description=Enchants the item in your hand.
+command.enchant.no_item=No item in hand.
+command.enchant.no_enchant=Invalid enchantement.
+command.enchant.bad_level=Invalid level.
+command.enchant.usage=§b%s §d<name> §b<level>\n§b%s §6remove §d<name>\n§b%s §6clear
+command.enchant.remove_success=§aSuccessfully removed enchantment %s.
+command.enchant.clear_success=§aSuccessfully cleared all enchantments.
+command.enchant.nothing_to_do=Nothing to do.
+command.enchant.success=§aSuccessfully enchanted item in hand with %s level %s.
+
+
+## enchants
+command.enchants.description=Enchants the item in a specific slot.
+command.enchants.usage=§b%s §b<slot> §d<name> §b<level>\n§b%s §6remove §b<slot> §d<name>\n§b%s §b<slot> §6clear
+command.enchants.no_item=No item in slot %s.
+command.enchants.no_enchant=Invalid enchantement.
+command.enchants.bad_level=Invalid level.
+command.enchants.nothing_to_do=Nothing to do.
+command.enchants.success=Enchanted item in slot %s with %s level %s.
+command.enchants.remove_success=§aSuccessfully removed enchantment %2$s from slot %1$s.
+
+## function
+command.function.description=Executes a function file.
+command.function.usage=§b%s §a<full_function_filepath>
+
+## give
+command.give.description=Gives you an item.
+command.give.usage=§b%s §a<item> §b[amount=1] §b[data=1] §a[nbt={}]
+command.give.invalid_item=Invalid item.
+command.give.invalid_count=Invalid item count.
+command.give.nbt_fail=NBT error: %s
+command.give.no_room=No room for item in inventory.
+command.give.success=§aSuccessfully gave %s.
+
+## gives
+command.gives.description=Gives you an item.
+command.gives.usage=§b%s §b<slot> §a<item> §b[amount=1] §b[data=1] §a[nbt={}]
+command.gives.invalid_item=Invalid item.
+command.gives.invalid_count=Invalid item count.
+command.give.nbt_fail=NBT error: %s
+command.gives.success=§aSuccessfully gave %s in slot %s.
+
+## guiscale
+command.guiscale.description=Changes the GUI scale.
+command.guiscale.usage=§b%s §a<scale>
+command.guiscale.show_scale=§aYour guiscale is currently set to %s.
+command.guiscale.above_0=The guiscale must be at least 0.
+command.guiscale.success=Set guiscale to %s.
+
+## help
+command.help.description=Displays a list of commands.
+command.help.usage=§b%s §a[command]
+command.help.not_found=Command "%s" not found.
+command.help.help_entry=§b%s §8- §7%s
+
+## lore
+command.lore.description=Edits the lore of the item in your hand.
+command.lore.usage=§b%s §6add §a<text>\n§b%s §6clear\n§b%s §6remove §b<line>\n§b%s §6insert §b<line> §a<text>\n§b%s §6list
+command.lore.no_item=No item in hand.
+command.lore.nothing_list=Nothing to list.
+command.lore.nothing_remove=Nothing to remove.
+command.lore.nothing_clear=Nothing to clear.
+command.lore.invalid_insert=Nothing to insert.
+command.lore.cleared=§aSuccessfully cleared lore.
+command.lore.removed=§aSuccessfully removed element %i in hand item's lore.
+command.lore.invalid_remove_index=Could not remove item at index %s.
+command.lore.invalid_insert_index=Could not insert item at index %s.
+command.lore.inserted=§aSuccessfully inserted lore in hand item's lore at index %i.
+command.lore.add=§aSuccessfully added lore in hand item.
+command.lore.list_item=§7[§d%s§7] §r%s§r
+
+## lua command
+command.lua.description=Executes a Lua command.
+command.lua.usage_item=§b%s §6%s
+command.lua.usage_item_description=§b%s §6%s §8- §7%s
+command.lua.help_reload=Reloads lua to apply changes to script files.
+command.lua.help_autoreload=Reloads lua for you when a file changes.
+command.lua.help_autoreloadnt=Stops reloading lua for you when a file changes.
+command.lua.help_autocomplete=Updates/Install the autocomplete and copy the command to open in vscode.
+command.lua.help_path=Opens the scripts folder.
+command.lua.help_directory=Opens the scripts folder.
+command.lua.help_cmd=Runs code in the Lua Command Module.
+
+## nbt
+command.nbt.description=Displays/Changes the NBT of the item in your hand.
+command.nbt.usage=§b%s §6save §8- §7Saves the whole item nbt in the clipboard and chat\n§b%s §6savef §8- §7Saves the whole item nbt formatted in the clipboard and chat\n§b%s §6ssave §8- §7Saves the whole item nbt in clipboard only\n§b%s §6ssavef §8- §7Saves the whole item formatted nbt in clipboard only\n§b%s §6read §8- §7Saves the nbt of the item in the clipboard and chat\n§b%s §6readf §8- §7Saves the formatted nbt of the item in the clipboard and chat\n§b%s §6sread §8- §7Saves the nbt of the item in clipboard only\n§b%s §6sreadf §8- §7Saves the formatted nbt of the item in clipboard only\n§b%s §6write §aNBT §8- §7Applies the nbt from chat otherwise clipboard into the item\n§b%s §6load §aNBT §8- §7Replaces the item with the one loaded from the nbt in chat otherwise clipboard.
+command.nbt.no_item=No item in hand.
+command.nbt.no_item_tag=The nbt did not produce a valid item.
+command.nbt.in_clipboard=§aNBT tag is now in your clipboard.
+command.nbt.failed=NBT Error: %s
+command.nbt.success=Applied NBT!
+
+## nbts
+command.nbts.description=Displays/Changes the NBT of the item in a specific slot.
+command.nbts.usage=§b%s §d<slot> §6save §8- §7Saves the whole item nbt in the clipboard and chat\n§b%s §d<slot> §6savef §8- §7Saves the whole item nbt formatted in the clipboard and chat\n§b%s §d<slot> §6ssave §8- §7Saves the whole item nbt in clipboard only\n§b%s §d<slot> §6ssavef §8- §7Saves the whole item formatted nbt in clipboard only\n§b%s §d<slot> §6read §8- §7Saves the nbt of the item in the clipboard and chat\n§b%s §d<slot> §6readf §8- §7Saves the formatted nbt of the item in the clipboard and chat\n§b%s §d<slot> §6sread §8- §7Saves the nbt of the item in clipboard only\n§b%s §d<slot> §6sreadf §8- §7Saves the formatted nbt of the item in clipboard only\n§b%s §d<slot> §6write §aNBT §8- §7Applies the nbt from chat otherwise clipboard into the item\n§b%s §d<slot> §6load §aNBT §8- §7Replaces the item with the one loaded from the nbt in chat otherwise clipboard.
+command.nbts.no_item=No item in slot %s.
+command.nbts.success=Applied NBT to slot %s!
+command.nbts.no_item_tag=The nbt did not produce a valid item.
+command.nbts.failed=NBT Error: %s
+command.nbts.success=Applied NBT in slot %s!
+
+## open
+command.open.description=Opens the client UI.
+command.open.usage=§b%s
+
+## rename
+command.rename.description=Renames the item in your hand.
+command.rename.usage=§b%s §a<name>
+command.rename.no_item=No item in hand.
+command.rename.success=Successfully renamed item in hand to %s.
+
+## renames
+command.renames.description=Renames the item in a specific slot.
+command.renames.usage=§b%s §b<slot> §a<name>
+command.renames.no_item=No item in slot %s.
+command.renames.success=Successfully renamed item in slot %s to %s.
+
+## repair
+command.repair.description=Repairs the item in your hand.
+command.repair.usage=§b%s
+command.repair.no_item=No item in hand.
+command.repair.failed=The item is not damaged.
+command.repair.success=Successfully repaired item in hand.
+
+## repairs
+command.repairs.description=Repairs the item in a specific slot.
+command.repairs.usage=§b%s §b<slot>
+command.repairs.no_item=No item in slot %s.
+command.repairs.failed=The item in slot %s is not damaged.
+command.repairs.success=Successfully repaired item in slot %s.
+
+## say
+command.say.description=Displays a message in chat.
+command.say.usage=§b%s §a<message>
+
+## execute
+command.execute.description=Executes a command.
+command.execute.usage=§b%s §a<command>
+
+## screenshots
+command.screenshots.description=Opens the screenshots folder.
+command.screenshots.usage=§b%s
+
+## seed
+command.seed.description=Displays the seed of the world.
+command.seed.usage=§b%s [clipboard(any text will make it copy)]
+command.seed.success=The world seed is %s
+
+## setlocale
+command.setlocale.description=Changes the language of the client. e.g. en_US
+command.setlocale.usage=§b%s §a<locale>
+command.setlocale.failed=Invalid locale, format: en_US, fr_FR, etc...
+command.setlocale.success=Locale set to (%s) %s
+
+## signfix
+command.signfix.description=Fixes the sign item colors in your hand.
+command.signfix.usage=§b%s [text_color]
+command.signfix.no_item=No item in hand.
+command.signfix.no_sign=Item is not a sign.
+command.signfix.success=Successfully fixed sign item in hand.
+
+## structuresize
+command.structuresize.description=Changes the size of the next structure block you will close.
+command.structuresize.usage=§b%s §6x §d<new_size>\n§b%s §6y §d<new_size>§b%s §6z §d<new_size>§b%s §6r §8- §7Cancels previous changes.
+command.structuresize.success=The next structure block you will close will have the desired size.
+
+## theme
+command.theme.description=Opens the menu to change the client's theme.
+command.theme.usage=§b%s
+command.theme.failed=Failed to open theme menu.
+
+## timestep
+command.timestep.description=Makes the game go fast for the desired amount of seconds. (alwaysday must be off) (world owners/hosters only)
+command.timestep.usage=§b%s §a<seconds>
+command.timestep.short=Please speed up the time for at least %s seconds.
+command.timestep.long=A week is a bit long. Please use a reasonable amount.
+command.timestep.not_host=You are not hosting this world on your client.
+command.timestep.no_creative_tools=Creative Tools must be enabled to use this command!.
+command.timestep.success=Speeding time for %s seconds (%s ticks)!\nMake sure that dodaylightcycle is set to true.
+
+## toggle
+command.toggle.description=Toggles a module on/off.
+command.toggle.usage=§b%s §a<module>\n§b%s §6on §a<module>\n§b%s §6off §a<module>\n§b%s §6script §a<module>\n§b%s §6script §6on §a<module>\n§b%s §6script §6off §a<module>
+command.toggle.no_module=Invalid module "%s".
+command.toggle.enabled=§aEnabled §7%s §b%s
+command.toggle.disabled=§cDisabled §7%s §b%s
+command.toggle.script=Script
+command.toggle.module=Module
+
+## version
+command.version.description=Displays the client and game version.
+command.version.usage=§b%s
+command.version.success=Client version: %s\nMinecraft version: %s
+
+## waypoint
+command.waypoint.description=manages waypoints.
+command.waypoint.usage=§b% §6add §a<name> §d[x] §d[y] §d[z] §8- §7Adds a waypoint.\n§b%s §6remove §a<name> §8- §7Removes a waypoint from the list\n§b%s §6list §8- §7Lists all your waypoints\n§b%s §6clear §8- §7Removes all waypoints\n§b%s §6tp §a<name> §8- §7Teleports you to a waypoint\n§b%s §6setworld §a<name> §8- §7Gives a custom name to a world, waypoints will be saved under this name and can be loaded using it too.
+command.waypoint.added=§aAdded waypoint %s at %s %s %s.
+command.waypoint.removed=§aRemoved waypoint %s.
+command.waypoint.cleared=§aCleared all waypoints.
+command.waypoint.list=Waypoints\n%s
+command.waypoint.list_empty=You have no waypoints.
+command.waypoint.list_entry=%s at %s %s %s in %s       ## name, x, y, z, dimension
+command.waypoint.list_entry_nether=§cNether
+command.waypoint.list_entry_end=§fEnd
+command.waypoint.list_entry_overworld=§aOverworld
+command.waypoint.list_entry_unknown=§5 ???
+command.waypoint.failed=§cNo waypoint named %s.

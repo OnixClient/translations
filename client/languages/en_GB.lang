@@ -1985,7 +1985,7 @@ command.enchants.no_item=No item in slot %s.
 command.enchants.no_enchant=Invalid enchantement.
 command.enchants.bad_level=Invalid level.
 command.enchants.nothing_to_do=Nothing to do.
-command.enchants.success=Enchanted item in slot %s with %s level %s.
+command.enchants.success=§aEnchanted item in slot %s with %s level %s.
 command.enchants.remove_success=§aSuccessfully removed enchantment %2$s from slot %1$s.
 
 ## function

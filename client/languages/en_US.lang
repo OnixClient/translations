@@ -2029,6 +2029,23 @@ command.lore.inserted=§aSuccessfully inserted lore in hand item's lore at index
 command.lore.add=§aSuccessfully added lore in hand item.
 command.lore.list_item=§7[§d%s§7] §r%s§r
 
+
+## lores
+command.lores.description=Edits the lore of the item in your hand.
+command.lores.usage=§b%s §6add §a<text>\n§b%s §6clear\n§b%s §6remove §b<line>\n§b%s §6insert §b<line> §a<text>\n§b%s §6list
+command.lores.no_item=No item in slot %s.
+command.lores.nothing_list=Nothing to list.
+command.lores.nothing_remove=Nothing to remove.
+command.lores.nothing_clear=Nothing to clear.
+command.lores.invalid_insert=Nothing to insert.
+command.lores.cleared=§aSuccessfully cleared lore in slot %s.
+command.lores.removed=§aSuccessfully removed element %i in slot %s's lore.
+command.lores.invalid_remove_index=Could not remove lore from slot %s at index %s.
+command.lores.invalid_insert_index=Could not insert lore from slot %s at index %s.
+command.lores.inserted=§aSuccessfully inserted lore in slot %s lore at index %i.
+command.lores.add=§aSuccessfully added lore in slot %s.
+command.lores.list_item=§7[§d%s§7] §r%s§r
+
 ## lua command
 command.lua.description=Executes a Lua command.
 command.lua.usage_item=§b%s §6%s

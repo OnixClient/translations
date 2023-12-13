@@ -25,14 +25,6 @@
       "md5": "0df1c5b3b6b87669735bae8ec193e97b"
     },
     {
-      "visual_name": "\uD55C\uAD6D\uC5B4 (\uD55C\uAE00)",
-      "code": "ko_KR",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fko_KR.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fko_KR.lang",
-      "version": 5,
-      "md5": "b05c7eeafac8563f188bc21833fbe244"
-    },
-    {
       "visual_name": "Rom\u00E2n\u0103 (Romania)",
       "code": "ro_RO",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fro_RO.lang",
@@ -103,6 +95,14 @@
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fde_DE.lang",
       "version": 6,
       "md5": "78c8d16d78d9dd0736a860d5fe982588"
+    },
+    {
+      "visual_name": "\uD55C\uAD6D\uC5B4 (\uD55C\uAE00)",
+      "code": "ko_KR",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fko_KR.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fko_KR.lang",
+      "version": 6,
+      "md5": "55209f561f6f425f1f6b89e75089de96"
     }
   ]
 }

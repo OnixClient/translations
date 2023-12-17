@@ -1939,3 +1939,227 @@ module.waila.setting.original_position.name=Utiliser la Position Originale du Mo
 module.waila.setting.original_position.description=Utilise la position originale du mod.
 module.waila.setting.height_offset.name=Décalage de Hauteur
 module.waila.setting.height_offset.description=Ajuste le décalage de hauteur pour l'affichage.
+
+
+## Commands
+command.itemcommands.1_19_60=Depuis la version 1.19.60, vous devez héberger le monde depuis votre client Minecraft pour utiliser les commandes d'items
+
+## clearchat
+command.clearchat.description=Efface tous les messages du chat.
+command.clearchat.usage=§b%s
+
+## config
+command.config.description=Ouvre l'interface de configuration.
+command.config.usage=§b%s
+command.config.failed=Échec de l'ouverture de l'interface.
+
+## discord
+command.discord.description=Affiche le lien d'invitation Discord.
+command.discord.usage=§b%s
+command.discord.failed=Nous avons envoyé quelqu'un pour obtenir le lien d'invitation Discord, mais il a trébuché et n'a pas survécu :(
+command.discord.success=Notre messager a survécu!\nVoici votre invitation Discord.\n§d%s
+
+## dupes
+command.dupes.description=Duplique l'objet d'un slot spécifique.
+command.dupes.usage=§b%s §b<slot>
+command.dupes.no_item=Aucun objet dans le slot %s
+command.dupes.no_empty_slot=Aucun emplacement vide dans l'inventaire.
+command.dupes.success=Dupliqué !
+
+## dupe
+command.dupe.description=Duplique l'objet que vous avez en main.
+command.dupe.usage=§b%s
+command.dupe.no_item=Aucun objet dans le slot %s
+command.dupe.no_empty_slot=Aucun emplacement vide dans l'inventaire.
+command.dupe.success=Dupliqué !
+
+## durability
+command.durability.description=Affiche la durabilité de l'objet que vous avez en main.
+command.durability.usage=§b%s
+command.durability.no_item=Vous devez tenir un objet dans votre main!
+command.durability.helmet=Casque
+command.durability.chestplate=Plastron
+command.durability.leggings=Jambières
+command.durability.boots=Bottes
+command.durability.hand=Main principale
+command.durability.offhand=Main secondaire
+command.durability.tool_output=%s : (ID : %s) %s Durabilité : %s/%s
+command.durability.item_output=%s : (ID : %s) %s Data : %s
+
+## enchant
+command.enchant.description=Enchante l'objet que vous avez en main.
+command.enchant.no_item=Aucun objet en main.
+command.enchant.no_enchant=Enchantement invalide.
+command.enchant.bad_level=Niveau invalide.
+command.enchant.usage=§b%s §d<nom> §b<niveau>\n§b%s §6remove §d<nom>\n§b%s §6clear
+command.enchant.remove_success=§al'Enchantement %s a été supprimé avec succès.
+command.enchant.clear_success=§aTous les enchantements ont été supprimées avec succès.
+command.enchant.nothing_to_do=Rien à faire.
+command.enchant.success=§aObjet en main enchanté avec succès : %s niveau %s.
+
+## enchants
+command.enchants.description=Enchante l'objet d'un slot spécifique.
+command.enchants.usage=§b%s §b<slot> §d<nom> §b<niveau>\n§b%s §6remove §b<slot> §d<nom>\n§b%s §b<slot> §6clear
+command.enchants.no_item=Aucun objet dans le slot %s.
+command.enchants.no_enchant=Enchantement invalide.
+command.enchants.bad_level=Niveau invalide.
+command.enchants.nothing_to_do=Rien à faire.
+command.enchants.success=§aObjet dans l'emplacement %s enchanté avec succès : %s niveau %s.
+command.enchants.remove_success=§al'Enchantement %2$s a été supprimé du slot %1$s avec succès.
+
+## function
+command.function.description=Exécute un fichier de fonction.
+command.function.usage=§b%s §a<chemin_complet_fonction>
+
+## give
+command.give.description=Vous donne un objet.
+command.give.usage=§b%s §a<objet> §b[quantité=1] §b[data=1] §a[nbt={}]
+command.give.invalid_item=Objet invalide.
+command.give.invalid_count=Quantité d'objet invalide.
+command.give.nbt_fail=Erreur NBT : %s
+command.give.no_room=Aucune place pour l'objet dans l'inventaire.
+command.give.success=§aL'objet "%s" vous a été donné avec succès.
+
+## gives
+command.gives.description=Vous donne un objet dans un slot spécifique.
+command.gives.usage=§b%s §b<slot> §a<objet> §b[quantité=1] §b[data=1] §a[nbt={}]
+command.gives.invalid_item=Objet invalide.
+command.gives.invalid_count=Quantité d'objet invalide.
+command.give.nbt_fail=Erreur NBT : %s
+command.gives.success=§aL'objet "%s" vous a été donné dans l'emplacement %s avec succès.
+
+## guiscale
+command.guiscale.description=Modifie l'échelle de l'interface graphique.
+command.guiscale.usage=§b%s §a<échelle>
+command.guiscale.show_scale=§aVotre guiscale est actuellement réglé sur %s.
+command.guiscale.above_0=Le guiscale doit être au moins à 0.
+command.guiscale.success=Échelle de l'interface graphique réglée sur %s.
+
+## help
+command.help.description=Affiche une liste de commandes.
+command.help.usage=§b%s §a[commande]
+command.help.not_found=Commande "%s" introuvable.
+command.help.help_entry=§b%s §8- §7%s
+
+## lore 
+command.lore.description=Modifie la description de l'objet en main.
+command.lore.usage=§b%s §6add §a<texte>\n§b%s §6clear\n§b%s §6remove §b<ligne>\n§b%s §6insert §b<ligne> §a<texte>\n§b%s §6list
+command.lore.no_item=Aucun objet en main.
+command.lore.nothing_list=Rien à lister.
+command.lore.nothing_remove=Rien à supprimer.
+command.lore.nothing_clear=Rien à effacer.
+command.lore.invalid_insert=Rien à insérer.
+command.lore.cleared=§aLa description a été effacée avec succès.
+command.lore.removed=§L'élément "%i" de la description a été supprimé avec succès.
+command.lore.invalid_remove_index=Impossible de supprimer l'élément à l'index %s.
+command.lore.invalid_insert_index=Impossible d'insérer l'élément à l'index %s.
+command.lore.inserted=§aLa description de l'objet en main a été insérée avec succès à l'index %i.
+command.lore.add=§aLa description a été ajoutée à l'objet en main avec succès.
+command.lore.list_item=§7[§d%s§7] §r%s§r
+
+## lores
+command.lores.description=Modifie la description d'un objet d'un slot spécifique.
+command.lores.usage=§b%s §6add §a<texte>\n§b%s §6clear\n§b%s §6remove §b<ligne>\n§b%s §6insert §b<ligne> §a<texte>\n§b%s §6list
+command.lores.no_item=Aucun objet dans le slot %s.
+command.lores.nothing_list=Rien à lister.
+command.lores.nothing_remove=Rien à supprimer.
+command.lores.nothing_clear=Rien à effacer.
+command.lores.invalid_insert=Rien à insérer.
+command.lores.cleared=§aLa description du slot %s a été effacée avec succès.
+command.lores.removed=§L'élément "%i" de la description du slot %s a été supprimé avec succès.
+command.lores.invalid_remove_index=Impossible de supprimer l'élément du slot %s à l'index %s.
+command.lores.invalid_insert_index=Impossible d'insérer l'élément du slot %s à l'index %s.
+command.lores.inserted=§aLa description de l'objet du slot %s a été insérée avec succès à l'index %i.
+command.lores.add=§aLa description de l'objet du slot %s a été ajoutée avec succès.
+command.lores.list_item=§7[§d%s§7] §r%s§r
+
+## lua command 
+command.lua.description=Exécute une commande Lua.
+command.lua.usage_item=§b%s §6%s
+command.lua.usage_item_description=§b%s §6%s §8- §7%s
+command.lua.help_reload=Recharge Lua pour appliquer les changements aux fichiers de script.
+command.lua.help_autoreload=Recharge automatiquement Lua pour vous lorsque le fichier change.
+command.lua.help_autoreloadnt=Arrête le rechargement automatique de Lua lorsque le fichier change.
+command.lua.help_autocomplete=Mise à jour/Installation de l'autocomplétion et copie de la commande pour l'ouvrir dans vscode.
+command.lua.help_path=Ouvre le dossier des scripts.
+command.lua.help_directory=Ouvre le dossier des scripts.
+command.lua.help_cmd=Exécute du code dans le module de commande Lua.
+
+## nbt
+command.nbt.description=Affiche/Modifie le NBT de l'objet que vous avez en main.
+command.nbt.usage=§b%s §6save §8- §7Enregistre tout le NBT de l'objet dans le presse-papiers et le chat\n§b%s §6savef §8- §7Enregistre tout le NBT de l'objet formaté dans le presse-papiers et le chat\n§b%s §6ssave §8- §7Enregistre tout le NBT de l'objet dans le presse-papiers uniquement\n§b%s §6ssavef §8- §7Enregistre tout le NBT de l'objet formaté dans le presse-papiers uniquement\n§b%s §6read §8- §7Enregistre le NBT de l'objet dans le presse-papiers et le chat\n§b%s §6readf §8- §7Enregistre le NBT formaté de l'objet dans le presse-papiers et le chat\n§b%s §6sread §8- §7Enregistre le NBT de l'objet dans le presse-papiers uniquement\n§b%s §6sreadf §8- §7Enregistre le NBT formaté de l'objet dans le presse-papiers uniquement\n§b%s §6write §aNBT §8- §7Applique le NBT du chat ou du presse-papiers dans l'objet\n§b%s §6load §aNBT §8- §7Remplace l'objet par celui chargé à partir du NBT dans le chat ou le presse-papiers.
+command.nbt.no_item=Aucun objet en main.
+command.nbt.no_item_tag=Le NBT n'a pas généré un objet valide.
+command.nbt.in_clipboard=§aLe NBT est maintenant dans votre presse-papiers.
+command.nbt.failed=Erreur NBT : %s
+command.nbt.success=NBT appliqué avec succès !
+
+## nbts
+command.nbts.description=Affiche/Modifie le NBT de l'objet d'un slot spécifique.
+command.nbts.usage=§b%s §d<slot> §6save §8- §7Enregistre tout le NBT de l'objet dans le presse-papiers et le chat\n§b%s §d<slot> §6savef §8- §7Enregistre tout le NBT de l'objet formaté dans le presse-papiers et le chat\n§b%s §d<slot> §6ssave §8- §7Enregistre tout le NBT de l'objet dans le presse-papiers uniquement\n§b%s §d<slot> §6ssavef §8- §7Enregistre tout le NBT de l'objet formaté dans le presse-papiers uniquement\n§b%s §d<slot> §6read §8- §7Enregistre le NBT de l'objet dans le presse-papiers et le chat\n§b%s §d<slot> §6readf §8- §7Enregistre le NBT formaté de l'objet dans le presse-papiers et le chat\n§b%s §d<slot> §6sread §8- §7Enregistre le NBT de l'objet dans le presse-papiers uniquement\n§b%s §d<slot> §6sreadf §8- §7Enregistre le NBT formaté de l'objet dans le presse-papiers uniquement\n§b%s §d<slot> §6write §aNBT §8- §7Applique le NBT du chat ou du presse-papiers dans l'objet\n§b%s §d<slot> §6load §aNBT §8- §7Remplace l'objet par celui chargé à partir du NBT dans le chat ou le presse-papiers.
+command.nbts.no_item=Aucun objet dans le slot %s.
+command.nbts.no_item_tag=Le NBT n'a pas généré un objet valide.
+command.nbts.failed=Erreur NBT : %s
+command.nbts.success=NBT appliqué avec succès au slot %s.
+
+## open
+command.open.description=Ouvre l'interface utilisateur du client.
+command.open.usage=§b%s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

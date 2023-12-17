@@ -49,22 +49,6 @@
       "md5": "c96c6580b1ed1ae7e9f3c58c9ba69081"
     },
     {
-      "visual_name": "Fran\u00E7ais (Canada)",
-      "code": "fr_CA",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_CA.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_CA.lang",
-      "version": 13,
-      "md5": "173ba60aebd50d8e7ff6bcd9a02e88d6"
-    },
-    {
-      "visual_name": "Fran\u00E7ais (France)",
-      "code": "fr_FR",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_FR.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_FR.lang",
-      "version": 13,
-      "md5": "e9cc3297ece20aea0c8f3e8aad53e42d"
-    },
-    {
       "visual_name": "\u4E2D\u6587 (\u7B80\u4F53)",
       "code": "zh_CN",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_CN.lang",
@@ -103,6 +87,22 @@
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fko_KR.lang",
       "version": 6,
       "md5": "55209f561f6f425f1f6b89e75089de96"
+    },
+    {
+      "visual_name": "Fran\u00E7ais (Canada)",
+      "code": "fr_CA",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_CA.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_CA.lang",
+      "version": 14,
+      "md5": "e7dfaa6d2f614b07f71deb3c7a72ec57"
+    },
+    {
+      "visual_name": "Fran\u00E7ais (France)",
+      "code": "fr_FR",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_FR.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_FR.lang",
+      "version": 14,
+      "md5": "0281498f42e46608b364c0e00898d63c"
     }
   ]
 }

@@ -2106,60 +2106,106 @@ command.nbts.success=NBT appliqué avec succès au slot %s.
 command.open.description=Ouvre l'interface utilisateur du client.
 command.open.usage=§b%s
 
+## rename
+command.rename.description=Renomme l'objet que vous avez en main.
+command.rename.usage=§b%s §a<nom>
+command.rename.no_item=Aucun objet en main.
+command.rename.success=Objet renommé en %s.
 
+## renames
+command.renames.description=Renomme l'objet d'un slot spécifique.
+command.renames.usage=§b%s §b<slot> §a<nom>
+command.renames.no_item=Aucun objet dans le slot %s.
+command.renames.success=Objet de l'emplacement %s renommé en %s.
 
+## repair
+command.repair.description=Répare l'objet que vous avez en main.
+command.repair.usage=§b%s
+command.repair.no_item=Aucun objet en main.
+command.repair.failed=L'objet n'est pas endommagé.
+command.repair.success=Objet en main réparé avec succès.
 
+## repairs
+command.repairs.description=Répare l'objet d'un slot spécifique.
+command.repairs.usage=§b%s
+command.repairs.no_item=Aucun objet dans le slot %s.
+command.repairs.failed=L'objet du slot %s n'est pas endommagé.
+command.repairs.success=Objet de l'emplacement %s réparé avec succès.
 
+## say 
+command.say.description=Affiche un message dans le chat.
+command.say.usage=§b%s §a<message>
 
+## execute
+command.execute.description=Exécute une commande.
+command.execute.usage=§b%s §a<commande>
 
+## screenshots
+command.screenshots.description=Ouvre le dossier des captures d'écran.
+command.screenshots.usage=§b%s
 
+## seed
+command.seed.description=Affiche la graine du monde.
+command.seed.usage=§b%s [pressepapiers(n'importe quel texte fonctionnera)]
+command.seed.success=La graine du monde est %s
 
+## setlocale
+command.setlocale.description=Change la langue du client, par exemple en_US.
+command.setlocale.usage=§b%s §a<locale>
+command.setlocale.failed=Locale invalide, format : en_US, fr_FR, etc...
+command.setlocale.success=Langue définie sur (%s) %s
 
+## signfix
+command.signfix.description=Corrige les couleurs d'un panneau dans votre main.
+command.signfix.usage=§b%s [couleur_texte]
+command.signfix.no_item=Aucun objet en main.
+command.signfix.no_sign=L'objet tenu n'est pas un panneau.
+command.signfix.success=Votre panneau a été corrigé avec succès.
 
+## structuresize
+command.structuresize.description=Modifie la taille du prochain bloc de structure que vous allez fermer.
+command.structuresize.usage=§b%s §6x §d<nouvelle_taille>\n§b%s §6y §d<nouvelle_taille>§b%s §6z §d<nouvelle_taille>§b%s §6r §8- §7Annule les modifications précédentes.
+command.structuresize.success=Le prochain bloc de structure que vous allez fermer aura la taille souhaitée.
 
+## theme
+command.theme.description=Ouvre le menu pour changer le thème du client.
+command.theme.usage=§b%s
+command.theme.failed=Échec de l'ouverture du menu de thème.
 
+## timestep
+command.timestep.description=Accélère le jeu pendant la durée désirée en secondes. (alwaysday - Jour éternel doit être désactivé) (uniquement pour les propriétaires/hébergeurs du monde)
+command.timestep.usage=§b%s §a<secondes>
+command.timestep.short=Veuillez accélérer le temps pendant au moins %s secondes.
+command.timestep.long=Une semaine est un peu longue. Veuillez utiliser une durée raisonnable.
+command.timestep.not_host=Vous n'hébergez pas ce monde sur votre client.
+command.timestep.no_creative_tools=Les outils créatifs doivent être activés pour utiliser cette commande !
+command.timestep.success=Accélération du temps pendant %s secondes (%s ticks) !\nAssurez-vous que dodaylightcycle - Cycle jour/nuit est bien activé.
 
+## toggle
+command.toggle.description=Active/désactive un module.
+command.toggle.usage=§b%s §a<module>\n§b%s §6on §a<module>\n§b%s §6off §a<module>\n§b%s §6script §a<module>\n§b%s §6script §6on §a<module>\n§b%s §6script §6off §a<module>
+command.toggle.no_module=Module "%s" invalide.
+command.toggle.enabled=§aModule §7%s §b%s §aActivé
+command.toggle.disabled=§cModule §7%s §b%s §cDésactivé
+command.toggle.script=Script
+command.toggle.module=Module
 
+## version
+command.version.description=Affiche la version du client et du jeu.
+command.version.usage=§b%s
+command.version.success=Version du client : %s\nVersion de Minecraft : %s
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## waypoint
+command.waypoint.description=Gère les waypoints.
+command.waypoint.usage=§b% §6add §a<nom> §d[x] §d[y] §d[z] §8- §7Ajoute un waypoint.\n§b%s §6remove §a<nom> §8- §7Supprime un waypoint de la liste\n§b%s §6list §8- §7Liste tous vos waypoints\n§b%s §6clear §8- §7Supprime les waypoints\n§b%s §6tp §a<nom> §8- §7Vous téléporte à un waypoint\n§b%s §6setworld §a<nom> §8- §7Donne un nom personnalisé à un monde, les waypoints seront enregistrés sous ce nom et peuvent être chargés en l'utilisant aussi.
+command.waypoint.added=§aWaypoint %s ajouté en %s %s %s.
+command.waypoint.removed=§aWaypoint %s supprimé.
+command.waypoint.cleared=§aTous les waypoints ont été effacés.
+command.waypoint.list=Waypoints\n%s
+command.waypoint.list_empty=Vous n'avez aucun waypoints.
+command.waypoint.list_entry=%s en %s %s %s dans %s       		## nom, x, y, z, dimension
+command.waypoint.list_entry_nether=§cNether
+command.waypoint.list_entry_end=§fEnd
+command.waypoint.list_entry_overworld=§aOverworld
+command.waypoint.list_entry_unknown=§5 ???
+command.waypoint.failed=§cAucun waypoint nommé %s.

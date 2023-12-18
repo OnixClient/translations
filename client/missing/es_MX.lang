@@ -184,6 +184,7 @@ command.version.usage=§b%s
 command.waypoint.added=§aAdded waypoint %s at %s %s %s.
 command.waypoint.cleared=§aCleared all waypoints.
 command.waypoint.description=manages waypoints.
+command.waypoint.disabled=§cYou must enable the Waypoints module before running this command.
 command.waypoint.failed=§cNo waypoint named %s.
 command.waypoint.list=Waypoints\n%s
 command.waypoint.list_empty=You have no waypoints.

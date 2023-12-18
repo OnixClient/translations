@@ -2192,3 +2192,4 @@ command.waypoint.list_entry_end=§fEnd
 command.waypoint.list_entry_overworld=§aOverworld
 command.waypoint.list_entry_unknown=§5 ???
 command.waypoint.failed=§cNo waypoint named %s.
+command.waypoint.disabled=§cYou must enable the Waypoints module before running this command.

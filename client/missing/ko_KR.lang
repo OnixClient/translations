@@ -12,3 +12,4 @@ command.lores.nothing_list=Nothing to list.
 command.lores.nothing_remove=Nothing to remove.
 command.lores.removed=§aSuccessfully removed element %i in slot %s's lore.
 command.lores.usage=§b%s §6add §a<text>\n§b%s §6clear\n§b%s §6remove §b<line>\n§b%s §6insert §b<line> §a<text>\n§b%s §6list
+command.waypoint.disabled=§cYou must enable the Waypoints module before running this command.

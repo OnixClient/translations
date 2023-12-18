@@ -2185,8 +2185,8 @@ command.timestep.success=Accélération du temps pendant %s secondes (%s ticks) 
 command.toggle.description=Active/désactive un module.
 command.toggle.usage=§b%s §a<module>\n§b%s §6on §a<module>\n§b%s §6off §a<module>\n§b%s §6script §a<module>\n§b%s §6script §6on §a<module>\n§b%s §6script §6off §a<module>
 command.toggle.no_module=Module "%s" invalide.
-command.toggle.enabled=§aModule §7%s §b%s §aActivé
-command.toggle.disabled=§cModule §7%s §b%s §cDésactivé
+command.toggle.enabled=§7%s §b%s §aActivé
+command.toggle.disabled=§7%s §b%s §cDésactivé
 command.toggle.script=Script
 command.toggle.module=Module
 

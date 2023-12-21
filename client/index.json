@@ -93,16 +93,16 @@
       "code": "fr_CA",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_CA.lang",
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_CA.lang",
-      "version": 17,
-      "md5": "262d4828dadbf89ae04a1b767246fd56"
+      "version": 18,
+      "md5": "4a5c7fba8783a84f3251d784dd7783b1"
     },
     {
       "visual_name": "Fran\u00E7ais (France)",
       "code": "fr_FR",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_FR.lang",
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_FR.lang",
-      "version": 17,
-      "md5": "a32393ec4ad991894366b8876a7b5d6a"
+      "version": 18,
+      "md5": "651d43716e72d14d54a6a7bde90901b0"
     }
   ]
 }

@@ -787,6 +787,8 @@ module.environment_changer.setting.change_clouds_color.name=Change Clouds Color
 module.environment_changer.setting.change_clouds_color.description=Toggle cloud color change.
 module.environment_changer.setting.cloud_color.name=Cloud Color
 module.environment_changer.setting.cloud_color.description=Set the cloud color.
+module.environment_changer.setting.cloud_height_offset.name=Cloud Height Offset
+module.environment_changer.setting.cloud_height_offset.description=Adjust the cloud height offset.
 
 module.environment_changer.setting.weather_settings_category.name=Weather Settings
 module.environment_changer.setting.weather_settings_category.description=Settings for weather settings.
@@ -798,6 +800,46 @@ module.environment_changer.setting.fog_intensity.name=Fog Intensity
 module.environment_changer.setting.fog_intensity.description=Adjust fog intensity.
 module.environment_changer.setting.dark_lighting.name=Dark Lighting
 module.environment_changer.setting.dark_lighting.description=Adjust dark lighting.
+
+module.environment_changer.setting.biome_temperature.name=Biome Temperature
+module.environment_changer.setting.biome_temperature.description=Settings for biome temperature.
+module.environment_changer.setting.biome_temperature.unchanged=Unchanged
+module.environment_changer.setting.biome_temperature.snow=Snow
+module.environment_changer.setting.biome_temperature.rain=Rain
+module.environment_changer.setting.biome_temperature.snowy_rain=Snowy Rain
+module.environment_changer.setting.biome_temperature.hot=Hot
+
+module.environment_changer.setting.atmospheric_settings.name=Atmospheric Settings
+module.environment_changer.setting.atmospheric_settings.description=Adjust various atmospheric conditions.
+module.environment_changer.setting.change_red_spore_density.name=Change Red Spore Density
+module.environment_changer.setting.change_red_spore_density.description=Toggle the changing of red spores.
+module.environment_changer.setting.red_spore_density.name=Red Spore Density
+module.environment_changer.setting.red_spore_density.description=Modify the density of red spores.
+module.environment_changer.setting.change_blue_spore_density.name=Change Blue Spore Density
+module.environment_changer.setting.change_blue_spore_density.description=Toggle the changing of blue spores.
+module.environment_changer.setting.blue_spore_density.name=Blue Spore Density
+module.environment_changer.setting.blue_spore_density.description=Modify the density of blue spores.
+module.environment_changer.setting.change_ash_density.name=Change Ash Density
+module.environment_changer.setting.change_ash_density.description=Toggle the changing of ash particles.
+module.environment_changer.setting.ash_density.name=Ash Density
+module.environment_changer.setting.ash_density.description=Modify the density of ash particles
+module.environment_changer.setting.change_white_ash_density.name=Change White Ash Density
+module.environment_changer.setting.change_white_ash_density.description=Toggle the density of white ash particles.
+module.environment_changer.setting.white_ash_density.name=White Ash Density
+module.environment_changer.setting.white_ash_density.description=Modify the density of white ash particles.
+module.environment_changer.setting.change_foliage_snow.name=Change Foliage Snow
+module.environment_changer.setting.change_foliage_snow.description=Toggle the changing of snow on foliage.
+module.environment_changer.setting.foliage_snow.name=Foliage Snow
+module.environment_changer.setting.foliage_snow.description=Modify the amount of snow on leaves, etc.
+module.environment_changer.setting.change_water_color.name=Change Water Color
+module.environment_changer.setting.change_water_color.description=Adjust the color of the water.
+module.environment_changer.setting.water_color.name=Water Color
+module.environment_changer.setting.water_color.description=Current color of the water.
+module.environment_changer.setting.change_water_opacity.name=Change Water Opacity
+module.environment_changer.setting.change_water_opacity.description=Modify the opacity/transparency of the water.
+module.environment_changer.setting.water_opacity.name=Water Opacity
+module.environment_changer.setting.water_opacity.description=Current opacity/transparency of the water.
+
 
 ## FOV Changer
 module.fov_changer.name=FOV Changer
@@ -841,6 +883,13 @@ module.fov_changer.setting.change_fov_when_sprinting.name=Change FOV When Sprint
 module.fov_changer.setting.change_fov_when_sprinting.description=Toggle FOV change when sprinting.
 module.fov_changer.setting.sprinting_fov.name=Sprinting FOV
 module.fov_changer.setting.sprinting_fov.description=Set the sprinting field of view.
+
+module.fov_changer.setting.third_person_settings_category.name=Third Person Settings
+module.fov_changer.setting.third_person_settings_category.description=Settings for third person settings.
+module.fov_changer.setting.third_person_back_fov_offset.name=Third Person Back FOV Offset
+module.fov_changer.setting.third_person_back_fov_offset.description=Set the third person back field of view offset.
+module.fov_changer.setting.third_person_front_fov_offset.name=Third Person Front FOV Offset
+module.fov_changer.setting.third_person_front_fov_offset.description=Set the third person front field of view offset.
 
 ## Freelook
 module.freelook.name=Freelook
@@ -1893,6 +1942,8 @@ module.nametag_modifier.setting.background_opacity.name=Background Opacity
 module.nametag_modifier.setting.background_opacity.description=Adjusts the opacity of the background.
 module.nametag_modifier.setting.background_darken.name=Darken Background
 module.nametag_modifier.setting.background_darken.description=Darkens the background.
+module.nametag_modifier.setting.y_offset.name=Y Offset
+module.nametag_modifier.setting.y_offset.description=Adjusts the Y offset of the nametag.
 
 ## Visual Testing
 module.visual_testing.name=Visual Testing

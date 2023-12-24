@@ -1260,6 +1260,8 @@ module.nametag_modifier.setting.reset_color_is_default_background.name=默認背
 module.nametag_modifier.setting.reset_color_is_default_background.description=使用默認文本顏色作為默認背景色.
 module.nametag_modifier.setting.third_person_nametag.name=第三人稱玩家名
 module.nametag_modifier.setting.third_person_nametag.description=在第三人稱時在你頭頂顯示你自己的名字.
+module.nametag_modifier.setting.y_offset.description=調整玩家名的Y軸高度.
+module.nametag_modifier.setting.y_offset.name=Y軸高度
 
 ## Test Module
 module.test_module.name=測試功能

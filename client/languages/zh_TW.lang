@@ -776,6 +776,53 @@ module.environment_changer.setting.fog_intensity.description=調整迷霧強度.
 module.environment_changer.setting.dark_lighting.name=雷暴強度
 module.environment_changer.setting.dark_lighting.description=調整雷暴強度.
 
+module.environment_changer.setting.atmospheric_settings.description=調整各種大氣條件.
+module.environment_changer.setting.atmospheric_settings.name=大氣設置
+
+module.environment_changer.setting.biome_temperature.description=群系溫度的設置.
+module.environment_changer.setting.biome_temperature.hot=熱
+module.environment_changer.setting.biome_temperature.name=群系溫度
+module.environment_changer.setting.biome_temperature.rain=下雨
+module.environment_changer.setting.biome_temperature.snow=下雪
+module.environment_changer.setting.biome_temperature.snowy_rain=雨夾雪
+module.environment_changer.setting.biome_temperature.unchanged=不改變
+
+module.environment_changer.setting.ash_density.description=修改灰塵粒子的密度
+module.environment_changer.setting.ash_density.name=灰塵密度
+module.environment_changer.setting.change_ash_density.description=啟用對灰塵粒子的改變.
+module.environment_changer.setting.change_ash_density.name=修改灰塵粒子的密度
+module.environment_changer.setting.white_ash_density.description=Modify the density of white ash particles.
+module.environment_changer.setting.white_ash_density.name=White Ash Density
+module.environment_changer.setting.change_white_ash_density.description=Toggle the density of white ash particles.
+module.environment_changer.setting.change_white_ash_density.name=Change White Ash Density
+
+module.environment_changer.setting.change_red_spore_density.description=Toggle the changing of red spores.
+module.environment_changer.setting.change_red_spore_density.name=Change Red Spore Density
+module.environment_changer.setting.change_blue_spore_density.description=Toggle the changing of blue spores.
+module.environment_changer.setting.change_blue_spore_density.name=Change Blue Spore Density
+module.environment_changer.setting.red_spore_density.description=Modify the density of red spores.
+module.environment_changer.setting.red_spore_density.name=Red Spore Density
+module.environment_changer.setting.blue_spore_density.description=Modify the density of blue spores.
+module.environment_changer.setting.blue_spore_density.name=Blue Spore Density
+
+module.environment_changer.setting.change_foliage_snow.description=切換樹葉上的雪的變化.
+module.environment_changer.setting.change_foliage_snow.name=改變落葉積雪
+
+module.environment_changer.setting.water_color.description=水的當前顏色.
+module.environment_changer.setting.water_color.name=水體顏色
+module.environment_changer.setting.water_opacity.description=水的當前不透明度/透明度.
+module.environment_changer.setting.water_opacity.name=水體透明度
+module.environment_changer.setting.change_water_color.description=調整水的顏色.
+module.environment_changer.setting.change_water_color.name=修改水體顏色
+module.environment_changer.setting.change_water_opacity.description=調整水的不透明度/透明度.
+module.environment_changer.setting.change_water_opacity.name=修改水體透明度
+
+module.environment_changer.setting.cloud_height_offset.description=調整雲層高度.
+module.environment_changer.setting.cloud_height_offset.name=雲層高度設置
+module.environment_changer.setting.foliage_snow.description=Modify the amount of snow on leaves, etc.
+module.environment_changer.setting.foliage_snow.name=Foliage Snow
+
+
 ## FOV Changer
 module.fov_changer.name=FOV改變
 module.fov_changer.description=允許你自定義你的FOV.
@@ -818,6 +865,13 @@ module.fov_changer.setting.change_fov_when_sprinting.name=疾跑時改變FOV
 module.fov_changer.setting.change_fov_when_sprinting.description=疾跑時改變FOV.
 module.fov_changer.setting.sprinting_fov.name=疾跑FOV
 module.fov_changer.setting.sprinting_fov.description=調整疾跑時的FOV.
+
+module.fov_changer.setting.third_person_back_fov_offset.description=調整第三人稱背面的FOV.
+module.fov_changer.setting.third_person_back_fov_offset.name=第三人稱背面FOV
+module.fov_changer.setting.third_person_front_fov_offset.description=調整第三人稱正面的FOV.
+module.fov_changer.setting.third_person_front_fov_offset.name=第三人稱正面FOV
+module.fov_changer.setting.third_person_settings_category.description=第三人稱的設置.
+module.fov_changer.setting.third_person_settings_category.name=第三人稱設置
 
 ## Freelook
 module.freelook.name=自由觀察
@@ -1277,20 +1331,20 @@ module.view_model.setting.is_weird.name=忄聖 東 西
 module.view_model.setting.is_weird.description=切換為怪異的手部模型.
 
 ## Waypoints
-module.waypoints.name=路徑點
-module.waypoints.description=顯示和記錄世界上特定位置的坐標. \n在聊天框中輸入".waypoint"以創建路徑點.
+module.waypoints.name=導航點
+module.waypoints.description=顯示和記錄世界上特定位置的坐標. \n在聊天框中輸入".waypoint"以創建導航點.
 
-module.waypoints.setting.death_waypoint.name=在死亡時添加"死亡"路徑點
-module.waypoints.setting.death_waypoint.description=啟用在死亡時添加"死亡"路徑點.
-module.waypoints.setting.all_axis.name=顯示你距離路徑點的所有軸上的距離
-module.waypoints.setting.all_axis.description=切換為顯示你距離路徑點的所有軸(X,Y,Z)上的距離.
+module.waypoints.setting.death_waypoint.name=在死亡時添加"死亡"導航點
+module.waypoints.setting.death_waypoint.description=啟用在死亡時添加"死亡"導航點.
+module.waypoints.setting.all_axis.name=顯示你距離導航點的所有軸上的距離
+module.waypoints.setting.all_axis.description=切換為顯示你距離導航點的所有軸(X,Y,Z)上的距離.
 
 module.waypoints.setting.automated_settings_category.name=自動設置
 module.waypoints.setting.automated_settings_category.description=自動相關的設置.
-module.waypoints.setting.add_waypoint_for_nether_portal.name=自動給地獄門添加路徑點
-module.waypoints.setting.add_waypoint_for_nether_portal.description=啟用自動給地獄門添加路徑點.
-module.waypoints.setting.add_waypoint_for_end_gateways.name=自動給末地折躍門添加路徑點
-module.waypoints.setting.add_waypoint_for_end_gateways.description=啟用自動給末地折躍門添加路徑點.
+module.waypoints.setting.add_waypoint_for_nether_portal.name=自動給地獄門添加導航點
+module.waypoints.setting.add_waypoint_for_nether_portal.description=啟用自動給地獄門添加導航點.
+module.waypoints.setting.add_waypoint_for_end_gateways.name=自動給末地折躍門添加導航點
+module.waypoints.setting.add_waypoint_for_end_gateways.description=啟用自動給末地折躍門添加導航點.
 module.waypoints.setting.disable_server_mode.name=禁用服務器模式
 module.waypoints.setting.disable_server_mode.description=禁用服務器模式.
 
@@ -1894,10 +1948,12 @@ module.over_the_shoulder_camera.setting.include_tps_front.name=包含第三人�
 module.over_the_shoulder_camera.setting.include_tps_front.description=在越肩攝像頭中包括第三人稱證明.
 
 
-
+## Lua Command
 module.lua_command.description=lua命令的模塊, 用於創建渲染函數.\n可以像任何普通功能一樣使用\n你可以編輯 CMD.lua 文件以向其添加預製函數.
 module.lua_command.name=lua命令
 
+
+## Scripting
 scripting.import.fail=導入腳本失敗 %s "%s".
 scripting.import.start=正在導入腳本 %s "%s".
 scripting.import.success= %s "%s" 腳本 已被導入!
@@ -2087,6 +2143,7 @@ command.toggle.usage=§b%s §a<module>\n§b%s §6on §a<module>\n§b%s §6off §
 command.version.description=顯示客戶端和遊戲的版本.
 command.version.success=客戶端版本: %s\nMinecraft版本: %s
 command.version.usage=§b%s
+command.waypoint.disabled=§c你必須在使用此命令前啟用導航點功能.
 command.waypoint.added=§a添加導航點 %s at %s %s %s.
 command.waypoint.cleared=§a清除所有導航點.
 command.waypoint.description=管理導航點.

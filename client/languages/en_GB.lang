@@ -931,8 +931,10 @@ module.fullbright.setting.gamma.description=Adjust the gamma value to brighten o
 module.glint_color_changer.name=Glint Colour Changer
 module.glint_color_changer.description=Changes the colour of the glint (the enchantment thing).
 
-module.glint_color_changer.setting.glint_color.name=Glint Colour
-module.glint_color_changer.setting.glint_color.description=Modify the colour of the glint effect.
+ui_glint_color.name=UI Glint Colour
+ui_glint_color.description=The colour of the enchantment glint inside of inventories.
+game_glint_color.name=Game Glint Colour
+game_glint_color.description=The colour of the enchantment glint on objects inside the world.
 
 module.glint_color_changer.setting.presets.name=Presets
 module.glint_color_changer.setting.presets.description=Choose from preset glint colour options.

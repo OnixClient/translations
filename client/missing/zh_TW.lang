@@ -1,0 +1,4 @@
+game_glint_color.description=The color of the enchantment glint on objects inside the world.
+game_glint_color.name=Game Glint Color
+ui_glint_color.description=The color of the enchantment glint inside of inventories.
+ui_glint_color.name=UI Glint Color

@@ -1,3 +1,5 @@
+game_glint_color.description=The color of the enchantment glint on objects inside the world.
+game_glint_color.name=Game Glint Color
 module.environment_changer.setting.ash_density.description=Modify the density of ash particles
 module.environment_changer.setting.ash_density.name=Ash Density
 module.environment_changer.setting.atmospheric_settings.description=Adjust various atmospheric conditions.
@@ -45,3 +47,5 @@ module.fov_changer.setting.third_person_settings_category.description=Settings f
 module.fov_changer.setting.third_person_settings_category.name=Third Person Settings
 module.nametag_modifier.setting.y_offset.description=Adjusts the Y offset of the nametag.
 module.nametag_modifier.setting.y_offset.name=Y Offset
+ui_glint_color.description=The color of the enchantment glint inside of inventories.
+ui_glint_color.name=UI Glint Color

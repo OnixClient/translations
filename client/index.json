@@ -73,22 +73,6 @@
       "md5": "651d43716e72d14d54a6a7bde90901b0"
     },
     {
-      "visual_name": "\u4E2D\u6587 (\u7B80\u4F53)",
-      "code": "zh_CN",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_CN.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_CN.lang",
-      "version": 14,
-      "md5": "7d447740111d124eea90fdfd866b562a"
-    },
-    {
-      "visual_name": "\u4E2D\u6587 (\u7E41\u9AD4)",
-      "code": "zh_TW",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_TW.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_TW.lang",
-      "version": 12,
-      "md5": "24d301c04b8b5aa0da76aa0b29fce394"
-    },
-    {
       "visual_name": "English (United States)",
       "code": "en_US",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_US.lang",
@@ -103,6 +87,22 @@
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_GB.lang",
       "version": 27,
       "md5": "5175da02b36226873df6c9b79a031792"
+    },
+    {
+      "visual_name": "\u4E2D\u6587 (\u7B80\u4F53)",
+      "code": "zh_CN",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_CN.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_CN.lang",
+      "version": 15,
+      "md5": "dbd5efbeda6009989ec2ba073462ca18"
+    },
+    {
+      "visual_name": "\u4E2D\u6587 (\u7E41\u9AD4)",
+      "code": "zh_TW",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_TW.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_TW.lang",
+      "version": 13,
+      "md5": "81afbba9dd3bb017ad176c00ba4cf7cb"
     }
   ]
 }

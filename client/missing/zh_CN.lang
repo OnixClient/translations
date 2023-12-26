@@ -1,4 +1,0 @@
-module.glint_color_changer.setting.game_glint_color.description=The color of the enchantment glint on objects inside the world.
-module.glint_color_changer.setting.game_glint_color.name=Game Glint Color
-module.glint_color_changer.setting.ui_glint_color.description=The color of the enchantment glint inside of inventories.
-module.glint_color_changer.setting.ui_glint_color.name=UI Glint Color

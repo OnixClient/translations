@@ -1687,38 +1687,38 @@ module.soup_counter.soup_text=Soup: %s
 
 
 ## Speed Counter
-module.speed_display.name=Speed Display
-module.speed_display.description=Shows your speed in blocks per second.
-module.speed_display.setting.include_vertical_speed.name=Include Vertical Speed
-module.speed_display.setting.include_vertical_speed.description=Includes vertical speed in the display.
-module.speed_display.blocks_per_second=blocks/s
+module.speed_display.name=Visualización de Velocidad
+module.speed_display.description=Muestra tu velocidad en bloques por segundo.
+module.speed_display.setting.include_vertical_speed.name=Incluir velocidad vertical
+module.speed_display.setting.include_vertical_speed.description=Incluye velocidad vertical en la pantalla.
+module.speed_display.blocks_per_second=bloques/s
 
 
 
 ## Stopwatch Module
-module.stopwatch.name=Stopwatch
-module.stopwatch.description=Displays a stopwatch on the screen.
-module.stopwatch.setting.start_stop_key.name=Start/Stop Key
-module.stopwatch.setting.start_stop_key.description=Key used to start or stop the stopwatch.
-module.stopwatch.setting.pause_unpause_key.name=Pause/Unpause Key
-module.stopwatch.setting.pause_unpause_key.description=Key used to pause or unpause the stopwatch.
+module.stopwatch.name=Cronómetro
+module.stopwatch.description=Mostra un cronómetro en la pantalla.
+module.stopwatch.setting.start_stop_key.name=Tecla Iniciar/Parar
+module.stopwatch.setting.start_stop_key.description=Tecla para Iniciar o parar el cronómetro.
+module.stopwatch.setting.pause_unpause_key.name=Tecla de pausa/reanudación
+module.stopwatch.setting.pause_unpause_key.description=Tecla usado para pausar o reanudaciónar el cronómetro.
 
 
 
 ## Visual Testing
-module.visual_testing.name=Visual Testing
+module.visual_testing.name=Pruebas Visuales
 module.visual_testing.description=
 
 
 ## Waila Module
 module.waila.name=WAILA
-module.waila.description=Displays information about blocks when you look at them.
-module.waila.setting.enable_outline.name=Outline
-module.waila.setting.enable_outline.description=Enables outline display.
-module.waila.setting.original_position.name=Use Original Mods Position
-module.waila.setting.original_position.description=Uses the original mod's position.
-module.waila.setting.height_offset.name=Height Offset
-module.waila.setting.height_offset.description=Adjusts the height offset for the display.
+module.waila.description=Mostra información de los bloque quando los miras.
+module.waila.setting.enable_outline.name=Esquema
+module.waila.setting.enable_outline.description=Permite el Esquema.
+module.waila.setting.original_position.name=Usar Posición Original del Modificación
+module.waila.setting.original_position.description=Usa el Posición Original del Modificación
+module.waila.setting.height_offset.name=Desplazamiento de Altura
+module.waila.setting.height_offset.description=Ajusta el desplazamiento de altura para el visualización de la pantalla.
 
 ## PROXIMITY CHAT
 

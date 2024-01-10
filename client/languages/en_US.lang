@@ -2237,3 +2237,16 @@ command.waypoint.list_entry_overworld=§aOverworld
 command.waypoint.list_entry_unknown=§5 ???
 command.waypoint.failed=§cNo waypoint named %s.
 command.waypoint.disabled=§cYou must enable the Waypoints module before running this command.
+
+## fog changer
+module.fog_customiser.name=Fog Changer
+module.fog_customiser.description=Allows you to modify various aspects of the fog!
+module.fog_customiser.setting.should_change_fog.name=Should Change Fog Distance
+module.fog_customiser.setting.should_change_fog.description=Toggles whether or not to change the distance renders.
+module.fog_customiser.setting.fog_multiplier.name=Fog Distance Multiplier
+module.fog_customiser.setting.fog_multiplier.description=The multiplier of the distance the fog renders at.
+module.fog_customiser.setting.liquid_fog_warning=These will NOT work unless you have operator and/or are in creative mode!
+module.fog_customiser.setting.display_fog_under_water.name=Show Underwater Fog
+module.fog_customiser.setting.display_fog_under_water.description=Toggles you being able to see the underwater fog.
+module.fog_customiser.setting.display_fog_under_lava.name=Show Under-Lava Fog
+module.fog_customiser.setting.display_fog_under_lava.description=Toggles you being able to see the under-lava fog.

@@ -2250,3 +2250,5 @@ module.fog_customiser.setting.display_fog_under_water.name=Show Underwater Fog
 module.fog_customiser.setting.display_fog_under_water.description=Toggles you being able to see the underwater fog.
 module.fog_customiser.setting.display_fog_under_lava.name=Show Under-Lava Fog
 module.fog_customiser.setting.display_fog_under_lava.description=Toggles you being able to see the under-lava fog.
+module.fog_customiser.setting.show_nether_fog.name=Show Nether Fog
+module.fog_customiser.setting.show_nether_fog.description=Toggles whether or not to display fog in the nether.

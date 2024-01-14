@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Onix\\Desktop\\translations\\TranslationRunner\\TranslationRunner\\TranslationRunner\\TranslationRunner.csproj",
+      "projectUniqueName": "C:\\Users\\Onix\\Source\\Repos\\translations\\TranslationRunner\\TranslationRunner\\TranslationRunner\\TranslationRunner.csproj",
       "projectName": "TranslationRunner",
-      "projectPath": "C:\\Users\\Onix\\Desktop\\translations\\TranslationRunner\\TranslationRunner\\TranslationRunner\\TranslationRunner.csproj",
+      "projectPath": "C:\\Users\\Onix\\Source\\Repos\\translations\\TranslationRunner\\TranslationRunner\\TranslationRunner\\TranslationRunner.csproj",
       "packagesPath": "C:\\Users\\Onix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Onix\\Desktop\\translations\\TranslationRunner\\TranslationRunner\\TranslationRunner\\obj\\",
+      "outputPath": "C:\\Users\\Onix\\Source\\Repos\\translations\\TranslationRunner\\TranslationRunner\\TranslationRunner\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -46,9 +46,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "default"
       }
     },
     "frameworks": {

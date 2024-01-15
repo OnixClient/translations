@@ -1388,6 +1388,14 @@ module.view_model.setting.scale_z.description=Adjust the Z scale of the view mod
 module.view_model.setting.is_weird.name=Weird
 module.view_model.setting.is_weird.description=Toggle weird view model.
 
+## Rear View
+module.rear_view.name=Rear View
+module.rear_view.description=Allows you to turn your head without moving your body while holding a key.
+module.rear_view.setting.going_back_anim.name=Animate The Rotation
+module.rear_view.setting.going_back_anim.description=Toggles whether or not you would like a short animation to show when the camera rotates.
+module.rear_view.setting.target_rotation.name=Target Rotation
+module.rear_view.setting.target_rotation.description=The desired rotation amount.
+
 ## Waypoints
 module.waypoints.name=Waypoints
 module.waypoints.description=Displays and stores coordinates of specific locations in the world.\nTo create a waypoint, type ".waypoint" in the Minecraft chat.

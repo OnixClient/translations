@@ -1387,6 +1387,18 @@ module.rear_view.setting.going_back_anim.description=Toggles whether or not you 
 module.rear_view.setting.target_rotation.name=Target Rotation
 module.rear_view.setting.target_rotation.description=The desired rotation amount.
 
+## Dynamic Perspective
+module.dynamic_perspective.name=Dynamic Perspective
+module.dynamic_perspective.description=Allows you to change your perspective based on your current situation.
+module.dynamic_perspective.setting.elytra_perspective.name=Elytra Perspective
+module.dynamic_perspective.setting.elytra_perspective.description=What should be your perspective when you are flying with an elytra.
+module.dynamic_perspective.setting.riding_perspective.name=Riding Perspective
+module.dynamic_perspective.setting.riding_perspective.description=What should be your perspective when you are riding an entity.
+module.dynamic_perspective.setting.swimming_perspective.name=Swimming Perspective
+module.dynamic_perspective.setting.swimming_perspective.description=What should be your perspective when you are swimming.
+module.dynamic_perspective.setting.sneaking_perspective.name=Sneaking Perspective
+module.dynamic_perspective.setting.sneaking_perspective.description=What should be your perspective when you are sneaking.
+
 ## Waypoints
 module.waypoints.name=Waypoints
 module.waypoints.description=Displays and stores coordinates of specific locations in the world.\nTo create a waypoint, type ".waypoint" in the Minecraft chat.

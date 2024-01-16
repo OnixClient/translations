@@ -1510,7 +1510,7 @@ module.clock.setting.24_hour_format.name=24小时制
 module.clock.setting.24_hour_format.description=使用24小时制.
 module.clock.setting.show_seconds.name=显示秒
 module.clock.setting.show_seconds.description=显示秒.
-module.clock.time_text=时间: 
+module.clock.time_text=时间: %s
 
 
 

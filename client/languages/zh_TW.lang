@@ -1521,7 +1521,7 @@ module.combo_counter.setting.show_combo_text.name=顯示 "連擊:" 文本
 module.combo_counter.setting.show_combo_text.description=在連擊計數器旁顯示 "連擊:" 文本.
 module.combo_counter.setting.flash_when_hit.name=攻擊敵人時功能背景閃爍
 module.combo_counter.setting.flash_when_hit.description=在攻擊敵人時觸發一次連擊計數器功能背景閃爍.
-module.combo_counter.combo_text=連擊:
+module.combo_counter.combo_text=連擊: %s
 
 
 

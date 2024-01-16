@@ -93,16 +93,16 @@
       "code": "zh_CN",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_CN.lang",
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_CN.lang",
-      "version": 16,
-      "md5": "01b4940070db0c7fa69bc30e38eaafda"
+      "version": 17,
+      "md5": "78309ed4a9ebfe381d2e5bb42c09fbcb"
     },
     {
       "visual_name": "\u4E2D\u6587 (\u7E41\u9AD4)",
       "code": "zh_TW",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_TW.lang",
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_TW.lang",
-      "version": 14,
-      "md5": "5894bb2b7b0d13c33774ddcf48ef0f79"
+      "version": 15,
+      "md5": "f3e14ba7be7f6bec1f882c1648163249"
     }
   ]
 }

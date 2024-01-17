@@ -1191,6 +1191,12 @@ module.static_camera.setting.allow_rotation_default.description=Enable default r
 module.static_camera.setting.allow_rotation_key.name=Allow Rotation Key
 module.static_camera.setting.allow_rotation_key.description=Set a keybind to enable camera rotation.
 
+## Java Inventory Hotkeys
+module.inventory_hotkeys.name=Java Inventory Hotkeys
+module.inventory_hotkeys.description=A port of the Java inventory hotkeys to Bedrock.
+module.inventory_hotkeys.setting.animate.name=Animate the item switch.
+module.inventory_hotkeys.setting.animate.description=Toggles the animation when you hotkey an item.
+
 ## Player List Tab
 module.player_list_tab.name=Player List Tab
 module.player_list_tab.description=Shows a list of all players in the world.
@@ -1391,8 +1397,8 @@ module.view_model.setting.is_weird.description=Toggle weird view model.
 ## Rear View
 module.rear_view.name=Rear View
 module.rear_view.description=Allows you to turn your head without moving your body while holding a key.
-module.rear_view.setting.going_back_anim.name=Animate The Rotation
-module.rear_view.setting.going_back_anim.description=Toggles whether or not you would like a short animation to show when the camera rotates.
+module.rear_view.setting.going_back_anim.name=Animate Going Back
+module.rear_view.setting.going_back_anim.description=Toggles whether or not returning to the original rotation has an animation.
 module.rear_view.setting.target_rotation.name=Target Rotation
 module.rear_view.setting.target_rotation.description=The desired rotation amount.
 

@@ -1182,6 +1182,12 @@ module.static_camera.setting.allow_rotation_default.description=Enable default r
 module.static_camera.setting.allow_rotation_key.name=Allow Rotation Key
 module.static_camera.setting.allow_rotation_key.description=Set a keybind to enable camera rotation.
 
+## Java Inventory Hotkeys
+module.inventory_hotkeys.name=Java Inventory Hotkeys
+module.inventory_hotkeys.description=A port of the Java inventory hotkeys to Bedrock.
+module.inventory_hotkeys.setting.animate.name=Animate the item switch.
+module.inventory_hotkeys.setting.animate.description=Toggles the animation when you hotkey an item.
+
 ## Player List Tab
 module.player_list_tab.name=Player List Tab
 module.player_list_tab.description=Shows a list of all players in the world.

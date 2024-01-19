@@ -1405,11 +1405,11 @@ module.dynamic_perspective.setting.swimming_perspective.description=What should 
 module.dynamic_perspective.setting.sneaking_perspective.name=Sneaking Perspective
 module.dynamic_perspective.setting.sneaking_perspective.description=What should be your perspective when you are sneaking.
 
-## rotatable screen
+## Rotatable Screen
 module.rotatable_screen.name=Rotatable Screen
 module.rotatable_screen.description=Allows you to rotate your screen to any angle.
-rotatable_screen.setting.angle.name=Angle
-rotatable_screen.setting.angle.description=The desired screen rotation degree.
+module.rotatable_screen.setting.angle.name=Angle
+module.rotatable_screen.setting.angle.description=The desired screen rotation degree.
 
 ## Waypoints
 module.waypoints.name=Waypoints

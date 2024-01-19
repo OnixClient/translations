@@ -1915,8 +1915,8 @@ module.ping_display.ms_abreviation_low=%sms
 
 
 
-## Pot Counter
-module.potion_counter.name=Pot Counter
+## Potion Counter
+module.potion_counter.name=Potion Counter
 module.potion_counter.description=Shows the number of instant health potions you currently possess.
 module.potion_counter.setting.show_potion_text.name=Show "Potion: " Text
 module.potion_counter.setting.show_potion_text.description=Displays the text "Potion: " along with the potion count.

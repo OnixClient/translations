@@ -967,7 +967,7 @@ module.fullbright.setting.gamma.name=Gamma
 module.fullbright.setting.gamma.description=Adjust the gamma value to brighten or darken the environment.
 
 ## Glint Color Changer
-module.glint_color_changer.name=Glint Color Changer
+module.glint_color_changer.name=Enchant Glint Color Changer
 module.glint_color_changer.description=Changes the color of the glint (the enchantment thing).
 
 module.glint_color_changer.setting.ui_glint_color.name=UI Glint Color

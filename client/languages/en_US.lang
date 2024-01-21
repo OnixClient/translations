@@ -1406,10 +1406,10 @@ module.dynamic_perspective.setting.sneaking_perspective.name=Sneaking Perspectiv
 module.dynamic_perspective.setting.sneaking_perspective.description=What should be your perspective when you are sneaking.
 
 ## Rotatable Screen
-module.rotatable_screen.name=Rotatable Screen
-module.rotatable_screen.description=Allows you to rotate your screen to any angle.
+module.rotatable_screen.name=Rotatable Camera/Screen
+module.rotatable_screen.description=Allows you to rotate your camera/screen to any roll.
 module.rotatable_screen.setting.angle.name=Angle
-module.rotatable_screen.setting.angle.description=The desired screen rotation degree.
+module.rotatable_screen.setting.angle.description=The desired roll rotation degree.
 
 ## Waypoints
 module.waypoints.name=Waypoints

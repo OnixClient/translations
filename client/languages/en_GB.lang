@@ -605,7 +605,7 @@ module.creative_tools.setting.use_block_reach.name=Change Block Reach
 module.creative_tools.setting.use_block_reach.description=Whether or not to change the block reach.
 module.creative_tools.setting.block_reach.name=Block Reach
 module.creative_tools.setting.block_reach.description=The block reach.
-module.creative_tools.setting.block_reach_warning.name=Block Reach Warning
+module.creative_tools.setting.block_reach_warning.name=Warning: block reach may be capped by the server!
 module.creative_tools.setting.block_reach_warning.description=Warning: block reach may be capped by the server!
 
 module.creative_tools.setting.jetpack_settings_category.name=Jetpack Settings

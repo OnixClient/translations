@@ -2238,3 +2238,13 @@ ui.flatworld.error.save.read_file=讀取 level.dat 失敗.
 ui.flatworld.error.save.unknown=未知錯誤.
 ui.flatworld.error.save.write_file=編輯 level.dat 失敗.
 ui.flatworld.warning.bedrock=至少包含一層, 否則你會獲得一個虛空世界.
+
+module.inventory_hotkeys.description=將Java版背包快捷鍵移植到基巖版.
+module.inventory_hotkeys.name=Java背包快捷鍵
+module.inventory_hotkeys.setting.animate.description=是否在使用快捷鍵切換物品時顯示動畫.
+module.inventory_hotkeys.setting.animate.name=物品切換動畫.
+
+module.rotatable_screen.description=允許您將相機/屏幕旋轉到任意角度.
+module.rotatable_screen.name=可旋轉相機/屏幕
+module.rotatable_screen.setting.angle.description=旋轉角度.
+module.rotatable_screen.setting.angle.name=角度

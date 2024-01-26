@@ -1,8 +1,0 @@
-module.inventory_hotkeys.description=A port of the Java inventory hotkeys to Bedrock.
-module.inventory_hotkeys.name=Java Inventory Hotkeys
-module.inventory_hotkeys.setting.animate.description=Toggles the animation when you hotkey an item.
-module.inventory_hotkeys.setting.animate.name=Animate the item switch.
-module.rotatable_screen.description=Allows you to rotate your camera/screen to any roll.
-module.rotatable_screen.name=Rotatable Camera/Screen
-module.rotatable_screen.setting.angle.description=The desired roll rotation degree.
-module.rotatable_screen.setting.angle.name=Angle

@@ -687,7 +687,8 @@ module.creative_tools.setting.make_hitboxes_esp.description=Enable Hitboxes ESP.
 
 module.creative_tools.notification.autoclick_start=Auto Clicking Enabled, be careful.
 module.creative_tools.notification.autoclick_stop=Auto Clicking Disabled.
-module.creative_tools.notification.clicktp_start=ClickTP Enabled, be careful.   ##For toggle mode only
+##For toggle mode only
+module.creative_tools.notification.clicktp_start=ClickTP Enabled, be careful.
 module.creative_tools.notification.clicktp_stop=ClickTP Disabled.
 module.creative_tools.notification.phase_start=Phase Enabled, be careful.
 module.creative_tools.notification.phase_stop=Phase Disabled.

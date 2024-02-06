@@ -720,8 +720,10 @@ module.custom_crosshair.setting.open_crosshair_editor.button=Open
 
 module.custom_crosshair.setting.third_person_crosshair.name=Third Person Crosshair
 module.custom_crosshair.setting.third_person_crosshair.description=Toggle third-person crosshair.
-module.custom_crosshair.setting.red_when_facing_entity.name=Red When Facing Entity
-module.custom_crosshair.setting.red_when_facing_entity.description=Toggle red colour when facing an entity.
+module.custom_crosshair.setting.color_change_when_facing_entity.name=Colour Change When Facing Entity
+module.custom_crosshair.setting.color_change_when_facing_entity.description=Changes the colour of the crossair to the hurt colour or a custom one when looking at an entity.
+module.custom_crosshair.setting.use_hurt_color_changer_color.name=Use Hurt Colour Changer's Colour
+module.custom_crosshair.setting.use_hurt_color_changer_color.description=Use the Hurt Colour Changer colour instead of a custom one.
 
 module.custom_crosshair.setting.crosshair_outline.name=Crosshair Outline
 module.custom_crosshair.setting.crosshair_outline.description=Toggle crosshair outline.

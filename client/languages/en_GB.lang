@@ -1034,8 +1034,8 @@ module.hitboxes.setting.player_only.description=Display bounding boxes only arou
 module.hitboxes.setting.player_note.name=Note: Many things are not players but are perceived as such by the server.\nIf the bounding boxes appear on NPCs or similar entities,\nit's normal as they are recognized as players by the game.\n\nYou can find an ESP option in Creative Tools.
 module.hitboxes.setting.player_note.description=Note: Many things are not players but are perceived as such by the server.\nIf the bounding boxes appear on NPCs or similar entities,\nit's normal as they are recognized as players by the game.\n\nYou can find an ESP option in Creative Tools.
 
-## Hurt Color
-module.hurt_color.name=Hurt Colour
+## Hurt Color Changer
+module.hurt_color.name=Hurt Colour Changer
 module.hurt_color.description=Changes what colour entities will be when hurt.
 
 module.hurt_color.setting.hurt_color.name=Hurt Colour

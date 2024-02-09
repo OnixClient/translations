@@ -410,6 +410,8 @@ module.global_settings.setting.show_pause_button.name=Show Pause Screen Button
 module.global_settings.setting.show_pause_button.description=Enables display of the pause screen button.
 module.global_settings.setting.center_mouse_on_ui_open.name=Center Cursor on UI Open
 module.global_settings.setting.center_mouse_on_ui_open.description=Positions the cursor in the center when UI opens.
+module.global_settings.setting.revert_initial_ui_focus.name=Revert UI Open Mouse Change
+module.global_settings.setting.revert_initial_ui_focus.description=Changes the mouse behaviour to not have the top most slot selected when opening a UI.
 
 module.global_settings.setting.bulk_settings.name=Global Module Settings
 module.global_settings.setting.bulk_settings.description=Settings applied to multiple modules at once.

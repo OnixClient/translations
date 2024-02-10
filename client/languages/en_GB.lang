@@ -1945,7 +1945,7 @@ module.potion_counter.potion_text=Potion: %s
 
 
 ## Potion Hud
-module.potion_hud.name=Potion Hud
+module.potion_hud.name=Potion HUD
 module.potion_hud.description=Displays your current status effects and their duration.
 module.potion_hud.setting.icon_opacity.name=Icon Opacity
 module.potion_hud.setting.icon_opacity.description=Adjusts the opacity of the icons.

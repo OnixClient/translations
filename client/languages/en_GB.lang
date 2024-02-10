@@ -606,7 +606,7 @@ module.developer_options.setting.ctrl_right_click_copy_mod_name.name=Copy Mod/Se
 module.developer_options.setting.ctrl_right_click_copy_mod_name.description=Please just read the mod name. :(
 module.developer_options.setting.eject_on_lost_focus.name=Eject On Lost Window Focus
 module.developer_options.setting.eject_on_lost_focus.description=Ejects the client when you unfocus the game window.
-module.developer_options.setting.lua_autoreload_on_by_default.name=Automatically Enable Lua Autoreload.
+module.developer_options.setting.lua_autoreload_on_by_default.name=Automatically Enable Lua Autoreload
 module.developer_options.setting.lua_autoreload_on_by_default.description=Automatically enables the scripting API's autoreload feature.
 
 ## Creative Tools

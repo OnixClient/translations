@@ -281,8 +281,8 @@ module.global_settings.setting.mojangles_in_ui.name=UI使用MC字体
 module.global_settings.setting.mojangles_in_ui.description=UI使用MC字体.
 module.global_settings.setting.text_shadow.name=文本阴影
 module.global_settings.setting.text_shadow.description=启用文本阴影.
-module.global_settings.setting.show_nsfw_mods.name=显示R18+功能
-module.global_settings.setting.show_nsfw_mods.description=启用后显示R18+功能.
+module.global_settings.setting.show_nsfw_mods.name=显示18+功能
+module.global_settings.setting.show_nsfw_mods.description=启用后显示18+功能.
 module.global_settings.setting.notify_blocked_modules.name=通知被阻止的功能
 module.global_settings.setting.notify_blocked_modules.description=显示被阻止的模块.
 module.global_settings.setting.use_new_renderer.name=使用新渲染器
@@ -959,7 +959,7 @@ module.hitboxes.setting.player_note.name=注意: 许多东西不是玩家, 但�
 module.hitboxes.setting.player_note.description=注意: 许多东西不是玩家, 但服务器认为它们是玩家. \n如果边界框出现在 NPC 或类似实体上, \n这是正常的, 因为它们被游戏识别为玩家. \n\n您可以在“创造工具”中找到 ESP 选项.
 
 ## Hurt Color
-module.hurt_color.name=受伤颜色
+module.hurt_color.name=受伤颜色修改器
 module.hurt_color.description=选择当实体受伤时显示的颜色.
 
 module.hurt_color.setting.hurt_color.name=受伤颜色
@@ -2248,3 +2248,16 @@ module.rotatable_screen.description=允许您将相机/屏幕旋转到任意角�
 module.rotatable_screen.name=可旋转相机/屏幕
 module.rotatable_screen.setting.angle.description=旋转角度.
 module.rotatable_screen.setting.angle.name=角度
+
+
+
+module.custom_crosshair.setting.color_change_when_facing_entity.description=当面朝实体时, 自定义准星颜色, 或修改为 [模块]受伤颜色修改器 的颜色.
+module.custom_crosshair.setting.color_change_when_facing_entity.name=面朝实体时改变颜色
+module.custom_crosshair.setting.use_hurt_color_changer_color.description=使用 [模块]受伤颜色修改器 的颜色作为自定义颜色.
+module.custom_crosshair.setting.use_hurt_color_changer_color.name=使用 [模块]受伤颜色修改器 的颜色
+module.global_settings.setting.revert_initial_ui_focus.description=更改鼠标行为，使打开UI界面时不会默认选择最顶部的槽位.
+module.global_settings.setting.revert_initial_ui_focus.name=修复打开UI界面时鼠标行为
+module.hitboxes.setting.change_selected_entity_color.description=改变被选择(就是你准星所指的)实体的碰撞箱颜色.
+module.hitboxes.setting.change_selected_entity_color.name=修改所选实体颜色
+module.hitboxes.setting.selected_entity_color.description=当实体被选中时的颜色 (准星所指的实体).
+module.hitboxes.setting.selected_entity_color.name=所选实体颜色

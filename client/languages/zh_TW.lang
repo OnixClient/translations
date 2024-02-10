@@ -959,7 +959,7 @@ module.hitboxes.setting.player_note.name=註意: 許多東西不是玩家, 但�
 module.hitboxes.setting.player_note.description=註意: 許多東西不是玩家, 但服務器認為它們是玩家. \n如果邊界框出現在 NPC 或類似實體上, \n這是正常的, 因為它們被遊戲識別為玩家. \n\n您可以在「創造工具」中找到 ESP 選項.
 
 ## Hurt Color
-module.hurt_color.name=受傷顏色
+module.hurt_color.name=受傷顏色修改器
 module.hurt_color.description=選擇當實體受傷時顯示的顏色.
 
 module.hurt_color.setting.hurt_color.name=受傷顏色
@@ -2248,3 +2248,16 @@ module.rotatable_screen.description=允許您將相機/屏幕旋轉到任意角�
 module.rotatable_screen.name=可旋轉相機/屏幕
 module.rotatable_screen.setting.angle.description=旋轉角度.
 module.rotatable_screen.setting.angle.name=角度
+
+
+
+module.custom_crosshair.setting.color_change_when_facing_entity.description=當面朝實體時, 自定義準星顏色, 或修改為 [模塊]受傷顏色修改器 的顏色.
+module.custom_crosshair.setting.color_change_when_facing_entity.name=面朝實體時改變顏色
+module.custom_crosshair.setting.use_hurt_color_changer_color.description=使用 [模塊]受傷顏色修改器 的顏色作為自定義顏色.
+module.custom_crosshair.setting.use_hurt_color_changer_color.name=使用 [模塊]受傷顏色修改器 的顏色
+module.global_settings.setting.revert_initial_ui_focus.description=更改鼠標行為，使打開UI界面時不會默認選擇最頂部的槽位.
+module.global_settings.setting.revert_initial_ui_focus.name=修復打開UI界面時鼠標行為
+module.hitboxes.setting.change_selected_entity_color.description=改變被選擇(就是你準星所指的)實體的碰撞箱顏色.
+module.hitboxes.setting.change_selected_entity_color.name=修改所選實體顏色
+module.hitboxes.setting.selected_entity_color.description=當實體被選中時的顏色 (準星所指的實體).
+module.hitboxes.setting.selected_entity_color.name=所選實體顏色

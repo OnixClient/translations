@@ -2261,3 +2261,20 @@ module.hitboxes.setting.change_selected_entity_color.description=改变被选择
 module.hitboxes.setting.change_selected_entity_color.name=修改所选实体颜色
 module.hitboxes.setting.selected_entity_color.description=当实体被选中时的颜色 (准星所指的实体).
 module.hitboxes.setting.selected_entity_color.name=所选实体颜色
+
+
+
+
+
+module.developer_options.description=开发者常用的工具集合.
+module.developer_options.name=开发者设置
+module.developer_options.setting.bypass_creative_tools.description=解锁 [模块]创造工具 的限制.
+module.developer_options.setting.bypass_creative_tools.name=解锁 [模块]创造工具 限制
+module.developer_options.setting.bypass_server_block.description=解锁 Onix 客户端对服务器上的屏蔽模块/功能的限制, 以便当前使用 Onix客户端 的用户可以在该服务器上使用被屏蔽的模块/功能.
+module.developer_options.setting.bypass_server_block.name=解锁服务器模块屏蔽
+module.developer_options.setting.ctrl_right_click_copy_mod_name.description=如标题所示 :(
+module.developer_options.setting.ctrl_right_click_copy_mod_name.name=Ctrl+右键 复制 模块/设置 的 saveName
+module.developer_options.setting.eject_on_lost_focus.description=当游戏窗口未放置在前台时取消注入客户端.
+module.developer_options.setting.eject_on_lost_focus.name=失去窗口焦点时取消注入
+module.developer_options.setting.lua_autoreload_on_by_default.description=自动启用 脚本API 的 自动重载 功能.
+module.developer_options.setting.lua_autoreload_on_by_default.name=自动启用 Lua 自动重载

@@ -2261,3 +2261,20 @@ module.hitboxes.setting.change_selected_entity_color.description=改變被選擇
 module.hitboxes.setting.change_selected_entity_color.name=修改所選實體顏色
 module.hitboxes.setting.selected_entity_color.description=當實體被選中時的顏色 (準星所指的實體).
 module.hitboxes.setting.selected_entity_color.name=所選實體顏色
+
+
+
+
+
+module.developer_options.description=開發者常用的工具集合.
+module.developer_options.name=開發者設置
+module.developer_options.setting.bypass_creative_tools.description=解鎖 [模塊]創造工具 的限製.
+module.developer_options.setting.bypass_creative_tools.name=解鎖 [模塊]創造工具 限製
+module.developer_options.setting.bypass_server_block.description=解鎖 Onix 客戶端對服務器上的屏蔽模塊/功能的限製, 以便當前使用 Onix客戶端 的用戶可以在該服務器上使用被屏蔽的模塊/功能.
+module.developer_options.setting.bypass_server_block.name=解鎖服務器模塊屏蔽
+module.developer_options.setting.ctrl_right_click_copy_mod_name.description=如標題所示 :(
+module.developer_options.setting.ctrl_right_click_copy_mod_name.name=Ctrl+右鍵 復製 模塊/設置 的 saveName
+module.developer_options.setting.eject_on_lost_focus.description=當遊戲窗口未放置在前臺時取消註入客戶端.
+module.developer_options.setting.eject_on_lost_focus.name=失去窗口焦點時取消註入
+module.developer_options.setting.lua_autoreload_on_by_default.description=自動啟用 腳本API 的 自動重載 功能.
+module.developer_options.setting.lua_autoreload_on_by_default.name=自動啟用 Lua 自動重載

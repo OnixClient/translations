@@ -239,7 +239,7 @@ module.remind_202020.setting.duration.name=持续时间 (秒)
 module.remind_202020.setting.duration.description=每个提醒的持续时间.
 module.remind_202020.setting.snooze_duration.name=延迟时间 (秒)
 module.remind_202020.setting.snooze_duration.description=哎呀你就再给我几秒钟时间吧!
-module.remind_202020.setting.snooze_key.name=延迟快捷键
+module.remind_202020.setting.snooze_key.name=延迟快捷键 (哎呀你就再给我几秒钟时间吧!)
 module.remind_202020.setting.snooze_key.description=将计时器延迟的快捷键.
 
 ## Animation Settings

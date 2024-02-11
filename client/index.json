@@ -89,20 +89,20 @@
       "md5": "81c4ea3fcbfc4faf961180d0d273f2b0"
     },
     {
-      "visual_name": "\u4E2D\u6587 (\u7B80\u4F53)",
-      "code": "zh_CN",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_CN.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_CN.lang",
-      "version": 22,
-      "md5": "4f62c0fa30b2fca2c67304ed3df2e41f"
-    },
-    {
       "visual_name": "\u4E2D\u6587 (\u7E41\u9AD4)",
       "code": "zh_TW",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_TW.lang",
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_TW.lang",
       "version": 19,
       "md5": "a32ec94f25fb0b27a0e66eafd1d06951"
+    },
+    {
+      "visual_name": "\u4E2D\u6587 (\u7B80\u4F53)",
+      "code": "zh_CN",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_CN.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_CN.lang",
+      "version": 23,
+      "md5": "bf56d85c7126447864915db0fbcf90ea"
     }
   ]
 }

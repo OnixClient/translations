@@ -49,22 +49,6 @@
       "md5": "55209f561f6f425f1f6b89e75089de96"
     },
     {
-      "visual_name": "Fran\u00E7ais (Canada)",
-      "code": "fr_CA",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_CA.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_CA.lang",
-      "version": 18,
-      "md5": "4a5c7fba8783a84f3251d784dd7783b1"
-    },
-    {
-      "visual_name": "Fran\u00E7ais (France)",
-      "code": "fr_FR",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_FR.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_FR.lang",
-      "version": 18,
-      "md5": "651d43716e72d14d54a6a7bde90901b0"
-    },
-    {
       "visual_name": "Espa\u00F1ol (M\u00E9xico)",
       "code": "es_MX",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fes_MX.lang",
@@ -103,6 +87,22 @@
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_CN.lang",
       "version": 24,
       "md5": "a531f6820d7b68db024a3ceb341a4f30"
+    },
+    {
+      "visual_name": "Fran\u00E7ais (Canada)",
+      "code": "fr_CA",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_CA.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_CA.lang",
+      "version": 19,
+      "md5": "045e1a2e57811dbd3c7c13673b69da93"
+    },
+    {
+      "visual_name": "Fran\u00E7ais (France)",
+      "code": "fr_FR",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_FR.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_FR.lang",
+      "version": 19,
+      "md5": "87ca79942bcdac414dd3ac2dcf4011b8"
     }
   ]
 }

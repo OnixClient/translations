@@ -254,6 +254,19 @@ module.ui.setting.config_switcher.button_switch_kind_onix=Onix
 module.ui.notification.config_switcher.script_not_for_normies=Les configurations de script ne sont pas disponibles pour les utilisateurs non-script, tu t'es perdu(e)?
 
 
+## Superflat Customizer
+ui.flatworld.warning.bedrock=Inclure une couche de bedrock ou vous aurez probablement un monde vide.
+ui.flatworld.error.init.read_file=Échec de la lecture du fichier level.dat du monde.
+ui.flatworld.error.init.no_such_folder=Le dossier du monde n'existe pas.
+ui.flatworld.error.init.not_flat_world=Le monde n'est pas un monde plat.
+ui.flatworld.error.init.unknown=Erreur inconnue.
+ui.flatworld.error.save.read_file=Échec de la lecture du fichier level.dat du monde.
+ui.flatworld.error.save.write_file=Échec de l'écriture du fichier level.dat du monde.
+ui.flatworld.error.save.layer_too_large=La couche est trop grande.
+ui.flatworld.error.save.not_flat_world=Le monde n'est pas un monde plat.
+ui.flatworld.error.save.unknown=Erreur inconnue.
+
+
 ## Legacy Scripting
 module.lua_command.name=Commande Lua
 module.lua_command.description=Le module pour la commande Lua, il est utilisé pour permettre la création d'une fonction de rendu. \nPeut être utilisé comme n'importe quel mod. \nVous pouvez modifier le fichier CMD.lua pour y ajouter des fonctions préfabriquées.
@@ -300,6 +313,38 @@ module.animation_settings.setting.duration.name=Durée
 module.animation_settings.setting.duration.description=Durée des animations en secondes.
 module.animation_settings.setting.easing.name=Interpolation
 module.animation_settings.setting.easing.description=Fonction d'interpolation pour les animations.
+
+module.animation_settings.setting.easing_enum.outexpo=Sortie expo
+module.animation_settings.setting.easing_enum.linear=Linéaire
+module.animation_settings.setting.easing_enum.insine=Entrée sinus
+module.animation_settings.setting.easing_enum.outsine=Sortie sinus
+module.animation_settings.setting.easing_enum.inoutsine=Entrée/Sortie sinus
+module.animation_settings.setting.easing_enum.inquad=Entrée quad
+module.animation_settings.setting.easing_enum.outquad=Sortie quad
+module.animation_settings.setting.easing_enum.inoutquad=Entrée/Sortie quad
+module.animation_settings.setting.easing_enum.incubic=Entrée cubique
+module.animation_settings.setting.easing_enum.outcubic=Sortie cubique
+module.animation_settings.setting.easing_enum.inoutcubic=Entrée/Sortie cubique
+module.animation_settings.setting.easing_enum.inquart=Entrée quart
+module.animation_settings.setting.easing_enum.outquart=Sortie quart
+module.animation_settings.setting.easing_enum.inoutquart=Entrée/Sortie quart
+module.animation_settings.setting.easing_enum.inquint=Entrée quint
+module.animation_settings.setting.easing_enum.outquint=Sortie quint
+module.animation_settings.setting.easing_enum.inoutquint=Entrée/Sortie quint
+module.animation_settings.setting.easing_enum.inexpo=Entrée expo
+module.animation_settings.setting.easing_enum.inoutexpo=Entrée/Sortie expo
+module.animation_settings.setting.easing_enum.incirc=Entrée circulaire
+module.animation_settings.setting.easing_enum.outcirc=Sortie circulaire
+module.animation_settings.setting.easing_enum.inoutcirc=Entrée/Sortie circulaire
+module.animation_settings.setting.easing_enum.inback=Entrée back 
+module.animation_settings.setting.easing_enum.outback=Sortie back
+module.animation_settings.setting.easing_enum.inoutback=Entrée/Sortie back
+module.animation_settings.setting.easing_enum.inelastic=Entrée élastique
+module.animation_settings.setting.easing_enum.outelastic=Sortie élastique
+module.animation_settings.setting.easing_enum.inoutelastic=Entrée/Sortie élastique
+module.animation_settings.setting.easing_enum.inbounce=Entrée bondissante
+module.animation_settings.setting.easing_enum.outbounce=Sortie bondissante
+module.animation_settings.setting.easing_enum.inoutbounce=Entrée/Sortie bondissante
 
 
 ## Global Settings
@@ -361,6 +406,8 @@ module.global_settings.setting.show_pause_button.name=Afficher le bouton dans le
 module.global_settings.setting.show_pause_button.description=Active l'affichage du bouton dans le menu pause.
 module.global_settings.setting.center_mouse_on_ui_open.name=Centrer le curseur à l'ouverture de l'interface utilisateur
 module.global_settings.setting.center_mouse_on_ui_open.description=Positionne le curseur au centre lors de l'ouverture de l'interface utilisateur.
+module.global_settings.setting.revert_initial_ui_focus.name=Change le Comportement du Curseur à l'Ouverture de l'UI
+module.global_settings.setting.revert_initial_ui_focus.description=Modifie le comportement de la souris pour ne pas avoir l'emplacement le plus haut sélectionné lors de l'ouverture d'une interface utilisateur.
 
 module.global_settings.setting.bulk_settings.name=Paramètres globaux des modules
 module.global_settings.setting.bulk_settings.description=Paramètres appliqués à plusieurs modules à la fois.
@@ -549,6 +596,21 @@ module.color_options.setting.open_theme_editor.description=Ouvre l'éditeur de t
 module.color_options.setting.open_theme_editor.button=Ouvrir
 
 
+## Developer Options
+module.developer_options.name=Paramètres de développeur
+module.developer_options.description=Une collection d'outils utiles aux développeurs.
+module.developer_options.setting.bypass_creative_tools.name=Bypass les Outils Créatifs
+module.developer_options.setting.bypass_creative_tools.description=Contourne les restrictions des outils créatifs.
+module.developer_options.setting.bypass_server_block.name=Bypass le blocage des modules sur les serveurs
+module.developer_options.setting.bypass_server_block.description=Contourne le blocage des modules que les serveurs ont demandé à Onix Client d'imposer au sein de leur serveur Minecraft: Bedrock Edition afin que les utilisateurs sur ledit serveur Minecraft: Bedrock Edition qui utilisent actuellement Onix Client ne puissent pas utiliser les modules bloqués tant qu'ils sont sur le serveur tout en utilisant Onix Client pendant qu'ils se trouvent sur le serveur.
+module.developer_options.setting.ctrl_right_click_copy_mod_name.name=Ctrl+Clic droit = Copie le nom du module ou de l'option
+module.developer_options.setting.ctrl_right_click_copy_mod_name.description=T'es un grand garçon, t'as pas besoin de description!
+module.developer_options.setting.eject_on_lost_focus.name=Éjecter à la perte du focus de la fênetre
+module.developer_options.setting.eject_on_lost_focus.description=Éjecte le client lorsque vous n'avez pas la fenêtre de jeu en focus principal.
+module.developer_options.setting.lua_autoreload_on_by_default.name=Recharger LUA Automatiquement
+module.developer_options.setting.lua_autoreload_on_by_default.description=Active automatiquement la fonctionnalité de rechargement automatique de l'API de script.
+
+
 ## Creative Tools
 module.creative_tools.name=Outils Créatif
 module.creative_tools.description=Divers outils pour aider en mode créatif.\nNote : Utilisez cela uniquement avec la permission si vous êtes sur le monde/serveur de quelqu'un d'autre.
@@ -675,8 +737,10 @@ module.custom_crosshair.setting.open_crosshair_editor.button=Ouvrir
 
 module.custom_crosshair.setting.third_person_crosshair.name=Afficher le Réticule à la Troisième Personne
 module.custom_crosshair.setting.third_person_crosshair.description=Activer ou désactiver l'affichage du réticule à la troisième personne.
-module.custom_crosshair.setting.red_when_facing_entity.name=Passe au Rouge en Regardant une Entité
-module.custom_crosshair.setting.red_when_facing_entity.description=Activer ou désactiver la couleur rouge lorsque vous faites face à une entité.
+module.custom_crosshair.setting.color_change_when_facing_entity.name=Changement de couleur face à une entité
+module.custom_crosshair.setting.color_change_when_facing_entity.description=Change la couleur du réticule à la couleur de blessure ou à une couleur personnalisée lorsque vous regardez une entité.
+module.custom_crosshair.setting.use_hurt_color_changer_color.name=Utiliser la couleur du module de couleur des dégats
+module.custom_crosshair.setting.use_hurt_color_changer_color.description=Utiliser la couleur de blessure au lieu d'une couleur personnalisée.
 
 module.custom_crosshair.setting.crosshair_outline.name=Contour du Réticule
 module.custom_crosshair.setting.crosshair_outline.description=Activer ou désactiver le contour du réticule.
@@ -802,6 +866,8 @@ module.environment_changer.setting.change_clouds_color.name=Changer la Couleur d
 module.environment_changer.setting.change_clouds_color.description=Activer ou désactiver le changement de couleur des nuages.
 module.environment_changer.setting.cloud_color.name=Couleur des Nuages
 module.environment_changer.setting.cloud_color.description=Définir la couleur des nuages.
+module.environment_changer.setting.cloud_height_offset.name=Hauteur des Nuages
+module.environment_changer.setting.cloud_height_offset.description=Ajuster la hauteur des nuages.
 
 module.environment_changer.setting.weather_settings_category.name=Paramètres Météo
 module.environment_changer.setting.weather_settings_category.description=Paramètres pour la météo.
@@ -813,6 +879,45 @@ module.environment_changer.setting.fog_intensity.name=Intensité du Brouillard
 module.environment_changer.setting.fog_intensity.description=Ajuster l'intensité du brouillard.
 module.environment_changer.setting.dark_lighting.name=Lumière Sombre
 module.environment_changer.setting.dark_lighting.description=Ajuster la lumière sombre.
+
+module.environment_changer.setting.biome_temperature.name=Température du Biome
+module.environment_changer.setting.biome_temperature.description=Paramètres de température du biome.
+module.environment_changer.setting.biome_temperature.unchanged=Inchangé
+module.environment_changer.setting.biome_temperature.snow=Neigeux
+module.environment_changer.setting.biome_temperature.rain=Pluvieux
+module.environment_changer.setting.biome_temperature.snowy_rain=Pluie et Neige
+module.environment_changer.setting.biome_temperature.hot=Chaleureux
+
+module.environment_changer.setting.atmospheric_settings.name=Paramètres Atmosphériques
+module.environment_changer.setting.atmospheric_settings.description=Ajustez diverses conditions atmosphériques.
+module.environment_changer.setting.change_red_spore_density.name=Modifier la densité des spores rouges
+module.environment_changer.setting.change_red_spore_density.description=Activer/désactiver la modification des spores rouges.
+module.environment_changer.setting.red_spore_density.name=Densité des spores rouges
+module.environment_changer.setting.red_spore_density.description=Modifier la densité des spores rouges.
+module.environment_changer.setting.change_blue_spore_density.name=Modifier la densité des spores bleues
+module.environment_changer.setting.change_blue_spore_density.description=Activer/désactiver la modification des spores bleues.
+module.environment_changer.setting.blue_spore_density.name=Densité des spores bleues
+module.environment_changer.setting.blue_spore_density.description=Modifier la densité des spores bleues.
+module.environment_changer.setting.change_ash_density.name=Modifier la densité des cendres
+module.environment_changer.setting.change_ash_density.description=Activer/désactiver la modification des particules de cendres.
+module.environment_changer.setting.ash_density.name=Densité des cendres
+module.environment_changer.setting.ash_density.description=Modifier la densité des particules de cendres.
+module.environment_changer.setting.change_white_ash_density.name=Modifier la densité des cendres blanches
+module.environment_changer.setting.change_white_ash_density.description=Activer/désactiver la densité des particules de cendres blanches.
+module.environment_changer.setting.white_ash_density.name=Densité des cendres blanches
+module.environment_changer.setting.white_ash_density.description=Modifier la densité des particules de cendres blanches.
+module.environment_changer.setting.change_foliage_snow.name=Modifier la neige sur le feuillage
+module.environment_changer.setting.change_foliage_snow.description=Activer/désactiver la modification de la neige sur le feuillage.
+module.environment_changer.setting.foliage_snow.name=Neige sur le feuillage
+module.environment_changer.setting.foliage_snow.description=Modifier la quantité de neige sur les feuilles, etc.
+module.environment_changer.setting.change_water_color.name=Modifier la couleur de l'eau
+module.environment_changer.setting.change_water_color.description=Modifier la couleur de l'eau.
+module.environment_changer.setting.water_color.name=Couleur de l'eau
+module.environment_changer.setting.water_color.description=Couleur actuelle de l'eau.
+module.environment_changer.setting.change_water_opacity.name=Modifier l'opacité de l'eau
+module.environment_changer.setting.change_water_opacity.description=Modifier l'opacité/transparence de l'eau.
+module.environment_changer.setting.water_opacity.name=Opacité de l'eau
+module.environment_changer.setting.water_opacity.description=Opacité/transparence actuelle de l'eau.
 
 
 ## FOV Changer
@@ -858,6 +963,13 @@ module.fov_changer.setting.change_fov_when_sprinting.description=Activer le chan
 module.fov_changer.setting.sprinting_fov.name=FOV en Sprint
 module.fov_changer.setting.sprinting_fov.description=Définir le champ de vision en sprintant.
 
+module.fov_changer.setting.third_person_settings_category.name=Paramètres 3e personne
+module.fov_changer.setting.third_person_settings_category.description=Paramètres pour les réglages à la troisième personne.
+module.fov_changer.setting.third_person_back_fov_offset.name=FOV 3e pers. Arrière
+module.fov_changer.setting.third_person_back_fov_offset.description=Définissez le décalage du champ de vision arrière à la troisième personne.
+module.fov_changer.setting.third_person_front_fov_offset.name=FOV 3e pers. Avant
+module.fov_changer.setting.third_person_front_fov_offset.description=Définissez le décalage du champ de vision avant à la troisième personne.
+
 
 ## Freelook
 module.freelook.name=Freelook
@@ -892,8 +1004,10 @@ module.fullbright.setting.gamma.description=Ajuste la valeur du gamma pour écla
 module.glint_color_changer.name=Couleur du Glint
 module.glint_color_changer.description=Modifie la couleur du Glint (l'effet d'enchantement) du jeu.
 
-module.glint_color_changer.setting.glint_color.name=Couleur du glint
-module.glint_color_changer.setting.glint_color.description=Modifie la couleur de l'effet de glint.
+module.glint_color_changer.setting.ui_glint_color.name=Couleur du Glint d'Interface
+module.glint_color_changer.setting.ui_glint_color.description=Change la couleur du glint à l'intérieur des inventaires.
+module.glint_color_changer.setting.game_glint_color.name=Couleur du Glint en Jeu
+module.glint_color_changer.setting.game_glint_color.description=Change la couleur du glint sur les objets à l'intérieur du monde.
 
 module.glint_color_changer.setting.presets.name=Préréglages
 module.glint_color_changer.setting.presets.description=Choisissez parmi les options de couleur de glint prédéfinies.
@@ -936,8 +1050,10 @@ module.hitboxes.setting.eyeline_color.name=Couleur des Lignes des Yeux
 module.hitboxes.setting.eyeline_color.description=Choisissez la couleur des lignes de la hitbox autour des yeux des entités.
 module.hitboxes.setting.show_eyes.name=Activer les Lignes des Yeux
 module.hitboxes.setting.show_eyes.description=Activer/désactiver l'affichage des lignes de la hitbox autour des yeux des entités.
-module.hitboxes.setting.red_when_select.name=Afficher en Rouge pour les Entités Sélectionnées
-module.hitboxes.setting.red_when_select.description=Surligner les entités sélectionnées avec une hitbox rouge.
+module.hitboxes.setting.change_selected_entity_color.name=Change la Couleur de l'Entité sélect.
+module.hitboxes.setting.change_selected_entity_color.description=Change la couleur de la hitbox de l'entité sélectionnée (celle que vous regardez).
+module.hitboxes.setting.selected_entity_color.name=Couleur de l'Entité Sélectionnée
+module.hitboxes.setting.selected_entity_color.description=La couleur à utiliser lorsqu'une entité est sélectionnée (regardée).
 module.hitboxes.setting.player_only.name=Joueurs Seulement
 module.hitboxes.setting.player_only.description=Afficher les hitboxes uniquement autour des joueurs.
 module.hitboxes.setting.player_note.name=Note: Beaucoup de choses ne sont pas des joueurs mais sont perçues comme telles par le serveur.\nSi les hitboxes apparaissent sur des PNJ ou des entités similaires,\n c'est normal car elles sont reconnues comme des joueurs par le jeu.
@@ -1117,6 +1233,13 @@ module.static_camera.setting.allow_rotation_default.description=Autoriser la rot
 
 module.static_camera.setting.allow_rotation_key.name=Touche pour Autoriser la Rotation
 module.static_camera.setting.allow_rotation_key.description=La touche pour activer la rotation de la caméra.
+
+
+## Java Inventory Hotkeys
+module.inventory_hotkeys.name=Raccourcis d'Inventaire Java
+module.inventory_hotkeys.description=Vous permet d'utiliser toutes les mécaniques de changement de slots de la version Java sur Bedrock.
+module.inventory_hotkeys.setting.animate.name=Animer le Changement d'Objet
+module.inventory_hotkeys.setting.animate.description=Active/désactive l'animation lorsque vous utilisez un raccourci clavier pour un objet.
 
 
 ## Player List Tab
@@ -1327,6 +1450,35 @@ module.view_model.setting.scale_z.description=Ajuste l'échelle Z du modèle.
 
 module.view_model.setting.is_weird.name=Modèle suspect
 module.view_model.setting.is_weird.description=Activer ou désactiver le modèle bizarre.
+
+
+## Rear View
+module.rear_view.name=Vue arrière
+module.rear_view.description=Vous permet de tourner la tête sans bouger votre corps tout en maintenant une touche.
+module.rear_view.setting.going_back_anim.name=Animer le Retour
+module.rear_view.setting.going_back_anim.description=Active/désactive l'animation lors du retour à la rotation d'origine.
+module.rear_view.setting.target_rotation.name=Degré de Rotation Cible
+module.rear_view.setting.target_rotation.description=Définit le degré de rotation souhaité.
+
+
+## Dynamic Perspective
+module.dynamic_perspective.name=Perspective dynamique
+module.dynamic_perspective.description=Vous permet de changer votre perspective en fonction de votre situation actuelle.
+module.dynamic_perspective.setting.elytra_perspective.name=Perspective en élytres
+module.dynamic_perspective.setting.elytra_perspective.description=Choisir quelle devrait être votre perspective lorsque vous volez avec des élytres.
+module.dynamic_perspective.setting.riding_perspective.name=Perspective en chevauchant
+module.dynamic_perspective.setting.riding_perspective.description=Choisir quelle devrait être votre perspective lorsque vous chevauchez une entité.
+module.dynamic_perspective.setting.swimming_perspective.name=Perspective de nage
+module.dynamic_perspective.setting.swimming_perspective.description=Choisir quelle devrait être votre perspective lorsque vous nagez.
+module.dynamic_perspective.setting.sneaking_perspective.name=Perspective en sneak
+module.dynamic_perspective.setting.sneaking_perspective.description=Choisir quelle devrait être votre perspective lorsque vous êtes en sneak.
+
+
+## Rotatable Screen
+module.rotatable_screen.name=Caméra/Écran Rotatif
+module.rotatable_screen.description=Vous permet de faire pivoter votre caméra vers n'importe quel axe.
+module.rotatable_screen.setting.angle.name=Angle
+module.rotatable_screen.setting.angle.description=Le degré de rotation souhaité.
 
 
 ## Waypoints
@@ -1923,6 +2075,8 @@ module.nametag_modifier.setting.background_opacity.name=Opacité de l'arrière p
 module.nametag_modifier.setting.background_opacity.description=Ajuste l'opacité du fond.
 module.nametag_modifier.setting.background_darken.name=Assombrir l'arrière plan
 module.nametag_modifier.setting.background_darken.description=Assombrit le fond.
+module.nametag_modifier.setting.y_offset.name=Décalage Y
+module.nametag_modifier.setting.y_offset.description=Ajuste le décalage Y du Nametag.
 
 
 ## Visual Testing
@@ -2140,6 +2294,10 @@ command.say.usage=§b%s §a<message>
 command.execute.description=Exécute une commande.
 command.execute.usage=§b%s §a<commande>
 
+## superflat
+command.superflat.description=Ouvre l'interface utilisateur de l'éditeur de mondes superflat, créez sans mobspawning pour de meilleurs résultats.
+command.superflat.usage=§b%s
+
 ## screenshots
 command.screenshots.description=Ouvre le dossier des captures d'écran.
 command.screenshots.usage=§b%s
@@ -2210,3 +2368,19 @@ command.waypoint.list_entry_overworld=§aOverworld
 command.waypoint.list_entry_unknown=§5 ???
 command.waypoint.failed=§cAucun waypoint nommé %s.
 command.waypoint.disabled=§cVous devez activer le module Waypoints avant d'exécuter cette commande.
+
+
+## Fog Changer
+module.fog_customiser.name=Modificateur de Brouillard
+module.fog_customiser.description=Vous permet de modifier divers aspects du brouillard !
+module.fog_customiser.setting.should_change_fog.name=Modifier la Distance du Brouillard
+module.fog_customiser.setting.should_change_fog.description=Active ou désactive la modification de la distance d'affichage du brouillard.
+module.fog_customiser.setting.fog_multiplier.name=Multiplicateur de Distance du Brouillard
+module.fog_customiser.setting.fog_multiplier.description=Le multiplicateur de la distance à laquelle le brouillard s'affiche.
+module.fog_customiser.setting.liquid_fog_warning.name=ATTENTION : Cela ne fonctionnera PAS si vous n'êtes pas opérateur et/ou en mode créatif !
+module.fog_customiser.setting.display_fog_under_water.name=Afficher le Brouillard sous l'Eau
+module.fog_customiser.setting.display_fog_under_water.description=Permet de voir ou non le brouillard sous l'eau.
+module.fog_customiser.setting.display_fog_under_lava.name=Afficher Brouillard sous la Lave
+module.fog_customiser.setting.display_fog_under_lava.description=Permet de voir ou non le brouillard sous la lave.
+module.fog_customiser.setting.show_nether_fog.name=Afficher le Brouillard dans le Nether
+module.fog_customiser.setting.show_nether_fog.description=Active ou désactive l'affichage du brouillard dans le Nether.

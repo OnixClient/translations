@@ -2320,6 +2320,13 @@ command.timestep.not_host=You are not hosting this world on your client.
 command.timestep.no_creative_tools=Creative Tools must be enabled to use this command!.
 command.timestep.success=Speeding time for %s seconds (%s ticks)!\nMake sure that dodaylightcycle is set to true.
 
+## tickrate
+command.tickrate.description=Makes the game go a different speed for the client, server or both.
+command.tickrate.usage=§b%s §6server §a<tickrate>\n§b%s §6client §a<tickrate>\n§b%s §6both §a<tickrate>\n§b%s §6server §areset\n§b%s §6client §areset\n§b%s §6both §areset
+command.tickrate.not_host=You are not hosting this world on your client, the server's speed cannot be changed.
+command.tickrate.no_creative_tools=Creative Tools must be enabled to use this command!.
+command.tickrate.success=The rate has been changed!
+
 ## toggle
 command.toggle.description=Toggles a module on/off.
 command.toggle.usage=§b%s §a<module>\n§b%s §6on §a<module>\n§b%s §6off §a<module>\n§b%s §6script §a<module>\n§b%s §6script §6on §a<module>\n§b%s §6script §6off §a<module>

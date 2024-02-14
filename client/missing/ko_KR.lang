@@ -16,6 +16,7 @@ command.superflat.description=Opens the superflat editor UI, create without mobs
 command.superflat.usage=§b%s
 command.tickrate.description=Makes the game go a different speed for the client, server or both.
 command.tickrate.no_creative_tools=Creative Tools must be enabled to use this command!.
+command.tickrate.no_rate=You must specify a rate!
 command.tickrate.not_host=You are not hosting this world on your client, the server's speed cannot be changed.
 command.tickrate.success=The rate has been changed!
 command.tickrate.usage=§b%s §6server §a<tickrate>\n§b%s §6client §a<tickrate>\n§b%s §6both §a<tickrate>\n§b%s §6server §areset\n§b%s §6client §areset\n§b%s §6both §areset

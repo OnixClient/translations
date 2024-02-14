@@ -1204,7 +1204,7 @@ module.static_camera.setting.allow_rotation_key.description=Set a keybind to ena
 ## Java Inventory Hotkeys
 module.inventory_hotkeys.name=Java Inventory Hotkeys
 module.inventory_hotkeys.description=A port of the Java inventory hotkeys to Bedrock.
-module.inventory_hotkeys.setting.animate.name=Animate the item switch.
+module.inventory_hotkeys.setting.animate.name=Animate The Item Switch
 module.inventory_hotkeys.setting.animate.description=Toggles the animation when you hotkey an item.
 
 ## Player List Tab

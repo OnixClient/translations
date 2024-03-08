@@ -2278,3 +2278,16 @@ module.developer_options.setting.eject_on_lost_focus.description=当游戏窗口
 module.developer_options.setting.eject_on_lost_focus.name=失去窗口焦点时取消注入
 module.developer_options.setting.lua_autoreload_on_by_default.description=自动启用 脚本API 的 自动重载 功能.
 module.developer_options.setting.lua_autoreload_on_by_default.name=自动启用 Lua 自动重载
+
+
+
+
+
+command.tickrate.description=让客户端, 世界 或 两者同时以指定的速度运行.
+command.tickrate.no_creative_tools=你需要启用 创造工具 来使用此命令!.
+command.tickrate.no_rate=你必须指定一个倍率!
+command.tickrate.not_host=你不是这个世界的主机, 无法修改世界倍速.
+command.tickrate.success=已修改倍速!
+command.tickrate.usage=§b%s §6server §a<tickrate>\n§b%s §6client §a<tickrate>\n§b%s §6both §a<tickrate>\n§b%s §6server §areset\n§b%s §6client §areset\n§b%s §6both §areset
+module.global_settings.setting.legacy_scripting_block_changed_event_enabled.description=启用方块事件更改的使用.
+module.global_settings.setting.legacy_scripting_block_changed_event_enabled.name=启用方块事件更改

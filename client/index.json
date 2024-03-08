@@ -57,14 +57,6 @@
       "md5": "64ac30eea26dd7900aff9216365e348e"
     },
     {
-      "visual_name": "\u4E2D\u6587 (\u7E41\u9AD4)",
-      "code": "zh_TW",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_TW.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_TW.lang",
-      "version": 19,
-      "md5": "a32ec94f25fb0b27a0e66eafd1d06951"
-    },
-    {
       "visual_name": "Fran\u00E7ais (Canada)",
       "code": "fr_CA",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_CA.lang",
@@ -103,6 +95,14 @@
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_CN.lang",
       "version": 25,
       "md5": "743137929e2fe6642de287079f4fc6d6"
+    },
+    {
+      "visual_name": "\u4E2D\u6587 (\u7E41\u9AD4)",
+      "code": "zh_TW",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_TW.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_TW.lang",
+      "version": 20,
+      "md5": "143a6604a1e9b2080779d4a0b6299fa7"
     }
   ]
 }

@@ -1109,6 +1109,12 @@ module.item_physics.setting.water_slowdown.description=Adjust the slowdown facto
 module.item_physics.setting.blocks_keep_rotation_on_ground.name=Preserve Block Rotation on Ground
 module.item_physics.setting.blocks_keep_rotation_on_ground.description=Toggle to preserve block rotation on the ground.
 
+## Item Scaler
+module.item_scaler.name=Item Scaler
+module.item_scaler.description=Scale individual items to be a custom size.
+module.item_scaler.setting.scale.name=Item Scale
+module.item_scaler.setting.scale.description=The desired scale of the item.
+
 ## 2D Items
 module.2d_items.name=2D Items
 module.2d_items.description=Makes the items appear as if they were 2D like the old bedrock.\nNote that the items are still 3D, so you don't save performance.

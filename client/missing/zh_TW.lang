@@ -1,0 +1,4 @@
+module.item_scaler.description=Scale individual items to be a custom size.
+module.item_scaler.name=Item Scaler
+module.item_scaler.setting.scale.description=The desired scale of the item.
+module.item_scaler.setting.scale.name=Item Scale

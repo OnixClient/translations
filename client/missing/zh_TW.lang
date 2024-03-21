@@ -1,3 +1,5 @@
+command.generic.error=§cAn error occured while executing your command!§e%s
+command.generic.invalid_command=§cInvalid Command!\nRun §b%s §cif you want a list of commands.
 module.item_scaler.description=Scale individual items to be a custom size.
 module.item_scaler.name=Item Scaler
 module.item_scaler.setting.scale.description=The desired scale of the item.

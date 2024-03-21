@@ -1,3 +1,5 @@
+command.generic.error=§cAn error occured while executing your command!§e%s
+command.generic.invalid_command=§cInvalid Command!\nRun §b%s §cif you want a list of commands.
 command.lores.add=§aSuccessfully added lore in slot %s.
 command.lores.cleared=§aSuccessfully cleared lore in slot %s.
 command.lores.description=Edits the lore of the item in your hand.

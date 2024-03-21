@@ -2074,6 +2074,8 @@ module.waila.setting.height_offset.description=Adjusts the height offset for the
 
 ## Commands
 command.itemcommands.1_19_60=Since 1.19.60 you NEED to be hosting the world on your Minecraft client to use item commands.
+command.generic.error=§cAn error occured while executing your command!§e%s
+command.generic.invalid_command=§cInvalid Command!\nRun §b%s §cif you want a list of commands.
 
 ## clearchat
 command.clearchat.description=Clears all chat messages.

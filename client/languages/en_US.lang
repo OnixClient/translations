@@ -5,6 +5,8 @@ module.module.setting.visual_settings.name=Visual Settings
 module.module.setting.visual_settings.description=Settings to change the visual appearance of the module.
 module.module.setting.display_settings.name=Display Settings
 module.module.setting.display_settings.description=Settings to change what the module displays.
+module.module.setting.premium_only.name=Those features are for premium users only.
+module.module.setting.premium_only.description=Those features are for premium users only.
 module.visual.setting.scale.name=Scale
 module.visual.setting.scale.description=The scale of the module, will multiply the size by the specified amount.
 module.visual.setting.padding.name=Padding
@@ -847,6 +849,8 @@ module.environment_changer.setting.fog_color.name=Fog Color
 module.environment_changer.setting.fog_color.description=Set the fog color.
 module.environment_changer.setting.change_entire_sky_color.name=Change Entire Sky Color
 module.environment_changer.setting.change_entire_sky_color.description=Toggle entire sky color change.
+module.fog_customiser.setting.premium_only.name=Only color changing is available for free as it was included in the free version.
+module.fog_customiser.setting.premium_only.description=Only color changing is available for free as it was included in the free version.
 
 module.environment_changer.setting.cloud_settings_category.name=Cloud Settings
 module.environment_changer.setting.cloud_settings_category.description=Settings for cloud settings.

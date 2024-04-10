@@ -1,9 +1,13 @@
 command.generic.error=§cAn error occured while executing your command!§e%s
 command.generic.invalid_command=§cInvalid Command!\nRun §b%s §cif you want a list of commands.
+module.fog_customiser.setting.premium_only.description=Only color changing is available for free as it was included in the free version.
+module.fog_customiser.setting.premium_only.name=Only color changing is available for free as it was included in the free version.
 module.item_scaler.description=Scale individual items to be a custom size.
 module.item_scaler.name=Item Scaler
 module.item_scaler.setting.scale.description=The desired scale of the item.
 module.item_scaler.setting.scale.name=Item Scale
+module.module.setting.premium_only.description=Those features are for premium users only.
+module.module.setting.premium_only.name=Those features are for premium users only.
 module.waypoints.setting.distance_settings.description=Change the distance settings for the waypoints.
 module.waypoints.setting.distance_settings.name=Distance Settings
 module.waypoints.setting.fade_distance.description=The amount of block it takes for a waypoint to be fully faded out.

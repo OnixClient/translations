@@ -2291,3 +2291,28 @@ command.tickrate.success=已修改倍速!
 command.tickrate.usage=§b%s §6server §a<tickrate>\n§b%s §6client §a<tickrate>\n§b%s §6both §a<tickrate>\n§b%s §6server §areset\n§b%s §6client §areset\n§b%s §6both §areset
 module.global_settings.setting.legacy_scripting_block_changed_event_enabled.description=啟用方塊事件更改的使用.
 module.global_settings.setting.legacy_scripting_block_changed_event_enabled.name=啟用方塊事件更改
+
+
+
+
+
+command.generic.error=§c在執行命令時發生了錯誤!§e%s
+command.generic.invalid_command=§c無效命令!\n如果您想要查看命令列表, 請運行 §b%s §c.
+module.fog_customiser.setting.premium_only.description=只有顏色更改是免費的, 因為它包含在免費版本中.
+module.fog_customiser.setting.premium_only.name=只有顏色更改是免費的, 因為它包含在免費版本中.
+module.item_scaler.description=將特定掉落物縮放為自定義大小.
+module.item_scaler.name=掉落物縮放器
+module.item_scaler.setting.scale.description=掉落物的期望大小.
+module.item_scaler.setting.scale.name=掉落物尺寸
+module.module.setting.premium_only.description=這些功能僅適用於高級用戶.
+module.module.setting.premium_only.name=這些功能僅適用於高級用戶.
+module.waypoints.setting.distance_settings.description=更改路徑點的距離設置.
+module.waypoints.setting.distance_settings.name=距離設置
+module.waypoints.setting.fade_distance.description=使路徑點完全淡出所需的距離.
+module.waypoints.setting.fade_distance.name=完全淡出距離
+module.waypoints.setting.maximum_distance.description=路徑點可以呈現的最大距離.
+module.waypoints.setting.maximum_distance.name=最大顯示距離
+module.waypoints.setting.minimum_distance.description=路徑點可以呈現的最小距離.
+module.waypoints.setting.minimum_distance.name=最小顯示距離
+module.waypoints.setting.right_click.description=右鍵單擊滑塊以設置精確值.
+module.waypoints.setting.right_click.name=提示: 您可以右鍵單擊滑塊以設置精確值.

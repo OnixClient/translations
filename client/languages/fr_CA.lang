@@ -14,6 +14,8 @@ module.module.setting.visual_settings.name=Paramètres visuels
 module.module.setting.visual_settings.description=Paramètres pour changer l'apparence visuelle du module.
 module.module.setting.display_settings.name=Paramètres d'affichage
 module.module.setting.display_settings.description=Paramètres pour changer ce que le module affiche.
+module.module.setting.premium_only.name=Ces fonctionnalités sont réservées aux utilisateurs premium.
+module.module.setting.premium_only.description=Ces fonctionnalités sont réservées aux utilisateurs premium.
 module.visual.setting.scale.name=Échelle
 module.visual.setting.scale.description=L'échelle du module, multipliera la taille par la quantité spécifiée.
 module.visual.setting.padding.name=Rembourrage
@@ -408,6 +410,8 @@ module.global_settings.setting.center_mouse_on_ui_open.name=Centrer le curseur �
 module.global_settings.setting.center_mouse_on_ui_open.description=Positionne le curseur au centre lors de l'ouverture de l'interface utilisateur.
 module.global_settings.setting.revert_initial_ui_focus.name=Change le Comportement du Curseur à l'Ouverture de l'UI
 module.global_settings.setting.revert_initial_ui_focus.description=Modifie le comportement de la souris pour ne pas avoir l'emplacement le plus haut sélectionné lors de l'ouverture d'une interface utilisateur.
+module.global_settings.setting.legacy_scripting_block_changed_event_enabled.name=Activer l'événement de changement de bloc
+module.global_settings.setting.legacy_scripting_block_changed_event_enabled.description=Permet l'utilisation de l'événement de changement de bloc.
 
 module.global_settings.setting.bulk_settings.name=Paramètres globaux des modules
 module.global_settings.setting.bulk_settings.description=Paramètres appliqués à plusieurs modules à la fois.
@@ -859,6 +863,8 @@ module.environment_changer.setting.fog_color.name=Couleur du Brouillard
 module.environment_changer.setting.fog_color.description=Définir la couleur du brouillard.
 module.environment_changer.setting.change_entire_sky_color.name=Changer la Couleur du Ciel Entier
 module.environment_changer.setting.change_entire_sky_color.description=Activer ou désactiver le changement de couleur du ciel entier.
+module.fog_customiser.setting.premium_only.name=Seul le changement de couleur est disponible gratuitement car il était inclus dans la version gratuite.
+module.fog_customiser.setting.premium_only.description=Seul le changement de couleur est disponible gratuitement car il était inclus dans la version gratuite.
 
 module.environment_changer.setting.cloud_settings_category.name=Paramètres des Nuages
 module.environment_changer.setting.cloud_settings_category.description=Paramètres pour les nuages.
@@ -1120,6 +1126,13 @@ module.item_physics.setting.water_slowdown.name=Ralentissement de rotation dans 
 module.item_physics.setting.water_slowdown.description=Ajustez le facteur de ralentissement pour la rotation dans les liquides.
 module.item_physics.setting.blocks_keep_rotation_on_ground.name=Conserver la rotation des blocs au sol
 module.item_physics.setting.blocks_keep_rotation_on_ground.description=Activer pour conserver la rotation des blocs au sol.
+
+
+## Item Scaler
+module.item_scaler.name=Échelle des objets
+module.item_scaler.description=Permet de changer l'échelle de certains items pour qu'ils aient une taille personnalisée.
+module.item_scaler.setting.scale.name=Échelle de l'objet
+module.item_scaler.setting.scale.description=L'échelle souhaitée de l'objet.
 
 
 ## 2D Items
@@ -1498,6 +1511,16 @@ module.waypoints.setting.add_waypoint_for_end_gateways.name=Ajouter un Waypoint 
 module.waypoints.setting.add_waypoint_for_end_gateways.description=Activer ou désactiver l'ajout d'un point de cheminement pour les portails de l'End.
 module.waypoints.setting.disable_server_mode.name=Désactiver le Mode Serveur
 module.waypoints.setting.disable_server_mode.description=Traite les serveurs comme des mondes, utile pour les realms.
+module.waypoints.setting.distance_settings.name=Paramètres de distance
+module.waypoints.setting.distance_settings.description=Permet de modifier les paramètres de distance des Waypoints.
+module.waypoints.setting.right_click.name=Rappel : vous pouvez clique-droit sur les sliders pour définir une valeur précise.
+module.waypoints.setting.right_click.description=Clique-droit sur les sliders pour définir une valeur précise.
+module.waypoints.setting.minimum_distance.name=Distance d'affichage minimale
+module.waypoints.setting.minimum_distance.description=La distance minimale à laquelle un Waypoint est affiché.
+module.waypoints.setting.maximum_distance.name=Distance d'affichage maximale
+module.waypoints.setting.maximum_distance.description=La distance maximale à laquelle un Waypoint est affiché.
+module.waypoints.setting.fade_distance.name=Distance de disparition
+module.waypoints.setting.fade_distance.description=Le nombre de blocs nécessaires pour qu'un Waypoint disparaisse complètement.
 
 
 ## Zoom
@@ -2097,6 +2120,8 @@ module.waila.setting.height_offset.description=Ajuste le décalage de hauteur po
 
 ## Commands
 command.itemcommands.1_19_60=Depuis la version 1.19.60, vous devez héberger le monde depuis votre client Minecraft pour utiliser les commandes d'items
+command.generic.error=§cUne erreur s'est produite lors de l'exécution de votre commande !§e%s
+command.generic.invalid_command=§cCommande invalide !\nExécutez §b%s §csi vous voulez une liste de commandes.
 
 ## clearchat
 command.clearchat.description=Efface tous les messages du chat.
@@ -2338,6 +2363,15 @@ command.timestep.long=Une semaine est un peu longue. Veuillez utiliser une duré
 command.timestep.not_host=Vous n'hébergez pas ce monde sur votre client.
 command.timestep.no_creative_tools=Les outils créatifs doivent être activés pour utiliser cette commande !
 command.timestep.success=Accélération du temps pendant %s secondes (%s ticks) !\nAssurez-vous que dodaylightcycle - Cycle jour/nuit est bien activé.
+
+## tickrate
+command.tickrate.description=Permet de modifier la vitesse du jeu pour le client, le serveur ou les deux.
+command.tickrate.usage=§b%s §6server §a<tickrate>\n§b%s §6client §a<tickrate>\n§b%s §6both §a<tickrate>\n§b%s §6server §areset\n§b%s §6client §areset\n§b%s §6both §areset
+command.tickrate.not_host=Vous n'hébergez pas ce monde sur votre client, le tickrate du serveur ne peut pas être modifié.
+command.tickrate.no_rate=Vous devez spécifier un taux !
+command.tickrate.no_creative_tools=Le module "Outils Créatif" doit être activé pour pouvoir utiliser cette commande !
+command.tickrate.success=Le tickrate a été modifié !
+
 
 ## toggle
 command.toggle.description=Active/désactive un module.

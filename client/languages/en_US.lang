@@ -1070,6 +1070,7 @@ module.item_highlighter.setting.highlight_all_items_color.description=Choose the
 
 module.item_highlighter.setting.item_category.name=Item %s
 module.item_highlighter.setting.item_category.description=The options for the item %s.
+module.item_highlighter.setting.item_identifier.name=Item Name
 module.item_highlighter.setting.item_name.name=Item %s
 module.item_highlighter.setting.item_name.description=The item %s.
 module.item_highlighter.setting.validate_item_name.name=Validate Item Name

@@ -1,1 +1,15 @@
 module.item_highlighter.setting.item_identifier.name=Item Name
+module.low_fire.description=Allows you to lower or raise the first person fire.\nNote: This is calibrated for the vanilla fire by default.\nIf you have a low fire pack already you may not see any fire with this by default.
+module.low_fire.name=Low Fire
+module.low_fire.setting.desired_height.description=The desired fire height offset, by default it is -0.2.
+module.low_fire.setting.desired_height.name=Fire Height Offset
+module.ui_camera_panner.description=Pans the camera around when moving your mouse in a UI.
+module.ui_camera_panner.name=UI Camera Panner
+module.ui_camera_panner.setting.apply_game.description=If you want the effect to be applied the game's UIs.
+module.ui_camera_panner.setting.apply_game.name=Apply in Minecraft UI
+module.ui_camera_panner.setting.apply_onix.description=If you want the effect to be applied in Onix UIs.
+module.ui_camera_panner.setting.apply_onix.name=Apply in Onix UI
+module.ui_camera_panner.setting.max_distance.description=The maximum distance in degree to pan.
+module.ui_camera_panner.setting.max_distance.name=Maximum Panning Distance
+module.ui_camera_panner.setting.speed.description=How quickly the panning happens.
+module.ui_camera_panner.setting.speed.name=Panning Speed

@@ -1,3 +1,5 @@
+gui.down=Down
+gui.up=Up
 module.item_highlighter.setting.item_identifier.name=Item Name
 module.low_fire.description=Allows you to lower or raise the first person fire.\nNote: This is calibrated for the vanilla fire by default.\nIf you have a low fire pack already you may not see any fire with this by default.
 module.low_fire.name=Low Fire

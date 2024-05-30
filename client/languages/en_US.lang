@@ -106,6 +106,8 @@ gui.more=More
 gui.less=Less
 gui.none=None
 gui.default=Default
+gui.up=Up
+gui.down=Down
 
 
 ## List texts, when the client shows a list of things

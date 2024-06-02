@@ -1202,15 +1202,10 @@ module.nickname.setting.custom_name.name=Custom Name
 module.nickname.setting.custom_name.description=The desired custom nametag.
 module.nickname.setting.replace_name_in_entities.name=Replace Your Name In Other Entities
 module.nickname.setting.custom_name.description=Replaces your name in other entities with the nick you have chosen, for example Hive showing your stats when in a gamemode.
-module.nickname.setting.replace_name_in_entities.self.name=Self
-module.nickname.setting.replace_name_in_entities.self.description=Nick only yourself.
-module.nickname.setting.replace_name_in_entities.others.name=Others
-module.nickname.setting.replace_name_in_entities.others.description=Nick only others.
-module.nickname.setting.replace_name_in_entities.both.name=Both
-module.nickname.setting.replace_name_in_entities.both.description=Nick everyone.
-module.nickname.setting.replace_name_in_entities.none.name=None
-module.nickname.setting.replace_name_in_entities.none.description=Nick no one.
-
+module.nickname.setting.replace_name_in_entities.self=Self
+module.nickname.setting.replace_name_in_entities.others=Others
+module.nickname.setting.replace_name_in_entities.both=Both
+module.nickname.setting.replace_name_in_entities.none=None
 ## No Hurt Cam
 module.no_hurt_cam.name=No Hurt Cam
 module.no_hurt_cam.description=Removes the camera shake animation when you get destroyed in PvP.

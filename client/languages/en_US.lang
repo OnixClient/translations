@@ -1188,8 +1188,7 @@ module.proximity_chat.notification.app_required=The Mumble Link application is r
 
 ## Nick Hider
 module.nickname.name=Nickname
-module.nickname.description=Allows you to hide your username, skin, other people's usernames, and other people's skins.
-
+module.nickname.description=Allows you to hide your own and other people's usernames.
 module.nickname.setting.use_random_name.name=Use A Random Name
 module.nickname.setting.use_random_name.description=Use a randomly generated username.
 module.nickname.setting.nick_other_players.name=Nick Other Players

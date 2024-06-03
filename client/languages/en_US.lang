@@ -1205,6 +1205,10 @@ module.nickname.setting.replace_name_in_entities.self=Self
 module.nickname.setting.replace_name_in_entities.others=Others
 module.nickname.setting.replace_name_in_entities.both=Both
 module.nickname.setting.replace_name_in_entities.none=None
+module.nickname.setting.randomise_names_again.name=Re-randomise Names
+module.nickname.setting.randomise_names_again.description=Randomises player names again.
+module.nickname.setting.randomise_names_again.button=Randomise
+
 ## No Hurt Cam
 module.no_hurt_cam.name=No Hurt Cam
 module.no_hurt_cam.description=Removes the camera shake animation when you get destroyed in PvP.

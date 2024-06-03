@@ -145,7 +145,7 @@ module.ui.notification.mojangles_now=Switched to Mojangles Font.
 
 
 ## Notifications
-notification.greet.normal.title=Ox Client is now injected! (%ss).
+notification.greet.normal.title=Onix Client is now injected! (%ss).
 notification.greet.normal.description=Press %s or INSERT to open the client GUI.
 notification.greet.halloween_mistake.title=You have made a terrible mistake >:D (%s).
 notification.greet.halloween.title=Onix Client has SPOOKED your Minecraft! (boo!) (%s).

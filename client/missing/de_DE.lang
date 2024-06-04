@@ -527,6 +527,7 @@ module.ui.setting.config_switcher.get_selected_reason_load_select=Please select 
 module.ui.setting.config_switcher.title=Config/Profile Manager
 module.ui.setting.config_switcher.what_name_clone=What name should the clone have?
 module.ui.setting.config_switcher.what_name_create=Enter a new name for your new config.
+module.visual.setting.anchor_point.description=The anchor point that will be used to position the module.
 module.visual.setting.anchor_point.name=Anchor Point
 module.visual.setting.expand_direction.auto=Automatic
 module.visual.setting.expand_direction.bottom_center=Bottom Center

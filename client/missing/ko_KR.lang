@@ -213,6 +213,7 @@ module.ui_camera_panner.setting.max_distance.description=The maximum distance in
 module.ui_camera_panner.setting.max_distance.name=Maximum Panning Distance
 module.ui_camera_panner.setting.speed.description=How quickly the panning happens.
 module.ui_camera_panner.setting.speed.name=Panning Speed
+module.visual.setting.anchor_point.name=Anchor Point
 module.waypoints.setting.distance_settings.description=Change the distance settings for the waypoints.
 module.waypoints.setting.distance_settings.name=Distance Settings
 module.waypoints.setting.fade_distance.description=The amount of block it takes for a waypoint to be fully faded out.

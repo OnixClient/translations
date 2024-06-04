@@ -1813,6 +1813,7 @@ module.view_model.setting.translation_z.description=Adjust the Z translation of 
 module.view_model.setting.translation_z.name=Translation Z
 module.visual_testing.description=
 module.visual_testing.name=Visual Testing
+module.visual.setting.anchor_point.name=Anchor Point
 module.visual.setting.anchor.description=The anchor of the module, the position will be relative to.
 module.visual.setting.anchor.name=Anchor
 module.visual.setting.back_color.description=The color of the background.

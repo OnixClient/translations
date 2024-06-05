@@ -1196,11 +1196,11 @@ module.proximity_chat.setting.extra_scripting_context.description=Extra scriptin
 module.proximity_chat.notification.app_outdated=[Mumble Link] The Onix Client Mumble Link application is outdated.
 module.proximity_chat.notification.app_required=The Mumble Link application is required to use this module.
 
-## Held Item Scale Fixer
-module.held_item_scale_fixer.name=Held Item Scale Fixer
-module.held_item_scale_fixer.description=Fixes the scale of certain items like snowballs when holding them.
-module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.name=Only Apply to Minecraft Items
-module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.description=If the fix should only apply to items from the base game.
+## Hand Item Scale Fixer
+module.held_item_scale_fixer.name=Hand Item Scale Fix
+module.held_item_scale_fixer.description=Fixes an issue which causes some items to be huge when held.
+module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.name=Only Apply to Vanilla Items
+module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.description=If the fix should apply only to vanilla items.
 
 ## Nickname
 module.nickname.name=Nickname

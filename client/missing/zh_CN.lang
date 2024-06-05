@@ -1,9 +1,9 @@
 gui.down=Down
 gui.up=Up
-module.held_item_scale_fixer.description=Fixes the scale of certain items like snowballs when holding them.
-module.held_item_scale_fixer.name=Held Item Scale Fixer
-module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.description=If the fix should only apply to items from the base game.
-module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.name=Only Apply to Minecraft Items
+module.held_item_scale_fixer.description=Fixes an issue which causes some items to be huge when held.
+module.held_item_scale_fixer.name=Hand Item Scale Fix
+module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.description=If the fix should apply only to vanilla items.
+module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.name=Only Apply to Vanilla Items
 module.item_highlighter.setting.item_identifier.name=Item Name
 module.low_fire.description=Allows you to lower or raise the first person fire over.\nNote: This is calibrated by default for the vanilla fire overlay!\n- If you have a low fire pack already, you may not see the fire overlay with the default values.
 module.low_fire.name=Low Fire

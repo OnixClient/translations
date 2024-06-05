@@ -383,10 +383,10 @@ module.global_settings.setting.legacy_scripting_block_changed_event_enabled.desc
 module.global_settings.setting.legacy_scripting_block_changed_event_enabled.name=Enable Block Changed Event
 module.global_settings.setting.revert_initial_ui_focus.description=Changes the mouse behaviour to not have the top most slot selected when opening a UI.
 module.global_settings.setting.revert_initial_ui_focus.name=Revert UI Open Mouse Change
-module.held_item_scale_fixer.description=Fixes the scale of certain items like snowballs when holding them.
-module.held_item_scale_fixer.name=Held Item Scale Fixer
-module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.description=If the fix should only apply to items from the base game.
-module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.name=Only Apply to Minecraft Items
+module.held_item_scale_fixer.description=Fixes an issue which causes some items to be huge when held.
+module.held_item_scale_fixer.name=Hand Item Scale Fix
+module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.description=If the fix should apply only to vanilla items.
+module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.name=Only Apply to Vanilla Items
 module.hitboxes.setting.change_selected_entity_color.description=Changes the color of the hitbox of the selected (the one you look at) entity.
 module.hitboxes.setting.change_selected_entity_color.name=Change Selected Entity Color
 module.hitboxes.setting.selected_entity_color.description=The color to use when having an entity selected (looking at).

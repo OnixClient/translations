@@ -7,6 +7,8 @@
 
 
 
+onixclient.pre_render_dragon_fix_needed=Please go to the #premium-faq's 'How to use Onix Premium on 1.16.100 or below' section in the discord server\nIn order to be able to use the client on 1.16.100 and below.
+
 ## Generic Module Settings
 module.module.setting.key.name=Toggle Module Key
 module.module.setting.key.description=The key that will toggle the module on and off.
@@ -455,6 +457,8 @@ module.global_settings.setting.use_d3d11.name=Switch to DirectX 11
 module.global_settings.setting.use_d3d11.description=Changes to DirectX 11 rendering.
 module.global_settings.setting.use_d3d11_warning.name=Note: You will need to restart to revert.
 module.global_settings.setting.use_d3d11_warning.description=You need to restart to revert this change.
+module.global_settings.backend_changed_11.restart=Your game will require a restart if you want to revert to DX12. 
+
 
 
 

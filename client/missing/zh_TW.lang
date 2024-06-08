@@ -1,5 +1,6 @@
 gui.down=Down
 gui.up=Up
+module.global_settings.backend_changed_11.restart=Your game will require a restart if you want to revert to DX12. 
 module.held_item_scale_fixer.description=Fixes an issue which causes some items to be huge when held.
 module.held_item_scale_fixer.name=Hand Item Scale Fix
 module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.description=If the fix should apply only to vanilla items.
@@ -43,3 +44,4 @@ module.ui_camera_panner.setting.speed.description=How quickly the panning happen
 module.ui_camera_panner.setting.speed.name=Panning Speed
 module.visual.setting.anchor_point.description=The anchor point that will be used to position the module.
 module.visual.setting.anchor_point.name=Anchor Point
+onixclient.pre_render_dragon_fix_needed=Please go to the #premium-faq's 'How to use Onix Premium on 1.16.100 or below' section in the discord server\nIn order to be able to use the client on 1.16.100 and below.

@@ -44,4 +44,4 @@ module.ui_camera_panner.setting.speed.description=How quickly the panning happen
 module.ui_camera_panner.setting.speed.name=Panning Speed
 module.visual.setting.anchor_point.description=The anchor point that will be used to position the module.
 module.visual.setting.anchor_point.name=Anchor Point
-onixclient.pre_render_dragon_fix_needed=Go to §6#premium-faq§r's\n§a'How to use Onix Premium on 1.16.100 or below'\n§rsection in the Onix Client Discord server\nto be able to use Onix Client Premium on 1.16.100 and below.
+onixclient.pre_render_dragon_fix_needed=§fGo to §6#premium-faq§r's\n§a'How to use Onix Premium on 1.16.100 or below'\n§fsection in the §9Onix Client Discord§f server\nto be able to use §3Onix Client Premium§f\non 1.16.100 and below.

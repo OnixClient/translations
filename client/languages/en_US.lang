@@ -1,4 +1,4 @@
-onixclient.pre_render_dragon_fix_needed=§fGo to §6#premium-faq§f's\n§r'§aHow to use Onix Premium on 1.16.100 or below§r'\n§fsection in the §9Onix Client Discord§f server\nto be able to use §bOnix Client Premium§f\non 1.16.100 and below§r.
+onixclient.pre_render_dragon_fix_needed=§fGo to §6#premium-faq§r'§fs\n§r'§aHow to use Onix Premium on 1.16.100 or below§r'\n§fsection in the §9Onix Client Discord§f server\nto be able to use §bOnix Client Premium§f\non 1.16.100 and below§r.
 
 ## Generic Module Settings
 module.module.setting.key.name=Toggle Module Key

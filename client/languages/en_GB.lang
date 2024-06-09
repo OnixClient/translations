@@ -2035,6 +2035,8 @@ module.potion_hud.setting.brewable_only.name=Doable Brews Only
 module.potion_hud.setting.brewable_only.description=Displays only brewable potions.
 module.potion_hud.brewing_guide.brew_longer=Longer Potion
 module.potion_hud.brewing_guide.brew_stronger=Stronger Potion
+module.potion_hud.setting.use_old_icons.name=Use 1.8 Icons
+module.potion_hud.setting.use_old_icons.description=Uses the icons from 1.8.
 
 
 

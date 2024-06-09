@@ -86,4 +86,6 @@ module.ui_camera_panner.setting.speed.description=How quickly the panning happen
 module.ui_camera_panner.setting.speed.name=Panning Speed
 module.visual.setting.anchor_point.description=The anchor point that will be used to position the module.
 module.visual.setting.anchor_point.name=Anchor Point
+module.visual.setting.opacity.description=The opacity (how transparent it is).
+module.visual.setting.opacity.name=Opacity
 onixclient.pre_render_dragon_fix_needed=§fGo to §6#premium-faq§r'§fs\n§r'§aHow to use Onix Premium on 1.16.100 or below§r'\n§fsection in the §9Onix Client Discord§f server\nto be able to use §bOnix Client Premium§f\non 1§r.§f16§r.§f100 and below§r.

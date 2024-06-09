@@ -1545,6 +1545,24 @@ module.gamemode_switcher.setting.enable_scroll.description=If he mouse scroll wh
 module.gamemode_switcher.setting.invert_scroll_direction.name=Invert Panning Direction
 module.gamemode_switcher.setting.invert_scroll_direction.description=Inverts the direction of the panning.
 
+## Hotbar Tweaks
+module.hotbar_tweaks.name=Hotbar Tweaks
+module.hotbar_tweaks.description=Various tweaks to your hotbar.
+module.hotbar_tweaks.setting.smooth_selected_slot.name=Smooth Selected Slot
+module.hotbar_tweaks.setting.smooth_selected_slot.description=Lerp the position of the selected slot.
+module.hotbar_tweaks.setting.smooth_selected_slot_speed.name=Selected Slot Lerp Speed
+module.hotbar_tweaks.setting.smooth_selected_slot_speed.description=Speed it animates at.
+module.hotbar_tweaks.setting.smooth_xp_bar.name=Smooth XP Bar
+module.hotbar_tweaks.setting.smooth_xp_bar.description=Lerp the position of the 
+module.hotbar_tweaks.setting.smooth_xp_bar_speed.name=XP Bar Lerp Speed
+module.hotbar_tweaks.setting.smooth_xp_bar_speed.description=Speed it animates at.
+module.hotbar_tweaks.setting.disable_hotbar_scroll.name=Disable Hotbar Scrolling
+module.hotbar_tweaks.setting.disable_hotbar_scroll.description=Disables hotbar scrolling with your mouse wheel.
+module.hotbar_tweaks.setting.roll_over_selected_slot.name=Roll Over Selected Slot
+module.hotbar_tweaks.setting.roll_over_selected_slot.description=Makes the selected slot go across the entire screen. :)
+module.hotbar_tweaks.setting.velocity_warp.name=Velocity Warp Amount
+module.hotbar_tweaks.setting.velocity_warp.description=The amount the selected slot gets warped based on its speed.
+
 module.gamemode_switcher.setting.commands_settings.name=Command Settings
 module.gamemode_switcher.setting.commands_settings.description=The category for command settings.
 module.gamemode_switcher.setting.switch_creative_command.name=Creative Command

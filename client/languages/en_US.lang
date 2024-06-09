@@ -1562,6 +1562,8 @@ module.hotbar_tweaks.setting.velocity_warp.name=Velocity Warp Amount
 module.hotbar_tweaks.setting.velocity_warp.description=The amount the selected slot gets warped based on its speed.
 module.hotbar_tweaks.setting.force_number_keys.name=Force Number Keys
 module.hotbar_tweaks.setting.force_number_keys.description=Forces the number keys to work to select a slot regardless of if you've bound them.
+module.hotbar_tweaks.setting.render_hotbar_selection_above.name=Render Selection Above Item
+module.hotbar_tweaks.setting.render_hotbar_selection_above.description=Makes the selection show above the items.
 
 module.gamemode_switcher.setting.commands_settings.name=Command Settings
 module.gamemode_switcher.setting.commands_settings.description=The category for command settings.

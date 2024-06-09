@@ -1528,6 +1528,11 @@ module.waypoints.setting.maximum_distance.name=Maximum Render Distance
 module.waypoints.setting.maximum_distance.description=The maximum distance a waypoint can be rendered at.
 module.waypoints.setting.fade_distance.name=Fade Out Distance
 module.waypoints.setting.fade_distance.description=The amount of block it takes for a waypoint to be fully faded out.
+
+## Gamemode Switcher
+module.gamemode_switcher.name=Gamemode Switcher
+module.gamemode_switcher.description=The Java gamemode switcher ported to Bedrock.
+
 module.gamemode_switcher.setting.keybinds.name=Keybind Settings
 module.gamemode_switcher.setting.keybinds.description=The category for the keybind settings.
 module.gamemode_switcher.setting.show_menu_key.name=Show Menu Key
@@ -1535,11 +1540,6 @@ module.gamemode_switcher.setting.show_menu_key.description=Shows the gamemode sw
 module.gamemode_switcher.setting.creative_key.name=Creative Keybind
 module.gamemode_switcher.setting.creative_key.description=Keybind for creative mode.
 module.gamemode_switcher.setting.survival_key.name=Survival Keybind
-
-## Gamemode Switcher
-module.gamemode_switcher.name=Gamemode Switcher
-module.gamemode_switcher.description=The Java gamemode switcher ported to Bedrock.
-
 module.gamemode_switcher.setting.survival_key.description=Keybind for survival mode.
 module.gamemode_switcher.setting.adventure_key.name=Adventure Keybind
 module.gamemode_switcher.setting.adventure_key.description=Keybind for adventure mode.
@@ -1551,6 +1551,8 @@ module.gamemode_switcher.setting.go_right_key.name=Right Key
 module.gamemode_switcher.setting.go_right_key.description=The key used to go left in the menu.
 module.gamemode_switcher.setting.enable_scroll.name=Enable Mouse Scroll Wheel
 module.gamemode_switcher.setting.enable_scroll.description=If he mouse scroll wheel should select menu options.
+module.gamemode_switcher.setting.invert_scroll_direction.name=Invert Panning Direction
+module.gamemode_switcher.setting.invert_scroll_direction.description=Inverts the direction of the panning.
 
 module.gamemode_switcher.setting.commands_settings.name=Command Settings
 module.gamemode_switcher.setting.commands_settings.description=The category for command settings.

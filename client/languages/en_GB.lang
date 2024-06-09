@@ -459,7 +459,7 @@ module.global_settings.setting.use_d3d11.name=Switch to DirectX 11
 module.global_settings.setting.use_d3d11.description=Changes to DirectX 11 rendering.
 module.global_settings.setting.use_d3d11_warning.name=Note: You will need to restart to revert.
 module.global_settings.setting.use_d3d11_warning.description=You need to restart to revert this change.
-module.global_settings.backend_changed_11.restart=Your game will require a restart if you want to revert to DX12. 
+module.global_settings.backend_changed_11.restart=Your game will require a restart if you want to revert to DirectX 12. 
 
 
 

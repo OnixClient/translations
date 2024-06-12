@@ -279,7 +279,7 @@ ui.flatworld.error.save.unknown=Unknown error.
 
 ## Legacy Scripting
 module.lua_command.name=Lua Command
-module.lua_command.description=The module for the lua command, it is used to allow the creation of a render function. Can be used like any normal mods. You can edit the CMD.lua file to add pre-made functions to it.
+module.lua_command.description=The module for the lua command, it is used to allow the creation of a render function.\n- Can be used like any normal mods\n- You can edit the CMD.lua file to add pre-made functions to it.
 scripting.import.start=Importing script %s "%s".
 scripting.import.success=Script %s "%s" was imported!
 scripting.import.fail=Failed to import script %s "%s".
@@ -289,7 +289,7 @@ scripting.import.fail=Failed to import script %s "%s".
 
 ## 202020
 module.remind_202020.name=20 20 20
-module.remind_202020.description=Reminds you to adhere 20 20 20. (For every 20 minutes that pass, look 20 meters away for 20 seconds at a time). This helps preserve your eyesight! (And I can't remember to do it, so I'm making this).
+module.remind_202020.description=Reminds you to adhere 20 20 20. (For every 20 minutes that pass, look 20 meters away for 20 seconds at a time).\n- This helps preserve your eyesight! (And I can't remember to do it, so I made this (I still don't use it...)).
 module.remind_202020.setting.interval.name=Interval (minutes)
 module.remind_202020.setting.interval.description=The interval between reminders.
 module.remind_202020.setting.duration.name=Duration (seconds)
@@ -466,7 +466,7 @@ module.global_settings.backend_changed_11.restart=Your game will require a resta
 
 ## Auto GG
 module.autogg.name=Auto GG
-module.autogg.description=Automatically says GG (or any message) at the end of the game. Works on Hive, CubeCraft, Zeqa, NetherGames.
+module.autogg.description=Automatically says GG (or any message) at the end of the game.\nWorks on Hive, CubeCraft, Zeqa, NetherGames, Hyperlands.
 module.autogg.setting.gg_delay.name=GG Delay (seconds)
 module.autogg.setting.gg_delay.description=The delay between the game ending and the message being sent.
 module.autogg.setting.message.name=Message %s
@@ -496,7 +496,7 @@ module.auto_text_hotkey.setting.remove_message.button=Remove
 
 ## Block Outline/ Overlay
 module.block_outline_overlay.name=Block Outline/Overlay
-module.block_outline_overlay.description=Changes the selected block outline/overlay. The \"Outline Selection\" setting needs to be enabled in video settings.
+module.block_outline_overlay.description=Changes the selected block outline/overlay.\n- The \"Outline Selection\" setting needs to be enabled in video settings.
 module.block_outline_overlay.setting.render_block_outline.name=Render Block Outline
 module.block_outline_overlay.setting.block_outline.name=Block Outline
 module.block_outline_overlay.setting.block_outline.description=Settings for the block outline.
@@ -625,7 +625,7 @@ module.developer_options.setting.lua_autoreload_on_by_default.description=Automa
 
 ## Creative Tools
 module.creative_tools.name=Creative Tools
-module.creative_tools.description=Various tools to help with creative mode. Note: Only use this with permission if you are on someone else's world/server.
+module.creative_tools.description=Various tools to help with creative mode.\nNote: Only use this with permission if you are on someone else's world/server.
 
 module.creative_tools.setting.block_reach_settings_category.name=Block Reach Settings
 module.creative_tools.setting.block_reach_settings_category.description=Settings to change the block reach settings.
@@ -930,6 +930,21 @@ module.environment_changer.setting.change_water_opacity.description=Modify the o
 module.environment_changer.setting.water_opacity.name=Water Opacity
 module.environment_changer.setting.water_opacity.description=Current opacity/transparency of the water.
 
+## Fog Changer
+module.fog_customiser.name=Fog Changer
+module.fog_customiser.description=Allows you to modify various aspects of the fog!
+module.fog_customiser.setting.should_change_fog.name=Should Change Fog Distance
+module.fog_customiser.setting.should_change_fog.description=Toggles whether or not to change the distance renders.
+module.fog_customiser.setting.fog_multiplier.name=Fog Distance Multiplier
+module.fog_customiser.setting.fog_multiplier.description=The multiplier of the distance the fog renders at.
+module.fog_customiser.setting.liquid_fog_warning.name=These will NOT work unless you have operator and/or are in creative mode!
+module.fog_customiser.setting.display_fog_under_water.name=Show Underwater Fog
+module.fog_customiser.setting.display_fog_under_water.description=Toggles you being able to see the underwater fog.
+module.fog_customiser.setting.display_fog_under_lava.name=Show Under-Lava Fog
+module.fog_customiser.setting.display_fog_under_lava.description=Toggles you being able to see the under-lava fog.
+module.fog_customiser.setting.show_nether_fog.name=Show Nether Fog
+module.fog_customiser.setting.show_nether_fog.description=Toggles whether or not to display fog in the nether.
+
 
 ## FOV Changer
 module.fov_changer.name=FOV Changer
@@ -1061,8 +1076,8 @@ module.hitboxes.setting.selected_entity_color.name=Selected Entity Colour
 module.hitboxes.setting.selected_entity_color.description=The colour to use when having an entity selected (looking at).
 module.hitboxes.setting.player_only.name=Player Only
 module.hitboxes.setting.player_only.description=Display bounding boxes only around players.
-module.hitboxes.setting.player_note.name=Note: Many things are not players but are perceived as such by the server. If the bounding boxes appear on NPCs or similar entities, it's normal as they are recognized as players by the game. You can find an ESP option in Creative Tools.
-module.hitboxes.setting.player_note.description=Note: Many things are not players but are perceived as such by the server. If the bounding boxes appear on NPCs or similar entities, it's normal as they are recognized as players by the game. You can find an ESP option in Creative Tools.
+module.hitboxes.setting.player_note.name=Note: Many things are not players but are perceived as such by the server.\n- If the bounding boxes appear on NPCs or similar entities, it's normal as they are recognized as players by the game.\n\n- You can find an ESP option in Creative Tools.
+module.hitboxes.setting.player_note.description=Note: Many things are not players but are perceived as such by the server.\n- If the bounding boxes appear on NPCs or similar entities, it's normal as they are recognized as players by the game.\n\n- You can find an ESP option in Creative Tools.
 
 ## Hurt Color Changer
 module.hurt_color.name=Hurt Colour Changer
@@ -1132,7 +1147,7 @@ module.item_scaler.setting.scale.description=The desired scale of the item.
 
 ## 2D Items
 module.2d_items.name=2D Items
-module.2d_items.description=Makes the items appear as if they were 2D like the old bedrock. Note that the items are still 3D, so you don't save performance.
+module.2d_items.description=Makes the items appear as if they were 2D like the old bedrock.\nNote: The items are still 3D, so you don't save performance.
 
 module.2d_items.setting.follow_x_axis.name=Follow X Axis
 module.2d_items.setting.follow_x_axis.description=Toggle the behaviour to follow the X-axis.
@@ -1183,7 +1198,7 @@ module.proximity_chat.description=Proximity Chat! Allows you to use Mumble Link 
 
 module.proximity_chat.setting.context_settings_category.name=Context Settings
 module.proximity_chat.setting.context_settings_category.description=Settings for context settings.
-module.proximity_chat.setting.informative_information.name=These settings are what to include in Mumble Link's context. They define who should be able to hear each other. If your friends don't use the same options, the context will be different. Players with matching contexts have positional audio, otherwise normal audio is transmitted. You can change what to include here to better match a server. Scripts can also play with this to improve their experience whilst on a server.
+module.proximity_chat.setting.informative_information.name=These settings are what to include in Mumble Link's context. They define who should be able to hear each other.\n- If your friends don't use the same options, the context will be different.\n- Players with matching contexts have positional audio, otherwise normal audio is transmitted.\n- You can change what to include here to better match a server.\n- Scripts can also play with this to improve their experience whilst on a server.
 
 module.proximity_chat.setting.include_world_name.name=Include World Name
 module.proximity_chat.setting.include_world_name.description=Include world name or not in the context.
@@ -1483,7 +1498,7 @@ module.rotatable_screen.setting.angle.description=The desired roll rotation degr
 
 ## Low Fire
 module.low_fire.name=Low Fire
-module.low_fire.description=Allows you to lower or raise the first person fire over. Note: This is calibrated by default for the vanilla fire overlay! - If you have a low fire pack already, you may not see the fire overlay with the default values.
+module.low_fire.description=Allows you to lower or raise the first person fire over.\nNote: This is calibrated by default for the vanilla fire overlay!\n- If you have a low fire pack already, you may not see the fire overlay with the default values.
 module.low_fire.setting.desired_height.name=Fire Height Offset
 module.low_fire.setting.desired_height.description=The desired fire height offset, on vanilla, it's -0.2.
 
@@ -1503,7 +1518,7 @@ module.ui_camera_panner.setting.lerp_back_in_place_time.description=How long it 
 
 ## Waypoints
 module.waypoints.name=Waypoints
-module.waypoints.description=Displays and stores coordinates of specific locations in the world. To create a waypoint, type ".waypoint" in the Minecraft chat.
+module.waypoints.description=Displays and stores coordinates of specific locations in the world.\n- To create a waypoint, type ".waypoint" in the Minecraft chat.
 
 module.waypoints.setting.death_waypoint.name=Add "Death" Waypoint on Death
 module.waypoints.setting.death_waypoint.description=Toggle adding a "Death" waypoint on death.
@@ -2500,18 +2515,3 @@ command.waypoint.list_entry_overworld=§aOverworld
 command.waypoint.list_entry_unknown=§5 ???
 command.waypoint.failed=§cNo waypoint named %s.
 command.waypoint.disabled=§cYou must enable the Waypoints module before running this command.
-
-## fog changer
-module.fog_customiser.name=Fog Changer
-module.fog_customiser.description=Allows you to modify various aspects of the fog!
-module.fog_customiser.setting.should_change_fog.name=Should Change Fog Distance
-module.fog_customiser.setting.should_change_fog.description=Toggles whether or not to change the distance renders.
-module.fog_customiser.setting.fog_multiplier.name=Fog Distance Multiplier
-module.fog_customiser.setting.fog_multiplier.description=The multiplier of the distance the fog renders at.
-module.fog_customiser.setting.liquid_fog_warning.name=These will NOT work unless you have operator and/or are in creative mode!
-module.fog_customiser.setting.display_fog_under_water.name=Show Underwater Fog
-module.fog_customiser.setting.display_fog_under_water.description=Toggles you being able to see the underwater fog.
-module.fog_customiser.setting.display_fog_under_lava.name=Show Under-Lava Fog
-module.fog_customiser.setting.display_fog_under_lava.description=Toggles you being able to see the under-lava fog.
-module.fog_customiser.setting.show_nether_fog.name=Show Nether Fog
-module.fog_customiser.setting.show_nether_fog.description=Toggles whether or not to display fog in the nether.

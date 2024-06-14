@@ -1,3 +1,5 @@
+module.day_counter.setting.use_vanilla_display.description=Uses the vanilla day counter UI.
+module.day_counter.setting.use_vanilla_display.name=Use Vanilla Day Counter
 module.global_settings.setting.jqms_tooltip.description=Show or hide the tooltips on the module list. 
 module.global_settings.setting.jqms_tooltip.name=Show Module List Tooltip
 module.global_settings.setting.show_tooltip.description=Show or hide the tooltips globally.

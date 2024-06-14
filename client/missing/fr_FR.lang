@@ -1,5 +1,7 @@
 gui.down=Down
 gui.up=Up
+module.day_counter.setting.use_vanilla_display.description=Uses the vanilla day counter UI.
+module.day_counter.setting.use_vanilla_display.name=Use Vanilla Day Counter
 module.gamemode_switcher.description=The Java gamemode switcher ported to Bedrock.
 module.gamemode_switcher.name=Gamemode Switcher
 module.gamemode_switcher.setting.adventure_key.description=Keybind for adventure mode.

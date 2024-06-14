@@ -1863,7 +1863,8 @@ module.day_counter.setting.in_minecraft_day.name=Show in Minecraft Days
 module.day_counter.setting.in_minecraft_day.description=Displays time in Minecraft days.
 module.daycounter.days=%s Days
 module.daycounter.seconds=%s Seconds
-
+module.day_counter.setting.use_vanilla_display.name=Use Vanilla Day Counter
+module.day_counter.setting.use_vanilla_display.description=Uses the vanilla day counter UI.
 
 
 ## Flappy Bird

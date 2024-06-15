@@ -2451,13 +2451,13 @@ command.screenshots.usage=§b%s
 ## seed
 command.seed.description=Displays the seed of the world.
 command.seed.usage=§b%s [clipboard(any text will make it copy)]
-command.seed.success=The world seed is %s
+command.seed.success=The world seed is %s.
 
 ## setlocale
 command.setlocale.description=Changes the language of the client. e.g. en_US
 command.setlocale.usage=§b%s §a<locale>
 command.setlocale.failed=Invalid locale, format: en_US, fr_FR, etc...
-command.setlocale.success=Locale set to (%s) %s
+command.setlocale.success=Locale set to (%s) %s.
 
 ## signfix
 command.signfix.description=Fixes the sign item colors in your hand.

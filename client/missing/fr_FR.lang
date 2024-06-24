@@ -1,6 +1,6 @@
 gui.down=Down
 gui.up=Up
-module.custom_crosshair_editor.old_renderer=+
+module.custom_crosshair_editor.old_renderer=You need to use the new renderer to be able to use the Custom Crosshair module.
 module.day_counter.setting.use_vanilla_display.description=Uses the vanilla day counter UI.
 module.day_counter.setting.use_vanilla_display.name=Use Vanilla Day Counter
 module.gamemode_switcher.description=The Java gamemode switcher ported to Bedrock.

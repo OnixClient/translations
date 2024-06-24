@@ -778,6 +778,8 @@ module.custom_crosshair.setting.preview.button=Preview
 module.custom_crosshair.setting.preview.description=Preview the customized crosshair.
 module.custom_crosshair.no_valid_selected=No valid crosshair selected.
 
+module.custom_crosshair_editor.old_renderer=You need to use the new renderer to be able to use the Custom Crosshair module.
+
 ## Custom Crosshair Editor
 module.custom_crosshair_editor.setting.brush_radius.name=Pen/Eraser Radius
 module.custom_crosshair_editor.setting.brush_radius.description=The radius of the selected tool.

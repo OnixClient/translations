@@ -2432,3 +2432,25 @@ module.visual.setting.anchor_point.name=锚点
 module.visual.setting.opacity.description=透明度（透明程度）。
 module.visual.setting.opacity.name=透明度
 onixclient.pre_render_dragon_fix_needed=§f请访问§6#premium-faq§r'§fs\n§r'§a如何在 1.16.100 或以下版本使用 Onix Premium§r'\n§f章节，到 §9Onix Client Discord§f 服务器\n以便在 1.§r16.§r100 及以下版本上使用 §bOnix Client Premium§f。
+
+
+
+
+module.day_counter.setting.use_vanilla_display.description=使用原版的天数计数器界面。
+module.day_counter.setting.use_vanilla_display.name=使用原版天数计数器
+module.global_settings.setting.jqms_tooltip.description=在模块列表上显示或隐藏功能描述。
+module.global_settings.setting.jqms_tooltip.name=模块列表显示功能描述
+module.global_settings.setting.should_preserve_module_editor_state.description=关闭并重新打开功能菜单时是否应保留菜单的状态？\n这将保持所选模块打开状态、模块内的滚动位置以及搜索栏内容。
+module.global_settings.setting.should_preserve_module_editor_state.name=保持功能菜单状态
+module.global_settings.setting.show_tooltip.description=全局显示或隐藏功能描述。
+module.global_settings.setting.show_tooltip.name=显示功能描述
+module.global_settings.setting.tooltip_opacity.description=功能描述的透明度。
+module.global_settings.setting.tooltip_opacity.name=功能描述透明度
+module.global_settings.setting.tooltip_scale.description=功能描述的大小。
+module.global_settings.setting.tooltip_scale.name=功能描述大小
+module.global_settings.setting.tooltip_settings.description=功能描述的设置类别。
+module.global_settings.setting.tooltip_settings.name=功能描述设置
+module.global_settings.setting.tooltip_showup_animation_time.description=淡入动画完成所需的时间。
+module.global_settings.setting.tooltip_showup_animation_time.name=功能描述动画时间
+module.global_settings.setting.tooltip_showup_time.description=鼠标悬停后功能描述出现所需的时间。
+module.global_settings.setting.tooltip_showup_time.name=功能描述显示延迟

@@ -393,6 +393,8 @@ module.global_settings.setting.snap_lines.name=Snap Lines
 module.global_settings.setting.snap_lines.description=Shows guidelines for snapping modules.
 module.global_settings.setting.show_visual_module_name.name=Show Visual Module Names
 module.global_settings.setting.show_visual_module_name.description=Displays visual module names.
+module.global_settings.setting.should_preserve_module_editor_state.name=Preserve Module Editor State
+module.global_settings.setting.should_preserve_module_editor_state.description=Should the state of the mod editor stay when closed and opened?\nThis will keep the selected mod open, the scroll you have in that mod and the search bar content.
 module.global_settings.setting.idiots_wants_to_see_mods_in_f1.name=Don't Hide Mods in F1
 module.global_settings.setting.idiots_wants_to_see_mods_in_f1.description=Shows mods in F1.
 

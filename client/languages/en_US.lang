@@ -1989,6 +1989,10 @@ module.memory_usage.setting.megabytes_only.description=Displays the RAM usage in
 ## Minimap Module
 module.minimap.name=Minimap
 module.minimap.description=Displays a minimap on the screen.
+module.minimap.setting.radius.name=Radius (In Blocks)
+module.minimap.setting.radius.description=How large the viewing area is.
+module.minimap.setting.legacy_renderer.name=Use Legacy Renderer
+module.minimap.setting.legacy_renderer.description=Helps fixing the artefacts and could even help framerate who knows.
 
 
 ## Movable Actionbar Module

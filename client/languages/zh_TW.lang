@@ -2454,3 +2454,12 @@ module.global_settings.setting.tooltip_showup_animation_time.description=淡入�
 module.global_settings.setting.tooltip_showup_animation_time.name=功能描述動畫時間
 module.global_settings.setting.tooltip_showup_time.description=鼠標懸停後功能描述出現所需的時間。
 module.global_settings.setting.tooltip_showup_time.name=功能描述顯示延遲
+
+
+
+
+module.custom_crosshair_editor.old_renderer=您需要使用新的渲染器才能使用自定義準星模塊。
+module.minimap.setting.legacy_renderer.description=幫助修復圖像偽影，甚至可能提高幀率，誰知道呢。
+module.minimap.setting.legacy_renderer.name=使用傳統渲染器
+module.minimap.setting.radius.description=視野範圍的大小。
+module.minimap.setting.radius.name=半徑（方塊單位）

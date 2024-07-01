@@ -775,7 +775,7 @@ module.custom_crosshair.setting.crosshair_outline.description=Toggle crosshair o
 module.custom_crosshair.setting.outline_color.name=Outline Colour
 module.custom_crosshair.setting.outline_color.description=Set the outline colour of the crosshair.
 
-module.custom_crosshair.setting.invert_colors.name=Invert Colours (don't use) (bad) (blurry)
+module.custom_crosshair.setting.invert_colors.name=Invert Colours
 module.custom_crosshair.setting.invert_colors.description=Toggle colour inversion (not recommended).
 module.custom_crosshair.setting.crosshair_color.name=Crosshair Colour
 module.custom_crosshair.setting.crosshair_color.description=Set the colour of the crosshair.

@@ -1,5 +1,6 @@
 gui.down=Down
 gui.up=Up
+module.custom_crosshair_editor.create_window.create_from_pack_button=Create From Pack
 module.custom_crosshair_editor.old_renderer=You need to use the new renderer to be able to use the Custom Crosshair module.
 module.day_counter.setting.use_vanilla_display.description=Uses the vanilla day counter UI.
 module.day_counter.setting.use_vanilla_display.name=Use Vanilla Day Counter

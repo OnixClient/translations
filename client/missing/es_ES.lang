@@ -692,6 +692,7 @@ module.crop_protector.setting.replant_with_hand_item.description=Toggle replanti
 module.crop_protector.setting.replant_with_hand_item.name=Replant With Hand Item
 module.custom_crosshair_editor.confirm_window.message=You are about to delete a crosshair.
 module.custom_crosshair_editor.create_window.already_exists=A crosshair with the name \"%s\" already exists!
+module.custom_crosshair_editor.create_window.create_from_pack_button=Create From Pack
 module.custom_crosshair_editor.create_window.title=Create a New Crosshair
 module.custom_crosshair_editor.create_window.too_big=The crosshair is too big for me, please make it smaller it wont fit~
 module.custom_crosshair_editor.create_window.too_small=The crosshair is too small. It needs to be atleast 1 pixel.

@@ -787,12 +787,12 @@ module.custom_crosshair.setting.preview.button=Preview
 module.custom_crosshair.setting.preview.description=Preview the customized crosshair.
 module.custom_crosshair.no_valid_selected=No valid crosshair selected.
 
-module.custom_crosshair_editor.old_renderer=You need to use the new renderer to be able to use the Custom Crosshair module.
 
 ## Custom Crosshair Editor
 module.custom_crosshair_editor.setting.brush_radius.name=Pen/Eraser Radius
 module.custom_crosshair_editor.setting.brush_radius.description=The radius of the selected tool.
 module.custom_crosshair_editor.create_window.title=Create a New Crosshair
+module.custom_crosshair_editor.create_window.create_from_pack_button=Create From Pack
 module.custom_crosshair_editor.create_window.already_exists=A crosshair with the name \"%s\" already exists!
 module.custom_crosshair_editor.create_window.too_small=The crosshair is too small. It needs to be atleast 1 pixel.
 module.custom_crosshair_editor.create_window.too_big=The crosshair is too big for me, please make it smaller it wont fit~
@@ -812,6 +812,7 @@ module.custom_crosshair_editor.widget_window.pen_round=Round
 module.custom_crosshair_editor.loading_crosshairs=Loading Crosshairs, please wait.
 module.custom_crosshair_editor.decompressing_crosshairs=Decompressing Crosshairs, please wait.
 module.custom_crosshair_editor.deleted_crosshair=Deleted crosshair "%s"!
+module.custom_crosshair_editor.old_renderer=You need to use the new renderer to be able to use the Custom Crosshair module.
 
 
 

@@ -276,6 +276,7 @@ module.creative_tools.setting.command_block_esp_type.outline=Outline
 module.creative_tools.setting.command_block_esp_type.overlay=Overlay
 module.creative_tools.setting.command_block_esp_type.textured=Textured
 module.custom_crosshair_editor.create_window.already_exists=A crosshair with the name \"%s\" already exists!
+module.custom_crosshair_editor.create_window.create_from_pack_button=Create From Pack
 module.custom_crosshair_editor.create_window.too_big=The crosshair is too big for me, please make it smaller it wont fit~
 module.custom_crosshair_editor.create_window.too_small=The crosshair is too small. It needs to be atleast 1 pixel.
 module.custom_crosshair_editor.decompressing_crosshairs=Decompressing Crosshairs, please wait.

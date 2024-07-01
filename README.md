@@ -35,7 +35,7 @@ Nyami<br>
 elament542
 
 ### Chinese
-MRUIAW/dook<br>
+MRUIAW<br>
 
 ### Macedonian
 IanTheLad<br>

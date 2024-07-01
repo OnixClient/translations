@@ -1,7 +1,7 @@
 module.minimap.setting.compute_all_custom_blocks.description=Compute colors for all custom blocks.\nIf the map color given for most of the custom blocks are bad you can use this.
-module.minimap.setting.compute_all_custom_blocks.name=All Custom Blocks
+module.minimap.setting.compute_all_custom_blocks.name=Compute All Custom Blocks Colors
 module.minimap.setting.compute_custom_block_color.description=Compute custom colors for blocks based on their textures. May affect performance or be less stable on some versions.
-module.minimap.setting.compute_custom_block_color.name=Custom Block Colors
+module.minimap.setting.compute_custom_block_color.name=Compute Custom Block Colors
 module.minimap.setting.light_reprocess_interval.description=Interval for reprocessing lighting during sunset/sunrise. Lower values update lighting more frequently but may affect performance.
 module.minimap.setting.light_reprocess_interval.name=Light Reprocess Interval
 module.minimap.setting.lighting.description=Enable lighting effects on the minimap. Improves visual quality but will affect performance.

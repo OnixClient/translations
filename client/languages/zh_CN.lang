@@ -2463,3 +2463,29 @@ module.minimap.setting.legacy_renderer.description=帮助修复图像伪影，�
 module.minimap.setting.legacy_renderer.name=使用传统渲染器
 module.minimap.setting.radius.description=视野范围的大小。
 module.minimap.setting.radius.name=半径（方块单位）
+
+
+
+
+
+module.custom_crosshair_editor.create_window.create_from_pack_button=从包中创建
+module.minimap.setting.compute_all_custom_blocks.description=计算所有自定义方块的颜色。\n如果大多数自定义方块的地图颜色不好，您可以使用此选项。
+module.minimap.setting.compute_all_custom_blocks.name=计算所有自定义方块的颜色
+module.minimap.setting.compute_custom_block_color.description=根据方块的纹理计算自定义颜色。可能会影响性能或在某些版本上不太稳定。
+module.minimap.setting.compute_custom_block_color.name=计算自定义方块的颜色
+module.minimap.setting.light_reprocess_interval.description=日出/日落期间重新处理光照的间隔。较低的值会更频繁地更新光照，但可能会影响性能。
+module.minimap.setting.light_reprocess_interval.name=光照重新处理间隔
+module.minimap.setting.lighting.description=在小地图上启用光照效果。提高视觉质量但会影响性能。
+module.minimap.setting.lighting.name=光照
+module.minimap.setting.max_reprocess_chunks_per_tick.description=每tick重新处理的最大区块数量。较高的值更新速度更快，但可能影响性能并导致卡顿。
+module.minimap.setting.max_reprocess_chunks_per_tick.name=最大重新处理区块数
+module.minimap.setting.max_upload_per_frame.description=每帧上传的最大纹理数量。较高的值可能会导致卡顿。
+module.minimap.setting.max_upload_per_frame.name=每帧最大上传数
+module.minimap.setting.offscreen_radius.description=小地图边缘加载屏幕外区域的半径。\n这有助于确保在移动时不会看到未加载的区域。
+module.minimap.setting.offscreen_radius.name=屏幕外半径
+module.minimap.setting.opacity.description=小地图的整体不透明度。较高的值使地图更可见。
+module.minimap.setting.opacity.name=不透明度
+module.minimap.setting.performance_settings.description=性能相关设置类别。
+module.minimap.setting.performance_settings.name=性能设置
+module.minimap.setting.water_opacity.description=小地图上水的不透明度。较低的值使水更透明。
+module.minimap.setting.water_opacity.name=水的不透明度

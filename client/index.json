@@ -73,22 +73,6 @@
       "md5": "e51b86f87db86cdc0fc1f4be7fb413f1"
     },
     {
-      "visual_name": "\u4E2D\u6587 (\u7B80\u4F53)",
-      "code": "zh_CN",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_CN.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_CN.lang",
-      "version": 29,
-      "md5": "3878564e27bf9c988dde3b214852a2db"
-    },
-    {
-      "visual_name": "\u4E2D\u6587 (\u7E41\u9AD4)",
-      "code": "zh_TW",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_TW.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_TW.lang",
-      "version": 24,
-      "md5": "95427fb4e6dd2adf1f89e45d557ce7c8"
-    },
-    {
       "visual_name": "English (United States)",
       "code": "en_US",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_US.lang",
@@ -103,6 +87,22 @@
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_GB.lang",
       "version": 104,
       "md5": "73cd485db836800cf4ab34b91e0a315e"
+    },
+    {
+      "visual_name": "\u4E2D\u6587 (\u7B80\u4F53)",
+      "code": "zh_CN",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_CN.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_CN.lang",
+      "version": 30,
+      "md5": "488480ab7d4e116eae94a288c23d97f6"
+    },
+    {
+      "visual_name": "\u4E2D\u6587 (\u7E41\u9AD4)",
+      "code": "zh_TW",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_TW.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_TW.lang",
+      "version": 25,
+      "md5": "488480ab7d4e116eae94a288c23d97f6"
     }
   ]
 }

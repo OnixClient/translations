@@ -2033,7 +2033,8 @@ module.minimap.setting.legacy_renderer.name=Legacy Renderer
 module.minimap.setting.legacy_renderer.description=Use the legacy rendering method. This can help with the visual artifact.
 module.minimap.setting.light_reprocess_interval.name=Light Reprocess Interval
 module.minimap.setting.light_reprocess_interval.description=Interval for reprocessing lighting during sunset/sunrise. Lower values update lighting more frequently but may affect performance.
-
+module.minimap.setting.depth_map.name=Depth Map
+module.minimap.setting.depth_map.description=Turns the minimap into a height map.
 
 ## Movable Actionbar Module
 module.movable_actionbar.name=Movable Actionbar

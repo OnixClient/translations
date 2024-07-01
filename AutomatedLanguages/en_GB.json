@@ -4,6 +4,7 @@
         "color": "colour",
         "favorite": "favourite",
         "armor":"armour",
+        "artifact ":"artefact ",
         "behavior":"behaviour"
     },
     "full_keys": {

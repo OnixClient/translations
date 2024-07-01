@@ -1672,12 +1672,22 @@ module.armor_hud.setting.horizontal.name=Horizontally Aligned
 module.armor_hud.setting.horizontal.description=Arranges the armour and mainhand items in a horizontal line.
 module.armor_hud.setting.is_hotbar.name=Above Hunger Bar
 module.armor_hud.setting.is_hotbar.description=Positions the display above the hunger bar.
-module.armor_hud.setting.hand_title.name=Hand
-module.armor_hud.setting.hand_title.description=Indicates the equipped hand.
+
+module.armor_hud.setting.displayed_slots_category.name=Displayed Slots
+module.armor_hud.setting.displayed_slots_category.description=What inventory slots to show or not.
 module.armor_hud.setting.show_main_hand.name=Show Main Hand
 module.armor_hud.setting.show_main_hand.description=Displays the main hand item.
 module.armor_hud.setting.show_off_hand.name=Show Off Hand
 module.armor_hud.setting.show_off_hand.description=Shows the off hand item.
+module.armor_hud.setting.show_armor_slot_head.name=Show Helmet Slot
+module.armor_hud.setting.show_armor_slot_head.description=Displays the helmet slot in the armour HUD.
+module.armor_hud.setting.show_armor_slot_chest.name=Show Chestplate Slot
+module.armor_hud.setting.show_armor_slot_chest.description=Displays the chestplate slot in the armour HUD.
+module.armor_hud.setting.show_armor_slot_legs.name=Show Leggings Slot
+module.armor_hud.setting.show_armor_slot_legs.description=Displays the leggings slot in the armour HUD.
+module.armor_hud.setting.show_armor_slot_feet.name=Show Boots Slot
+module.armor_hud.setting.show_armor_slot_feet.description=Displays the boots slot in the armour HUD.
+
 module.armor_hud.setting.durability_category.name=Durability
 module.armor_hud.setting.durability_category.description=Categorizes durability settings.
 module.armor_hud.setting.show_durability.name=Show Item Durability

@@ -73,22 +73,6 @@
       "md5": "e51b86f87db86cdc0fc1f4be7fb413f1"
     },
     {
-      "visual_name": "English (United States)",
-      "code": "en_US",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_US.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_US.lang",
-      "version": 104,
-      "md5": "e07a789fe8fbdb9c0a250d804807711d"
-    },
-    {
-      "visual_name": "English (United Kingdom)",
-      "code": "en_GB",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_GB.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_GB.lang",
-      "version": 104,
-      "md5": "73cd485db836800cf4ab34b91e0a315e"
-    },
-    {
       "visual_name": "\u4E2D\u6587 (\u7B80\u4F53)",
       "code": "zh_CN",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_CN.lang",
@@ -103,6 +87,22 @@
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_TW.lang",
       "version": 25,
       "md5": "488480ab7d4e116eae94a288c23d97f6"
+    },
+    {
+      "visual_name": "English (United States)",
+      "code": "en_US",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_US.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_US.lang",
+      "version": 105,
+      "md5": "440452b60eb75ede51bdef3c0de308d5"
+    },
+    {
+      "visual_name": "English (United Kingdom)",
+      "code": "en_GB",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_GB.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_GB.lang",
+      "version": 105,
+      "md5": "7fe6a1978021bcadcab92a8b2acc83e3"
     }
   ]
 }

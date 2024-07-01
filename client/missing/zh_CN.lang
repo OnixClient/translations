@@ -1,0 +1,10 @@
+module.armor_hud.setting.displayed_slots_category.description=What inventory slots to show or not.
+module.armor_hud.setting.displayed_slots_category.name=Displayed Slots
+module.armor_hud.setting.show_armor_slot_chest.description=Displays the chestplate slot in the armor HUD.
+module.armor_hud.setting.show_armor_slot_chest.name=Show Chestplate Slot
+module.armor_hud.setting.show_armor_slot_feet.description=Displays the boots slot in the armor HUD.
+module.armor_hud.setting.show_armor_slot_feet.name=Show Boots Slot
+module.armor_hud.setting.show_armor_slot_head.description=Displays the helmet slot in the armor HUD.
+module.armor_hud.setting.show_armor_slot_head.name=Show Helmet Slot
+module.armor_hud.setting.show_armor_slot_legs.description=Displays the leggings slot in the armor HUD.
+module.armor_hud.setting.show_armor_slot_legs.name=Show Leggings Slot

@@ -2012,7 +2012,9 @@ module.minimap.description=Displays a minimap on the screen.
 module.minimap.setting.radius.name=Radius
 module.minimap.setting.radius.description=The radius of the minimap display in blocks. Larger values show more area but may impact performance.
 module.minimap.setting.offscreen_radius.name=Offscreen Radius
-module.minimap.setting.offscreen_radius.description=The radius for loading offscreen regions on the minimap edge.\nThis helps ensure that you dont see an unloaded region when moving.
+module.minimap.setting.offscreen_radius.description=The radius for loading offscreen regions on the minimap edge.\nThis helps ensure that you dont see an unloaded region when moving.\nThis is added to your base radius.
+module.minimap.setting.unload_radius.name=Unload Radius
+module.minimap.setting.unload_radius.description=Sets the distance (in blocks) from the player at which the minimap will unload terrain.\nThis is added to your offscreen radius and radius.
 module.minimap.setting.opacity.name=Opacity
 module.minimap.setting.opacity.description=The overall opacity of the minimap. Higher values make the map more visible.
 module.minimap.setting.water_opacity.name=Water Opacity
@@ -2035,6 +2037,10 @@ module.minimap.setting.light_reprocess_interval.name=Light Reprocess Interval
 module.minimap.setting.light_reprocess_interval.description=Interval for reprocessing lighting during sunset/sunrise. Lower values update lighting more frequently but may affect performance.
 module.minimap.setting.depth_map.name=Depth Map
 module.minimap.setting.depth_map.description=Turns the minimap into a height map.
+module.minimap.setting.show_player_arrow.name=Show Player Arrow
+module.minimap.setting.show_player_arrow.description=Toggles the display of an arrow representing the player's position and direction on the minimap.
+module.minimap.setting.player_arrow_size.name=Player Arrow Size
+module.minimap.setting.player_arrow_size.description=Adjusts the size of the player's arrow on the minimap.
 
 ## Movable Actionbar Module
 module.movable_actionbar.name=Movable Actionbar

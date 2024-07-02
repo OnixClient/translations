@@ -2037,6 +2037,8 @@ module.minimap.setting.light_reprocess_interval.name=Light Reprocess Interval
 module.minimap.setting.light_reprocess_interval.description=Interval for reprocessing lighting during sunset/sunrise. Lower values update lighting more frequently but may affect performance.
 module.minimap.setting.depth_map.name=Depth Map
 module.minimap.setting.depth_map.description=Turns the minimap into a height map.
+module.minimap.setting.player_arrow_settings.name=Player Arrow Settings
+module.minimap.setting.player_arrow_settings.description=Customize the appearance and behaviour of the player arrow on the minimap.
 module.minimap.setting.show_player_arrow.name=Show Player Arrow
 module.minimap.setting.show_player_arrow.description=Toggles the display of an arrow representing the player's position and direction on the minimap.
 module.minimap.setting.player_arrow_size.name=Player Arrow Size
@@ -2045,6 +2047,16 @@ module.minimap.setting.player_arrow_color.name=Player Arrow Colour
 module.minimap.setting.player_arrow_color.description=Adjusts the colour of the player's arrow on the minimap.
 module.minimap.setting.scale_according_to_guiscale.name=Scale With GuiScale
 module.minimap.setting.scale_according_to_guiscale.description=Allows you to use bigger radiuses when disabled as you can not scale the map down currently.
+module.minimap.setting.waypoints_settings.name=Waypoints Settings
+module.minimap.setting.waypoints_settings.description=Configure various options for waypoints display on the minimap.
+module.minimap.setting.show_waypoints.name=Show Waypoints
+module.minimap.setting.show_waypoints.description=Toggle the visibility of waypoints on the minimap.
+module.minimap.setting.waypoint_text_color.name=Waypoint Text Colour
+module.minimap.setting.waypoint_text_color.description=Set the colour of the text for waypoint labels.
+module.minimap.setting.waypoint_background_color.name=Waypoint Background Colour
+module.minimap.setting.waypoint_background_color.description=Choose the background colour for waypoint indicators.
+module.minimap.setting.waypoint_text_size.name=Waypoint Text Size
+module.minimap.setting.waypoint_text_size.description=Adjust the size of the text for waypoint labels.
 
 ## Movable Actionbar Module
 module.movable_actionbar.name=Movable Actionbar

@@ -2032,6 +2032,8 @@ module.minimap.setting.show_player_arrow.name=Show Player Arrow
 module.minimap.setting.show_player_arrow.description=Toggles the display of an arrow representing the player's position and direction on the minimap.
 module.minimap.setting.player_arrow_size.name=Player Arrow Size
 module.minimap.setting.player_arrow_size.description=Adjusts the size of the player's arrow on the minimap.
+module.minimap.setting.player_arrow_color.name=Player Arrow Color
+module.minimap.setting.player_arrow_color.description=Adjusts the color of the player's arrow on the minimap.
 
 ## Movable Actionbar Module
 module.movable_actionbar.name=Movable Actionbar

@@ -2034,6 +2034,8 @@ module.minimap.setting.player_arrow_size.name=Player Arrow Size
 module.minimap.setting.player_arrow_size.description=Adjusts the size of the player's arrow on the minimap.
 module.minimap.setting.player_arrow_color.name=Player Arrow Color
 module.minimap.setting.player_arrow_color.description=Adjusts the color of the player's arrow on the minimap.
+module.minimap.setting.scale_according_to_guiscale.name=Scale With GuiScale
+module.minimap.setting.scale_according_to_guiscale.description=Allows you to use bigger radiuses when disabled as you can not scale the map down currently.
 
 ## Movable Actionbar Module
 module.movable_actionbar.name=Movable Actionbar

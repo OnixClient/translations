@@ -2057,6 +2057,8 @@ module.minimap.setting.waypoint_background_color.name=Waypoint Background Colour
 module.minimap.setting.waypoint_background_color.description=Choose the background colour for waypoint indicators.
 module.minimap.setting.waypoint_text_size.name=Waypoint Text Size
 module.minimap.setting.waypoint_text_size.description=Adjust the size of the text for waypoint labels.
+module.minimap.setting.radius_settings.name=Radius Settings
+module.minimap.setting.radius_settings.description=Customise the radius to your liking.
 
 ## Movable Actionbar Module
 module.movable_actionbar.name=Movable Actionbar

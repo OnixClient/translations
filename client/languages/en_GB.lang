@@ -1097,7 +1097,7 @@ module.hitboxes.setting.selected_entity_color.description=The colour to use when
 module.hitboxes.setting.player_only.name=Player Only
 module.hitboxes.setting.player_only.description=Display bounding boxes only around players.
 module.hitboxes.setting.ignore_stuck_arrows.name=Ignore Stuck Arrows
-module.hitboxes.setting.ignore_stuck_arrows.description=Doesn't render the hitbox on arrows which are in the ground.
+module.hitboxes.setting.ignore_stuck_arrows.description=Doesn't render the hitbox on arrows which are in the ground. Suggested by its4ndrew.
 module.hitboxes.setting.player_note.name=Note: Many things are not players but are perceived as such by the server.\n- If the bounding boxes appear on NPCs or similar entities, it's normal as they are recognized as players by the game.\n\n- You can find an ESP option in Creative Tools.
 module.hitboxes.setting.player_note.description=Note: Many things are not players but are perceived as such by the server.\n- If the bounding boxes appear on NPCs or similar entities, it's normal as they are recognized as players by the game.\n\n- You can find an ESP option in Creative Tools.
 

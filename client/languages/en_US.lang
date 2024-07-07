@@ -2076,11 +2076,12 @@ module.minimap.setting.take_screenshot.description=Saves a screenshot of the cur
 module.minimap.setting.take_screenshot.button=Take Screenshot
 module.minimap.setting.culled_chunk_load_duration.name=Culled Chunk Load Duration
 module.minimap.setting.culled_chunk_load_duration.description=Specifies how long to load culled chunks. A longer duration may result in more chunks being loaded.
+module.minimap.setting.scale_screenshots.name=Scale Screenshots
+module.minimap.setting.scale_screenshots.description=Scale the screenshot so that it looks better in third party scenarios.
 
 ## Movable Actionbar Module
 module.movable_actionbar.name=Movable Actionbar
 module.movable_actionbar.description=Allows you to customize the position of the actionbar.
-
 
 ## Movable Chat Module
 module.movable_chat.name=Movable Chat

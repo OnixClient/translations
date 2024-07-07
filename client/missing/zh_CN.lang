@@ -13,4 +13,4 @@ module.minimap.setting.slime_green_opacity.description=The opacity of the slime 
 module.minimap.setting.slime_green_opacity.name=Slime Chunk Opacity
 module.minimap.setting.take_screenshot.button=Take Screenshot
 module.minimap.setting.take_screenshot.description=Saves a screenshot of the current minimap to a file.
-module.minimap.setting.take_screenshot.name=Take a Screenshot of Minimap
+module.minimap.setting.take_screenshot.name=Take A Screenshot Of Minimap

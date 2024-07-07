@@ -3,3 +3,7 @@ module.minimap.setting.border_settings.description=A collection of settings for 
 module.minimap.setting.border_settings.name=Border Settings
 module.minimap.setting.border_width.description=The width of the border.
 module.minimap.setting.border_width.name=Border Width
+module.minimap.setting.show_slime_chunks.description=Makes a tint effect on the slime chunks. 
+module.minimap.setting.show_slime_chunks.name=Show Slime Chunks
+module.minimap.setting.slime_green_opacity.description=The opacity of the slime chunk overlay.
+module.minimap.setting.slime_green_opacity.name=Slime Chunk Opacity

@@ -73,22 +73,6 @@
       "md5": "e51b86f87db86cdc0fc1f4be7fb413f1"
     },
     {
-      "visual_name": "\u4E2D\u6587 (\u7B80\u4F53)",
-      "code": "zh_CN",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_CN.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_CN.lang",
-      "version": 31,
-      "md5": "884ef7bcfedb84bbb887e7d7bf62e74e"
-    },
-    {
-      "visual_name": "\u4E2D\u6587 (\u7E41\u9AD4)",
-      "code": "zh_TW",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_TW.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_TW.lang",
-      "version": 26,
-      "md5": "1954ddb3a51fe7a930c8a63c7f08040f"
-    },
-    {
       "visual_name": "English (United States)",
       "code": "en_US",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_US.lang",
@@ -103,6 +87,22 @@
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_GB.lang",
       "version": 125,
       "md5": "ebfc5f5117192095fa0d49b29e1c2682"
+    },
+    {
+      "visual_name": "\u4E2D\u6587 (\u7B80\u4F53)",
+      "code": "zh_CN",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_CN.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_CN.lang",
+      "version": 32,
+      "md5": "bbe13f4029ec1e11a04eb0d4e5c292ae"
+    },
+    {
+      "visual_name": "\u4E2D\u6587 (\u7E41\u9AD4)",
+      "code": "zh_TW",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_TW.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fzh_TW.lang",
+      "version": 27,
+      "md5": "4d5fb446779621b8f28b6d708ac7eccf"
     }
   ]
 }

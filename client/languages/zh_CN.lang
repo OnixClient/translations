@@ -2541,3 +2541,25 @@ module.minimap.setting.waypoint_text_size.description=调整路径点标签的�
 module.minimap.setting.waypoint_text_size.name=路径点文本大小
 module.minimap.setting.waypoints_settings.description=配置迷你地图上路径点显示的各种选项。
 module.minimap.setting.waypoints_settings.name=路径点设置
+
+
+
+
+module.minimap.screenshot_failed.title=无法保存小地图截图。
+module.minimap.screenshot_failed.description=抱歉，我们无法保存小地图截图。
+module.minimap.screenshot_saved.title=已保存小地图截图至 %s！
+module.minimap.screenshot_saved.description=点击我在Windows文件浏览器中打开文件。
+module.minimap.setting.border_respects_scaling.name=边框尊重缩放 (暂定译名)
+module.minimap.setting.border_settings.name=边框设置
+module.minimap.setting.border_settings.description=小地图边框的一些设置。
+module.minimap.setting.border_width.name=边框宽度
+module.minimap.setting.border_width.description=边框的宽度。
+module.minimap.setting.scale_screenshots.name=缩放截图
+module.minimap.setting.scale_screenshots.description=缩放截图，以在第三方场景中显示更佳。
+module.minimap.setting.show_slime_chunks.name=显示史莱姆区块
+module.minimap.setting.show_slime_chunks.description=在史莱姆区块上显示色彩变化效果。
+module.minimap.setting.slime_green_opacity.name=史莱姆区块透明度
+module.minimap.setting.slime_green_opacity.description=史莱姆区块覆盖层的透明度。
+module.minimap.setting.take_screenshot.name=拍摄小地图截图
+module.minimap.setting.take_screenshot.description=保存当前小地图的截图至文件。
+module.minimap.setting.take_screenshot.button=截图

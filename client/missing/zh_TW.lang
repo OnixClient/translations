@@ -1,0 +1,6 @@
+module.arrow_counter.setting.icon_opacity.description=The transparency of the icon.
+module.arrow_counter.setting.icon_opacity.name=Icon Opacity
+module.arrow_counter.setting.mirror_icon.description=Mirrors the arrow iron.
+module.arrow_counter.setting.mirror_icon.name=Mirror Icon
+module.arrow_counter.setting.show_icon.description=Show the arrow icon.
+module.arrow_counter.setting.show_icon.name=Show Icon

@@ -1736,6 +1736,12 @@ module.arrow_counter.setting.only_display_holding_shooter.description=Shows the 
 module.arrow_counter.setting.hide_if_zero.name=Don't Display If No Arrows
 module.arrow_counter.setting.hide_if_zero.description=Hides the arrow count display if there are no arrows.
 module.arrow_counter.arrow_value=Arrow: %s
+module.arrow_counter.setting.show_icon.name=Show Icon
+module.arrow_counter.setting.show_icon.description=Show the arrow icon.
+module.arrow_counter.setting.mirror_icon.name=Mirror Icon
+module.arrow_counter.setting.mirror_icon.description=Mirrors the arrow iron.
+module.arrow_counter.setting.icon_opacity.name=Icon Opacity
+module.arrow_counter.setting.icon_opacity.description=The transparency of the icon.
 
 
 

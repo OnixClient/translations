@@ -2094,6 +2094,10 @@ module.minimap.setting.culled_chunk_load_duration.description=Specifies how long
 module.minimap.setting.scale_screenshots.name=Scale Screenshots
 module.minimap.setting.scale_screenshots.description=Scale the screenshot so that it looks better in third party scenarios.
 
+
+## Movable Title Module
+module.movable_title.name=Movable Title
+module.movable_title.description=Allows you to customize the position of the title.
 ## Movable Actionbar Module
 module.movable_actionbar.name=Movable Actionbar
 module.movable_actionbar.description=Allows you to customize the position of the actionbar.
@@ -2141,6 +2145,12 @@ module.movable_chat.setting.bottom_chat_height.description=Adjusts the height of
 
 
 
+## Movable Bossbar Module
+module.movable_bossbar.name=Movable Bossbar
+module.movable_bossbar.description=Allows customization and movement of the bossbar.
+
+
+
 ## Movable Paperdoll Module
 module.movable_paperdoll.name=Movable Paperdoll
 module.movable_paperdoll.description=Enables movement and scaling of the paperdoll.
@@ -2170,10 +2180,6 @@ module.movable_scoreboard.setting.score_text_color.name=Score Text Colour
 module.movable_scoreboard.setting.score_text_color.description=The colour of the text for the score.
 
 
-
-## Movable Title Module
-module.movable_title.name=Movable Title
-module.movable_title.description=Allows you to customize the position of the title.
 
 
 ## Pack Display

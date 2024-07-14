@@ -4,3 +4,5 @@ module.arrow_counter.setting.mirror_icon.description=Mirrors the arrow iron.
 module.arrow_counter.setting.mirror_icon.name=Mirror Icon
 module.arrow_counter.setting.show_icon.description=Show the arrow icon.
 module.arrow_counter.setting.show_icon.name=Show Icon
+module.movable_bossbar.description=Allows customization and movement of the bossbar.
+module.movable_bossbar.name=Movable Bossbar

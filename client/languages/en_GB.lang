@@ -777,6 +777,8 @@ module.custom_crosshair.setting.color_change_when_facing_entity.name=Colour Chan
 module.custom_crosshair.setting.color_change_when_facing_entity.description=Changes the colour of the crossair to the hurt colour or a custom one when looking at an entity.
 module.custom_crosshair.setting.use_hurt_color_changer_color.name=Use Hurt Colour Changer's Colour
 module.custom_crosshair.setting.use_hurt_color_changer_color.description=Use the Hurt Colour Changer colour instead of a custom one.
+module.custom_crosshair.setting.facing_entity_color.name=Facing Entity Colour
+module.custom_crosshair.setting.facing_entity_color.description=The colour of the crosshair when facing an entity.
 
 module.custom_crosshair.setting.crosshair_outline.name=Crosshair Outline
 module.custom_crosshair.setting.crosshair_outline.description=Toggle crosshair outline.

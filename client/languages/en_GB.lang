@@ -447,6 +447,8 @@ module.global_settings.setting.tooltip_showup_animation_time.name=Tooltip Animat
 module.global_settings.setting.tooltip_showup_animation_time.description=How long the fade-in animation will take to complete.
 module.global_settings.setting.jqms_tooltip.name=Show Module List Tooltip
 module.global_settings.setting.jqms_tooltip.description=Show or hide the tooltips on the module list. 
+module.global_settings.setting.enabled_mods_at_top.name=Put Enabled Modules At Top 
+module.global_settings.setting.enabled_mods_at_top.description=Makes enabled modules show at the top of the module list.
 
 module.global_settings.setting.bulk_settings.name=Global Module Settings
 module.global_settings.setting.bulk_settings.description=Settings applied to multiple modules at once.

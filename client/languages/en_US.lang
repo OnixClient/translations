@@ -1871,6 +1871,10 @@ module.coordinates.setting.copy_selected_key.description=Key binding to copy the
 module.coordinates.notification.player_in_clipboard=Player coordinates are now in your clipboard.
 module.coordinates.notification.no_selection=You must look at a block to copy its coordinates.
 module.coordinates.notification.selected_in_clipboard=Selected Block coordinates are now in your clipboard.
+module.coordinates.setting.translate_nether_and_overworld_positions.name=Translate Nether Coordinate
+module.coordinates.setting.translate_nether_and_overworld_positions.description=Translate the nether coordinates from the overworld coordinates to nether coordinates.
+module.coordinates.setting.show_vanilla_coordinates_when_translated.name=Show Vanilla Coordinates
+module.coordinates.setting.show_vanilla_coordinates_when_translated.description=Shows the vanilla coordinates while translating the nether ones.
 
 
 ## CPS

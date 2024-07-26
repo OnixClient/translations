@@ -1215,6 +1215,10 @@ module.modern_keybind_handling.setting.movement_keys_only.description=Restricts 
 module.modern_keybind_handling.setting.do_among_onix_ui.name=Affect Onix UIs
 module.modern_keybind_handling.setting.do_among_onix_ui.description=Applies modifications to the keybinds used within the Onix UI elements.
 
+## Null Movement
+module.null_movement_module.name=Null Movement
+module.null_movement_module.description=When two opposing movement directions are pressed, it will only register the last pressed input as the priority.\nLook at Razer's Snap Tap mode for a better understanding.
+
 ## Motion Blur
 module.motion_blur.name=Motion Blur
 module.motion_blur.description=Blurs movement to make you throw up suspiciously

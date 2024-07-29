@@ -57,22 +57,6 @@
       "md5": "64ac30eea26dd7900aff9216365e348e"
     },
     {
-      "visual_name": "Fran\u00E7ais (Canada)",
-      "code": "fr_CA",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_CA.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_CA.lang",
-      "version": 20,
-      "md5": "aeab7e64e1eee2789e97bc89e7cdc8f4"
-    },
-    {
-      "visual_name": "Fran\u00E7ais (France)",
-      "code": "fr_FR",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_FR.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_FR.lang",
-      "version": 20,
-      "md5": "e51b86f87db86cdc0fc1f4be7fb413f1"
-    },
-    {
       "visual_name": "\u4E2D\u6587 (\u7B80\u4F53)",
       "code": "zh_CN",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fzh_CN.lang",
@@ -103,6 +87,22 @@
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_GB.lang",
       "version": 134,
       "md5": "8b9f3f952113859071b7a18e72318a6c"
+    },
+    {
+      "visual_name": "Fran\u00E7ais (Canada)",
+      "code": "fr_CA",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_CA.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_CA.lang",
+      "version": 21,
+      "md5": "6517d7aabaa1c453f033af3a51766cdc"
+    },
+    {
+      "visual_name": "Fran\u00E7ais (France)",
+      "code": "fr_FR",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_FR.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_FR.lang",
+      "version": 21,
+      "md5": "cfa7d7d767320b163f1f12aa38d956c6"
     }
   ]
 }

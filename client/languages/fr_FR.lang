@@ -834,7 +834,7 @@ module.dynamic_light.setting.keep_light_on_eject.description=Activer ou désacti
 
 
 ## Environment Changer
-module.environment_changer.name=Modificateur d'environnement.
+module.environment_changer.name=Modificateur d'environnement
 module.environment_changer.description=Modifie l'environnement autour de vous.
 
 module.environment_changer.setting.time_settings_category.name=Paramètres de Temps

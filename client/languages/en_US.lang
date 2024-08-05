@@ -2104,7 +2104,14 @@ module.minimap.setting.culled_chunk_load_duration.name=Culled Chunk Load Duratio
 module.minimap.setting.culled_chunk_load_duration.description=Specifies how long to load culled chunks. A longer duration may result in more chunks being loaded.
 module.minimap.setting.scale_screenshots.name=Scale Screenshots
 module.minimap.setting.scale_screenshots.description=Scale the screenshot so that it looks better in third party scenarios.
-
+module.minimap.setting.show_directions.name=Show Cardinal Directions
+module.minimap.setting.show_directions.description=Shows the North, East, South, West cardinal directions on the minimap.
+module.minimap.setting.direction_offset.name=Cardinal Direction Offset
+module.minimap.setting.direction_offset.description=The offset of the position of the cardinal directions.
+module.minimap.setting.direction_text_size.name=Cardinal Direction Text Size
+module.minimap.setting.direction_text_size.description=The size of the cardinal direction text. 
+module.minimap.setting.direction_color.name=Cardinal Direction Text Color
+module.minimap.setting.direction_color.description=The color of the cardinal directions text.
 
 ## Movable Title Module
 module.movable_title.name=Movable Title

@@ -35,5 +35,5 @@ module.textual.setting.icon_on_the_right.name=Icon on the right
 module.textual.setting.icon_opacity.description=The opacity of the icon
 module.textual.setting.icon_opacity.name=Icon Opacity
 ui.please_update.close_game_button=Close Game
-ui.please_update.later_button=Later
+ui.please_update.later_button=Later (%s days left)
 ui.please_update.message=Please update Onix Client to keep using it.\nYou update it by redownloading your dll.

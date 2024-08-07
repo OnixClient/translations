@@ -783,3 +783,6 @@ ui.flatworld.error.save.read_file=Failed to read world level.dat file.
 ui.flatworld.error.save.unknown=Unknown error.
 ui.flatworld.error.save.write_file=Failed to write world level.dat file.
 ui.flatworld.warning.bedrock=Include one layer of bedrock or you will have a void world.
+ui.please_update.close_game_button=Close Game
+ui.please_update.later_button=Later
+ui.please_update.message=Please update Onix Client to keep using it.\nYou update it by redownloading your dll.

@@ -252,3 +252,6 @@ module.visual.setting.anchor_point.name=Anchor Point
 module.visual.setting.opacity.description=The opacity (how transparent it is).
 module.visual.setting.opacity.name=Opacity
 onixclient.pre_render_dragon_fix_needed=§fGo to §6#premium-faq§r'§fs\n§r'§aHow to use Onix Premium on 1.16.100 or below§r'\n§fsection in the §9Onix Client Discord§f server\nto be able to use §bOnix Client Premium§f\non 1§r.§f16§r.§f100 and below§r.
+ui.please_update.close_game_button=Close Game
+ui.please_update.later_button=Later
+ui.please_update.message=Please update Onix Client to keep using it.\nYou update it by redownloading your dll.

@@ -2347,10 +2347,12 @@ module.nametag_modifier.setting.background_darken.name=Darken Background
 module.nametag_modifier.setting.background_darken.description=Darkens the background.
 module.nametag_modifier.setting.y_offset.name=Y Offset
 module.nametag_modifier.setting.y_offset.description=Adjusts the Y offset of the nametag.
+module.nametag_modifier.setting.minimal_nametag_background.name=Minimal Nametag Background
+module.nametag_modifier.setting.minimal_nametag_background.description=Makes the background of the nametags only be as long as the text, like in 1.12.
 
 ## Visual Testing
 module.visual_testing.name=Visual Testing
-module.visual_testing.description=
+module.visual_testing.description=hello onix how is your monday today naomi just called you onyx :((
 
 
 ## Waila Module

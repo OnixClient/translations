@@ -157,6 +157,7 @@ module.ui.notification.mojangles_now=Switched to Mojangles Font.
 
 ui.please_update.close_game_button=Close Game
 ui.please_update.later_button=Later (%s days left)
+ui.please_update.later_button_single=Later (%s day left)
 ui.please_update.message=Please update Onix Client to keep using it.\nYou update it by redownloading your dll.
 
 

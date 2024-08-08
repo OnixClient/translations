@@ -255,4 +255,4 @@ onixclient.pre_render_dragon_fix_needed=§fGo to §6#premium-faq§r'§fs\n§r'§
 ui.please_update.close_game_button=Close Game
 ui.please_update.later_button=Later (%s days left)
 ui.please_update.later_button_single=Later (%s day left)
-ui.please_update.message=Please update Onix Client to keep using it.\nYou update it by redownloading your dll.
+ui.please_update.message=Please update Onix Client to continue using it.\nUpdate it by redownloading your Onix Client Premium DLL.

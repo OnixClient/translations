@@ -152,13 +152,12 @@ module.ui.setting.settings=Settings
 module.ui.notification.keybind_only=You must use the keybind to use %s.
 module.ui.notification.position_of_mod_changed=The position of %s changed because it was out of the screen!
 module.ui.notification.smooth_failed=Could not enable smooth font.
-module.ui.notification.smooth_now=Switched to Smooth Font.
-module.ui.notification.mojangles_now=Switched to Mojangles Font.
-
+module.ui.notification.smooth_now=Switched to Smooth font.
+module.ui.notification.mojangles_now=Switched to Mojangles font.
 ui.please_update.close_game_button=Close Game
 ui.please_update.later_button=Later (%s days left)
 ui.please_update.later_button_single=Later (%s day left)
-ui.please_update.message=Please update Onix Client to keep using it.\nYou update it by redownloading your dll.
+ui.please_update.message=Please update Onix Client to continue using it.\nUpdate it by redownloading your Onix Client Premium DLL.
 
 
 ## Notifications

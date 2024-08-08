@@ -393,6 +393,8 @@ module.global_settings.setting.show_if_rosie_blushes.name=Show If Rosie Is Blush
 module.global_settings.setting.show_if_rosie_blushes.description=Shows if Rosie is blushing.
 
 module.global_settings.setting.blur_settings_category.name=Blur Settings
+module.global_settings.setting.ui_background_darkening.name=UI Background Darkening
+module.global_settings.setting.ui_background_darkening.description=The amount to darken the background by.
 module.global_settings.setting.blur_settings_category.description=Settings related to blurring.
 module.global_settings.setting.blur_module_background.name=Blur Module Background
 module.global_settings.setting.blur_module_background.description=Enables blurring of module backgrounds.

@@ -1672,6 +1672,8 @@ module.zoom.setting.scroll_zoom.description=Toggle scrolling to change zoom stre
 
 module.zoom.setting.hide_hand_option.name=Hide Hand When Zooming
 module.zoom.setting.hide_hand_option.description=Toggle hiding of hand when zooming.
+module.zoom.setting.use_old_sensitivity_math.name=Use Old Sensitivity Math
+module.zoom.setting.use_old_sensitivity_math.description=It feels pretty good but the slider never did anything, so if you need to change the slider you need to turn this off.
 module.zoom.setting.sensivity_reduced.name=Reduced Sensitivity
 module.zoom.setting.sensivity_reduced.description=Adjust the reduced sensitivity.
 module.zoom.setting.is_zoom_toggle.name=Toggle Zoom

@@ -97,6 +97,14 @@
       "md5": "7e2b3740ce9d86dc27e204089d3539b4"
     },
     {
+      "visual_name": "English (April Fools)",
+      "code": "en_AF",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_AF.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_AF.lang",
+      "version": 147,
+      "md5": "7e2b3740ce9d86dc27e204089d3539b4"
+    },
+    {
       "visual_name": "English (United Kingdom)",
       "code": "en_GB",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_GB.lang",

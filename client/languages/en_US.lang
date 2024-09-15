@@ -1263,7 +1263,7 @@ module.held_item_scale_fixer.name=Hand Item Scale Fix
 module.held_item_scale_fixer.description=Fixes an issue which causes some items to be huge when held.
 module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.name=Only Apply to Vanilla Items
 module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.description=If the fix should apply only to vanilla items.
-module.held_item_scale_fixer.setting.web_fix.name=Fix 1.21.20+ web scale
+module.held_item_scale_fixer.setting.web_fix.name=Fix 1.21.20+ Web Scale
 module.held_item_scale_fixer.setting.web_fix.description=Fixes the 1.21.20+ big web bug.
 
 ## Nickname

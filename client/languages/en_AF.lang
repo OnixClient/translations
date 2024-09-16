@@ -78,49 +78,48 @@ module.textual.setting.icon_opacity.name=Icon Opacity
 module.textual.setting.icon_opacity.description=The opacity of the icon
 
 
-module.module.setting.main_settings.name=Main Settings
-module.module.setting.main_settings.description=Settings to change the main functionality of the module.
-module.module.setting.miscellaneous_settings.name=Miscellaneous Settings
-module.module.setting.miscellaneous_settings.description=Settings to change miscellaneous functionality of the module.
-module.module.setting.render_settings.name=Render Settings
-module.module.setting.render_settings.description=Settings that affect the rendering of the module.
+module.module.setting.main_settings.name=Mainzz Settings
+module.module.setting.main_settings.description=change da mainzz functionality of the mod
+module.module.setting.miscellaneous_settings.name=mistleayneus Settings
+module.module.setting.miscellaneous_settings.description=idk how to spell mistleanyous
+module.module.setting.render_settings.name=Renrerer Setting
+module.module.setting.render_settings.description=Settings that affect the rendering of the module i think
 
 ## Generic Gui
-gui.yes=Yes
-gui.no=No
-gui.on=On
-gui.off=Off
-gui.enabled=Enabled
-gui.disabled=Disabled
+gui.yes=Yuh
+gui.no=Nah
+gui.on=Onn
+gui.off=Of
+gui.enabled=Enabler
+gui.disabled=Disabler
 gui.toggle=Toggle
-gui.toggle_on=Toggle On
-gui.toggle_off=Toggle Off
-gui.width=Width
-gui.height=Height
-gui.new=New
-gui.create=Create
-gui.delete=Delete
-gui.edit=Edit
-gui.save=Save
-gui.cancel=Cancel
-gui.back=Back
-gui.reset=Reset
-gui.undo=Undo
-gui.reset_all=Reset All
-gui.confirm=Confirm
-gui.are_you_sure=Are you sure?
-gui.create_new=Create New %s
-gui.accept=Accept
-gui.deny=Deny
-gui.show=Show
-gui.hide=Hide
-gui.more=More
-gui.less=Less
-gui.none=None
-gui.default=Default
-gui.up=Up
-gui.down=Down
-
+gui.toggle_on=Toggle
+gui.toggle_off=Togglent
+gui.width=how far
+gui.height=how tall
+gui.new=more
+gui.create=make
+gui.delete=remove
+gui.edit=mod
+gui.save=IM DONE
+gui.cancel=nvm gang
+gui.back=return
+gui.reset=put it back
+gui.undo=oops
+gui.reset_all=reset allat
+gui.confirm=done fr
+gui.are_you_sure=u sure fr?
+gui.create_new=create another %s
+gui.accept=yuh
+gui.deny=nuhuh
+gui.show=see
+gui.hide=dont see
+gui.more=more
+gui.less=less
+gui.none=nun
+gui.default=regular ig
+gui.up=da sky
+gui.down=ground
 
 ## List texts, when the client shows a list of things
 ## begin + pre_first_element + first_element + post_first_element + pre_element + element + post_element + pre_last_element + last_element + post_last_element + end
@@ -161,8 +160,8 @@ ui.please_update.message=Please update Onix Client to continue using it.\nUpdate
 
 
 ## Notifications
-notification.greet.normal.title=Onix Client is now injected! (%ss).
-notification.greet.normal.description=Press %s or INSERT to open the client GUI.
+notification.greet.normal.title=onix says HELLO! we dont know what %s means
+notification.greet.normal.description=tap %s or INSERT to open onyx cliente
 notification.greet.halloween_mistake.title=You have made a terrible mistake >:D (%s).
 notification.greet.halloween.title=Onix Client has SPOOKED your Minecraft! (boo!) (%s).
 notification.greet.christmas.title=Minecraft has been GIFTED Onix Client. (%s).
@@ -289,8 +288,8 @@ scripting.import.fail=Failed to import script %s "%s".
 
 
 ## 202020
-module.remind_202020.name=20 20 20
-module.remind_202020.description=Reminds you to adhere 20 20 20. (For every 20 minutes that pass, look 20 meters away for 20 seconds at a time).\n- This helps preserve your eyesight! (And I can't remember to do it, so I made this (I still don't use it...)).
+module.remind_202020.name=20 21 22
+module.remind_202020.description=i forgot hwhat thsi does
 module.remind_202020.setting.interval.name=Interval (minutes)
 module.remind_202020.setting.interval.description=The interval between reminders.
 module.remind_202020.setting.duration.name=Duration (seconds)
@@ -301,7 +300,7 @@ module.remind_202020.setting.snooze_key.name=Snooze Key
 module.remind_202020.setting.snooze_key.description=The key that will snooze the reminder.
 
 ## Animation Settings
-module.animation_settings.name=Animation Settings
+module.animation_settings.name=Animation setting fr
 module.animation_settings.description=Allows you to change various animations.
 module.animation_settings.setting.button_hover_size_multiplier.name=Button Hover Size Multiplier
 module.animation_settings.setting.button_hover_size_multiplier.description=Multiplier for button size when hovered.
@@ -362,7 +361,7 @@ module.animation_settings.setting.easing_enum.inoutbounce=In Out Bounce
 
 
 ## Global Settings
-module.global_settings.name=Global Settings
+module.global_settings.name=da big boy settings
 module.global_settings.description=Adjust global configurations for the client.
 module.global_settings.setting.open_gui_key.name=Open Client Key
 module.global_settings.setting.open_gui_key.description=Key used to open the client GUI.
@@ -493,7 +492,7 @@ module.global_settings.setting.click_sound_volume.description=The volume of the 
 
 
 ## Auto GG
-module.autogg.name=Auto GG
+module.autogg.name=auto good game
 module.autogg.description=Automatically says GG (or any message) at the end of the game.\nWorks on Hive, CubeCraft, Zeqa, NetherGames, Hyperlands.
 module.autogg.setting.gg_delay.name=GG Delay (seconds)
 module.autogg.setting.gg_delay.description=The delay between the game ending and the message being sent.
@@ -523,7 +522,7 @@ module.auto_text_hotkey.setting.remove_message.description=Removes the message f
 module.auto_text_hotkey.setting.remove_message.button=Remove
 
 ## Block Outline/ Overlay
-module.block_outline_overlay.name=Block Outline/Overlay
+module.block_outline_overlay.name=block uotline / overlay
 module.block_outline_overlay.description=Changes the selected block outline/overlay.\n- The \"Outline Selection\" setting needs to be enabled in video settings.
 module.block_outline_overlay.setting.render_block_outline.name=Render Block Outline
 module.block_outline_overlay.setting.block_outline.name=Block Outline

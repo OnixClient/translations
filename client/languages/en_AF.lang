@@ -1093,7 +1093,7 @@ module.low_health_warning.setting.show_in_f1.name=Show in F1
 module.low_health_warning.setting.show_in_f1.description=Toggle displaying low health warning in F1 mode.
 
 ## Hitboxes
-module.hitboxes.name=hitBoxes
+module.hitboxes.name=hit Box
 module.hitboxes.description=Draws a bounding box around all entities.
 
 module.hitboxes.setting.bodyline_color.name=Line Color

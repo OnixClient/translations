@@ -1690,7 +1690,7 @@ module.zoom.setting.animation_duration.description=Adjust the zoom in animation 
 
 
 ## Armor HUD
-module.armor_hud.name=Armor HUD
+module.armor_hud.name=Armor TrasHUD
 module.armor_hud.description=Shows the armor and mainhand item you have equipped.
 module.armor_hud.setting.horizontal.name=Horizontally Aligned
 module.armor_hud.setting.horizontal.description=Arranges the armor and mainhand items in a horizontal line.

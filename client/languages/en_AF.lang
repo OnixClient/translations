@@ -166,13 +166,13 @@ notification.greet.halloween_mistake.title=You have made a terrible mistake >:D 
 notification.greet.halloween.title=Onix Client has SPOOKED your Minecraft! (boo!) (%s).
 notification.greet.christmas.title=Minecraft has been GIFTED Onix Client. (%s).
 notification.warning.chroma_mc_renderer.title=Chroma does not work on the Minecraft Renderer, use raimbow.
-notification.module_is_blocked.title=%s is blocked on this server and cannot be enabled.
-notification.modules_now_blocked.title=Some modules have been blocked on this server.
-notification.modules_unblocked.title=Unblocked all modules.
+notification.module_is_blocked.title=%s doesnt wanna work on this server 4 some reason
+notification.modules_now_blocked.title=the server hate you so it blocked some mods i think
+notification.modules_unblocked.title=Unblocked all the gamer functionality :D
 
 ## Client Hud
-module.clienthudui.setting.open_inventory=Open Inventory
-module.clienthudui.setting.open_settings=Client Settings
+module.clienthudui.setting.open_inventory=Open that thang with the items
+module.clienthudui.setting.open_settings=enter the ?
 
 ## Theme Editor
 module.themeuipreview.name=Theme Preview
@@ -220,7 +220,7 @@ module.themeuipreview.notification.load_failed=Could not load the theme.
 
 
 ## Theme Options
-module.themeuioption.setting.enabled.name=Main Client Color
+module.themeuioption.setting.enabled.name=mainzz
 module.themeuioption.setting.enabled.description=The accent color of the client.
 module.themeuioption.setting.text.name=Text Color
 module.themeuioption.setting.text.description=The color of the text.
@@ -278,7 +278,7 @@ ui.flatworld.error.save.unknown=Unknown error.
 
 
 ##Legacy Scripting
-module.lua_command.name=Lua Command
+module.lua_command.name=CANT CODE LMAOOOOOOOOO
 module.lua_command.description=The module for the lua command, it is used to allow the creation of a render function.\n- Can be used like any normal mods\n- You can edit the CMD.lua file to add pre-made functions to it.
 scripting.import.start=Importing script %s "%s".
 scripting.import.success=Script %s "%s" was imported!
@@ -300,7 +300,7 @@ module.remind_202020.setting.snooze_key.name=Snooze Key
 module.remind_202020.setting.snooze_key.description=The key that will snooze the reminder.
 
 ## Animation Settings
-module.animation_settings.name=Animation setting fr
+module.animation_settings.name=animation setting fr
 module.animation_settings.description=Allows you to change various animations.
 module.animation_settings.setting.button_hover_size_multiplier.name=Button Hover Size Multiplier
 module.animation_settings.setting.button_hover_size_multiplier.description=Multiplier for button size when hovered.
@@ -325,7 +325,7 @@ module.animation_settings.setting.duration.description=Duration of the animation
 module.animation_settings.setting.easing.name=Easing
 module.animation_settings.setting.easing.description=Easing function for the animations.
 
-module.animation_settings.setting.easing_enum.outexpo=Out Expo
+module.animation_settings.setting.easing_enum.outexpo=forgot
 module.animation_settings.setting.easing_enum.linear=Linear
 module.animation_settings.setting.easing_enum.insine=In Sine
 module.animation_settings.setting.easing_enum.outsine=Out Sine
@@ -362,63 +362,63 @@ module.animation_settings.setting.easing_enum.inoutbounce=In Out Bounce
 
 ## Global Settings
 module.global_settings.name=da big boy settings
-module.global_settings.description=Adjust global configurations for the client.
-module.global_settings.setting.open_gui_key.name=Open Client Key
-module.global_settings.setting.open_gui_key.description=Key used to open the client GUI.
-module.global_settings.setting.mojangles_in_game.name=Minecraft Font in Game
-module.global_settings.setting.mojangles_in_game.description=Enables Minecraft font in the game.
-module.global_settings.setting.mojangles_in_ui.name=Minecraft Font in UI
-module.global_settings.setting.mojangles_in_ui.description=Utilizes Minecraft font in the UI.
-module.global_settings.setting.text_shadow.name=Text Shadow
-module.global_settings.setting.text_shadow.description=Enables text shadow.
+module.global_settings.description=yuh what can i say you can do alot of stuf fhere
+module.global_settings.setting.open_gui_key.name=get gaming key
+module.global_settings.setting.open_gui_key.description=Key used to start the gaming of epic GUI.
+module.global_settings.setting.mojangles_in_game.name=Minceraft Font in THE GAME
+module.global_settings.setting.mojangles_in_game.description=hahhaha you jst lost the game
+module.global_settings.setting.mojangles_in_ui.name=Minecraft Font in UI like onix
+module.global_settings.setting.mojangles_in_ui.description=Utilizes Minecraft font in the UI. like onix ui not minecraft like the onix client
+module.global_settings.setting.text_shadow.name=make the text ask "hey whats behind me?"
+module.global_settings.setting.text_shadow.description=cuz its their shadow and they dont know
 module.global_settings.setting.show_nsfw_mods.name=Show NSFW Mods (18+)
 module.global_settings.setting.show_nsfw_mods.description=Displays NSFW mods if enabled.
-module.global_settings.setting.notify_blocked_modules.name=Notify Blocked Modules
-module.global_settings.setting.notify_blocked_modules.description=Notifies about blocked modules.
-module.global_settings.setting.use_new_renderer.name=Use New Renderer
-module.global_settings.setting.use_new_renderer.description=Utilizes the new renderer.
+module.global_settings.setting.notify_blocked_modules.name=lmk when something isnt allow
+module.global_settings.setting.notify_blocked_modules.description=lets u know when the server is modist
+module.global_settings.setting.use_new_renderer.name=ultimate gamer render juice
+module.global_settings.setting.use_new_renderer.description=makes the client use a lot more juice bu looking epicer !
 
 ## hi translators, dont question why this is here, just translate it
 module.global_settings.setting.show_if_rosie_blushes.name=Show If Rosie Is Blushing
 module.global_settings.setting.show_if_rosie_blushes.description=Shows if Rosie is blushing.
 
-module.global_settings.setting.blur_settings_category.name=Blur Settings
-module.global_settings.setting.ui_background_darkening.name=UI Background Darkening
-module.global_settings.setting.ui_background_darkening.description=The amount to darken the background by.
+module.global_settings.setting.blur_settings_category.name=expensive background 
+module.global_settings.setting.ui_background_darkening.name=blacking out background mode
+module.global_settings.setting.ui_background_darkening.description=The amunt to darken the backgroundBy
 module.global_settings.setting.blur_settings_category.description=Settings related to blurring.
-module.global_settings.setting.blur_module_background.name=Blur Module Background
+module.global_settings.setting.blur_module_background.name= mods need glasses ?????????????
 module.global_settings.setting.blur_module_background.description=Enables blurring of module backgrounds.
-module.global_settings.setting.blur_strength.name=Blur Amount
-module.global_settings.setting.blur_strength.description=Adjusts the intensity of the blur effect.
-module.global_settings.setting.blur_delay.name=Blur Delay
+module.global_settings.setting.blur_strength.name=module.global_settings.setting.blur_strentgh.name
+module.global_settings.setting.blur_strength.description=Adjusts the intensity of the lack of glasses effect.      strngh
+module.global_settings.setting.blur_delay.name=no glasses??? delayed????
 module.global_settings.setting.blur_delay.description=Specifies the delay for blur effects.
-module.global_settings.setting.blur_delay_warning.name=High blur delays can result in performance increase at the cost of some visual fidelity.
-module.global_settings.setting.blur_quality.name=Blur Quality Reducer
-module.global_settings.setting.blur_quality.description=Reduces the quality of the blur effect.
+module.global_settings.setting.blur_delay_warning.name=High blur delays can result in performance increase at the cost of some visual fidelity. erm nerd
+module.global_settings.setting.blur_quality.name=what prescription glasses do you have?
+module.global_settings.setting.blur_quality.description=let us know on x/twitter @onixclient
 
-module.global_settings.setting.hud_editor_settings_category.name=HUD Settings
-module.global_settings.setting.hud_editor_settings_category.description=Settings related to the HUD editor.
-module.global_settings.setting.module_snapping.name=Module Snapping
-module.global_settings.setting.module_snapping.description=Enables snapping of modules.
-module.global_settings.setting.snap_lines.name=Snap Lines
+module.global_settings.setting.hud_editor_settings_category.name=heads up displaying
+module.global_settings.setting.hud_editor_settings_category.description=Settings related to the head up display editor.
+module.global_settings.setting.module_snapping.name=Module Snap like thanos
+module.global_settings.setting.module_snapping.description=Enables snapping of modules click
+module.global_settings.setting.snap_lines.name=Becareful not to snap your back 
 module.global_settings.setting.snap_lines.description=Shows guidelines for snapping modules.
-module.global_settings.setting.show_visual_module_name.name=Show Visual Module Names
+module.global_settings.setting.show_visual_module_name.name=module names
 module.global_settings.setting.show_visual_module_name.description=Displays visual module names.
-module.global_settings.setting.should_preserve_module_editor_state.name=Preserve Module Editor State
+module.global_settings.setting.should_preserve_module_editor_state.name=keep module explorer the same
 module.global_settings.setting.should_preserve_module_editor_state.description=Should the state of the mod editor stay when closed and opened?\nThis will keep the selected mod open, the scroll you have in that mod and the search bar content.
-module.global_settings.setting.idiots_wants_to_see_mods_in_f1.name=Don't Hide Mods in F1
-module.global_settings.setting.idiots_wants_to_see_mods_in_f1.description=Shows mods in F1.
+module.global_settings.setting.idiots_wants_to_see_mods_in_f1.name=dont hide mods in f1 like its 2021 again
+module.global_settings.setting.idiots_wants_to_see_mods_in_f1.description=you know who you are.
 
-module.global_settings.setting.screenshot_settings_category.name=Screenshot Settings
-module.global_settings.setting.screenshot_settings_category.description=Settings related to screenshots.
-module.global_settings.setting.screenshot_key.name=Screenshot Key
-module.global_settings.setting.screenshot_key.description=Key used to capture screenshots.
-module.global_settings.setting.mods_in_screenshot.name=Capture Modules In Screenshots
+module.global_settings.setting.screenshot_settings_category.name=MY SCREEN HELP ITS BEEN SHOT
+module.global_settings.setting.screenshot_settings_category.description=um why did you do that ??
+module.global_settings.setting.screenshot_key.name=shoot the screen key
+module.global_settings.setting.screenshot_key.description=boom
+module.global_settings.setting.mods_in_screenshot.name=kill mods too
 module.global_settings.setting.mods_in_screenshot.description=Includes modules in screenshots.
-module.global_settings.setting.copy_screenshots.name=Copy Screenshots to Clipboard
+module.global_settings.setting.copy_screenshots.name=control c that thang
 module.global_settings.setting.copy_screenshots.description=Copies screenshots to the clipboard.
-module.global_settings.setting.screenshot_chat_message.name=Send Chat Message
-module.global_settings.setting.screenshot_chat_message.description=Sends a chat message when a screenshot is captured.
+module.global_settings.setting.screenshot_chat_message.name=broadcat it to the world but like only u
+module.global_settings.setting.screenshot_chat_message.description=dw only u see this
 
 module.global_settings.setting.show_pause_button.name=Show Pause Screen Button
 module.global_settings.setting.show_pause_button.description=Enables display of the pause screen button.
@@ -492,7 +492,7 @@ module.global_settings.setting.click_sound_volume.description=The volume of the 
 
 
 ## Auto GG
-module.autogg.name=auto good game
+module.autogg.name=autoez
 module.autogg.description=Automatically says GG (or any message) at the end of the game.\nWorks on Hive, CubeCraft, Zeqa, NetherGames, Hyperlands.
 module.autogg.setting.gg_delay.name=GG Delay (seconds)
 module.autogg.setting.gg_delay.description=The delay between the game ending and the message being sent.
@@ -506,7 +506,7 @@ module.autogg.setting.remove_message.description=Removes the message from the li
 module.autogg.remove_message.button=Remove
 
 ## Auto Text Hotkey
-module.auto_text_hotkey.name=Auto Text Hotkey
+module.auto_text_hotkey.name=AutomatedTextDisposal
 module.auto_text_hotkey.description=Automatically sends a message when a key is pressed.
 module.auto_text_hotkey.setting.shortcut.name=Shortcut
 module.auto_text_hotkey.setting.shortcut.description=The key that will send the message.
@@ -546,7 +546,7 @@ module.block_outline_overlay.setting.block_overlay_color.name=Block Overlay Colo
 module.block_outline_overlay.setting.block_overlay_color.description=The color of the block overlay.
 
 ## Chat Tweaks
-module.chat_tweaks.name=Chat Tweaks
+module.chat_tweaks.name=ChattingMods&Tweaks
 module.chat_tweaks.description=Various tweaks to the chat.
 module.chat_tweaks.setting.timestamp_category.name=Timestamp
 module.chat_tweaks.setting.timestamp_category.description=Customise the timestamp settings.
@@ -561,7 +561,7 @@ module.chat_tweaks.setting.timestamp_include_milliseconds.description=Whether or
 module.chat_tweaks.setting.timestamp_include_brackets.name=Include Brackets
 module.chat_tweaks.setting.timestamp_include_brackets.description=Whether or not to include brackets around the timestamp.
 
-module.chat_tweaks.setting.compact_chat_category.name=Compact Chat
+module.chat_tweaks.setting.compact_chat_category.name=CompactChat
 module.chat_tweaks.setting.compact_chat_category.description=Settings for compact chat.
 module.chat_tweaks.setting.compact_chat_enable.name=Enable Compact Chat
 module.chat_tweaks.setting.compact_chat_enable.description=Hides duplicate messages.
@@ -569,11 +569,11 @@ module.chat_tweaks.setting.compact_chat_reset_age.name=Act as New Message
 module.chat_tweaks.setting.compact_chat_reset_age.description=Whether or not to act as a new message (resets on screen time).
 
 ## Chunk Border
-module.chunk_border.name=Chunk Border
+module.chunk_border.name=ChunkBorder
 module.chunk_border.description=Draws a border around the chunk you are in.
 
 ## Cinematic Camera
-module.cinematic_camera.name=Cinematic Camera
+module.cinematic_camera.name=Help i dropped my mouse in butter
 module.cinematic_camera.description=Makes the camera smooth, similar to the cinematic camera in OptiFine.
 module.cinematic_camera.setting.camera_settings_category.name=Camera Settings
 module.cinematic_camera.setting.camera_settings_category.description=Settings to change the camera settings.
@@ -587,7 +587,7 @@ module.cinematic_camera.setting.toggle_mode.name=Toggle Mode
 module.cinematic_camera.setting.toggle_mode.description=Makes it so that you can toggle the cinematic camera on and off.
 
 ## Color Options
-module.color_options.name=Color Settings
+module.color_options.name=Colour cuz america
 module.color_options.description=Allows you to change the color of the client.
 module.color_options.setting.rgb_category.name=RGB Category
 module.color_options.setting.rgb_category.description=Settings for RGB.
@@ -637,7 +637,7 @@ module.color_options.setting.open_theme_editor.description=Opens the theme edito
 module.color_options.setting.open_theme_editor.button=Open
 
 ## Developer Options
-module.developer_options.name=Developer Settings
+module.developer_options.name=Developer Developer Developer
 module.developer_options.description=A collection of tools useful to developers.
 module.developer_options.setting.bypass_creative_tools.name=Bypass Creative Tools
 module.developer_options.setting.bypass_creative_tools.description=Bypasses Creative Tools restrictions.
@@ -651,70 +651,70 @@ module.developer_options.setting.lua_autoreload_on_by_default.name=Automatically
 module.developer_options.setting.lua_autoreload_on_by_default.description=Automatically enables the scripting API's autoreload feature.
 
 ## Creative Tools
-module.creative_tools.name=Creative Tools
-module.creative_tools.description=Various tools to help with creative mode.\nNote: Only use this with permission if you are on someone else's world/server.
+module.creative_tools.name=Creativetool
+module.creative_tools.description=just the one tool
 
-module.creative_tools.setting.block_reach_settings_category.name=Block Reach Settings
-module.creative_tools.setting.block_reach_settings_category.description=Settings to change the block reach settings.
-module.creative_tools.setting.use_block_reach.name=Change Block Reach
-module.creative_tools.setting.use_block_reach.description=Whether or not to change the block reach.
-module.creative_tools.setting.block_reach.name=Block Reach
-module.creative_tools.setting.block_reach.description=The block reach.
-module.creative_tools.setting.block_reach_warning.name=Warning: block reach may be capped by the server!
+module.creative_tools.setting.block_reach_settings_category.name=cheater reach but block
+module.creative_tools.setting.block_reach_settings_category.description=extend how long yo arm is
+module.creative_tools.setting.use_block_reach.name=change it
+module.creative_tools.setting.use_block_reach.description=do ya wanna ?
+module.creative_tools.setting.block_reach.name=long arm
+module.creative_tools.setting.block_reach.description=lenght of yor arm
+module.creative_tools.setting.block_reach_warning.name=AHHH: block reach may be capped by server!
 module.creative_tools.setting.block_reach_warning.description=Warning: block reach may be capped by the server!
 
-module.creative_tools.setting.jetpack_settings_category.name=Jetpack Settings
-module.creative_tools.setting.jetpack_settings_category.description=Settings to change the jetpack settings.
-module.creative_tools.setting.jetpack_key.name=Jetpack Key
-module.creative_tools.setting.jetpack_key.description=The key that will toggle the jetpack on and off.
-module.creative_tools.setting.jetpack_speed.name=Jetpack Speed
-module.creative_tools.setting.jetpack_speed.description=The speed of the jetpack.
-module.creative_tools.setting.jetpack_sprint_multiplier.name=Jetpack Sprint Multiplier
-module.creative_tools.setting.jetpack_sprint_multiplier.description=The sprint multiplier of the jetpack.
+module.creative_tools.setting.jetpack_settings_category.name=omg im so fast
+module.creative_tools.setting.jetpack_settings_category.description= jetpack settings iuncase u forgot
+module.creative_tools.setting.jetpack_key.name=fastJetpack button
+module.creative_tools.setting.jetpack_key.description=The key that will toggle the jetpack on and off and on again if you chose so.
+module.creative_tools.setting.jetpack_speed.name=jetpack  Not slowdown ,
+module.creative_tools.setting.jetpack_speed.description=The speed of the jetpacking.
+module.creative_tools.setting.jetpack_sprint_multiplier.name=Jetpack  no more slowing SPEEDYY
+module.creative_tools.setting.jetpack_sprint_multiplier.description=the fast enhancer of the jetpack.
 
-module.creative_tools.setting.freecam_settings_category.name=Freecam Settings
-module.creative_tools.setting.freecam_settings_category.description=Settings to change the freecam settings.
-module.creative_tools.setting.freecam_key.name=Freecam Key
-module.creative_tools.setting.freecam_key.description=The key that will toggle the freecam on and off.
-module.creative_tools.setting.freecam_teleport_key.name=Teleport to Camera Key
-module.creative_tools.setting.freecam_teleport_key.description=The key that will teleport you to the camera.
-module.creative_tools.setting.freecam_speed.name=Freecam Speed
-module.creative_tools.setting.freecam_speed.description=The speed of the freecam.
-module.creative_tools.setting.freecam_sprint_multiplier.name=Freecam Sprint Multiplier
-module.creative_tools.setting.freecam_sprint_multiplier.description=The sprint multiplier of the freecam.
+module.creative_tools.setting.freecam_settings_category.name=reeCam Setting just the one again
+module.creative_tools.setting.freecam_settings_category.description=settings to change the freeCam settings.
+module.creative_tools.setting.freecam_key.name=reeCam Key
+module.creative_tools.setting.freecam_key.description=The key that will toggle the reeCam on and off.
+module.creative_tools.setting.freecam_teleport_key.name=telaport to Camara botton
+module.creative_tools.setting.freecam_teleport_key.description=The botton that will telaport you to the camara.
+module.creative_tools.setting.freecam_speed.name=Free cam Fastness
+module.creative_tools.setting.freecam_speed.description=The rapidity amount of the freeing camera.
+module.creative_tools.setting.freecam_sprint_multiplier.name=Freecam spring multi Pliers
+module.creative_tools.setting.freecam_sprint_multiplier.description=sub 2 youtube.com/@onixclient
 module.creative_tools.setting.freecam_position_x.name=Freecam Position X
 module.creative_tools.setting.freecam_position_x.description=The X position of the freecam.
 module.creative_tools.setting.freecam_position_y.name=Freecam Position Y
 module.creative_tools.setting.freecam_position_y.description=The Y position of the freecam.
 module.creative_tools.setting.freecam_position_z.name=Freecam Position Z
 module.creative_tools.setting.freecam_position_z.description=The Z position of the freecam.
-module.creative_tools.setting.spectator_toggle_key.name=Spectator Toggle Key
-module.creative_tools.setting.spectator_toggle_key.description=The key that will toggle spectator mode on and off.
+module.creative_tools.setting.spectator_toggle_key.name=ghost mode Toggling Key
+module.creative_tools.setting.spectator_toggle_key.description=the key that will toggle ghost mod mode and off.
 
-module.creative_tools.setting.phase_settings_category.name=Phase Settings
-module.creative_tools.setting.phase_settings_category.description=Settings to change the phase settings.
-module.creative_tools.setting.phase_key.name=Phase Key
-module.creative_tools.setting.phase_key.description=The key that will toggle phase on and off.
-module.creative_tools.setting.phase_vertically.name=Phase Vertically
-module.creative_tools.setting.phase_vertically.description=Whether or not to phase vertically.
+module.creative_tools.setting.phase_settings_category.name=i hate blocks Horizontally
+module.creative_tools.setting.phase_settings_category.description=Settings to change the i hate blocks settings.
+module.creative_tools.setting.phase_key.name=i hate blocks Key
+module.creative_tools.setting.phase_key.description=The key that will toggle i hate blocks on and off.
+module.creative_tools.setting.phase_vertically.name=i hate blocks Vertically
+module.creative_tools.setting.phase_vertically.description=Whether or not to i hate blocks the other one that isnt horizontal.
 
-module.creative_tools.setting.auto_clicker_settings_category.name=AutoClicker Settings
-module.creative_tools.setting.auto_clicker_settings_category.description=Settings for auto clicker.
-module.creative_tools.setting.auto_clicker_key.name=Toggle Auto Clicking
-module.creative_tools.setting.auto_clicker_key.description=Toggle auto clicking on and off.
-module.creative_tools.setting.fast_auto_clicker.name=Fast Auto Clicker
-module.creative_tools.setting.fast_auto_clicker.description=Enable fast auto clicking.
+module.creative_tools.setting.auto_clicker_settings_category.name=quickClickPro++XL Unregistered Setting
+module.creative_tools.setting.auto_clicker_settings_category.description=Settingsfor quickClickPro++XL Unregistered
+module.creative_tools.setting.auto_clicker_key.name=Toggle quickClickPro++XL Unregistered
+module.creative_tools.setting.auto_clicker_key.description=Toggle quickClickPro++XL Unregistered on and off.
+module.creative_tools.setting.fast_auto_clicker.name=quickClickPro+++++++++++XL Registered
+module.creative_tools.setting.fast_auto_clicker.description=Enable faster and better and bigger and more good
 
-module.creative_tools.setting.clicktp_settings_category.name=ClickTP Settings
-module.creative_tools.setting.clicktp_settings_category.description=Settings for ClickTP.
-module.creative_tools.setting.clicktp_key.name=ClickTP Key
-module.creative_tools.setting.clicktp_key.description=Key to trigger ClickTP.
-module.creative_tools.setting.clicktp_toggle.name=ClickTP is Toggle
-module.creative_tools.setting.clicktp_toggle.description=Toggle ClickTP mode.
-module.creative_tools.setting.clicktp_lerp.name=Teleportation Lerp
-module.creative_tools.setting.clicktp_lerp.description=Enable teleportation lerping.
-module.creative_tools.setting.clicktp_max_distance.name=Max TP Distance
-module.creative_tools.setting.clicktp_max_distance.description=Maximum distance for ClickTP.
+module.creative_tools.setting.clicktp_settings_category.name=go where i look
+module.creative_tools.setting.clicktp_settings_category.description=settings for clicking to the place i see and want to be but not want to be at because that would be like too good so glad i have automatic wrapping now no not there... whatever
+module.creative_tools.setting.clicktp_key.name=clicker tp botton
+module.creative_tools.setting.clicktp_key.description=The key required to trigger the elusive action of using the Onix Client Premium Click-To-Teleport feature expectedly, hopefully with the intended functionality and outcome...
+module.creative_tools.setting.clicktp_toggle.name=ClickTP has Toggle
+module.creative_tools.setting.clicktp_toggle.description=Toggle ClickTP mode
+module.creative_tools.setting.clicktp_lerp.name=animate the tp for some reason,
+module.creative_tools.setting.clicktp_lerp.description=Enable teleportation lerping yaaaaaaaaaaaaaaaaaaaaaaaaay
+module.creative_tools.setting.clicktp_max_distance.name=maxTelaprrt Distance
+module.creative_tools.setting.clicktp_max_distance.description=ray cast for the max disdatnce settong
 
 module.creative_tools.setting.command_block_esp_settings_category.name=Command Block ESP Settings
 module.creative_tools.setting.command_block_esp_settings_category.description=Settings for Command Block ESP.
@@ -756,7 +756,7 @@ module.creative_tools.notification.clicktp_start=ClickTP Enabled, be careful.
 module.creative_tools.notification.clicktp_stop=ClickTP Disabled.
 module.creative_tools.notification.phase_start=Phase Enabled, be careful.
 module.creative_tools.notification.phase_stop=Phase Disabled.
-module.creative_tools.notification.op_needed=You need to be an operator to use %s%s.
+module.creative_tools.notification.op_needed=You can only die use %s%s in a world or when you are in creative.
 
 ## Crop Protector
 module.crop_protector.name=Crop Protector
@@ -766,7 +766,7 @@ module.crop_protector.setting.replant_with_hand_item.name=Replant With Hand Item
 module.crop_protector.setting.replant_with_hand_item.description=Toggle replanting with the hand item.
 
 ## Custom Crosshair
-module.custom_crosshair.name=Custom Crosshair
+module.custom_crosshair.name=Costom Crosshair
 module.custom_crosshair.description=Customise your crosshair to your heart's content.
 
 module.custom_crosshair.setting.open_crosshair_editor.name=Open Crosshair Editor
@@ -830,7 +830,7 @@ module.custom_crosshair_editor.old_renderer=You need to use the new renderer to 
 
 
 ## Java Debug Menu
-module.java_debug_menu.name=Java Debug Menu
+module.java_debug_menu.name=Java 1.4.7 Debug Menu
 module.java_debug_menu.description=A basic recreation of the Java Edition debug menu.
 
 module.java_debug_menu.setting.hide_other_modules.name=Hide Other Modules
@@ -841,7 +841,7 @@ module.java_debug_menu.setting.debug_crosshair.name=Debug Crosshair
 module.java_debug_menu.setting.debug_crosshair.description=Toggle debug crosshair.
 
 ## Double Click Prevent
-module.double_click_prevent.name=Double Click Prevent
+module.double_click_prevent.name=no more double clicking
 module.double_click_prevent.description=Allows you to fine-tune your click settings.
 
 module.double_click_prevent.setting.click_settings_category.name=Click Settings
@@ -867,7 +867,7 @@ module.double_click_prevent.setting.was_enabled_cubecraft.name=Was Enabled Becau
 module.double_click_prevent.setting.was_enabled_cubecraft.description=Indicates if it was enabled due to Cubecraft.
 
 ## Dynamic Light
-module.dynamic_light.name=Dynamic Light
+module.dynamic_light.name=dynamicLight
 module.dynamic_light.description=Makes the surrounding area illuminate when equipped with light-emitting items.
 
 module.dynamic_light.setting.light_settings_category.name=Light Settings
@@ -880,7 +880,7 @@ module.dynamic_light.setting.keep_light_on_eject.name=Keep Light on Eject
 module.dynamic_light.setting.keep_light_on_eject.description=Toggle to keep the light on eject which can help stability.
 
 ## Environment Changer
-module.environment_changer.name=Environment Changer
+module.environment_changer.name=Environement Changing
 module.environment_changer.description=Changes the environment around you.
 
 module.environment_changer.setting.time_settings_category.name=Time Settings
@@ -963,7 +963,7 @@ module.environment_changer.setting.water_opacity.name=Water Opacity
 module.environment_changer.setting.water_opacity.description=Current opacity/transparency of the water.
 
 ## Fog Changer
-module.fog_customiser.name=Fog Changer
+module.fog_customiser.name=Fog
 module.fog_customiser.description=Allows you to modify various aspects of the fog!
 module.fog_customiser.setting.should_change_fog.name=Should Change Fog Distance
 module.fog_customiser.setting.should_change_fog.description=Toggles whether or not to change the distance renders.
@@ -979,7 +979,7 @@ module.fog_customiser.setting.show_nether_fog.description=Toggles whether or not
 
 
 ## FOV Changer
-module.fov_changer.name=FOV Changer
+module.fov_changer.name=field of vision modifier
 module.fov_changer.description=Allows you to customize the field of view behavior.
 
 module.fov_changer.setting.pre_enable_fov_obtained.name=User FOV Obtained
@@ -1030,7 +1030,7 @@ module.fov_changer.setting.third_person_front_fov_offset.description=Set the thi
 
 ## Freelook
 module.freelook.name=Freelook
-module.freelook.description=Allows you to look at your surroundings without changing movement direction.
+module.freelook.description=You can look whithout changing the way you go.\nUse the ALT key at your own risks.
 
 module.freelook.setting.perspective_settings_category.name=Perspective Settings
 module.freelook.setting.perspective_settings_category.description=Settings for perspective settings.
@@ -1049,8 +1049,8 @@ module.freelook.setting.keybind_warning.name=Warning: Binding Freelook to the AL
 module.freelook.setting.keybind_warning.description=Warning: Binding Freelook to the ALT key is not recommended!
 
 ## Fullbright
-module.fullbright.name=Fullbright
-module.fullbright.description=Makes the surrounding environment brighter. Allows you to see more clearly in The End, Nether, and at night.
+module.fullbright.name=I CAN SEE
+module.fullbright.description=Can show you things that you never saw before.\nSo much brightness everything is clear now.
 
 module.fullbright.setting.gamma.name=Gamma
 module.fullbright.setting.gamma.description=Adjust the gamma value to brighten or darken the environment.
@@ -1093,7 +1093,7 @@ module.low_health_warning.setting.show_in_f1.name=Show in F1
 module.low_health_warning.setting.show_in_f1.description=Toggle displaying low health warning in F1 mode.
 
 ## Hitboxes
-module.hitboxes.name=Hitboxes
+module.hitboxes.name=hitBoxes
 module.hitboxes.description=Draws a bounding box around all entities.
 
 module.hitboxes.setting.bodyline_color.name=Line Color
@@ -1155,11 +1155,11 @@ module.item_highlighter.setting.add.button=Add
 
 
 ## Item Physics
-module.item_physics.name=Item Physics
-module.item_physics.description=Makes dropped items have unique physics.
+module.item_physics.name=itemPhysic
+module.item_physics.description=make dropped items be freaky
 
-module.item_physics.setting.rotation_settings_category.name=Rotation Settings
-module.item_physics.setting.rotation_settings_category.description=Settings for item rotation.
+module.item_physics.setting.rotation_settings_category.name=Rotato like potato settings
+module.item_physics.setting.rotation_settings_category.description=Settings for item rotation hooray
 module.item_physics.setting.movement_speed_x.name=Rotation Speed X
 module.item_physics.setting.movement_speed_x.description=Adjust the speed of rotation on the X-axis.
 module.item_physics.setting.movement_speed_y.name=Rotation Speed Y
@@ -1174,13 +1174,13 @@ module.item_physics.setting.blocks_keep_rotation_on_ground.name=Preserve Block R
 module.item_physics.setting.blocks_keep_rotation_on_ground.description=Toggle to preserve block rotation on the ground.
 
 ## Item Scaler
-module.item_scaler.name=Item Scaler
-module.item_scaler.description=Scale individual items to be a custom size.
+module.item_scaler.name=terrible mod
+module.item_scaler.description=look i wanna take full responsibility for this one, its my fault its subpar and doesn thave the onix seal of approval, i rushed onix to make it, and im sorry -jqms
 module.item_scaler.setting.scale.name=Item Scale
 module.item_scaler.setting.scale.description=The desired scale of the item.
 
 ## 2D Items
-module.2d_items.name=2D Items
+module.2d_items.name=3d blocks
 module.2d_items.description=Makes the items appear as if they were 2D like the old bedrock.\nNote: The items are still 3D, so you don't save performance.
 
 module.2d_items.setting.follow_x_axis.name=Follow X Axis
@@ -1189,7 +1189,7 @@ module.2d_items.setting.follow_y_axis.name=Follow Y Axis
 module.2d_items.setting.follow_y_axis.description=Toggle the behavior to follow the Y-axis.
 
 ## Light Overlay
-module.light_overlay.name=Light Overlay
+module.light_overlay.name=how do i fix the yellow bug ???
 module.light_overlay.description=Displays the nearby areas where mobs are able to spawn.
 
 module.light_overlay.setting.update_delay.name=Update Delay
@@ -1200,15 +1200,15 @@ module.light_overlay.setting.check_down_by_height.name=Amount of Blocks to Check
 module.light_overlay.setting.check_down_by_height.description=Set how low to go for light checks.
 
 ## Litematica
-module.litematica.name=Litematica
+module.litematica.name=pranked  fr
 module.litematica.description=Helps you build structures
 
 ## Minimal View Bobbing
-module.minimal_view_bobbing.name=Minimal View Bobbing
+module.minimal_view_bobbing.name=LazyBob
 module.minimal_view_bobbing.description=Disables the screen shake when view bobbing is enabled. (Requires view bobbing to be enabled.)
 
 ## Modern Keybind Handling
-module.modern_keybind_handling.name=Modern Keybind Handling
+module.modern_keybind_handling.name=1.12 is peak
 module.modern_keybind_handling.description=Modifies keybind handling when exiting screens to act like Java 1.12+.
 
 module.modern_keybind_handling.setting.movement_keys_only.name=Movement Keys Only
@@ -1218,22 +1218,22 @@ module.modern_keybind_handling.setting.do_among_onix_ui.name=Affect Onix UIs
 module.modern_keybind_handling.setting.do_among_onix_ui.description=Applies modifications to the keybinds used within the Onix UI elements.
 
 ## Null Movement
-module.null_movement_module.name=Null Movement
+module.null_movement_module.name=a and d but not together
 module.null_movement_module.description=When two opposing movement directions are pressed, it will only register the last pressed input as the priority.\nLook at Razer's Snap Tap mode for a better understanding.
 module.null_movement_module.setting.affect_forward_and_backwards.name=Affect Forward And Backwards Keys
 module.null_movement_module.setting.affect_forward_and_backwards.description=Applies modifications to front and back keybinds.
 
 ## Motion Blur
-module.motion_blur.name=Motion Blur
-module.motion_blur.description=Blurs movement to make you throw up suspiciously
+module.motion_blur.name=Motion sickness
+module.motion_blur.description=Blurs movement to make you throw up suspiciously  -  i didnt have to change this lmao
 
-module.motion_blur.setting.throwup_rate.name=Intensity
-module.motion_blur.setting.throwup_rate.description=Controls the intensity of the motion blur effect.
-module.motion_blur.setting.throwup_in_ui.name=Exclude UI from Effect
-module.motion_blur.setting.throwup_in_ui.description=Applies the motion blur effect only to the in-game world, excluding UI elements.
+module.motion_blur.setting.throwup_rate.name=THROWUP RATE
+module.motion_blur.setting.throwup_rate.description=controls the intensity of the SPEED YOU VOPMIT AT !!!!!!!!!!!!!!!
+module.motion_blur.setting.throwup_in_ui.name=vomit  in UI too
+module.motion_blur.setting.throwup_in_ui.description=we all hate the ui fr
 
 ## Proximity Chat
-module.proximity_chat.name=Proximity Chat
+module.proximity_chat.name=who goes there
 module.proximity_chat.description=Proximity Chat! Allows you to use Mumble Link via the Onix Client Mumble Link application.
 
 module.proximity_chat.setting.context_settings_category.name=Context Settings
@@ -1258,7 +1258,7 @@ module.proximity_chat.notification.app_outdated=[Mumble Link] The Onix Client Mu
 module.proximity_chat.notification.app_required=The Mumble Link application is required to use this module.
 
 ## Hand Item Scale Fixer
-module.held_item_scale_fixer.name=Hand Item Scale Fix
+module.held_item_scale_fixer.name=mojang is lazy
 module.held_item_scale_fixer.description=Fixes an issue which causes some items to be huge when held.
 module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.name=Only Apply to Vanilla Items
 module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.description=If the fix should apply only to vanilla items.
@@ -1266,7 +1266,7 @@ module.held_item_scale_fixer.setting.web_fix.name=Fix 1.21.20+ Web Scale
 module.held_item_scale_fixer.setting.web_fix.description=Fixes the 1.21.20+ big web bug.
 
 ## Nickname
-module.nickname.name=Nickname
+module.nickname.name=i hate my name
 module.nickname.description=Allows you to hide your own and other people's usernames.
 module.nickname.setting.use_random_name.name=Use A Random Name
 module.nickname.setting.use_random_name.description=Use a randomly generated username.
@@ -1289,18 +1289,18 @@ module.nickname.setting.randomise_names_again.description=Randomises player name
 module.nickname.setting.randomise_names_again.button=Randomise
 
 ## No Hurt Cam
-module.no_hurt_cam.name=No Hurt Cam
+module.no_hurt_cam.name=camera forgot to rotate
 module.no_hurt_cam.description=Removes the camera shake animation when you get destroyed in PvP.
 
 ## Particle Multiplier
-module.particle_multiplier.name=Particle Multiplier
+module.particle_multiplier.name=LAG MACHINE
 module.particle_multiplier.description=Multiply the amount of critical hit particles.
 
 module.particle_multiplier.setting.particle_multiplier.name=Particle Multiplier
 module.particle_multiplier.setting.particle_multiplier.description=Adjust the number of critical hit particles to multiply.
 
 ## Static Camera
-module.static_camera.name=Static Camera
+module.static_camera.name=camera gave up
 module.static_camera.description=Allows you to place the camera in the world. The camera's rotation is inverted when being adjusted.
 
 module.static_camera.setting.allow_rotation_default.name=Allow Rotation by Default
@@ -1310,13 +1310,13 @@ module.static_camera.setting.allow_rotation_key.name=Allow Rotation Key
 module.static_camera.setting.allow_rotation_key.description=Set a keybind to enable camera rotation.
 
 ## Java Inventory Hotkeys
-module.inventory_hotkeys.name=Java Inventory Hotkeys
+module.inventory_hotkeys.name=Javqa keys why isnt this vanilla
 module.inventory_hotkeys.description=A port of the Java inventory hotkeys to Bedrock.
 module.inventory_hotkeys.setting.animate.name=Animate The Item Switch
 module.inventory_hotkeys.setting.animate.description=Toggles the animation when you hotkey an item.
 
 ## Player List Tab
-module.player_list_tab.name=Player List Tab
+module.player_list_tab.name=whos there? i see you
 module.player_list_tab.description=Shows a list of all players in the world.
 
 module.player_list_tab.setting.padding.name=Padding
@@ -1340,7 +1340,7 @@ module.player_list_tab.setting.names_per_column.name=Names per Column
 module.player_list_tab.setting.names_per_column.description=Specifies the number of names per column in the list.
 
 ## Over The Shoulder Camera
-module.over_the_shoulder_camera.name=Over The Shoulder Camera
+module.over_the_shoulder_camera.name=gta ripoff
 module.over_the_shoulder_camera.description=Allows you to place the camera over your shoulder.
 module.over_the_shoulder_camera.setting.x_offset.name=X Offset
 module.over_the_shoulder_camera.setting.x_offset.description=Adjusts the X offset of the camera, which side/how far the camera is.
@@ -1348,11 +1348,11 @@ module.over_the_shoulder_camera.setting.include_tps_front.name=Include Third Per
 module.over_the_shoulder_camera.setting.include_tps_front.description=Includes third person front in the over the shoulder camera.
 
 ## 3D Skins
-module.player_skin_3d.name=3D Skins
-module.player_skin_3d.description=Makes the second skin layer 3D. Due to how the mod works, this will not work with players who have 128x skins or custom geometries (4D Skins).
+module.player_skin_3d.name=2d hands
+module.player_skin_3d.description=they broke the hand and im sad now
 
 ## Post Processing
-module.post_processing.name=Post Processing
+module.post_processing.name=GAMER MODE
 module.post_processing.description=Allows you to enhance the visual look of your game.
 
 module.post_processing.setting.only_show_in_world.name=Don't Show In UI
@@ -1454,8 +1454,8 @@ module.tnt_timer.setting.max_distance.name=Max Distance
 module.tnt_timer.setting.max_distance.description=The maximum
 
 ## Toggle Sprint/Sneak
-module.toggle_sprint_sneak.name=Toggle Sprint/Sneak
-module.toggle_sprint_sneak.description=Enables sprinting or sneaking without holding the respective keys.
+module.toggle_sprint_sneak.name=i cant hold control
+module.toggle_sprint_sneak.description=lmaoo imaging not being able to hold control ( :( )
 
 module.toggle_sprint_sneak.setting.keybind_settings_category.name=Keybind Settings
 module.toggle_sprint_sneak.setting.keybind_settings_category.description=Customize keybind configurations.
@@ -2337,7 +2337,7 @@ module.stopwatch.setting.pause_unpause_key.name=Pause/Unpause Key
 module.stopwatch.setting.pause_unpause_key.description=Key used to pause or unpause the stopwatch.
 
 ## Nametag Modifier
-module.nametag_modifier.name=Nametag Modifier
+module.nametag_modifier.name=Nametag
 module.nametag_modifier.description=Allows you to modify nametags.
 module.nametag_modifier.setting.background_color_mode.name=Background Color Mode
 module.nametag_modifier.setting.background_color_mode.description=Specifies the background color mode.
@@ -2371,7 +2371,7 @@ module.visual_testing.description=hello onix how is your monday today naomi just
 
 
 ## Waila Module
-module.waila.name=WAILA
+module.waila.name=WTHALIA
 module.waila.description=Displays information about blocks when you look at them.
 module.waila.setting.enable_outline.name=Outline
 module.waila.setting.enable_outline.description=Enables outline display.
@@ -2384,12 +2384,12 @@ module.waila.setting.height_offset.description=Adjusts the height offset for the
 
 
 ## Commands
-command.itemcommands.1_19_60=Since 1.19.60 you NEED to be hosting the world on your Minecraft client to use item commands.
+command.itemcommands.1_19_60=wah wah wah mojang broke it womp womp cry go below 1.19.60 now
 command.generic.error=§cAn error occured while executing your command!§e%s
 command.generic.invalid_command=§cInvalid Command!\nRun §b%s §cif you want a list of commands.
 
 ## clearchat
-command.clearchat.description=Clears all chat messages.
+command.clearchat.description=the chat forgor
 command.clearchat.usage=§b%s
 
 ## config

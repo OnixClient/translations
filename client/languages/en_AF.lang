@@ -139,9 +139,9 @@ gui.list.post_first_element=,
 
 ## Module Guis
 module.ui.setting.color_picker_chroma.name=Chroma
-module.ui.setting.color_picker_chroma.description=Toggles chroma, chroma is a gradient rainbow effect.
-module.ui.setting.color_picker_rainbow.name=Rainbow
-module.ui.setting.color_picker_rainbow.description=Toggles rainbow, rainbow is a solid color rainbow effect.
+module.ui.setting.color_picker_chroma.description=Toggles chroma, chroma is a gradient raimbow effect.
+module.ui.setting.color_picker_rainbow.name=raimbow
+module.ui.setting.color_picker_rainbow.description=Toggles raimbow, raimbow is a solid color raimbow effect.
 module.ui.setting.color_picker_opacity.name=Opacity
 module.ui.setting.color_picker_opacity.description=Choses what opacity the color has (transparency).
 module.ui.setting.color_renderer_change_color=Change Color
@@ -165,7 +165,7 @@ notification.greet.normal.description=tap %s or INSERT to open onyx cliente
 notification.greet.halloween_mistake.title=You have made a terrible mistake >:D (%s).
 notification.greet.halloween.title=Onix Client has SPOOKED your Minecraft! (boo!) (%s).
 notification.greet.christmas.title=Minecraft has been GIFTED Onix Client. (%s).
-notification.warning.chroma_mc_renderer.title=Chroma does not work on the Minecraft Renderer, use Rainbow.
+notification.warning.chroma_mc_renderer.title=Chroma does not work on the Minecraft Renderer, use raimbow.
 notification.module_is_blocked.title=%s is blocked on this server and cannot be enabled.
 notification.modules_now_blocked.title=Some modules have been blocked on this server.
 notification.modules_unblocked.title=Unblocked all modules.
@@ -1373,10 +1373,10 @@ module.post_processing.setting.has_hue.name=Hue
 module.post_processing.setting.has_hue.description=Enable hue shift effect.
 module.post_processing.setting.hue_shift.name=Hue Shift
 module.post_processing.setting.hue_shift.description=Adjust the degree of hue shift.
-module.post_processing.setting.rainbow_mode.name=Rainbow Mode
-module.post_processing.setting.rainbow_mode.description=Enable rainbow mode for hue shift.
-module.post_processing.setting.rainbow_speed.name=Rainbow Speed
-module.post_processing.setting.rainbow_speed.description=Adjust the speed of the rainbow effect.
+module.post_processing.setting.rainbow_mode.name=raimbow Mode
+module.post_processing.setting.rainbow_mode.description=Enable raimbow mode for hue shift.
+module.post_processing.setting.rainbow_speed.name=raimbow Speed
+module.post_processing.setting.rainbow_speed.description=Adjust the speed of the raimbow effect.
 
 module.post_processing.setting.brightness_settings_category.name=Brightness Settings
 module.post_processing.setting.brightness_settings_category.description=Settings for brightness settings.

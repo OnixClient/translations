@@ -34,6 +34,7 @@ module.movable_bossbar.description=Allows customization and movement of the boss
 module.movable_bossbar.name=Movable Bossbar
 module.nametag_modifier.setting.minimal_nametag_background.description=Makes the background of the nametags only be as long as the text, like in 1.12.
 module.nametag_modifier.setting.minimal_nametag_background.name=Minimal Nametag Background
+module.nametag_modifier.setting.text_shadow.name=Text Shadow
 module.null_movement_module.description=When two opposing movement directions are pressed, it will only register the last pressed input as the priority.\nLook at Razer's Snap Tap mode for a better understanding.
 module.null_movement_module.name=Null Movement
 module.null_movement_module.setting.affect_forward_and_backwards.description=Applies modifications to front and back keybinds.

@@ -640,6 +640,7 @@ module.nametag_modifier.setting.nametag_text_color.description=Specifies the nam
 module.nametag_modifier.setting.nametag_text_color.name=Nametag Text Color
 module.nametag_modifier.setting.reset_color_is_default_background.description=Uses the default text color as the default background color.
 module.nametag_modifier.setting.reset_color_is_default_background.name=Default Background Color Is Default Text Color
+module.nametag_modifier.setting.text_shadow.name=Text Shadow
 module.nametag_modifier.setting.third_person_nametag.description=Displays the nametag in third person.
 module.nametag_modifier.setting.third_person_nametag.name=Third Person Nametag
 module.nametag_modifier.setting.y_offset.description=Adjusts the Y offset of the nametag.

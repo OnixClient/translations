@@ -2365,6 +2365,8 @@ module.nametag_modifier.setting.y_offset.name=Y Offset
 module.nametag_modifier.setting.y_offset.description=Adjusts the Y offset of the nametag.
 module.nametag_modifier.setting.minimal_nametag_background.name=Minimal Nametag Background
 module.nametag_modifier.setting.minimal_nametag_background.description=Makes the background of the nametags only be as long as the text, like in 1.12.
+module.nametag_modifier.setting.text_shadow.name=Text Shadow
+module.nametag_modifier.setting.minimal_nametag_background.description=Adds a shadow to the nametag text. (Might look weird with some unicode).
 
 ## Visual Testing
 module.visual_testing.name=Visual Testing

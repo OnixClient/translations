@@ -1,4 +1,5 @@
 module.nametag_modifier.setting.text_shadow.name=Text Shadow
+module.no_hurt_cam.setting.reset_to_default.button=Set
 module.no_hurt_cam.setting.reset_to_default.description=Sets the angle to be the vanilla rotation amount. (14 degrees).
 module.no_hurt_cam.setting.reset_to_default.name=Set As Vanilla Rotation
 module.no_hurt_cam.setting.rotation_angle.description=The angle to rotate by when hurt.

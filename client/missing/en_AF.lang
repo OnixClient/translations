@@ -1,1 +1,3 @@
 module.nametag_modifier.setting.text_shadow.name=Text Shadow
+module.no_hurt_cam.setting.rotation_angle.description=The angle to rotate by when hurt.
+module.no_hurt_cam.setting.rotation_angle.name=Rotation Angle

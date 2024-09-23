@@ -1291,9 +1291,11 @@ module.nickname.setting.randomise_names_again.button=Randomise
 
 ## No Hurt Cam
 module.no_hurt_cam.name=No Hurt Cam
-module.no_hurt_cam.description=Removes the camera shake animation when you get destroyed in PvP.
+module.no_hurt_cam.description=Let's you modify the camera shake animation when you get destroyed in PvP. (If there is no setting, update your DLL).
 module.no_hurt_cam.setting.rotation_angle.name=Rotation Angle
 module.no_hurt_cam.setting.rotation_angle.description=The angle to rotate by when hurt.
+module.no_hurt_cam.setting.reset_to_default.name=Set As Vanilla Rotation
+module.no_hurt_cam.setting.reset_to_default.description=Sets the angle to be the vanilla rotation amount. (14 degrees).
 
 ## Particle Multiplier
 module.particle_multiplier.name=Particle Multiplier

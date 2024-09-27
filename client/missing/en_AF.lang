@@ -1,3 +1,7 @@
+module.global_settings.setting.notification_sound_volume.description=The volume of the notification sound.
+module.global_settings.setting.notification_sound_volume.name=Notification Sound Volume
+module.global_settings.setting.should_play_notification_sound.description=Play a sound when you get a notification.
+module.global_settings.setting.should_play_notification_sound.name=Play Notification Sound
 module.nametag_modifier.setting.text_shadow.name=Text Shadow
 module.no_hurt_cam.setting.reset_to_default.button=Set
 module.no_hurt_cam.setting.reset_to_default.description=Sets the angle to be the vanilla rotation amount. (14 degrees).

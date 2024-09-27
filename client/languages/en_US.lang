@@ -489,7 +489,10 @@ module.global_settings.setting.should_play_click_sound.name=Play Click Sound
 module.global_settings.setting.should_play_click_sound.description=Play a click sound when you interact with the Onix Client UI.
 module.global_settings.setting.click_sound_volume.name=Click Sound Volume
 module.global_settings.setting.click_sound_volume.description=The volume of the click sound.
-
+module.global_settings.setting.should_play_notification_sound.name=Play Notification Sound
+module.global_settings.setting.should_play_notification_sound.description=Play a sound when you get a notification.
+module.global_settings.setting.notification_sound_volume.name=Notification Sound Volume
+module.global_settings.setting.notification_sound_volume.description=The volume of the notification sound.
 
 
 ## Auto GG

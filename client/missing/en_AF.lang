@@ -1,3 +1,7 @@
+module.chat_tweaks.setting.ping_on_mention_enable.description=Plays a notification sound when you get mentioned in chat.
+module.chat_tweaks.setting.ping_on_mention_enable.name=Ping On Chat Mention
+module.chat_tweaks.setting.ping_on_mention_volume.description=The volume of the mention sound.
+module.chat_tweaks.setting.ping_on_mention_volume.name=Ping On Chat Mention Volume
 module.global_settings.setting.notification_sound_volume.description=The volume of the notification sound.
 module.global_settings.setting.notification_sound_volume.name=Notification Sound Volume
 module.global_settings.setting.should_play_notification_sound.description=Play a sound when you get a notification.

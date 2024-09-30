@@ -2296,7 +2296,10 @@ module.potion_hud.brewing_guide.brew_longer=Longer Potion
 module.potion_hud.brewing_guide.brew_stronger=Stronger Potion
 module.potion_hud.setting.use_old_icons.name=Use 1.8 Icons
 module.potion_hud.setting.use_old_icons.description=Uses the icons from 1.8.
-
+module.potion_hud.setting.hide_vanilla_potion_hud_icons.name=Hide Vanilla Potion HUD
+module.potion_hud.setting.hide_vanilla_potion_hud_icons.description=Prevents the vanilla potion HUD from rendering.
+module.potion_hud.setting.use_roman_numerals.name=Use Roman Numerals
+module.potion_hud.setting.use_roman_numerals.description=Uses roman numerals instead of numbers.
 
 
 ## Reach Display

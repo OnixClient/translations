@@ -12,3 +12,7 @@ module.no_hurt_cam.setting.reset_to_default.description=Sets the angle to be the
 module.no_hurt_cam.setting.reset_to_default.name=Set As Vanilla Rotation
 module.no_hurt_cam.setting.rotation_angle.description=The angle to rotate by when hurt.
 module.no_hurt_cam.setting.rotation_angle.name=Rotation Angle
+module.potion_hud.setting.hide_vanilla_potion_hud_icons.description=Prevents the vanilla potion HUD from rendering.
+module.potion_hud.setting.hide_vanilla_potion_hud_icons.name=Hide Vanilla Potion HUD
+module.potion_hud.setting.use_roman_numerals.description=Uses roman numerals instead of numbers.
+module.potion_hud.setting.use_roman_numerals.name=Use Roman Numerals

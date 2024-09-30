@@ -2051,6 +2051,9 @@ module.keystrokes.setting.up_back_color.description=Specifies the background col
 module.keystrokes.setting.down_back_color.name=Down Background Colour
 module.keystrokes.setting.down_back_color.description=Specifies the background colour for down keys.
 
+## Mouse Strokes
+module.mouse_strokes.name=Mouse Strokes
+module.mouse_strokes.description=Displays the movement of the mouse on screen.
 
 
 ## Memory Usage Module

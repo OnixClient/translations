@@ -157,7 +157,7 @@ module.ui.notification.mojangles_now=Switched to Mojangles font.
 ui.please_update.close_game_button=Close Game
 ui.please_update.later_button=Later (%s days left)
 ui.please_update.later_button_single=Later (%s day left)
-ui.please_update.message=Please update Onix Client to continue using it.\nUpdate it by redownloading your Onix Client Premium DLL.
+ui.please_update.message=Please update Onix Client to continue using it.\nUpdate it by running "/download" in the #premium-commands channel in the Onix Client Discord server.
 
 
 ## Notifications

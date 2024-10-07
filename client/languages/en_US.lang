@@ -84,6 +84,8 @@ module.module.setting.miscellaneous_settings.name=Miscellaneous Settings
 module.module.setting.miscellaneous_settings.description=Settings to change miscellaneous functionality of the module.
 module.module.setting.render_settings.name=Render Settings
 module.module.setting.render_settings.description=Settings that affect the rendering of the module.
+module.module.setting.controller_settings.name=Controller Settings
+module.module.setting.controller_settings.description=Settings that affect the usage of the module while using a controller.
 
 ## Generic Gui
 gui.yes=Yes
@@ -121,7 +123,6 @@ gui.default=Default
 gui.up=Up
 gui.down=Down
 
-
 ## List texts, when the client shows a list of things
 ## begin + pre_first_element + first_element + post_first_element + pre_element + element + post_element + pre_last_element + last_element + post_last_element + end
 ## the english one for the following lists ["red", "green", "blue"] is "red, green and blue
@@ -136,7 +137,6 @@ gui.list.pre_last_element= and ## one trailing space here
 gui.list.post_last_element=
 gui.list.pre_first_element=
 gui.list.post_first_element=,
-
 
 ## Module Guis
 module.ui.setting.color_picker_chroma.name=Chroma
@@ -836,7 +836,11 @@ module.custom_crosshair_editor.deleted_crosshair=Deleted crosshair "%s"!
 module.custom_crosshair_editor.old_renderer=You need to use the new renderer to be able to use the Custom Crosshair module.
 
 
-
+## Quick Controller Input
+module.quick_controller_input.name=Quick Controller Input
+module.quick_controller_input.description=Makes the controller trigger button inputs be customisably sensitive.
+module.quick_controller_input.setting.sensitivity.name=Trigger Sensitivty
+module.quick_controller_input.setting.sensitivity.description=How much force is required to trigger an input.
 
 ## Java Debug Menu
 module.java_debug_menu.name=Java Debug Menu
@@ -1491,6 +1495,10 @@ module.toggle_sprint_sneak.setting.show_indicator.name=Show Indicator
 module.toggle_sprint_sneak.setting.show_indicator.description=Display or hide the indicator.
 module.toggle_sprint_sneak.setting.diagonal_sprintfix.name=Diagonal Sprintfix
 module.toggle_sprint_sneak.setting.diagonal_sprintfix.description=Toggle the diagonal sprintfix on or off.
+
+module.toggle_sprint_sneak.setting.controller_sprint_threshhold.name=Controller Sprint Threshhold
+module.toggle_sprint_sneak.setting.controller_sprint_threshhold.description=How far you need to push the joystick to start sprinting.
+
 
 ## View Model
 module.view_model.name=View Model

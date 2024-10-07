@@ -839,8 +839,10 @@ module.custom_crosshair_editor.old_renderer=You need to use the new renderer to 
 ## Quick Controller Input
 module.quick_controller_input.name=Quick Controller Input
 module.quick_controller_input.description=Makes the controller trigger button inputs be customisably sensitive.
-module.quick_controller_input.setting.sensitivity.name=Trigger Sensitivty
-module.quick_controller_input.setting.sensitivity.description=How much force is required to trigger an input.
+module.quick_controller_input.setting.left_sensitivity.name=Left Trigger Sensitivty
+module.quick_controller_input.setting.left_sensitivity.description=How much force is required to trigger an input.
+module.quick_controller_input.setting.right_sensitivity.name=Right Trigger Sensitivty
+module.quick_controller_input.setting.right_sensitivity.description=How much force is required to trigger an input.
 
 ## Java Debug Menu
 module.java_debug_menu.name=Java Debug Menu

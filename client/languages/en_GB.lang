@@ -1509,6 +1509,8 @@ module.toggle_sprint_sneak.setting.diagonal_sprintfix.description=Toggle the dia
 
 module.toggle_sprint_sneak.setting.controller_sprint_threshhold.name=Controller Sprint Threshhold
 module.toggle_sprint_sneak.setting.controller_sprint_threshhold.description=How far you need to push the joystick to start sprinting.
+module.toggle_sprint_sneak.setting.controller_sprint_key.name=Controller Sprint Key
+module.toggle_sprint_sneak.setting.controller_sprint_key.description=Set the key to toggle sprinting.
 
 
 ## View Model

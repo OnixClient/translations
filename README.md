@@ -42,3 +42,6 @@ IanTheLad<br>
 
 ### Filipino
 Zeyrox<br>
+
+### Korean
+Quoty0<br>

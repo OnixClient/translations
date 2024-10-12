@@ -41,14 +41,6 @@
       "md5": "78c8d16d78d9dd0736a860d5fe982588"
     },
     {
-      "visual_name": "\uD55C\uAD6D\uC5B4 (\uD55C\uAE00)",
-      "code": "ko_KR",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fko_KR.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fko_KR.lang",
-      "version": 6,
-      "md5": "55209f561f6f425f1f6b89e75089de96"
-    },
-    {
       "visual_name": "Espa\u00F1ol (M\u00E9xico)",
       "code": "es_MX",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fes_MX.lang",
@@ -111,6 +103,14 @@
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_GB.lang",
       "version": 166,
       "md5": "bcbd9057b1356959ec5c9e90aefbb699"
+    },
+    {
+      "visual_name": "\uD55C\uAD6D\uC5B4 (\uD55C\uAE00)",
+      "code": "ko_KR",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fko_KR.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fko_KR.lang",
+      "version": 7,
+      "md5": "e701922453d1a6e6e500f69345f6d472"
     }
   ]
 }

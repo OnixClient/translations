@@ -89,28 +89,28 @@
       "md5": "a3a108a4d7c457b56e1cac5a2e4d6820"
     },
     {
-      "visual_name": "English (United States)",
-      "code": "en_US",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_US.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_US.lang",
-      "version": 166,
-      "md5": "65830747e66425f240ed11d1c810590a"
-    },
-    {
-      "visual_name": "English (United Kingdom)",
-      "code": "en_GB",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_GB.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_GB.lang",
-      "version": 166,
-      "md5": "bcbd9057b1356959ec5c9e90aefbb699"
-    },
-    {
       "visual_name": "\uD55C\uAD6D\uC5B4 (\uD55C\uAE00)",
       "code": "ko_KR",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fko_KR.lang",
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fko_KR.lang",
       "version": 7,
       "md5": "e701922453d1a6e6e500f69345f6d472"
+    },
+    {
+      "visual_name": "English (United States)",
+      "code": "en_US",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_US.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_US.lang",
+      "version": 167,
+      "md5": "4757ac24c6c8fc471cd249c20ad57838"
+    },
+    {
+      "visual_name": "English (United Kingdom)",
+      "code": "en_GB",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_GB.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_GB.lang",
+      "version": 167,
+      "md5": "6ca3ad9377df327a1c131b9f2ce0c176"
     }
   ]
 }

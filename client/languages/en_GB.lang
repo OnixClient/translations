@@ -1040,6 +1040,13 @@ module.fov_changer.setting.change_fov_when_aiming.description=Toggle FOV change 
 module.fov_changer.setting.aiming_fov.name=Aiming FOV
 module.fov_changer.setting.aiming_fov.description=Set the aiming field of view.
 
+module.fov_changer.setting.flying_settings_category.name=Flying Settings
+module.fov_changer.setting.flying_settings_category.description=Settings for flying settings.
+module.fov_changer.setting.change_fov_when_flying.name=Change FOV When Flying
+module.fov_changer.setting.change_fov_when_flying.description=Toggle FOV change when flying.
+module.fov_changer.setting.flying_fov.name=Flying FOV
+module.fov_changer.setting.flying_fov.description=Set the flying field of view.
+
 module.fov_changer.setting.effect_settings_category.name=Effect Settings
 module.fov_changer.setting.effect_settings_category.description=Settings for effect settings.
 module.fov_changer.setting.change_fov_with_speed.name=Change FOV When Speed Changing Effects

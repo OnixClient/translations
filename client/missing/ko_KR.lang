@@ -1,3 +1,6 @@
+command.enableeverything.description=Enables everything execpt a few annoying mods that make the game literally unplayable.
+command.enableeverything.success=§aGood Luck!
+command.enableeverything.usage=§b%s
 module.chat_tweaks.setting.notification_on_mention.description=Sends a notification when you get mentioned in chat.
 module.chat_tweaks.setting.notification_on_mention.name=Notification On Chat Mention
 module.chat_tweaks.setting.ping_on_message.description=Play a ping sound with every chat message.

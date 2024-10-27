@@ -1,3 +1,6 @@
+command.enableeverything.description=Enables everything execpt a few annoying mods that make the game literally unplayable.
+command.enableeverything.success=§aGood Luck!
+command.enableeverything.usage=§b%s
 gui.down=Down
 gui.up=Up
 module.armor_hud.setting.displayed_slots_category.description=What inventory slots to show or not.

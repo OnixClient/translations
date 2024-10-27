@@ -1,3 +1,6 @@
+command.enableeverything.description=Enables everything execpt a few annoying mods that make the game literally unplayable.
+command.enableeverything.success=§aGood Luck!
+command.enableeverything.usage=§b%s
 module.arrow_counter.setting.icon_opacity.description=The transparency of the icon.
 module.arrow_counter.setting.icon_opacity.name=Icon Opacity
 module.arrow_counter.setting.mirror_icon.description=Mirrors the arrow iron.

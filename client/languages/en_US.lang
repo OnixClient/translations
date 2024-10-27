@@ -2514,6 +2514,11 @@ command.enchants.remove_success=§aSuccessfully removed enchantment %2$s from sl
 command.function.description=Executes a function file.
 command.function.usage=§b%s §a<full_function_filepath>
 
+## enableeverything
+command.enableeverything.description=Enables everything execpt a few annoying mods that make the game literally unplayable.
+command.enableeverything.usage=§b%s
+command.enableeverything.success=§aGood Luck!
+
 ## give
 command.give.description=Gives you an item.
 command.give.usage=§b%s §a<item> §b[amount=1] §b[data=1] §a[nbt={}]

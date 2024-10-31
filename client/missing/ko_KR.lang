@@ -1,6 +1,11 @@
 command.enableeverything.description=Enables everything execpt a few annoying mods that make the game literally unplayable.
 command.enableeverything.success=§aGood Luck!
 command.enableeverything.usage=§b%s
+command.sethardcore.description=Changes whether the current world is a hardcore one.
+command.sethardcore.no_args=§cMissing arguments.
+command.sethardcore.not_world_host=§cYou need to be the owner of the world to run this command.
+command.sethardcore.success=§aChanged the §cHardcore §astatus successfully (A relog will be required for changes to take full effect).
+command.sethardcore.usage=§b%s §d<true/false>
 module.chat_tweaks.setting.notification_on_mention.description=Sends a notification when you get mentioned in chat.
 module.chat_tweaks.setting.notification_on_mention.name=Notification On Chat Mention
 module.chat_tweaks.setting.ping_on_message.description=Play a ping sound with every chat message.

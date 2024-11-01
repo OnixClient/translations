@@ -1033,13 +1033,6 @@ module.fov_changer.setting.change_fov_when_aiming.description=Toggle FOV change 
 module.fov_changer.setting.aiming_fov.name=Aiming FOV
 module.fov_changer.setting.aiming_fov.description=Set the aiming field of view.
 
-module.fov_changer.setting.flying_settings_category.name=Flying Settings
-module.fov_changer.setting.flying_settings_category.description=Settings for flying settings.
-module.fov_changer.setting.change_fov_when_flying.name=Change FOV When Flying
-module.fov_changer.setting.change_fov_when_flying.description=Toggle FOV change when flying.
-module.fov_changer.setting.flying_fov.name=Flying FOV
-module.fov_changer.setting.flying_fov.description=Set the flying field of view.
-
 module.fov_changer.setting.effect_settings_category.name=Effect Settings
 module.fov_changer.setting.effect_settings_category.description=Settings for effect settings.
 module.fov_changer.setting.change_fov_with_speed.name=Change FOV When Speed Changing Effects
@@ -1051,12 +1044,26 @@ module.fov_changer.setting.speed_ii_plus_fov.description=Set the Speed II+ field
 module.fov_changer.setting.slowness_fov.name=Slowness FOV
 module.fov_changer.setting.slowness_fov.description=Set the Slowness field of view.
 
+module.fov_changer.setting.flying_settings_category.name=Flying Settings
+module.fov_changer.setting.flying_settings_category.description=Settings for flying settings.
+module.fov_changer.setting.change_fov_when_flying.name=Change FOV When Flying
+module.fov_changer.setting.change_fov_when_flying.description=Toggle FOV change when flying.
+module.fov_changer.setting.flying_fov.name=Flying FOV
+module.fov_changer.setting.flying_fov.description=Set the flying field of view.
+
 module.fov_changer.setting.sprinting_settings_category.name=Sprinting Settings
 module.fov_changer.setting.sprinting_settings_category.description=Settings for sprinting settings.
 module.fov_changer.setting.change_fov_when_sprinting.name=Change FOV When Sprinting
 module.fov_changer.setting.change_fov_when_sprinting.description=Toggle FOV change when sprinting.
 module.fov_changer.setting.sprinting_fov.name=Sprinting FOV
 module.fov_changer.setting.sprinting_fov.description=Set the sprinting field of view.
+
+module.fov_changer.sprinting_and_flying_settings_category.name=Sprinting And Flying Settings
+module.fov_changer.sprinting_and_flying_settings_category.description=Settings for when you are both sprinting and flying.
+module.fov_changer.change_fov_when_sprinting_and_flying.name=Change FOV When Sprinting And Flying
+module.fov_changer.change_fov_when_sprinting_and_flying.description=Toggle FOV change when sprinting and flying.
+module.fov_changer.sprinting_and_flying_fov.name=Sprinting And Flying FOV
+module.fov_changer.sprinting_and_flying_fov.description=Set the sprinting and flying field of view.
 
 module.fov_changer.setting.third_person_settings_category.name=Third Person Settings
 module.fov_changer.setting.third_person_settings_category.description=Settings for third person settings.

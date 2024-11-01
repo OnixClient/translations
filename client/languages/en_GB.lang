@@ -1067,12 +1067,12 @@ module.fov_changer.setting.change_fov_when_sprinting.description=Toggle FOV chan
 module.fov_changer.setting.sprinting_fov.name=Sprinting FOV
 module.fov_changer.setting.sprinting_fov.description=Set the sprinting field of view.
 
-module.fov_changer.sprinting_and_flying_settings_category.name=Sprinting And Flying Settings
-module.fov_changer.sprinting_and_flying_settings_category.description=Settings for when you are both sprinting and flying.
-module.fov_changer.change_fov_when_sprinting_and_flying.name=Change FOV When Sprinting And Flying
-module.fov_changer.change_fov_when_sprinting_and_flying.description=Toggle FOV change when sprinting and flying.
-module.fov_changer.sprinting_and_flying_fov.name=Sprinting And Flying FOV
-module.fov_changer.sprinting_and_flying_fov.description=Set the sprinting and flying field of view.
+module.fov_changer.setting.sprinting_and_flying_settings_category.name=Sprinting And Flying Settings
+module.fov_changer.setting.sprinting_and_flying_settings_category.description=Settings for when you are both sprinting and flying.
+module.fov_changer.setting.change_fov_when_sprinting_and_flying.name=Change FOV When Sprinting And Flying
+module.fov_changer.setting.change_fov_when_sprinting_and_flying.description=Toggle FOV change when sprinting and flying.
+module.fov_changer.setting.sprinting_and_flying_fov.name=Sprinting And Flying FOV
+module.fov_changer.setting.sprinting_and_flying_fov.description=Set the sprinting and flying field of view.
 
 module.fov_changer.setting.third_person_settings_category.name=Third Person Settings
 module.fov_changer.setting.third_person_settings_category.description=Settings for third person settings.

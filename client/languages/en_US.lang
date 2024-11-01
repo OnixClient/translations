@@ -591,8 +591,6 @@ module.chat_tweaks.setting.notification_on_mention.name=Notification On Chat Men
 module.chat_tweaks.setting.notification_on_mention.description=Sends a notification when you get mentioned in chat.
 module.chat_tweaks.setting.ping_on_message.name=Ping On Chat Message
 module.chat_tweaks.setting.ping_on_message.description=Play a ping sound with every chat message.
-module.chat_tweaks.setting.message_screen_time.name=Message Screen Time
-module.chat_tweaks.setting.message_screen_time.description=How long the message should show on the screen for by default.
 
 ## Chunk Border
 module.chunk_border.name=Chunk Border
@@ -2216,8 +2214,8 @@ module.movable_chat.setting.chat_lines.name=Chatbox Maximum Line Count
 module.movable_chat.setting.chat_lines.description=Sets the maximum line count in the chat box.
 module.movable_chat.setting.animation_settings.name=Animation Settings (Seconds)
 module.movable_chat.setting.animation_settings.description=Settings related to chat animations.
-module.movable_chat.setting.message_screen_time_moved.name=Message Screen Time Has Moved!
-module.movable_chat.setting.message_screen_time_moved.description=The message screen time has been moved to the Chat Tweaks module.
+module.movable_chat.setting.message_screen_time.name=Display Time
+module.movable_chat.setting.message_screen_time.description=Specifies the time messages are displayed.
 module.movable_chat.setting.message_inout_animation_speed.name=In/Out Animation Speed
 module.movable_chat.setting.message_inout_animation_speed.description=Controls the speed of message animations.
 module.movable_chat.setting.animations.name=Animations

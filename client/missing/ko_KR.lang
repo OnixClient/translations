@@ -6,8 +6,6 @@ command.sethardcore.no_args=§cMissing arguments.
 command.sethardcore.not_world_host=§cYou need to be the owner of the world to run this command.
 command.sethardcore.success=§aChanged the §cHardcore §astatus successfully (A relog will be required for changes to take full effect).
 command.sethardcore.usage=§b%s §d<true/false>
-module.chat_tweaks.setting.message_screen_time.description=How long the message should show on the screen for by default.
-module.chat_tweaks.setting.message_screen_time.name=Message Screen Time
 module.chat_tweaks.setting.notification_on_mention.description=Sends a notification when you get mentioned in chat.
 module.chat_tweaks.setting.notification_on_mention.name=Notification On Chat Mention
 module.chat_tweaks.setting.ping_on_message.description=Play a ping sound with every chat message.
@@ -34,6 +32,4 @@ module.global_settings.setting.fix_capes_being_hidden_with_some_packs.descriptio
 module.global_settings.setting.fix_capes_being_hidden_with_some_packs.name=Fix Hidden Capes
 module.hotbar_tweaks.setting.disable_hotbar_looping.description=Disables hotbar looping around when iterating through your hotbar slots.
 module.hotbar_tweaks.setting.disable_hotbar_looping.name=Disable Hotbar Looping
-module.movable_chat.setting.message_screen_time_moved.description=The message screen time has been moved to the Chat Tweaks module.
-module.movable_chat.setting.message_screen_time_moved.name=Message Screen Time Has Moved!
 module.ui.setting.gamepad.key_overlay_help=Press any button(s) to set the bind.

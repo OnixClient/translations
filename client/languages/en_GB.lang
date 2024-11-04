@@ -565,6 +565,8 @@ module.block_outline_overlay.setting.render_block_overlay.name=Render Block Over
 module.block_outline_overlay.setting.render_block_overlay.description=Whether or not to render the block overlay.
 module.block_outline_overlay.setting.3d_block_overlay.name=3D Block Overlay
 module.block_outline_overlay.setting.3d_block_overlay.description=Whether or not to render the block overlay through the block.
+module.block_outline_overlay.setting.use_vanilla_overlay_material.name=Use Vanilla Overlay Material
+module.block_outline_overlay.setting.use_vanilla_overlay_material.description=Make the mod use the vanilla block highlight look.
 module.block_outline_overlay.setting.block_overlay_color.name=Block Overlay Colour
 module.block_outline_overlay.setting.block_overlay_color.description=The colour of the block overlay.
 

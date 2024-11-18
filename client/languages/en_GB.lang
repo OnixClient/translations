@@ -1279,6 +1279,8 @@ module.null_movement_module.name=Null Movement
 module.null_movement_module.description=When two opposing movement directions are pressed, it will only register the last pressed input as the priority.\nLook at Razer's Snap Tap mode for a better understanding.
 module.null_movement_module.setting.affect_forward_and_backwards.name=Affect Forward And Backwards Keys
 module.null_movement_module.setting.affect_forward_and_backwards.description=Applies modifications to front and back keybinds.
+module.null_movement_module.setting.ignore_second_input.name=Ignore Second Input
+module.null_movement_module.setting.ignore_second_input.description=Ignores the second input until the first input is released.
 
 ## Motion Blur
 module.motion_blur.name=Motion Blur

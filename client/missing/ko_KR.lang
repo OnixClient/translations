@@ -34,4 +34,6 @@ module.global_settings.setting.fix_capes_being_hidden_with_some_packs.descriptio
 module.global_settings.setting.fix_capes_being_hidden_with_some_packs.name=Fix Hidden Capes
 module.hotbar_tweaks.setting.disable_hotbar_looping.description=Disables hotbar looping around when iterating through your hotbar slots.
 module.hotbar_tweaks.setting.disable_hotbar_looping.name=Disable Hotbar Looping
+module.null_movement_module.setting.ignore_second_input.description=Ignores the second input until the first input is released.
+module.null_movement_module.setting.ignore_second_input.name=Ignore Second Input
 module.ui.setting.gamepad.key_overlay_help=Press any button(s) to set the bind.

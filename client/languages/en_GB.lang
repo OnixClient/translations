@@ -1588,6 +1588,8 @@ module.rear_view.setting.going_back_anim.name=Animate Going Back
 module.rear_view.setting.going_back_anim.description=Toggles whether or not returning to the original rotation has an animation.
 module.rear_view.setting.target_rotation.name=Target Rotation
 module.rear_view.setting.target_rotation.description=The desired rotation amount.
+module.rear_view.setting.hide_hand.name=Hide Hand
+module.rear_view.setting.hide_hand.description=Hide the hand when the action is happening.
 
 ## Dynamic Perspective
 module.dynamic_perspective.name=Dynamic Perspective

@@ -2532,7 +2532,7 @@ command.sethardcore.usage=§b%s §d<true/false>
 
 ## enchants
 command.enchants.description=Enchants the item in a specific slot.
-command.enchants.usage=§b%s §b<slot> §d<name> §b<level>\n§b%s §6remove §b<slot> §d<name>\n§b%s §b<slot> §6clear
+command.enchants.usage=§b%s §b<slot> §d<name> §b<level>\n§b%s §b<slot> §6remove §d<name>\n§b%s §b<slot> §6clear
 command.enchants.no_item=No item in slot %s.
 command.enchants.no_enchant=Invalid enchantement.
 command.enchants.bad_level=Invalid level.

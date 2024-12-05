@@ -2738,6 +2738,11 @@ command.version.description=Displays the client and game version.
 command.version.usage=§b%s
 command.version.success=Client version: %s\nMinecraft version: %s
 
+command.horsestats.description=Displays the stats of the horse you are looking at.
+command.horsestats.usage=§b%s in looking at a minecraft:horse.
+command.horsestats.success=Jump Strength: %s (%s blocks high)\nSpeed: %s (%s blocks per second)
+command.horsestats.no_horse=Make sure you're looking at a horse right now!
+
 ## waypoint
 command.waypoint.description=manages waypoints.
 command.waypoint.usage=§b% §6add §a<name> §d[x] §d[y] §d[z] §8- §7Adds a waypoint.\n§b%s §6remove §a<name> §8- §7Removes a waypoint from the list\n§b%s §6list §8- §7Lists all your waypoints\n§b%s §6clear §8- §7Removes all waypoints\n§b%s §6tp §a<name> §8- §7Teleports you to a waypoint\n§b%s §6setworld §a<name> §8- §7Gives a custom name to a world, waypoints will be saved under this name and can be loaded using it too.

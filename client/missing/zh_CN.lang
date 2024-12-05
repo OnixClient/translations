@@ -1,6 +1,10 @@
 command.enableeverything.description=Enables everything execpt a few annoying mods that make the game literally unplayable.
 command.enableeverything.success=§aGood Luck!
 command.enableeverything.usage=§b%s
+command.horsestats.description=Displays the stats of the horse you are looking at.
+command.horsestats.no_horse=Make sure you're looking at a horse right now!
+command.horsestats.success=Jump Strength: %s (%s blocks high)\nSpeed: %s (%s blocks per second)
+command.horsestats.usage=§b%s in looking at a minecraft:horse.
 command.sethardcore.description=Changes whether the current world is a hardcore one.
 command.sethardcore.no_args=§cMissing arguments.
 command.sethardcore.not_world_host=§cYou need to be the owner of the world to run this command.

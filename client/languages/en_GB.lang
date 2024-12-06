@@ -2752,7 +2752,7 @@ command.version.success=Client version: %s\nMinecraft version: %s
 command.horsestats.description=Displays the stats of the horse you are looking at.
 command.horsestats.usage=§b%s in looking at a minecraft:horse.
 command.horsestats.success=Jump Strength: %s (%s blocks high)\nSpeed: %s (%s blocks per second)
-command.horsestats.no_horse=Make sure you're looking at a horse right now!
+command.horsestats.no_horse=You need to be looking at a horse/mule/donkey.
 
 ## waypoint
 command.waypoint.description=manages waypoints.

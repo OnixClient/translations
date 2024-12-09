@@ -2053,7 +2053,7 @@ module.speed_display.name=Compteur de Vitesse
 module.speed_display.description=Affiche votre vitesse en blocs par seconde.
 module.speed_display.setting.include_vertical_speed.name=Inclure la Vitesse Verticale
 module.speed_display.setting.include_vertical_speed.description=Inclut la vitesse verticale dans l'affichage.
-module.speed_display.blocks_per_second=blocs/s
+module.speed_display.blocks_per_second=%s blocs/s
 
 
 ## Stopwatch Module

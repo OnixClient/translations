@@ -1857,6 +1857,8 @@ module.audio_subtitle.setting.max_name_length.name=Maximum Name Length
 module.audio_subtitle.setting.max_name_length.description=Sets the maximum characters for sound names in subtitles.
 module.audio_subtitle.setting.max_column_count.name=Maximum Row Count
 module.audio_subtitle.setting.max_column_count.description=Specifies the maximum number of rows displayed for subtitles.
+module.audio_subtitle.setting.center_text.name=Center Text
+module.audio_subtitle.setting.center_text.description=Centers the text of every subtitle in the list.
 
 
 

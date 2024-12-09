@@ -81,22 +81,6 @@
       "md5": "e701922453d1a6e6e500f69345f6d472"
     },
     {
-      "visual_name": "English (United States)",
-      "code": "en_US",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_US.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_US.lang",
-      "version": 195,
-      "md5": "ba095bb6c062798945cc2cb96b7eb9bd"
-    },
-    {
-      "visual_name": "English (United Kingdom)",
-      "code": "en_GB",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_GB.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_GB.lang",
-      "version": 195,
-      "md5": "b439d38a0aea17902d1046bde72f4ff3"
-    },
-    {
       "visual_name": "Fran\u00E7ais (Canada)",
       "code": "fr_CA",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Ffr_CA.lang",
@@ -111,6 +95,22 @@
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Ffr_FR.lang",
       "version": 22,
       "md5": "2740391eb8d85504a6e9dca2e13a9682"
+    },
+    {
+      "visual_name": "English (United States)",
+      "code": "en_US",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_US.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_US.lang",
+      "version": 196,
+      "md5": "1a7e6f0bd163e1f01ca89562161ee080"
+    },
+    {
+      "visual_name": "English (United Kingdom)",
+      "code": "en_GB",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_GB.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_GB.lang",
+      "version": 196,
+      "md5": "e8c5eae8df8c5c5e5887bf75e0f1c6b2"
     }
   ]
 }

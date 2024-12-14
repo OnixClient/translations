@@ -2254,6 +2254,12 @@ module.movable_title.setting.title_scale.name=Title Scale
 module.movable_title.setting.title_scale.description=Adjusts the scale of the title.
 module.movable_title.setting.subtitle_scale.name=Subtitle Scale
 module.movable_title.setting.subtitle_scale.description=Adjusts the scale of the subtitle.
+module.movable_title.setting.title_text_color.name=Title Text Colour
+module.movable_title.setting.title_text_color.description=Changes the colour of the title text.
+module.movable_title.setting.subtitle_text_color.name=Subtitle Text Colour
+module.movable_title.setting.subtitle_text_color.description=Changes the colour of the subtitle text.
+module.movable_title.setting.space_between_text.name=Space Between Text
+module.movable_title.setting.space_between_text.description=Adjusts the spacing between the title and subtitle text.
 
 
 ## Movable Actionbar Module

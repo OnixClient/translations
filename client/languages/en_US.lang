@@ -577,7 +577,7 @@ module.chat_tweaks.setting.timestamp_include_milliseconds.description=Whether or
 module.chat_tweaks.setting.timestamp_include_brackets.name=Include Brackets
 module.chat_tweaks.setting.timestamp_include_brackets.description=Whether or not to include brackets around the timestamp.
 module.chat_tweaks.setting.keep_message_when_closing.name=Keep Message When Closing
-module.chat_tweaks.setting.keep_message_when_closing.description=Whether or not to keep the message you have started typing when the chat closes and opens again.
+module.chat_tweaks.setting.keep_message_when_closing.description=Whether or not to keep the message in the message box when closing and reopening the chat.
 
 module.chat_tweaks.setting.compact_chat_category.name=Compact Chat
 module.chat_tweaks.setting.compact_chat_category.description=Settings for compact chat.

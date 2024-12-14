@@ -2246,6 +2246,16 @@ module.minimap.setting.direction_color.description=The colour of the cardinal di
 ## Movable Title Module
 module.movable_title.name=Movable Title
 module.movable_title.description=Allows you to customize the position of the title.
+module.movable_title.setting.force_minecraft_font.name=Force Minecraft Font
+module.movable_title.setting.force_minecraft_font.description=Enforces the use of the Minecraft font.
+module.movable_title.setting.global_scale.name=Global Scale
+module.movable_title.setting.global_scale.description=Adjusts the overall scale of the title.
+module.movable_title.setting.title_scale.name=Title Scale
+module.movable_title.setting.title_scale.description=Adjusts the scale of the title.
+module.movable_title.setting.subtitle_scale.name=Subtitle Scale
+module.movable_title.setting.subtitle_scale.description=Adjusts the scale of the subtitle.
+
+
 ## Movable Actionbar Module
 module.movable_actionbar.name=Movable Actionbar
 module.movable_actionbar.description=Allows you to customize the position of the actionbar.

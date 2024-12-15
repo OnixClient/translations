@@ -2260,6 +2260,10 @@ module.movable_title.setting.subtitle_text_color.name=Subtitle Text Colour
 module.movable_title.setting.subtitle_text_color.description=Changes the colour of the subtitle text.
 module.movable_title.setting.space_between_text.name=Space Between Text
 module.movable_title.setting.space_between_text.description=Adjusts the spacing between the title and subtitle text.
+module.movable_title.setting.show_subtitle.name=Show Subtitle
+module.movable_title.setting.show_subtitle.description=Enables or disables the subtitle display.
+module.movable_title.setting.use_vanilla_position.name=Use Vanilla Position
+module.movable_title.setting.use_vanilla_position.description=Aligns the title and subtitle to the default Minecraft position.
 
 
 ## Movable Actionbar Module

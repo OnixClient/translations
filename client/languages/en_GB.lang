@@ -2264,7 +2264,10 @@ module.movable_title.setting.show_subtitle.name=Show Subtitle
 module.movable_title.setting.show_subtitle.description=Enables or disables the subtitle display.
 module.movable_title.setting.use_vanilla_position.name=Use Vanilla Position
 module.movable_title.setting.use_vanilla_position.description=Aligns the title and subtitle to the default Minecraft position.
-
+module.movable_title.setting.time_multiplier_scale.name=Time Scale Multiplier
+module.movable_title.setting.time_multiplier_scale.description=Aligns the title and subtitle to the default Minecraft position.
+module.movable_title.setting.time_multiplier_opacity.name=Time Opacity Multiplier
+module.movable_title.setting.time_multiplier_opacity.description=Aligns the title and subtitle to the default Minecraft position.
 
 ## Movable Actionbar Module
 module.movable_actionbar.name=Movable Actionbar

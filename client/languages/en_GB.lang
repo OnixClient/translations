@@ -2264,10 +2264,16 @@ module.movable_title.setting.show_subtitle.name=Show Subtitle
 module.movable_title.setting.show_subtitle.description=Enables or disables the subtitle display.
 module.movable_title.setting.use_vanilla_position.name=Use Vanilla Position
 module.movable_title.setting.use_vanilla_position.description=Aligns the title and subtitle to the default Minecraft position.
-module.movable_title.setting.time_multiplier_scale.name=Time Scale Multiplier
-module.movable_title.setting.time_multiplier_scale.description=Aligns the title and subtitle to the default Minecraft position.
-module.movable_title.setting.time_multiplier_opacity.name=Time Opacity Multiplier
-module.movable_title.setting.time_multiplier_opacity.description=Aligns the title and subtitle to the default Minecraft position.
+module.movable_title.setting.time_multiplier_scale_in.name=Scale In Time Multiplier
+module.movable_title.setting.time_multiplier_scale_in.description=Adjusts the time multiplier for scaling in animations.
+module.movable_title.setting.time_multiplier_scale_out.name=Scale Out Time Multiplier
+module.movable_title.setting.time_multiplier_scale_out.description=Adjusts the time multiplier for scaling out animations.
+module.movable_title.setting.time_multiplier_opacity_in.name=Opacity In Time Multiplier
+module.movable_title.setting.time_multiplier_opacity_in.description=Adjusts the time multiplier for fading in opacity.
+module.movable_title.setting.time_multiplier_opacity_out.name=Opacity Out Time Multiplier
+module.movable_title.setting.time_multiplier_opacity_out.description=Adjusts the time multiplier for fading out opacity.
+module.movable_title.setting.time_multiplier_stay.name=Stay Time Multiplier
+module.movable_title.setting.time_multiplier_stay.description=Adjusts the time multiplier for the duration titles remain visible.
 
 ## Movable Actionbar Module
 module.movable_actionbar.name=Movable Actionbar

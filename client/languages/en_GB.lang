@@ -1163,7 +1163,7 @@ module.glint_color_changer.setting.presets.white=White
 module.gui_scale_changer.name=GUI Scale Changer
 module.gui_scale_changer.description=Change the size of your GUI.
 
-module.gui_scale_changer.setting.guiscale_warning.name=GUI Scale Warning
+module.gui_scale_changer.setting.guiscale_warning.name=Warning! Going above 5 may have unforeseen side effects! (Your game will be HUGE!)
 module.gui_scale_changer.setting.guiscale_warning.description=Warning! Going above 5 may have unforeseen side effects! (Your game will be HUGE!)
 module.gui_scale_changer.setting.guiscale.name=GuiScale
 module.gui_scale_changer.setting.guiscale.description=Adjust the GUI scale. Warning: Above 5 may cause significant changes.

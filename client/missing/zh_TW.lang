@@ -97,8 +97,8 @@ module.global_settings.setting.fix_capes_being_hidden_with_some_packs.name=Fix H
 module.global_settings.setting.module.global_settings.setting.revert_initial_ui_focus.description=Changes the mouse behaviour to not have the top most slot selected when opening a UI..description=Changes the mouse behaviour to not have the top most slot selected when opening a UI.
 module.global_settings.setting.notification_sound_volume.description=The volume of the notification sound.
 module.global_settings.setting.notification_sound_volume.name=Notification Sound Volume
-module.global_settings.setting.revert_initial_ui_focus_experimental.description=Changes the way it fixes the mouse issue, may result in unexpected behavior.
-module.global_settings.setting.revert_initial_ui_focus_experimental.name=Experimental Mode
+module.global_settings.setting.revert_initial_ui_focus_experimental.description=Makes it try its best to also select the correct slot. May result in unexpected behavior.
+module.global_settings.setting.revert_initial_ui_focus_experimental.name=Experimental Mouse Position Fix
 module.global_settings.setting.should_play_click_sound.description=Play a click sound when you interact with the Onix Client UI.
 module.global_settings.setting.should_play_click_sound.name=Play Click Sound
 module.global_settings.setting.should_play_notification_sound.description=Play a sound when you get a notification.

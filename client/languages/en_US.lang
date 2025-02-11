@@ -201,6 +201,7 @@ notification.warning.chroma_mc_renderer.title=Chroma does not work on the Minecr
 notification.module_is_blocked.title=%s is blocked on this server and cannot be enabled.
 notification.modules_now_blocked.title=Some modules have been blocked on this server.
 notification.modules_unblocked.title=Unblocked all modules.
+notification.module_disabled.title=%s was disabled.
 
 ## Client Hud
 module.clienthudui.setting.open_inventory=Open Inventory

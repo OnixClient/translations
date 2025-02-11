@@ -417,6 +417,7 @@ module.visual.setting.opacity.description=The opacity (how transparent it is).
 module.visual.setting.opacity.name=Opacity
 module.zoom.setting.use_old_sensitivity_math.description=It feels pretty good but the slider never did anything, so if you need to change the slider you need to turn this off.
 module.zoom.setting.use_old_sensitivity_math.name=Use Old Sensitivity Math
+notification.module_disabled.description=You can click this notification to re-enable the module.
 notification.module_disabled.title=%s was disabled.
 onixclient.pre_render_dragon_fix_needed=§fUse the §9Onix Client Launcher§f for using\n§bOnix Client Premium§f on §e1.16.100§f or below.\nThe launcher must be the one opening the game.
 ui.please_update.close_game_button=Close Game

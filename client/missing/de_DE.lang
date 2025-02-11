@@ -932,6 +932,7 @@ notification.greet.halloween_mistake.title=You have made a terrible mistake >:D 
 notification.greet.halloween.title=Onix Client has SPOOKED your Minecraft! (boo!) (%s).
 notification.greet.normal.description=Press %s or INSERT to open the client GUI.
 notification.greet.normal.title=Onix Client is now injected! (%ss).
+notification.module_disabled.description=You can click this notification to re-enable the module.
 notification.module_disabled.title=%s was disabled.
 notification.module_is_blocked.title=%s is blocked on this server and cannot be enabled.
 notification.modules_now_blocked.title=Some modules have been blocked on this server.

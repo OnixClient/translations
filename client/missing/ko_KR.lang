@@ -114,3 +114,4 @@ module.rear_view.setting.hide_hand.name=Hide Hand
 module.speed_display.setting.hide_unit.description=Hides the units text to only display the number.
 module.speed_display.setting.hide_unit.name=Hide Unit
 module.ui.setting.gamepad.key_overlay_help=Press any button(s) to set the bind.
+notification.module_disabled.title=%s was disabled.

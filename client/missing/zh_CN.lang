@@ -200,6 +200,7 @@ module.toggle_sprint_sneak.setting.controller_sprint_threshhold.name=Controller 
 module.ui.setting.gamepad.key_overlay_help=Press any button(s) to set the bind.
 module.zoom.setting.use_old_sensitivity_math.description=It feels pretty good but the slider never did anything, so if you need to change the slider you need to turn this off.
 module.zoom.setting.use_old_sensitivity_math.name=Use Old Sensitivity Math
+notification.module_disabled.title=%s was disabled.
 ui.please_update.close_game_button=Close Game
 ui.please_update.later_button=Later (%s days left)
 ui.please_update.later_button_single=Later (%s day left)

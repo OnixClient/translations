@@ -68,6 +68,7 @@ module.freelook.setting.allow_perspective_change.description=Whether or not you 
 module.freelook.setting.allow_perspective_change.name=Allow Perspective Change
 module.global_settings.setting.controller_open_gui_key.description=The key to open the Onix Client UI when using a controller.
 module.global_settings.setting.controller_open_gui_key.name=Controller Open UI Key
+module.global_settings.setting.disable_module_in_hud_editor_key.name=Disable Module In HUD Editor Key
 module.global_settings.setting.fix_capes_being_hidden_with_some_packs.description=WARNING: Your game MAY crash when using some texture packs and joining some servers. If you want your pack to be fixed to work properly with the feature, please contact jqms on Discord.\nFixes capes being hidden when using certain texture packs.
 module.global_settings.setting.fix_capes_being_hidden_with_some_packs.name=Fix Hidden Capes
 module.global_settings.setting.module.global_settings.setting.revert_initial_ui_focus.description=Changes the mouse behaviour to not have the top most slot selected when opening a UI..description=Changes the mouse behaviour to not have the top most slot selected when opening a UI.

@@ -442,6 +442,8 @@ module.global_settings.setting.should_preserve_module_editor_state.name=Preserve
 module.global_settings.setting.should_preserve_module_editor_state.description=Should the state of the mod editor stay when closed and opened?\nThis will keep the selected mod open, the scroll you have in that mod and the search bar content.
 module.global_settings.setting.idiots_wants_to_see_mods_in_f1.name=Don't Hide Mods in F1
 module.global_settings.setting.idiots_wants_to_see_mods_in_f1.description=Shows mods in F1.
+module.global_settings.setting.disable_module_in_hud_editor_key.name=Disable Module In HUD Editor Key
+module.global_settings.setting.disable_module_in_hud_editor_key.name=The key used to disable a module from the HUD editor.
 
 module.global_settings.setting.screenshot_settings_category.name=Screenshot Settings
 module.global_settings.setting.screenshot_settings_category.description=Settings related to screenshots.

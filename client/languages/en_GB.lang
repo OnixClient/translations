@@ -1622,6 +1622,10 @@ module.view_model.setting.scale_z.description=Adjust the Z scale of the view mod
 module.view_model.setting.is_weird.name=Weird
 module.view_model.setting.is_weird.description=Toggle weird view model.
 
+## Left Handed
+module.left_handed.name=Rightn't
+module.left_handed.description=Makes your main hand be the left hand :face_vomiting:
+
 ## Rear View
 module.rear_view.name=Rear View
 module.rear_view.description=Allows you to turn your head without moving your body while holding a key.

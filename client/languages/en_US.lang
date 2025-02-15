@@ -1615,7 +1615,7 @@ module.view_model.setting.is_weird.description=Toggle weird view model.
 
 ## Left Handed
 module.left_handed.name=Left Hand
-module.left_handed.description=Makes your main hand be the left hand. People wanted this for some reason. So sure. Why not. Have fun I guess.
+module.left_handed.description=Makes your main hand be the left hand. People (Seraphim) wanted this for some reason. So sure. Why not. Have fun I guess.
 
 ## Rear View
 module.rear_view.name=Rear View

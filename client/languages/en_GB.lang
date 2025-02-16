@@ -822,6 +822,8 @@ module.creative_tools.setting.hold_to_stop_momentum.description=Hold to stop all
 
 module.creative_tools.setting.make_hitboxes_esp.name=Make Hitboxes ESP
 module.creative_tools.setting.make_hitboxes_esp.description=Enable Hitboxes ESP.
+module.creative_tools.setting.patch_movement_mode.name=Disable Rewind On Local Worlds
+module.creative_tools.setting.patch_movement_mode.description=Disables the rewind (lagback) functionality that was enabled since 1.21.60. Only works on your own worlds.
 
 module.creative_tools.notification.autoclick_start=Auto Clicking Enabled, be careful.
 module.creative_tools.notification.autoclick_stop=Auto Clicking Disabled.
@@ -831,6 +833,7 @@ module.creative_tools.notification.clicktp_stop=ClickTP Disabled.
 module.creative_tools.notification.phase_start=Phase Enabled, be careful.
 module.creative_tools.notification.phase_stop=Phase Disabled.
 module.creative_tools.notification.op_needed=You need to be an operator to use %s%s.
+
 
 ## Crop Protector
 module.crop_protector.name=Crop Protector

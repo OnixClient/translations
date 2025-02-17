@@ -533,6 +533,8 @@ module.global_settings.setting.should_play_notification_sound.name=Play Notifica
 module.global_settings.setting.should_play_notification_sound.description=Play a sound when you get a notification.
 module.global_settings.setting.notification_sound_volume.name=Notification Sound Volume
 module.global_settings.setting.notification_sound_volume.description=The volume of the notification sound.
+module.global_settings.setting.disable_file_integrity_check.name=Disable File Integrity Check
+module.global_settings.setting.disable_file_integrity_check.description=Disables Minecraft's internal file integrity check.
 
 module.global_settings.setting.controller_cursor_sensitivity.name=Controller Cursor Sensitivity
 module.global_settings.setting.controller_cursor_sensitivity.description=The sensitivity of the cursor when being controlled with a controller.

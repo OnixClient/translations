@@ -94,6 +94,8 @@ module.entity_tweaks.setting.dont_hit_tamed_animals_bypass_with_sneak.descriptio
 module.entity_tweaks.setting.dont_hit_tamed_animals_bypass_with_sneak.name=Bypass With Sneak
 module.entity_tweaks.setting.dont_hit_tamed_animals.description=Stops you from being able to attack tamed animals.
 module.entity_tweaks.setting.dont_hit_tamed_animals.name=Prevent Hitting Tamed Animals
+module.entity_tweaks.setting.dont_hit_villagers.description=Stops you from being able to attack villagers.
+module.entity_tweaks.setting.dont_hit_villagers.name=Prevent Hitting Villagers
 module.fov_changer.setting.change_fov_when_flying.description=Toggle FOV change when flying.
 module.fov_changer.setting.change_fov_when_flying.name=Change FOV When Flying
 module.fov_changer.setting.change_fov_when_sprinting_and_flying.description=Toggle FOV change when sprinting and flying.

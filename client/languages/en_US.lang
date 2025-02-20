@@ -639,7 +639,9 @@ module.chat_tweaks.setting.ping_on_message.description=Play a ping sound with ev
 module.entity_tweaks.name=Entity Tweaks
 module.entity_tweaks.description=Various tweaks to the entities. If you have any suggestions for this module, please let us know.
 module.entity_tweaks.setting.dont_hit_tamed_animals.name=Prevent Hitting Tamed Animals
-module.entity_tweaks.setting.dont_hit_tamed_animals.description=Stops you from being able to damage tamed animals.
+module.entity_tweaks.setting.dont_hit_tamed_animals.description=Stops you from being able to attack tamed animals.
+module.entity_tweaks.setting.dont_hit_tamed_animals_bypass_key.name=Bypass Key
+module.entity_tweaks.setting.dont_hit_tamed_animals_bypass_key.description=The key you hold to bypass not being able to attack tamed animals.
 
 ## Chunk Border
 module.chunk_border.name=Chunk Border

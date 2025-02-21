@@ -1417,12 +1417,17 @@ module.particle_multiplier.setting.particle_multiplier.description=Adjust the nu
 ## Static Camera
 module.static_camera.name=Static Camera
 module.static_camera.description=Allows you to place the camera in the world. The camera's rotation is inverted when being adjusted.
-
 module.static_camera.setting.allow_rotation_default.name=Allow Rotation by Default
 module.static_camera.setting.allow_rotation_default.description=Enable default rotation for the camera.
-
 module.static_camera.setting.allow_rotation_key.name=Allow Rotation Key
 module.static_camera.setting.allow_rotation_key.description=Set a keybind to enable camera rotation.
+
+
+## Immersive Camera
+module.immersive_camera.name=Immersive Camera
+module.immersive_camera.description=Overhaul the feel of the camera with nice rotations and effects.
+module.immersive_camera.setting.turning_roll_intensity.name=Turning Roll Intensity
+module.immersive_camera.setting.turning_roll_intensity.description=The intensity of the roll rotation when turning.
 
 ## Java Inventory Hotkeys
 module.inventory_hotkeys.name=Java Inventory Hotkeys

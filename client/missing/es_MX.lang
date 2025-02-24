@@ -555,7 +555,7 @@ module.global_settings.setting.legacy_scripting_block_changed_event_enabled.name
 module.global_settings.setting.module.global_settings.setting.revert_initial_ui_focus.description=Changes the mouse behaviour to not have the top most slot selected when opening a UI..description=Changes the mouse behaviour to not have the top most slot selected when opening a UI.
 module.global_settings.setting.notification_sound_volume.description=The volume of the notification sound.
 module.global_settings.setting.notification_sound_volume.name=Notification Sound Volume
-module.global_settings.setting.revert_initial_ui_focus_experimental_ignore_chat.description=Makes it ignore the chat, this is hidden in the UI by default.
+module.global_settings.setting.revert_initial_ui_focus_experimental_ignore_chat.description=Makes it not fix it when opening chat.
 module.global_settings.setting.revert_initial_ui_focus_experimental_ignore_chat.name=Mouse Position Fix Ignore chat
 module.global_settings.setting.revert_initial_ui_focus_experimental.description=Makes it try its best to also select the correct button when you open a new screen. May result in unexpected behavior.
 module.global_settings.setting.revert_initial_ui_focus_experimental.name=Mouse Position Fix

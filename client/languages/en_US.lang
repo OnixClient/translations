@@ -763,6 +763,11 @@ module.creative_tools.setting.freecam_speed.name=Freecam Speed
 module.creative_tools.setting.freecam_speed.description=The speed of the freecam.
 module.creative_tools.setting.freecam_sprint_multiplier.name=Freecam Sprint Multiplier
 module.creative_tools.setting.freecam_sprint_multiplier.description=The sprint multiplier of the freecam.
+module.creative_tools.setting.freecam_on_ice.name=Freecam On Ice
+module.creative_tools.setting.freecam_on_ice.description=You don't stop immediatly, it's slippery.
+module.creative_tools.setting.freecam_friction.name=Freecam Friction
+module.creative_tools.setting.freecam_friction.description=How much friction does the camera have? Lower numbers will make you glide further.
+
 module.creative_tools.setting.freecam_position_x.name=Freecam Position X
 module.creative_tools.setting.freecam_position_x.description=The X position of the freecam.
 module.creative_tools.setting.freecam_position_y.name=Freecam Position Y

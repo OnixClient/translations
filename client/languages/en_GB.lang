@@ -776,6 +776,8 @@ module.creative_tools.setting.freecam_on_ice.name=Freecam On Ice
 module.creative_tools.setting.freecam_on_ice.description=You don't stop immediatly, it's slippery.
 module.creative_tools.setting.freecam_friction.name=Freecam Friction
 module.creative_tools.setting.freecam_friction.description=How much friction does the camera have? Lower numbers will make you glide further.
+module.creative_tools.setting.freecam_starts_at_max_speed.name=Freecam Max Speed Movement
+module.creative_tools.setting.freecam_starts_at_max_speed.description=If enabled, moving will be at full speed and won't start slow.
 
 module.creative_tools.setting.freecam_position_x.name=Freecam Position X
 module.creative_tools.setting.freecam_position_x.description=The X position of the freecam.

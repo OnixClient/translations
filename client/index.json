@@ -65,14 +65,6 @@
       "md5": "4d5fb446779621b8f28b6d708ac7eccf"
     },
     {
-      "visual_name": "English (April Fools)",
-      "code": "en_AF",
-      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_AF.lang",
-      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_AF.lang",
-      "version": 156,
-      "md5": "a3a108a4d7c457b56e1cac5a2e4d6820"
-    },
-    {
       "visual_name": "\uD55C\uAD6D\uC5B4 (\uD55C\uAE00)",
       "code": "ko_KR",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fko_KR.lang",
@@ -111,6 +103,14 @@
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_GB.lang",
       "version": 231,
       "md5": "06cac09721c3a68ddffaa01826da6b02"
+    },
+    {
+      "visual_name": "English (April Fools)",
+      "code": "en_AF",
+      "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_AF.lang",
+      "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_AF.lang",
+      "version": 157,
+      "md5": "4404ef339a15c11d034e60bf4f224fd3"
     }
   ]
 }

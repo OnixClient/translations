@@ -773,11 +773,11 @@ module.creative_tools.setting.freecam_speed.description=The speed of the freecam
 module.creative_tools.setting.freecam_sprint_multiplier.name=Freecam Sprint Multiplier
 module.creative_tools.setting.freecam_sprint_multiplier.description=The sprint multiplier of the freecam.
 module.creative_tools.setting.freecam_on_ice.name=Freecam On Ice
-module.creative_tools.setting.freecam_on_ice.description=You don't stop immediatly, it's slippery.
+module.creative_tools.setting.freecam_on_ice.description=Makes Freecam slippery like you are on ice.
 module.creative_tools.setting.freecam_friction.name=Freecam Friction
-module.creative_tools.setting.freecam_friction.description=How much friction does the camera have? Lower numbers will make you glide further.
+module.creative_tools.setting.freecam_friction.description=Freecam Friction Amount: What does it do? Does it do things?? Let's find out!
 module.creative_tools.setting.freecam_starts_at_max_speed.name=Freecam Max Speed Movement
-module.creative_tools.setting.freecam_starts_at_max_speed.description=If enabled, moving will be at full speed and won't start slow.
+module.creative_tools.setting.freecam_starts_at_max_speed.description=Freecam immediately moves at full speed without ramping up gradually.
 
 module.creative_tools.setting.freecam_position_x.name=Freecam Position X
 module.creative_tools.setting.freecam_position_x.description=The X position of the freecam.
@@ -1198,7 +1198,7 @@ module.gui_scale_changer.description=Change the size of your GUI.
 
 module.gui_scale_changer.setting.guiscale_warning.name=Warning! Going above 5 may have unforeseen side effects! (Your game will be HUGE!)
 module.gui_scale_changer.setting.guiscale_warning.description=Warning! Going above 5 may have unforeseen side effects! (Your game will be HUGE!)
-module.gui_scale_changer.setting.guiscale.name=GuiScale
+module.gui_scale_changer.setting.guiscale.name=GUI Scale
 module.gui_scale_changer.setting.guiscale.description=Adjust the GUI scale. Warning: Above 5 may cause significant changes.
 
 module.gui_scale_changer.setting.round.name=Round Guiscale

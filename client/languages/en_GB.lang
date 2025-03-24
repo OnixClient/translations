@@ -1594,11 +1594,11 @@ module.rod_fix_mod.description=Allows you to cast a fishing rod while looking at
 ## Sky Overlay Changer
 module.sky_overlay_changer.name=Sky Overlay Changer
 module.sky_overlay_changer.description=Allows you to change the sky overlay, without leaving the world.
-module.sky_overlay_changer.setting.save_button.name=Save Sky
-module.sky_overlay_changer.setting.save_button.description=Saves your current skybox.
+module.sky_overlay_changer.setting.save_button.name=Saved Sky Name
+module.sky_overlay_changer.setting.save_button.description=The name that the current sky will save as.
 module.sky_overlay_changer.setting.save_button.button=Save
-module.sky_overlay_changer.setting.save_name.name=The button you use to save the skybox.
-module.sky_overlay_changer.setting.save_name.description=What
+module.sky_overlay_changer.setting.save_name.name=Save Current Skybox
+module.sky_overlay_changer.setting.save_name.description=Saves the current skybox.
 
 ## Snaplook
 module.snaplook.name=Snaplook

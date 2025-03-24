@@ -1,5 +1,5 @@
 module.sky_overlay_changer.setting.save_button.button=Save
-module.sky_overlay_changer.setting.save_button.description=Saves your current skybox.
-module.sky_overlay_changer.setting.save_button.name=Save Sky
-module.sky_overlay_changer.setting.save_name.description=What
-module.sky_overlay_changer.setting.save_name.name=The button you use to save the skybox.
+module.sky_overlay_changer.setting.save_button.description=The name that the current sky will save as.
+module.sky_overlay_changer.setting.save_button.name=Saved Sky Name
+module.sky_overlay_changer.setting.save_name.description=Saves the current skybox.
+module.sky_overlay_changer.setting.save_name.name=Save Current Skybox

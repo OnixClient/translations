@@ -1591,9 +1591,9 @@ module.render_options.setting.disable_vignette.description=Disable rendering for
 module.rod_fix_mod.name=RodFix
 module.rod_fix_mod.description=Allows you to cast a fishing rod while looking at an entity. This is a bug in this version! (MCPE-65249)
 
-## Sky Overlay Changer
-module.sky_overlay_changer.name=Sky Overlay Changer
-module.sky_overlay_changer.description=Allows you to change the sky overlay, without leaving the world.
+## Sky Overlay Changer/Skybox Switcher
+module.sky_overlay_changer.name=Skybox Switcher
+module.sky_overlay_changer.description=Allows you to change the skybox without leaving the world.
 module.sky_overlay_changer.setting.save_button.name=Saved Sky Name
 module.sky_overlay_changer.setting.save_button.description=The name that the current sky will save as.
 module.sky_overlay_changer.setting.save_button.button=Save

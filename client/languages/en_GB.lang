@@ -1889,6 +1889,8 @@ module.armor_hud.setting.horizontal.name=Horizontally Aligned
 module.armor_hud.setting.horizontal.description=Arranges the armour and mainhand items in a horizontal line.
 module.armor_hud.setting.is_hotbar.name=Above Hunger Bar
 module.armor_hud.setting.is_hotbar.description=Positions the display above the hunger bar.
+module.armor_hud.setting.is_hotbar.name=Besides Hotbar
+module.armor_hud.setting.is_hotbar.description=Positions the display besides bar.
 
 module.armor_hud.setting.displayed_slots_category.name=Displayed Slots
 module.armor_hud.setting.displayed_slots_category.description=What inventory slots to show or not.

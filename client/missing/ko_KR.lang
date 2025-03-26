@@ -185,3 +185,4 @@ module.toggle_sprint_sneak.setting.sprinting_toggled=Sprinting: (Toggled)
 module.ui.setting.gamepad.key_overlay_help=Press any button(s) to set the bind.
 notification.module_disabled.description=You can click this notification to re-enable the module.
 notification.module_disabled.title=%s was disabled.
+onixclient.april_fools_text=Your fool has been APRILED! Run .setlocale en_US to change it back to English!

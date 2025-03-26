@@ -1,3 +1,11 @@
 module.sky_overlay_changer.setting.open_skies_button.button=Open
 module.sky_overlay_changer.setting.open_skies_button.description=Open the folder containing all the skyboxes you have saved.
 module.sky_overlay_changer.setting.open_skies_button.name=Open Skies Folder
+module.toggle_sprint_sneak.setting.sneaking_always=Sneaking: (Always)
+module.toggle_sprint_sneak.setting.sneaking_held=Sneaking: (Held)
+module.toggle_sprint_sneak.setting.sneaking_not_toggled=Sneaking: (Not Toggled)
+module.toggle_sprint_sneak.setting.sneaking_toggled=Sneaking: (Toggled)
+module.toggle_sprint_sneak.setting.sprinting_always=Sprinting: (Always)
+module.toggle_sprint_sneak.setting.sprinting_held=Sprinting: (Held)
+module.toggle_sprint_sneak.setting.sprinting_not_toggled=Sprinting: (Not Toggled)
+module.toggle_sprint_sneak.setting.sprinting_toggled=Sprinting: (Toggled)

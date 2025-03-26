@@ -1653,6 +1653,16 @@ module.toggle_sprint_sneak.setting.controller_sprint_threshhold.description=How 
 module.toggle_sprint_sneak.setting.controller_sprint_key.name=Controller Sprint Key
 module.toggle_sprint_sneak.setting.controller_sprint_key.description=Set the key to toggle sprinting.
 
+module.toggle_sprint_sneak.setting.sprinting_not_toggled=Sprinting: (Not Toggled)
+module.toggle_sprint_sneak.setting.sprinting_held=Sprinting: (Held)
+module.toggle_sprint_sneak.setting.sprinting_toggled=Sprinting: (Toggled)
+module.toggle_sprint_sneak.setting.sprinting_always=Sprinting: (Always)
+module.toggle_sprint_sneak.setting.sneaking_not_toggled=Sneaking: (Not Toggled)
+module.toggle_sprint_sneak.setting.sneaking_held=Sneaking: (Held)
+module.toggle_sprint_sneak.setting.sneaking_toggled=Sneaking: (Toggled)
+module.toggle_sprint_sneak.setting.sneaking_always=Sneaking: (Always)
+
+
 ## View Model
 module.view_model.name=View Model
 module.view_model.description=Allows you to customise the view model. (Hand Item).

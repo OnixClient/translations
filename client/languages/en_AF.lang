@@ -1837,7 +1837,7 @@ module.combo_counter.setting.show_combo_text.name=Show "Combo:" Text
 module.combo_counter.setting.show_combo_text.description=Displays the text "Combo:" along with the combo count.
 module.combo_counter.setting.flash_when_hit.name=Flash Module Background When Hit
 module.combo_counter.setting.flash_when_hit.description=Triggers a background flash effect when hit.
-module.combo_counter.combo_text=Combo: %s
+module.combo_counter.combo_text=hit count: %s
 
 
 
@@ -2247,7 +2247,7 @@ module.potion_counter.setting.show_potion_text.name=Show "Potion: " Text
 module.potion_counter.setting.show_potion_text.description=Displays the text "Potion: " along with the potion count.
 module.potion_counter.setting.hide_without_items.name=Don't Display If No Potions
 module.potion_counter.setting.hide_without_items.description=Hides the counter if there are no potions.
-module.potion_counter.potion_text=Potion: %s
+module.potion_counter.potion_text=medicines: %s
 
 
 ## Potion Hud
@@ -2281,7 +2281,7 @@ module.reach_display.name=am i reaching??
 module.reach_display.description=Shows the reach of your last hit. Not 100% accurate due to latency!
 module.reach_display.setting.show_reach_text.name=Show \Reach:\ Text
 module.reach_display.setting.show_reach_text.description=Displays the "Reach" text.
-module.reach_display.reach_text=Reach: %s
+module.reach_display.reach_text=distance: %s
 
 
 
@@ -2316,7 +2316,7 @@ module.soup_counter.setting.hide_without_items.name=Don't display if no soups
 module.soup_counter.setting.hide_without_items.description=Hides the counter if no soups are in the inventory.
 module.soup_counter.setting.show_soup_text.name=Show "Soup: " Text
 module.soup_counter.setting.show_soup_text.description=Displays the text "Soup: " along with the soup count.
-module.soup_counter.soup_text=Soup: %s
+module.soup_counter.soup_text=soups: %s
 
 
 ## Speed Counter

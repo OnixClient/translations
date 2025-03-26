@@ -2324,7 +2324,7 @@ module.speed_display.name=speedy thing goes in speedy thing comes out
 module.speed_display.description=Shows your speed in blocks per second.
 module.speed_display.setting.include_vertical_speed.name=Include Vertical Speed
 module.speed_display.setting.include_vertical_speed.description=Includes vertical speed in the display.
-module.speed_display.blocks_per_second=blocks/s
+module.speed_display.blocks_per_second=%s speeds
 
 
 

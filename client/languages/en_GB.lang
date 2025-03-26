@@ -1599,6 +1599,9 @@ module.sky_overlay_changer.setting.save_button.description=The name that the cur
 module.sky_overlay_changer.setting.save_button.button=Save
 module.sky_overlay_changer.setting.save_name.name=Save Current Skybox
 module.sky_overlay_changer.setting.save_name.description=Saves the current skybox.
+module.sky_overlay_changer.setting.open_skies_button.name=Open Skies Folder
+module.sky_overlay_changer.setting.open_skies_button.description=Open the folder containing all the skyboxes you have saved.
+module.sky_overlay_changer.setting.open_skies_button.button=Open
 module.sky_overlay_changer.export_error.already_exists=A sky with this name already exists.
 module.sky_overlay_changer.export_error.could_not_read_texture=Failed to save the sky.
 

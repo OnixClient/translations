@@ -1,0 +1,3 @@
+module.sky_overlay_changer.setting.open_skies_button.button=Open
+module.sky_overlay_changer.setting.open_skies_button.description=Open the folder containing all the skyboxes you have saved.
+module.sky_overlay_changer.setting.open_skies_button.name=Open Skies Folder

@@ -93,24 +93,24 @@
       "code": "en_AF",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_AF.lang",
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_AF.lang",
-      "version": 161,
-      "md5": "e879e236782934232b30e4ff55ab4755"
+      "version": 162,
+      "md5": "eae39547a8c32537a90bbe1b60ff2e9d"
     },
     {
       "visual_name": "English (United States)",
       "code": "en_US",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_US.lang",
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_US.lang",
-      "version": 240,
-      "md5": "be958b2a52779e5471887362956f66e4"
+      "version": 241,
+      "md5": "c71c3783a532c9992f876524787ba0e3"
     },
     {
       "visual_name": "English (United Kingdom)",
       "code": "en_GB",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_GB.lang",
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_GB.lang",
-      "version": 240,
-      "md5": "c79c11b01a9371a8e647b4d88997e123"
+      "version": 241,
+      "md5": "886a6d4b26bc655c5032e73ba848db99"
     }
   ]
 }

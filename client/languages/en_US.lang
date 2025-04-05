@@ -1582,9 +1582,9 @@ module.render_options.setting.disable_vignette.name=Disable Render for Vignette
 module.render_options.setting.disable_vignette.description=Disable rendering for the vignette effect.
 
 module.render_options.setting.disable_animated_textures.name=Disable Animated Textures
-module.render_options.setting.disable_animated_textures.description=Disables animated textures like fire, lava, and other animated textures.
-module.render_options.setting.animated_textures_cooldown.name=Animated Texture Update Cooldown
-module.render_options.setting.animated_textures_cooldown.description=Mininum delay to update animated textures.
+module.render_options.setting.disable_animated_textures.description=Disables animated textures like fire, lava, and other flipbook/animated textures.
+module.render_options.setting.animated_textures_cooldown.name=Animated Texture Update Cooldown (Seconds)
+module.render_options.setting.animated_textures_cooldown.description=The delay in seconds between each update of the flipbook/animated texture.
 
 ## RodFix
 module.rod_fix_mod.name=RodFix

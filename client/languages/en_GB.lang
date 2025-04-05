@@ -1590,6 +1590,11 @@ module.render_options.setting.render_item_in_hand.description=Disable rendering 
 module.render_options.setting.disable_vignette.name=Disable Render for Vignette
 module.render_options.setting.disable_vignette.description=Disable rendering for the vignette effect.
 
+module.render_options.setting.disable_animated_textures.name=Disable Animated Textures
+module.render_options.setting.disable_animated_textures.description=Disables animated textures like fire, lava, and other animated textures.
+module.render_options.setting.animated_textures_cooldown.name=Animated Texture Update Cooldown
+module.render_options.setting.animated_textures_cooldown.description=Mininum delay to update animated textures.
+
 ## RodFix
 module.rod_fix_mod.name=RodFix
 module.rod_fix_mod.description=Allows you to cast a fishing rod while looking at an entity. This is a bug in this version! (MCPE-65249)

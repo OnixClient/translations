@@ -513,6 +513,11 @@ module.global_settings.setting.apply_all_mods_outline_color.button=Apply
 
 module.global_settings.setting.directx_settings.name=Performance Settings
 module.global_settings.setting.directx_settings.description=Settings that affect performance.
+module.global_settings.setting.priority.high=High
+module.global_settings.setting.priority.above_normal=Above Normal
+module.global_settings.setting.priority.normal=Normal
+module.global_settings.setting.priority.below_normal=Below Normal
+module.global_settings.setting.priority.low=Low
 module.global_settings.setting.request_disable_vsync.name=Request Disable V-Sync
 module.global_settings.setting.request_disable_vsync.description=Disables V-Sync.
 module.global_settings.setting.request_disable_vsync_info.name=Note: uncapped framerates can cause increased CPU/GPU usage and overheating on laptops

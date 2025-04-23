@@ -1223,6 +1223,7 @@ module.global_settings.setting.priority.below_normal=Below Normal
 module.global_settings.setting.priority.high=High
 module.global_settings.setting.priority.low=Low
 module.global_settings.setting.priority.normal=Normal
+module.global_settings.setting.process_priority.description=Set the process priority of the game.
 module.global_settings.setting.process_priority.name=Process Priority
 module.global_settings.setting.request_disable_vsync_info.name=Note: uncapped framerates can cause increased CPU/GPU usage and overheating on laptops
 module.global_settings.setting.request_disable_vsync.description=Disables V-Sync.

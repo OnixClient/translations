@@ -185,6 +185,7 @@ module.global_settings.setting.priority.below_normal=Below Normal
 module.global_settings.setting.priority.high=High
 module.global_settings.setting.priority.low=Low
 module.global_settings.setting.priority.normal=Normal
+module.global_settings.setting.process_priority.description=Set the process priority of the game.
 module.global_settings.setting.process_priority.name=Process Priority
 module.global_settings.setting.revert_initial_ui_focus_experimental_ignore_chat.description=Makes it not fix it when opening chat.
 module.global_settings.setting.revert_initial_ui_focus_experimental_ignore_chat.name=Mouse Position Fix Ignore chat

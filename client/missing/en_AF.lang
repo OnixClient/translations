@@ -3,6 +3,7 @@ module.global_settings.setting.priority.below_normal=Below Normal
 module.global_settings.setting.priority.high=High
 module.global_settings.setting.priority.low=Low
 module.global_settings.setting.priority.normal=Normal
+module.global_settings.setting.process_priority.description=Set the process priority of the game.
 module.global_settings.setting.process_priority.name=Process Priority
 module.render_options.setting.animated_textures_cooldown.description=The delay in seconds between each update of the flipbook/animated texture.
 module.render_options.setting.animated_textures_cooldown.name=Animated Texture Update Cooldown (Seconds)

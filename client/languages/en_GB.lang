@@ -522,6 +522,8 @@ module.global_settings.setting.apply_all_mods_outline_color.button=Apply
 
 module.global_settings.setting.directx_settings.name=Performance Settings
 module.global_settings.setting.directx_settings.description=Settings that affect performance.
+module.global_settings.setting.process_priority.name=Process Priority
+module.global_settings.setting.process_priority.name=Set the process priority of the game.
 module.global_settings.setting.priority.high=High
 module.global_settings.setting.priority.above_normal=Above Normal
 module.global_settings.setting.priority.normal=Normal

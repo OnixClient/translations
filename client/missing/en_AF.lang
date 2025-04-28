@@ -11,3 +11,5 @@ module.render_options.setting.animated_textures_cooldown.description=The delay i
 module.render_options.setting.animated_textures_cooldown.name=Animated Texture Update Cooldown (Seconds)
 module.render_options.setting.disable_animated_textures.description=Disables animated textures like fire, lava, and other flipbook/animated textures.
 module.render_options.setting.disable_animated_textures.name=Disable Animated Textures
+notification.key_patch_complete.description=The public key has been patched! You can now join multiplayer servers!
+notification.key_patch_complete.title=Multiplayer Key Patch

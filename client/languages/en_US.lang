@@ -2510,6 +2510,13 @@ module.pack_display.setting.cycle_animation.from_left=From Left
 module.pack_display.setting.cycle_animation.from_top=From Top
 module.pack_display.setting.cycle_animation.from_bottom=From Bottom
 module.pack_display.setting.cycle_animation.random=Random
+module.pack_display.setting.display_type.name=Display Type
+module.pack_display.setting.display_type.description=Controls how resource packs are shown.
+module.pack_display.setting.display_type.all=All Packs
+module.pack_display.setting.display_type.first_pack_only=First Pack Only
+module.pack_display.setting.display_type.last_pack_only=Last Pack Only
+module.pack_display.setting.display_type.cycle=Cycle Through Packs
+
 
 
 

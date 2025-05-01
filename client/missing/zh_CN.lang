@@ -153,6 +153,7 @@ module.held_item_counter.setting.hide_without_items.name=Hide Without Items
 module.held_item_counter.setting.show_held_item_text.description=Show the held item's name along with the count.
 module.held_item_counter.setting.show_held_item_text.name=Show Held Item Text
 module.held_item_counter.text=%s x%s
+module.held_item_counter.text_lazy=%s %s
 module.held_item_scale_fixer.setting.web_fix.description=Fixes the 1.21.20+ big web bug.
 module.held_item_scale_fixer.setting.web_fix.name=Fix 1.21.20+ Web Scale
 module.hitboxes.setting.show_eyes_when_zero.description=Display the eye line even when the height is at 0 (usually with a non-mob entity). 

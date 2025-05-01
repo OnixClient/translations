@@ -20,6 +20,7 @@ module.held_item_counter.setting.hide_without_items.name=Hide Without Items
 module.held_item_counter.setting.show_held_item_text.description=Show the held item's name along with the count.
 module.held_item_counter.setting.show_held_item_text.name=Show Held Item Text
 module.held_item_counter.text=%s x%s
+module.held_item_counter.text_lazy=%s %s
 module.module.setting.mouse_settings.description=Settings to change mouse functionality of the module.
 module.module.setting.mouse_settings.name=Mouse Settings
 module.pack_display.setting.cycle_animation.description=Which animation to use while cycling through packs.

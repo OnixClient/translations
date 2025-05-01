@@ -2516,7 +2516,8 @@ module.pack_display.setting.display_type.all=All Packs
 module.pack_display.setting.display_type.first_pack_only=First Pack Only
 module.pack_display.setting.display_type.last_pack_only=Last Pack Only
 module.pack_display.setting.display_type.cycle=Cycle Through Packs
-
+module.pack_display.setting.cycle_consistent_size.name=Consistent Cycle Size
+module.pack_display.setting.cycle_consistent_size.description=Make the size of the cycle the size as the biggest packs size.
 
 
 

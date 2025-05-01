@@ -2482,6 +2482,24 @@ module.pack_display.setting.last_only.name=Only Display Last Pack
 module.pack_display.setting.last_only.description=Displays only the last pack of the list.
 module.pack_display.setting.show_description.name=Show Description
 module.pack_display.setting.show_description.description=Displays the pack description.
+module.pack_display.setting.include_world_packs.name=Include World Packs
+module.pack_display.setting.include_world_packs.description=Includes world packs in the display.
+module.pack_display.setting.show_subpack.name=Show Subpacks
+module.pack_display.setting.show_subpack.description=Displays the subpacks available in the pack.
+module.pack_display.setting.cycle_packs.name=Cycle Packs
+module.pack_display.setting.cycle_packs.description=Should it cycle through different packs.
+module.pack_display.setting.show_icons.name=Show Icons
+module.pack_display.setting.show_icons.description=Displays icons for the packs.
+module.pack_display.setting.cycle_animation.name=Cycle Animation
+module.pack_display.setting.cycle_animation.description=Which animation to use while cycling through packs.
+module.pack_display.setting.cycle_animation.none=None
+module.pack_display.setting.cycle_animation.from_right=From Right
+module.pack_display.setting.cycle_animation.from_left=From Left
+module.pack_display.setting.cycle_animation.from_top=From Top
+module.pack_display.setting.cycle_animation.from_bottom=From Bottom
+module.pack_display.setting.cycle_animation.random=Random
+
+
 
 
 ## Ping Display Module

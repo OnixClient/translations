@@ -110,8 +110,8 @@ module.global_settings.setting.revert_initial_ui_focus_experimental_ignore_chat.
 module.global_settings.setting.revert_initial_ui_focus_experimental_ignore_chat.name=Mouse Position Fix Ignore chat
 module.global_settings.setting.revert_initial_ui_focus_experimental.description=Makes it try its best to also select the correct button when you open a new screen. May result in unexpected behavior.
 module.global_settings.setting.revert_initial_ui_focus_experimental.name=Mouse Position Fix
-module.held_item_counter.description=Displays the total count of the held item in your inventory.
-module.held_item_counter.name=Held Item Counter
+module.held_item_counter.description=Displays the total count of the hand item in your inventory.
+module.held_item_counter.name=Hand Item Counter
 module.held_item_counter.setting.count_all_items_of_same_type.description=Count all items of the same type as the held item in your inventory.
 module.held_item_counter.setting.count_all_items_of_same_type.name=Count All Items of Same Type
 module.held_item_counter.setting.flip_counter.description=Shows the count first instead of the item name first.

@@ -1996,8 +1996,8 @@ module.sea_pickle_counter.setting.hide_without_items=Hide When No Sea Pickles
 
 
 ## Held Item Counter
-module.held_item_counter.name=Held Item Counter
-module.held_item_counter.description=Displays the total count of the held item in your inventory.
+module.held_item_counter.name=Hand Item Counter
+module.held_item_counter.description=Displays the total count of the hand item in your inventory.
 module.held_item_counter.setting.show_held_item_text.name=Show Held Item Text
 module.held_item_counter.setting.show_held_item_text.description=Show the held item's name along with the count.
 module.held_item_counter.setting.hide_without_items.name=Hide Without Items

@@ -1,3 +1,9 @@
+module.fog_customiser.setting.fog_amount_far.description=The maximum fog radius.
+module.fog_customiser.setting.fog_amount_far.name=Max Fog Radius
+module.fog_customiser.setting.fog_amount_near.description=The minimum fog radius.
+module.fog_customiser.setting.fog_amount_near.name=Min Fog Radius
+module.fog_customiser.setting.use_multiplier_for_fog.description=Whether or not to use a multiplier to change the fog distance.
+module.fog_customiser.setting.use_multiplier_for_fog.name=Use Multiplier For Fog
 module.global_settings.setting.priority.above_normal=Above Normal
 module.global_settings.setting.priority.below_normal=Below Normal
 module.global_settings.setting.priority.high=High

@@ -1978,6 +1978,13 @@ module.arrow_counter.setting.icon_opacity.name=Icon Opacity
 module.arrow_counter.setting.icon_opacity.description=The transparency of the icon.
 
 
+## Sea Pickle Counter
+module.sea_pickle_counter.name=Sea Pickle Counter
+module.sea_pickle_counter.description=Displays the number of sea pickles you have.
+module.sea_pickle_counter.sea_pickle_text=Sea Pickles: %s
+module.sea_pickle_counter.setting.show_sea_pickle_text=Show Sea Pickle Text
+module.sea_pickle_counter.setting.hide_without_items=Hide When No Sea Pickles
+
 
 ## Audio Subtitles
 module.audio_subtitle.name=Audio Subtitles

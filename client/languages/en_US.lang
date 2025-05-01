@@ -1986,6 +1986,18 @@ module.sea_pickle_counter.setting.show_sea_pickle_text=Show Sea Pickle Text
 module.sea_pickle_counter.setting.hide_without_items=Hide When No Sea Pickles
 
 
+## Held Item Counter
+module.held_item_counter.name=Held Item Counter
+module.held_item_counter.description=Displays the total count of the held item in your inventory.
+module.held_item_counter.setting.show_held_item_text.name=Show Held Item Text
+module.held_item_counter.setting.show_held_item_text.description=Show the held item's name along with the count.
+module.held_item_counter.setting.hide_without_items.name=Hide Without Items
+module.held_item_counter.setting.hide_without_items.description=Hide the counter when you have no items of the held type.
+module.held_item_counter.setting.count_all_items_of_same_type.name=Count All Items of Same Type
+module.held_item_counter.setting.count_all_items_of_same_type.description=Count all items of the same type as the held item in your inventory.
+module.held_item_counter.text=Held Item: %s x%s
+
+
 ## Audio Subtitles
 module.audio_subtitle.name=Audio Subtitles
 module.audio_subtitle.description=Shows the surrounding audio that's played in the world.

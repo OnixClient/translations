@@ -2536,7 +2536,11 @@ module.pack_display.setting.description_color.name=Description Color
 module.pack_display.setting.description_color.description=Sets the color of the pack description text.
 module.pack_display.setting.icon_on_the_right.name=Icon on the Right
 module.pack_display.setting.icon_on_the_right.description=Displays the resource pack icon on the right side instead of the left.
-
+module.pack_display.setting.show_placeholder_subpack.name=Show Placeholder Subpack
+module.pack_display.setting.show_placeholder_subpack.description=When there are no subpack to display, it will display No Subpack.
+module.pack_display.setting.show_placeholder_subpack.subpack=No Subpack
+module.pack_display.setting.show_subpack_arrow.name=Show Subpack Arrow
+module.pack_display.setting.show_subpack_arrow.description=Whether the little arrow should be displayed or not.
 
 
 

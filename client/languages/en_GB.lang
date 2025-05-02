@@ -204,8 +204,6 @@ animation.movabletitlesizeanimation.name=Movable Title Scaling Animation
 animation.movabletitlesizeanimation.description=The scaling animation for movable titles.
 animation.movabletitleopacityanimation.name=Movable Title Opacity Animation
 animation.movabletitleopacityanimation.description=The fade effect for the opacity of movable titles.
-animation.pack display cycle animation.name=Cycle Animation
-animation.pack display cycle animation.description=The animation to use when cycling packs in and out.
 
 ## Notifications
 notification.greet.normal.title=Onix Client is now injected! (%ss).
@@ -2517,6 +2515,8 @@ module.pack_display.setting.show_icons.name=Show Icons
 module.pack_display.setting.show_icons.description=Displays icons for the packs.
 module.pack_display.setting.icon_opacity.name=Icon Opacity
 module.pack_display.setting.icon_opacity.description=The opacity of the icons.
+animation.pack display cycle animation.name=Cycle Animation
+animation.pack display cycle animation.description=The animation to use when cycling packs in and out.
 module.pack_display.setting.cycle_animation.name=Cycle Animation Origin
 module.pack_display.setting.cycle_animation.description=From where should the new pack emerge?
 module.pack_display.setting.cycle_animation.none=None

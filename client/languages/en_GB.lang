@@ -2558,6 +2558,10 @@ module.pack_display.setting.subpack_settings.name=Subpack Settings
 module.pack_display.setting.subpack_settings.description=Controls how subpacks are displayed.
 module.pack_display.setting.cycle_settings.name=Cycle Settings
 module.pack_display.setting.cycle_settings.description=Controls how cycling between resource packs works.
+module.pack_display.setting.cycle_specific_size.name=Cycle Specific Size
+module.pack_display.setting.cycle_specific_size.description=Makes the cycle modes background have a specific size.
+module.pack_display.setting.cycle_specific_size_values.name=Cycle Specific Size Values
+module.pack_display.setting.cycle_specific_size_values.description=The size of the specific size.
 
 
 ## Ping Display Module

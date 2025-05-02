@@ -2527,6 +2527,17 @@ module.pack_display.setting.display_type.last_pack_only=Last Pack Only
 module.pack_display.setting.display_type.cycle=Cycle Through Packs
 module.pack_display.setting.cycle_consistent_size.name=Consistent Cycle Size
 module.pack_display.setting.cycle_consistent_size.description=Make the size of the cycle the size as the biggest packs size.
+module.pack_display.setting.icon_opacity.name=Icon Opacity
+module.pack_display.setting.icon_opacity.description=Adjusts the transparency of the resource pack icons.
+module.pack_display.setting.name_color.name=Name Colour
+module.pack_display.setting.name_color.description=Sets the colour of the pack name text.
+module.pack_display.setting.subpack_color.name=Subpack Colour
+module.pack_display.setting.subpack_color.description=Sets the colour of the subpack name text.
+module.pack_display.setting.description_color.name=Description Colour
+module.pack_display.setting.description_color.description=Sets the colour of the pack description text.
+module.pack_display.setting.icon_on_the_right.name=Icon on the Right
+module.pack_display.setting.icon_on_the_right.description=Displays the resource pack icon on the right side instead of the left.
+
 
 
 

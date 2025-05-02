@@ -2550,7 +2550,14 @@ module.pack_display.setting.show_subpack_arrow.name=Show Subpack Arrow
 module.pack_display.setting.show_subpack_arrow.description=Whether the little arrow should be displayed or not.
 module.pack_display.setting.show_subpack.name=Show Subpacks
 module.pack_display.setting.show_subpack.description=Whether to show the subpacks.
-
+module.pack_display.setting.display_settings.name=Display Settings
+module.pack_display.setting.display_settings.description=Controls how resource packs are displayed.
+module.pack_display.setting.visual_appearance.name=Visual Settings
+module.pack_display.setting.visual_appearance.description=Controls how the display looks visually.
+module.pack_display.setting.subpack_settings.name=Subpack Settings
+module.pack_display.setting.subpack_settings.description=Controls how subpacks are displayed.
+module.pack_display.setting.cycle_settings.name=Cycle Settings
+module.pack_display.setting.cycle_settings.description=Controls how cycling between resource packs works.
 
 
 ## Ping Display Module

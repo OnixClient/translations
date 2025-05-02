@@ -1,5 +1,7 @@
 animation.pack display cycle animation.description=The animation to use when cycling packs in and out.
 animation.pack display cycle animation.name=Cycle Animation
+animation.pack display cycle opacity animation.description=The animation to use to control the opacity of packs packs in and out.
+animation.pack display cycle opacity animation.name=Opacity Cycle Animation
 module.fog_customiser.setting.fog_amount_far.description=The maximum fog radius.
 module.fog_customiser.setting.fog_amount_far.name=Max Fog Radius
 module.fog_customiser.setting.fog_amount_near.description=The minimum fog radius.

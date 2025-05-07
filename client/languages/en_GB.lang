@@ -562,6 +562,8 @@ module.global_settings.setting.notification_sound_volume.name=Notification Sound
 module.global_settings.setting.notification_sound_volume.description=The volume of the notification sound.
 module.global_settings.setting.disable_file_integrity_check.name=Disable File Integrity Check
 module.global_settings.setting.disable_file_integrity_check.description=Disables Minecraft's internal file integrity check.
+module.global_settings.setting.restore_game_menu_animation_on_1_21_80.name=Re-Enable Menu Screen Rotation
+module.global_settings.setting.restore_game_menu_animation_on_1_21_80.description=Re-enables the menu screen background rotation on 1.21.80+.
 
 module.global_settings.setting.controller_cursor_sensitivity.name=Controller Cursor Sensitivity
 module.global_settings.setting.controller_cursor_sensitivity.description=The sensitivity of the cursor when being controlled with a controller.

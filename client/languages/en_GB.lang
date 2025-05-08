@@ -2036,7 +2036,7 @@ module.held_item_counter.text=%s x%s
 module.held_item_counter.setting.flip_counter.name=Flip The Count
 module.held_item_counter.setting.flip_counter.description=Shows the count first instead of the item name first.
 module.held_item_counter.setting.use_item_name.name=Force Item Name
-module.held_item_counter.setting.use_item_name.description=Forces it to show the items actual name.
+module.held_item_counter.setting.use_item_name.description=Forces it to show the items actual name. Suggested by z.nqx.
 
 
 ## Audio Subtitles

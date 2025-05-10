@@ -1440,8 +1440,10 @@ module.no_hurt_cam.setting.reset_to_default.description=Sets the angle to be the
 module.no_hurt_cam.setting.reset_to_default.button=Set
 
 ## Particle Multiplier
-module.particle_multiplier.name=Particle Multiplier
+module.particle_multiplier.name=Critical Particle Multiplier
 module.particle_multiplier.description=Multiply the amount of critical hit particles.
+module.particle_multiplier.name=Sharpness Particle Multiplier
+module.particle_multiplier.description=Multiply the amount of magic/sharpness hit particles.
 
 module.particle_multiplier.setting.particle_multiplier.name=Particle Multiplier
 module.particle_multiplier.setting.particle_multiplier.description=Adjust the number of critical hit particles to multiply.

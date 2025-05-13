@@ -206,6 +206,7 @@ notification.greet.halloween.title=Onix Client has SPOOKED your Minecraft! (boo!
 notification.greet.christmas.title=Minecraft has been GIFTED Onix Client. (%s).
 notification.warning.chroma_mc_renderer.title=Chroma does not work on the Minecraft Renderer, use Rainbow.
 notification.module_is_blocked.title=%s is blocked on this server and cannot be enabled.
+notification.module_is_blocked_enabled.title=%s is required to be enabled on this server and cannot be disabled.
 notification.modules_now_blocked.title=Some modules have been blocked on this server.
 notification.modules_unblocked.title=Unblocked all modules.
 notification.module_disabled.title=%s was disabled.

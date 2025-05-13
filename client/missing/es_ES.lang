@@ -2487,6 +2487,7 @@ notification.key_patch_complete.description=The public key has been patched! You
 notification.key_patch_complete.title=Multiplayer Key Patch
 notification.module_disabled.description=You can click this notification to re-enable the module.
 notification.module_disabled.title=%s was disabled.
+notification.module_is_blocked_enabled.title=%s is required to be enabled on this server and cannot be disabled.
 notification.module_is_blocked.title=%s is blocked on this server and cannot be enabled.
 notification.modules_now_blocked.title=Some modules have been blocked on this server.
 notification.modules_unblocked.title=Unblocked all modules.

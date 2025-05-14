@@ -218,6 +218,7 @@ notification.module_is_blocked.title=%s is blocked on this server and cannot be 
 notification.module_is_blocked_enabled.title=%s is required to be enabled on this server and cannot be disabled.
 notification.modules_now_blocked.title=Some modules have been blocked on this server.
 notification.modules_unblocked.title=Unblocked all modules.
+notification.modules_restricted.title=%s has restricted some features of Onix Client on their server.
 notification.module_disabled.title=%s was disabled.
 notification.module_disabled.description=You can click this notification to re-enable the module.
 notification.key_patch_complete.title=Multiplayer Key Patch

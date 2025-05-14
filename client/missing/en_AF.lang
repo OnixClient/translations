@@ -121,3 +121,4 @@ module.visual.setting.double_padding_between_entries.name=Double Padding Between
 notification.key_patch_complete.description=The public key has been patched! You can now join multiplayer servers!
 notification.key_patch_complete.title=Multiplayer Key Patch
 notification.module_is_blocked_enabled.title=%s is required to be enabled on this server and cannot be disabled.
+notification.modules_restricted.title=%s has restricted some features of Onix Client on their server.

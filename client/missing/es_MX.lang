@@ -1127,6 +1127,7 @@ notification.module_disabled.title=%s was disabled.
 notification.module_is_blocked_enabled.title=%s is required to be enabled on this server and cannot be disabled.
 notification.module_is_blocked.title=%s is blocked on this server and cannot be enabled.
 notification.modules_now_blocked.title=Some modules have been blocked on this server.
+notification.modules_restricted.title=%s has restricted some features of Onix Client on their server.
 notification.modules_unblocked.title=Unblocked all modules.
 notification.warning.chroma_mc_renderer.title=Chroma does not work on the Minecraft Renderer, use Rainbow.
 onixclient.april_fools_text.description=Your fool has been APRILED! Run .setlocale en_US to change it back to English!

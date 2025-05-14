@@ -611,6 +611,7 @@ notification.key_patch_complete.title=Multiplayer Key Patch
 notification.module_disabled.description=You can click this notification to re-enable the module.
 notification.module_disabled.title=%s was disabled.
 notification.module_is_blocked_enabled.title=%s is required to be enabled on this server and cannot be disabled.
+notification.modules_restricted.title=%s has restricted some features of Onix Client on their server.
 onixclient.april_fools_text.description=Your fool has been APRILED! Run .setlocale en_US to change it back to English!
 onixclient.april_fools_text.title=APRIL FOOLS!!!!!!!!!!!!!
 onixclient.pre_render_dragon_fix_needed=§fUse the §9Onix Client Launcher§f for using\n§bOnix Client Premium§f on §e1.16.100§f or below.\nThe launcher must be the one opening the game.

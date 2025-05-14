@@ -12,6 +12,7 @@ module.module.setting.display_settings.name=Display Settings
 module.module.setting.display_settings.description=Settings to change what the module displays.
 module.module.setting.premium_only.name=These features are for premium users only.
 module.module.setting.premium_only.description=These features are for premium users only.
+module.module.setting.restricted_reason.name=%s restricted this mod because: %s
 module.visual.setting.scale.name=Scale
 module.visual.setting.scale.description=The scale of the module, will multiply the size by the specified amount.
 module.visual.setting.padding.name=Padding

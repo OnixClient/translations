@@ -226,6 +226,7 @@ module.module.setting.controller_settings.description=Settings that affect the u
 module.module.setting.controller_settings.name=Controller Settings
 module.module.setting.mouse_settings.description=Settings to change mouse functionality of the module.
 module.module.setting.mouse_settings.name=Mouse Settings
+module.module.setting.restricted_reason.name=%s restricted this mod because: %s
 module.mouse_strokes.description=Displays the movement of the mouse on screen.
 module.mouse_strokes.name=Mouse Strokes
 module.mouse_strokes.setting.percent.name=How reactive the cursor is to mouse movement. 

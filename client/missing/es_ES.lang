@@ -1685,6 +1685,7 @@ module.module.setting.premium_only.description=These features are for premium us
 module.module.setting.premium_only.name=These features are for premium users only.
 module.module.setting.render_settings.description=Settings that affect the rendering of the module.
 module.module.setting.render_settings.name=Render Settings
+module.module.setting.restricted_reason.name=%s restricted this mod because: %s
 module.module.setting.visual_settings.description=Settings to change the visual appearance of the module.
 module.module.setting.visual_settings.name=Visual Settings
 module.motion_blur.description=Blurs movement to make you throw up suspiciously

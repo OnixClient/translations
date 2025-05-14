@@ -50,6 +50,7 @@ module.inventory_blur.setting.show_on_all_non_hud.description=Whether or not to 
 module.inventory_blur.setting.show_on_all_non_hud.name=Show On All Non HUD
 module.module.setting.mouse_settings.description=Settings to change mouse functionality of the module.
 module.module.setting.mouse_settings.name=Mouse Settings
+module.module.setting.restricted_reason.name=%s restricted this mod because: %s
 module.pack_display.setting.always_show_vanilla.description=Always displays the vanilla pack at the bottom.
 module.pack_display.setting.always_show_vanilla.name=Always Show Vanilla
 module.pack_display.setting.cycle_animation.description=From where should the new pack emerge?

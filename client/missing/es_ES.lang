@@ -252,6 +252,7 @@ command.waypoint.usage=§b% §6add §a<name> §d[x] §d[y] §d[z] §8- §7Adds a
 gui.accept=Accept
 gui.are_you_sure=Are you sure?
 gui.back=Back
+gui.blocked=Blocked
 gui.cancel=Cancel
 gui.confirm=Confirm
 gui.create=Create

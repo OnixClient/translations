@@ -111,6 +111,7 @@ gui.on=On
 gui.off=Off
 gui.enabled=Enabled
 gui.disabled=Disabled
+gui.blocked=Blocked
 gui.toggle=Toggle
 gui.toggle_on=Toggle On
 gui.toggle_off=Toggle Off

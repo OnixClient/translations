@@ -135,6 +135,8 @@ gui.none=None
 gui.default=Default
 gui.up=Up
 gui.down=Down
+gui.copy=Copy
+gui.paste=Paste
 
 ## List texts, when the client shows a list of things
 ## begin + pre_first_element + first_element + post_first_element + pre_element + element + post_element + pre_last_element + last_element + post_last_element + end

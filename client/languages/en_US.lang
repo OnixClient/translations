@@ -1662,6 +1662,13 @@ module.sky_overlay_changer.export_error.could_not_read_texture=Failed to save th
 ## Shulker Box Display
 module.shulker_box_display.name=Shulker Box Display
 module.shulker_box_display.description=Allows you to view the content of a shulker box without opening it.
+module.shulker_box_display.setting.show_decorations.name=Show Item Decorations
+module.shulker_box_display.setting.show_decorations.description=Whether to show the item count, durability, etc of items in the shulker box.
+module.shulker_box_display.setting.show_tooltip.name=Show Vanilla Tooltip
+module.shulker_box_display.setting.show_tooltip.description=Whether to show the vanilla tooltip.
+module.shulker_box_display.setting.use_tint.name=Tint Background
+module.shulker_box_display.setting.use_tint.description=Tint the background color.
+
 
 ## Snaplook
 module.snaplook.name=Snaplook

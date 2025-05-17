@@ -101,16 +101,16 @@
       "code": "en_US",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_US.lang",
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_US.lang",
-      "version": 287,
-      "md5": "9441196897081c38f6e8ef2b5ff0e069"
+      "version": 288,
+      "md5": "a349d64206d50c1f385173d2fdebb3e7"
     },
     {
       "visual_name": "English (United Kingdom)",
       "code": "en_GB",
       "url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Flanguages%2Fen_GB.lang",
       "compressed_url": "http://download.onixclient.com:2082/?path=translations%2Fclient%2Fcompressed_languages%2Fen_GB.lang",
-      "version": 287,
-      "md5": "69d59ee2f67f9f2b42d085c9571e55fc"
+      "version": 288,
+      "md5": "a92f23511629c5a6170076e10ee9e37a"
     }
   ]
 }

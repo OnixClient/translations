@@ -1677,7 +1677,8 @@ module.shulker_box_display.setting.show_tooltip.name=Show Vanilla Tooltip
 module.shulker_box_display.setting.show_tooltip.description=Whether to show the vanilla tooltip.
 module.shulker_box_display.setting.use_tint.name=Tint Background
 module.shulker_box_display.setting.use_tint.description=Tint the background colour.
-
+module.shulker_box_display.setting.show_shulker_name.name=Show Shulker Box Name
+module.shulker_box_display.setting.show_shulker_name.description=Whether to show the name of the shulker box above.
 
 ## Snaplook
 module.snaplook.name=Snaplook

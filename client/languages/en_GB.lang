@@ -1771,8 +1771,8 @@ module.shulker_box_display.setting.open_growth_animation_duration.name=Scale Ani
 module.shulker_box_display.setting.open_growth_animation_duration.description=How long it takes for the grow animation to finish.
 module.shulker_box_display.setting.item_open_growth_animation_duration.name=Item Scale Animation Duration
 module.shulker_box_display.setting.item_open_growth_animation_duration.description=How long (in seconds) it takes for the item grow animation to finish. (This is for the top left item, the bottom right will be this + the distance penalization)
-module.shulker_box_display.setting.item_open_growth_animation_duration.name=Item Scale Animation Distance Penalization
-module.shulker_box_display.setting.item_open_growth_animation_duration.description=How many extra seconds should being the bottom right item should take. (This is for the top left item, the bottom right will be this + the distance penalization)
+module.shulker_box_display.setting.item_open_growth_animation_distance_penalization.name=Item Scale Animation Distance Penalization
+module.shulker_box_display.setting.item_open_growth_animation_distance_penalization.description=How many extra seconds should being the bottom right item should take. (This is for the top left item, the bottom right will be this + the distance penalization)
 
 ## Snaplook
 module.snaplook.name=Snaplook

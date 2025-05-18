@@ -1778,6 +1778,11 @@ module.shulker_box_display.setting.item_animation_uses_slot_index.description=Th
 module.shulker_box_display.setting.require_shift.name=Hold Shift to Display
 module.shulker_box_display.setting.require_shift.description=If enabled, you will need to press shift for the popup to show.
 
+module.shulker_box_display.setting.color_animation_duration.name=Colour Animation Duration
+module.shulker_box_display.setting.color_animation_duration.description=How long the colour animation takes to complete.
+module.shulker_box_display.setting.color_animation_uses_shift.name=Colour Animation Shifts
+module.shulker_box_display.setting.color_animation_uses_shift.description=Will shift to the next colour isntead of becoming it slowly.
+
 ## Snaplook
 module.snaplook.name=Snaplook
 module.snaplook.description=Changes perspective while the key is pressed.

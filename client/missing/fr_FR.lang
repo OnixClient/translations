@@ -653,6 +653,8 @@ module.shulker_box_display.setting.item_open_growth_animation_duration.descripti
 module.shulker_box_display.setting.item_open_growth_animation_duration.name=Item Scale Animation Duration
 module.shulker_box_display.setting.open_growth_animation_duration.description=How long it takes for the grow animation to finish.
 module.shulker_box_display.setting.open_growth_animation_duration.name=Scale Animation Duration
+module.shulker_box_display.setting.require_shift.description=If enabled, you will need to press shift for the popup to show.
+module.shulker_box_display.setting.require_shift.name=Hold Shift to Display
 module.shulker_box_display.setting.show_decorations.description=Whether to show the item count, durability, etc of items in the shulker box.
 module.shulker_box_display.setting.show_decorations.name=Show Item Decorations
 module.shulker_box_display.setting.show_shulker_name.description=Whether to show the name of the shulker box above.

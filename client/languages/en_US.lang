@@ -1758,6 +1758,8 @@ module.shulker_box_display.setting.use_tint.name=Tint Colors
 module.shulker_box_display.setting.use_tint.description=Tint the background and text of the display. Might look weird with some packs.
 module.shulker_box_display.setting.show_shulker_name.name=Show Shulker Box Name
 module.shulker_box_display.setting.show_shulker_name.description=Whether to show the name of the shulker box above.
+module.shulker_box_display.setting.open_growth_animation_duration.name=Scale Animation Duration
+module.shulker_box_display.setting.open_growth_animation_duration.description=How long it takes for the grow animation to finish.
 
 ## Snaplook
 module.snaplook.name=Snaplook

@@ -1772,7 +1772,7 @@ module.shulker_box_display.setting.color_animation_duration.name=Color Animation
 module.shulker_box_display.setting.color_animation_duration.description=Duration of the color transition animation.
 module.shulker_box_display.setting.color_animation_uses_shift.name=Color Shift Mode
 module.shulker_box_display.setting.color_animation_uses_shift.description=Instantly shift between colors instead of fading between them.
-module.shulker_box_display.setting.color_lerp_only_when_stay_open.name=Disable Animation When Closed
+module.shulker_box_display.setting.color_lerp_only_when_stay_open.name=Disable Color Animation When Closed
 module.shulker_box_display.setting.color_lerp_only_when_stay_open.description=The color animation won't play if the popup closes before finishing.
 
 ## Snaplook

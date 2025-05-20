@@ -1781,8 +1781,8 @@ module.shulker_box_display.setting.require_shift.name=Require Shift Key
 module.shulker_box_display.setting.require_shift.description=Only show the shulker box popup when holding Shift.
 module.shulker_box_display.setting.color_animation_duration.name=Colour Animation Duration
 module.shulker_box_display.setting.color_animation_duration.description=Duration of the colour transition animation.
-module.shulker_box_display.setting.color_animation_uses_shift.name=Colour Shift Mode
-module.shulker_box_display.setting.color_animation_uses_shift.description=Instantly shift between colours instead of fading between them.
+module.shulker_box_display.setting.color_animation_uses_shift.name=Shift Hue For Colour
+module.shulker_box_display.setting.color_animation_uses_shift.description=Makes it shift the hue to the new colour instead of lerping.
 module.shulker_box_display.setting.color_lerp_only_when_stay_open.name=Disable Colour Animation When Closed
 module.shulker_box_display.setting.color_lerp_only_when_stay_open.description=The colour animation won't play if the popup closes before finishing.
 

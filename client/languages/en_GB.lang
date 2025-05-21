@@ -618,6 +618,10 @@ module.auto_text_hotkey.setting.remove_message.button=Remove
 ## Block Outline/ Overlay
 module.block_outline_overlay.name=Block Outline/Overlay
 module.block_outline_overlay.description=Changes the selected block outline/overlay.\n- The \"Outline Selection\" setting needs to be enabled in video settings.
+module.block_outline_overlay.setting.bad_game_settings_warning.name=Your current game settings will make this mod not work.\nYou can turn off "%s" from video settings.\nYou can also enable the option below to fix it automatically going forward.
+module.block_outline_overlay.setting.bad_game_settings_warning.description=Your current game settings will make this mod not work.\nYou can turn off "%s" from video settings.\nYou can also enable the option below to fix it automatically going forward.
+module.block_outline_overlay.setting.fix_bad_game_settings_automatically.name=Fix Invalid Game Settings Automatically
+module.block_outline_overlay.setting.fix_bad_game_settings_automatically.description=Will adjust your game settings to allow this feature to work if needed.
 module.block_outline_overlay.setting.render_block_outline.name=Render Block Outline
 module.block_outline_overlay.setting.block_outline.name=Block Outline
 module.block_outline_overlay.setting.block_outline.description=Settings for the block outline.

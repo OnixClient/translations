@@ -877,6 +877,10 @@ module.creative_tools.setting.make_hitboxes_esp.name=Make Hitboxes ESP
 module.creative_tools.setting.make_hitboxes_esp.description=Enable Hitboxes ESP.
 module.creative_tools.setting.patch_movement_mode.name=Disable Rewind On Local Worlds
 module.creative_tools.setting.patch_movement_mode.description=Disables the rewind (lagback) functionality that was enabled since 1.21.60. Only works on your own worlds.
+module.creative_tools.setting.attempt_re_enable_when_joining_world.name=Attempt Re-Enabling When Joining
+module.creative_tools.setting.attempt_re_enable_when_joining_world.description=Will attempt to enable creative tools when you join a new world and it has been disabled due to the lack of permissions before.
+module.creative_tools.setting.disabled_by_lack_of_permission.name=Disabled by Lack Of Permissions
+module.creative_tools.setting.disabled_by_lack_of_permission.description=Mainly so the cleint can save the value, don't change this. This is to remember if creative tools is only off because the user joined a world where they didn't have permissions.
 
 module.creative_tools.notification.autoclick_start=Auto Clicking Enabled, be careful.
 module.creative_tools.notification.autoclick_stop=Auto Clicking Disabled.

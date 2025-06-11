@@ -468,6 +468,8 @@ module.shulker_box_display.setting.item_open_growth_animation_distance_penalizat
 module.shulker_box_display.setting.item_open_growth_animation_distance_penalization.name=Item Delay Per Distance
 module.shulker_box_display.setting.item_open_growth_animation_duration.description=Base time (in seconds) for each item’s scale-in animation.
 module.shulker_box_display.setting.item_open_growth_animation_duration.name=Item Scale Duration
+module.shulker_box_display.setting.keep_in_place_with_control.description=When holding down the control key, the shulker box preview will remain in place, allowing you to view each item in the shulker box individually.
+module.shulker_box_display.setting.keep_in_place_with_control.name=Keep In Place With Control
 module.shulker_box_display.setting.open_growth_animation_duration.description=Duration of the open (grow) animation for the display.
 module.shulker_box_display.setting.open_growth_animation_duration.name=Box Scale Duration
 module.shulker_box_display.setting.require_shift.description=Only show the shulker box popup when holding Shift.

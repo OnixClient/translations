@@ -1785,6 +1785,8 @@ module.shulker_box_display.setting.color_lerp_only_when_stay_open.name=Disable C
 module.shulker_box_display.setting.color_lerp_only_when_stay_open.description=The color animation won't play if the popup closes before finishing.
 module.shulker_box_display.setting.color_animation_settings.name=Color Animation Settings
 module.shulker_box_display.setting.color_animation_settings.description=Settings for the color-related animations.
+module.shulker_box_display.setting.keep_in_place_with_control.name=Keep In Place With Control
+module.shulker_box_display.setting.keep_in_place_with_control.description=When holding down the control key, the shulker box preview will remain in place, allowing you to view each item in the shulker box individually.
 
 ## Snaplook
 module.snaplook.name=Snaplook

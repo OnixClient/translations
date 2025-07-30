@@ -1797,6 +1797,11 @@ module.shulker_box_display.setting.color_animation_settings.description=Settings
 module.shulker_box_display.setting.keep_in_place_with_control.name=Keep In Place With Control
 module.shulker_box_display.setting.keep_in_place_with_control.description=When holding down the control key, the shulker box preview will remain in place, allowing you to view each item in the shulker box individually.
 
+
+## Better Tooltips
+module.better_tooltips.name=Better Tooltips
+module.better_tooltips.description=Improves item tooltips.
+
 ## Snaplook
 module.snaplook.name=Snaplook
 module.snaplook.description=Changes perspective while the key is pressed.

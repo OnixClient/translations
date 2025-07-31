@@ -1791,11 +1791,20 @@ module.shulker_box_display.setting.keep_in_place_with_control.description=When h
 
 ## Better Tooltips
 module.better_tooltips.name=Better Tooltips
-module.better_tooltips.description=Improves the vanilla item tooltips.
+module.better_tooltips.description=Improves the Vanilla item tooltips.
 module.better_tooltips.setting.disc_fix.name=Music Disc Font Fix
 module.better_tooltips.setting.disc_fix.description=Fixes some music discs using the alternative font.
-module.better_tooltips.setting.copy_tooltip_text.name=Copy Tooltip Text Key
-module.better_tooltips.setting.copy_tooltip_text.description=The key to use to copy the text of the tooltip.
+module.better_tooltips.setting.copy_tooltip_text.name=Control + C To Copy Tooltip
+module.better_tooltips.setting.copy_tooltip_text.description=When you press Control + C, it will copy the text of the hovered tooltip.
+module.better_tooltips.setting.show_durability.name=Show Durability
+module.better_tooltips.setting.show_durability.description=Displays the remaining durability of tools and armor.
+module.better_tooltips.setting.show_internal_name.name=Show Internal Name
+module.better_tooltips.setting.show_internal_name.description=Shows the item’s internal identifier (e.g. `minecraft:diamond_sword`).
+module.better_tooltips.setting.show_item_id.name=Show Item ID
+module.better_tooltips.setting.show_item_id.description=Displays the numeric ID of the item if applicable.
+module.better_tooltips.setting.show_nbt_tag_count.name=Show NBT Tag Count
+module.better_tooltips.setting.show_nbt_tag_count.description=Shows the number of NBT tags the item has.
+
 
 ## Snaplook
 module.snaplook.name=Snaplook

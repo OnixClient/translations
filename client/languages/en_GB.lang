@@ -1813,6 +1813,9 @@ module.better_tooltips.setting.show_item_id.name=Show Item ID
 module.better_tooltips.setting.show_item_id.description=Displays the numeric ID of the item if applicable.
 module.better_tooltips.setting.show_nbt_tag_count.name=Show NBT Tag Count
 module.better_tooltips.setting.show_nbt_tag_count.description=Shows the number of NBT tags the item has.
+module.better_tooltips.setting.always_show_category.name=Always Show Category
+module.better_tooltips.setting.always_show_category.description=Always display the item category in the tooltip.
+
 
 
 ## Snaplook

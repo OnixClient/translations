@@ -1806,7 +1806,8 @@ module.better_tooltips.setting.show_nbt_tag_count.name=Show NBT Tag Count
 module.better_tooltips.setting.show_nbt_tag_count.description=Shows the number of NBT tags the item has.
 module.better_tooltips.setting.always_show_category.name=Always Show Category
 module.better_tooltips.setting.always_show_category.description=Always display the item category in the tooltip.
-
+module.better_tooltips.setting.scrollable_tooltips.name=Scrollable Tooltips
+module.better_tooltips.setting.scrollable_tooltips.description=Lets you scroll on the tooltip to view large ones. Requires holding the control key.
 
 
 ## Snaplook

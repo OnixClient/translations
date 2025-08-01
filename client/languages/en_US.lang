@@ -1810,6 +1810,11 @@ module.better_tooltips.setting.scrollable_tooltips.name=Scroll Tooltip With Cont
 module.better_tooltips.setting.scrollable_tooltips.description=Lets you scroll on the tooltip to view large ones. Requires holding the control key.
 module.better_tooltips.setting.wrap_long_text.name=Wrap Long Text
 module.better_tooltips.setting.wrap_long_text.description=Makes long text in the tooltip wrap onto a new line instead of being really long.
+module.better_tooltips.setting.wrap_long_text_amount.name=Wrap Amount
+module.better_tooltips.setting.wrap_long_text_amount.description=Controls how soon long tooltip text wraps onto a new line. Lower values wrap later.
+module.better_tooltips.setting.tooltip_scale.name=Tooltip Scale
+module.better_tooltips.setting.tooltip_scale.description=Changes the size of the tooltip text. Increase to make tooltips larger.
+
 
 
 ## Snaplook

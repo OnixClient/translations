@@ -1808,6 +1808,8 @@ module.better_tooltips.setting.always_show_category.name=Always Show Category
 module.better_tooltips.setting.always_show_category.description=Always display the item category in the tooltip.
 module.better_tooltips.setting.scrollable_tooltips.name=Scroll Tooltip With Control
 module.better_tooltips.setting.scrollable_tooltips.description=Lets you scroll on the tooltip to view large ones. Requires holding the control key.
+module.better_tooltips.setting.wrap_long_text.name=Wrap Long Text
+module.better_tooltips.setting.wrap_long_text.description=Makes long text in the tooltip wrap onto a new line instead of being really long.
 
 
 ## Snaplook

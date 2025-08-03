@@ -927,7 +927,8 @@ module.command_block_chain_viewer.text.new.name=New Command Block
 module.command_block_chain_viewer.text.new.command=(Hold Shift to create a conditional command block)\n(Hold Ctrl to force-replace non-air blocks)\n(Press %s to copy the current command block here)
 module.command_block_chain_viewer.notification.block_already_there.title=Block Already Exists There!
 module.command_block_chain_viewer.notification.block_already_there.description=Hold Ctrl to force-replace the block.
-
+module.command_block_chain_viewer.notification.can_only_delete_straight_lines.title=Chain Is Not A Straight Line.
+module.command_block_chain_viewer.notification.can_only_delete_straight_lines.message=You can only delete a command block followed by a straight line.
 
 
 ## Featured Server Manager

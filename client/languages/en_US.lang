@@ -876,6 +876,8 @@ module.creative_tools.setting.attempt_re_enable_when_joining_world.name=Attempt 
 module.creative_tools.setting.attempt_re_enable_when_joining_world.description=Will attempt to enable creative tools when you join a new world and it has been disabled due to the lack of permissions before.
 module.creative_tools.setting.disabled_by_lack_of_permission.name=Disabled by Lack Of Permissions
 module.creative_tools.setting.disabled_by_lack_of_permission.description=Mainly so the cleint can save the value, don't change this. This is to remember if creative tools is only off because the user joined a world where they didn't have permissions.
+module.creative_tools.setting.use_teleport_command_for_teleport.name=Use Teleport Command For Teleporting
+module.creative_tools.setting.use_teleport_command_for_teleport.description=Makes it so the teleport command is used when trying to move the player instead of trying to set the position.
 
 module.creative_tools.notification.autoclick_start=Auto Clicking Enabled, be careful.
 module.creative_tools.notification.autoclick_stop=Auto Clicking Disabled.

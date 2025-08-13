@@ -2873,8 +2873,10 @@ module.potion_hud.setting.use_roman_numerals.name=Use Roman Numerals
 module.potion_hud.setting.use_roman_numerals.description=Uses roman numerals instead of numbers.
 module.potion_hud.setting.flash_red_when_timer_low.name=Flash Red When Low Time
 module.potion_hud.setting.flash_red_when_timer_low.description=Flashes red when the potion is about to run out.
-module.potion_hud.setting.flash_red_when_timer_low_treshold.name=Red Flash Threshold
-module.potion_hud.setting.flash_red_when_timer_low_treshold.description=How long should the potion have left before it starts flashing red.
+module.potion_hud.setting.flash_red_when_timer_low_threshold.name=Red Flash Threshold
+module.potion_hud.setting.flash_red_when_timer_low_threshold.description=How long should the potion have left before it starts flashing red. 
+module.potion_hud.setting.sync_red_flashes.name=Sync Flashes
+module.potion_hud.setting.sync_red_flashes.description=Whether or not the flashing should be synced with other things flashing. Less accurate, but looks nicer.
 
 
 ## Reach Display

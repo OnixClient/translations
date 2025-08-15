@@ -1356,6 +1356,8 @@ module.fullbright.name=Fullbright
 module.fullbright.description=Makes the surrounding environment brighter. Allows you to see more clearly in The End, Nether, and at night. Will not work with RTX or Vibrant Visuals.
 module.fullbright.setting.gamma.name=Gamma
 module.fullbright.setting.gamma.description=Adjust the gamma value to brighten or darken the environment.
+module.fullbright.setting.vv_gamma.name=Vibant Visuals Gamma
+module.fullbright.setting.vv_gamma.description=Adjust the gamma value to brighten or darken the environment with vibrant visuals.
 
 ## Glint Color Changer
 module.glint_color_changer.name=Enchant Glint Colour Changer

@@ -1261,9 +1261,9 @@ module.fov_changer.name=FOV Changer
 module.fov_changer.description=Allows you to customize the field of view behavior.
 
 module.fov_changer.setting.pre_enable_fov_obtained.name=User FOV Obtained
-module.fov_changer.setting.pre_enable_fov_obtained.description=Weather or not the user FOV has been obtained.
+module.fov_changer.setting.pre_enable_fov_obtained.description=Whether or not the users FOV has been obtained.
 module.fov_changer.setting.pre_enable_fov_toggle.name=Was Dynamic FOV Toggled
-module.fov_changer.setting.pre_enable_fov_toggle.description=Weather or not the dynamic FOV was toggled.
+module.fov_changer.setting.pre_enable_fov_toggle.description=Whether or not the dynamic FOV was toggled.
 module.fov_changer.setting.pre_enable_fov.name=Previous FOV
 module.fov_changer.setting.pre_enable_fov.description=The previous FOV.
 

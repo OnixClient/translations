@@ -1658,6 +1658,8 @@ module.inventory_hotkeys.name=Java Inventory Hotkeys
 module.inventory_hotkeys.description=A port of the Java inventory hotkeys to Bedrock.
 module.inventory_hotkeys.setting.animate.name=Animate The Item Switch
 module.inventory_hotkeys.setting.animate.description=Toggles the animation when you hotkey an item.
+module.inventory_hotkeys.setting.work_in_recipe_search.name=Works In Recipe Search
+module.inventory_hotkeys.setting.work_in_recipe_search.description=Forces it to work in the recipe search tab. May cause issues when searching.
 
 
 ## Inventory Blur

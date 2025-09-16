@@ -1715,6 +1715,7 @@ module.skin_stealer.setting.skin_steal_key.name=Skin Steal Key
 module.skin_stealer.setting.skin_steal_key.description=Keybind to steal skins.
 module.skin_stealer.setting.steal_all_skins.name=Steal All Skins
 module.skin_stealer.setting.steal_all_skins.description=Steal all player skins in your server.
+module.skin_stealer.setting.steal_all_skins.button=Steal
 module.skin_stealer.setting.hold_to_steal.name=Hold To Steal Skins
 module.skin_stealer.setting.hold_to_steal.description=Hold the key down to continuously steal skins.
 
@@ -1730,10 +1731,13 @@ module.skin_stealer.setting.disable_chat_messages.name=Disable Chat Messages
 module.skin_stealer.setting.disable_chat_messages.description=Disables the chat messages when stealing skins.
 module.skin_stealer.setting.open_skins_folder_button.name=Open Skins Folder
 module.skin_stealer.setting.open_skins_folder_button.description=Opens the folder containing all stolen skins.
+module.skin_stealer.setting.open_skins_folder_button.button=Open
 module.skin_stealer.setting.open_last_stolen_skin_folder_button.name=Open Last Stolen Skin Folder
 module.skin_stealer.setting.open_last_stolen_skin_folder_button.description=Opens the folder of the last stolen skin.
+module.skin_stealer.setting.open_last_stolen_skin_folder_button.button=Open
 module.skin_stealer.setting.steal_your_own_skin.name=Steal Your Own Skin
 module.skin_stealer.setting.steal_your_own_skin.description=Steal your own skin.
+module.skin_stealer.setting.steal_your_own_skin.button=Steal
 
 module.skin_stealer.stole_skin=§aStole %s's skin.
 module.skin_stealer.and_stole= and stole 

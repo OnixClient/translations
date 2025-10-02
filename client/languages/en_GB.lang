@@ -693,8 +693,14 @@ module.entity_tweaks.setting.dont_hit_tamed_animals_bypass_key.name=Alternative 
 module.entity_tweaks.setting.dont_hit_tamed_animals_bypass_key.description=The key you hold to bypass not being able to attack tamed animals.
 
 ## Chunk Border
-module.chunk_border.name=Chunk Border
-module.chunk_border.description=Draws a border around the chunk you are in.
+module.chunk_border.name=Chunk Borders
+module.chunk_border.description=Shows borders of the chunk you are currently in.
+module.chunk_border.setting.block_line_color.name=Block Colour
+module.chunk_border.setting.block_line_color.description=The colour of the blocks. (Usually yellow)
+module.chunk_border.setting.subchunk_line_color.name=Sub Chunk Colour
+module.chunk_border.setting.subchunk_line_color.description=The colour of the sub chunks. (Usually blue).
+module.chunk_border.setting.outer_chunk_line_color.name=Outer Chunk Colour
+module.chunk_border.setting.outer_chunk_line_color.description=The colour of the surrounding chunks. (Usually red).
 
 ## Cinematic Camera
 module.cinematic_camera.name=Cinematic Camera
@@ -712,7 +718,7 @@ module.cinematic_camera.setting.toggle_mode.description=Makes it so that you can
 
 ## Color Options
 module.color_options.name=Colour Settings
-module.color_options.description=Allows you to change the colour of the client.
+module.color_options.description=Allows you to change the colours of the client.
 module.color_options.setting.rgb_category.name=RGB Category
 module.color_options.setting.rgb_category.description=Settings for RGB.
 module.color_options.setting.rgb_speed.name=RGB Speed

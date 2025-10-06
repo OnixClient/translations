@@ -1746,7 +1746,7 @@ module.skin_stealer.setting.steal_your_own_skin.description=Steal your own skin.
 module.skin_stealer.setting.steal_your_own_skin.button=Steal
 
 module.skin_stealer.stole_skin=§aStole %s's skin.
-module.skin_stealer.and_stole= and stole 
+module.skin_stealer.and_stole=and stole 
 module.skin_stealer.cloned_skin=§aCloned %s%s's skin!
 module.skin_stealer.stole_all_skins=§aStole all skins.
 module.skin_stealer.stole_own_skin=§aStole your own skin.

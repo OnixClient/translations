@@ -281,6 +281,8 @@ module.global_settings.setting.disable_file_integrity_check.description=Disables
 module.global_settings.setting.disable_file_integrity_check.name=Disable File Integrity Check
 module.global_settings.setting.disable_module_in_hud_editor_key.description=The key used to disable a module from the HUD editor.
 module.global_settings.setting.disable_module_in_hud_editor_key.name=Disable Module In HUD Editor Key
+module.global_settings.setting.enable_new_module_bubbles.description=Shows the “New” bubble on a module when a new one is added.
+module.global_settings.setting.enable_new_module_bubbles.name=Show New Module Bubbles
 module.global_settings.setting.fix_capes_being_hidden_with_some_packs.description=WARNING: Your game MAY crash when using some texture packs and joining some servers. If you want your pack to be fixed to work properly with the feature, please contact jqms on Discord.\nFixes capes being hidden when using certain texture packs.
 module.global_settings.setting.fix_capes_being_hidden_with_some_packs.name=Fix Hidden Capes
 module.global_settings.setting.module.global_settings.setting.revert_initial_ui_focus.description=Changes the mouse behaviour to not have the top most slot selected when opening a UI..description=Changes the mouse behaviour to not have the top most slot selected when opening a UI.

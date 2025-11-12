@@ -353,6 +353,12 @@ scripting.import.fail=Failed to import script %s "%s".
 
 
 
+## GDK Fixes
+module.gdk_fixes.name=1.21.120 Fixes
+module.gdk_fixes.description=Fixes a bunch of GDK related issues in the background.
+module.gdk_fixes.setting.fix_mouse_escaping.name=Fix Mouse Escaping Window
+module.gdk_fixes.setting.fix_mouse_escaping.description=Fixes the mouse escaping the window while moving around in game. This also restores the UWP behaviour where the mouse stays where you left it.
+
 ## 202020
 module.remind_202020.name=20 20 20
 module.remind_202020.description=Reminds you to adhere 20 20 20. (For every 20 minutes that pass, look 20 meters away for 20 seconds at a time).\n- This helps preserve your eyesight! (And I can't remember to do it, so I made this (I still don't use it...)).

@@ -494,6 +494,9 @@ module.global_settings.setting.legacy_scripting_block_changed_event_enabled.name
 module.global_settings.setting.legacy_scripting_block_changed_event_enabled.description=Enables the usage of the block changed event.
 module.global_settings.setting.fix_capes_being_hidden_with_some_packs.name=Fix Hidden Capes
 module.global_settings.setting.fix_capes_being_hidden_with_some_packs.description=WARNING: Your game MAY crash when using some texture packs and joining some servers. If you want your pack to be fixed to work properly with the feature, please contact jqms on Discord.\nFixes capes being hidden when using certain texture packs.
+module.global_settings.setting.enable_new_module_bubbles.name=Show New Module Bubbles
+module.global_settings.setting.enable_new_module_bubbles.description=Shows the “New” bubble on a module when a new one is added.
+
 
 module.global_settings.setting.tooltip_settings.name=Tooltip Settings
 module.global_settings.setting.tooltip_settings.description=The settings category of the tooltips.

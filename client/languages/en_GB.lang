@@ -7,7 +7,7 @@
 
 
 
-onixclient.pre_render_dragon_fix_needed=§fUse the §9Onix Client Launcher§f for using\n§bOnix Client Premium§f on §e1.16.100§f or below.\nThe launcher must be the one opening the game.
+onixclient.pre_render_dragon_fix_needed=§fUse the §9Onix Client Launcher§f for using\n§bOnix Client Premium§f on §e1.16.100§f or below.\nThe launcher must be the one opening the game.\nIf you want something more reliable, you can make a ticket and ask how to BGRA patch the game.
 
 onixclient.april_fools_text.title=APRIL FOOLS!!!!!!!!!!!!!
 onixclient.april_fools_text.description=Your fool has been APRILED! Run .setlocale en_US to change it back to English!

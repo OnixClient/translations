@@ -1773,6 +1773,10 @@ module.skin_stealer.cloned_skin=§aCloned %s%s's skin!
 module.skin_stealer.stole_all_skins=§aStole all skins.
 module.skin_stealer.stole_own_skin=§aStole your own skin.
 module.skin_stealer.notification.not_in_world=You must be in a world to use this.
+module.skin_stealer.notification.no_last_skin.title=No Last Skin!
+module.skin_stealer.notification.no_last_skin.message=You need to steal a skin before trying to see the last skin.
+module.skin_stealer.notification.never_stolen.title=Never Stolen Any Skins!
+module.skin_stealer.notification.never_stolen.message=There is no stolen skin folder as you have yet to steal a skin!
 
 ## 3D Skins
 module.player_skin_3d.name=3D Skins

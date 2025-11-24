@@ -1,0 +1,4 @@
+module.skin_stealer.notification.never_stolen.message=There is no stolen skin folder as you have yet to steal a skin!
+module.skin_stealer.notification.never_stolen.title=Never Stolen Any Skins!
+module.skin_stealer.notification.no_last_skin.message=You need to steal a skin before trying to see the last skin.
+module.skin_stealer.notification.no_last_skin.title=No Last Skin!

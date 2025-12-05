@@ -2121,6 +2121,10 @@ module.waypoints.setting.maximum_distance.description=The maximum distance a way
 module.waypoints.setting.fade_distance.name=Fade Out Distance
 module.waypoints.setting.fade_distance.description=The amount of block it takes for a waypoint to be fully faded out.
 
+## Fast Inventory
+module.fast_inventory.name=Fast Inventory
+module.fast_inventory.description=Lets you open your inventory without waiting the server's response.\nWe are not responsible if you get banned using this, there can always be edge case with any implementation of this feature making you send corrupt data to the server.
+
 ## Gamemode Switcher
 module.gamemode_switcher.name=Gamemode Switcher
 module.gamemode_switcher.description=The Java gamemode switcher ported to Bedrock.

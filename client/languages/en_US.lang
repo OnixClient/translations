@@ -2115,6 +2115,8 @@ module.waypoints.setting.fade_distance.description=The amount of block it takes 
 ## Fast Inventory
 module.fast_inventory.name=Fast Inventory
 module.fast_inventory.description=Lets you open your inventory without waiting the server's response.\nWe are not responsible if you get banned using this, there can always be edge case with any implementation of this feature making you send corrupt data to the server.
+module.fast_inventory.setting.spam_support.name=Spam Support
+module.fast_inventory.setting.spam_support.description=Lets you spam open/close without waiting for server sync. This means you dont have to wait for the inventory to open the first time to open it a second time. This could lead to desyncs.
 
 ## Gamemode Switcher
 module.gamemode_switcher.name=Gamemode Switcher

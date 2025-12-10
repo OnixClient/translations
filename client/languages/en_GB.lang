@@ -1535,6 +1535,8 @@ module.litematica.description=Helps you build structures
 ## Minimal View Bobbing
 module.minimal_view_bobbing.name=Minimal View Bobbing
 module.minimal_view_bobbing.description=Disables the screen shake when view bobbing is enabled. (Requires view bobbing to be enabled.)
+module.minimal_view_bobbing.description.not_updated.title=Minimal View Bobbing Error!
+module.minimal_view_bobbing.description.not_updated.description=Minimal View Bobbing has not been updated for your game version.
 
 ## Modern Keybind Handling
 module.modern_keybind_handling.name=Modern Keybind Handling

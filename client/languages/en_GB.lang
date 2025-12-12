@@ -354,7 +354,7 @@ scripting.import.fail=Failed to import script %s "%s".
 
 
 ## GDK Fixes
-module.gdk_fixes.name=1.21.120 Fixes
+module.gdk_fixes.name=1.21.120+ Fixes
 module.gdk_fixes.description=Fixes a bunch of GDK related issues in the background.
 module.gdk_fixes.setting.fix_mouse_escaping.name=Fix Mouse Escaping Window
 module.gdk_fixes.setting.fix_mouse_escaping.description=Fixes the mouse escaping the window while moving around in game. This also restores the UWP behaviour where the mouse stays where you left it.

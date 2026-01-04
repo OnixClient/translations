@@ -12,3 +12,7 @@ module.skin_stealer.notification.never_stolen.message=There is no stolen skin fo
 module.skin_stealer.notification.never_stolen.title=Never Stolen Any Skins!
 module.skin_stealer.notification.no_last_skin.message=You need to steal a skin before trying to see the last skin.
 module.skin_stealer.notification.no_last_skin.title=No Last Skin!
+module.smooth_pearl.description=Makes teleporting look smooth.
+module.smooth_pearl.name=Smooth Ender Pearls
+module.smooth_pearl.setting.save_button.description=The speed at which the interpolation happens.
+module.smooth_pearl.setting.save_button.name=Lerp Speed

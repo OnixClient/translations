@@ -1878,6 +1878,12 @@ module.sky_overlay_changer.setting.open_skies_button.button=Open
 module.sky_overlay_changer.export_error.already_exists=A sky with this name already exists.
 module.sky_overlay_changer.export_error.could_not_read_texture=Failed to save the sky.
 
+## Smooth Pearls
+module.smooth_pearl.name=Smooth Ender Pearls
+module.smooth_pearl.description=Makes teleporting look smooth.
+module.smooth_pearl.setting.save_button.name=Lerp Speed
+module.smooth_pearl.setting.save_button.description=The speed at which the interpolation happens.
+
 ## Shulker Box Display
 module.shulker_box_display.name=Shulker Box Display
 module.shulker_box_display.description=Allows you to view the contents of a shulker box without opening it.

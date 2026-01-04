@@ -14,5 +14,5 @@ module.skin_stealer.notification.no_last_skin.message=You need to steal a skin b
 module.skin_stealer.notification.no_last_skin.title=No Last Skin!
 module.smooth_pearl.description=Makes teleporting look smooth.
 module.smooth_pearl.name=Smooth Ender Pearls
-module.smooth_pearl.setting.save_button.description=The speed at which the interpolation happens.
-module.smooth_pearl.setting.save_button.name=Lerp Speed
+module.smooth_pearl.setting.speed.description=The speed at which the interpolation happens.
+module.smooth_pearl.setting.speed.name=Lerp Speed

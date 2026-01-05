@@ -1879,7 +1879,7 @@ module.sky_overlay_changer.export_error.already_exists=A sky with this name alre
 module.sky_overlay_changer.export_error.could_not_read_texture=Failed to save the sky.
 
 ## Smooth Pearls
-module.smooth_pearl.name=Smooth Ender Pearls
+module.smooth_pearl.name=Smooth Pearls/Teleport
 module.smooth_pearl.description=Makes teleporting look smooth.
 module.smooth_pearl.setting.speed.name=Lerp Speed
 module.smooth_pearl.setting.speed.description=The speed at which the interpolation happens.

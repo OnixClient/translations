@@ -1170,7 +1170,7 @@ module.double_click_prevent.setting.was_enabled_cubecraft.name=Was Enabled Becau
 module.double_click_prevent.setting.was_enabled_cubecraft.description=Indicates if it was enabled due to Cubecraft.
 
 ## Dynamic Light
-module.dynamic_light.name=Dynamic Light
+module.dynamic_light.name=Dynamic Lights
 module.dynamic_light.description=Makes the surrounding area illuminate when equipped with light-emitting items.
 
 module.dynamic_light.setting.light_settings_category.name=Light Settings
@@ -1184,7 +1184,7 @@ module.dynamic_light.setting.keep_light_on_eject.description=Toggle to keep the 
 
 ## Environment Changer
 module.environment_changer.name=Environment Changer
-module.environment_changer.description=Changes the environment around you.
+module.environment_changer.description=Customize the time, weather, fog, clouds, atmospheric particles, water appearance, and sky colours however you want.
 
 module.environment_changer.setting.time_settings_category.name=Time Settings
 module.environment_changer.setting.time_settings_category.description=Settings for time settings.
@@ -2075,8 +2075,8 @@ module.rear_view.setting.hide_hand.name=Hide Hand
 module.rear_view.setting.hide_hand.description=Hide the hand when the action is happening.
 
 ## Dynamic Perspective
-module.dynamic_perspective.name=Dynamic Perspective
-module.dynamic_perspective.description=Allows you to change your perspective based on your current situation.
+module.dynamic_perspective.name=Better Third Person
+module.dynamic_perspective.description=Allows you to animate the perspective change, change the order, and change your perspective dynamically based on your current situation. Formerly Dynamic Perspective
 module.dynamic_perspective.setting.elytra_perspective.name=Elytra Perspective
 module.dynamic_perspective.setting.elytra_perspective.description=What should be your perspective when you are flying with an elytra.
 module.dynamic_perspective.setting.riding_perspective.name=Riding Perspective
@@ -2085,6 +2085,20 @@ module.dynamic_perspective.setting.swimming_perspective.name=Swimming Perspectiv
 module.dynamic_perspective.setting.swimming_perspective.description=What should be your perspective when you are swimming.
 module.dynamic_perspective.setting.sneaking_perspective.name=Sneaking Perspective
 module.dynamic_perspective.setting.sneaking_perspective.description=What should be your perspective when you are sneaking.
+module.dynamic_perspective.setting.lerp_perspective_change.name=Animate Perspective Change
+module.dynamic_perspective.setting.lerp_perspective_change.description=Smoothly animate the transition when changing perspective.
+module.dynamic_perspective.setting.zoom_in_amount.name=Zoom In Amount
+module.dynamic_perspective.setting.zoom_in_amount.description=How much to zoom in during the perspective transition.
+module.dynamic_perspective.setting.lerp_speed.name=Animation Speed
+module.dynamic_perspective.setting.lerp_speed.description=How fast the perspective transition animation plays.
+module.dynamic_perspective.setting.desired_next_perspective.name=Perspective After First Person
+module.dynamic_perspective.setting.desired_next_perspective.description=Which third person perspective to switch to from first person.
+module.dynamic_perspective.setting.perspective_reordering_settings.name=Perspective Reordering Settings
+module.dynamic_perspective.setting.perspective_reordering_settings.description=Configure which third person perspective to switch to from first person.
+module.dynamic_perspective.setting.perspective_animation_settings.name=Perspective Change Animation Settings
+module.dynamic_perspective.setting.perspective_animation_settings.description=Configure the animation when transitioning between perspectives.
+module.dynamic_perspective.setting.auto_perspective_settings.name=Auto Perspective Settings
+module.dynamic_perspective.setting.auto_perspective_settings.description=Automatically change perspective based on your current activity.
 
 ## Rotatable Screen
 module.rotatable_screen.name=Rotatable Camera/Screen

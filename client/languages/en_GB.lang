@@ -2100,6 +2100,13 @@ module.dynamic_perspective.setting.perspective_animation_settings.description=Co
 module.dynamic_perspective.setting.auto_perspective_settings.name=Auto Perspective Settings
 module.dynamic_perspective.setting.auto_perspective_settings.description=Automatically change perspective based on your current activity.
 
+module.dynamic_perspective.setting.lerp_mode_one.name=Animate Mode One
+module.dynamic_perspective.setting.lerp_mode_one.description=Zoom mode one, looks different then zoom mode two.
+module.dynamic_perspective.setting.lerp_mode_two.name=Animate Mode Two
+module.dynamic_perspective.setting.lerp_mode_two.description=Zoom mode two, looks different then zoom mode one.
+module.dynamic_perspective.setting.animation_starting_position.name=Animation Starting Position
+module.dynamic_perspective.setting.animation_starting_position.description=The offset behind the player to begin the animation
+
 ## Rotatable Screen
 module.rotatable_screen.name=Rotatable Camera/Screen
 module.rotatable_screen.description=Allows you to rotate your camera/screen to any roll.

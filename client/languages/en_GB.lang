@@ -3425,6 +3425,9 @@ command.waypoint.disabled=§cYou must enable the Waypoints module before running
 
 ## SERVERS!!!!!!!!!!!!!!!!!
 ## The Hive ============================================
+## Hive Tools
+module.hive_tools.name=Hive Tools
+module.hive_tools.description=A collection of useful tools for The Hive.
 
 ## Hive CS Code Copier
 module.hive_cs_code_copier.name=Hive CS Code Copier

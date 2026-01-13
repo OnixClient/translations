@@ -1,3 +1,5 @@
+module.animation_settings.setting.reorderable_enum_setting_animation_speed.description=Multiplier of how quickly the reorderable settings entries should move back into place.
+module.animation_settings.setting.reorderable_enum_setting_animation_speed.name=Reorderable Setting Animation Speed
 module.better_tooltips.setting.show_block_id.description=Displays the numeric ID of the block if applicable.
 module.better_tooltips.setting.show_block_id.name=Show Block ID
 module.dynamic_perspective.setting.animation_starting_position.description=The offset behind the player to begin the animation

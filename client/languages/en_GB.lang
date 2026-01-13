@@ -26,7 +26,7 @@ module.module.setting.premium_only.description=These features are for premium us
 module.module.setting.restricted_reason.name=%s restricted this mod because: %s
 module.module.setting.restricted_min.name=%s has altered the minimum value of this setting.
 module.module.setting.restricted_max.name=%s has altered the maximum value of this setting.
-module.module.setting.restricted_setting.name=%s has altered and locked the value of this setting.
+module.module.setting.restricted_setting.name=%s has altered and locked the value of this setting.$
 module.module.setting.restricted_setting_options.name=%s has removed some values from this enum/list.
 module.visual.setting.scale.name=Scale
 module.visual.setting.scale.description=The scale of the module, will multiply the size by the specified amount.
@@ -3408,3 +3408,29 @@ command.waypoint.list_entry_overworld=§aOverworld
 command.waypoint.list_entry_unknown=§5 ???
 command.waypoint.failed=§cNo waypoint named %s.
 command.waypoint.disabled=§cYou must enable the Waypoints module before running this command.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## SERVERS!!!!!!!!!!!!!!!!!
+## The Hive ============================================
+
+## Hive CS Code Copier
+module.hive_cs_code_copier.name=Hive CS Code Copier
+module.hive_cs_code_copier.description=Copies the custom server code from The Hive to your clipboard.
+module.hive_cs_code_copier.setting.show_chat_message.name=Show Chat Message
+module.hive_cs_code_copier.setting.show_chat_message.description=Display a message in chat when the code is copied.
+module.hive_cs_code_copier.setting.include_slash_cs.name=Include /cs
+module.hive_cs_code_copier.setting.include_slash_cs.description=Include "/cs " before the code when copying.
+module.hive_cs_code_copier.copied_code=§a§l» §rCopied code §e%s§f to clipboard!§r

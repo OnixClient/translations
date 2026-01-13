@@ -3428,6 +3428,8 @@ command.waypoint.disabled=§cYou must enable the Waypoints module before running
 ## Hive Tools
 module.hive_tools.name=Hive Tools
 module.hive_tools.description=A collection of useful tools for The Hive.
+module.hive_tools.queueing_into_a_new_game=§r§8Queueing into a new game.
+module.hive_tools.queueing_into_a_new_game_of=§c§l» §r§cQueuing into a new game of %s§r§c.
 
 ## Hive CS Code Copier
 module.hive_cs_code_copier.name=Hive CS Code Copier

@@ -1581,6 +1581,8 @@ module.hive_auto_accept_requests.setting.auto_accept_friend_requests.description
 module.hive_auto_accept_requests.setting.auto_accept_friend_requests.name=Auto Accept Friend Requests
 module.hive_auto_accept_requests.setting.auto_accept_party_requests.description=Automatically accept party invites and join parties.
 module.hive_auto_accept_requests.setting.auto_accept_party_requests.name=Auto Accept Party Invites
+module.hive_auto_costume.description=Randomises your costume when you join a pre-game lobby.
+module.hive_auto_costume.name=Hive Auto Costume Changer
 module.hive_autoqueue.description=Automatically requeues the last gamemode you were playing.
 module.hive_autoqueue.died.block_drop=§cF.
 module.hive_autoqueue.died.murder_mystery=§cDying is so bald!

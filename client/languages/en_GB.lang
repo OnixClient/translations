@@ -3548,3 +3548,5 @@ module.hive_chat_debloater.setting.hide_hidden_zone.name=Hide Hidden Zone Messag
 module.hive_chat_debloater.setting.hide_hidden_zone.description=Hide the message shown when you enter a hidden zone.
 module.hive_chat_debloater.setting.hide_visible_zone.name=Hide Visible Zone Message
 module.hive_chat_debloater.setting.hide_visible_zone.description=Hide the message shown when you become visible again.
+module.hive_chat_debloater.setting.hide_unused_unlocks.name=Hide Unused Unlocks Message
+module.hive_chat_debloater.setting.hide_unused_unlocks.description=Hide the message that tells you that you have unused unlocks in your locker.

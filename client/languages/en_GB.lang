@@ -3498,3 +3498,9 @@ module.hive_quick_invite.could_not_invite=§cCould not invite player.
 ## Hive Bedwars Hardcore Hearts
 module.hive_bedwars_hardcore_hearts.name=Hive Bedwars Heartcore Hearts
 module.hive_bedwars_hardcore_hearts.description=Show hardcore hearts when you no longer have a bed in The Hive's Bedwars gamemode.
+
+## Hive Quick Mount
+module.hive_quick_mount.name=Hive Quick Mount
+module.hive_quick_mount.description=Quickly apply the mount of your choice without having to navigate the menus.
+module.hive_quick_mount.setting.selected_mount.name=Selected Mount
+module.hive_quick_mount.setting.selected_mount.description=The mount you have selected as the preferred mount.

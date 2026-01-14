@@ -3535,3 +3535,7 @@ module.hive_chat_debloater.setting.hide_discord_ad.name=Hide Discord Promotion
 module.hive_chat_debloater.setting.hide_discord_ad.description=Hide the Hive Discord promotion message.
 module.hive_chat_debloater.setting.hide_report_ad.name=Hide Report Message
 module.hive_chat_debloater.setting.hide_report_ad.description=Hide the Hive rule reporting message.
+module.hive_chat_debloater.setting.hide_hidden_zone.name=Hide Hidden Zone Message
+module.hive_chat_debloater.setting.hide_hidden_zone.description=Hide the message shown when you enter a hidden zone.
+module.hive_chat_debloater.setting.hide_visible_zone.name=Hide Visible Zone Message
+module.hive_chat_debloater.setting.hide_visible_zone.description=Hide the message shown when you become visible again.

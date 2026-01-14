@@ -3431,6 +3431,9 @@ module.hive_autoqueue.setting.mute_requeue_notification.description=Mute the sou
 ## Hive Autoqueue
 module.hive_autoqueue.name=Hive Autoqueue
 module.hive_autoqueue.description=Automatically requeues the last gamemode you were playing.
+module.hive_autoqueue.setting.requeue_key.name=Requeue Key
+module.hive_autoqueue.setting.requeue_key.description=The keybind you press to requeue.
+
 module.hive_autoqueue.queueing_into_a_new_game=§r§8Queueing into a new game.
 module.hive_autoqueue.eliminated.block_drop=§cUnfortunately you lost.
 module.hive_autoqueue.died.block_drop=§cF.

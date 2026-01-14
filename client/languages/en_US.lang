@@ -3550,3 +3550,6 @@ module.hive_anti_capitalism.setting.prevent_interactions.description=Tries it's 
 module.hive_anti_capitalism.setting.automatically_close_marketplace_screen.name=Automatically Close Marketplace
 module.hive_anti_capitalism.setting.automatically_close_marketplace_screen.description=Automatically closes the marketplace screen when it opens if you manage to open it.
 
+## Hive Auto Costume Changer
+module.hive_auto_costume.name=Hive Auto Costume Changer
+module.hive_auto_costume.description=Randomises your costume when you join a pre-game lobby.

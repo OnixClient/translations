@@ -3504,3 +3504,11 @@ module.hive_quick_mount.name=Hive Quick Mount
 module.hive_quick_mount.description=Quickly apply the mount of your choice without having to navigate the menus.
 module.hive_quick_mount.setting.selected_mount.name=Selected Mount
 module.hive_quick_mount.setting.selected_mount.description=The mount you have selected as the preferred mount.
+
+## Hive Auto Accept Requests
+module.hive_auto_accept_requests.name=Hive Auto Accept Requests
+module.hive_auto_accept_requests.description=Automatically accepts friend requests and party invites on The Hive.
+module.hive_auto_accept_requests.setting.auto_accept_friend_requests.name=Auto Accept Friend Requests
+module.hive_auto_accept_requests.setting.auto_accept_friend_requests.description=Automatically accept incoming friend requests from other players.
+module.hive_auto_accept_requests.setting.auto_accept_party_requests.name=Auto Accept Party Invites
+module.hive_auto_accept_requests.setting.auto_accept_party_requests.description=Automatically accept party invites and join parties.

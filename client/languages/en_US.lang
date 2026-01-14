@@ -3503,3 +3503,13 @@ module.hive_auto_accept_requests.setting.auto_accept_friend_requests.name=Auto A
 module.hive_auto_accept_requests.setting.auto_accept_friend_requests.description=Automatically accept incoming friend requests from other players.
 module.hive_auto_accept_requests.setting.auto_accept_party_requests.name=Auto Accept Party Invites
 module.hive_auto_accept_requests.setting.auto_accept_party_requests.description=Automatically accept party invites and join parties.
+
+## Hive Murder Mystery Role Dodge
+module.hive_murder_mystery_role_dodge.name=Hive Murder Mystery Role Dodge
+module.hive_murder_mystery_role_dodge.description=Auto-dodge Murder Mystery games based on your role.
+module.hive_murder_mystery_role_dodge.setting.dodge_innocent.name=Dodge Innocent
+module.hive_murder_mystery_role_dodge.setting.dodge_innocent.description=Leave game if you get Innocent.
+module.hive_murder_mystery_role_dodge.setting.dodge_sheriff.name=Dodge Sheriff
+module.hive_murder_mystery_role_dodge.setting.dodge_sheriff.description=Leave game if you get Sheriff.
+module.hive_murder_mystery_role_dodge.setting.dodge_murderer.name=Dodge Murderer
+module.hive_murder_mystery_role_dodge.setting.dodge_murderer.description=Leave game if you get Murderer.

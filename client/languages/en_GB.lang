@@ -3504,6 +3504,10 @@ module.hive_quick_mount.name=Hive Quick Mount
 module.hive_quick_mount.description=Quickly apply the mount of your choice without having to navigate the menus.
 module.hive_quick_mount.setting.selected_mount.name=Selected Mount
 module.hive_quick_mount.setting.selected_mount.description=The mount you have selected as the preferred mount.
+module.hive_quick_mount.setting.selected_mount_custom_setting.name=Selected Mount
+module.hive_quick_mount.setting.selected_mount_custom_setting.description=The mount you have selected as the preferred mount.
+module.hive_quick_mount.setting.selected_mount_save.name=Selected Mount Config Saver
+module.hive_quick_mount.setting.selected_mount_save.description=Setting just here so that it actually saves the mount.
 
 ## Hive Auto Accept Requests
 module.hive_auto_accept_requests.name=Hive Auto Accept Requests

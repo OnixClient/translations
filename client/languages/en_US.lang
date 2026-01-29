@@ -2994,7 +2994,7 @@ module.potion_hud.setting.sync_red_flashes.description=Whether or not the flashi
 
 ## Reach Display
 module.reach_display.name=Reach Display
-module.reach_display.description=Shows the reach of your last hit. Not 100%% accurate due to latency!
+module.reach_display.description=Shows the reach of your last hit. Now caps out a 3 in Survival, not 2.90!
 module.reach_display.setting.show_reach_text.name=Show \Reach:\ Text
 module.reach_display.setting.show_reach_text.description=Displays the "Reach" text.
 module.reach_display.reach_text=Reach: %s

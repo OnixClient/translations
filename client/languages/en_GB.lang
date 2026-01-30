@@ -3576,3 +3576,7 @@ module.hive_anti_capitalism.setting.automatically_close_marketplace_screen.descr
 ## Hive Auto Costume Changer
 module.hive_auto_costume.name=Hive Auto Costume Changer
 module.hive_auto_costume.description=Randomises your costume when you join a pre-game lobby.
+
+## Hive Auto Map Voter/Avoider
+module.hive_auto_map_vote.name=Hive Auto Map Voter/Avoider
+module.hive_auto_map_vote.description=Lets you either automatically vote for a map, avoid a map, or do nothing.

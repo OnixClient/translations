@@ -2070,6 +2070,8 @@ module.rear_view.setting.hide_hand.description=Hide the hand when the action is 
 ## Dynamic Perspective
 module.dynamic_perspective.name=Better Third Person
 module.dynamic_perspective.description=Allows you to animate the perspective change, change the order, and change your perspective dynamically based on your current situation. Formerly Dynamic Perspective
+module.dynamic_perspective.setting.auto_perspective_settings.name=Perspective Automation
+module.dynamic_perspective.setting.auto_perspective_settings.description=Changes the perspective when performing certain actions.
 module.dynamic_perspective.setting.elytra_perspective.name=Elytra Perspective
 module.dynamic_perspective.setting.elytra_perspective.description=What should be your perspective when you are flying with an elytra.
 module.dynamic_perspective.setting.riding_perspective.name=Riding Perspective

@@ -535,6 +535,8 @@ module.dynamic_perspective.setting.perspective_order.third_person_front.descript
 module.dynamic_perspective.setting.perspective_order.third_person_front.name=Third Person (Front)
 module.dynamic_perspective.setting.riding_perspective.description=What should be your perspective when you are riding an entity.
 module.dynamic_perspective.setting.riding_perspective.name=Riding Perspective
+module.dynamic_perspective.setting.should_skip_freelook_if_blocked.description=Skips over Freelook as a perspective when the server has blocked it.
+module.dynamic_perspective.setting.should_skip_freelook_if_blocked.name=Skip Freelook When Blocked
 module.dynamic_perspective.setting.sneaking_perspective.description=What should be your perspective when you are sneaking.
 module.dynamic_perspective.setting.sneaking_perspective.name=Sneaking Perspective
 module.dynamic_perspective.setting.swimming_perspective.description=What should be your perspective when you are swimming.

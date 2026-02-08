@@ -2106,6 +2106,8 @@ module.dynamic_perspective.setting.lerp_mode_one.name=Animate Mode One
 module.dynamic_perspective.setting.lerp_mode_one.description=Zoom mode one, looks different then zoom mode two.
 module.dynamic_perspective.setting.lerp_mode_two.name=Animate Mode Two
 module.dynamic_perspective.setting.lerp_mode_two.description=Zoom mode two, looks different then zoom mode one.
+module.dynamic_perspective.setting.should_skip_freelook_if_blocked.name=Skip Freelook When Blocked
+module.dynamic_perspective.setting.should_skip_freelook_if_blocked.description=Skips over Freelook as a perspective when the server has blocked it.
 module.dynamic_perspective.setting.animation_starting_position.name=Animation Starting Position
 module.dynamic_perspective.setting.animation_starting_position.description=The offset behind the player to begin the animation
 

@@ -231,6 +231,7 @@ module.clienthudui.setting.open_settings=Client Settings
 
 ## Theme Editor
 module.themeuipreview.name=Theme Preview
+module.themeuipreview.name_alias0=ThemePreview
 module.themeuipreview.description=This is a preview to see the changes you are making!
 module.themeuipreview.setting.presets.name=Presets
 module.themeuipreview.setting.presets.description=Theme presets you can use or start from.
@@ -336,6 +337,7 @@ ui.flatworld.error.save.unknown=Unknown error.
 
 ##Legacy Scripting
 module.lua_command.name=Lua Command
+module.lua_command.name_alias0=LuaCommand
 module.lua_command.description=The module for the lua command, it is used to allow the creation of a render function.\n- Can be used like any normal mods\n- You can edit the CMD.lua file to add pre-made functions to it.
 scripting.import.start=Importing script %s "%s".
 scripting.import.success=Script %s "%s" was imported!
@@ -346,6 +348,7 @@ scripting.import.fail=Failed to import script %s "%s".
 
 ## GDK Fixes
 module.gdk_fixes.name=1.21.120+ Fixes
+module.gdk_fixes.name_alias0=1.21.120+Fixes
 module.gdk_fixes.description=Fixes a bunch of GDK related issues in the background.
 module.gdk_fixes.setting.fix_mouse_escaping.name=Fix Mouse Escaping Window
 module.gdk_fixes.setting.fix_mouse_escaping.description=Fixes the mouse escaping the window while moving around in game. This also restores the UWP behavior where the mouse stays where you left it.
@@ -356,6 +359,7 @@ module.gdk_fixes.setting.runtime_pack_importing_disclaimer.description=The setti
 
 ## 202020
 module.remind_202020.name=20 20 20
+module.remind_202020.name_alias0=202020
 module.remind_202020.description=Reminds you to adhere 20 20 20. (For every 20 minutes that pass, look 20 meters away for 20 seconds at a time).\n- This helps preserve your eyesight! (And I can't remember to do it, so I made this (I still don't use it...)).
 module.remind_202020.setting.interval.name=Interval (minutes)
 module.remind_202020.setting.interval.description=The interval between reminders.
@@ -368,6 +372,7 @@ module.remind_202020.setting.snooze_key.description=The key that will snooze the
 
 ## Animation Settings
 module.animation_settings.name=Animation Settings
+module.animation_settings.name_alias0=AnimationSettings
 module.animation_settings.description=Allows you to change various animations.
 module.animation_settings.setting.button_hover_size_multiplier.name=Button Hover Size Multiplier
 module.animation_settings.setting.button_hover_size_multiplier.description=Multiplier for button size when hovered.
@@ -431,6 +436,7 @@ module.animation_settings.setting.easing_enum.inoutbounce=In Out Bounce
 
 ## Global Settings
 module.global_settings.name=Global Settings
+module.global_settings.name_alias0=GlobalSettings
 module.global_settings.description=Adjust global configurations for the client.
 module.global_settings.setting.open_gui_key.name=Open Client Key
 module.global_settings.setting.open_gui_key.description=Key used to open the client GUI.
@@ -595,6 +601,7 @@ module.global_settings.setting.controller_open_gui_key.description=The key to op
 
 ## Auto GG
 module.autogg.name=Auto GG
+module.autogg.name_alias0=AutoGG
 module.autogg.description=Automatically says GG (or any message) at the end of the game.\nWorks on Hive, CubeCraft, Zeqa, NetherGames, Hyperlands.
 module.autogg.setting.gg_delay.name=GG Delay (seconds)
 module.autogg.setting.gg_delay.description=The delay between the game ending and the message being sent.
@@ -609,6 +616,9 @@ module.autogg.remove_message.button=Remove
 
 ## Auto Text Hotkey
 module.auto_text_hotkey.name=Auto Text Hotkey
+module.auto_text_hotkey.name_alias0=AutoTextHotkey
+module.auto_text_hotkey.name_alias1=TextHotkey
+module.auto_text_hotkey.name_alias2=Command Hotkey
 module.auto_text_hotkey.description=Automatically sends a message when a key is pressed.
 module.auto_text_hotkey.setting.shortcut.name=Shortcut
 module.auto_text_hotkey.setting.shortcut.description=The key that will send the message.
@@ -625,6 +635,9 @@ module.auto_text_hotkey.setting.remove_message.button=Remove
 
 ## Block Outline/ Overlay
 module.block_outline_overlay.name=Block Outline/Overlay
+module.block_outline_overlay.name_alias0=BlockOutline
+module.block_outline_overlay.name_alias1=BlockOverlay
+module.block_outline_overlay.name_alias2=BlockOutline/Overlay
 module.block_outline_overlay.description=Changes the selected block outline/overlay.\n- The \"Outline Selection\" setting needs to be enabled in video settings.
 module.block_outline_overlay.setting.bad_game_settings_warning.name=Your current game settings will make this mod not work.\nYou can turn off "%s" from video settings.\nYou can also enable the option below to fix it automatically going forward.
 module.block_outline_overlay.setting.bad_game_settings_warning.description=Your current game settings will make this mod not work.\nYou can turn off "%s" from video settings.\nYou can also enable the option below to fix it automatically going forward.
@@ -655,6 +668,7 @@ module.block_outline_overlay.setting.block_overlay_color.description=The color o
 
 ## Chat Tweaks
 module.chat_tweaks.name=Chat Tweaks
+module.chat_tweaks.name_alias0=ChatTweaks
 module.chat_tweaks.description=Various tweaks to the chat.
 module.chat_tweaks.setting.timestamp_category.name=Timestamp
 module.chat_tweaks.setting.timestamp_category.description=Customise the timestamp settings.
@@ -692,6 +706,7 @@ module.chat_tweaks.setting.ping_on_message.description=Play a ping sound with ev
 
 ## Entity Tweaks
 module.entity_tweaks.name=Entity Tweaks
+module.entity_tweaks.name_alias0=EntityTweaks
 module.entity_tweaks.description=Various tweaks to the entities. If you have any suggestions for this module, please let us know.
 module.entity_tweaks.setting.dont_hit_tamed_animals.name=Prevent Hitting Tamed Animals
 module.entity_tweaks.setting.dont_hit_tamed_animals.description=Stops you from being able to attack tamed animals.
@@ -704,6 +719,8 @@ module.entity_tweaks.setting.dont_hit_tamed_animals_bypass_key.description=The k
 
 ## Chunk Border
 module.chunk_border.name=Chunk Borders
+module.chunk_border.name_alias0=ChunkBorder
+module.chunk_border.name_alias1=ChunkBorders
 module.chunk_border.description=Shows borders of the chunk you are currently in.
 module.chunk_border.setting.block_line_color.name=Block Color
 module.chunk_border.setting.block_line_color.description=The color of the blocks. (Usually yellow)
@@ -714,6 +731,7 @@ module.chunk_border.setting.outer_chunk_line_color.description=The color of the 
 
 ## Cinematic Camera
 module.cinematic_camera.name=Cinematic Camera
+module.cinematic_camera.name_alias0=CinematicCamera
 module.cinematic_camera.description=Makes the camera smooth, similar to the cinematic camera in OptiFine.
 module.cinematic_camera.setting.camera_settings_category.name=Camera Settings
 module.cinematic_camera.setting.camera_settings_category.description=Settings to change the camera settings.
@@ -728,6 +746,7 @@ module.cinematic_camera.setting.toggle_mode.description=Makes it so that you can
 
 ## Color Options
 module.color_options.name=Color Settings
+module.color_options.name_alias0=ColorSettings
 module.color_options.description=Allows you to change the colors of the client.
 module.color_options.setting.rgb_category.name=RGB Category
 module.color_options.setting.rgb_category.description=Settings for RGB.
@@ -778,6 +797,7 @@ module.color_options.setting.open_theme_editor.button=Open
 
 ## Developer Options
 module.developer_options.name=Developer Settings
+module.developer_options.name_alias0=DeveloperSettings
 module.developer_options.description=A collection of tools useful to developers.
 module.developer_options.setting.bypass_creative_tools.name=Bypass Creative Tools
 module.developer_options.setting.bypass_creative_tools.description=Bypasses Creative Tools restrictions.
@@ -792,6 +812,7 @@ module.developer_options.setting.lua_autoreload_on_by_default.description=Automa
 
 ## Creative Tools
 module.creative_tools.name=Creative Tools
+module.creative_tools.name_alias0=CreativeTools
 module.creative_tools.description=Various tools to help with creative mode.\nNote: Only use this with permission if you are on someone else's world/server.
 
 module.creative_tools.setting.block_reach_settings_category.name=Block Reach Settings
@@ -916,6 +937,7 @@ module.creative_tools.notification.op_needed=You need to be an operator to use %
 
 ## Command Block Chain Viewer
 module.command_block_chain_viewer.name=Command Block Chain Viewer
+module.command_block_chain_viewer.name_alias0=CommandBlockChainViewer
 module.command_block_chain_viewer.description=Lets you view and manage command blocks in a chain from one command block.
 module.command_block_chain_viewer.setting.teleport_back_to_starting_position.name=Teleport Back to Starting Position
 module.command_block_chain_viewer.setting.teleport_back_to_starting_position.description=Teleports you back to the position you were in when you opened the first command block.
@@ -964,6 +986,7 @@ module.command_block_chain_viewer.notification.can_only_delete_straight_lines.me
 
 ## Featured Server Manager
 module.featured_server_manager.name=Featured Server Manager
+module.featured_server_manager.name_alias0=FeaturedServerManager
 module.featured_server_manager.description=Lets you manage featured servers. You can also add custom ones giving them beautiful icon and banners.
 module.featured_server_manager.setting.should_hide.name=Hide %s
 module.featured_server_manager.setting.should_hide.description=Enabling this will remove %s from the featured servers list.
@@ -1050,6 +1073,7 @@ module.featured_server_manager.setting.new_add_server.error_invalid.description=
 
 ## Crop Protector
 module.crop_protector.name=Crop Protector
+module.crop_protector.name_alias0=CropProtector
 module.crop_protector.description=Prevents you from breaking ungrown crops. Sneak to bypass.
 
 module.crop_protector.setting.replant_with_hand_item.name=Replant With Hand Item
@@ -1057,6 +1081,9 @@ module.crop_protector.setting.replant_with_hand_item.description=Toggle replanti
 
 ## Custom Crosshair
 module.custom_crosshair.name=Custom Crosshair
+module.custom_crosshair.name_alias0=Crosshair Editor
+module.custom_crosshair.name_alias1=Crosshair Modifier
+module.custom_crosshair.name_alias2=CustomCrosshair
 module.custom_crosshair.description=Customise your crosshair to your heart's content.
 
 module.custom_crosshair.setting.open_crosshair_editor.name=Open Crosshair Editor
@@ -1119,6 +1146,7 @@ module.custom_crosshair_editor.old_renderer=You need to use the new renderer to 
 
 ## Quick Controller Input
 module.quick_controller_input.name=Quick Controller Input
+module.quick_controller_input.name_alias0=QuickControllerInput
 module.quick_controller_input.description=Makes the controller trigger button inputs be customisably sensitive.
 module.quick_controller_input.setting.left_sensitivity.name=Left Trigger Sensitivty
 module.quick_controller_input.setting.left_sensitivity.description=How much force is required to trigger an input.
@@ -1127,6 +1155,9 @@ module.quick_controller_input.setting.right_sensitivity.description=How much for
 
 ## Java Debug Menu
 module.java_debug_menu.name=Java Debug Menu
+module.java_debug_menu.name_alias0=DebugMenu
+module.java_debug_menu.name_alias1=F3
+module.java_debug_menu.name_alias2=JavaDebugMenu
 module.java_debug_menu.description=A basic recreation of the Java Edition debug menu.
 
 module.java_debug_menu.setting.hide_other_modules.name=Hide Other Modules
@@ -1138,6 +1169,10 @@ module.java_debug_menu.setting.debug_crosshair.description=Toggle debug crosshai
 
 ## Double Click Prevent
 module.double_click_prevent.name=Double Click Prevent
+module.double_click_prevent.name_alias0=Double Click Limiter
+module.double_click_prevent.name_alias1=CPS Limiter
+module.double_click_prevent.name_alias2=DCPrevent
+module.double_click_prevent.name_alias3=DoubleClickPrevent
 module.double_click_prevent.description=Allows you to fine-tune your click settings.
 
 module.double_click_prevent.setting.click_settings_category.name=Click Settings
@@ -1164,6 +1199,9 @@ module.double_click_prevent.setting.was_enabled_cubecraft.description=Indicates 
 
 ## Dynamic Light
 module.dynamic_light.name=Dynamic Lights
+module.dynamic_light.name_alias0=DynamicLight
+module.dynamic_light.name_alias1=DynamicLighting
+module.dynamic_light.name_alias2=DynamicLights
 module.dynamic_light.description=Makes the surrounding area illuminate when equipped with light-emitting items.
 
 module.dynamic_light.setting.light_settings_category.name=Light Settings
@@ -1177,7 +1215,16 @@ module.dynamic_light.setting.keep_light_on_eject.description=Toggle to keep the 
 
 ## Environment Changer
 module.environment_changer.name=Environment Changer
-module.environment_changer.description=Customize the time, weather, fog, clouds, atmospheric particles, water appearance, and sky colors however you want.
+module.environment_changer.name_alias0=TimeChanger
+module.environment_changer.name_alias1=Time Changer
+module.environment_changer.name_alias2=WeatherChanger
+module.environment_changer.name_alias3=Weather Changer
+module.environment_changer.name_alias4=CloudChanger
+module.environment_changer.name_alias5=Cloud Changer
+module.environment_changer.name_alias6=SkyColor
+module.environment_changer.name_alias7=Sky Color
+module.environment_changer.name_alias8=EnvironmentChanger
+module.environment_changer.description=Customize the time, weather, clouds, atmospheric particles, water appearance, and sky colors however you want.
 
 module.environment_changer.setting.time_settings_category.name=Time Settings
 module.environment_changer.setting.time_settings_category.description=Settings for time settings.
@@ -1260,6 +1307,10 @@ module.environment_changer.setting.water_opacity.description=Current opacity/tra
 
 ## Fog Changer
 module.fog_customiser.name=Fog Changer
+module.fog_customiser.name_alias0=Fog Customiser
+module.fog_customiser.name_alias1=Fog Color
+module.fog_customiser.name_alias2=FogColor
+module.fog_customiser.name_alias3=FogChanger
 module.fog_customiser.description=Allows you to modify various aspects of the fog!
 module.fog_customiser.setting.should_change_fog.name=Should Change Fog Distance
 module.fog_customiser.setting.should_change_fog.description=Toggles whether or not to change the distance renders.
@@ -1283,6 +1334,8 @@ module.fog_customiser.setting.show_nether_fog.description=Toggles whether or not
 
 ## FOV Changer
 module.fov_changer.name=FOV Changer
+module.fov_changer.name_alias0=Field of View Changer
+module.fov_changer.name_alias1=FOVChanger
 module.fov_changer.description=Allows you to customize the field of view behavior.
 
 module.fov_changer.setting.pre_enable_fov_obtained.name=User FOV Obtained
@@ -1347,6 +1400,9 @@ module.fov_changer.setting.third_person_front_fov_offset.description=Set the thi
 
 ## Freelook
 module.freelook.name=Freelook
+module.freelook.name_alias0=Free Look
+module.freelook.name_alias1=360 Camera
+module.freelook.name_alias2=360 Perspective
 module.freelook.description=Allows you to look at your surroundings without changing movement direction.
 
 module.freelook.setting.perspective_settings_category.name=Perspective Settings
@@ -1369,6 +1425,7 @@ module.freelook.setting.keybind_warning.description=Warning: Binding Freelook to
 
 ## Fullbright
 module.fullbright.name=Fullbright
+module.fullbright.name_alias0=NightMode
 module.fullbright.description=Makes the surrounding environment brighter. Allows you to see more clearly in The End, Nether, and at night. Will not work with RTX (but DOES work with Vibrant Visuals).
 module.fullbright.setting.gamma.name=Gamma
 module.fullbright.setting.gamma.description=Adjust the gamma value to brighten or darken the environment.
@@ -1377,6 +1434,10 @@ module.fullbright.setting.vv_gamma.description=Adjust the gamma value to brighte
 
 ## Glint Color Changer
 module.glint_color_changer.name=Enchant Glint Color Changer
+module.glint_color_changer.name_alias0=Glint Color Customizer
+module.glint_color_changer.name_alias1=GlintChanger
+module.glint_color_changer.name_alias2=GlintColor
+module.glint_color_changer.name_alias3=EnchantGlintColorChanger
 module.glint_color_changer.description=Changes the color of the glint (the enchantment thing).
 
 module.glint_color_changer.setting.ui_glint_color.name=UI Glint Color
@@ -1392,6 +1453,8 @@ module.glint_color_changer.setting.presets.white=White
 
 ## GUI Scale Changer
 module.gui_scale_changer.name=GUI Scale Changer
+module.gui_scale_changer.name_alias0=GUIScaleChanger
+module.gui_scale_changer.name_alias1=MCGUI Scale
 module.gui_scale_changer.description=Change the size of your GUI.
 
 module.gui_scale_changer.setting.guiscale_warning.name=Warning! Going above 5 may have unforeseen side effects! (Your game will be HUGE!)
@@ -1405,6 +1468,9 @@ module.gui_scale_changer.setting.round.button=Round
 
 ## Low Health Warning
 module.low_health_warning.name=Low Health Warning
+module.low_health_warning.name_alias0=Low HP Warning
+module.low_health_warning.name_alias1=HealthWarning
+module.low_health_warning.name_alias2=LowHealthWarning
 module.low_health_warning.description=Displays a red vignette on the screen when you have low health.
 
 module.low_health_warning.setting.low_heart.name=Heart Amount
@@ -1442,6 +1508,10 @@ module.hitboxes.setting.show_eye_line.description=Toggle displaying the eye line
 
 ## Hurt Color Changer
 module.hurt_color.name=Hurt Color Changer
+module.hurt_color.name_alias0=HurtColor
+module.hurt_color.name_alias1=Hit Color
+module.hurt_color.name_alias2=HitColor
+module.hurt_color.name_alias3=HurtColorChanger
 module.hurt_color.description=Changes what color entities will be when hurt.
 
 module.hurt_color.setting.hurt_color.name=Hurt Color
@@ -1449,6 +1519,7 @@ module.hurt_color.setting.hurt_color.description=Choose the color that entities 
 
 ## Item Despawn Blink
 module.item_despawn_blink.name=Item Despawn Blink
+module.item_despawn_blink.name_alias0=ItemDespawnBlink
 module.item_despawn_blink.description=Makes items blink when they are about to despawn.
 
 module.item_despawn_blink.setting.start_blink_seconds.name=Time Until Blink
@@ -1456,6 +1527,7 @@ module.item_despawn_blink.setting.start_blink_seconds.description=Choose the tim
 
 ## Item Highlighter
 module.item_highlighter.name=Item Highlighter
+module.item_highlighter.name_alias0=ItemHighlighter
 module.item_highlighter.description=Makes some items easier to observe.
 
 module.item_highlighter.setting.highlight_all_items.name=Highlight All Items
@@ -1483,6 +1555,8 @@ module.item_highlighter.setting.add.button=Add
 
 ## Item Physics
 module.item_physics.name=Item Physics
+module.item_physics.name_alias0=ItemPhysic
+module.item_physics.name_alias1=ItemPhysics
 module.item_physics.description=Makes dropped items have unique physics.
 
 module.item_physics.setting.rotation_settings_category.name=Rotation Settings
@@ -1502,12 +1576,14 @@ module.item_physics.setting.blocks_keep_rotation_on_ground.description=Toggle to
 
 ## Item Scaler
 module.item_scaler.name=Item Scaler
+module.item_scaler.name_alias0=ItemScaler
 module.item_scaler.description=Scale individual items to be a custom size.
 module.item_scaler.setting.scale.name=Item Scale
 module.item_scaler.setting.scale.description=The desired scale of the item.
 
 ## 2D Items
 module.2d_items.name=2D Items
+module.2d_items.name_alias0=2DItems
 module.2d_items.description=Makes the items appear as if they were 2D like the old bedrock.\nNote: The items are still 3D, so you don't save performance.
 
 module.2d_items.setting.follow_x_axis.name=Follow X Axis
@@ -1517,6 +1593,7 @@ module.2d_items.setting.follow_y_axis.description=Toggle the behavior to follow 
 
 ## Light Overlay
 module.light_overlay.name=Light Overlay
+module.light_overlay.name_alias0=LightOverlay
 module.light_overlay.description=Displays the nearby areas where mobs are able to spawn.
 
 module.light_overlay.setting.update_delay.name=Update Delay
@@ -1532,12 +1609,16 @@ module.litematica.description=Helps you build structures
 
 ## Minimal View Bobbing
 module.minimal_view_bobbing.name=Minimal View Bobbing
+module.minimal_view_bobbing.name_alias0=LowBob
+module.minimal_view_bobbing.name_alias1=MinimalViewBobbing
 module.minimal_view_bobbing.description=Disables the screen shake when view bobbing is enabled. (Requires view bobbing to be enabled.)
 module.minimal_view_bobbing.description.not_updated.title=Minimal View Bobbing Error!
 module.minimal_view_bobbing.description.not_updated.description=Minimal View Bobbing has not been updated for your game version.
 
 ## Modern Keybind Handling
 module.modern_keybind_handling.name=Modern Keybind Handling
+module.modern_keybind_handling.name_alias0=ModernKeyHandling
+module.modern_keybind_handling.name_alias1=ModernKeybindHandling
 module.modern_keybind_handling.description=Modifies keybind handling when exiting screens to act like Java 1.12+.
 
 module.modern_keybind_handling.setting.movement_keys_only.name=Movement Keys Only
@@ -1548,6 +1629,7 @@ module.modern_keybind_handling.setting.do_among_onix_ui.description=Applies modi
 
 ## Null Movement
 module.null_movement_module.name=Null Movement
+module.null_movement_module.name_alias0=NullMovement
 module.null_movement_module.description=When two opposing movement directions are pressed, it will only register the last pressed input as the priority.\nLook at Razer's Snap Tap mode for a better understanding.
 module.null_movement_module.setting.affect_forward_and_backwards.name=Affect Forward And Backwards Keys
 module.null_movement_module.setting.affect_forward_and_backwards.description=Applies modifications to front and back keybinds.
@@ -1556,6 +1638,7 @@ module.null_movement_module.setting.ignore_second_input.description=Ignores the 
 
 ## Motion Blur
 module.motion_blur.name=Motion Blur
+module.motion_blur.name_alias0=MotionBlur
 module.motion_blur.description=Blurs movement to make you throw up suspiciously
 
 module.motion_blur.setting.throwup_rate.name=Intensity
@@ -1565,6 +1648,7 @@ module.motion_blur.setting.throwup_in_ui.description=Applies the motion blur eff
 
 ## Proximity Chat
 module.proximity_chat.name=Proximity Chat
+module.proximity_chat.name_alias0=ProximityChat
 module.proximity_chat.description=Proximity Chat! Allows you to use Mumble Link via the Onix Client Mumble Link application.
 
 module.proximity_chat.setting.context_settings_category.name=Context Settings
@@ -1590,6 +1674,7 @@ module.proximity_chat.notification.app_required=The Mumble Link application is r
 
 ## Hand Item Scale Fixer
 module.held_item_scale_fixer.name=Hand Item Scale Fix
+module.held_item_scale_fixer.name_alias0=HandItemScaleFix
 module.held_item_scale_fixer.description=Fixes an issue which causes some items to be huge when held.
 module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.name=Only Apply to Vanilla Items
 module.held_item_scale_fixer.setting.only_apply_on_minecraft_items.description=If the fix should apply only to vanilla items.
@@ -1621,6 +1706,9 @@ module.nickname.setting.randomise_names_again.button=Randomise
 
 ## No Hurt Cam
 module.no_hurt_cam.name=No Hurt Cam
+module.no_hurt_cam.name_alias0=Hurtcam
+module.no_hurt_cam.name_alias1=Hurt Cam
+module.no_hurt_cam.name_alias2=NoHurtCam
 module.no_hurt_cam.description=Let's you modify the camera shake animation when you get destroyed in PvP. (If there is no setting, update your DLL).
 module.no_hurt_cam.setting.rotation_angle.name=Rotation Angle
 module.no_hurt_cam.setting.rotation_angle.description=The angle to rotate by when hurt.
@@ -1630,6 +1718,7 @@ module.no_hurt_cam.setting.reset_to_default.button=Set
 
 ## Particle Multiplier
 module.particle_multiplier.name=Particle Multiplier
+module.particle_multiplier.name_alias0=ParticleMultiplier
 module.particle_multiplier.description=Multiply the amount of hit particles.
 module.particle_multiplier.setting.particle_multiplier.name=Particle Multiplier
 module.particle_multiplier.setting.particle_multiplier.description=Adjust the number of critical hit particles to multiply.
@@ -1638,6 +1727,7 @@ module.particle_multiplier.setting.magic_particle_multiplier.description=Adjust 
 
 ## Static Camera
 module.static_camera.name=Static Camera
+module.static_camera.name_alias0=StaticCamera
 module.static_camera.description=Allows you to place the camera in the world. The camera's rotation is inverted when being adjusted.
 module.static_camera.setting.allow_rotation_default.name=Allow Rotation by Default
 module.static_camera.setting.allow_rotation_default.description=Enable default rotation for the camera.
@@ -1646,6 +1736,7 @@ module.static_camera.setting.allow_rotation_key.description=Set a keybind to ena
 
 ## Immersive Camera
 module.immersive_camera.name=Immersive Camera
+module.immersive_camera.name_alias0=ImmersiveCamera
 module.immersive_camera.description=Overhaul the feel of the camera with nice rotations and effects.
 
 module.immersive_camera.setting.turning_settings_category.name=Turning Settings
@@ -1678,6 +1769,8 @@ module.immersive_camera.setting.screen_shakes_max_frequency.description=How ofte
 
 ## Java Inventory Hotkeys
 module.inventory_hotkeys.name=Java Inventory Hotkeys
+module.inventory_hotkeys.name_alias0=JavaInventory
+module.inventory_hotkeys.name_alias1=JavaInventoryHotkeys
 module.inventory_hotkeys.description=A port of the Java inventory hotkeys to Bedrock.
 module.inventory_hotkeys.setting.animate.name=Animate The Item Switch
 module.inventory_hotkeys.setting.animate.description=Toggles the animation when you hotkey an item.
@@ -1687,6 +1780,7 @@ module.inventory_hotkeys.setting.work_in_recipe_search.description=Forces it to 
 
 ## Inventory Blur
 module.inventory_blur.name=Inventory Blur
+module.inventory_blur.name_alias0=InventoryBlur
 module.inventory_blur.description=Blurs the background of the inventory or non-HUD screen.
 module.inventory_blur.setting.show_on_all_non_hud.name=Show On All Non HUD
 module.inventory_blur.setting.show_on_all_non_hud.description=Whether or not to show on all non-HUD screens.
@@ -1709,6 +1803,9 @@ module.inventory_blur.setting.blur_fade_in_time.description=The time it takes fo
 
 ## Player List Tab
 module.player_list_tab.name=Player List Tab
+module.player_list_tab.name_alias0=PlayerListTab
+module.player_list_tab.name_alias1=Tab List
+module.player_list_tab.name_alias2=Tablist
 module.player_list_tab.description=Shows a list of all players in the world.
 
 module.player_list_tab.setting.padding.name=Padding
@@ -1733,6 +1830,7 @@ module.player_list_tab.setting.names_per_column.description=Specifies the number
 
 ## Over The Shoulder Camera
 module.over_the_shoulder_camera.name=Over The Shoulder Camera
+module.over_the_shoulder_camera.name_alias0=OverTheShoulderCamera
 module.over_the_shoulder_camera.description=Allows you to place the camera over your shoulder.
 module.over_the_shoulder_camera.setting.x_offset.name=X Offset
 module.over_the_shoulder_camera.setting.x_offset.description=Adjusts the X offset of the camera, which side/how far the camera is.
@@ -1741,6 +1839,7 @@ module.over_the_shoulder_camera.setting.include_tps_front.description=Includes t
 
 ## Skin Stealer
 module.skin_stealer.name=Skin Stealer
+module.skin_stealer.name_alias0=SkinStealer
 module.skin_stealer.description=Allows you to steal and clone player skins.
 
 module.skin_stealer.setting.skin_steal_key.name=Skin Steal Key
@@ -1784,10 +1883,12 @@ module.skin_stealer.notification.never_stolen.message=There is no stolen skin fo
 
 ## 3D Skins
 module.player_skin_3d.name=3D Skins
+module.player_skin_3d.name_alias0=3DSkins
 module.player_skin_3d.description=Makes the second skin layer 3D. Due to how the mod works, this will not work with players who have 128x skins or custom geometries (4D Skins).
 
 ## Post Processing
 module.post_processing.name=Post Processing
+module.post_processing.name_alias0=PostProcessing
 module.post_processing.description=Allows you to enhance the visual look of your game.
 
 module.post_processing.setting.only_show_in_world.name=Don't Show In UI
@@ -1840,6 +1941,9 @@ module.post_processing.setting.vignette_color.description=Adjust the color of th
 
 ## Render Options
 module.render_options.name=Render Options
+module.render_options.name_alias0=NoAnimTextures
+module.render_options.name_alias1=NoRender
+module.render_options.name_alias2=RenderOptions
 module.render_options.description=Gives you more rendering options.
 
 module.render_options.setting.render_distance_settings_category.name=Render Distance Settings
@@ -1873,6 +1977,7 @@ module.rod_fix_mod.description=Allows you to cast a fishing rod while looking at
 
 ## Sky Overlay Changer/Skybox Switcher
 module.sky_overlay_changer.name=Skybox Switcher
+module.sky_overlay_changer.name_alias0=SkyboxSwitcher
 module.sky_overlay_changer.description=Allows you to change the skybox without leaving the world.
 module.sky_overlay_changer.setting.save_button.name=Saved Sky Name
 module.sky_overlay_changer.setting.save_button.description=The name that the current sky will save as.
@@ -1887,6 +1992,7 @@ module.sky_overlay_changer.export_error.could_not_read_texture=Failed to save th
 
 ## Smooth Pearls
 module.smooth_pearl.name=Smooth Pearls/Teleport
+module.smooth_pearl.name_alias0=SmoothPearls/Teleport
 module.smooth_pearl.description=Makes teleporting look smooth.
 module.smooth_pearl.setting.speed.name=Lerp Speed
 module.smooth_pearl.setting.speed.description=The speed at which the interpolation happens.
@@ -1897,6 +2003,10 @@ module.smooth_pearl.setting.max_distance_to_lerp.description=The maximum distanc
 
 ## Shulker Box Display
 module.shulker_box_display.name=Shulker Box Display
+module.shulker_box_display.name_alias0=ShulkerBoxDisplay
+module.shulker_box_display.name_alias1=ShulkerDisplay
+module.shulker_box_display.name_alias2=ShulkerPreview
+module.shulker_box_display.name_alias3=Shulker Preview
 module.shulker_box_display.description=Allows you to view the contents of a shulker box without opening it.
 module.shulker_box_display.setting.show_decorations.name=Show Item Details
 module.shulker_box_display.setting.show_decorations.description=Show item count, durability bars, and other overlays in the display.
@@ -1930,6 +2040,7 @@ module.shulker_box_display.setting.keep_in_place_with_control.description=When h
 
 ## Better Tooltips
 module.better_tooltips.name=Better Tooltips
+module.better_tooltips.name_alias0=BetterTooltips
 module.better_tooltips.description=Improves the vanilla item tooltips with extra information about the item, the ability to copy the text, and the ability to scroll in the tooltip.
 module.better_tooltips.setting.disc_fix.name=Music Disc Font Fix
 module.better_tooltips.setting.disc_fix.description=Fixes some music discs using the alternative font.
@@ -1967,20 +2078,28 @@ module.snaplook.description=Changes perspective while the key is pressed.
 
 ## Third Person Nametag
 module.third_person_nametag.name=Third Person Nametag
+module.third_person_nametag.name_alias0=ThirdPersonNametag
 module.third_person_nametag.description=Renders your nametag in 3rd person.
 
 ## Test Module
 module.test_module.name=Test Module
+module.test_module.name_alias0=TestModule
 module.test_module.description=This is a test module.
 
 ## TNT Timer
 module.tnt_timer.name=TNT Timer
+module.tnt_timer.name_alias0=TNTTimer
 module.tnt_timer.description=Displays the detonation time of TNT.
 module.tnt_timer.setting.max_distance.name=Max Distance
 module.tnt_timer.setting.max_distance.description=The maximum
 
 ## Toggle Sprint/Sneak
 module.toggle_sprint_sneak.name=Toggle Sprint/Sneak
+module.toggle_sprint_sneak.name_alias0=AutoSprint
+module.toggle_sprint_sneak.name_alias1=AutoSneak
+module.toggle_sprint_sneak.name_alias2=ToggleSprint
+module.toggle_sprint_sneak.name_alias3=ToggleSneak
+module.toggle_sprint_sneak.name_alias4=ToggleSprint/Sneak
 module.toggle_sprint_sneak.description=Enables sprinting or sneaking without holding the respective keys.
 
 module.toggle_sprint_sneak.setting.keybind_settings_category.name=Keybind Settings
@@ -2021,6 +2140,7 @@ module.toggle_sprint_sneak.setting.sneaking_always=Sneaking: (Always)
 
 ## View Model
 module.view_model.name=View Model
+module.view_model.name_alias0=ViewModel
 module.view_model.description=Allows you to customise the view model. (Hand Item).
 
 module.view_model.setting.position_settings_category.name=Position
@@ -2055,10 +2175,12 @@ module.view_model.setting.is_weird.description=Toggle weird view model.
 
 ## Left Handed
 module.left_handed.name=Left Hand
+module.left_handed.name_alias0=LeftHand
 module.left_handed.description=Makes your main hand be the left hand. People (Seraphim) wanted this for some reason. So sure. Why not. Have fun I guess.
 
 ## Rear View
 module.rear_view.name=Rear View
+module.rear_view.name_alias0=RearView
 module.rear_view.description=Allows you to turn your head without moving your body while holding a key.
 module.rear_view.setting.going_back_anim.name=Animate Going Back
 module.rear_view.setting.going_back_anim.description=Toggles whether or not returning to the original rotation has an animation.
@@ -2069,6 +2191,7 @@ module.rear_view.setting.hide_hand.description=Hide the hand when the action is 
 
 ## Dynamic Perspective
 module.dynamic_perspective.name=Better Third Person
+module.dynamic_perspective.name_alias0=BetterThirdPerson
 module.dynamic_perspective.description=Allows you to animate the perspective change, change the order, and change your perspective dynamically based on your current situation. Formerly knwon as Dynamic Perspective.
 module.dynamic_perspective.setting.perspective_animation_settings.name=Perspective Animation
 module.dynamic_perspective.setting.perspective_animation_settings.description=Creates an animation between perspective changes (first person -> third person back only).
@@ -2113,18 +2236,22 @@ module.dynamic_perspective.setting.animation_starting_position.description=The o
 
 ## Rotatable Screen
 module.rotatable_screen.name=Rotatable Camera/Screen
+module.rotatable_screen.name_alias0=RotatableCamera/Screen
 module.rotatable_screen.description=Allows you to rotate your camera/screen to any roll.
 module.rotatable_screen.setting.angle.name=Angle
 module.rotatable_screen.setting.angle.description=The desired roll rotation degree.
 
 ## Low Fire
 module.low_fire.name=Low Fire Overlay
+module.low_fire.name_alias0=LowFire
+module.low_fire.name_alias1=LowFireOverlay
 module.low_fire.description=Allows you to lower or raise the first person fire over.\nNote: This is calibrated by default for the vanilla fire overlay!\n- If you have a low fire pack already, you may not see the fire overlay with the default values.
 module.low_fire.setting.desired_height.name=Fire Height Offset
 module.low_fire.setting.desired_height.description=The desired fire height offset, on vanilla, it's -0.2.
 
 ## UI Camera Panner
 module.ui_camera_panner.name=UI Camera Panner
+module.ui_camera_panner.name_alias0=UICameraPanner
 module.ui_camera_panner.description=Pans the camera around when moving your mouse while in a UI.
 module.ui_camera_panner.setting.apply_onix.name=Apply in Onix UI
 module.ui_camera_panner.setting.apply_onix.description=If you want the effect to be applied in Onix UIs.
@@ -2139,6 +2266,7 @@ module.ui_camera_panner.setting.lerp_back_in_place_time.description=How long it 
 
 ## Waypoints
 module.waypoints.name=Waypoints
+module.waypoints.name_alias0=DeathLogger
 module.waypoints.description=Displays and stores coordinates of specific locations in the world.\n- To create a waypoint, type ".waypoint" in the Minecraft chat.
 
 module.waypoints.setting.death_waypoint.name=Add "Death" Waypoint on Death
@@ -2167,12 +2295,18 @@ module.waypoints.setting.fade_distance.description=The amount of block it takes 
 
 ## Fast Inventory
 module.fast_inventory.name=Fast Inventory
+module.fast_inventory.name_alias0=FastInventory
+module.fast_inventory.name_alias1=Faster Inventory
+module.fast_inventory.name_alias2=FasterInventory
+module.fast_inventory.name_alias3=Instant Inventory
+module.fast_inventory.name_alias4=InstantInventory
 module.fast_inventory.description=Opens your inventory immediately, regardless of ping.\nWe are not responsible if you get banned using this, there will always be edge-cases with ANY implementation of this feature that can make you send corrupted data to the server.
 module.fast_inventory.setting.spam_support.name=Spamming Support
 module.fast_inventory.setting.spam_support.description=Allows you to you spam openening and closing the inventory without waiting for the server synchronisation. This means you don't have to wait for the inventory to open the first time to open it a second time. This could lead to potential desynchronisations.
 
 ## Gamemode Switcher
 module.gamemode_switcher.name=Gamemode Switcher
+module.gamemode_switcher.name_alias0=GamemodeSwitcher
 module.gamemode_switcher.description=The Java gamemode switcher ported to Bedrock.
 
 module.gamemode_switcher.setting.keybinds.name=Keybind Settings
@@ -2198,6 +2332,9 @@ module.gamemode_switcher.setting.invert_scroll_direction.description=Inverts the
 
 ## Hotbar Tweaks
 module.hotbar_tweaks.name=Hotbar Tweaks
+module.hotbar_tweaks.name_alias0=Smooth Hotbar
+module.hotbar_tweaks.name_alias1=SmoothHotbar
+module.hotbar_tweaks.name_alias2=HotbarTweaks
 module.hotbar_tweaks.description=Various tweaks to your hotbar.
 module.hotbar_tweaks.setting.smooth_selected_slot.name=Smooth Selected Slot
 module.hotbar_tweaks.setting.smooth_selected_slot.description=Lerp the position of the selected slot.
@@ -2278,6 +2415,7 @@ module.zoom.setting.animation_duration.description=Adjust the zoom in animation 
 
 ## Armor HUD
 module.armor_hud.name=Armor HUD
+module.armor_hud.name_alias0=ArmorHUD
 module.armor_hud.description=Shows the armor and mainhand item you have equipped.
 module.armor_hud.setting.horizontal.name=Horizontally Aligned
 module.armor_hud.setting.horizontal.description=Arranges the armor and mainhand items in a horizontal line.
@@ -2339,6 +2477,8 @@ module.armor_hud.setting.glint_color.description=Specifies the color of the bad 
 
 ## Arrow Counter
 module.arrow_counter.name=Arrow Counter
+module.arrow_counter.name_alias0=ArrowsCount
+module.arrow_counter.name_alias1=ArrowCounter
 module.arrow_counter.description=Displays how many arrows you have in your inventory.
 module.arrow_counter.setting.show_arrow_text.name=Show "Arrow:" Text
 module.arrow_counter.setting.show_arrow_text.description=Displays the text "Arrow:" along with the arrow count.
@@ -2357,6 +2497,7 @@ module.arrow_counter.setting.icon_opacity.description=The transparency of the ic
 
 ## Sea Pickle Counter
 module.sea_pickle_counter.name=Sea Pickle Counter
+module.sea_pickle_counter.name_alias0=SeaPickleCounter
 module.sea_pickle_counter.description=Displays the number of sea pickles you have.
 module.sea_pickle_counter.sea_pickle_text=Sea Pickles: %s
 module.sea_pickle_counter.setting.show_sea_pickle_text=Show Sea Pickle Text
@@ -2365,6 +2506,7 @@ module.sea_pickle_counter.setting.hide_without_items=Hide When No Sea Pickles
 
 ## Held Item Counter
 module.held_item_counter.name=Hand Item Counter
+module.held_item_counter.name_alias0=HandItemCounter
 module.held_item_counter.description=Displays the total count of the hand item in your inventory.
 module.held_item_counter.setting.show_held_item_text.name=Show Held Item Text
 module.held_item_counter.setting.show_held_item_text.description=Show the held item's name along with the count.
@@ -2381,6 +2523,7 @@ module.held_item_counter.setting.use_item_name.description=Forces it to show the
 
 ## Audio Subtitles
 module.audio_subtitle.name=Audio Subtitles
+module.audio_subtitle.name_alias0=AudioSubtitles
 module.audio_subtitle.description=Shows the surrounding audio that's played in the world.
 module.audio_subtitle.setting.sound_category.name=Audio Settings
 module.audio_subtitle.setting.sound_category.description=Categorizes sound settings.
@@ -2403,6 +2546,7 @@ module.audio_subtitle.setting.center_text.description=Centers the text of every 
 
 ## Break Progress Module
 module.break_progress.name=Break Progress
+module.break_progress.name_alias0=BreakProgress
 module.break_progress.description=Displays the block destroy percentage.
 module.break_progress.setting.show_break_text.name=Show Break Text
 module.break_progress.setting.show_break_text.description=Displays the text "Break:" along with the block destroy percentage.
@@ -2429,6 +2573,7 @@ module.break_progress.break_text=Break: %s
 
 ## Clock
 module.clock.name=Clock
+module.clock.name_alias0=Time
 module.clock.description=Displays the real-world time.
 module.clock.setting.add_spaces.name=Add Spaces
 module.clock.setting.add_spaces.description=Adds spaces between time components.
@@ -2450,6 +2595,7 @@ module.clock.time_text=Time: %s
 
 ## Combo Counter
 module.combo_counter.name=Combo Counter
+module.combo_counter.name_alias0=ComboCounter
 module.combo_counter.description=Shows the number of hits you land on an enemy without getting hit.
 module.combo_counter.setting.show_combo_text.name=Show "Combo:" Text
 module.combo_counter.setting.show_combo_text.description=Displays the text "Combo:" along with the combo count.
@@ -2461,6 +2607,8 @@ module.combo_counter.combo_text=Combo: %s
 
 ## Compass
 module.direction_hud.name=Direction HUD
+module.direction_hud.name_alias0=DirectionHUD
+module.direction_hud.name=Compass
 module.direction_hud.description=Displays the direction you're facing in degrees.
 module.direction_hud.setting.force_center.name=Always Centered
 module.direction_hud.setting.force_center.description=Keeps the display centered at all times.
@@ -2488,6 +2636,10 @@ module.cooldowns.description=Displays the cooldown of items in your hotbar.
 
 ## Coordinates
 module.coordinates.name=Coordinates
+module.coordinates.name_alias0=Coords
+module.coordinates.name_alias1=XYZ
+module.coordinates.name_alias2=Position
+module.coordinates.name_alias3=Biome
 module.coordinates.description=Displays your current coordinates.
 module.coordinates.setting.brackets.name=Brackets 
 module.coordinates.setting.brackets.description=Encloses coordinates within brackets.
@@ -2522,6 +2674,7 @@ module.coordinates.setting.show_vanilla_coordinates_when_translated.description=
 
 ## CPS
 module.cps.name=CPS Counter
+module.cps.name_alias0=CPSCounter
 module.cps.description=Shows your clicks per second.
 module.cps.setting.hide_cps.name=Hide CPS text
 module.cps.setting.hide_cps.description=Hides the CPS text display.
@@ -2536,6 +2689,9 @@ module.cps.setting.alternate_splitter.description=Uses ":" as a splitter for CPS
 
 ## Day Counter
 module.day_counter.name=Day Counter
+module.day_counter.name_alias0=DaysPlayed
+module.day_counter.name_alias1=DayTime
+module.day_counter.name_alias2=DayCounter
 module.day_counter.description=Displays the amount of in-game day or playtime.
 module.day_counter.setting.session_time.name=Session Time
 module.day_counter.setting.session_time.description=Tracks time within the current session.
@@ -2549,6 +2705,7 @@ module.day_counter.setting.use_vanilla_display.description=Uses the vanilla day 
 
 ## Flappy Bird
 module.flappy_bird.name=Flappy Bird
+module.flappy_bird.name_alias0=FlappyBird
 module.flappy_bird.description=A Flappy Bird clone playable in Minecraft!
 module.flappy_bird.setting.high_quality.name=4k Graphics (Low FPS Warning)
 module.flappy_bird.setting.high_quality.description=Enables high-quality graphics (with a low FPS warning).
@@ -2565,11 +2722,15 @@ module.flappy_bird.setting.auto_play.description=Enables automatic gameplay.
 
 ## F P S Counter
 module.fps.name=FPS Counter
+module.fps.name_alias0=FPSDisplay
+module.fps.name_alias1=FPSCounter
 module.fps.description=Displays your frames per second.
 
 
 ## Item Tracker
 module.item_tracker.name=Item Tracker
+module.item_tracker.name_alias0=PickUp
+module.item_tracker.name_alias1=ItemTracker
 module.item_tracker.description=Displays when and how many items you pick up or drop.
 module.item_tracker.setting.max_displayed_changes.name=Max Displayed Changes
 module.item_tracker.setting.max_displayed_changes.description=Sets the maximum number of changes displayed.
@@ -2652,12 +2813,14 @@ module.keystrokes.setting.down_back_color.description=Specifies the background c
 
 ## Mouse Strokes
 module.mouse_strokes.name=Mouse Strokes
+module.mouse_strokes.name_alias0=MouseStrokes
 module.mouse_strokes.description=Displays the movement of the mouse on screen.
 module.mouse_strokes.setting.sensitivity.name=Sensitivity
 module.mouse_strokes.setting.percent.name=How reactive the cursor is to mouse movement. 
 
 ## Memory Usage Module
 module.memory_usage.name=Memory Usage
+module.memory_usage.name_alias0=MemoryUsage
 module.memory_usage.description=Displays the RAM usage of the game.
 module.memory_usage.setting.percent.name=Show Percentage
 module.memory_usage.setting.percent.description=Displays the RAM usage as a percentage.
@@ -2756,6 +2919,7 @@ module.minimap.setting.direction_color.description=The color of the cardinal dir
 
 ## Movable Title Module
 module.movable_title.name=Movable Title
+module.movable_title.name_alias0=MovableTitle
 module.movable_title.description=Allows you to customize basically every aspect of the title.
 module.movable_title.setting.force_minecraft_font.name=Force Minecraft Font
 module.movable_title.setting.force_minecraft_font.description=Enforces the use of the Minecraft font.
@@ -2788,10 +2952,12 @@ module.movable_title.setting.time_multiplier_stay.description=Adjusts the time m
 
 ## Movable Actionbar Module
 module.movable_actionbar.name=Movable Actionbar
+module.movable_actionbar.name_alias0=MovableActionbar
 module.movable_actionbar.description=Allows you to customize the position of the actionbar.
 
 ## Movable Chat Module
 module.movable_chat.name=Movable Chat
+module.movable_chat.name_alias0=MovableChat
 module.movable_chat.description=Enables chat customization and movement.
 module.movable_chat.setting.use_client_font.name=Use Client Font
 module.movable_chat.setting.use_client_font.description=Applies the client's font to the chat.
@@ -2835,12 +3001,15 @@ module.movable_chat.setting.bottom_chat_height.description=Adjusts the height of
 
 ## Movable Bossbar Module
 module.movable_bossbar.name=Movable Bossbar
+module.movable_bossbar.name_alias0=MovableBossbar
 module.movable_bossbar.description=Allows customization and movement of the bossbar.
 
 
 
 ## Movable Paperdoll Module
 module.movable_paperdoll.name=Movable Paperdoll
+module.movable_paperdoll.name_alias0=Paperdoll
+module.movable_paperdoll.name_alias1=MovablePaperdoll
 module.movable_paperdoll.description=Enables movement and scaling of the paperdoll.
 module.movable_paperdoll.setting.always_render.name=Always Render
 module.movable_paperdoll.setting.always_render.description=Ensures the paperdoll is always visible.
@@ -2849,6 +3018,7 @@ module.movable_paperdoll.setting.always_render.description=Ensures the paperdoll
 
 ## Movable Scoreboard Module
 module.movable_scoreboard.name=Movable Scoreboard
+module.movable_scoreboard.name_alias0=MovableScoreboard
 module.movable_scoreboard.description=Allows customization and movement of the scoreboard.
 module.movable_scoreboard.setting.show_title.name=Display Title
 module.movable_scoreboard.setting.show_title.description=Shows the scoreboard title.
@@ -2872,6 +3042,7 @@ module.movable_scoreboard.setting.score_text_color.description=The color of the 
 
 ## Pack Display
 module.pack_display.name=Pack Display
+module.pack_display.name_alias0=PackDisplay
 module.pack_display.description=Displays the name and description of your texture packs on screen.
 module.pack_display.setting.show_description.name=Show Description
 module.pack_display.setting.show_description.description=Displays the pack description.
@@ -2940,6 +3111,7 @@ module.pack_display.setting.do_opacity_animation.description=Whether or not to d
 
 ## Ping Display Module
 module.ping_display.name=Ping Display
+module.ping_display.name_alias0=PingDisplay
 module.ping_display.description=Displays your ping to the server.
 module.ping_display.setting.display_average.name=Use Average Ping
 module.ping_display.setting.display_average.description=Displays the average ping.
@@ -2954,6 +3126,9 @@ module.ping_display.ms_abreviation_low=%sms
 
 ## Potion Counter
 module.potion_counter.name=Potion Counter
+module.potion_counter.name_alias0=Pot Counter
+module.potion_counter.name_alias1=PotionCount
+module.potion_counter.name_alias2=PotionCounter
 module.potion_counter.description=Shows the number of instant health potions you currently possess.
 module.potion_counter.setting.show_potion_text.name=Show "Potion: " Text
 module.potion_counter.setting.show_potion_text.description=Displays the text "Potion: " along with the potion count.
@@ -2964,6 +3139,11 @@ module.potion_counter.potion_text=Potion: %s
 
 ## Potion Hud
 module.potion_hud.name=Potion HUD
+module.potion_hud.name_alias0=Effect
+module.potion_hud.name_alias1=EffectDisplay
+module.potion_hud.name_alias2=Status Effect
+module.potion_hud.name_alias3=PotionHUD
+module.potion_hud.name_alias4=Brewing Guide
 module.potion_hud.description=Displays your current status effects and their duration.
 module.potion_hud.setting.icon_opacity.name=Icon Opacity
 module.potion_hud.setting.icon_opacity.description=Adjusts the opacity of the icons.
@@ -3001,6 +3181,7 @@ module.potion_hud.setting.sync_red_flashes.description=Whether or not the flashi
 
 ## Reach Display
 module.reach_display.name=Reach Display
+module.reach_display.name_alias0=ReachDisplay
 module.reach_display.description=Shows the reach of your last hit. Now caps out a 3 in Survival, not 2.90!
 module.reach_display.setting.show_reach_text.name=Show \Reach:\ Text
 module.reach_display.setting.show_reach_text.description=Displays the "Reach" text.
@@ -3010,6 +3191,9 @@ module.reach_display.reach_text=Reach: %s
 
 ## Server Module
 module.server_ip.name=Server IP
+module.server_ip.name_alias0=Server Display
+module.server_ip.name_alias1=ServerDisplay
+module.server_ip.name_alias2=ServerIP
 module.server_ip.description=Displays the IP of the server you are playing on.
 module.server_ip.setting.show_port.name=Show Server Port
 module.server_ip.setting.show_port.description=Displays the server port along with the IP.
@@ -3034,6 +3218,7 @@ module.snake.setting.key_right.description=Key used for rightward movement.
 
 ## Soup Counter
 module.soup_counter.name=Soup Counter
+module.soup_counter.name_alias0=SoupCounter
 module.soup_counter.description=Shows the number of soups in your inventory.
 module.soup_counter.setting.hide_without_items.name=Don't display if no soups
 module.soup_counter.setting.hide_without_items.description=Hides the counter if no soups are in the inventory.
@@ -3044,6 +3229,8 @@ module.soup_counter.soup_text=Soup: %s
 
 ## Speed Counter
 module.speed_display.name=Speed Display
+module.speed_display.name_alias0=BPS
+module.speed_display.name_alias1=SpeedDisplay
 module.speed_display.description=Shows your speed in blocks per second.
 module.speed_display.setting.hide_unit.name=Hide Unit
 module.speed_display.setting.hide_unit.description=Hides the units text to only display the number.
@@ -3063,6 +3250,7 @@ module.stopwatch.setting.pause_unpause_key.description=Key used to pause or unpa
 
 ## Nametag Modifier
 module.nametag_modifier.name=Nametag Modifier
+module.nametag_modifier.name_alias0=NametagModifier
 module.nametag_modifier.description=Allows you to modify nametags.
 module.nametag_modifier.setting.background_color_mode.name=Background Color Mode
 module.nametag_modifier.setting.background_color_mode.description=Specifies the background color mode.
@@ -3117,6 +3305,7 @@ module.nametag_modifier.setting.outline_reset_color_is_default.description=Uses 
 
 ## Visual Testing
 module.visual_testing.name=Visual Testing
+module.visual_testing.name_alias0=VisualTesting
 module.visual_testing.description=hello onix how is your monday today naomi just called you onyx :((
 
 
@@ -3454,6 +3643,9 @@ command.waypoint.disabled=§cYou must enable the Waypoints module before running
 ## The Hive ============================================
 ## Hive Tools
 module.hive_tools.name=Hive Tools
+module.hive_tools.name_alias0=HiveUtils
+module.hive_tools.name_alias1=Hive Utils
+module.hive_tools.name_alias2=HiveTools
 module.hive_tools.description=A collection of useful tools for The Hive.
 module.hive_tools.queueing_into_a_new_game=§r§8Queueing into a new game.
 module.hive_tools.queueing_into_a_new_game_of=§c§l» §r§cQueuing into a new game of %s§r§c.
@@ -3464,6 +3656,8 @@ module.hive_tools.setting.mute_requeue_notification.description=Mute the sound f
 
 ## Hive Autoqueue
 module.hive_autoqueue.name=Hive Autoqueue
+module.hive_autoqueue.name_alias0=Autoqueue
+module.hive_autoqueue.name_alias1=HiveAutoqueue
 module.hive_autoqueue.description=Automatically requeues the last gamemode you were playing.
 module.hive_autoqueue.setting.requeue_key.name=Requeue Key
 module.hive_autoqueue.setting.requeue_key.description=The keybind you press to requeue.
@@ -3506,6 +3700,7 @@ module.hive_autoqueue.finished.gravity=§aCongratulations on finishing all maps!
 
 ## Hive CS Code Copier
 module.hive_cs_code_copier.name=Hive CS Code Copier
+module.hive_cs_code_copier.name_alias0=HiveCSCodeCopier
 module.hive_cs_code_copier.description=Copies the custom server code from The Hive to your clipboard.
 module.hive_cs_code_copier.setting.show_chat_message.name=Show Chat Message
 module.hive_cs_code_copier.setting.show_chat_message.description=Display a message in chat when the code is copied.
@@ -3515,6 +3710,7 @@ module.hive_cs_code_copier.copied_code=§a§l» §rCopied code §e%s§f to clipb
 
 ## Hive Quick Invite
 module.hive_quick_invite.name=Hive Quick Invite
+module.hive_quick_invite.name_alias0=HiveQuickInvite
 module.hive_quick_invite.description=Quickly invite players to your party or friends list on The Hive by clicking them while holding the party or friends item.
 module.hive_quick_invite.invited_to_party=§a§l» §rInvited §e%s§r to your party!
 module.hive_quick_invite.invited_to_friends=§a§l» §rSent friend request to §e%s§r!
@@ -3522,10 +3718,12 @@ module.hive_quick_invite.could_not_invite=§cCould not invite player.
 
 ## Hive Bedwars Hardcore Hearts
 module.hive_bedwars_hardcore_hearts.name=Hive Bedwars Heartcore Hearts
+module.hive_bedwars_hardcore_hearts.name_alias0=HiveBedwarsHeartcoreHearts
 module.hive_bedwars_hardcore_hearts.description=Show hardcore hearts when you no longer have a bed in The Hive's Bedwars gamemode.
 
 ## Hive Quick Mount
 module.hive_quick_mount.name=Hive Quick Mount
+module.hive_quick_mount.name_alias0=HiveQuickMount
 module.hive_quick_mount.description=Quickly apply the mount of your choice without having to navigate the menus.
 module.hive_quick_mount.setting.selected_mount.name=Selected Mount
 module.hive_quick_mount.setting.selected_mount.description=The mount you have selected as the preferred mount.
@@ -3536,6 +3734,7 @@ module.hive_quick_mount.setting.selected_mount_save.description=Setting just her
 
 ## Hive Auto Accept Requests
 module.hive_auto_accept_requests.name=Hive Auto Accept Requests
+module.hive_auto_accept_requests.name_alias0=HiveAutoAcceptRequests
 module.hive_auto_accept_requests.description=Automatically accepts friend requests and party invites on The Hive.
 module.hive_auto_accept_requests.setting.auto_accept_friend_requests.name=Auto Accept Friend Requests
 module.hive_auto_accept_requests.setting.auto_accept_friend_requests.description=Automatically accept incoming friend requests from other players.
@@ -3544,6 +3743,7 @@ module.hive_auto_accept_requests.setting.auto_accept_party_requests.description=
 
 ## Hive Murder Mystery Role Dodge
 module.hive_murder_mystery_role_dodge.name=Hive Murder Mystery Role Dodge
+module.hive_murder_mystery_role_dodge.name_alias0=HiveMurderMysteryRoleDodge
 module.hive_murder_mystery_role_dodge.description=Auto-dodge Murder Mystery games based on your role.
 module.hive_murder_mystery_role_dodge.setting.dodge_innocent.name=Dodge Innocent
 module.hive_murder_mystery_role_dodge.setting.dodge_innocent.description=Leave game if you get Innocent.
@@ -3554,6 +3754,7 @@ module.hive_murder_mystery_role_dodge.setting.dodge_murderer.description=Leave g
 
 ## Hive Chat Debloater
 module.hive_chat_debloater.name=Hive Chat Debloater
+module.hive_chat_debloater.name_alias0=HiveChatDebloater
 module.hive_chat_debloater.description=Hide unnecessary Hive system and promotional messages from chat.
 module.hive_chat_debloater.setting.hide_join_messages.name=Hide Join Messages
 module.hive_chat_debloater.setting.hide_join_messages.description=Hide player join messages from chat.
@@ -3588,6 +3789,7 @@ module.hive_chat_debloater.setting.hide_voting_ended.description=Hide the messag
 
 ## Hive Market Blocker
 module.hive_anti_capitalism.name=Hive Market Blocker
+module.hive_anti_capitalism.name_alias0=HiveMarketBlocker
 module.hive_anti_capitalism.description=Prevents interactions with Hive’s marketplace and related screens.
 module.hive_anti_capitalism.setting.prevent_interactions.name=Prevent Interactions
 module.hive_anti_capitalism.setting.prevent_interactions.description=Tries it's best to prevent you from opening or interacting with the marketplace or other buyable elements.
@@ -3596,14 +3798,20 @@ module.hive_anti_capitalism.setting.automatically_close_marketplace_screen.descr
 
 ## Hive Auto Costume Changer
 module.hive_auto_costume.name=Hive Auto Costume Changer
+module.hive_auto_costume.name_alias0=HiveAutoCostumeChanger
 module.hive_auto_costume.description=Randomises your costume when you join a pre-game lobby.
 
 ## Hive Auto Map Voter/Avoider
 module.hive_auto_map_vote.name=Hive Auto Map Voter/Avoider
+module.hive_auto_map_vote.name_alias0=Hive Auto Map Voter
+module.hive_auto_map_vote.name_alias1=Hive Auto Map Avoider
+module.hive_auto_map_vote.name_alias2=HiveMapAvoider
+module.hive_auto_map_vote.name_alias3=HiveAutoMapVoter/Avoider
 module.hive_auto_map_vote.description=Lets you either automatically vote for a map, avoid a map, or do nothing.
 
 ## Bedwars Resource Counter
 module.bedwars_resource_counter.name=Bedwars Resource Counter
+module.bedwars_resource_counter.name_alias0=BedwarsResourceCounter
 module.bedwars_resource_counter.description=Counts how many emerald, diamond, gold, iron, brick you have in your inventory.
 module.bedwars_resource_counter.setting.padding_between_items.name=Item Padding
 module.bedwars_resource_counter.setting.padding_between_items.description=The padding between each counted item.

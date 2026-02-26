@@ -2083,6 +2083,7 @@ module.better_tooltips.setting.tooltip_scale.description=Changes the size of the
 
 ## Snaplook
 module.snaplook.name=Snaplook
+module.snaplook.name_alias0=Behind You
 module.snaplook.description=Changes perspective while the key is pressed.
 
 ## Third Person Nametag
@@ -3260,6 +3261,7 @@ module.stopwatch.setting.pause_unpause_key.description=Key used to pause or unpa
 ## Nametag Modifier
 module.nametag_modifier.name=Nametag Modifier
 module.nametag_modifier.name_alias0=NametagModifier
+module.nametag_modifier.name_alias1=Third Person Nametag
 module.nametag_modifier.description=Allows you to modify nametags.
 module.nametag_modifier.setting.background_color_mode.name=Background Colour Mode
 module.nametag_modifier.setting.background_color_mode.description=Specifies the background colour mode.

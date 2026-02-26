@@ -3140,7 +3140,7 @@ module.potion_counter.potion_text=Potion: %s
 
 ## Potion Hud
 module.potion_hud.name=Potion HUD
-module.potion_hud.name_alias0=Effect
+module.potion_hud.name_alias0=Effect HUD
 module.potion_hud.name_alias1=EffectDisplay
 module.potion_hud.name_alias2=Status Effect
 module.potion_hud.name_alias3=PotionHUD

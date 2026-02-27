@@ -97,6 +97,8 @@ module.item_counter_base.setting.hide_if_no_dependency.name=Hide When Unuseable
 module.item_counter_base.setting.hide_if_no_dependency.description=Hides the module when you don't have what's required to use the item. e.g. no bow for arrows.
 module.item_counter_base.setting.hide_icon.name=Hide Icon
 module.item_counter_base.setting.hide_icon.description=Hides the item icon that shows up next to the text.
+module.item_counter_base.setting.icon_on_the_right.name=Icon On The Right
+module.item_counter_base.setting.icon_on_the_right.description=Puts the icon on the right side of the text instead of the left side.
 
 
 module.module.setting.main_settings.name=Main Settings

@@ -105,6 +105,8 @@ module.item_counter_base.setting.mirror_icon.name=Mirror Icon
 module.item_counter_base.setting.mirror_icon.description=Flips the icon around.
 module.item_counter_base.setting.hide_creative_spectator.name=Hide In Creative Or Spectator
 module.item_counter_base.setting.hide_creative_spectator.description=Hides the module when in gamemode Creative or Spectator.
+module.item_counter_base.setting.visibility_settings.name=Visibility Settings
+module.item_counter_base.setting.visibility_settings.description=Settings for controlling the visibility of the module.
 
 
 module.module.setting.main_settings.name=Main Settings

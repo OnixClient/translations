@@ -2002,6 +2002,7 @@ module.rod_fix_mod.description=Allows you to cast a fishing rod while looking at
 ## Sky Overlay Changer/Skybox Switcher
 module.sky_overlay_changer.name=Skybox Switcher
 module.sky_overlay_changer.name_alias0=SkyboxSwitcher
+module.sky_overlay_changer.name_alias1=Skybox Changer
 module.sky_overlay_changer.description=Allows you to change the skybox without leaving the world.
 module.sky_overlay_changer.setting.save_button.name=Saved Sky Name
 module.sky_overlay_changer.setting.save_button.description=The name that the current sky will save as.
@@ -2011,6 +2012,12 @@ module.sky_overlay_changer.setting.save_name.description=Saves the current skybo
 module.sky_overlay_changer.setting.open_skies_button.name=Open Skies Folder
 module.sky_overlay_changer.setting.open_skies_button.description=Open the folder containing all the skyboxes you have saved.
 module.sky_overlay_changer.setting.open_skies_button.button=Open
+module.sky_overlay_changer.setting.next_skybox_keybind.name=Next Skybox Key
+module.sky_overlay_changer.setting.next_skybox_keybind.description=Goes to the next skybox in the list.
+module.sky_overlay_changer.setting.shift_goes_backwards.name=Shift Goes Back
+module.sky_overlay_changer.setting.shift_goes_backwards.description=Pressing Shift then the next skybox key will go back in the list instead of next.
+module.sky_overlay_changer.setting.next_random_skybox_keybind.name=Random Skybox Key
+module.sky_overlay_changer.setting.next_random_skybox_keybind.description=Goes to a random skybox in the list.
 module.sky_overlay_changer.export_error.already_exists=A sky with this name already exists.
 module.sky_overlay_changer.export_error.could_not_read_texture=Failed to save the sky.
 

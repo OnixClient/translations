@@ -2530,10 +2530,10 @@ module.sea_pickle_counter.setting.show_sea_pickle_text.description=Shows the 'Se
 ## Totem Counter
 module.totem_counter.name=Totem Counter
 module.totem_counter.name_alias0=TotemCounter
-module.totem_counter.description=Displays the number of sea pickles you have.
+module.totem_counter.description=Displays the number of totems of undying you have.
 module.totem_counter.totem_text=Totems: %s
-module.totem_counter.setting.show_totem_text.name=Show Sea Pickle Text
-module.totem_counter.setting.show_totem_text.description=Shows the 'Sea Pickles: ' text before the count.
+module.totem_counter.setting.show_totem_text.name=Show Totems Text
+module.totem_counter.setting.show_totem_text.description=Shows the 'Totems: ' text before the count.
 
 
 ## Held Item Counter

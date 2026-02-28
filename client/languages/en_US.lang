@@ -1259,9 +1259,9 @@ module.environment_changer.setting.use_irl_time.description=Toggle usage of real
 module.environment_changer.setting.time.name=Time
 module.environment_changer.setting.time.description=Adjust the time value.
 module.environment_changer.setting.change_time_speed.name=Change Time Speed
-module.environment_changer.setting.change_time_speed.description=Lets you changes how fast the time goes in either directions.
-module.environment_changer.setting.time_speed_applies_to_client.name=Apply to Client Time
-module.environment_changer.setting.time_speed_applies_to_client.description=Applies this speed to the client's reading of the game time. This notably affects the clock module with in game time enabled, deciding if it respects your speed or shows the real one.
+module.environment_changer.setting.change_time_speed.description=Allows you to change how fast the time goes in-game.
+module.environment_changer.setting.time_speed_applies_to_client.name=Apply To Client Time
+module.environment_changer.setting.time_speed_applies_to_client.description=Applies the modified speed to the client's reading of the game time. This notably affects the clock module while in-game time is enabled.
 module.environment_changer.setting.time_speed.name=Time Speed
 module.environment_changer.setting.time_speed.description=The speed at which the time flows. You can right click the slider to set a specific value.
 

@@ -103,6 +103,8 @@ module.item_counter_base.setting.icon_on_the_right.name=Icon On The Right
 module.item_counter_base.setting.icon_on_the_right.description=Puts the icon on the right side of the text instead of the left side.
 module.item_counter_base.setting.mirror_icon.name=Mirror Icon
 module.item_counter_base.setting.mirror_icon.description=Flips the icon around.
+module.item_counter_base.setting.hide_creative_spectator.name=Hide In Creative Or Spectator
+module.item_counter_base.setting.hide_creative_spectator.description=Hides the module when in gamemode Creative or Spectator.
 
 
 module.module.setting.main_settings.name=Main Settings
@@ -2521,8 +2523,17 @@ module.sea_pickle_counter.name=Sea Pickle Counter
 module.sea_pickle_counter.name_alias0=SeaPickleCounter
 module.sea_pickle_counter.description=Displays the number of sea pickles you have.
 module.sea_pickle_counter.sea_pickle_text=Sea Pickles: %s
-module.sea_pickle_counter.setting.show_sea_pickle_text=Show Sea Pickle Text
-module.sea_pickle_counter.setting.hide_without_items=Hide When No Sea Pickles
+module.sea_pickle_counter.setting.show_sea_pickle_text.name=Show Sea Pickle Text
+module.sea_pickle_counter.setting.show_sea_pickle_text.description=Shows the 'Sea Pickles: ' text before the count.
+
+
+## Totem Counter
+module.totem_counter.name=Totem Counter
+module.totem_counter.name_alias0=TotemCounter
+module.totem_counter.description=Displays the number of sea pickles you have.
+module.totem_counter.totem_text=Totems: %s
+module.totem_counter.setting.show_totem_text.name=Show Sea Pickle Text
+module.totem_counter.setting.show_totem_text.description=Shows the 'Sea Pickles: ' text before the count.
 
 
 ## Held Item Counter

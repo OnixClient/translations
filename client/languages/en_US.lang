@@ -2537,7 +2537,7 @@ module.arrow_counter.setting.show_icon.name=Show Icon
 ## Sea Pickle Counter
 module.sea_pickle_counter.name=Sea Pickle Counter
 module.sea_pickle_counter.name_alias0=SeaPickleCounter
-module.sea_pickle_counter.description=Displays the number of sea pickles you have.
+module.sea_pickle_counter.description=Displays the number of Sea Pickles you have.
 module.sea_pickle_counter.sea_pickle_text=Sea Pickles: %s
 module.sea_pickle_counter.setting.show_sea_pickle_text.name=Show Sea Pickle Text
 module.sea_pickle_counter.setting.show_sea_pickle_text.description=Shows the 'Sea Pickles: ' text before the count.
@@ -2546,7 +2546,7 @@ module.sea_pickle_counter.setting.show_sea_pickle_text.description=Shows the 'Se
 ## Totem Counter
 module.totem_counter.name=Totem Counter
 module.totem_counter.name_alias0=TotemCounter
-module.totem_counter.description=Displays the number of totems of undying you have.
+module.totem_counter.description=Displays the number of Totems Of Undying you have.
 module.totem_counter.totem_text=Totems: %s
 module.totem_counter.setting.show_totem_text.name=Show Totems Text
 module.totem_counter.setting.show_totem_text.description=Shows the 'Totems: ' text before the count.

@@ -2998,6 +2998,8 @@ module.movable_actionbar.description=Allows you to customize the position of the
 ## Movable Chat Module
 module.movable_chat.name=Movable Chat
 module.movable_chat.name_alias0=MovableChat
+module.movable_chat.name_alias1=Bottom Chat
+module.movable_chat.name_alias2=BottomChat
 module.movable_chat.description=Enables chat customization and movement.
 module.movable_chat.setting.use_client_font.name=Use Client Font
 module.movable_chat.setting.use_client_font.description=Applies the client's font to the chat.

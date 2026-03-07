@@ -1175,7 +1175,6 @@ module.quick_controller_input.setting.left_sensitivity.description=How much forc
 module.quick_controller_input.setting.left_sensitivity.name=Left Trigger Sensitivty
 module.quick_controller_input.setting.right_sensitivity.description=How much force is required to trigger an input.
 module.quick_controller_input.setting.right_sensitivity.name=Right Trigger Sensitivty
-module.reach_display.name_alias0=ReachDisplay
 module.rear_view.name_alias0=RearView
 module.rear_view.setting.hide_hand.description=Hide the hand when the action is happening.
 module.rear_view.setting.hide_hand.name=Hide Hand

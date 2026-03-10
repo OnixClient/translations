@@ -1225,6 +1225,8 @@ module.custom_crosshair.name=Custom Crosshair
 module.custom_crosshair.name_alias0=Crosshair Editor
 module.custom_crosshair.name_alias1=Crosshair Modifier
 module.custom_crosshair.name_alias2=CustomCrosshair
+module.custom_crosshair.name_alias3=Aiming Point
+module.custom_crosshair.name_alias4=Aim Point
 module.custom_crosshair.description=Customise your crosshair to your heart's content.
 
 module.custom_crosshair.setting.open_crosshair_editor.name=Open Crosshair Editor

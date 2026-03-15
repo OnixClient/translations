@@ -1,5 +1,5 @@
-animation.smoothpearlduration.description=The fade effect for the opacity of movable titles.
-animation.smoothpearlduration.name=Movable Title Opacity Animation
+animation.smoothpearlduration.description=The animation between your position when getting teleported.
+animation.smoothpearlduration.name=Smooth Pearl Animation
 module.2d_items.name_alias0=2DItems
 module.animation_settings.name_alias0=AnimationSettings
 module.animation_settings.setting.reorderable_enum_setting_animation_speed.description=Multiplier of how quickly the reorderable settings entries should move back into place.

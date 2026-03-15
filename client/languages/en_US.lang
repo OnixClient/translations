@@ -337,6 +337,8 @@ animation.movabletitlesizeanimation.name=Movable Title Scaling Animation
 animation.movabletitlesizeanimation.description=The scaling animation for movable titles.
 animation.movabletitleopacityanimation.name=Movable Title Opacity Animation
 animation.movabletitleopacityanimation.description=The fade effect for the opacity of movable titles.
+animation.smoothpearlduration.name=Movable Title Opacity Animation
+animation.smoothpearlduration.description=The fade effect for the opacity of movable titles.
 
 ## Notifications
 notification.greet.normal.title=Onix Client is now injected! (%ss).

@@ -2110,7 +2110,7 @@ module.render_options.description=Gives you more rendering options.
 module.render_options.setting.render_distance_settings_category.name=Render Distance Settings
 module.render_options.setting.render_distance_settings_category.description=Settings for render distance settings.
 module.render_options.setting.render_distance.name=Render Distance
-module.render_options.setting.render_distance.description=Adjust the render distance.
+module.render_options.setting.render_distance.description=Adjust the render distance. You need to open settings or resize the game window for this value to apply.
 module.render_options.setting.change_render_distance.name=Change Render Distance
 module.render_options.setting.change_render_distance.description=Enable to change the render distance value.
 

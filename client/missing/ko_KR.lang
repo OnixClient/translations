@@ -467,6 +467,7 @@ module.shulker_box_display.name_alias0=ShulkerBoxDisplay
 module.shulker_box_display.name_alias1=ShulkerDisplay
 module.shulker_box_display.name_alias2=ShulkerPreview
 module.shulker_box_display.name_alias3=Shulker Preview
+module.shulker_box_display.name_alias4=Shulker Viewer
 module.skin_stealer.name_alias0=SkinStealer
 module.skin_stealer.notification.never_stolen.message=There is no stolen skin folder as you have yet to steal a skin!
 module.skin_stealer.notification.never_stolen.title=Never Stolen Any Skins!

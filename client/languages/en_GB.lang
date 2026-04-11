@@ -956,7 +956,7 @@ module.developer_options.setting.lua_autoreload_on_by_default.description=Automa
 ## Creative Tools
 module.creative_tools.name=Creative Tools
 module.creative_tools.name_alias0=CreativeTools
-module.creative_tools.description=Various tools to help with creative mode.\nNote: Only use this with permission if you are on someone else's world/server.
+module.creative_tools.description=Various tools to help with creative mode.\nNote: Don't use this to cheat without permission on someone else's world/server. Cheats must be enabled in the world and you have to be an Operator to use it.
 
 module.creative_tools.setting.block_reach_settings_category.name=Block Reach Settings
 module.creative_tools.setting.block_reach_settings_category.description=Settings to change the block reach settings.

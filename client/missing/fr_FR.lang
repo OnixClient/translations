@@ -550,7 +550,7 @@ module.global_settings.setting.revert_initial_ui_focus_experimental_ignore_chat.
 module.global_settings.setting.revert_initial_ui_focus_experimental.description=Makes it try its best to also select the correct button when you open a new screen. May result in unexpected behavior.
 module.global_settings.setting.revert_initial_ui_focus_experimental.name=Mouse Position Fix
 module.global_settings.setting.sensitivity_multiplier.description=A multiplier for your input sensitivity.
-module.global_settings.setting.sensitivity_multiplier.name=sensitivity Multiplier
+module.global_settings.setting.sensitivity_multiplier.name=Sensitivity Multiplier
 module.global_settings.setting.should_play_click_sound.description=Play a click sound when you interact with the Onix Client UI.
 module.global_settings.setting.should_play_click_sound.name=Play Click Sound
 module.global_settings.setting.should_play_notification_sound.description=Play a sound when you get a notification.

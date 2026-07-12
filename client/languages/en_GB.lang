@@ -3202,6 +3202,37 @@ module.movable_chat.setting.bottom_chat_height.description=Adjusts the height of
 
 
 
+## AFK Tools
+module.afk_tools.name=AFK Tools
+module.afk_tools.name_alias0=AFK
+module.afk_tools.name_alias1=Idle Tools
+module.afk_tools.name_alias2=Auto Idle
+module.afk_tools.name_alias3=Hostile Notification
+module.afk_tools.name_alias4=Background Framerate Adjuster
+module.afk_tools.description=Allows you to control AFK behaviour, when you are considered AFK.\nYou can lower the framerate, get notified when there are hostile mobs nearby and lower the game's volume.
+
+module.afk_tools.hostile_notification.title=Hostile Mob in Your Area!
+module.afk_tools.hostile_notification.body=A %s was spotted at %s blocks from you!
+
+module.afk_tools.setting.time_category.name=AFK Time Settings
+module.afk_tools.setting.time_category.description=Settings regarding the different times of AFK required to be considered AFK.
+module.afk_tools.setting.tab_out_afk_time.name=Tab-Out AFK Time
+module.afk_tools.setting.tab_out_afk_time.description=Seconds without window focus before going AFK.
+module.afk_tools.setting.no_input_afk_time.name=No-Input AFK Time
+module.afk_tools.setting.no_input_afk_time.description=Seconds without any input before going AFK.
+module.afk_tools.setting.limit_framerate.name=Limit Framerate
+module.afk_tools.setting.limit_framerate.description=Cap framerate to ~20-30 FPS while AFK to save resources.
+module.afk_tools.setting.notification_when_hostile_mob.name=Hostile Mob Notification
+module.afk_tools.setting.notification_when_hostile_mob.description=Send a Windows notification when a hostile mob is nearby while AFK.
+module.afk_tools.setting.consider_players_hostile.name=Consider Players Hostile
+module.afk_tools.setting.consider_players_hostile.description=Other players will be considered hostile and trigger a notification.
+module.afk_tools.setting.hostile_mob_distance.name=Hostile Mob Distance
+module.afk_tools.setting.hostile_mob_distance.description=The distance a mob has to be before a notification is triggered.
+module.afk_tools.setting.game_volume_multiplier.name=Game Volume Multiplier
+module.afk_tools.setting.game_volume_multiplier.description=Multiplier applied to game audio volume while AFK. 0 mutes, 1 is normal and 2 is louder if you... want that.
+
+
+
 ## Movable Bossbar Module
 module.movable_bossbar.name=Movable Bossbar
 module.movable_bossbar.name_alias0=MovableBossbar

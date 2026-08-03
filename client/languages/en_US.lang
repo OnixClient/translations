@@ -3463,6 +3463,11 @@ module.stopwatch.setting.start_stop_key.description=Key used to start or stop th
 module.stopwatch.setting.pause_unpause_key.name=Pause/Unpause Key
 module.stopwatch.setting.pause_unpause_key.description=Key used to pause or unpause the stopwatch.
 
+## Crystal Optimizer Module
+module.crystal_optimizer.name=Crystal Optimizer
+module.crystal_optimizer.description=This is a literal cheat but everyone has it, if you get banned using it, it's on you.\nAllows you to place another end crystal on the block where one was destroyed without waiting for the server to remove it, giving you a significant advantage against an opponent without it.
+
+
 ## Nametag Modifier
 module.nametag_modifier.name=Nametag Modifier
 module.nametag_modifier.name_alias0=NametagModifier

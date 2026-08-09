@@ -3464,6 +3464,14 @@ module.stopwatch.setting.pause_unpause_key.name=Pause/Unpause Key
 module.stopwatch.setting.pause_unpause_key.description=Key used to pause or unpause the stopwatch.
 module.stopwatch.setting.show_ms.name=Show Milliseconds
 module.stopwatch.setting.show_ms.description=Shows the milliseconds as well.
+module.stopwatch.setting.start_stop.name=Start or Stop Timer
+module.stopwatch.setting.start_stop.description=Lets you start or stop the timer from the UI instead of having to bind a key.
+module.stopwatch.setting.pause_resume.name=Pause or Resume Timer
+module.stopwatch.setting.pause_resume.description=Lets you pause or resume the timer from the UI instead of having to bind a key.
+module.stopwatch.button.start=Start
+module.stopwatch.button.stop=Stop
+module.stopwatch.button.pause=Pause
+module.stopwatch.button.resume=Resume
 
 
 

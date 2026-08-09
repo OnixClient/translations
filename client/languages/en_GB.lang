@@ -3482,11 +3482,11 @@ module.crystal_optimizer.description=This is a literal cheat but everyone has it
 
 ## Confirm Action Module
 module.confirm_action.name=Action Confirmation
-module.potion_hud.name_alias0=Confirm Actions
-module.potion_hud.name_alias1=Disconnect Confirm
-module.potion_hud.name_alias2=Confirm Disconnect
-module.potion_hud.name_alias3=Drop Confirm
-module.potion_hud.name_alias4=Confirm Drop 
+module.confirm_action.name_alias0=Confirm Actions
+module.confirm_action.name_alias1=Disconnect Confirm
+module.confirm_action.name_alias2=Confirm Disconnect
+module.confirm_action.name_alias3=Drop Confirm
+module.confirm_action.name_alias4=Confirm Drop 
 module.confirm_action.description=Requires you to do actions twice to confirm you intended to do them.
 module.confirm_action.setting.block_narrator_toggle.name=Block Narrator Keybind
 module.confirm_action.setting.block_narrator_toggle.description=Disables the Ctrl+B shortcut to toggle the narrator, avoiding the narrator jumpscares.

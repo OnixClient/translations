@@ -3851,6 +3851,10 @@ command.superflat.usage=§b%s
 command.screenshots.description=Opens the screenshots folder.
 command.screenshots.usage=§b%s
 
+## directory
+command.directory.description=Opens the Onix Client folder.
+command.directory.usage=§b%s
+
 ## seed
 command.seed.description=Displays the seed of the world.
 command.seed.usage=§b%s [clipboard(any text will make it copy)]

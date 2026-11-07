@@ -1,5 +1,9 @@
 animation.smoothpearlduration.description=The animation between your position when getting teleported.
 animation.smoothpearlduration.name=Smooth Pearl Animation
+command.lua.download_failed=Failed to download from that URL (%s).
+command.lua.dowwnload_success=Downloaded "%s" successfully. Lua will be reloaded for you.
+command.lua.help_download=<ScriptType> <url> Downloads a lua script from a URL.
+command.lua.no_filename=No file name was found from that URL.
 module.2d_items.name_alias0=2DItems
 module.afk_tools.description=Allows you to control AFK behavior, when you are considered AFK.\nYou can lower the framerate, get notified when there are hostile mobs nearby and lower the game's volume.
 module.afk_tools.hostile_notification.body=A %s was spotted at %s blocks from you!

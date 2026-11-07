@@ -3790,7 +3790,11 @@ command.lua.help_autoreloadnt=Stops reloading lua for you when a file changes.
 command.lua.help_autocomplete=Updates/Install the autocomplete and copy the command to open in vscode.
 command.lua.help_path=Opens the scripts folder.
 command.lua.help_directory=Opens the scripts folder.
+command.lua.help_download=<ScriptType> <url> Downloads a lua script from a URL.
 command.lua.help_cmd=Runs code in the Lua Command Module.
+command.lua.no_filename=No file name was found from that URL.
+command.lua.download_failed=Failed to download from that URL (%s).
+command.lua.dowwnload_success=Downloaded "%s" successfully. Lua will be reloaded for you.
 
 ## nbt
 command.nbt.description=Displays/Changes the NBT of the item in your hand.

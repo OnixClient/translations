@@ -1,5 +1,7 @@
 animation.smoothpearlduration.description=The animation between your position when getting teleported.
 animation.smoothpearlduration.name=Smooth Pearl Animation
+command.directory.description=Opens the Onix Client folder.
+command.directory.usage=§b%s
 command.lua.download_failed=Failed to download from that URL (%s).
 command.lua.dowwnload_success=Downloaded "%s" successfully. Lua will be reloaded for you.
 command.lua.help_download=<ScriptType> <url> Downloads a lua script from a URL.
